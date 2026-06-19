@@ -37,16 +37,23 @@
   .wrap{width:min(1240px,90vw);margin-inline:auto}
   .eyebrow{font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--green)}
 
-  /* ---------- NAV ---------- */
-  header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s ease,padding .4s ease;padding:20px 0;background:var(--slate)}
-  header.scrolled{background:var(--slate);padding:12px 0;box-shadow:0 2px 14px rgba(0,0,0,.25)}
-  .nav{display:flex;align-items:center;justify-content:space-between}
+  /* ---------- ANNOUNCEMENT + NAV ---------- */
+  header{position:fixed;top:0;left:0;right:0;z-index:50;transition:background .4s ease;background:var(--slate)}
+  header.scrolled{box-shadow:0 2px 14px rgba(0,0,0,.25)}
+  .announce{background:var(--green);color:#fff;overflow:hidden;padding:14px 0;position:relative;border-bottom:1px solid rgba(0,0,0,.12)}
+  .announce .marquee{display:inline-flex;flex-wrap:nowrap;white-space:nowrap;will-change:transform;animation:marquee 32s linear infinite}
+  .announce:hover .marquee{animation-play-state:paused}
+  .announce .msg{padding:0 3.5rem;font-family:var(--sans);font-size:1.02rem;font-weight:600;letter-spacing:.02em}
+  .announce .msg a{color:#fff;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+  @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  @media(prefers-reduced-motion:reduce){.announce .marquee{animation:none;white-space:normal;justify-content:center;text-align:center}.announce .msg:nth-child(2){display:none}}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:18px 0;transition:padding .4s ease}
+  header.scrolled .nav{padding:11px 0}
   .nav .logo img{height:42px;width:auto;transition:height .4s ease}
   header.scrolled .nav .logo img{height:34px}
   .nav ul{display:flex;gap:42px;list-style:none;align-items:center}
   .nav ul a{font-family:var(--disp);font-weight:400;font-size:.92rem;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.92);position:relative;padding:4px 0;transition:color .25s ease}
   .nav ul a:hover{color:var(--green)}
-  .nav .srch{color:rgba(255,255,255,.92);font-size:1rem}
   .burger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:0}
   .burger span{width:26px;height:2px;background:#fff;display:block}
 
@@ -54,7 +61,7 @@
   .hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;
     background:
       linear-gradient(180deg,rgba(31,34,37,.78) 0%,rgba(31,34,37,.55) 35%,rgba(31,34,37,.72) 100%),
-      url("https://letsema.co.za/wp-content/uploads/2018/09/drumlayoutreal.jpg") center/cover no-repeat,
+      url("images/drum-hero.jpg") center/cover no-repeat,
       #222528;}
   .hero::after{content:"";position:absolute;inset:0;opacity:.10;mix-blend-mode:overlay;pointer-events:none;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.65' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
@@ -129,7 +136,7 @@
   /* venda drum callout */
   .drum{margin-top:64px;background:
       linear-gradient(180deg,rgba(31,34,37,.82),rgba(31,34,37,.88)),
-      url("https://letsema.co.za/wp-content/uploads/2018/09/drumlayoutreal.jpg") center/cover no-repeat,
+      url("images/drum-hero.jpg") center/cover no-repeat,
       var(--slate);padding:56px;color:#fff;position:relative;overflow:hidden}
   .drum::after{content:"";position:absolute;inset:0;opacity:.06;mix-blend-mode:overlay;pointer-events:none;
     background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n2'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.6' numOctaves='4'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n2)'/%3E%3C/svg%3E");}
@@ -228,12 +235,18 @@
 <body>
 
 <header id="hdr">
+  <div class="announce">
+    <div class="marquee">
+      <span class="msg">We are pleased to announce that, as of 1 July 2026, Letsema Consulting and Advisory will be joining EY South Africa's Business Consulting. For more information, visit <a href="#">&lt;&lt;link&gt;&gt;</a></span>
+      <span class="msg" aria-hidden="true">We are pleased to announce that, as of 1 July 2026, Letsema Consulting and Advisory will be joining EY South Africa's Business Consulting. For more information, visit <a href="#">&lt;&lt;link&gt;&gt;</a></span>
+    </div>
+  </div>
   <div class="wrap nav">
-    <a href="#top" class="logo"><img src="https://letsema.co.za/wp-content/uploads/2022/06/LETSEMA_LOGO_WHITE.png" alt="Letsema"></a>
+    <a href="#top" class="logo"><img src="images/letsema-logo-white.png" alt="Letsema"></a>
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#investments">Investments</a></li>
-      <li><a href="https://cf.letsema.co.za/">Corporate Finance</a></li>
+      <li><a href="https://cf.letsema.co.za/" target="_blank" rel="noopener">Corporate Finance</a></li>
       <li><a href="#foundation">Foundation</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -246,7 +259,7 @@
   <div class="wrap">
     <span class="eyebrow">Established 1996 &nbsp;·&nbsp; Johannesburg, South Africa</span>
     <h1>Coming together to build for the <em>long term</em>.</h1>
-    <p class="lead">Letsema is a black-owned, values-driven investment group founded in South Africa in 1996. We build and hold businesses through long-term partnership. Through the Letsema Foundation, we invest in the ideas and leaders that a good society needs. Our founding conviction is unchanged: business is a catalyst for positive social change.</p>
+    <p class="lead">Letsema is a black-owned, values-driven investment group founded in South Africa in 1996. We build, operate, and hold businesses through long-term partnership. Through the Letsema Foundation, we invest in the ideas and leaders that a good society needs. Our founding conviction is unchanged: business is a catalyst for positive social change.</p>
     <div class="cta-row">
       <a href="#investments" class="btn btn-gold">Our investments</a>
       <a href="#about" class="btn btn-ghost">The Letsema story</a>
@@ -319,44 +332,6 @@
   </div>
 </section>
 
-<!-- ================= LEADERSHIP ================= -->
-<section class="bg-paper">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <div class="rule"></div>
-      <span class="eyebrow">Leadership</span>
-      <h2>Our <em>leadership</em>.</h2>
-    </div>
-    <div class="people reveal">
-      <div class="person">
-        <div class="ph"><img src="https://letsema.co.za/wp-content/uploads/2021/06/Isaac_May21-570x570.jpg" alt="Isaac Shongwe"></div>
-        <h4>Isaac Shongwe</h4>
-        <div class="role">Chairman &amp; Founder</div>
-      </div>
-      <div class="person">
-        <div class="ph"><img src="https://letsema.co.za/wp-content/uploads/2015/02/Screen-Shot-2018-10-10-at-09.43.44-570x570.png" alt="Derek Thomas"></div>
-        <h4>Derek Thomas</h4>
-        <div class="role">Group CEO</div>
-      </div>
-      <div class="person">
-        <div class="ph"><img src="https://letsema.co.za/wp-content/uploads/2014/10/luke_edited-570x570.jpg" alt="Luke McLachlan"></div>
-        <h4>Luke McLachlan</h4>
-        <div class="role">Group Executive: Strategy</div>
-      </div>
-      <div class="person">
-        <div class="ph"><img src="https://letsema.co.za/wp-content/uploads/2015/02/keith-2_edited-570x570.jpg" alt="Keith van Niekerk"></div>
-        <h4>Keith van Niekerk</h4>
-        <div class="role">Group Executive: Investments</div>
-      </div>
-      <div class="person">
-        <div class="ph"><img src="https://letsema.co.za/wp-content/uploads/2019/03/katlego-3_edited-1024x1024-570x570.jpg" alt="Katlego Tlale"></div>
-        <h4>Katlego Tlale</h4>
-        <div class="role">Chief Financial Officer</div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- ================= ORIGIN STORY ================= -->
 <section class="bg-bone">
   <div class="wrap">
@@ -374,6 +349,8 @@
       <div class="tl"><div class="yr">2005 to 2012</div><p>Letsema acquires a stake in Barloworld's logistics business and a controlling interest in the former Sasol subsidiary Cirebelle. Isaac Shongwe goes on to lead Barloworld Logistics.</p></div>
       <div class="tl"><div class="yr">2013 to 2017</div><p>The group builds its long-term industrial portfolio, acquiring a significant stake in the sawmilling and forestry business Normandien Farms and a majority stake in the industrial workwear company ServWorx.</p></div>
       <div class="tl"><div class="yr">2018</div><p>Letsema acquires a majority stake in the logistics advisory and technology firm Transnova, and continues to deepen its investment platform and its Foundation work under one shared purpose.</p></div>
+      <div class="tl"><div class="yr">2022</div><p>The Letsure Group, an independent black-owned short-term insurance platform under Letsema Holdings, steps up its activities and grows the group's footprint in insurance.</p></div>
+      <div class="tl"><div class="yr">2023</div><p>Letsema exits its long-held interest in Cirebelle and acquires Marlyn Chemicals, sharpening the portfolio's focus on mining and water-treatment chemicals.</p></div>
       <div class="tl"><div class="yr">2026</div><p>Letsema Holdings divests from its consulting and advisory business to focus on the insurance and mining verticals.</p></div>
       <div class="tl-arrow" aria-hidden="true"></div>
     </div>
@@ -387,7 +364,7 @@
       <div class="rule"></div>
       <span class="eyebrow">Investments</span>
       <h2>Values-driven investment for the <em>long term</em>.</h2>
-      <p class="intro">We share the burden of growing South Africa. We partner with exceptional businesses and people that have an outsized impact on the economy, create jobs, make things and have the internal excellence to build scalable, growing enterprises.</p>
+      <p class="intro">We share the burden of growing South Africa. We partner with, and operate, exceptional businesses and people that have an outsized impact on the economy, create jobs, make things and have the internal excellence to build scalable, growing enterprises.</p>
     </div>
   </div>
 </section>
@@ -400,7 +377,7 @@
     </div>
     <div class="reveal" style="display:grid;grid-template-columns:1fr 1.3fr;gap:40px;margin-top:18px;align-items:start">
       <p class="big">Institutional capability, brought to every partnership.</p>
-      <p style="color:rgba(243,238,228,.84);font-size:1.08rem">What differentiates Letsema is the depth of institutional capability we bring to every partnership. We are an experienced investment team that has built and held businesses across multiple sectors for nearly thirty years. Our operating partners gain access to that experience, those networks and that track record as active, committed co-investors who only form partnerships where we can add real value.</p>
+      <p style="color:rgba(243,238,228,.84);font-size:1.08rem">What differentiates Letsema is the depth of institutional capability we bring to every partnership. We are an experienced investment team that has built, operated, and held businesses across multiple sectors for nearly thirty years. Our operating partners gain access to that experience, those networks and that track record as active, committed co-investors who only form partnerships where we can add real value.</p>
     </div>
   </div>
 </section>
@@ -492,7 +469,7 @@
       </div>
       <div class="cinfo">
         <h4>Investments</h4>
-        <p>For investment partnership enquiries, reach the Letsema investments team directly.</p>
+        <p>For investment partnership enquiries, email <a href="mailto:investments@letsema.co.za" style="color:var(--green)">investments@letsema.co.za</a>.</p>
         <h4>The Foundation</h4>
         <p>For programme partnership and Foundation enquiries, please complete the contact form.</p>
       </div>
@@ -503,16 +480,16 @@
 <footer>
   <div class="wrap">
     <div class="foot">
-      <img src="https://letsema.co.za/wp-content/uploads/2022/06/LETSEMA_LOGO_WHITE.png" alt="Letsema">
+      <img src="images/letsema-logo-white.png" alt="Letsema">
       <div class="links">
         <a href="#about">About</a>
         <a href="#investments">Investments</a>
-        <a href="https://cf.letsema.co.za/">Corporate Finance</a>
+        <a href="https://cf.letsema.co.za/" target="_blank" rel="noopener">Corporate Finance</a>
         <a href="#foundation">Foundation</a>
         <a href="#contact">Contact</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">PAIA Compliance</a>
-        <a href="#">Terms and Conditions</a>
+        <a href="https://letsema.co.za/privacy-policy/">Privacy Policy</a>
+        <a href="https://letsema.co.za/paia-manual/">PAIA Compliance</a>
+        <a href="https://letsema.co.za/terms-and-conditions/">Terms and Conditions</a>
       </div>
       <div class="copy">Copyright 2026 Letsema. All rights reserved.</div>
     </div>
