@@ -72,4 +72,5 @@ Nothing else in the bid can be finished until these land.
 3. Name the team and collect CVs. Criterion 3.1 cannot be scored without them and it is worth 15 marks.
 4. Settle the consortium question on destination branding and protected-area experience, which are the two of the eight required skills a mainstream consulting credential is least likely to satisfy.
 5. Get the rate discount approved and the tax treatment confirmed.
-6. Work the checkpoints in `qa/checkpoints_and_qa.md`, correcting them first, since they are a reconstruction of a brief section that was never supplied.
+6. Rebalance the five-page body once the credentials land. As it stands roughly three of the five pages serve criteria worth 10 marks and two serve criteria worth 60, because the credential sections are still placeholders. That split is defensible only while they are empty. When the assignment sheets, CVs and references arrive, compress sections 1 to 5 and give the space to Parts 2 and 3.
+7. Work the checkpoints in `qa/checkpoints_and_qa.md`, correcting them first, since they are a reconstruction of a brief section that was never supplied.

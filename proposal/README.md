@@ -67,6 +67,16 @@ keeps the entire body, Parts 1 to 3, within five pages, with all evidence in
 annexes. That reading cannot lose points under either interpretation. It is
 also logged as a clarification question for CI.
 
+## A note on the page budget
+
+As it stands, roughly three of the five body pages serve criteria worth 10
+marks and two serve criteria worth 60. That is the right way round only while
+the credential sections are placeholders. When the assignment sheets, CVs and
+references arrive they will need the room, and sections 1 to 5 should be
+compressed to give it to them. The head start at section 2 and the hypotheses
+at section 4 do double duty as evidence for criterion 1.2, which is why they
+earn their space now, but neither is a substitute for a filled Part 3.
+
 ## Placeholders and what is missing
 
 Anything the inputs do not supply is marked `[[TO CONFIRM: what is needed]]`
