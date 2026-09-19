@@ -397,6 +397,138 @@ def check_arithmetic() -> None:
         not re.search(r"(?<![A-Z])(?:R\d|ZAR|EUR|€|£)", md), True,
     )
 
+    # Each payment amount must equal its stated percentage of the total.
+    sched_rows = re.findall(
+        r"\|([^|]+)\|[^|]*\|[^|]*\|\s*\**(\d{1,3})%\**\s*\|\s*\**([\d,]+)\**\s*\|",
+        sched_md,
+    )
+    mismatches = []
+    for label, pct, usd in sched_rows:
+        if label.strip().lower().lstrip("*").startswith("total"):
+            continue
+        expected = BUDGET_CEILING * int(pct) / 100
+        actual = parse_money(usd)
+        if actual is not None and abs(actual - expected) > 0.51:
+            mismatches.append(f"{label.strip()}: {pct}% of total is {expected:,.0f}, shown {actual:,.0f}")
+    record(
+        "ARI-06", "ARITHMETIC",
+        f"Each payment equals its stated share of the total ({len(sched_rows)} rows)",
+        not mismatches, True, "; ".join(mismatches[:4]),
+    )
+
+    # Day counts must reconcile between the fee table and the effort split.
+    day_totals = [
+        parse_money(m) for m in
+        re.findall(r"\|\s*\*\*Total[^|]*\*\*\s*\|\s*\**(\d+)\**\s*\|", md)
+    ]
+    day_totals += [
+        parse_money(m) for m in
+        re.findall(r"\|\s*\*\*Total\*\*\s*\|\s*\|\s*\**(\d+)\**\s*\|", md)
+    ]
+    day_totals = [d for d in day_totals if d and d < 1000]
+    record(
+        "ARI-07", "ARITHMETIC",
+        "Day counts reconcile across the fee and effort tables",
+        len(set(day_totals)) <= 1 if day_totals else False, True,
+        f"found {sorted(set(day_totals))}",
+    )
+
+
+# -------------------------------------------------------------- consistency ---
+
+SCORED_CRITERIA = ["1.1", "1.2", "2.1", "2.2", "2.4", "3.1"]
+
+
+def check_consistency() -> None:
+    if not (TECH_MD.exists() and COST_MD.exists()):
+        return
+    tech = TECH_MD.read_text(encoding="utf-8")
+    cost = COST_MD.read_text(encoding="utf-8")
+
+    # Every annex referenced in the body must exist as a heading.
+    referenced = set(re.findall(r"\bAnnex ([A-F])\b", tech))
+    defined = set(re.findall(r"^##\s+Annex ([A-F])\b", tech, re.M))
+    missing = sorted(referenced - defined)
+    record(
+        "CON-01", "CONSISTENCY",
+        f"Every annex cross-reference resolves ({len(defined)} annexes defined)",
+        not missing, True, f"referenced but not defined: {missing}",
+    )
+
+    # The budget narrative must explain every direct cost line.
+    lines = re.findall(r"^\| ([A-Z][^|]{6,70}?) \| (?:Purchase|Word|Interview|Hour) \|", cost, re.M)
+    narrative = cost[cost.index("## 6. Budget narrative"):] if "## 6. Budget narrative" in cost else ""
+    unexplained = [l.strip() for l in lines if l.strip().split(",")[0][:24] not in narrative]
+    record(
+        "CON-02", "CONSISTENCY",
+        f"Budget narrative explains every direct cost line ({len(lines)} lines)",
+        not unexplained, True, "; ".join(unexplained[:3]),
+    )
+
+    # Deliverable weeks must agree between the two documents.
+    tech_weeks = set(re.findall(r"\(week (\d+)\)", tech))
+    cost_weeks = set(re.findall(r"^\| (?:Inception report|Draft [^|]+|Final report[^|]*) \| (\d+) \|", cost, re.M))
+    record(
+        "CON-03", "CONSISTENCY",
+        "Deliverable weeks agree across both documents",
+        bool(tech_weeks) and tech_weeks == cost_weeks, True,
+        f"technical {sorted(tech_weeks)} vs cost {sorted(cost_weeks)}",
+    )
+
+    cm = QA / "compliance_matrix.md"
+    if cm.exists():
+        text = cm.read_text(encoding="utf-8")
+
+        # Every location the matrix points at must be a heading that exists.
+        tech_sections = set(re.findall(r"^###\s+(\d+)\.", tech, re.M))
+        tech_annexes = set(re.findall(r"^##\s+Annex ([A-Z])\b", tech, re.M))
+        cost_sections = set(re.findall(r"^##\s+(\d+)\.", cost, re.M))
+        cost_annexes = set(re.findall(r"^##\s+Annex ([A-Z])\b", cost, re.M))
+
+        dangling = []
+        for row in re.findall(r"^\|\s*(C-\d+)\s*\|[^|]*\|[^|]*\|([^|]*)\|", text, re.M):
+            ident, where = row
+            for doc, secs, annexes in (
+                ("Technical Proposal", tech_sections, tech_annexes),
+                ("Cost Proposal", cost_sections, cost_annexes),
+            ):
+                for seg in re.findall(rf"{doc}[^;]*", where):
+                    for n in re.findall(r"sections? ((?:\d+(?:,| to | and )?\s*)+)", seg):
+                        for num in re.findall(r"\d+", n):
+                            if num not in secs:
+                                dangling.append(f"{ident}: {doc} section {num}")
+                    for a in re.findall(r"Annex ([A-Z])\b", seg):
+                        if a not in annexes:
+                            dangling.append(f"{ident}: {doc} Annex {a}")
+        record(
+            "CON-06", "CONSISTENCY",
+            "Every compliance-matrix location resolves to a real heading",
+            not dangling, True, "; ".join(sorted(set(dangling))[:5]),
+        )
+
+        # Every scored criterion must appear in the matrix.
+        absent = [c for c in SCORED_CRITERIA if f"criterion {c}" not in text.lower()]
+        record(
+            "CON-04", "CONSISTENCY",
+            "Every scored evaluation criterion appears in the compliance matrix",
+            not absent, True, f"missing {absent}",
+        )
+
+    # The open-items log must account for every distinct placeholder.
+    oi = QA / "open_items.md"
+    if oi.exists():
+        placeholders = set()
+        for src in (tech, cost):
+            placeholders |= set(re.findall(r"\[\[TO CONFIRM:\s*([^\]]{10,60})", src))
+        log = oi.read_text(encoding="utf-8")
+        unlogged = [p for p in placeholders if p.split(",")[0].strip()[:28].lower() not in log.lower()]
+        record(
+            "CON-05", "CONSISTENCY",
+            f"Open-items log accounts for the placeholders ({len(placeholders)} distinct)",
+            len(unlogged) <= len(placeholders) * 0.35, False,
+            f"{len(unlogged)} not obviously matched",
+        )
+
 
 # ------------------------------------------------------------------ build ---
 
@@ -432,7 +564,7 @@ def check_build() -> None:
     cm = QA / "compliance_matrix.md"
     if cm.exists():
         text = cm.read_text(encoding="utf-8")
-        rows = re.findall(r"^\|\s*(C-\d+)\s*\|", text, re.M)
+        rows = sorted(set(re.findall(r"^\|\s*(C-\d+)\s*\|", text, re.M)))
         unmapped = re.findall(r"^\|\s*C-\d+\s*\|[^|]*\|[^|]*\|[^|]*\|\s*(?:TBC|TBD|\?|)\s*\|", text, re.M)
         record(
             "BLD-04", "BUILD",
@@ -451,6 +583,7 @@ def check_build() -> None:
 def main() -> None:
     check_submission()
     check_arithmetic()
+    check_consistency()
     check_build()
 
     width = max(len(r.check) for r in results) + 2

@@ -102,7 +102,7 @@ The RFP requires an explanation of the basis of every cost element. Each line is
 
 **Market reports, datasets and database access, US$1,400.** Four targeted purchases at US$350 each, against four named evidence gaps the benchmark scan has already identified: commercial terms for the hosted-collection option, published outcome data on transfrontier destination brands, conservancy association cost-per-site data, and the European Commission's 2019 EDEN evaluation study. Single-user commercial licence pricing.
 
-**Specialist translation, US$1,000.** Ten thousand words at US$0.10 a word, the standard commercial rate for professional document translation. The primary sources for several benchmarks are not published in English. Alpine Pearls documentation is German and Italian; Slovenia Green is Slovene; and the Lusophone and Francophone jurisdictions among CI's priority areas will require Portuguese and French.
+**Specialist translation of non-English primary sources, US$1,000.** Ten thousand words at US$0.10 a word, the standard commercial rate for professional document translation. The primary sources for several benchmarks are not published in English. Alpine Pearls documentation is German and Italian; Slovenia Green is Slovene; and the Lusophone and Francophone jurisdictions among CI's priority areas will require Portuguese and French.
 
 **Interview transcription, US$560.** Sixteen interviews at US$35 each, machine transcription with human correction. Sixteen is the target interview count, with twelve as the floor.
 
