@@ -9,6 +9,8 @@ in work/analysis/. Re-run after editing the JSON to regenerate both.
 from __future__ import annotations
 
 import json
+import subprocess
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -247,6 +249,13 @@ def open_items() -> None:
 
 if __name__ == "__main__":
     QA.mkdir(exist_ok=True)
+    # Collecting from the workflow journal rewrites compliance.json from the
+    # agent's raw output, which drops the location remap. Re-apply it first;
+    # the remap is idempotent so running it here is always safe.
+    subprocess.run(
+        [sys.executable, str(Path(__file__).with_name("remap_locations.py"))],
+        check=True, capture_output=True,
+    )
     compliance_matrix()
     open_items()
     checkpoints()

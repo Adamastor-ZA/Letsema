@@ -43,13 +43,17 @@ class Result:
     passed: bool
     hard: bool = True
     detail: str = ""
+    # A blocked check is not a defect. It fails only because an input the
+    # response needs has not been supplied, and no amount of editing will
+    # clear it. Reported separately so the two never get confused.
+    blocked: bool = False
 
 
 results: list[Result] = []
 
 
-def record(ident, group, check, passed, hard=True, detail=""):
-    results.append(Result(ident, group, check, passed, hard, detail))
+def record(ident, group, check, passed, hard=True, detail="", blocked=False):
+    results.append(Result(ident, group, check, passed, hard, detail, blocked))
 
 
 def pdf_text(path: Path) -> str:
@@ -188,7 +192,9 @@ def check_submission() -> None:
         record(
             f"SUB-04/{label}", "SUBMISSION",
             f"{label}: no unresolved placeholders",
-            not left, True, f"{len(left)} remaining" if left else "",
+            not left, True,
+            f"{len(left)} awaiting input; see qa/open_items.md" if left else "",
+            blocked=bool(left),
         )
 
     # The five-page cap is measured on the body, before the first annex.
@@ -588,32 +594,41 @@ def main() -> None:
 
     width = max(len(r.check) for r in results) + 2
     current = None
-    hard_failures = 0
-    soft_failures = 0
+    defects = 0
+    blocked = 0
+    warnings = 0
 
     for r in results:
         if r.group != current:
             current = r.group
             print(f"\n{current}")
-            print("-" * (width + 22))
-        mark = "PASS" if r.passed else ("FAIL" if r.hard else "WARN")
-        if not r.passed:
-            if r.hard:
-                hard_failures += 1
-            else:
-                soft_failures += 1
+            print("-" * (width + 24))
+        if r.passed:
+            mark = "PASS"
+        elif r.blocked:
+            mark = "WAIT"
+            blocked += 1
+        elif r.hard:
+            mark = "FAIL"
+            defects += 1
+        else:
+            mark = "WARN"
+            warnings += 1
         detail = f"  {r.detail}" if r.detail and not r.passed else ""
         print(f"  [{mark}] {r.ident:<18} {r.check:<{width}}{detail}")
 
     total = len(results)
     passed = sum(1 for r in results if r.passed)
-    print(f"\n{'=' * (width + 24)}")
-    print(f"  {passed}/{total} checks passed"
-          f"  |  {hard_failures} hard failure(s)"
-          f"  |  {soft_failures} warning(s)")
-    print(f"{'=' * (width + 24)}\n")
+    rule = "=" * (width + 26)
+    print(f"\n{rule}")
+    print(f"  {passed}/{total} passed   {defects} defect(s)   "
+          f"{blocked} blocked on missing input   {warnings} warning(s)")
+    if blocked and not defects:
+        print("  No defects. The response is not submittable until the blocked")
+        print("  items in qa/open_items.md are supplied by the EY bid team.")
+    print(f"{rule}\n")
 
-    sys.exit(1 if hard_failures else 0)
+    sys.exit(1 if (defects or blocked) else 0)
 
 
 if __name__ == "__main__":
