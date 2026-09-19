@@ -4,8 +4,8 @@
   {
    "id": "CP-1",
    "name": "Scope, compliance and bid shape confirmed",
-   "whatIsReviewed": "The read-out of RFP 0032026 against EY's capacity to deliver inside US$40,000 over 12 weeks; the compliance matrix (currently 92 rows) as the single source of truth for what must be answered; the consolidated list of genuine RFP ambiguities to put to CI; the first cut of the open-items log; and the proposed document architecture, being two separate PDFs, a five-page Part 1 body and six annexes.",
-   "decision": "Michael decides bid or no bid at the US$40,000 ceiling, fixes the document architecture, approves or amends the compliance matrix as the controlling checklist, and signs off the single consolidated clarification request to CI. He rules specifically on whether EY reads the five-page cap as body-only with unlimited annexes, and whether that reading is stated openly in the submission or put to CI first.",
+   "whatIsReviewed": "The read-out of RFP 0032026 against EY's capacity to deliver inside US$40,000 over 12 weeks; the compliance matrix (currently 92 rows) as the single source of truth for what must be answered; the consolidated list of genuine RFP ambiguities to put to CI; the first cut of the open-items log; and the proposed document architecture, being two separate PDFs, a five-page Part 1 body and six annexes. Plus the capability position against the eight required skills, which drives the prime-or-consortium call.",
+   "decision": "Michael decides bid or no bid at the US$40,000 ceiling, fixes the document architecture, approves or amends the compliance matrix as the controlling checklist, and signs off the single consolidated clarification request to CI. He rules specifically on whether EY reads the five-page cap as body-only with unlimited annexes, and whether that reading is stated openly in the submission or put to CI first. He also decides two things the reconstruction originally missed: whether EY bids as prime or in consortium, which RFP section 3 expressly permits and which the capability review at Annex C feeds; and whether EY proceeds without a confirmed submission deadline, since the RFP copy held contains none. If it proceeds, the deadline is recorded as accepted risk and CP-2 to CP-6 take provisional dates until CI answers.",
    "blocksWhat": "No proposal prose is drafted. No pricing work starts. The clarification request cannot go to CI."
   },
   {
@@ -78,13 +78,13 @@
   {
    "id": "QA-06",
    "check": "Every cross-reference resolves to something that exists.",
-   "how": "Collect all headings from each Markdown source, collect every reference of the form 'Annex X' or 'section N', then assert each reference matches a heading in the same document. Extend to the compliance matrix mapping column. This check fails today: the matrix sends the Offeror Representation to Annex D, while Annex D is the detailed work plan and risk register.",
+   "how": "Collect all headings from each Markdown source, collect every reference of the form 'Annex X' or 'section N', then assert each reference matches a heading in the same document. Extend to the compliance matrix mapping column. Implemented as CON-01 and CON-06; both pass on the current build.",
    "automatable": "yes"
   },
   {
    "id": "QA-07",
    "check": "No pricing appears anywhere in the technical proposal.",
-   "how": "Regex the technical PDF text for currency figures, day rates and fee language. CI evaluates the financial proposal separately and only for technically qualified bidders, so price leaking into the technical file is a live compliance risk. Not currently checked.",
+   "how": "Search the technical PDF for EY pricing constructs, being day rates, fee lines, totals and discounts for this assignment. Benchmark figures quoted as evidence are permitted, and the RFP's own requirement for the scope and magnitude of past assignments depends on them. CI evaluates the financial proposal separately and only for technically qualified bidders, so price leaking into the technical file is a live compliance risk. Not currently checked.",
    "automatable": "yes"
   },
   {
@@ -114,7 +114,7 @@
   {
    "id": "QA-12",
    "check": "The all-inclusive total is exactly US$40,000 and no figure anywhere exceeds the ceiling.",
-   "how": "scripts/qa.py ARI-02 flags any figure above the ceiling. Add an equality assertion that the grand total equals 40000, since the RFP sets a maximum rather than a target and a total below it must be deliberate rather than an arithmetic slip.",
+   "how": "scripts/qa.py ARI-02 flags any figure above the ceiling. Add a hard failure on any total above 40,000, plus a warning on any deviation from the price approved at CP-5, since the RFP sets a maximum rather than a target and a total below it must be deliberate rather than an arithmetic slip.",
    "automatable": "yes"
   },
   {
@@ -132,13 +132,13 @@
   {
    "id": "QA-15",
    "check": "Day counts reconcile across the fee table, the effort-by-deliverable table and the effort-by-week annex.",
-   "how": "Sum the Days column in each of the three tables and assert all three equal the headline figure, currently 81 days. Also assert days multiplied by the stated blended rate lands within rounding of the professional fees line.",
+   "how": "Sum the Days column in each of the three tables and assert they agree with the fee table's total rather than with a hard-coded number, so the check survives a change to the effort model. Implemented as ARI-07.",
    "automatable": "yes"
   },
   {
    "id": "QA-16",
    "check": "All cost information is expressed in USD and no other currency appears in the cost proposal.",
-   "how": "scripts/qa.py ARI-05 searches the cost source for ZAR, rand figures, EUR, euro and pound symbols. The check must stay scoped to the cost proposal, because the benchmark annex in the technical document legitimately quotes rand and Kenyan shilling figures from published sources.",
+   "how": "scripts/qa.py ARI-05 searches the cost source for ZAR, rand figures, EUR, euro and pound symbols. The check is scoped to the cost proposal because the RFP's USD rule applies to cost information. Benchmark figures elsewhere may carry other currencies from published sources.",
    "automatable": "yes"
   },
   {
@@ -212,6 +212,24 @@
    "check": "Partner read-through: the proposal argues a case rather than reciting compliance.",
    "how": "Michael reads both PDFs end to end at CP-6. No script substitutes for this. The specific test is whether Part 1 reads as EY's own view of the brand problem and its answer, with the 31-benchmark scan visible as work already done rather than as a promise, and whether a CI evaluator could find the evidence for each scored criterion without hunting.",
    "automatable": "no"
+  },
+  {
+   "id": "QA-29",
+   "check": "All seven of CI's stated design aims are addressed in the technical proposal.",
+   "how": "Assert each of the seven aims appears in the option-design method or the Annex F rating matrix. Implemented as INV-03.",
+   "automatable": "yes"
+  },
+  {
+   "id": "QA-30",
+   "check": "All eight minimum skills from RFP section 3 are addressed with evidence or a placeholder.",
+   "how": "Assert each of the eight skills appears in Annex C with either evidence or a [[TO CONFIRM]]. Implemented as INV-04.",
+   "automatable": "yes"
+  },
+  {
+   "id": "QA-31",
+   "check": "No EY credential, client reference, staff name or rate is asserted rather than placeheld.",
+   "how": "Assert the only person named in the staffing and reference tables is Michael Harris, and that no EY credential or commercial claim appears without a placeholder beside it. Implemented as INV-01 and INV-02.",
+   "automatable": "yes"
   }
  ],
  "openItemsSchema": [

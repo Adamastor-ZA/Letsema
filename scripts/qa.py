@@ -456,6 +456,40 @@ def check_arithmetic() -> None:
 
 SCORED_CRITERIA = ["1.1", "1.2", "2.1", "2.2", "2.4", "3.1"]
 
+# The only person named anywhere in either document. Everyone else is a
+# placeholder until the EY bid team supplies them.
+PERMITTED_NAMES = {"Michael Harris"}
+
+# Organisations and places that legitimately sit in the same cell as a name.
+# Stripped before the name scan, so "Michael Harris, Partner, EY Business
+# Consulting, South Africa" does not read as three people.
+PERMITTED_AFFILIATIONS = [
+    "EY Business Consulting", "Business Consulting", "South Africa",
+    "Conservation International",
+]
+
+# Phrases that would assert an EY credential, engagement or commercial fact.
+# Each must sit next to a placeholder or it is an invented claim.
+CREDENTIAL_ASSERTIONS = [
+    r"\bEY has (?:delivered|advised|led|completed|worked)",
+    r"\bwe have (?:delivered|advised|led|completed) ",
+    r"\bour client(?:s)?\b",
+    r"\bEY(?:'s)? standard (?:rate|commercial)",
+    r"\bEY has been (?:appointed|engaged|retained)",
+]
+
+# CI's seven stated design aims, and the eight minimum skills from RFP
+# section 3. A keyword each, sufficient to prove the topic is present.
+DESIGN_AIMS = [
+    "financially sustainable", "aggregated", "conservation-led", "data collection",
+    "segment", "multi-stakeholder", "fill gaps",
+]
+KEY_SKILLS = [
+    "destination branding", "financial modelling", "global exposure",
+    "private sector", "business cases", "stakeholder management",
+    "Africa region", "protected areas and conservation",
+]
+
 
 def check_consistency() -> None:
     if not (TECH_MD.exists() and COST_MD.exists()):
@@ -522,6 +556,75 @@ def check_consistency() -> None:
             marker != -1 and first_annex > marker, True,
             f"annex break at {marker}, first annex heading at {first_annex}",
         )
+
+    # The brief's central rule is that nothing is invented. These enforce it.
+    for label, src in (("technical", tech), ("cost", cost)):
+        # Where a person would actually be named: the staffing table, and any
+        # phrase of the form "Name, Title". Everywhere else, a capitalised pair
+        # of words is far more likely to be an organisation or a place, so a
+        # blanket bigram scan produces noise instead of findings.
+        suspects = set()
+
+        # The staffing table and the client-reference table are the only two
+        # places a person is named. Scanning every table sweeps up the
+        # organisations in the compliance and benchmark annexes instead.
+        for heading, stop in (
+            ("### 6. Team and management", "### 7."),
+            ("## Annex B: Client references", "## Annex C"),
+        ):
+            if heading not in src:
+                continue
+            block = src[src.index(heading):]
+            if stop in block:
+                block = block[: block.index(stop)]
+            for row in re.findall(r"^\|(?![-\s|]*\|).*\|$", block, re.M):
+                for c in [x.strip() for x in row.strip().strip("|").split("|")][1:]:
+                    if "[[TO CONFIRM" in c or not c or c == "-":
+                        continue
+                    for phrase in (*PERMITTED_NAMES, *PERMITTED_AFFILIATIONS):
+                        c = c.replace(phrase, " ")
+                    for n in re.findall(r"\b[A-Z][a-z]{2,} [A-Z][a-z]{2,}\b", c):
+                        if n not in PERMITTED_NAMES:
+                            suspects.add(n)
+
+        for m in re.finditer(
+            r"\b([A-Z][a-z]{2,} [A-Z][a-z]{2,}), (?:Partner|Director|Principal|"
+            r"Associate|Manager|Senior|Lead)\b", src
+        ):
+            if m.group(1) not in PERMITTED_NAMES:
+                suspects.add(m.group(1))
+
+        invented = sorted(suspects)
+        record(
+            f"INV-01/{label}", "INTEGRITY",
+            f"{label}: names no person other than {', '.join(PERMITTED_NAMES)}",
+            not invented, True, ", ".join(invented[:6]),
+        )
+
+        asserted = []
+        for pattern in CREDENTIAL_ASSERTIONS:
+            for m in re.finditer(pattern, src, re.I):
+                window = src[max(0, m.start() - 200):m.end() + 400]
+                if "[[TO CONFIRM" not in window:
+                    asserted.append(m.group(0))
+        record(
+            f"INV-02/{label}", "INTEGRITY",
+            f"{label}: no EY credential or commercial claim without a placeholder",
+            not asserted, True, "; ".join(sorted(set(asserted))[:4]),
+        )
+
+    missing_aims = [a for a in DESIGN_AIMS if a.lower() not in tech.lower()]
+    record(
+        "INV-03", "INTEGRITY",
+        f"All seven of CI's design aims appear in the technical proposal",
+        not missing_aims, True, f"missing: {missing_aims}",
+    )
+    missing_skills = [k for k in KEY_SKILLS if k.lower() not in tech.lower()]
+    record(
+        "INV-04", "INTEGRITY",
+        "All eight required skills appear in the technical proposal",
+        not missing_skills, True, f"missing: {missing_skills}",
+    )
 
     cm = QA / "compliance_matrix.md"
     if cm.exists():

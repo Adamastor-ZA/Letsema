@@ -598,5 +598,252 @@
     "fix": "Recast as sequencing rather than value: 'Clearance, consent and CV collection are the critical path and must start in bid week one, because they have lead times drafting does not. That is a scheduling point, not a licence to under-write the body \u2014 among bidders who all clear the credential bar, criteria 1.1, 1.2 and 2.1 and the head start evidenced by the benchmark scan are where EY separates.'"
    }
   ]
+ },
+ {
+  "defects": [
+   {
+    "severity": "critical",
+    "category": "invented-content",
+    "defect": "QA-06 and QA-20 both assert a failing cross-reference that does not exist: \"the matrix sends the Offeror Representation to Annex D, while Annex D is the detailed work plan and risk register\". In qa/compliance_matrix.md line 43, C-03 maps the Offeror Representation to \"Submitted separately alongside both PDFs, per RFP section 4; referenced at Technical Proposal section 12\". Annex D is referenced only by C-04, C-06 and C-69, all correctly for the work plan and risk register. Technical Proposal section 12 exists (proposal/technical/technical_proposal.md line 123, \"### 12. Submission and declarations\"). Running scripts/qa.py, CON-01 (annex cross-references) and CON-06 (matrix locations resolve) both PASS. The fabricated failure is used twice, and is the entire justification offered for QA-20 being \"the check that turns the matrix from an assertion into a proof\".",
+    "fix": "Delete both \"fails today\" claims. If a worked example is wanted, use a real one or state that the check currently passes and exists to hold that state. Michael must be able to trust that a named failure in this document is a real one."
+   },
+   {
+    "severity": "critical",
+    "category": "factual",
+    "defect": "QA-15 states the headline effort figure is \"currently 81 days\" and instructs the check to assert all three day tables equal it. The effort model is 58 days. proposal/cost/cost_proposal.md carries \"Professional fees, 58 days\", a role table totalling 58 (5+16+13+19+3+2), an effort-by-deliverable table totalling 58 (7+19+22+10), and a KPI tile reading \"58 days\". qa/compliance_matrix.md C-77 refers to \"a 58-day effort model\". A check asserting 81 would hard-fail a cost proposal whose arithmetic is in fact exact.",
+    "fix": "Replace 81 with 58, and do not hard-code the figure at all: read the fee-table total and assert the other tables match it, which is what ARI-07 already does. Also note the third table, Annex B effort by week, is still a placeholder, so the three-way version of this check cannot pass until Annex B is built."
+   },
+   {
+    "severity": "critical",
+    "category": "invented-content",
+    "defect": "The 28 checks contain no integrity check at all. QA-05 catches placeholder strings that remain, but nothing catches the opposite and more serious failure the brief names: an EY credential, rate, staff name, client name or entity detail asserted as fact where no input supplied it. CP-5 makes this worse by asking Michael to \"approve the fixed all-inclusive price and the day rates behind it\" and \"confirm EY accepts the resulting margin\" - the six day rates (1,100 / 725 / 575 / 375 / 900 / 800) appear in no input, and margin cannot be confirmed against a rate card EY has not supplied. During this review proposal/cost/cost_proposal.md was edited to remove the sentence \"They sit materially below EY South Africa's standard commercial rates\", a comparative claim against that same unsupplied rate card. That is exactly the class of defect no check in this suite would have caught.",
+    "fix": "Add a check that every EY commercial or credential datum in either document either traces to a named supplied input or appears as a [[TO CONFIRM]], and a CP-5 decision worded as \"confirm no rate, margin or credential claim rests on an input EY has not supplied\" rather than \"approve the day rates\". Proposed rates derived bottom-up from a published ceiling are legitimate; claims about how they compare to EY's actual rate card are not, until the card exists."
+   },
+   {
+    "severity": "major",
+    "category": "factual",
+    "defect": "Five separate \"not currently checked\" claims are false; the checks exist and pass. QA-07 (no pricing in the technical proposal) is SUB-15, PASS. QA-14 (each payment equals its stated share) is ARI-06, PASS over 5 rows. QA-15 (day counts reconcile) is ARI-07, PASS. QA-22 states \"gaps.json does not exist yet, so scripts/make_qa_docs.py currently skips generating qa/open_items.md altogether\" - work/analysis/gaps.json exists at 68KB, qa/open_items.md exists with 72 items (18 blocker, 21 high, 26 medium, 7 low), and BLD-03/open_items.md passes. QA-27's week-number consistency is CON-03, PASS. The suite also implements HS-03, HS-05, SUB-05, SUB-16 and BLD-03, which this list does not describe at all.",
+    "fix": "Reconcile the list against scripts/qa.py before CP-1. This document is the standard Michael signs off against; describing the build as weaker than it is wastes his review and invites duplicate work."
+   },
+   {
+    "severity": "major",
+    "category": "compliance",
+    "defect": "QA-12 requires \"an equality assertion that the grand total equals 40000\", justified on the grounds that \"the RFP sets a maximum rather than a target\". That reasoning argues the opposite of the check. The RFP allocates \"a maximum budget of US$40,000\" and scores the financial proposal on \"Clarity, relevance, reality to market value/ value for money\". A hard equality assert would fail a compliant lower-priced bid, and it institutionalises pricing at the ceiling in a competition where value for money carries 30 of 100 marks.",
+    "fix": "Hard-fail on total above 40,000 only, which ARI-02 already does correctly with a strict greater-than. Add a soft check that warns on any deviation from the price Michael approved at CP-5, so a slip is caught without the ceiling being treated as the answer."
+   },
+   {
+    "severity": "major",
+    "category": "compliance",
+    "defect": "QA-07 as specified - \"Regex the technical PDF text for currency figures, day rates and fee language\" - would fail legitimate benchmark evidence. proposal/technical/technical_proposal.md carries US$5m for the CI and MMWCA Maasai Mara Rescue Fund, which is source-backed evidence in a bid whose central differentiator is the benchmark scan. The implemented SUB-15 is correctly narrower: it targets EY price, rate and fee language plus the 40,000 ceiling figure, and explicitly exempts benchmark figures.",
+    "fix": "Rewrite QA-07 to match SUB-15: search for EY pricing constructs, not for currency figures. Separately, reconsider SUB-15's treatment of the US$40,000 ceiling as a leak, since criterion 2.1 rewards a method visibly sized to the time and budget envelope and the matrix records that at C-69."
+   },
+   {
+    "severity": "major",
+    "category": "factual",
+    "defect": "QA-16's rationale is fabricated. It states the currency check \"must stay scoped to the cost proposal, because the benchmark annex in the technical document legitimately quotes rand and Kenyan shilling figures from published sources\". Annex F of proposal/technical/technical_proposal.md contains no rand, ZAR, KSh, N$, euro or sterling figure - a regex for all of them returns nothing. The research file work/CI_Brand_Models_Research_Pass_1_Benchmarks_v2.md does carry KSh 854m and N$75m, but that file is not the submitted annex.",
+    "fix": "Drop the invented justification. The correct reason to scope ARI-05 to the cost proposal is simply that the RFP's USD rule applies to cost information. If foreign-currency benchmark figures are later carried into Annex F, add them to an exemption list then."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "No check covers the RFP's seven design aims or its eight key skills. QA-23 covers the nine elaboration elements and six stakeholder perspectives correctly, but nothing tests the \"They should also aim to\" list (financially sustainable; aggregated or integrated operation; sensitive, conservation-led, evidence-based and culturally appropriate; support relevant data collection; multi-segment stratification and destination appeal; multi-stakeholder brand management including reconciliation with national destination brands; reference and compare against existing efforts to fill gaps rather than duplicate). Nor does anything test RFP section 3's eight key skills, which are stated as \"the minimum requirements for all offerors\". Annex C of the technical proposal is titled \"Capability against the eight required skills\" - the suite does not test the structure the document is built around.",
+    "fix": "Add two checks alongside QA-23: assert all seven design aims are named in the option-design method and in the Annex F rating matrix, and assert all eight key skills are addressed with evidence in Annex C. Both are cheap regex checks against fixed RFP wording."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "The checkpoint model carries no dates, while the open-items schema demands \"Needed by: a date back-calculated from the submission deadline, not from today\". The deadline does not exist in the inputs: the RFP copy held starts at Section 2, so the submission deadline, submission address or portal, named contact and clarification-question cut-off are all absent, logged as OI-04 blocker. CP-1 asks Michael to sign off \"the single consolidated clarification request to CI\" with no cut-off attached, although the matrix rates C-76 high risk on the ground that the 27 ambiguities \"are worthless if the cut-off has passed\". CP-6 assumes the deadline is known. The analysis also never mentions that the RFP text ends mid-sentence in the Level of Effort and Cost of Services section, logged as OI-06 blocker, whose missing text could prescribe a level of effort or cost format that invalidates the 58-day model after costs can no longer be revised.",
+    "fix": "Make CP-1's first decision \"establish the deadline, submission channel and question cut-off from CI, or bid blind and record that as accepted risk\", give CP-2 to CP-6 dates derived from it, and add the truncated Level of Effort section to CP-1 and CP-5 as an explicit re-test."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "No checkpoint decides prime versus consortium. The RFP expressly allows the assignment to be executed \"in partnership or consortium with other relevant firms if necessary\". The compliance matrix rates C-25 (brand development and destination branding, \"the single most central skill in the RFP and the least evidenced in EY's standard consulting credentials\") and C-32 (protected areas and conservation, \"the most likely genuine gap in a mainstream consulting firm's record\") at high risk, and records that C-32 \"drives the consortium decision and should be resolved before the technical proposal is drafted\". The cost proposal's assumptions still carry an open [[TO CONFIRM]] on it. That single call moves criterion 1.2 (20 marks), 2.4 (10) and 3.1 (15), determines whether the three client references must cover a partner, and determines who signs the Offeror Representation. CP-1 fixes document architecture and CP-3 names the team; neither names this decision.",
+    "fix": "Add it to CP-1 as an explicit bid-shape decision with a named fallback, and add a QA check that the technical proposal's capability claims are consistent with whichever answer Michael gives."
+   },
+   {
+    "severity": "minor",
+    "category": "factual",
+    "defect": "CP-1 describes the compliance matrix as \"currently 92 rows\". It has 79. qa/compliance_matrix.md states \"79 rows\" in its own header, unique C- identifiers count 79, and BLD-04 reports \"Compliance matrix populated (79 rows)\".",
+    "fix": "Correct to 79, or better, do not state a count that changes on every regeneration - refer to the matrix as generated."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "QA-22's bidirectional assertion would fail correct content. It requires the placeholder set and the gaps.json set to \"match exactly in both directions\". They legitimately cannot: OI-02 and OI-03 (the missing Sections 11 and 12 of the brief), OI-04 (the missing deadline and submission instructions) and OI-05 (the missing RFP Section 1 and pack) are real blocker items with no placeholder string, because they are gaps in the inputs rather than gaps in the text. CON-05 implements it correctly one-way, accounting for 35 distinct placeholders against 72 logged items.",
+    "fix": "Assert one direction only - every placeholder is logged - and add a separate soft check that a logged item with no placeholder carries a reason, such as \"gap in the inputs, not in the text\"."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "QA-17's exact set-match would fail correct content. It requires the narrative to explain \"nothing that is not in\" the cost tables. The budget narrative's \"No contingency line\" entry has no matching table row and is a deliberate, useful statement that the price is fixed and scope risk sits with EY; the narrative's combined \"Advisers, 3 and 2 days\" entry covers two separate table rows. Meanwhile CON-02 as implemented covers only the four direct-cost lines, leaving the six professional-fee lines - 36,000 of the 40,000 - unchecked.",
+    "fix": "Keep the every-line-is-explained direction and extend it to the professional-fee rows, which is the half that matters. Drop the reverse assertion, or allow narrative entries that explain an absence."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "QA-03's title does not match its method. It is titled \"The technical proposal Part 1 body is five pages or fewer\" but measures every page before Annex A, which is Parts 1, 2 and 3 together. CP-4 then asks Michael to \"confirm the Part 1 body is within five pages\". That silently resolves the exact ambiguity CP-1 says he must rule on - whether the cap applies to Part 1 alone or to the whole body. The build satisfies the strict reading (Annex A begins on page 4 of 17) and the matrix records that choice at C-15, so the outcome is right, but the check misdescribes itself.",
+    "fix": "Rename the check to say it measures the whole body, Parts 1 to 3, before Annex A, and cross-reference C-15 so Michael's CP-1 ruling and the measurement are visibly the same decision."
+   },
+   {
+    "severity": "minor",
+    "category": "arithmetic",
+    "defect": "No check multiplies unit price by quantity. The RFP requires that \"Offers must show unit prices, quantities, and total price\", flagged high risk at C-19. QA-11 checks that columns sum to their TOTAL row and QA-14 checks the payment schedule against the grand total, but nothing verifies 4 x 350 = 1,400, 10,000 x 0.10 = 1,000, 16 x 35 = 560, 16 x 65 = 1,040, or days x rate per fee row. All are currently correct, but that is the line that breaks first when a quantity is edited and the total is not.",
+    "fix": "Add a check that multiplies out every row carrying a quantity and a unit price and compares against the stated line total, mirroring what ARI-06 already does for the payment schedule."
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "Nothing covers the presentation deliverable or its open-ended count. Deliverable 3 is a \"Draft report and presentation on brand delivery models\", Activity Two requires the consultant to \"Prepare and present the findings to relevant stakeholders to assess appetite and support\", and the RFP footnote states \"Presentations may need to be made to different stakeholder groups as appropriate\". The cost proposal caps this with an assumption that the presentation is delivered twice. QA-08 only regexes the Part and Activity labels. On a fixed all-inclusive price with no post-award cost recovery, an unbounded presentation count is the clearest scope exposure in the engagement.",
+    "fix": "Add a check that the presentation is named as a deliverable in both documents and that the assumption bounding the number of presentations appears in the cost proposal, and add it to CP-5 as an explicit risk Michael accepts or puts to CI as a clarification."
+   }
+  ],
+  "strengths": [
+   "The reconstructionNote is the best thing in the document. It states plainly that Sections 11 and 12 were not supplied, that what follows is inferred rather than original, and that every checkpoint and check is a proposal until Michael confirms it. That is the honest handling of a missing input and it is what makes the rest of the document safe to act on.",
+   "The scoring arithmetic is correct and the single most useful insight is right: 5 + 20 + 5 + 15 + 10 + 15 = 70, and CP-3's observation that roughly 60 of the 70 technical marks (1.2 at 20, 2.2 at 15, 2.4 at 10, 3.1 at 15) sit behind the credentials gate correctly identifies where this bid is won or lost. Keep that framing.",
+   "CP-3's placeholder discipline is exact. It names what only EY can supply - contracting legal entity and registration number, rate card, named team with grades and availability, CVs, five-year and three-year assignment lists with values or level of effort, three references with naming permission secured, clearable work samples - and invents none of it. It matches the RFP's own wording on the five-year and three-year windows.",
+   "CP-3's requirement that Michael decide explicitly, where an item cannot be supplied, whether EY bids and accepts the scoring loss or withdraws. Most bid checklists let unsupplied items drift; forcing a recorded decision is the right governance move and should be kept verbatim.",
+   "QA-13's scoping note is a real trap correctly avoided. The effort-by-deliverable table does carry percentages (12, 33, 38, 17) that would otherwise be swept into the payment-schedule sum check. The implementation scopes to the payment schedule section as specified.",
+   "QA-26's refusal to hard-fail Oxford-comma regex candidates, routing them to a human read before CP-6 with each one either fixed or dismissed on the record. The reasoning about appositives and subordinate clauses is correct.",
+   "QA-25's exemption-list maintenance note is right, and both named examples are genuine entities in the benchmark scan - Harpers Ferry Center and the Mekong Tourism Coordinating Office both appear in the research file.",
+   "QA-23 matches the RFP exactly: all nine elaboration elements and all six stakeholder perspectives, including collaborative management partners, are named correctly.",
+   "Every claim about EY's own research is accurate against work/CI_Brand_Models_Research_Pass_1_Benchmarks_v2.md: 31 benchmarks, seven archetypes, 13 deep-dives comprising eight case studies with two clustered and five light-touch checks. CP-2's instruction to deploy that scan as the differentiator, and to decide how much appears in the scored body versus Annex F, is the right call to put to a partner.",
+   "QA-10 and QA-28 are correctly marked non-automatable. Whether the signed representation carries a real signature and the correct legal entity, and whether Part 1 argues a case rather than reciting compliance, are partner judgements and the document says so rather than pretending a script can settle them.",
+   "QA-04's font check is a genuine improvement on BLD-01, which currently only proves a font resource exists. The substitution it names is real: assets/ey.css records that EY Interstate is not installed in the build environment and the stack falls back to Inter."
+  ],
+  "verdict": "serious-defects"
+ },
+ {
+  "verdict": "serious-defects",
+  "defects": [
+   {
+    "severity": "critical",
+    "category": "omission",
+    "defect": "No [[TO CONFIRM]] placeholder exists for the three client references. The RFP's Part 3 explicitly requires \"at least three client references\" and the page budget instructs a page-5 table with columns for organisation, contact name, role, email, telephone, engagement and year \u2014 none of which is in the inputs. Every other missing-input block (1.2 engagements, 2.2 samples, 2.4 offices, 3.1 staff, rates) is correctly placeheld; this one is not. It is the single field most likely to be fabricated, and the analysis's own killRisks section discusses references only as a contactability risk, never as a missing input.",
+    "fix": "Add: [[TO CONFIRM: three client references, each with organisation name, contact person's name and role, email address, telephone number, the engagement referenced and the year it was delivered, plus that person's written consent to be contacted by Conservation International \u2014 supplied by Michael Harris, with each referee contacted in advance to confirm they will respond]]. Also add a placeholder for the contracting EY legal entity name and registration details needed in the page-1 title block, and for the Offeror Representation of Transparency, Integrity, Social Responsibility template, which CI must supply and a named EY signatory must sign."
+   },
+   {
+    "severity": "major",
+    "category": "compliance",
+    "defect": "The page-5 instruction to state \"that the complete 'Level of Effort and Cost of Services' text was not available and any stated assumption will be reconciled on award\" conflicts with an explicit RFP rule: \"Additional costs cannot be included after award, and revisions to proposed costs may not be made after submission unless expressly requested by CI.\" A price accompanied by a reconciliation clause is a conditional offer and gives CI grounds to treat the cost proposal as non-responsive \u2014 precisely the gate the analysis says outranks everything else.",
+    "fix": "Split the two things. Raise the truncated Level of Effort section as a written pre-submission clarification request to CI, logged in the open-items file. Price unconditionally against the US$40,000 ceiling with no reconciliation language anywhere in the cost proposal. If an assumption must be recorded, confine it to non-price matters (CI review turnaround, access to the 15 priority areas list, stakeholder availability) in the technical PDF only."
+   },
+   {
+    "severity": "major",
+    "category": "arithmetic",
+    "defect": "Two errors in one sentence under criterion 1.2: \"This is the largest single criterion in the whole scoring table \u2014 20 of 70 technical points, more than understanding, methodology and geography combined.\" The Financial Proposal is a single line in the same scoring table worth 30, so 20 is not the largest. And 1.1 (5) + 2.1 (5) + 2.4 (10) = 20, which equals 20 rather than exceeding it.",
+    "fix": "Rewrite as: \"the largest single technical criterion, 20 of 70 technical points \u2014 equal to understanding, methodology and geographical reach combined (5 + 5 + 10).\" The point being made survives intact; the overreach does not."
+   },
+   {
+    "severity": "major",
+    "category": "invented-content",
+    "defect": "The value-for-money line \"CI is not paying for the five weeks of benchmark scanning EY has already done\" asserts a five-week quantification that appears nowhere in the inputs, and equates the bid-stage scan with CI's week-5 deliverable. The research itself says the opposite: it is \"Research pass 1\", \"not yet the POV\", with figures \"as published by each source... not yet verified with the organisations concerned\" and four named evidence gaps still open. The claim also invites CI to discount the Activity One fee, and if CI accepts it at face value the technical proposal has promised a deliverable it has already been paid for in kind.",
+    "fix": "Drop the week-count and the fee-offset framing. Claim the head start as schedule de-risking only: \"Activity One begins at the deep-dive rather than the long-list, which is why the week-5 deliverable is credible on this budget.\" Never state or imply that the existing scan discharges part of deliverable 2."
+   },
+   {
+    "severity": "major",
+    "category": "positioning",
+    "defect": "The page budget spends roughly 60% of the five-page body on 10 of the 70 technical points. Page 1 (approx. 520 words) buys criterion 1.1 at 5 points; page 2 (approx. 600 words plus a Gantt) buys 2.1 at 5 points; page 5 (approx. 450 words) carries no scored criterion at all, since client references and delivery assurance sit under Part 3, which has no line in the evaluation table. Meanwhile 60 points (1.2, 2.2, 2.4, 3.1) are compressed into two pages. This contradicts the analysis's own closing rule that every sentence be traceable to a scoring criterion.",
+    "fix": "Rebalance. Compress 1.1 to roughly a third of page 1 and 2.1 to two-thirds of page 2, reclaiming the space for the 35-point experience block; move delivery assurance, independence, data handling and the assumptions list to an annex with a three-line pointer in the body; keep only the references table and the cost-proposal pointer on the remaining space. Target roughly 2 pages for 35 points (1.2, 2.2), 1.25 for 25 points (2.4, 3.1), and 1.75 for everything else."
+   },
+   {
+    "severity": "major",
+    "category": "compliance",
+    "defect": "The page-3 and page-4 table specifications are not physically deliverable inside the 5-page cap the analysis itself insists on. Page 3 calls for a 6-to-8-row table with client, country, dates, delivering entity, role, magnitude plus tick columns against all eight CI skills (15 columns), a coverage line, a second 3-to-5-row table with sample, date, client, outcome and annex page, and 120 words of prose \u2014 on one page. Page 4 calls for a two-column reach/familiarity block plus a staffing table of 8 columns and 5 to 7 rows in half a page. At legible body size neither fits, so the strict page reading and the table specification cancel each other out.",
+    "fix": "Put the eight-skill coverage in the body as a single compact matrix (skill down the left, engagement reference numbers across), with the full 15-column dossier in Annex B. Cut the staffing table to name, role, skill area covered and days allocated, with qualification, years, languages and the three prior assignments in the Annex A CVs. Specify a minimum body font and confirm the layout in the working files before writing to the word budget."
+   },
+   {
+    "severity": "major",
+    "category": "factual",
+    "defect": "Win theme 3 states \"Fair Trade Tourism folded into an industry partnership.\" The source says FTT \"has partnered with SATSA, which endorses its certification\" and describes \"its arc from donor-funded expansion to an industry-association partnership\". FTT was not absorbed and continues to certify. Separately, criterion 2.4 cites \"Fair Trade Tourism's mutual recognition across eight countries\"; the source gives 188 businesses across eight countries made up of FTT's own certification in three (South Africa, Madagascar, Mozambique) and mutual recognition of national schemes in five (Botswana, Kenya, Namibia, Seychelles, Tanzania). A Southern African evaluator will know both facts, and the analysis's own standard is that precision is what converts assertion into evidence.",
+    "fix": "\"Fair Trade Tourism, which scaled across eight countries on Swiss government funding, now works through a partnership with SATSA rather than standalone donor-funded expansion.\" And: \"Fair Trade Tourism's portfolio of 188 businesses across eight countries, three under its own certification and five through mutual recognition of national schemes.\""
+   },
+   {
+    "severity": "major",
+    "category": "positioning",
+    "defect": "Win theme 3 lists Alpine Pearls among \"the donor-seeded networks in the set [that] contracted or were restructured\", as evidence for the thesis that brands endure when members pay. The source describes Alpine Pearls as member-funded \u2014 \"Member destinations fund an annual budget adopted by the general meeting and share liability in proportion to their contributions\" \u2014 and it still fell from about 24 villages in six countries to 18 in four, despite acquiring an EGTC legal vehicle in 2022. As written, EY's own flagship example contradicts EY's own conclusion, and Alpine Pearls is the benchmark closest in shape to CI's 15 areas.",
+    "fix": "Remove Alpine Pearls from the donor-seeded list (keep ECST, EDEN and FTT there) and redeploy it honestly: a member-funded club of places at almost exactly CI's scale that contracted anyway, which is why the models must name a payer with a commercial reason to pay rather than a membership subscription alone. Handled this way it strengthens the argument instead of arming the evaluator."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "The analysis treats the nine elaboration headings and seven design aims as the full ToR template, but Activity Two sets three further requirements it never mentions: each concept must give \"scope, offer, approach, governance, management, budget and funding sources and other attributes necessary to make a full comparison\" with \"specific detail... on the proposed financial sustainability model for each\"; \"Pre-requisites will also be important to consider\"; and models must be effective \"in unstable funding environments\". A per-model budget is a distinct requirement not covered by any of the nine headings, and pre-requisites and funding-environment instability are discrete asks an evaluator scoring 1.1 and 2.1 will look for.",
+    "fix": "Extend the fixed template to: the nine headings, plus a per-model indicative budget and funding-source table, plus a pre-requisites line, plus a resilience test against unstable funding, cross-jurisdiction operation and wide-ranging site capacity. State in the 1.1 block that the template is built from the nine headings and the Activity Two comparison list together."
+   },
+   {
+    "severity": "major",
+    "category": "arithmetic",
+    "defect": "The cost guidance never confronts the gross-of-tax arithmetic. The RFP fixes US$40,000 as the maximum and requires the price to be \"all-inclusive of profit, fees, or taxes\", with the financial criterion bracketed \"(inclusive of any applicable tax, reimbursables and travel)\". The ceiling is therefore gross: at a 15% South African VAT rate the fee pool is roughly US$34,800, not US$40,000 \u2014 a 13% reduction in fundable days that the technical proposal's day allocations must reconcile to. The analysis flags the tax position as a placeholder but sets the day-count and staffing advice against the headline US$40,000.",
+    "fix": "Add the constraint explicitly: model the day count against the ceiling net of VAT and any withholding on a USD contract with a US-registered non-profit, and resolve the rate before the staffing table is drafted, since days appear in three places that must agree. Extend the existing financial placeholder to ask Michael Harris for the net-of-tax fee pool, not just the tax position."
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "The page-2 risk block names two of the research's four evidence gaps and under-states one of them. Section 8 of the research lists four: commercial member fees, outcome data from Boundless and KAZA, association budgets (what NRT, NACSO and MMWCA cost per conservancy and where the money comes from), and CI's undisclosed list of 15 priority areas. Association budgets are omitted, yet they are the cost spine of the shared-service model that the research's own early signals point to as the first layer of any CI model. The fee gap also extends beyond the commercial collectives to The Long Run, Africa's Eden Tourism's tiers and Certified Wildlife Friendly.",
+    "fix": "Name all four gaps with a mitigation each: member fees (interview plus triangulation from member disclosures), outcome data (activity reports plus trade-side interviews), association cost-per-conservancy (direct request to NRT, NACSO and MMWCA, fallback to published annual reviews), and the 15 priority areas (requested at inception, with a stated dependency on the week-2 deliverable)."
+   },
+   {
+    "severity": "minor",
+    "category": "positioning",
+    "defect": "The named interview list is presented as a scoring asset for 2.1, but the research says these nine-plus organisations were chosen precisely because \"none of them publishes cost or outcome data\" \u2014 meaning access is unproven, not merely unscheduled. Committing named secretariats across five or more countries inside weeks 1 to 5 creates a deliverable EY does not control, and sits awkwardly beside the analysis's own warning against promising research volume the plan cannot fund.",
+    "fix": "Present the list as a prioritised approach with a stated access assumption and named fallbacks (published annual reviews, sector bodies, trade press, second-choice respondents per archetype), and state that findings will be reported on evidence obtained rather than on interviews promised."
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "The Annex C instruction requires only a label (\"EY bid-stage working paper\") and no cleanup. The document as it stands is headed \"EY bid team working draft 2\", carries unresolved internal flags (\"budget to confirm\" for NACSO, \"values to confirm\" for Africa's Eden fees, \"Fee model not published; to confirm\" for WFEN, \"To confirm in the deep-dive\" for Rewilding Europe governance), team-judgement H/M/L ratings, and the source note \"All figures are as published by the sources below... They have not yet been verified with the organisations concerned.\" It also carries characterisations a CI evaluator may object to: Visit Rwanda's political exposure over eastern DRC, critics calling Rewilding Europe \"commodification of nature\", and African Parks \u2014 a Keystone partner sitting alongside CI \u2014 profiled as a potential delivery partner.",
+    "fix": "Before annexing: resolve or convert every \"to confirm\" into a labelled research question, retain the unverified-figures caveat prominently rather than burying it, re-check the Visit Rwanda, Rewilding Europe and African Parks entries against what EY is willing to say in front of CI and 21 partner governments, and route the whole annex through the same independence and conflict clearance the analysis already requires for the Keystone relationships."
+   },
+   {
+    "severity": "minor",
+    "category": "factual",
+    "defect": "The analysis writes \"Africa's Eden\" without the qualifier throughout. The research carries an explicit caution: \"Mind the name: a separate Netherlands-based operator called Africa's Eden runs conservation tourism in Gabon, the Central African Republic and S\u00e3o Tom\u00e9 and Pr\u00edncipe.\" Conflating the Botswana-domiciled membership association with the unrelated operator on page 1 \u2014 the page where the analysis says one non-obvious fact converts assertion into evidence \u2014 is exactly the error that would undo the effect.",
+    "fix": "Use \"Africa's Eden Tourism\" on first and every mention, and add a parenthetical distinguishing it from the similarly named Netherlands-based operator. It is a half-line that demonstrates the depth being claimed."
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "The RFP contradicts itself on geography \u2014 \"CI's Tourism Technical Assistance team has prioritized 15 emerging protected areas in Southern and Eastern Africa\" followed immediately by \"These are spread across Southern, Eastern and Western Africa.\" The analysis resolves this silently in favour of three regions and builds the entire 2.4 reach requirement on it, including the lusophone and francophone language claim and the West African office placeholder. The placeholder's scope, and the cost of satisfying it, depend on which reading is right.",
+    "fix": "Add to the clarification list and to the open-items log: confirm with CI whether the 15 priority areas span two regions or three, since it determines the office presence and working languages EY must evidence. Keep the three-region reading as the working assumption, but state it as an assumption."
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "Three checkable items in the RFP go unremarked: the \"Other:\" line in the submission-requirements table, which CI may populate with a further mandatory item; the absence of a criterion 2.3 in the evaluation table, which jumps from 2.2 to 2.4 (the points still sum to 70, so it is probably a numbering typo, but a missing sub-criterion would change the whole allocation); and the unstated technical qualifying threshold behind \"Only the financial proposal of those bidders who qualify technically will be reviewed\", which the analysis treats as a gate without noting that the pass mark is never given.",
+    "fix": "Add all three to the clarification request to CI and to the open-items log, alongside the truncated Level of Effort section. All four can go in one email in week 1 of bid preparation."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "Two best-practice recommendations are presented as RFP rules. \"Cost leakage into a technical file that is evaluated first is a standard disqualification risk\" \u2014 the RFP requires separate PDFs and nowhere states that a figure in the technical file is disqualifying. And \"[criterion 1.2] is scored against the eight skills CI lists in Section 3\" \u2014 a sound inference, but the RFP does not link the offeror-requirement skills to the 1.2 score. Overstating the rulebook in a compliance matrix means the team cannot tell which lines are non-negotiable and which are judgement.",
+    "fix": "Mark each compliance-matrix row as either an RFP requirement with the clause quoted, or an EY judgement call with the reasoning. Both recommendations are right and should stand; they should stand as judgements."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "\"No travel or expense lines, because the assignment is desk-based\" is stated as an absolute, and travel or per diem lines are listed as losing points. But the financial criterion is bracketed \"(inclusive of any applicable tax, reimbursables and travel)\", the truncated section says \"largely desk-based with virtual\", and the RFP separately requires \"a detailed budget showing major expense line items\" with \"unit prices, quantities, and total price\". A budget with nothing but fee lines may read as incomplete against that requirement, and genuine non-fee costs exist on this assignment \u2014 data and report subscriptions, translation of Portuguese and French sources, report production.",
+    "fix": "Show a nil-value travel and reimbursables line with a one-line note that the assignment is desk-based per section 5.3, and itemise the real non-fee costs with unit price and quantity. That satisfies the line-item requirement and the no-travel position at the same time."
+   },
+   {
+    "severity": "minor",
+    "category": "compliance",
+    "defect": "The closing exclusion rule \u2014 \"Annexes verify; they never carry a score on their own, so nothing that earns points may exist only in an annex\" \u2014 contradicts two things the analysis itself requires. The RFP expressly permits CVs in an annex, and CVs are the documentation criterion 3.1 asks for (\"Bidders must provide descriptions and Documentation of staff/teams' technical expertise\"). Criterion 2.2 requires \"samples of work delivered\", which can only be attached as annexes. As written the rule would forbid the structure the analysis recommends.",
+    "fix": "Restate as: every claim that earns a score is summarised and made assessable in the body; the evidence that substantiates it (CVs, samples, dossier, work plan detail) sits in the annexes and is cross-referenced by annex and page from the body."
+   }
+  ],
+  "strengths": [
+   "The judgement on the SA banking payments deck is correct and I verified it against the file: slide 1 carries \"Draft \u2014 not for distribution\", dated 4 September 2026, and the content is instant payments, PayShap, UPI and Pix \u2014 financial services, not tourism, conservation or destination branding. Refusing it as a 2.2 sample on both distribution restriction and relevance grounds is right, and naming it explicitly stops someone reaching for the only attachable artefact in the pack.",
+   "Placeholder discipline across the 50 technical points that rest on absent inputs (1.2 = 20, 2.2 = 15, 3.1 = 15) is exact. Each placeholder names the fields required, the clearance needed and who supplies it, rather than gesturing at a gap. Nothing in the analysis invents an EY credential, client name, engagement value, staff name, rate or entity detail.",
+   "The observation that three different time windows are in play \u2014 5-10 years at criterion 1.2, \"last three years\" at 2.2, and \"past five (5) years\" in the Part 1 submission requirement \u2014 is a genuine catch, and the fix of building one dated table that satisfies all three is the right answer.",
+   "Taking the 5-page cap as applying to the whole technical body rather than to Part 1 alone is the correct risk call: the strict reading cannot lose points, the loose reading can, and an evaluator stopping at page 5 would cost the staffing and references sections.",
+   "The requirement that day allocations reconcile exactly across the staffing table, the week-by-week work plan and the cost proposal is the kind of cross-check evaluators actually run, and it is correctly identified as damaging three scores at once when it fails.",
+   "The financial gate is read correctly: the RFP does state that only the financial proposals of technically qualifying bidders will be reviewed, which does make every compliance item outrank every point of persuasion.",
+   "Benchmark facts are almost all accurate against the source document. I checked and confirmed: Africa's Eden Tourism as pay-to-play, private-sector-led across eight countries; Boundless publicly hosted since 2007 with no published measures of recognition or bookings; ECST from 164 areas in 20 countries to 91 in 13; Alpine Pearls from about 24 villages to 18; NACSO and 86 Namibian conservancies with the shared Event Book system; NRT and 43 conservancies; MMWCA and 24 conservancies under Kenya's 2013 wildlife act; the CI-MMWCA US$5m Maasai Mara Rescue Fund; SANParks Wild Card pooling 80+ parks across five agencies; KAZA's five states, Rivers of Life brand hub and UniVisa; Geoparks' yellow and red cards; Blue Flag's national operators with annual re-award; Slovenia Green's bronze-to-platinum pathway; 162 KPAs and US$1.2bn a year; 31 benchmarks, seven archetypes, 13 triaged into eight deep-dives and five light-touch checks.",
+   "The claim that eight case studies and five light-touch checks is what US$40,000 over 12 weeks desk-based can carry is correctly attributed \u2014 the research states exactly that in Section 7 \u2014 and using it as an honesty argument rather than padding the method is the right instinct for criterion 2.1.",
+   "The named interview list matches the research's own priority list exactly (Boundless, Africa's Eden Tourism, KAZA, NRT, NACSO, MMWCA, The Long Run, plus Preferred Hotel Group and SLH on hosting terms), so the methodology page is grounded rather than asserted.",
+   "Flagging independence and conflict of interest because African Parks is both a Keystone partner alongside CI and a potential delivery partner in EY's own long-list is a real catch that would not survive a generic compliance checklist.",
+   "The payment schedule at 10 / 25 / 35 / 30 sums to 100, respects the no-more-than-10% inception rule and ties every tranche to a named deliverable.",
+   "The instruction that no price, rate, day rate or total appears anywhere in the technical PDF, with effort expressed in days only, is the right call even though the RFP does not mandate it."
+  ]
  }
 ]
