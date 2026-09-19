@@ -37,10 +37,14 @@ Three generators sit behind the working documents. Run them after editing
 anything in `work/analysis/`:
 
 ```bash
-python3 scripts/make_qa_docs.py   # qa/compliance_matrix.md, open_items.md, checkpoints_and_qa.md
+python3 scripts/make_qa_docs.py   # regenerates everything in qa/, including STATUS.md
 python3 scripts/make_annex_e.py   # the compliance annex inside each PDF
 python3 scripts/build.py && python3 scripts/qa.py
 ```
+
+`qa/STATUS.md` is the one-page view: what builds, what the QA gate says, how
+many open items there are and who owns them, the blockers, and what to do
+next. It is generated, so it is never out of date with the documents.
 
 ## Layout
 
@@ -50,7 +54,7 @@ work/       inputs converted to Markdown, plus analysis/ holding the content spi
 proposal/   the Markdown sources for both documents
 assets/     ey.css, the EY document style
 scripts/    build, QA and the generators
-qa/         compliance matrix, open items, checkpoints and QA checks
+qa/         STATUS.md, compliance matrix, open items, checkpoints and QA checks
 build/      generated PDFs and intermediate HTML; safe to delete
 ```
 
