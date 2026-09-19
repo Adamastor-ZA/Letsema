@@ -14,6 +14,7 @@ HOUSE STYLE (Michael's writing rules) and BUILD (artefact integrity).
 from __future__ import annotations
 
 import re
+import subprocess
 import sys
 from dataclasses import dataclass, field
 from pathlib import Path
@@ -595,12 +596,36 @@ def check_build() -> None:
         )
 
 
+def check_sources() -> None:
+    """Every figure in the technical body must trace to a source or be ours."""
+    script = Path(__file__).with_name("factcheck.py")
+    if not script.exists():
+        return
+    proc = subprocess.run([sys.executable, str(script)], capture_output=True, text=True)
+    m = re.search(r"not found in any source\s+(\d+)\s*(.*)", proc.stdout)
+    count = int(m.group(1)) if m else -1
+    record(
+        "SRC-01", "SOURCES",
+        "Every figure in the technical body traces to a source or is EY's own",
+        count == 0, True, (m.group(2).strip() if m else "factcheck did not run"),
+    )
+    traced = re.search(r"traced to a source file\s+(\d+)", proc.stdout)
+    authors = re.search(r"EY's own estimates\s+(\d+)", proc.stdout)
+    if traced and authors:
+        record(
+            "SRC-02", "SOURCES",
+            f"Figures checked: {traced.group(1)} sourced, {authors.group(1)} EY estimates",
+            True, False,
+        )
+
+
 # ------------------------------------------------------------------- main ---
 
 def main() -> None:
     check_submission()
     check_arithmetic()
     check_consistency()
+    check_sources()
     check_build()
 
     width = max(len(r.check) for r in results) + 2
