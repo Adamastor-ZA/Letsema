@@ -1,0 +1,487 @@
+#!/usr/bin/env python3
+"""
+QA gate for the EY response to Conservation International RFP 0032026.
+
+Runs every mechanical check the submission must pass and exits non-zero if any
+hard check fails.
+
+    python3 scripts/qa.py
+
+Checks are grouped: SUBMISSION (RFP compliance), ARITHMETIC (the cost model),
+HOUSE STYLE (Michael's writing rules) and BUILD (artefact integrity).
+"""
+
+from __future__ import annotations
+
+import re
+import sys
+from dataclasses import dataclass, field
+from pathlib import Path
+
+from pypdf import PdfReader
+
+ROOT = Path(__file__).resolve().parent.parent
+BUILD = ROOT / "build"
+PROPOSAL = ROOT / "proposal"
+QA = ROOT / "qa"
+
+TECH_PDF = BUILD / "EY_Technical_Proposal_CI_RFP_0032026.pdf"
+COST_PDF = BUILD / "EY_Cost_Proposal_CI_RFP_0032026.pdf"
+TECH_MD = PROPOSAL / "technical" / "technical_proposal.md"
+COST_MD = PROPOSAL / "cost" / "cost_proposal.md"
+
+BUDGET_CEILING = 40000
+BODY_PAGE_CAP = 5
+INCEPTION_CAP_PCT = 10
+
+
+@dataclass
+class Result:
+    ident: str
+    group: str
+    check: str
+    passed: bool
+    hard: bool = True
+    detail: str = ""
+
+
+results: list[Result] = []
+
+
+def record(ident, group, check, passed, hard=True, detail=""):
+    results.append(Result(ident, group, check, passed, hard, detail))
+
+
+def pdf_text(path: Path) -> str:
+    return "\n".join((p.extract_text() or "") for p in PdfReader(str(path)).pages)
+
+
+def pdf_pages(path: Path) -> int:
+    return len(PdfReader(str(path)).pages)
+
+
+# ------------------------------------------------------------------ prose ---
+
+# Words the house style bans outright. Matched on word boundaries.
+TELL_WORDS = [
+    "delve", "synergy", "synergies", "paradigm shift", "game-changer",
+    "game changer", "tapestry", "ever-evolving", "dive into",
+    "in today's fast-paced world", "unlock the", "seamlessly",
+    "best-in-class", "world-class", "cutting-edge", "robust and scalable",
+]
+
+# US spellings that must not appear. The value is the UK form.
+US_SPELLINGS = {
+    r"\borganiz(e|es|ed|ing|ation|ations|ational)\b": "organis-",
+    r"\bprioritiz(e|es|ed|ing|ation)\b": "prioritis-",
+    r"\brecogniz(e|es|ed|ing)\b": "recognis-",
+    r"\boptimiz(e|es|ed|ing|ation)\b": "optimis-",
+    r"\banalyz(e|es|ed|ing)\b": "analys-",
+    r"\bcolor(s|ed|ing)?\b": "colour",
+    r"\bbehavior(s|al)?\b": "behaviour",
+    r"\bfavor(s|ed|able)?\b": "favour",
+    r"\blabor\b": "labour",
+    r"\bdefense\b": "defence",
+    r"\bmodeling\b": "modelling",
+    r"\btraveler(s)?\b": "traveller",
+    r"\bcenter(s|ed)?\b": "centre",
+    r"\bfulfill(s|ed|ing|ment)?\b": "fulfil",
+    r"\bcatalog(s|ed)?\b": "catalogue",
+}
+
+# Proper nouns and quoted source material that legitimately carry US spellings.
+SPELLING_EXEMPTIONS = [
+    "Harpers Ferry Center", "Center for", "Mekong Tourism Coordinating Office",
+    "Wildlife Friendly Enterprise Network", "World Travel Center",
+    "Bateleur", "Sossusvlei",
+]
+
+
+def strip_exemptions(text: str) -> str:
+    """Remove proper nouns that legitimately carry US spellings.
+
+    PDF extraction wraps table cells, so a name can arrive split across lines.
+    Whitespace is normalised first, otherwise the exemption silently misses.
+    """
+    text = re.sub(r"\s+", " ", text)
+    for phrase in SPELLING_EXEMPTIONS:
+        text = text.replace(phrase, "")
+    return text
+
+
+def check_prose(label: str, text: str) -> None:
+    scrubbed = strip_exemptions(text)
+
+    # Em dash and en dash are banned in prose. Hyphens are fine.
+    bad_dashes = re.findall(r"[—–]", text)
+    record(
+        f"HS-01/{label}", "HOUSE STYLE",
+        f"{label}: no em or en dashes",
+        not bad_dashes, True,
+        f"{len(bad_dashes)} found" if bad_dashes else "",
+    )
+
+    # Oxford comma detection. A genuine Oxford comma joins three short parallel
+    # items. The common false positive is "X, <subordinate clause>, and <new
+    # clause>", so the middle segment must be short and must not itself contain
+    # a conjunction or a clause marker. Regex cannot settle this reliably, so
+    # the check reports candidates for a human to read rather than failing hard.
+    candidates = []
+    for m in re.finditer(
+        r"\b([\w\)]+), ([\w][\w \-]{2,28}?), (and|or) (\w+(?: \w+){0,3})", text
+    ):
+        middle = m.group(2)
+        if re.search(r"\b(and|or|as|which|that|because|where|when|since)\b", middle):
+            continue
+        candidates.append(m.group(0))
+    record(
+        f"HS-02/{label}", "HOUSE STYLE",
+        f"{label}: Oxford comma candidates for review",
+        not candidates, False,
+        "; ".join(candidates[:6]) if candidates else "",
+    )
+
+    hits = [w for w in TELL_WORDS if re.search(rf"\b{re.escape(w)}\b", text, re.I)]
+    record(
+        f"HS-03/{label}", "HOUSE STYLE",
+        f"{label}: no banned tell-words",
+        not hits, True, ", ".join(hits),
+    )
+
+    us = []
+    for pattern, uk in US_SPELLINGS.items():
+        found = re.findall(pattern, scrubbed, re.I)
+        if found:
+            us.append(f"{uk} ({len(found)})")
+    record(
+        f"HS-04/{label}", "HOUSE STYLE",
+        f"{label}: UK English spelling",
+        not us, True, ", ".join(us),
+    )
+
+    record(
+        f"HS-05/{label}", "HOUSE STYLE",
+        f"{label}: no emoji",
+        not re.search(r"[\U0001F300-\U0001FAFF☀-➿]", text), True,
+    )
+
+
+# ------------------------------------------------------------- submission ---
+
+def check_submission() -> None:
+    record("SUB-01", "SUBMISSION", "Technical proposal PDF exists", TECH_PDF.exists())
+    record("SUB-02", "SUBMISSION", "Cost proposal PDF exists", COST_PDF.exists())
+    record(
+        "SUB-03", "SUBMISSION",
+        "Technical and cost proposals are separate files",
+        TECH_PDF.exists() and COST_PDF.exists() and TECH_PDF != COST_PDF,
+    )
+
+    if not (TECH_PDF.exists() and COST_PDF.exists()):
+        return
+
+    tech = pdf_text(TECH_PDF)
+    cost = pdf_text(COST_PDF)
+
+    for label, text in (("technical", tech), ("cost", cost)):
+        left = re.findall(r"\[\[TO CONFIRM", text)
+        record(
+            f"SUB-04/{label}", "SUBMISSION",
+            f"{label}: no unresolved placeholders",
+            not left, True, f"{len(left)} remaining" if left else "",
+        )
+
+    # The five-page cap is measured on the body, before the first annex.
+    m = re.search(r"Annex A", tech)
+    record(
+        "SUB-05", "SUBMISSION",
+        "Technical proposal contains annexes",
+        bool(m), False,
+    )
+
+    body_pages = None
+    reader = PdfReader(str(TECH_PDF))
+    for i, page in enumerate(reader.pages, 1):
+        if re.search(r"\bAnnex A\b", page.extract_text() or ""):
+            body_pages = i - 1
+            break
+    if body_pages is not None:
+        record(
+            "SUB-06", "SUBMISSION",
+            f"Technical body within {BODY_PAGE_CAP}-page cap",
+            body_pages <= BODY_PAGE_CAP, True,
+            f"body is {body_pages} pages",
+        )
+
+    record(
+        "SUB-07", "SUBMISSION",
+        "Cost proposal states all figures in USD",
+        "US$" in cost or "USD" in cost, True,
+    )
+    record(
+        "SUB-08", "SUBMISSION",
+        "Cost proposal contains a budget narrative",
+        re.search(r"budget narrative", cost, re.I) is not None, True,
+    )
+    record(
+        "SUB-09", "SUBMISSION",
+        "Cost proposal contains a payment schedule",
+        re.search(r"payment schedule", cost, re.I) is not None, True,
+    )
+    record(
+        "SUB-10", "SUBMISSION",
+        "Cost proposal states costs are all-inclusive of profit, fees and taxes",
+        re.search(r"all-inclusive", cost, re.I) is not None, True,
+    )
+    record(
+        "SUB-11", "SUBMISSION",
+        "Technical proposal names all three required Parts",
+        all(re.search(rf"Part {n}", tech) for n in (1, 2, 3)), True,
+    )
+    record(
+        "SUB-12", "SUBMISSION",
+        "Technical proposal covers all three RFP activities",
+        all(re.search(rf"Activity {n}", tech, re.I) for n in ("One", "Two", "Three")),
+        True,
+    )
+    record(
+        "SUB-13", "SUBMISSION",
+        "Offeror Representation of Transparency, Integrity, Social Responsibility addressed",
+        re.search(r"Transparency, Integrity", tech, re.I) is not None, True,
+    )
+    record(
+        "SUB-14", "SUBMISSION",
+        "Three client references present",
+        len(re.findall(r"Reference [123]", tech)) >= 3, True,
+    )
+
+    # The technical proposal is evaluated first and separately. Any EY price,
+    # rate or fee leaking into it is a standard disqualification trigger.
+    # Benchmark figures quoted as evidence are not pricing and are allowed.
+    leaks = []
+    if re.search(r"US\$\s?40[,.]?000|\b40,000\b", tech):
+        leaks.append("assignment budget ceiling")
+    for pattern, name in (
+        (r"\bper day\b", "day-rate language"),
+        (r"\bday rate\b", "day-rate language"),
+        (r"\brate card\b", "rate card reference"),
+        (r"\bprofessional fees\b", "fee line"),
+        (r"\bpayment schedule\b", "payment schedule"),
+        (r"\bblended rate\b", "blended rate"),
+    ):
+        if re.search(pattern, tech, re.I):
+            leaks.append(name)
+    record(
+        "SUB-15", "SUBMISSION",
+        "No EY price, rate or fee appears in the technical proposal",
+        not leaks, True, ", ".join(sorted(set(leaks))),
+    )
+
+    record(
+        "SUB-16", "SUBMISSION",
+        "Cost proposal is not bundled into the technical proposal",
+        "Cost proposal" not in tech or "Total price" not in tech, True,
+    )
+
+    check_prose("technical", tech)
+    check_prose("cost", cost)
+
+
+# ------------------------------------------------------------- arithmetic ---
+
+def parse_money(cell: str) -> float | None:
+    cell = cell.replace(",", "").replace("US$", "").replace("$", "").strip()
+    m = re.fullmatch(r"-?\d+(?:\.\d+)?", cell)
+    return float(m.group()) if m else None
+
+
+def md_tables(md: str) -> list[list[list[str]]]:
+    tables, current = [], []
+    for line in md.splitlines():
+        if line.strip().startswith("|") and line.strip().endswith("|"):
+            cells = [c.strip() for c in line.strip().strip("|").split("|")]
+            if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+                continue
+            current.append(cells)
+        elif current:
+            tables.append(current)
+            current = []
+    if current:
+        tables.append(current)
+    return tables
+
+
+def check_arithmetic() -> None:
+    if not COST_MD.exists():
+        record("ARI-00", "ARITHMETIC", "Cost proposal source present", False)
+        return
+
+    md = COST_MD.read_text(encoding="utf-8")
+
+    # Every table that carries a TOTAL row must add up.
+    bad = []
+    checked = 0
+    for table in md_tables(md):
+        total_row = next(
+            (r for r in table if r and r[0].strip().lower().lstrip("*").startswith("total")),
+            None,
+        )
+        if not total_row:
+            continue
+        for col in range(1, len(total_row)):
+            stated = parse_money(total_row[col].replace("**", ""))
+            if stated is None:
+                continue
+            parts = []
+            for row in table:
+                if row is total_row or len(row) <= col:
+                    continue
+                if row[0].strip().lower().lstrip("*").startswith(("total", "subtotal")):
+                    continue
+                v = parse_money(row[col].replace("**", ""))
+                if v is not None:
+                    parts.append(v)
+            if len(parts) < 2:
+                continue
+            checked += 1
+            if abs(sum(parts) - stated) > 0.51:
+                bad.append(f"col {col}: parts sum {sum(parts):,.0f} vs stated {stated:,.0f}")
+    record(
+        "ARI-01", "ARITHMETIC",
+        f"All totalled columns sum correctly ({checked} checked)",
+        not bad, True, "; ".join(bad[:6]),
+    )
+
+    # The ceiling.
+    figures = [parse_money(x) for x in re.findall(r"US\$\s?([\d,]+(?:\.\d+)?)", md)]
+    over = [f for f in figures if f and f > BUDGET_CEILING]
+    record(
+        "ARI-02", "ARITHMETIC",
+        f"No figure exceeds the US${BUDGET_CEILING:,} ceiling",
+        not over, True, f"{over[:4]}" if over else "",
+    )
+
+    # Payment schedule: percentages sum to 100, inception at or below 10%.
+    # Scoped to the payment schedule section, so the effort-by-deliverable
+    # table (which also carries percentages) is not swept in.
+    sched = re.search(
+        r"^##[^\n]*payment schedule[^\n]*\n(.*?)(?=^##\s|\Z)", md, re.I | re.M | re.S
+    )
+    sched_md = sched.group(1) if sched else ""
+    pct_rows = re.findall(r"\|([^|]*?)\|[^|]*\|[^|]*\|\s*\**(\d{1,3})%\**\s*\|", sched_md)
+    if pct_rows:
+        pcts = [
+            int(p) for label, p in pct_rows
+            if not label.strip().lower().lstrip("*").startswith("total")
+        ]
+        record(
+            "ARI-03", "ARITHMETIC",
+            "Payment schedule percentages sum to 100",
+            sum(pcts) == 100, True, f"sum is {sum(pcts)}",
+        )
+        inception = [
+            int(p) for label, p in pct_rows if re.search(r"inception", label, re.I)
+        ]
+        record(
+            "ARI-04", "ARITHMETIC",
+            f"Inception payment at or below {INCEPTION_CAP_PCT}%",
+            all(p <= INCEPTION_CAP_PCT for p in inception) if inception else False,
+            True, f"inception {inception}",
+        )
+    else:
+        record("ARI-03", "ARITHMETIC", "Payment schedule percentages parsed", False)
+
+    record(
+        "ARI-05", "ARITHMETIC",
+        "Cost figures use USD only, no other currency symbols",
+        not re.search(r"(?<![A-Z])(?:R\d|ZAR|EUR|€|£)", md), True,
+    )
+
+
+# ------------------------------------------------------------------ build ---
+
+def check_build() -> None:
+    for label, path in (("technical", TECH_PDF), ("cost", COST_PDF)):
+        if not path.exists():
+            continue
+        reader = PdfReader(str(path))
+        fonts = set()
+        for page in reader.pages:
+            res = page.get("/Resources", {})
+            for name in (res.get("/Font") or {}):
+                fonts.add(name)
+        record(
+            f"BLD-01/{label}", "BUILD",
+            f"{label}: PDF opens and carries embedded fonts",
+            len(reader.pages) > 0 and bool(fonts), True,
+        )
+        record(
+            f"BLD-02/{label}", "BUILD",
+            f"{label}: filename follows the submission convention",
+            path.name.startswith("EY_") and "CI_RFP_0032026" in path.name, True,
+        )
+
+    for name in ("compliance_matrix.md", "open_items.md"):
+        record(
+            f"BLD-03/{name}", "BUILD",
+            f"qa/{name} present",
+            (QA / name).exists(), True,
+        )
+
+    # Every compliance row must point somewhere real.
+    cm = QA / "compliance_matrix.md"
+    if cm.exists():
+        text = cm.read_text(encoding="utf-8")
+        rows = re.findall(r"^\|\s*(C-\d+)\s*\|", text, re.M)
+        unmapped = re.findall(r"^\|\s*C-\d+\s*\|[^|]*\|[^|]*\|[^|]*\|\s*(?:TBC|TBD|\?|)\s*\|", text, re.M)
+        record(
+            "BLD-04", "BUILD",
+            f"Compliance matrix populated ({len(rows)} rows)",
+            len(rows) >= 40, True, f"{len(rows)} rows",
+        )
+        record(
+            "BLD-05", "BUILD",
+            "Every compliance row maps to a location in the response",
+            not unmapped, True, f"{len(unmapped)} unmapped",
+        )
+
+
+# ------------------------------------------------------------------- main ---
+
+def main() -> None:
+    check_submission()
+    check_arithmetic()
+    check_build()
+
+    width = max(len(r.check) for r in results) + 2
+    current = None
+    hard_failures = 0
+    soft_failures = 0
+
+    for r in results:
+        if r.group != current:
+            current = r.group
+            print(f"\n{current}")
+            print("-" * (width + 22))
+        mark = "PASS" if r.passed else ("FAIL" if r.hard else "WARN")
+        if not r.passed:
+            if r.hard:
+                hard_failures += 1
+            else:
+                soft_failures += 1
+        detail = f"  {r.detail}" if r.detail and not r.passed else ""
+        print(f"  [{mark}] {r.ident:<18} {r.check:<{width}}{detail}")
+
+    total = len(results)
+    passed = sum(1 for r in results if r.passed)
+    print(f"\n{'=' * (width + 24)}")
+    print(f"  {passed}/{total} checks passed"
+          f"  |  {hard_failures} hard failure(s)"
+          f"  |  {soft_failures} warning(s)")
+    print(f"{'=' * (width + 24)}\n")
+
+    sys.exit(1 if hard_failures else 0)
+
+
+if __name__ == "__main__":
+    main()

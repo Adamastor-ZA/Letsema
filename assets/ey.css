@@ -1,0 +1,347 @@
+/* ==========================================================================
+   EY document style for Conservation International RFP 0032026
+   Brand values taken from the EY PowerPoint theme supplied in ./inputs
+   (ppt/theme/theme1.xml): EY Yellow FFE600, EY Grey 2E2E38, ink 1A1A24,
+   accents 2DB757 / 27ACAA / 188CE5 / 750E5C / FF4136 / FF6D00, link 0F69AE.
+   Typeface: EY Interstate is the brand font. It is not installed in this
+   build environment, so the stack falls back to Inter, which is metrically
+   close. Rebuild on a machine with EY Interstate to restore the brand font.
+   ========================================================================== */
+
+:root {
+  --ey-yellow: #FFE600;
+  --ey-grey:   #2E2E38;
+  --ey-ink:    #1A1A24;
+  --ey-green:  #2DB757;
+  --ey-teal:   #27ACAA;
+  --ey-blue:   #188CE5;
+  --ey-purple: #750E5C;
+  --ey-red:    #FF4136;
+  --ey-orange: #FF6D00;
+  --ey-link:   #0F69AE;
+  --rule:      #C4C4CD;
+  --rule-soft: #E7E7EA;
+  --wash:      #F6F6F8;
+}
+
+/* ---------------------------------------------------------------- page --- */
+
+@page {
+  size: A4;
+  margin: 17mm 16mm 16mm 16mm;
+
+  @top-left {
+    content: string(doctitle);
+    font-family: "EYInterstate Light", "EY Interstate", Inter, Roboto, "Liberation Sans", sans-serif;
+    font-size: 7pt;
+    letter-spacing: 0.04em;
+    color: #6B6B76;
+    vertical-align: bottom;
+    padding-bottom: 3mm;
+  }
+  @top-right {
+    content: "Conservation International  |  RFP 0032026";
+    font-family: "EYInterstate Light", "EY Interstate", Inter, Roboto, "Liberation Sans", sans-serif;
+    font-size: 7pt;
+    letter-spacing: 0.04em;
+    color: #6B6B76;
+    vertical-align: bottom;
+    padding-bottom: 3mm;
+  }
+  @bottom-left {
+    content: "EY  |  Confidential";
+    font-family: "EYInterstate Light", "EY Interstate", Inter, Roboto, "Liberation Sans", sans-serif;
+    font-size: 7pt;
+    color: #6B6B76;
+    vertical-align: top;
+    padding-top: 3mm;
+  }
+  @bottom-right {
+    content: "Page " counter(page) " of " counter(pages);
+    font-family: "EYInterstate Light", "EY Interstate", Inter, Roboto, "Liberation Sans", sans-serif;
+    font-size: 7pt;
+    color: #6B6B76;
+    vertical-align: top;
+    padding-top: 3mm;
+  }
+}
+
+/* Annex pages carry their own marker so a reader can see the body has ended */
+@page annex {
+  @top-left { content: string(doctitle) "  |  Annexes"; }
+}
+
+/* ---------------------------------------------------------------- base --- */
+
+html {
+  font-family: "EYInterstate Light", "EY Interstate", Inter, Roboto, "Liberation Sans", sans-serif;
+  font-size: 9.4pt;
+  line-height: 1.42;
+  color: var(--ey-grey);
+  -weasy-hyphens: none;
+}
+
+body { margin: 0; }
+
+p { margin: 0 0 3.2mm 0; text-align: left; }
+
+strong { font-weight: 600; color: var(--ey-ink); }
+/* Bold inside a reversed table header must not override the white. */
+th strong, th em, tr.total td strong, .kpi strong { color: inherit; }
+em { font-style: italic; }
+
+a { color: var(--ey-link); text-decoration: none; }
+
+/* ------------------------------------------------------------- masthead --- */
+/* Page one carries the title block inline rather than on a separate cover,
+   so that the five-page body cap is met on the strictest reading. */
+
+.masthead {
+  border-top: 3.2mm solid var(--ey-yellow);
+  padding-top: 5mm;
+  margin-bottom: 6mm;
+  string-set: doctitle attr(data-doctitle);
+}
+
+.masthead .eyebrow {
+  font-size: 7.4pt;
+  letter-spacing: 0.13em;
+  text-transform: uppercase;
+  color: var(--ey-grey);
+  font-weight: 600;
+  margin-bottom: 2.6mm;
+}
+
+.masthead h1 {
+  font-size: 19pt;
+  line-height: 1.16;
+  font-weight: 300;
+  color: var(--ey-ink);
+  margin: 0 0 2.2mm 0;
+  letter-spacing: -0.012em;
+}
+
+.masthead .subtitle {
+  font-size: 10.6pt;
+  font-weight: 400;
+  color: var(--ey-grey);
+  margin: 0 0 4.2mm 0;
+}
+
+.masthead .meta {
+  display: block;
+  font-size: 8pt;
+  color: #5A5A66;
+  border-top: 0.35mm solid var(--rule-soft);
+  padding-top: 2.4mm;
+}
+
+.masthead .meta span {
+  display: inline-block;
+  margin-right: 5.5mm;
+  margin-bottom: 0.8mm;
+}
+.masthead .meta span b { font-weight: 600; color: var(--ey-grey); }
+
+/* The EY logo asset was not supplied with the inputs. This block reserves
+   the correct position and proportion for it. See qa/open_items.md OI-18. */
+.logo-slot {
+  float: right;
+  width: 26mm;
+  height: 11mm;
+  margin: 0 0 3mm 6mm;
+  border: 0.3mm dashed var(--rule);
+  color: #9A9AA4;
+  font-size: 6.4pt;
+  text-align: center;
+  line-height: 11mm;
+  letter-spacing: 0.06em;
+}
+
+/* ------------------------------------------------------------- headings --- */
+
+h2 {
+  font-size: 11.4pt;
+  font-weight: 600;
+  color: var(--ey-ink);
+  margin: 6.4mm 0 2.6mm 0;
+  padding-bottom: 1.5mm;
+  border-bottom: 0.9mm solid var(--ey-yellow);
+  break-after: avoid;
+  page-break-after: avoid;
+  letter-spacing: -0.005em;
+}
+
+h2:first-of-type { margin-top: 0; }
+
+h3 {
+  font-size: 9.6pt;
+  font-weight: 600;
+  color: var(--ey-ink);
+  margin: 4.4mm 0 1.8mm 0;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+h4 {
+  font-size: 9.2pt;
+  font-weight: 600;
+  font-style: italic;
+  color: var(--ey-grey);
+  margin: 3.4mm 0 1.4mm 0;
+  break-after: avoid;
+  page-break-after: avoid;
+}
+
+/* ---------------------------------------------------------------- lists --- */
+
+ul, ol { margin: 0 0 3.2mm 0; padding-left: 5.2mm; }
+li { margin-bottom: 1.1mm; }
+ul { list-style: none; padding-left: 4.4mm; }
+ul > li::before {
+  content: "";
+  display: inline-block;
+  width: 1.5mm; height: 1.5mm;
+  background: var(--ey-yellow);
+  margin-left: -4.4mm;
+  margin-right: 2.9mm;
+  vertical-align: 0.35mm;
+}
+ol > li::marker { color: var(--ey-grey); font-weight: 600; }
+
+/* --------------------------------------------------------------- tables --- */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 7.9pt;
+  line-height: 1.32;
+  margin: 2.4mm 0 4mm 0;
+  break-inside: auto;
+}
+
+thead { display: table-header-group; }
+tr { break-inside: avoid; page-break-inside: avoid; }
+
+th {
+  background: var(--ey-grey);
+  color: #FFFFFF;
+  font-weight: 600;
+  text-align: left;
+  padding: 1.7mm 2.1mm;
+  border: 0;
+  vertical-align: bottom;
+}
+
+td {
+  padding: 1.5mm 2.1mm;
+  border-bottom: 0.25mm solid var(--rule-soft);
+  vertical-align: top;
+}
+
+tbody tr:nth-child(even) td { background: var(--wash); }
+
+/* right-align any cell holding money or a count */
+td.num, th.num { text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
+td.ctr, th.ctr { text-align: center; }
+
+tr.total td {
+  border-top: 0.6mm solid var(--ey-grey);
+  border-bottom: 0.6mm solid var(--ey-grey);
+  font-weight: 600;
+  background: #FFF9C4 !important;
+  color: var(--ey-ink);
+}
+
+tr.subtotal td {
+  border-top: 0.35mm solid var(--rule);
+  font-weight: 600;
+  background: var(--wash) !important;
+}
+
+caption {
+  caption-side: top;
+  text-align: left;
+  font-size: 8.2pt;
+  font-weight: 600;
+  color: var(--ey-ink);
+  padding-bottom: 1.4mm;
+}
+
+/* --------------------------------------------------------------- blocks --- */
+
+.callout {
+  border-left: 1.2mm solid var(--ey-yellow);
+  background: var(--wash);
+  padding: 2.8mm 3.4mm;
+  margin: 0 0 4mm 0;
+  font-size: 8.8pt;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+.note {
+  font-size: 7.6pt;
+  color: #5A5A66;
+  margin: -1.6mm 0 4mm 0;
+  line-height: 1.34;
+}
+
+.lede {
+  font-size: 10.2pt;
+  line-height: 1.4;
+  color: var(--ey-ink);
+  margin-bottom: 4mm;
+}
+
+/* A visible, unmissable placeholder. Never allowed to survive to the final
+   PDF; scripts/qa.py fails the build if any remain. */
+.todo, .placeholder {
+  background: #FFE600;
+  color: #1A1A24;
+  font-weight: 600;
+  padding: 0 0.9mm;
+  border-bottom: 0.4mm solid #B8A600;
+}
+
+/* ------------------------------------------------------------- columns --- */
+
+.cols-2 { column-count: 2; column-gap: 7mm; }
+.cols-2 > *:first-child { margin-top: 0; }
+
+.kpi-row { display: flex; gap: 3mm; margin: 0 0 4mm 0; }
+.kpi {
+  flex: 1;
+  border-top: 0.9mm solid var(--ey-yellow);
+  background: var(--wash);
+  padding: 2.4mm 2.8mm 2.6mm 2.8mm;
+}
+.kpi .v { font-size: 13pt; font-weight: 600; color: var(--ey-ink); line-height: 1.1; }
+.kpi .l { font-size: 7.2pt; color: #5A5A66; margin-top: 1mm; line-height: 1.28; }
+
+/* --------------------------------------------------------------- annexes --- */
+
+.annex-start {
+  break-before: page;
+  page-break-before: always;
+  page: annex;
+}
+
+.annex-start h2 {
+  border-bottom: 0.9mm solid var(--ey-grey);
+}
+
+.sig-block {
+  margin-top: 8mm;
+  border-top: 0.35mm solid var(--rule);
+  padding-top: 3.4mm;
+  font-size: 8.4pt;
+}
+
+hr {
+  border: 0;
+  border-top: 0.3mm solid var(--rule-soft);
+  margin: 5mm 0;
+}
+
+.tight { margin-bottom: 1.6mm; }
+.keep { break-inside: avoid; page-break-inside: avoid; }

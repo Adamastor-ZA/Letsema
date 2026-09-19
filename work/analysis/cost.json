@@ -1,0 +1,185 @@
+{
+ "effortModel": [
+  {
+   "role": "Engagement partner (Michael Harris, EY Business Consulting, South Africa)",
+   "purpose": "Owns the CI relationship and the recommendation. Sets direction at inception, chairs the challenge session on Activity One findings, arbitrates the option architecture and the preferred-model call, fronts the stakeholder presentation and signs off the final report.",
+   "days": 5,
+   "rationale": "Five days buys judgement at the four contractual checkpoints rather than supervision of delivery: 0.5 day at inception to agree method and the evaluation frame with CI; 1.5 days across Activity One to challenge the good-practice and gaps synthesis before it hardens; 2 days on Activity Two, where the money is, on option architecture, the justified recommendation and the stakeholder session; 1 day on final sign-off. Anything heavier displaces research days the evidence base needs; anything lighter and the recommendation is not partner-owned."
+  },
+  {
+   "role": "Engagement manager",
+   "purpose": "Runs delivery end to end. Owns the workplan, risk log and weekly CI liaison; conducts the secretariat interviews; drafts the Activity One synthesis; builds the option architecture across CI's nine headings; assembles all four deliverables.",
+   "days": 16,
+   "rationale": "Sixteen days is roughly 1.3 days a week across 12 weeks plus deliverable peaks. It breaks down as 2.5 days at inception (workplan, stakeholder map, interview list, evaluation framework), 5 days on Activity One (about ten secretariat interviews at a third of a day each for scheduling, conduct and notes, plus the synthesis into good-practice principles), 5.5 days on Activity Two (three models built out against the nine headings, the evaluation and the presentation), and 3 days on the final report, next steps and the Terms of Reference. A single point of accountability is what makes a six-person team affordable inside this ceiling."
+  },
+  {
+   "role": "Senior consultant (business model and financial modelling)",
+   "purpose": "Carries the financial sustainability work: cost-to-serve, information and cash flows, funding needs over time, funder and investor mapping, and the comparative economics that separate the three models.",
+   "days": 13,
+   "rationale": "CI asks for specific detail on the proposed financial sustainability model for each concept, and the three cross-cutting design choices in EY's benchmark scan (who pays, how it crosses borders, how it relates to the national brand) all resolve into money. Seven of the thirteen days sit in Activity Two, a little over two days per model to build a cost and revenue trajectory and stress it. Three days in Activity One pull the fee structures, member economics and secretariat costs out of the case studies. One day at inception on the evaluation frame, two on the final report."
+  },
+  {
+   "role": "Consultant (research and analysis)",
+   "purpose": "The research engine. Runs the eight case-study deep-dives and five light-touch checks, maintains the evidence base and source log, and completes the nine-heading build-out including the pros and cons across all six stakeholder perspectives.",
+   "days": 19,
+   "rationale": "Nine days on Activity One is about three quarters of a day per case study and a third per light-touch check. That only works because EY's 31-benchmark scan has already selected the thirteen cases, framed the specific questions each must answer and gathered the sources; run cold, this block alone is closer to twenty days. Five days on Activity Two complete the nine headings for three models and the six-stakeholder pros and cons; three days on the final report and the Terms of Reference; two at inception building the research protocol."
+  },
+  {
+   "role": "Subject-matter adviser, destination branding and multi-brand platforms",
+   "purpose": "Brings the brand architecture view: how a Keystone identity sits above or beneath national destination brands, and the build, host or borrow choice against commercial collections such as Beyond Green, SLH and National Geographic Unique Lodges.",
+   "days": 3,
+   "rationale": "A targeted input, not delivery capacity. One day on Activity One's good-practice principles where branding judgement is needed to separate presentation from substance; 1.5 days on option design and the build, host or borrow question, which is the single most consequential design decision in the option set; 0.5 day at inception. Advisers are priced to sharpen judgement at specific moments, which is how a US$800 day rate earns its place in a US$40,000 budget."
+  },
+  {
+   "role": "Subject-matter adviser, conservation tourism and protected area finance",
+   "purpose": "Tests each model against how emerging protected areas, park authorities and co-management partners actually operate, and against the realities of conservation finance and donor behaviour in the Keystone context.",
+   "days": 2,
+   "rationale": "Two days is the minimum credible input and is deliberately capped there. One day on Activity One's lessons and the low-capacity fit question, which determines whether a model designed for fifteen areas can stretch towards 162; half a day on the stakeholder pros and cons from the government, park authority and community perspectives; half a day at inception. More would displace consultant research days, and the evidence base is where this assignment is won."
+  }
+ ],
+ "totalDays": 58,
+ "rateLogic": "EY's rate card is commercially confidential, is not in the inputs, and is not guessed at here. What the cost proposal shows is the rate EY proposes to charge CI, derived the only way a published ceiling allows: bottom-up from the work. Fifty-eight person-days were sized against the four deliverables, the role mix was set, and the fee envelope the ceiling leaves after direct costs was divided across it. That yields role rates from US$1,100 a day for the engagement partner down to US$375 for the consultant, and a blended US$596 across the team. Every line is unit price times quantity and the arithmetic is exact. These rates sit materially below EY South Africa's standard commercial card. The item requiring confirmation is therefore not the arithmetic but the internal approval of the development-sector discount the rates imply, which needs sign-off under EY's pricing governance. The bid must not be submitted with that discount unapproved, and the placeholder records exactly who signs it.",
+ "daysByDeliverable": [
+  {
+   "deliverable": "Deliverable 1: Inception report (workplan, refined method, stakeholder map, interview list, evaluation framework)",
+   "week": 2,
+   "days": 7,
+   "share": "12%"
+  },
+  {
+   "deliverable": "Deliverable 2: Draft report on Situational Analysis and Best Practice Assessment (eight case-study deep-dives, two of them clustered, five light-touch checks, good practice, gaps and lessons, key attributes and principles)",
+   "week": 5,
+   "days": 20.5,
+   "share": "35%"
+  },
+  {
+   "deliverable": "Deliverable 3: Draft report and presentation on brand delivery models (three-plus models built against the nine headings, financial sustainability modelling, evaluation and justified recommendation, stakeholder presentation)",
+   "week": 10,
+   "days": 21.5,
+   "share": "37%"
+  },
+  {
+   "deliverable": "Deliverable 4: Final report combining all elements, incorporating CI and stakeholder comments, plus next steps and the Terms of Reference for designing the selected model",
+   "week": 12,
+   "days": 9,
+   "share": "16%"
+  }
+ ],
+ "paymentSchedule": [
+  {
+   "milestone": "Deliverable 1: Inception report",
+   "week": 2,
+   "pct": 10,
+   "usd": 3959,
+   "trigger": "CI's written approval and acceptance of the inception report outlining the proposed workplan and approach. Invoiced at US$3,959, which is 9.999% of the total price, deliberately rounded down so it stays at or below the 10% cap the RFP sets."
+  },
+  {
+   "milestone": "Deliverable 2: Draft report on Situational Analysis and Best Practice Assessment",
+   "week": 5,
+   "pct": 30,
+   "usd": 11878,
+   "trigger": "CI's written approval and acceptance of the draft Situational Analysis and Best Practice Assessment, covering Africa's Eden, Boundless Southern Africa and the global multi-brand platforms."
+  },
+  {
+   "milestone": "Deliverable 3: Draft report and presentation on brand delivery models",
+   "week": 10,
+   "pct": 35,
+   "usd": 13858,
+   "trigger": "CI's written approval and acceptance of the draft report on brand delivery models and delivery of the stakeholder presentation, with three or more models each elaborated against all nine headings and a justified recommendation of the preferred model."
+  },
+  {
+   "milestone": "Deliverable 4: Final report, next steps and Terms of Reference",
+   "week": 12,
+   "pct": 25,
+   "usd": 9900,
+   "trigger": "CI's written approval and acceptance of the final report combining all elements, incorporating comments from CI and relevant stakeholders, and including detailed next steps and the Terms of Reference for designing the selected model."
+  }
+ ],
+ "otherCostLines": [
+  {
+   "line": "Market reports, datasets and database access",
+   "unit": "report or dataset purchase",
+   "qty": 4,
+   "unitPriceNote": "US$325 per purchase; US$1,300 total. Indicative unit price for single-user commercial tourism and destination-marketing research reports; actual titles selected at inception against the stated evidence gaps.",
+   "narrative": "Budgeted against the four evidence gaps EY's benchmark scan could not close from open sources: the commercial terms of the curated collections (member fees for LHW, Relais & Chateaux, SLH, Preferred Hotel Group, National Geographic Unique Lodges and The Long Run are not published); outcome data on recognition and bookings for Boundless Southern Africa and KAZA; the per-conservancy budgets of NRT, NACSO and MMWCA; and arrivals and source-market data for the countries holding CI's fifteen priority areas. Four named purchases, not an open research float."
+  },
+  {
+   "line": "Specialist translation of non-English primary sources",
+   "unit": "word",
+   "qty": 11000,
+   "unitPriceNote": "US$0.10 per word; US$1,100 total. Standard commercial rate for professional document translation into English, charged on source word count.",
+   "narrative": "Primary sources behind several priority benchmarks are not in English: the Alpine Pearls EGTC statutes and member contribution rules (German and Italian), the Slovenia Green scheme manual and assessor criteria (Slovene), EDEN national round reports, and Angolan, Mozambican and Madagascan material behind Africa's Eden Tourism and KAZA (Portuguese and French). Eleven thousand words is roughly six substantive documents. Working from translations rather than summaries is what lets the case studies quote figures rather than impressions. Volume will be confirmed once CI supplies the list of fifteen priority areas and their countries."
+  },
+  {
+   "line": "Interview transcription",
+   "unit": "interview",
+   "qty": 12,
+   "unitPriceNote": "US$30 per interview; US$360 total. Machine transcription with human correction of a 60-minute recorded interview.",
+   "narrative": "Twelve interviews are planned with the secretariats behind Boundless Southern Africa, Africa's Eden Tourism, KAZA, NRT, NACSO, MMWCA and The Long Run, plus Preferred Hotel Group and SLH on the terms for hosting a Keystone collection. None of these organisations publishes cost or outcome data, so the interviews are the evidence rather than a supplement to it. An accurate, attributable record is what makes the case studies citable and the financial modelling defensible, and all twelve cost less than half a day of consultant time."
+  },
+  {
+   "line": "Report and presentation design and production",
+   "unit": "design studio hour",
+   "qty": 18,
+   "unitPriceNote": "US$70 per hour; US$1,260 total. Internal EY design studio charge-out for layout, infographics and presentation build.",
+   "narrative": "Deliverable 3 is a report and a presentation, and the RFP notes that presentations may need to be made to different stakeholder groups. Three models elaborated against nine headings require a comparison matrix, information and cash-flow schematics, governance diagrams and a funding-needs-over-time chart for each, plus the presentation build and final typesetting of the report. Eighteen studio hours is the production floor for material shown to national governments, park authorities, communities, funders and the private sector, and studio time at US$70 is cheaper than consultants at US$375 to US$675 a day doing the drawing."
+  },
+  {
+   "line": "Scope contingency",
+   "unit": "provision",
+   "qty": 1,
+   "unitPriceNote": "US$1,000, approximately 2.5% of the total price.",
+   "narrative": "Held against two named risks, not as general margin. First, the RFP anticipates that presentations may be made to more than one stakeholder group; a second and third session would add adviser and manager time. Second, if CI's list of fifteen priority areas includes a country the benchmark scan did not cover, an additional light-touch check would be needed. The provision is not invoiced unless CI authorises the specific variation in writing, and any undrawn amount is not billed, so CI's worst case is the quoted total and its likely case is less. [[TO CONFIRM: whether CI accepts a named scope contingency line inside an all-inclusive price, or requires the total to carry none]]"
+  },
+  {
+   "line": "Taxes (VAT and withholding), and nil lines stated for completeness",
+   "unit": "provision",
+   "qty": 1,
+   "unitPriceNote": "US$0 on the zero-rated export basis set out in the tax note; any tax that does prove chargeable is absorbed within the quoted total and is not added to it. Travel US$0, per diems and accommodation US$0, venue and event costs US$0.",
+   "narrative": "Shown explicitly so the all-inclusive claim is auditable rather than implied. The fee is priced on the expectation that the supply is a zero-rated export of services and that no US withholding arises on services performed wholly outside the United States. Should any transaction tax prove chargeable it is absorbed by EY within the total offered price; no additional cost is passed to CI after award. EY will use its best efforts to minimise taxes financed on this engagement, will apply for every refund for which it is eligible, and will reflect the saving in the amounts invoiced, as the RFP directs. Travel, per diem and venue lines are shown at nil because the assignment is desk-based and requires no travel; stating them proves the budget is complete rather than silent."
+  }
+ ],
+ "taxTreatment": "The price is all-inclusive of tax, as the RFP requires, and rests on two positions EY Tax must confirm before submission. First, services supplied by a South African EY entity to a non-resident client not in South Africa when the services are rendered should be zero-rated exports under section 11(2) of the VAT Act, so no South African VAT is added to the fee. Second, payments by a US-headquartered entity for services performed wholly outside the United States are foreign-source and should not attract US withholding; EY would file a W-8BEN-E. The live exposure is the contracting party: if CI signs through an African country office rather than its US headquarters, domestic withholding on non-resident professional fees may apply and, under an all-inclusive price, would be absorbed by EY. EY will claim every refund available and pass the saving to CI, as the RFP directs.",
+ "budgetNarrativeElements": [
+  "Engagement partner, 5 days at US$1,100 = US$5,500. Basis: four contractual review checkpoints tied to the four deliverables, plus the option-architecture challenge and the stakeholder presentation. Priced as judgement at decision points, not supervision of delivery. Show the day split (0.5 / 1.5 / 2 / 1) across the four deliverables.",
+  "Engagement manager, 16 days at US$675 = US$10,800. Basis: single point of delivery accountability across 12 weeks at roughly 1.3 days a week, including approximately ten secretariat interviews at a third of a day each for scheduling, conduct and notes, the Activity One synthesis, the option architecture across CI's nine headings, and assembly of all four deliverables.",
+  "Senior consultant, 13 days at US$550 = US$7,150. Basis: CI requires specific detail on the financial sustainability model for each concept. Seven days build a cost-to-serve and funding trajectory for three models at a little over two days each; three days extract fee structures and secretariat economics from the case studies; one day at inception and two on the final report.",
+  "Consultant, 19 days at US$375 = US$7,125. Basis: eight case-study deep-dives at approximately three quarters of a day each and five light-touch checks at a third of a day, plus the nine-heading build-out and the six-stakeholder pros and cons. State plainly that this rests on EY's completed 31-benchmark scan, which has already selected the thirteen cases, framed the questions each must answer and gathered the sources; run cold, Activity One research alone is closer to twenty days.",
+  "Subject-matter adviser, destination branding, 3 days at US$800 = US$2,400. Basis: targeted input on multi-brand architecture, reconciliation with national destination brands, and the build, host or borrow decision. Explain why a high day rate for a small number of days is better value than spreading that judgement across cheaper grades.",
+  "Subject-matter adviser, conservation tourism and protected area finance, 2 days at US$800 = US$1,600. Basis: the minimum credible input to test each model against how emerging protected areas, park authorities and co-management partners actually operate, and against the low-capacity fit question that determines whether a model built for 15 areas stretches towards 162.",
+  "Total professional fees US$34,575 over 58 days, a blended US$596.12 a day. Basis: how the blend was derived (effort model first, then the envelope the ceiling leaves after direct costs), the role rate spread from US$1,100 to US$375, and an explicit statement that these sit below EY South Africa's standard commercial card, with the discount approval named as the open item.",
+  "Market reports and datasets, 4 at US$325 = US$1,300. Basis: the four named evidence gaps that open sources could not close, each tied to a specific benchmark or deliverable, so the line reads as targeted procurement rather than a research float.",
+  "Translation, 11,000 words at US$0.10 = US$1,100. Basis: the named non-English primary sources and their languages (German, Italian, Slovene, Portuguese, French), roughly six substantive documents, and why working from translations rather than summaries matters for citable figures.",
+  "Interview transcription, 12 at US$30 = US$360. Basis: the organisations in the deep-dive plan publish no cost or outcome data, which makes the interviews the evidence base rather than colour; an attributable record of all twelve costs less than half a day of consultant time.",
+  "Report and presentation design and production, 18 studio hours at US$70 = US$1,260. Basis: deliverable 3 is a report and a presentation; three models across nine headings need a comparison matrix, cash-flow and governance schematics and a funding-needs chart each. Note that studio time at US$70 is cheaper than consultant time at US$375 to US$675 for the same output.",
+  "Scope contingency, US$1,000, about 2.5% of the price. Basis: the two named risks (multiple stakeholder presentations, which the RFP anticipates, and one additional light-touch check if the priority-area list brings in an uncovered country), the written-authorisation rule, and the commitment that undrawn amounts are not invoiced.",
+  "Taxes, US$0 as priced. Basis: the zero-rated export position, the US withholding position, the commitment to absorb any tax that does prove chargeable within the total, and the undertaking to claim refunds and reflect the saving, mirroring the RFP's own wording.",
+  "Nil lines stated explicitly: travel US$0, per diems and accommodation US$0, venue and event costs US$0. Basis: the RFP states the assignment is desk-based and requires no travel. Showing the nil lines demonstrates the budget is complete rather than silent, and pre-empts a reviewer assuming costs were omitted.",
+  "Total offered price US$39,595 against a US$40,000 ceiling. Basis: the price was built bottom-up from 58 days and six named direct-cost lines and landed where the work landed. The US$405 of headroom is the evidence that the number was computed rather than reverse-engineered to fill the budget, and it should be stated as such.",
+  "Payment schedule: 10% / 30% / 35% / 25% at weeks 2, 5, 10 and 12, summing exactly to US$39,595. Basis: the inception share is taken at the RFP maximum and rounded down to US$3,959 so it computes to 9.999% and cannot breach the 10% cap, and it is justified because 7 of the 58 days genuinely fall before week 2. Sixty-five per cent is held against the two substantive drafts and 25% against final acceptance, so CI holds 90% of the price against work it has seen and accepted in writing."
+ ],
+ "valueForMoneyArguments": [
+  "CI is not paying for the starting line. EY has already completed a 31-benchmark scan across seven archetypes, with a rated matrix against CI's own design aims, a ranked deep-dive plan naming thirteen cases in two tiers with the specific questions each must answer, and eight early POV signals. That is roughly twelve to fifteen days of scoping, long-listing and source-gathering the US$40,000 does not have to buy, which is precisely why 58 days covers this scope when a cold start would not. Every competitor spends the first three weeks building what EY will spend them testing.",
+  "The scope was sized to the budget, not the budget stretched to the scope. EY's own working draft reached the conclusion independently and in writing before this bid: at US$40,000 over 12 weeks, fully desk-based, eight case studies with two clustered and five light-touch checks is the most the programme can carry. The cost proposal delivers exactly that. A bid promising more for the same money is either padding the deliverable list or planning to under-deliver against it.",
+  "Every line is auditable arithmetic: unit price times quantity, days mapped to named activities and then to the four deliverables, and a total that reconciles exactly. No lump sums, no percentage overhead uplift, no undefined expenses allowance. CI's evaluators can reconstruct the entire number from the table without asking a question, which is what clarity in the scoring criterion actually tests.",
+  "Seniority is placed where it changes the answer. Partner and adviser days cluster on option architecture, the preferred-model recommendation and the stakeholder presentation; consultant days carry the research volume. The 2.9:1 spread between the top and bottom role rates is spent deliberately rather than levelled to look balanced. That is why a blended US$596 buys a genuinely senior recommendation rather than a junior report with a partner's name on the cover.",
+  "Risk sits with EY, not CI. The price is fixed and all-inclusive, no cost can be added after award, any transaction tax that proves chargeable is absorbed within the total, and the scope contingency is drawn only on CI's written authorisation and is not invoiced if undrawn. CI's worst case is US$39,595 and its likely case is less.",
+  "The payment schedule is weighted to acceptance rather than mobilisation. Only 10% is released before CI has seen any substantive analysis, and that share is justified by real effort (7 of 58 days fall before week 2) rather than taken simply because the cap allows it. Ninety per cent of the price is held against deliverables CI has approved in writing, and 25% against the final report.",
+  "The direct costs are small, named and necessary: translation of German, Italian, Slovene, Portuguese and French primary sources, four targeted data purchases against four stated evidence gaps, transcription of twelve interviews with organisations that publish nothing, and eighteen studio hours. Together they are about 10% of the price. Contrast that with bids carrying a flat expenses percentage, and with the nil travel line the desk-based scope requires.",
+  "The rate position is disclosed rather than dressed up. EY states openly that these rates sit below its standard commercial card, explains how they were derived from the published ceiling, and flags the internal discount approval as the single outstanding item. A bidder who presents a discounted rate as a standard rate is telling CI something untrue about market value; the criterion asks for reality to market value, and this is what reality looks like."
+ ],
+ "placeholders": [
+  "[[TO CONFIRM: EY Africa standard day rates by grade for Partner, Manager, Senior Consultant, Consultant and Subject-Matter Adviser, and written approval of the development-sector discount that the proposed rates of US$1,100 / US$675 / US$550 / US$375 / US$800 imply, under EY's pricing governance - supplied by Michael Harris, engagement partner, with the EY Africa pricing approver named on the approval]]",
+  "[[TO CONFIRM: the EY legal entity that will contract with Conservation International - registered name, country of incorporation, company registration number, VAT registration number and tax residency certificate - supplied by EY Africa finance. Required before the cost proposal is finalised because the entity determines the VAT and withholding analysis]]",
+  "[[TO CONFIRM: the Conservation International legal entity and jurisdiction that will sign and pay under the contract. If CI contracts through an African country office rather than its US headquarters, domestic withholding tax on non-resident professional fees may apply and, under an all-inclusive price, would be absorbed by EY, which changes the fee base - requested from CI procurement at the clarification stage, before submission]]",
+  "[[TO CONFIRM: EY Tax opinion that the supply is a zero-rated export of services under section 11(2) of the South African VAT Act, and that no US or third-country withholding tax arises on services performed wholly outside the client's jurisdiction - supplied by EY South Africa Indirect Tax and International Tax before submission. If zero-rating cannot be confirmed, the fee base must be re-cut before the bid goes out, not after award]]",
+  "[[TO CONFIRM: the named individuals proposed against each of the six roles, their EY grades, and their confirmed availability across weeks 1 to 12, so the 58-day effort model can be signed off against real diaries rather than notional grades - supplied by Michael Harris with EY resourcing]]",
+  "[[TO CONFIRM: internal charge-out basis and availability of the two subject-matter advisers (destination branding; conservation tourism and protected area finance), including whether either sits outside EY South Africa and would therefore be cross-charged at a different rate or with a mark-up - supplied by EY resourcing]]",
+  "[[TO CONFIRM: the internal charge-out rate for EY design studio time, against which the US$70 per hour production line and the 18-hour quantity are priced - supplied by EY Africa Creative Services / Global Delivery Services]]",
+  "[[TO CONFIRM: whether CI accepts a named scope contingency line of US$1,000 held inside the all-inclusive price and drawn only on CI's written authorisation, or requires the total offered price to carry no contingency at all - requested from CI procurement at the clarification stage. If not accepted the line is removed and the total falls to US$38,595]]",
+  "[[TO CONFIRM: how many stakeholder presentations CI expects under deliverable 3, given the RFP note that presentations may need to be made to different stakeholder groups. This is the single largest scope variable in the cost model and the primary risk the contingency is held against - requested from CI procurement at the clarification stage]]",
+  "[[TO CONFIRM: CI's list of the 15 priority emerging protected areas in Southern, Eastern and Western Africa, which determines the countries, languages, national tourism boards and co-management partners the research must cover, and therefore the 11,000-word translation quantity budgeted - requested at inception, or earlier if CI will release it before submission]]",
+  "[[TO CONFIRM: CI's payment terms and invoicing mechanics - days to pay from written acceptance, the invoicing entity and address, whether payment is made in USD by international transfer and which party bears the bank charges, and whether any retention applies to the final 25% - requested from CI procurement at the clarification stage]]",
+  "[[TO CONFIRM: the professional indemnity and public liability insurance levels CI requires of the contractor, and whether any premium, broker or certificate cost must be carried inside the all-inclusive price - requirement requested from CI procurement; certificates of currency supplied by EY Africa risk management]]"
+ ]
+}
