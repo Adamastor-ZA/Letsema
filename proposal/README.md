@@ -82,8 +82,9 @@ The first is where the marks are. Relevant experience, services in the last
 three years with samples, geographical reach and staff qualifications carry 60
 of the 70 technical marks between them, and all of it rests on EY credentials,
 client references, CVs and work samples that were not in the inputs. The five
-pages EY can write unaided are worth 10 marks. Clearance, consent and CV
-collection are the critical path, not drafting.
+pages EY can write unaided are worth 10 marks. Clearance, consent and CV collection have
+lead times that drafting does not, so they start first. That is a sequencing
+point, not a judgement on the writing.
 
 The second is that the RFP itself is incomplete. The copy supplied begins at
 Section 2, so the instructions to bidders are absent, and the "Level of Effort

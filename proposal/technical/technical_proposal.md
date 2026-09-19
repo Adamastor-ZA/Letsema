@@ -24,7 +24,7 @@ One instruction in the terms of reference is easy to read past and hard to satis
 
 We have already built the Activity One long-list. Ahead of this proposal and at our own cost, our team completed a benchmark scan of 31 brands, networks and mechanisms, sorted into seven archetypes by what the central entity actually does, from shared services at one end to curated commercial collectives at the other. Each is profiled on scale and offer, funding, governance and read-across for CI, then rated against nine criteria: six of CI's seven design aims, two delivery conditions drawn from Activity Two and the strength of African evidence. The scan covers both initiatives CI names, Africa's Eden Tourism and Boundless Southern Africa, alongside KAZA's 'Rivers of Life', the conservancy associations, the site and enterprise standards, the commercial collections and the revenue engines. Annex F reproduces the archetype map and the rating matrix.
 
-That work changes the arithmetic of 12 weeks. A conventional bid spends weeks one to five finding out who is out there. We spend them verifying published figures against primary sources, running the 13 deep-dives the scan has already identified and interviewing the secretariats that publish nothing at all. It also fixes the structure: CI's nine model-elaboration headings become the template every deep-dive is written to, and the rating matrix becomes the scoring frame for the options, so evidence carries straight from Activity One into Activity Two without re-cutting.
+That work changes the arithmetic of 12 weeks. Starting from nothing, weeks one to five go on finding out who is out there. We spend them instead verifying published figures against primary sources, running the 13 deep-dives the scan has already identified and interviewing the secretariats that publish nothing at all. It also fixes the structure: CI's nine model-elaboration headings become the template every deep-dive is written to, and the rating matrix becomes the scoring frame for the options, so evidence carries straight from Activity One into Activity Two without re-cutting.
 
 <div class="callout" markdown="1">
 **What the head start buys CI.** Interview requests go out in week one rather than week four. That matters because Boundless Southern Africa, Africa's Eden Tourism, The Long Run and Preferred Hotel Group publish neither fees nor outcomes, and in our experience a cold approach to a regional secretariat takes three to four weeks to produce a substantive reply. Measured to the week 10 draft, the terms nobody publishes get nine weeks to surface instead of six.
@@ -63,15 +63,17 @@ The plan holds the four contractual dates and leaves two clear weeks for CI and 
 
 | Weeks | Activity | Work | Deliverable | What CI provides |
 |---|---|---|---|---|
-| 1-2 | Inception | Kick-off, confirm the 15 priority areas, agree interview list, scope and evaluation criteria, issue interview requests | **Inception report** (week 2) | Priority-area list, stakeholder contacts, kick-off attendance |
-| 3-5 | One | Deep-dives against the nine headings; primary interviews; best-practice synthesis and design principles | **Draft situational analysis and best practice assessment** (week 5) | Introductions to named secretariats |
-| 6-7 | One / Two | Demand-side and segment read; CI comment on the draft; option architecture; screening session in week 7; financial sustainability modelling | Option architecture note and screening record | Comments on the week 5 draft by mid-week 7; screening attendance |
-| 8-9 | Two | Full elaboration of each option to the nine headings; stakeholder pros and cons; scoring against CI design aims | Draft option set for internal review | - |
-| 10 | Two | Recommendation and expected results; presentation to CI and nominated stakeholders | **Draft report and presentation on brand delivery models** (week 10) | Stakeholder convening, presentation attendance |
+| 1-2 | Inception | Kick-off; confirm the 15 areas; agree scope, evaluation frame and interview list; issue interview requests | **Inception report** (week 2) | Priority-area list, stakeholder contacts, kick-off |
+| 3-5 | One | Source verification; 13 deep-dives against the nine headings; interviews; synthesis and design principles | **Draft situational analysis and best practice assessment** (week 5) | Introductions to named secretariats |
+| 6-7 | One / Two | Demand-side read; option architecture; week 7 screening session; financial modelling | Option architecture note and screening record | Comments on the week 5 draft by mid-week 7; screening |
+| 8-9 | Two | Elaboration of each carried option to the nine headings; stakeholder pros and cons; scoring | Draft option set for internal review | - |
+| 10 | Two | Recommendation and expected results; presentation to CI and nominated stakeholders | **Draft report and presentation on brand delivery models** (week 10) | Stakeholder convening and attendance |
 | 11 | Two / Three | Adapt the preferred model on feedback; implementation path; draft Terms of Reference | - | Consolidated comments by end of week 11 |
 | 12 | Three | Final report combining all elements | **Final report** (week 12) | Acceptance |
 
 Deliverables are submitted in English, in editable format and as PDF, with a slide presentation for deliverable 3. The assignment is desk-based and no travel is assumed. Interviews and the stakeholder presentation are conducted virtually.
+
+Part 1 also calls for a detailed reference list showing the scope and magnitude of similar assignments, and for the relevant services of the past five years. Both are at section 9 and Annex C, held there so that this body stays inside the five-page cap.
 
 ## Part 2: Management, key personnel and staffing
 
@@ -81,12 +83,12 @@ The engagement is led by Michael Harris, Partner, EY Business Consulting, South 
 
 | Role | On this assignment | Named individual |
 |---|---|---|
-| Engagement partner | Direction, quality review of every deliverable, CI escalation, stakeholder presentation | Michael Harris, Partner, EY Business Consulting, South Africa |
-| Engagement manager | Delivery, work plan, interview programme, drafting lead across all three activities | [[TO CONFIRM: named manager, grade and CV]] |
-| Senior consultant, business models and finance | Financial sustainability modelling for each option, cash-flow and funding-need analysis, budget architecture | [[TO CONFIRM: named senior consultant, financial modelling and business planning, CV]] |
-| Consultant, research and analysis | Deep-dive research, interview support, evidence base and source control | [[TO CONFIRM: named consultant, CV]] |
-| Subject-matter adviser, destination branding | Brand architecture, destination brand alignment, review of the option set | [[TO CONFIRM: named destination branding adviser; EY-employed or consortium partner]] |
-| Subject-matter adviser, conservation and protected-area tourism | Protected-area context, conservation-led design, community and co-management perspectives | [[TO CONFIRM: named conservation tourism adviser; EY-employed or consortium partner]] |
+| Engagement partner | Direction, quality review of every deliverable, CI escalation, presentation | Michael Harris, Partner, EY Business Consulting, South Africa |
+| Engagement manager | Delivery, work plan, interview programme, drafting lead | [[TO CONFIRM: named manager, grade and CV]] |
+| Senior consultant, business models and finance | Financial sustainability model behind each option; cash flows and funding needs | [[TO CONFIRM: named senior consultant, financial modelling and business planning, CV]] |
+| Consultant, research and analysis | Deep-dives, source verification, interview support, evidence base | [[TO CONFIRM: named consultant, CV]] |
+| Adviser, destination branding | Brand architecture, national brand alignment, review of the option set | [[TO CONFIRM: named adviser; EY-employed or consortium partner]] |
+| Adviser, conservation and protected-area tourism | Conservation-led design, community and co-management perspectives | [[TO CONFIRM: named adviser; EY-employed or consortium partner]] |
 
 CVs are at Annex A. Effort by role is set out in the separate Cost Proposal.
 
@@ -106,13 +108,13 @@ The RFP sets eight minimum skills for all offerors. Annex C maps EY's evidence a
 
 [[TO CONFIRM: five to eight assignments from the last five years, each with client, year, value, scope and outcome, of which at least three from the last three years carry a sample of the work delivered that has been cleared for release. Annex C. Criteria 1.2 and 2.2 together carry 35 of the 70 technical points and are scored on this material. Client consent and release clearance are the critical path and should start before anything else in this response is drafted.]]
 
-One sample is offered now, and it is not a client engagement. The benchmark scan described at section 2 is EY's own pre-bid research on precisely this question, produced at EY's cost, covering 31 benchmarks across seven archetypes including both initiatives CI names. We offer it as evidence of capability and of head start rather than as a service delivered to a client, and an extract is at Annex F.
+One sample is offered now, and it is not a client engagement. The benchmark scan described at section 2 is EY's own pre-bid research on precisely this question, produced at EY's cost, covering 31 benchmarks across seven archetypes including both initiatives CI names. We offer it as evidence of capability and of head start rather than as a service delivered to a client, and an extract is at Annex F. [[TO CONFIRM: EY internal clearance to release the extract externally, and confirmation that the unverified-figures caveat carried at Annex F is the form EY wants it released in.]]
 
 ### 10. Geographical reach and familiarity
 
 We argue this in three layers, and each is falsifiable. First, network: EY member firms in the countries holding CI's priority areas, stated country by country with entity, office and consulting headcount. [[TO CONFIRM: country-by-country EY footprint, once CI releases the list of 15 areas.]] Second, delivery: assignments actually run in Southern, Eastern and Western Africa in the last five years, named by country and year, because presence without delivery reads as a map rather than as experience. [[TO CONFIRM: Africa assignment list by country and year.]]
 
-Third, subject familiarity. The evidence base for this assignment is itself Southern and Eastern African. The two initiatives CI names are a SADC-hosted secretariat and a Botswana-domiciled association. The conservancy associations that matter are Kenyan and Namibian. The clearest African precedent for CI's revenue-engine ideas, the SANParks Wild Card, pools more than 80 parks across five South African and Eswatini agencies. A South Africa-led team sits at the centre of gravity of that material rather than at its edge.
+Third, subject familiarity. The African evidence this assignment turns on is concentrated in Southern and Eastern Africa. The two initiatives CI names are a SADC-hosted secretariat and a Botswana-domiciled association. The conservancy associations that matter are Kenyan and Namibian. The clearest African precedent for CI's revenue-engine ideas, the SANParks Wild Card, pools more than 80 parks across five South African and Eswatini agencies. A South Africa-led team sits at the centre of gravity of that material rather than at its edge.
 
 We should be plain about Western Africa. The RFP describes the 15 areas as being in Southern and Eastern Africa in one sentence and across Southern, Eastern and Western Africa in the next, and the published record on regional destination branding is thin in Western Africa for everyone working on this question. Francophone and Lusophone reach needs named people rather than a network claim, and we will close that at inception once CI confirms the list.
 

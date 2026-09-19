@@ -59,9 +59,9 @@ Every cost requirement in RFP 0032026, mapped to the place in this cost proposal
 | Adviser, conservation and protected-area tourism | 2 | 800 | 1,600 |
 | **Total professional fees** | **58** | | **36,000** |
 
-The rates above are the rates EY proposes to charge CI on this assignment. They were derived the only way a published ceiling allows, which is bottom-up from the work: the 58 days were sized against the four deliverables, the role mix was set, and the fee envelope the ceiling leaves after direct costs was divided across it. They sit materially below EY South Africa's standard commercial rates.
+The rates above are the rates EY proposes to charge CI on this assignment. They were derived the only way a published ceiling allows, which is bottom-up from the work: the 58 days were sized against the four deliverables, the role mix was set, and the fee envelope the ceiling leaves after direct costs was divided across it. Every line is unit price times quantity and the arithmetic is exact.
 
-[[TO CONFIRM: internal approval of the development-sector discount these rates imply, under EY pricing governance. Owner: Michael Harris with EY Africa pricing. The arithmetic in this proposal does not change on approval; only the disclosed standard rates would be added at Annex A. The bid must not be submitted with the discount unapproved.]]
+[[TO CONFIRM: EY Africa standard rate card by grade, and internal approval of these rates under EY pricing governance including any discount they represent. Owner: Michael Harris with EY Africa pricing. The rate card is not among the inputs used to build this proposal, so nothing is claimed here about how these rates compare to it. The arithmetic does not change on approval. The bid must not be submitted before the rates are approved.]]
 
 ## 3. Direct costs
 
@@ -115,11 +115,15 @@ The RFP requires an explanation of the basis of every cost element. Each line is
 
 **Consultant, research and analysis, 19 days.** The largest day count, because the verification and deep-dive work is the largest single task. It covers source-grading every figure in the existing scan against its primary source, the 13 deep-dives written to CI's nine headings, interview scheduling and notes, and source control across all four deliverables.
 
+**Activity Three, inside deliverable 4.** Of the 10 days on the final deliverable, 6 cover the final report and the incorporation of CI's comments and 4 cover Activity Three itself: the implementation path, the further research and sensitisation plan, and the drafting of the Terms of Reference for the assignment that follows. Activity Three is a contractual activity in its own right, so it is costed rather than absorbed.
+
+**Revision allowance.** One consolidated CI comment round on each draft deliverable is carried inside the figures above, at roughly one manager day on the week 5 draft and two days across the manager and advisers on the week 10 draft. CI's approval and acceptance is the stated acceptance criterion for both, so revision is contracted work rather than goodwill.
+
 **Advisers, 3 and 2 days.** Two specialist inputs. The destination branding adviser contributes to the design principles, tests brand architecture and alignment with national destination brands, and reviews the option set. The conservation and protected-area tourism adviser tests conservation-led design and the community and co-management perspectives. These are review-and-challenge inputs, which is the correct use of specialist time at this budget.
 
 ### Direct costs
 
-**Market reports, datasets and database access, US$1,400.** Four targeted purchases at US$350 each, against four named evidence gaps the benchmark scan has already identified: commercial terms for the hosted-collection option, published outcome data on transfrontier destination brands, conservancy association cost-per-site data, and the European Commission's 2019 EDEN evaluation study. Single-user commercial licence pricing.
+**Market reports, datasets and database access, US$1,400.** Four targeted purchases at US$350 each, at single-user commercial licence pricing. These buy what a published source can actually supply: inbound arrivals and source-market data for the priority countries, which the demand-side step depends on, and specific evaluation and scheme documents that are not free, among them the European Commission's 2019 EDEN evaluation study. The commercial terms and association costs that nobody publishes cannot be bought at any price, which is why they sit in the interview programme instead.
 
 **Specialist translation of non-English primary sources, US$1,000.** Ten thousand words at US$0.10 a word, the standard commercial rate for professional document translation. The primary sources for several benchmarks are not published in English. Alpine Pearls documentation is German and Italian; Slovenia Green is Slovene; and the Lusophone and Francophone jurisdictions among CI's priority areas will require Portuguese and French.
 
