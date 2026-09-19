@@ -14,6 +14,18 @@ Two PDFs, submitted separately as the RFP requires, plus one form CI must issue.
 | `build/EY_Cost_Proposal_CI_RFP_0032026.pdf` | Budget, budget narrative, payment schedule, Annexes A to C |
 | Offeror Representation of Transparency, Integrity and Social Responsibility | CI-issued form, not generated here. See `qa/open_items.md` OI-01. |
 
+The same two responses also exist as PowerPoint decks, built on EY's own master
+template. They are a walkthrough of the submission, not a submission item: the
+RFP asks for two PDFs.
+
+| File | Contents |
+|---|---|
+| `build/EY_Technical_Proposal_Deck_CI_RFP_0032026.pptx` | 21 slides, four sections, ending on the EY boilerplate |
+| `build/EY_Cost_Proposal_Deck_CI_RFP_0032026.pptx` | 10 slides covering the budget, the payment schedule and the value case |
+
+They are separate files for the same reason the PDFs are, and the QA gate
+enforces it on the deck as well as the PDF.
+
 The technical proposal carries no price, rate or fee. Only the financial
 proposals of bidders who qualify technically are opened, so the two files are
 kept strictly separate and `scripts/qa.py` fails the build if pricing leaks
@@ -26,8 +38,14 @@ Everything is authored in Markdown. Edit the source, rebuild, re-check.
 ```bash
 python3 scripts/build.py          # rebuild both PDFs into ./build
 python3 scripts/build.py cost     # rebuild one
+python3 scripts/deck_build.py     # rebuild both PowerPoint decks
 python3 scripts/qa.py             # run the QA gate; non-zero exit means work remains
 ```
+
+Deck content lives in `scripts/deck_content.py`, one entry per slide naming the
+EY template slide it is built on. `scripts/deck_build.py` does all structural
+work in the package first and fills content afterwards, because duplicating a
+slide after editing it clones the edit.
 
 `build.py` reports each document's page count and flags the technical proposal
 if its body runs past five pages. The cap is measured on the pages before
@@ -113,9 +131,16 @@ for Michael to correct rather than a record of what was agreed.
 
 ## Typeface
 
-The EY brand font is EY Interstate, taken from the theme of the PowerPoint in
-`inputs/`. It is not installed in this build environment, so `assets/ey.css`
-falls back to Inter, which is metrically close. Rebuilding on a machine with EY
-Interstate installed restores the brand font with no other change. The EY logo
-asset was not supplied either; the masthead reserves its position and
-proportion.
+The EY brand font is EY Interstate. It is not installed in this build
+environment, so `assets/ey.css` falls back to Inter, which is metrically close,
+and the decks keep the template's own EY Interstate runs untouched. Rebuilding
+or opening on a machine with the font installed restores it with no other
+change.
+
+For the PDFs the EY logo asset was not supplied, so the masthead reserves its
+position and proportion. The decks need no logo file: the EY beam is vector art
+inside every slide master and applies itself.
+
+Because LibreOffice substitutes the brand font, the deck renders used for
+visual QA here are approximate on line breaks. Text boxes carry roughly ten per
+cent slack for that reason.

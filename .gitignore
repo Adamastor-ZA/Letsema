@@ -1,0 +1,4 @@
+# Unpacked template working directories, recreated by scripts/deck_build.py
+build/deck-work/
+__pycache__/
+*.pyc

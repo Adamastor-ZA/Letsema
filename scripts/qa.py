@@ -31,6 +31,18 @@ COST_PDF = BUILD / "EY_Cost_Proposal_CI_RFP_0032026.pdf"
 TECH_MD = PROPOSAL / "technical" / "technical_proposal.md"
 COST_MD = PROPOSAL / "cost" / "cost_proposal.md"
 
+TECH_DECK = BUILD / "EY_Technical_Proposal_Deck_CI_RFP_0032026.pptx"
+COST_DECK = BUILD / "EY_Cost_Proposal_Deck_CI_RFP_0032026.pptx"
+DECK_TEMPLATE = ROOT / "assets" / "pptx" / "ey-master-template.pptx"
+
+# Strings the EY template ships that must not survive into a finished deck.
+TEMPLATE_LEFTOVERS = [
+    "REMOVE THIS SLIDE", "template layout", "Insert footer text here",
+    "Spectrum 1", "Spectrum 2", "Spectrum 3", "Key statement",
+    "Section header", "Yellow Frame", "Frame color", "Quote goes here",
+    "Copying legacy content", "[member firm name]", "XXXGbl", "ED MMYY",
+]
+
 BUDGET_CEILING = 40000
 BODY_PAGE_CAP = 5
 INCEPTION_CAP_PCT = 10
@@ -104,6 +116,10 @@ OXFORD_CLEARED = [
 
 # Proper nouns and quoted source material that legitimately carry US spellings.
 SPELLING_EXEMPTIONS = [
+    # EY's global boilerplate is fixed legal text and carries US spellings.
+    # It is reproduced verbatim on the closing slide and must not be edited.
+    "EY refers to the global organization",
+    "more information about our organization",
     "Harpers Ferry Center", "Center for", "Mekong Tourism Coordinating Office",
     "Wildlife Friendly Enterprise Network", "World Travel Center",
     "Bateleur", "Sossusvlei",
@@ -774,6 +790,82 @@ def check_sources() -> None:
         )
 
 
+def deck_text(path: Path) -> tuple[str, list[str]]:
+    """All text in a deck, plus its slide titles."""
+    from pptx import Presentation
+
+    prs = Presentation(str(path))
+    chunks, titles = [], []
+    for slide in prs.slides:
+        for shape in slide.shapes:
+            if shape.has_text_frame:
+                chunks.append(shape.text_frame.text)
+                if (shape.is_placeholder
+                        and str(shape.placeholder_format.type).startswith("TITLE")):
+                    titles.append(shape.text_frame.text.strip())
+            elif shape.has_table:
+                chunks += [c.text for r in shape.table.rows for c in r.cells]
+    return "\n".join(chunks), titles
+
+
+def check_decks() -> None:
+    """The PowerPoint versions answer to the same rules as the PDFs."""
+    import collections
+
+    for label, path in (("technical", TECH_DECK), ("cost", COST_DECK)):
+        record(f"DCK-01/{label}", "DECKS", f"{label} deck exists", path.exists())
+    if not (TECH_DECK.exists() and COST_DECK.exists()):
+        return
+
+    for label, path in (("technical", TECH_DECK), ("cost", COST_DECK)):
+        text, titles = deck_text(path)
+
+        # EY's accessibility standard requires a unique title on every slide.
+        dupes = [t for t, n in collections.Counter(titles).items() if n > 1]
+        record(
+            f"DCK-02/{label}", "DECKS",
+            f"{label} deck: every slide has a unique title ({len(titles)} titles)",
+            not dupes, True, f"duplicated: {dupes[:3]}",
+        )
+
+        leftovers = [x for x in TEMPLATE_LEFTOVERS if x in text]
+        record(
+            f"DCK-03/{label}", "DECKS",
+            f"{label} deck: no leftover EY template text",
+            not leftovers, True, ", ".join(leftovers[:4]),
+        )
+
+        check_prose(f"{label} deck", text)
+
+        if label == "technical":
+            # Same separation rule as the PDF: benchmark figures are evidence,
+            # EY's price for this assignment is not allowed anywhere in it.
+            leaks = [
+                name for pattern, name in (
+                    (r"US\$\s?40[,.]?000", "assignment budget ceiling"),
+                    (r"\bper day\b", "day-rate language"),
+                    (r"\brate card\b", "rate card reference"),
+                    (r"\bprofessional fees\b", "fee line"),
+                    (r"\bblended rate\b", "blended rate"),
+                    (r"\bpayment schedule\b", "payment schedule"),
+                ) if re.search(pattern, text, re.I)
+            ]
+            record(
+                "DCK-04", "DECKS",
+                "No EY price, rate or fee appears in the technical deck",
+                not leaks, True, ", ".join(leaks),
+            )
+
+        left = re.findall(r"\[\[TO CONFIRM", text)
+        record(
+            f"DCK-05/{label}", "DECKS",
+            f"{label} deck: no unresolved placeholders",
+            not left, True,
+            f"{len(left)} awaiting input; see qa/open_items.md" if left else "",
+            blocked=bool(left),
+        )
+
+
 # ------------------------------------------------------------------- main ---
 
 def main() -> None:
@@ -781,6 +873,7 @@ def main() -> None:
     check_arithmetic()
     check_consistency()
     check_sources()
+    check_decks()
     check_build()
 
     width = max(len(r.check) for r in results) + 2
