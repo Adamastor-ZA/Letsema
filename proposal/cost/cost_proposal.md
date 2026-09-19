@@ -115,11 +115,11 @@ The RFP requires an explanation of the basis of every cost element. Each line is
 
 **Consultant, research and analysis, 19 days.** The largest day count, because the verification and deep-dive work is the largest single task. It covers source-grading every figure in the existing scan against its primary source, the 13 deep-dives written to CI's nine headings, interview scheduling and notes, and source control across all four deliverables.
 
+**Advisers, 3 and 2 days.** Two specialist inputs. The destination branding adviser contributes to the design principles, tests brand architecture and alignment with national destination brands, and reviews the option set. The conservation and protected-area tourism adviser tests conservation-led design and the community and co-management perspectives. These are review-and-challenge inputs, which is the correct use of specialist time at this budget.
+
 **Activity Three, inside deliverable 4.** Of the 10 days on the final deliverable, 6 cover the final report and the incorporation of CI's comments and 4 cover Activity Three itself: the implementation path, the further research and sensitisation plan, and the drafting of the Terms of Reference for the assignment that follows. Activity Three is a contractual activity in its own right, so it is costed rather than absorbed.
 
 **Revision allowance.** One consolidated CI comment round on each draft deliverable is carried inside the figures above, at roughly one manager day on the week 5 draft and two days across the manager and advisers on the week 10 draft. CI's approval and acceptance is the stated acceptance criterion for both, so revision is contracted work rather than goodwill.
-
-**Advisers, 3 and 2 days.** Two specialist inputs. The destination branding adviser contributes to the design principles, tests brand architecture and alignment with national destination brands, and reviews the option set. The conservation and protected-area tourism adviser tests conservation-led design and the community and co-management perspectives. These are review-and-challenge inputs, which is the correct use of specialist time at this budget.
 
 ### Direct costs
 
