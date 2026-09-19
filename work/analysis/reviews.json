@@ -845,5 +845,81 @@
    "The payment schedule at 10 / 25 / 35 / 30 sums to 100, respects the no-more-than-10% inception rule and ties every tranche to a named deliverable.",
    "The instruction that no price, rate, day rate or total appears anywhere in the technical PDF, with effort expressed in days only, is the right call even though the RFP does not mandate it."
   ]
+ },
+ {
+  "verdict": "serious-defects",
+  "defects": [
+   {
+    "severity": "critical",
+    "category": "invented-content",
+    "defect": "OI-33 asserts a fact about an input EY does not hold. Its item text states the proposed rates \"sit materially below standard commercial rates\" and frames the ask as approval of \"the development-sector discount that the proposed rates imply\"; its why-text says \"EY cannot submit a price below standard rates\". EY's rate card is not in the inputs \u2014 the log's own OI-32 exists precisely to request it \u2014 so whether a discount exists is unknown. The built cost proposal is disciplined on exactly this point and the log contradicts it: proposal/cost/cost_proposal.md section 2 says \"The rate card is not among the inputs used to build this proposal, so nothing is claimed here about how these rates compare to it.\" The error propagates: OI-32's why-text refers to \"the discount claim in the narrative\" (the narrative makes none), OI-20 says a conflict-of-interest answer makes \"the discount easier to justify\", and OI-35 refers to \"a margin already compressed by the discount at OI-33\".",
+    "fix": "Rewrite OI-33 as: \"Internal approval of the proposed rates under EY Africa pricing governance, naming the approver and the date, together with confirmation of whether these rates represent a discount against the EY Africa standard card (see OI-32).\" Delete every assertion that the rates sit below standard, that a discount exists, or that a margin is compressed by it, from OI-33, OI-32, OI-20 and OI-35. Keep the sound point that the bid must not be submitted before pricing governance has approved the rates."
+   },
+   {
+    "severity": "major",
+    "category": "compliance",
+    "defect": "The placeholder register does not reconcile one-to-one with the documents, which is the log's own QA-22 test. Five logged placeholderStrings do not exist verbatim in either source: OI-33's string appears nowhere at all (the real one at cost proposal section 2 reads \"[[TO CONFIRM: EY Africa standard rate card by grade, and internal approval of these rates under EY pricing governance including any discount they represent...]]\"); OI-39 and OI-40 record \"named destination branding adviser\" and \"named conservation tourism adviser\" where the technical proposal carries two byte-identical \"[[TO CONFIRM: named adviser; EY-employed or consortium partner]]\" strings; OI-51 and OI-57 are near-misses that also introduce em dashes, which the house style bans. Seven source placeholders have no matching entry, including the section 2 rate placeholder, the Annex F release clearance placeholder, the signature-block entity placeholder and the section 11 referees placeholder.",
+    "fix": "Regenerate every placeholderString mechanically from proposal/technical/technical_proposal.md and proposal/cost/cost_proposal.md rather than transcribing it, and assert the reconciliation in qa.py. Separately, make the two adviser placeholders in the technical proposal section 6 distinct (\"named destination branding adviser\" / \"named conservation and protected-area tourism adviser\") so OI-39 and OI-40 can be resolved independently."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "Nothing in the 72 items or the 27 clarification questions asks CI which \"Africa's Eden\" it means. The RFP names it unqualified in Activity One. EY's own benchmark research warns against exactly this: under Africa's Eden Tourism it states \"Mind the name: a separate Netherlands-based operator called Africa's Eden runs conservation tourism in Gabon, the Central African Republic and Sao Tome and Principe.\" That second organisation sits in the Western and Central African geography raised by the RFP's own contradictory sentence at OI-12, so the ambiguity is live rather than theoretical. Both proposals assume the Botswana-domiciled association, and the week 5 deliverable is scoped around it.",
+    "fix": "Add an open item (owner: CI clarification, severity high, due CP-1) and a clarification question: \"The terms of reference name Africa's Eden. We are aware of two organisations of that name: the Botswana-domiciled private-sector membership association Africa's Eden Tourism, operating across eight Southern African countries, and a separate Netherlands-based conservation tourism operator active in Gabon, the Central African Republic and Sao Tome and Principe. Which does CI intend, or both?\" Cross-reference it to OI-12."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "No item or question addresses whether Part 1's mandated content may be placed outside Part 1. The RFP's Part 1 row requires \"Detailed reference list indicating the scope and magnitude of similar assignments\" and \"Relevant services undertaken in the past five (5) years\" within the max-5-page Part 1. The built technical proposal moves both into section 9, which sits under Part 3, and into Annex C, and says so openly: \"Both are at section 9 and Annex C, held there so that this body stays inside the five-page cap.\" OI-14 and question 5 ask only how the cap is measured; neither asks whether the relocation is acceptable. An evaluator scoring Part 1 on its face could mark both bullets absent, against criteria 1.2 (20 marks) and 2.2 (15 marks).",
+    "fix": "Add a clarification question: \"Part 1 is capped at five pages yet is also required to contain a detailed reference list and the relevant services of the past five years. May those two items be provided in an annex and cross-referenced from Part 1, or must they appear within the five pages?\" Log it as an open item owned by CI clarification, severity high, due at CP-1 before the document architecture is fixed, since the answer changes what occupies the five pages."
+   },
+   {
+    "severity": "major",
+    "category": "omission",
+    "defect": "The log carries no item for a live contradiction between the two submitted PDFs on the number of options elaborated. The technical proposal section 3 says \"Three are carried forward and one held in reserve\" and then that \"Each carried option is elaborated under all nine CI headings\". The cost proposal section 8 claims the programme carries \"13 deep-dives, 16 interviews and four fully elaborated options\", while its own section 6 narrative prices the senior consultant for \"three models at a little over two days each\". A CI evaluator reading both documents sees a four-option claim that neither the technical method nor the 58-day effort model supports, on the document that carries the 30 financial marks for clarity and reality.",
+    "fix": "Either correct cost proposal section 8 to \"three fully elaborated options plus one held in reserve\", or extend the technical method and the effort model to elaborate four. Whichever is chosen, add a cross-document consistency item to the log and extend QA-27 to test option counts, model counts and deep-dive counts across both sources, not just names, dates and week numbers."
+   },
+   {
+    "severity": "minor",
+    "category": "factual",
+    "defect": "OI-69 describes \"the two African initiatives CI named\" as \"Boundless Southern Africa and KAZA\". The RFP names Africa's Eden and Boundless Southern Africa; KAZA is EY's own addition to the benchmark set. The research section 8 makes no such attribution. The consequence is a real gap: the outcome and fee evidence for Africa's Eden Tourism is logged nowhere, although the benchmark profile records \"Member fees by tier; values to confirm\" and the Tier 1 deep-dive plan asks for \"Tiers, fees and member numbers\" \u2014 and it is the only African benchmark in the set where the private sector pays.",
+    "fix": "Reword OI-69 to \"Boundless Southern Africa and KAZA\" with no CI-named attribution, and add a research item covering Africa's Eden Tourism membership tiers, fee levels, member numbers and what members say they get, owner research, due deliverable 2 at week 5."
+   },
+   {
+    "severity": "minor",
+    "category": "factual",
+    "defect": "OI-07's why-text and clarification question 4 both say the work plan commits to interviews with \"secretariats and tourism boards\". The technical proposal's interview programme names only the Boundless Southern Africa secretariat, Africa's Eden Tourism, the KAZA Secretariat, NRT, NACSO, MMWCA, The Long Run, Preferred Hotel Group and SLH. National tourism boards appear only as a published-data source in the week 4 demand-side step and as a question inside the Slovenia Green deep-dive. Question 4 is addressed to CI, so the inaccuracy would be visible to the client.",
+    "fix": "Change both to \"the secretariats and conservancy associations we intend to interview\", or add tourism boards to the interview programme in the technical proposal if that is in fact the intention, in which case the interview count and OI-18 need revisiting."
+   },
+   {
+    "severity": "minor",
+    "category": "factual",
+    "defect": "OI-18 states \"The technical proposal commits to 16 interviews.\" The technical proposal says \"We target 16 interviews with 12 as the floor\", and the cost proposal section 6 says \"Sixteen is the target interview count, with twelve as the floor.\" Overstating the commitment weakens the item's own argument, since the floor of 12 is what actually has to be defended if CI declines to broker introductions.",
+    "fix": "Reword to \"The technical proposal targets 16 interviews with 12 as the stated floor, and the cost proposal prices 16.\""
+   },
+   {
+    "severity": "minor",
+    "category": "omission",
+    "defect": "No clarification question asks what technical score qualifies a bidder for financial evaluation. RFP section 6 states \"Only the financial proposal of those bidders who qualify technically will be reviewed\" but sets no minimum. The log asks 27 questions including several of lower value, and this one is free to ask and shapes how hard the technical proposal must push on the 70 marks before price matters at all.",
+    "fix": "Add: \"Section 6 states that only the financial proposals of bidders who qualify technically will be reviewed. Is there a minimum technical score, or a minimum score on any individual criterion, that a proposal must reach to qualify?\""
+   },
+   {
+    "severity": "minor",
+    "category": "positioning",
+    "defect": "Severity is applied inconsistently across the two stated minimum skills that EY cannot currently evidence. OI-39 (destination branding adviser) and OI-51 (brand strategy assignments) are blockers, while OI-40 (protected-areas adviser) and OI-52 (conservation assignments) are high. Both pairs answer stated minimum requirements in RFP section 3 with identical standing, the client is a conservation organisation, and OI-52's own text warns that general ESG credentials must not be substituted because \"a CI evaluator will read [them] as a different capability\". Treating the conservation credential as one rung softer is not defensible on the face of the RFP and risks the consortium decision at OI-60 being taken on the branding gap alone.",
+    "fix": "Raise OI-40 and OI-52 to blocker to match OI-39 and OI-51, or record explicitly in each item why the conservation credential is expected to be easier to source from within EY. Recount the severity totals in the log header afterwards (currently 18 blocker, 21 high, 26 medium, 7 low)."
+   }
+  ],
+  "strengths": [
+   "The four RFP-integrity items (OI-04, OI-05, OI-06, OI-28) are exactly right and quoted accurately from the source, including the mid-sentence cut at \"This assignment is expected to be largely desk-based with virtual\" and the fact that the held copy begins at Section 2, 'Procurement details'. Treating the truncated Level of Effort section as a blocker before any pricing work is the correct call.",
+   "OI-12 quotes the RFP's internal contradiction verbatim (\"prioritized 15 emerging protected areas in Southern and Eastern Africa\" against \"These are spread across Southern, Eastern and Western Africa\") and draws the right consequences for criterion 2.4 evidence, Francophone capability and the translation line.",
+   "OI-25 correctly observes both that criterion 2.3 is absent from the evaluation table and that the weights still sum to 70 (5+20+5+15+10+15), so it asks the question without manufacturing an arithmetic problem. Verified against the RFP.",
+   "OI-15 identifies all three inconsistent experience windows accurately (Part 1's five years, criterion 2.2's three years, criterion 1.2's \"5-10 years\") and puts the question where the marks are, at the highest-weighted technical criterion.",
+   "The credentials block, OI-26 and OI-27 and OI-36 to OI-59, placeholds every EY input rather than inventing one. No client name, no staff name, no reference, no capability statement, no legal entity and no rate-card figure is asserted anywhere across the 72 items. Apart from the discount claim at OI-33, the integrity rule holds throughout.",
+   "The research items OI-68 to OI-72 map accurately onto the four evidence gaps in Section 8 of the benchmark scan, and OI-71 correctly quotes the scan's own caveat that figures \"have not yet been verified with the organisations concerned\". Splitting verification into figures quoted in the proposal (before CP-4) and the full set (week 5) is the right discipline for a bid that argues for evidence-based design.",
+   "Clarification question 16 is a genuinely sharp catch: the financial criterion scores cost \"inclusive of any applicable tax, reimbursables and travel\" while Section 5 states the assignment is desk-based, so asking CI to confirm that zero travel reads as compliance rather than omission protects marks nobody would otherwise think to defend. Question 21, on whether more than three models scores higher, is equally useful for allocating a fixed budget between depth and breadth.",
+   "Internal counts reconcile: 72 items with no duplicate or missing IDs, and 18 blocker plus 21 high plus 26 medium plus 7 low equals 72, matching the header of the generated log.",
+   "The figures the log cites from the built cost proposal are accurate: 58 days across six roles, 16 manager days, 19 consultant days, 5 adviser days, rates of 1,100 / 725 / 575 / 375 / 900 / 800, direct-cost units of 4 purchases at US$350, 10,000 words at US$0.10, 16 transcriptions at US$35 and 16 studio hours at US$65, and a 10 / 30 / 35 / 25 payment schedule. I re-ran the arithmetic: fees total US$36,000, direct costs total US$4,000, the price is exactly US$40,000, the blended rate of US$621 is correct, the deliverable shares sum to 100 per cent and the inception milestone sits at the 10 per cent cap rather than above it."
+  ]
  }
 ]

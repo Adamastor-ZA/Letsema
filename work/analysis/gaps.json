@@ -290,10 +290,10 @@
   },
   {
    "id": "OI-33",
-   "item": "Written approval of the development-sector discount that the proposed rates imply, under EY Africa pricing governance, naming the approver and the date. The rates were derived bottom-up from the work against a published US$40,000 ceiling and sit materially below standard commercial rates.",
-   "why": "EY cannot submit a price below standard rates without the discount being approved through pricing governance. An unapproved discount is an internal compliance breach and, if it is refused after submission, the price cannot be revised because the RFP forbids post-submission cost revision.",
+   "item": "Internal approval of the proposed rates under EY Africa pricing governance, naming the approver and the date, together with confirmation of whether they represent a discount to EY's standard rates and of what size. The rates were derived bottom-up from the work against the published US$40,000 ceiling. EY's standard rate card is not among the inputs used to build this response, so nothing is known here about how the two compare.",
+   "why": "The price cannot be submitted before the rates are approved, and the RFP forbids revising cost after submission, so a refusal after the event cannot be corrected. The rate card is also needed for Annex A of the cost proposal.",
    "owner": "Michael Harris",
-   "placeholderString": "[[TO CONFIRM: internal approval of the development-sector discount these rates imply, under EY pricing governance. Owner: Michael Harris with EY Africa pricing. The arithmetic in this proposal does not change on approval; only the disclosed standard rates would be added at Annex A. The bid must not be submitted with the discount unapproved.]]",
+   "placeholderString": "[[TO CONFIRM: EY Africa standard rate card by grade, and internal approval of these rates under EY pricing governance including any discount they represent. Owner: Michael Harris with EY Africa pricing. The rate card is not among the inputs used to build this proposal, so nothing is claimed here about how these rates compare to it. The arithmetic does not change on approval. The bid must not be submitted before the rates are approved.]]",
    "severity": "blocker",
    "dueBy": "CP-5, cost proposal and price approved"
   },
@@ -347,7 +347,7 @@
    "item": "The named destination branding adviser: full name, organisation, two-page CV and at least two named destination or place-brand assignments with client, country, year and the individual's role. State clearly whether the person is EY-employed, a consortium partner or a subcontractor, and attach a signed letter of commitment if not EY-employed.",
    "why": "'Proven knowledge and experience in brand development, destination branding' is the first minimum skill in RFP Section 3, and it is the weakest point in EY's default team. Leaving it unevidenced risks responsiveness against a stated minimum requirement, not merely marks under criterion 3.1.",
    "owner": "Michael Harris",
-   "placeholderString": "[[TO CONFIRM: named destination branding adviser; EY-employed or consortium partner]]",
+   "placeholderString": "[[TO CONFIRM: named adviser; EY-employed or consortium partner]]",
    "severity": "blocker",
    "dueBy": "CP-3, credentials, staffing and references pack released"
   },
@@ -356,7 +356,7 @@
    "item": "The named protected-areas and conservation-tourism adviser: full name, organisation, two-page CV and at least two named assignments in protected areas, conservancies or community-based natural resource management in Africa, with client, country, year and the individual's role. State whether EY-employed, consortium partner or subcontractor, with a signed letter of commitment if not EY-employed.",
    "why": "'Experience in protected areas and conservation' is a stated minimum skill. This adviser tests conservation-led design and the community and co-management perspectives, which are two of the six stakeholder lenses every model must be assessed against.",
    "owner": "Michael Harris",
-   "placeholderString": "[[TO CONFIRM: named conservation tourism adviser; EY-employed or consortium partner]]",
+   "placeholderString": "[[TO CONFIRM: any EY assignment in protected areas, conservation finance, natural capital, biodiversity or park-adjacent tourism, with client, year and scope; if none is releasable, the named conservation specialist or consortium partner supplying this skill, with their protected-area track record. Supplied by Michael Harris. Do not substitute general ESG or sustainability credentials, which a CI evaluator will read as a different capability.]]",
    "severity": "high",
    "dueBy": "CP-3, credentials, staffing and references pack released"
   },
@@ -455,7 +455,7 @@
    "item": "Two to three brand strategy or destination brand assignments with client, country, year, EY's role and the outcome. If EY holds none in the last five years, the named destination-branding partner or subcontractor carrying this skill, with two comparable assignments of its own.",
    "why": "This answers the first minimum skill in RFP Section 3 and is the credential most directly connected to the subject of the assignment. Unevidenced, it puts responsiveness at risk, not just marks, and it forces the consortium decision at OI-60.",
    "owner": "Michael Harris",
-   "placeholderString": "[[TO CONFIRM: two to three brand strategy or destination brand assignments, with client, country, year, EY's role and the outcome \u2014 or, if EY holds none in the last five years, the named destination-branding partner or subcontractor carrying this skill, with two comparable assignments of its own. Supplied by Michael Harris. This is a stated minimum requirement, so leaving it unevidenced risks responsiveness, not just points.]]",
+   "placeholderString": "[[TO CONFIRM: two to three brand strategy or destination brand assignments, with client, country, year, EY's role and the outcome. If EY holds none in the last five years, supply instead the named destination-branding partner or subcontractor carrying this skill, with two comparable assignments of its own. Supplied by Michael Harris. This is a stated minimum requirement, so leaving it unevidenced risks responsiveness, not just points.]]",
    "severity": "blocker",
    "dueBy": "CP-3, credentials, staffing and references pack released"
   },
@@ -509,7 +509,7 @@
    "item": "EY global tourism, hospitality and leisure sector credentials: the network or sector group drawn on for this engagement, its named leader, and two non-African tourism assignments from the last five years with client, country and year.",
    "why": "'Global exposure and experience in tourism and leading brand development and management' is a stated minimum skill, and Activity One explicitly requires review of global multi-brand platforms. Without a global sector credential, EY's answer on the commercial archetypes rests on desk research alone.",
    "owner": "EY bid team",
-   "placeholderString": "[[TO CONFIRM: EY global tourism, hospitality and leisure sector credentials \u2014 the network or sector group drawn on for this engagement, its named leader, and two non-African tourism assignments from the last five years with client, country and year. Supplied by the EY bid team.]]",
+   "placeholderString": "[[TO CONFIRM: EY global tourism, hospitality and leisure sector credentials: the network or sector group drawn on for this engagement, its named leader and two non-African tourism assignments from the last five years with client, country and year. Supplied by the EY bid team.]]",
    "severity": "medium",
    "dueBy": "CP-3, credentials, staffing and references pack released"
   },
@@ -647,6 +647,15 @@
    "placeholderString": "-",
    "severity": "low",
    "dueBy": "Deliverable 2, draft situational analysis, week 5 of delivery"
+  },
+  {
+   "id": "OI-73",
+   "item": "Which organisation CI means by 'Africa's Eden' in Activity One. EY's benchmark research flags two: Africa's Eden Tourism, a Botswana-domiciled membership association across eight southern African countries, and a Netherlands-based operator working in Gabon, the Central African Republic and Sao Tome and Principe.",
+   "why": "They are different organisations with different models, funders and geographies. Deep-diving the wrong one wastes one of the eight case studies the budget allows, and Activity One's findings on cross-border membership funding turn on it.",
+   "owner": "CI clarification",
+   "placeholderString": "-",
+   "severity": "high",
+   "dueBy": "CP-1, with the consolidated clarification request"
   }
  ],
  "clarificationQuestionsToCI": [
@@ -676,6 +685,8 @@
   "Are interviews or deliverables required in French or Portuguese? Several of the likely priority areas and benchmark sources are Francophone or Lusophone, and translation and interviewer capability would need to be costed before submission.",
   "If bidding in partnership or consortium, must the partner be declared at proposal stage, must the partner also sign the Offeror Representation, and must the three client references cover the partner as well as the prime?",
   "Who owns the intellectual property in the deliverables, and may the supplier reference the assignment publicly or reuse its own prior research afterwards? We ask because we are contributing benchmark research completed at our own cost before this proposal.",
-  "Does CI intend to award the subsequent implementation assignments referenced in Section 2, and is there any conflict-of-interest restriction on the supplier of this assignment bidding for that work?"
+  "Does CI intend to award the subsequent implementation assignments referenced in Section 2, and is there any conflict-of-interest restriction on the supplier of this assignment bidding for that work?",
+  "Activity One names Africa's Eden. Two organisations use that name: Africa's Eden Tourism, the Botswana-domiciled regional membership association covering eight southern African countries, and a separate Netherlands-based operator running conservation tourism in Gabon, the Central African Republic and Sao Tome and Principe. Which does CI intend, or both?",
+  "Part 1 is capped at five pages yet is also required to contain a detailed reference list showing the scope and magnitude of similar assignments, and the relevant services of the past five years. May those two items be provided in an annex and cross-referenced from Part 1, or must they sit inside the five pages?"
  ]
 }

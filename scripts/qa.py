@@ -665,6 +665,28 @@ def check_consistency() -> None:
             not absent, True, f"missing {absent}",
         )
 
+    # Every placeholder the log transcribes must still exist verbatim in a
+    # document. A log entry quoting text that has since been edited is a defect
+    # in its own right: it is how a claim removed from a proposal survives in
+    # the working files.
+    gaps_path = ROOT / "work" / "analysis" / "gaps.json"
+    if gaps_path.exists():
+        import json as _json
+        logged = [
+            i.get("placeholderString", "-")
+            for i in _json.loads(gaps_path.read_text(encoding="utf-8"))["items"]
+        ]
+        both = re.sub(r"\s+", " ", tech + " " + cost)
+        stale = [
+            l for l in logged
+            if l.strip() not in ("-", "") and re.sub(r"\s+", " ", l).strip() not in both
+        ]
+        record(
+            "CON-10", "CONSISTENCY",
+            "Every placeholder quoted in the open-items log exists in a document",
+            not stale, True, f"{len(stale)} stale: " + "; ".join(x[:60] for x in stale[:3]),
+        )
+
     # The open-items log must account for every distinct placeholder.
     oi = QA / "open_items.md"
     if oi.exists():

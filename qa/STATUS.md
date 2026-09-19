@@ -13,7 +13,7 @@ cost       EY_Cost_Proposal_CI_RFP_0032026.pdf  6 pages total, body 5 pages  [OK
 ## QA gate
 
 ```
-60/62 passed   0 defect(s)   2 blocked on missing input   0 warning(s)
+61/63 passed   0 defect(s)   2 blocked on missing input   0 warning(s)
 ```
 
 A check reported as blocked is waiting on an input, not on a fix. The
@@ -22,19 +22,19 @@ below are supplied.
 
 ## Open items
 
-72 in total, across 79 compliance requirements.
+73 in total, across 79 compliance requirements.
 
 | Severity | Count |
 |---|---|
 | Blocker | 18 |
-| High | 21 |
+| High | 22 |
 | Medium | 26 |
 | Low | 7 |
 
 | Owner | Count |
 |---|---|
 | EY bid team | 25 |
-| CI clarification | 23 |
+| CI clarification | 24 |
 | Michael Harris | 14 |
 | research | 5 |
 | EY legal | 4 |
@@ -55,7 +55,7 @@ Nothing else in the bid can be finished until these land.
 | OI-27 | The authorised signatory for this bid: full name, title, authority to bind the entity, and a signature applied to the technical proposal signature block and to the Offero | EY legal |
 | OI-28 | The Offeror Representation of Transparency, Integrity, Social Responsibility template itself. It is a mandatory submission item under RFP Section 4 and is not in the pack | CI clarification |
 | OI-31 | A written EY tax position on: whether the supply is a zero-rated export of services under section 11(2) of the South African VAT Act; whether any withholding tax arises i | EY tax |
-| OI-33 | Written approval of the development-sector discount that the proposed rates imply, under EY Africa pricing governance, naming the approver and the date. The rates were de | Michael Harris |
+| OI-33 | Internal approval of the proposed rates under EY Africa pricing governance, naming the approver and the date, together with confirmation of whether they represent a disco | Michael Harris |
 | OI-36 | The named engagement manager: full name, grade, years of relevant experience, professional qualifications, and a two-page CV evidencing at least one comparable desk-based | EY bid team |
 | OI-39 | The named destination branding adviser: full name, organisation, two-page CV and at least two named destination or place-brand assignments with client, country, year and  | Michael Harris |
 | OI-41 | The full CV pack for Annex A: two pages for each named team member including Michael Harris, covering qualifications, years since qualification, sector experience, Africa | EY bid team |

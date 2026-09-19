@@ -9,6 +9,7 @@ in work/analysis/. Re-run after editing the JSON to regenerate both.
 from __future__ import annotations
 
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -335,13 +336,53 @@ def open_items() -> None:
         )
     out.append("")
 
-    out += ["## Placeholder strings in the documents", "",
-            "| ID | Placeholder as it appears |", "|---|---|"]
-    for i in items:
-        ph = i.get("placeholderString", "-")
-        if ph and ph.strip() != "-":
-            out.append(f"| {i['id']} | `{cell(ph)}` |")
+    # Read the placeholders out of the documents rather than trusting the
+    # transcriptions in the log. The documents are the source of truth, and a
+    # log entry that no longer matches its placeholder is itself a defect.
+    sources = {
+        "Technical proposal": ROOT / "proposal" / "technical" / "technical_proposal.md",
+        "Cost proposal": ROOT / "proposal" / "cost" / "cost_proposal.md",
+    }
+    found: list[tuple[str, str]] = []
+    for label, path in sources.items():
+        if not path.exists():
+            continue
+        text = path.read_text(encoding="utf-8")
+        for m in re.finditer(r"\[\[TO CONFIRM:(.+?)\]\]", text, re.S):
+            found.append((label, re.sub(r"\s+", " ", m.group(1)).strip()))
+
+    out += [
+        "## Placeholders as they appear in the documents",
+        "",
+        f"{len(found)} in the two submission documents, extracted from the sources "
+        "rather than transcribed, so this list cannot drift from what the PDFs "
+        "actually say. Process items in the table above carry no placeholder.",
+        "",
+        "| Document | Placeholder |",
+        "|---|---|",
+    ]
+    out += [f"| {label} | {cell(txt)} |" for label, txt in found]
     out.append("")
+
+    logged = [
+        i["placeholderString"] for i in items
+        if i.get("placeholderString", "-").strip() not in ("-", "")
+    ]
+    doc_text = " ".join(
+        re.sub(r"\s+", " ", p.read_text(encoding="utf-8"))
+        for p in sources.values() if p.exists()
+    )
+    stale = [l for l in logged if re.sub(r"\s+", " ", l).strip() not in doc_text]
+    if stale:
+        out += [
+            "### Log entries whose placeholder text no longer matches the documents",
+            "",
+            "These were edited in the documents after the log was written. The "
+            "documents are correct; the log text below is not.",
+            "",
+        ]
+        out += [f"- `{cell(x)[:200]}`" for x in stale]
+        out.append("")
 
     if d.get("clarificationQuestionsToCI"):
         out += [
