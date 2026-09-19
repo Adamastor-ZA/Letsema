@@ -22,34 +22,36 @@ One instruction in the terms of reference is easy to read past and hard to satis
 
 ### 2. Where we start
 
-We have already built the Activity One long-list. Ahead of this proposal and at our own cost, our team completed a benchmark scan of 31 brands, networks and mechanisms, sorted into seven archetypes by what the central entity actually does, from shared services at one end to curated commercial collectives at the other. Each is profiled on scale and offer, funding, governance and read-across for CI, then rated against nine criteria drawn from CI's own design aims. The scan covers both initiatives CI names, Africa's Eden Tourism and Boundless Southern Africa, alongside KAZA's 'Rivers of Life', the conservancy associations, the site and enterprise standards, the commercial collections and the revenue engines. Annex F reproduces the archetype map and the rating matrix.
+We have already built the Activity One long-list. Ahead of this proposal and at our own cost, our team completed a benchmark scan of 31 brands, networks and mechanisms, sorted into seven archetypes by what the central entity actually does, from shared services at one end to curated commercial collectives at the other. Each is profiled on scale and offer, funding, governance and read-across for CI, then rated against nine criteria: six of CI's seven design aims, two delivery conditions drawn from Activity Two and the strength of African evidence. The scan covers both initiatives CI names, Africa's Eden Tourism and Boundless Southern Africa, alongside KAZA's 'Rivers of Life', the conservancy associations, the site and enterprise standards, the commercial collections and the revenue engines. Annex F reproduces the archetype map and the rating matrix.
 
 That work changes the arithmetic of 12 weeks. A conventional bid spends weeks one to five finding out who is out there. We spend them verifying published figures against primary sources, running the 13 deep-dives the scan has already identified and interviewing the secretariats that publish nothing at all. It also fixes the structure: CI's nine model-elaboration headings become the template every deep-dive is written to, and the rating matrix becomes the scoring frame for the options, so evidence carries straight from Activity One into Activity Two without re-cutting.
 
 <div class="callout" markdown="1">
-**What the head start buys CI.** Interview requests go out in week one rather than week four. That matters because Boundless Southern Africa, Africa's Eden Tourism, The Long Run and Preferred Hotel Group publish neither fees nor outcomes, and a cold approach to a regional secretariat takes three to four weeks to land. The unpublished commercial terms get eleven weeks to surface instead of six.
+**What the head start buys CI.** Interview requests go out in week one rather than week four. That matters because Boundless Southern Africa, Africa's Eden Tourism, The Long Run and Preferred Hotel Group publish neither fees nor outcomes, and in our experience a cold approach to a regional secretariat takes three to four weeks to produce a substantive reply. Measured to the week 10 draft, the terms nobody publishes get nine weeks to surface instead of six.
 </div>
 
 ### 3. Approach and method
 
 **Activity One: situational analysis and best practice.** We verify and deepen the scan rather than rebuild it. Every figure is re-checked against its primary source and graded as verified with the organisation, published primary or secondary, and each number then carries its grade and its date. Nothing below the top two grades drives the base case of any financial model. Thirteen deep-dives follow, eight as case studies with two of them clustered and five as light-touch checks, each written to CI's nine model-design headings. We then map what already serves CI's 15 areas, name the gaps and name the failure patterns as plainly as the successes. The European Charter network fell from 164 protected areas in 20 countries to 91 in 13; Alpine Pearls fell from about 24 villages to 18; LHW dropped its paid consumer tier in 2021; the Commission redesigned EDEN after its 2019 evaluation. Why donor-seeded networks contract is as instructive as why LHW has lasted since 1928. The output is a verified evidence base and a short set of principles for sustainable protected-area branding.
 
-**Activity Two: option design and evaluation.** Each option is built by setting three switches the benchmarks expose; first, who belongs and who pays, since park authorities are the obvious members but the weakest payers. Second, how it crosses borders, whether through one regional secretariat, national operators, mutual recognition of national schemes or a cross-border legal vehicle. Third, how it sits with the national destination brand, whether owned by the tourism board, structured as a co-brand hub or independent. Four configurations are built against archetype anchors and screened with CI in week 6, with at least three carried forward and a reserve held. Each carried option is then elaborated under all nine CI headings, with a ten-year model behind it: cost to serve built bottom-up from benchmark unit economics, and a revenue stack assembled from the revenue-engine modules. Options are scored on the same nine-criterion matrix used for the benchmarks, against published evidence rather than preference, with the scoring shown so CI can dispute it and the weighting left for CI to set. We publish the two or three assumptions that would flip the result.
+**Activity Two: option design and evaluation.** Each option is built by setting three switches the benchmarks expose; first, who belongs and who pays, since park authorities are the obvious members but the weakest payers. Second, how it crosses borders, whether through one regional secretariat, national operators, mutual recognition of national schemes or a cross-border legal vehicle. Third, how it sits with the national destination brand, whether owned by the tourism board, structured as a co-brand hub or independent. Five or six configurations are built against archetype anchors, then screened with CI in week 7 once CI's comments on the Activity One draft are in. Three are carried forward and one held in reserve; the rest are recorded as considered, with the reason for setting them aside. Each carried option is elaborated under all nine CI headings, with an indicative set-up and annual running cost band, the pre-requisites that must exist before it can start, and a ten-year model behind it: cost to serve built bottom-up from benchmark unit economics, and a revenue stack assembled from the revenue-engine modules. Options are scored on the benchmark matrix extended to eleven criteria, adding non-duplication of what already exists, resilience in unstable funding environments and multi-stakeholder brand management, which CI's terms require but the benchmark frame does not yet carry. Scoring is against published evidence rather than preference, shown so CI can dispute it, with the weighting left for CI to set. We publish the two or three assumptions that would flip the result.
 
 **Activity Three: next steps.** We set out the implementation path for the preferred model, the further research and stakeholder sensitisation required, and draft the Terms of Reference for the design assignment that follows.
 
-**Interviews and the appetite test.** The assignment is desk-based and every session runs virtually. We target 16 interviews with 12 as the floor, prioritising the organisations that publish nothing: the Boundless Southern Africa secretariat on 18 years of cost and trade adoption, Africa's Eden Tourism on tiers and fees, the KAZA Secretariat on brand hub adoption and UniVisa uptake, NRT, NACSO and MMWCA on cost per conservancy, and The Long Run on fee levels. On the build, host or borrow question we approach Preferred Hotel Group and SLH on what hosting a Keystone collection would cost. Two virtual sessions after the week 10 draft test appetite against a structured instrument asking what would have to be true for each stakeholder to join, fund or pay, with a written instrument for those who cannot attend. Every comment enters an adaptation log with a stated disposition.
+**Demand-side evidence.** Multi-segment stratification and destination appeal is one of CI's seven design aims and the least evidenced column in the benchmark ratings, so it gets its own step in week 4: published inbound arrivals and source-market data for the priority countries, operator product listings showing which emerging areas already appear in itineraries, and the segment definitions the national tourism boards themselves use. Without it, appeal is asserted rather than tested.
+
+**Interviews and the appetite test.** The assignment is desk-based and every session runs virtually. We target 16 interviews with 12 as the floor, prioritising the organisations that publish nothing: the Boundless Southern Africa secretariat on 18 years of cost and trade adoption, Africa's Eden Tourism on tiers and fees, the KAZA Secretariat on brand hub adoption and UniVisa uptake, NRT, NACSO and MMWCA on cost per conservancy, and The Long Run on fee levels. On the build, host or borrow question we approach Preferred Hotel Group and SLH on what hosting a Keystone collection would cost. Two virtual sessions after the week 10 draft test appetite against a structured instrument asking what would have to be true for each stakeholder to join, fund or pay, with a written instrument for those who cannot attend. CI names six perspectives, and the secretariats speak for only four of them, so the sessions must reach a community conservancy or community trust voice and a demand-side voice from the trade directly. Every comment enters an adaptation log with a stated disposition.
 
 ### 4. Where we expect to land, and why we say so now
 
-These are starting hypotheses, not answers. We set them out so CI can see exactly where we begin and hold us to changing our minds. We expect at least one to be discarded and the recommended model to be a hybrid. A bidder with no starting position has nothing for CI to argue with.
+These are starting hypotheses, not answers. Each is summarised here on three attributes only. Every option carried past the week 7 screen is elaborated against all nine of the headings CI requires. We set them out so CI can see exactly where we begin and hold us to changing our minds. We expect at least one to be discarded. If the recommendation turns out to be a hybrid, it is elaborated against the same nine headings and scored on the same frame, so CI never has to choose a model that was never tested. A bidder with no starting position has nothing for CI to argue with.
 
 | Hypothesis | What the centre does | Who pays | Anchored in |
 |---|---|---|---|
 | **The Shared Studio** | Brand toolkit, studio and data spine the areas draw down on, delivered through the associations that already serve them | CI and Keystone donors first, then association subscriptions and per-unit production charges | NPS Harpers Ferry Center; NACSO; NRT; MMWCA |
 | **The Keystone Mark** | Tiered standard certifying areas, plus a mark licensed to the businesses and products around them, run through national operators | Areas pay assessment and revalidation; certified businesses pay licence fees | Blue Flag; UNESCO Global Geoparks; Slovenia Green; Fair Trade Tourism |
 | **The Co-Brand Hub** | Thematic routes and ready-made co-brandable product handed to national tourism boards for their own campaigns | Tourism boards and regional bodies, from budgets they already spend; development finance for the build | World Heritage Journeys; KAZA 'Rivers of Life'; Signature Experiences of Australia |
-| **The Keystone Collection** | Curated collection of lodges and experiences sold through an existing platform's distribution and loyalty infrastructure | Member lodges and operators, through fees and commissions, with a licence fee back to the parks | Beyond Green; SLH Considerate Collection; National Geographic Unique Lodges; LHW |
+| **The Keystone Collection** | Curated collection of lodges and experiences sold through an existing platform's distribution and loyalty infrastructure | Member lodges and operators, through fees and commissions, with a licence fee back to the parks | Beyond Green; SLH Considerate Collection; Experience Mekong Collection; LHW |
 
 Revenue engines such as a multi-park pass on the SANParks Wild Card pattern, a match facility on the Brand USA pattern, an imagery licence on the Lion's Share pattern and a consumer membership tier are modelled as modules any option can carry, because that is how they behave in the evidence.
 
@@ -61,7 +63,7 @@ The plan holds the four contractual dates and leaves two clear weeks for CI and 
 |---|---|---|---|---|
 | 1-2 | Inception | Kick-off, confirm the 15 priority areas, agree interview list, scope and evaluation criteria, issue interview requests | **Inception report** (week 2) | Priority-area list, stakeholder contacts, kick-off attendance |
 | 3-5 | One | Deep-dives against the nine headings; primary interviews; best-practice synthesis and design principles | **Draft situational analysis and best practice assessment** (week 5) | Introductions to named secretariats |
-| 6-7 | One / Two | CI comment on the draft; option architecture; financial sustainability modelling for each option | Option architecture note | Comments on the week 5 draft |
+| 6-7 | One / Two | Demand-side and segment read; CI comment on the draft; option architecture; screening session in week 7; financial sustainability modelling | Option architecture note and screening record | Comments on the week 5 draft by mid-week 7; screening attendance |
 | 8-9 | Two | Full elaboration of each option to the nine headings; stakeholder pros and cons; scoring against CI design aims | Draft option set for internal review | - |
 | 10 | Two | Recommendation and expected results; presentation to CI and nominated stakeholders | **Draft report and presentation on brand delivery models** (week 10) | Stakeholder convening, presentation attendance |
 | 11 | Two / Three | Adapt the preferred model on feedback; implementation path; draft Terms of Reference | - | Consolidated comments by end of week 11 |
@@ -88,15 +90,7 @@ CVs are at Annex A. Effort by role is set out in the separate Cost Proposal.
 
 ### 7. Quality and risk
 
-Every deliverable is reviewed by the engagement partner before it reaches CI, and every figure carries its source, its date and its verification grade. Five delivery risks matter on an assignment of this shape, and each carries a mitigation built into the plan rather than bolted on.
-
-| Risk | Mitigation |
-|---|---|
-| Interviewees do not respond inside a 12-week window | Requests issued in week 1, not week 3; the existing desk scan means no deep-dive depends on a single interview landing |
-| Commercial platforms decline to disclose fee terms | Option economics modelled on ranges with the assumption stated, as the benchmark scan already does; no recommendation rests on an undisclosed number |
-| The 15 priority areas are confirmed late | Inception proceeds on the archetype logic, which is area-agnostic; area-specific fit is applied in weeks 8 to 9 |
-| CI comment cycles compress the final two weeks | Consolidated comment deadline agreed at inception for end of week 11; scope of change at that point limited to the preferred model |
-| Stakeholder appetite diverges from the evidence | The week 10 presentation is a decision point, not a report-out; divergence is surfaced there and reconciled in week 11 |
+Every deliverable is reviewed by the engagement partner before it reaches CI, and every figure carries its source, its date and its verification grade. Five delivery risks matter on an assignment of this shape and each carries a mitigation built into the plan rather than bolted on; the register is at Annex D. The two that drive the schedule are interview response times, which is why requests go out in week one, and the compression of the final fortnight, which is why a consolidated CI comment deadline is agreed at inception for the end of week 11.
 
 ## Part 3: Corporate capabilities, experience and past performance
 
@@ -173,7 +167,15 @@ The RFP sets these eight as minimum requirements for all offerors. The middle co
 
 [[TO CONFIRM: assignment sheets covering the last five years, each with client, year, value, scope and outcome. Criterion 2.2 asks for the last three years with samples, while Part 1 asks for the last five, so the annex is built to satisfy both windows. At least three entries from the last three years must carry a released sample. Owner: EY bid team.]]
 
-## Annex D: Detailed work plan
+## Annex D: Risk register and detailed work plan
+
+| Risk | Mitigation |
+|---|---|
+| Interviewees do not respond inside a 12-week window | Requests issued in week 1, not week 3; the existing desk scan means no deep-dive depends on a single interview landing |
+| Commercial platforms decline to disclose fee terms | Option economics modelled on ranges with the assumption stated, as the benchmark scan already does; no recommendation rests on an undisclosed number |
+| The 15 priority areas are confirmed late | Inception proceeds against a documented set of representative area archetypes, being transfrontier, single-country emerging, conservancy-adjacent and coastal or marine; the real list replaces the assumption as soon as it lands, and any option whose fit changes is re-scored |
+| CI comment cycles compress the final two weeks | Consolidated comment deadline agreed at inception for end of week 11; scope of change at that point limited to the preferred model |
+| Stakeholder appetite diverges from the evidence | The week 10 presentation is a decision point, not a report-out; divergence is surfaced there and reconciled in week 11 |
 
 [[TO CONFIRM: expanded week-by-week plan with named owners, once the team at section 6 is confirmed.]]
 
@@ -189,6 +191,8 @@ Every requirement in RFP 0032026 that bears on this technical proposal, mapped t
 | C-02 | Proposal is complete only if it includes a Cost Proposal. | Cost Proposal (separate standalone PDF) |
 | C-03 | Proposal is complete only if it includes a Signed Offeror Representation of Transparency, Integrity, Social Responsibility. | Submitted separately alongside both PDFs, per RFP section 4; referenced at Technical Proposal section 12 |
 | C-13 | Provide at least three client references. | Technical Proposal section 11, with Annex B |
+| C-75 | Submit by the stated deadline, to the stated address or portal, in the stated manner. | Submission process, outside both documents |
+| C-79 | Supply any further submission item CI requires under the blank 'Other' line. | Submission process, outside both documents |
 
 ### Format and submission rules
 
@@ -197,6 +201,8 @@ Every requirement in RFP 0032026 that bears on this technical proposal, mapped t
 | C-14 | The technical and financial proposals are to be submitted separately as PDFs. | Two separate PDFs: EY_Technical_Proposal_CI_RFP_0032026.pdf and EY_Cost_Proposal_CI_RFP_0032026.pdf and EY_CI_RFP0032026_Cost_Proposal.pdf |
 | C-15 | A technical proposal, max 5 pages (excluding annexes). | Technical Proposal body, sections 1 to 12, before Annex A |
 | C-16 | All cost information must be expressed in USD. | Cost Proposal sections 1 to 6 |
+| C-76 | Submit clarification questions by the stated cut-off. | Consolidated clarification request, sent before submission |
+| C-78 | State the period for which the proposal remains valid. | Technical Proposal section 12, signature block |
 
 ### Offeror eligibility, RFP section 3
 

@@ -3,6 +3,10 @@
 Collect workflow agent results out of the run journal into work/analysis/*.json.
 
     python3 scripts/collect_analysis.py <workflow-run-dir>
+    python3 scripts/collect_analysis.py <workflow-run-dir> --reviews-only
+
+Pass --reviews-only once the analysis files carry hand-applied corrections,
+so that re-collecting the adversarial reviews cannot overwrite them.
 
 Results are identified by the shape of the object each agent returned, because
 the journal keys agents by content hash rather than by label.
@@ -28,7 +32,9 @@ SHAPES = {
 
 
 def main() -> None:
-    journal = Path(sys.argv[1]) / "journal.jsonl"
+    args = [a for a in sys.argv[1:] if not a.startswith("-")]
+    reviews_only = "--reviews-only" in sys.argv
+    journal = Path(args[0]) / "journal.jsonl"
     OUT.mkdir(parents=True, exist_ok=True)
     reviews = []
     saved = []
@@ -39,8 +45,15 @@ def main() -> None:
         result = entry.get("result")
         if not isinstance(result, dict):
             continue
+        # Stage-two verify agents log either the pipeline wrapper or, when the
+        # stage returns the agent result directly, the verdict object itself.
         if "analysis" in result and "review" in result:
+            reviews.append(result["review"] | {"workstream": result.get("key", "?")})
+            continue
+        if "verdict" in result and "defects" in result:
             reviews.append(result)
+            continue
+        if reviews_only:
             continue
         for key, name in SHAPES.items():
             if key in result:

@@ -35,6 +35,7 @@ Every cost requirement in RFP 0032026, mapped to the place in this cost proposal
 | C-22 | Offeror shall use best efforts to minimise the financing of taxes, apply for refunds where eligible, and reflect any tax savings in the total cost. | Cost Proposal section 7 |
 | C-23 | The proposal should propose a payment schedule tied to deliverables, with no more than 10% allocated to the Inception report. | Cost Proposal section 5 |
 | C-24 | The assignment has been allocated a maximum budget of US$40,000. | Cost Proposal section 1, summary table |
+| C-77 | Comply with any stated level of effort, consultant-day requirement or prescribed cost format. | Cost Proposal sections 2 to 4 |
 
 
 </div>
@@ -84,7 +85,7 @@ No travel, accommodation or subsistence is included. The RFP states that the ass
 | Final report, next steps and Terms of Reference | 12 | 10 | 17% |
 | **Total** | | **58** | **100%** |
 
-The weighting follows the work. Activity Two carries the most effort because designing four configurations, elaborating the carried options under all nine of CI's headings and building a ten-year model behind each is the heaviest task in the assignment. Activity One is lighter than it would otherwise be because the 31-benchmark long-list is already built and contributed.
+The weighting follows the work. Activity Two carries the most effort because designing five or six configurations, elaborating the carried options under all nine of CI's headings and building a ten-year model behind each is the heaviest task in the assignment. Activity One is lighter than it would otherwise be because the 31-benchmark long-list is already built and contributed.
 
 ## 5. Payment schedule
 
@@ -106,7 +107,7 @@ The RFP requires an explanation of the basis of every cost element. Each line is
 
 ### Professional fees
 
-**Engagement partner, 5 days.** Michael Harris holds quality accountability, reviews all four deliverables before they reach CI and is CI's escalation point. The five days sit where partner time changes the answer rather than spread thinly across the programme: kick-off, the option architecture screening in week 6, the recommendation of a preferred model, the week 10 stakeholder presentation and final sign-off.
+**Engagement partner, 5 days.** Michael Harris holds quality accountability, reviews all four deliverables before they reach CI and is CI's escalation point. The five days sit where partner time changes the answer rather than spread thinly across the programme: kick-off, the option architecture screening in week 7, the recommendation of a preferred model, the week 10 stakeholder presentation and final sign-off.
 
 **Engagement manager, 16 days.** Roughly 1.3 days a week across 12 weeks. The manager owns the work plan, runs the interview programme, leads drafting across all three activities and holds the client relationship. A single senior mind across all three activities produces a more coherent recommendation than a larger rotating team, which is why this role carries the largest allocation.
 
@@ -132,7 +133,7 @@ The RFP requires an explanation of the basis of every cost element. Each line is
 
 The price is all-inclusive of taxes as the RFP requires, and EY will apply best efforts to minimise the financing of taxes on the services supplied and to reclaim any refundable amount, reflecting the saving in the total cost.
 
-The expected treatment is that professional services supplied by a South African EY entity to Conservation International, a non-resident, are zero-rated for South African value-added tax as exported services. On that basis no VAT is financed by CI and no tax saving is withheld. Any amount withheld at source in the country of payment would be addressed under the applicable double taxation agreement and any recoverable amount reclaimed. Any transaction tax that proves chargeable is absorbed within the US$40,000 total rather than added to it.
+The expected treatment is that professional services supplied by a South African EY entity to Conservation International, as a non-resident of South Africa, are zero-rated for South African value-added tax as exported services. That treatment turns on CI's contracting entity and its country of registration, neither of which is stated in the RFP. On that basis no VAT is financed by CI and no tax saving is withheld. Any amount withheld at source in the country of payment would be addressed under the applicable double taxation agreement and any recoverable amount reclaimed. Any transaction tax that proves chargeable is absorbed within the US$40,000 total rather than added to it.
 
 [[TO CONFIRM: EY tax to confirm the VAT treatment of these services under section 11(2) of the South African Value-Added Tax Act, the withholding position on payments from CI, and whether CI will provide a tax exemption or withholding certificate. Owner: EY tax. An adverse finding reduces the net fee available and so must be checked before the discount at section 2 is approved.]]
 
@@ -142,7 +143,7 @@ The financial proposal carries 30 of the 100 available marks and is scored on cl
 
 CI is not paying for the starting line. EY completed a 31-benchmark scan across seven archetypes, with a rated matrix against CI's own design aims and a ranked deep-dive plan, before this proposal was written and at its own cost. That work is contributed to the assignment. It is the reason a 58-day programme can carry 13 deep-dives, 16 interviews and four fully elaborated options.
 
-The scope was sized to the budget rather than the budget stretched to the scope. Our own working draft reached that conclusion in writing before this bid: at US$40,000 over 12 desk-based weeks, eight case studies with two of them clustered and five light-touch checks is what the programme can carry. We have priced exactly that.
+The scope was sized to the budget rather than the budget stretched to the scope. We reached that conclusion in our own research before this bid was written, rather than reverse-engineering it from the ceiling: at US$40,000 over 12 desk-based weeks, eight case studies with two of them clustered and five light-touch checks is what the programme can carry. We have priced exactly that.
 
 Every line is auditable arithmetic. Unit price times quantity, days mapped to named roles and then to the four deliverables, and a total that reconciles exactly to the ceiling. There is no undisclosed rate and no lump sum standing in for a calculation.
 

@@ -77,7 +77,7 @@
    "type": "technical-content",
    "whereMet": "Technical Proposal section 9, with Annex C and Annex C, last five years",
    "evidenceNeeded": "Assignments completed between 2021 and 2026 in destination or place branding, business model and revenue design, tourism strategy, or protected area and conservation finance, each dated. Note this is a different window from evaluation criterion 2.2, which asks for the last three years. [[TO CONFIRM: EY to supply the five-year assignment list, dated]]",
-   "risk": "High - none supplied, and the five-year window here conflicts with the three-year window in criterion 2.2, so the annex must be built to satisfy both windows simultaneously.",
+   "risk": "High - none supplied, and the five-year window here nests inside the three-year window in criterion 2.2, so the annex must be built to satisfy both windows simultaneously.",
    "locationRemapped": true
   },
   {
@@ -136,7 +136,7 @@
    "requirement": "The technical and financial proposals are to be submitted separately as PDFs.",
    "type": "format",
    "whereMet": "Two separate PDFs: EY_Technical_Proposal_CI_RFP_0032026.pdf and EY_Cost_Proposal_CI_RFP_0032026.pdf and EY_CI_RFP0032026_Cost_Proposal.pdf",
-   "evidenceNeeded": "Two distinct PDF files, no combined document, and no cost, rate, day-rate or fee figure anywhere in the technical PDF (including annexes, CVs, headers and footers).",
+   "evidenceNeeded": "Two distinct PDF files, no combined document, and no figure relating to EY's pricing for this assignment may appear anywhere in the technical PDF, being any day rate, fee, line item, total or discount. Benchmark figures quoted as evidence, and the scope and magnitude of past assignments that RFP Part 1 expressly requires, are permitted.",
    "risk": "Medium - simple to comply with but easy to breach. CI operates a two-envelope process (only technically qualified bidders' financials are opened), so a stray fee figure in the technical PDF risks disqualification or a scoring challenge. Needs an explicit QA sweep.",
    "locationRemapped": true
   },
@@ -147,7 +147,7 @@
    "type": "format",
    "whereMet": "Technical Proposal body, sections 1 to 12, before Annex A",
    "evidenceNeeded": "Part 1 body at or under 5 pages at a readable type size, with the reference list, CVs, Gantt, corporate boilerplate and representation form all pushed into annexes.",
-   "risk": "High - five pages must carry understanding, methodology, work plan, reference list and five-year services. Compression risk is severe, and the cap's scope is ambiguous (see ambiguities). Build to the strictest reading: 5 pages for the whole technical narrative excluding annexes.",
+   "risk": "High - five pages must carry understanding, methodology, work plan and the reference list. This response takes the strict reading and holds the whole body, Parts 1 to 3, within five pages, with all evidence in annexes, because that reading cannot lose points under either interpretation. The ambiguity is also put to CI as a clarification question.",
    "locationRemapped": true
   },
   {
@@ -697,7 +697,7 @@
    "type": "evaluation",
    "whereMet": "Technical Proposal section 9, with Annex C; Annex C, last three years; Annex C and Annex F",
    "evidenceNeeded": "Assignments delivered 2023-2026 plus actual samples of delivered work - redacted report extracts, model outputs or deck pages - cleared for external release. [[TO CONFIRM: EY to supply work samples from the last three years that are cleared for release to a third party, with client confidentiality approvals; where none can be released, EY's own CI benchmark research draft may be offered as a demonstrable sample of current work]]",
-   "risk": "High - 15 marks and it demands artefacts, not descriptions. Client confidentiality usually blocks sample release, so clearance must be started immediately. Note the three-year window here conflicts with the five-year window in the Part 1 content requirement.",
+   "risk": "High - 15 marks and it demands artefacts, not descriptions. Client confidentiality usually blocks sample release, so clearance must be started immediately. The three-year window here nests inside the five-year window in the Part 1 content requirement, so one dated table satisfies both.",
    "locationRemapped": true
   },
   {
@@ -738,6 +738,56 @@
    "whereMet": "Whole submission; verified against this compliance matrix before release",
    "evidenceNeeded": "Every row in this matrix marked satisfied, with no remaining [[TO CONFIRM]] placeholders in either PDF, and a section-by-section cross-reference showing the evaluator where each of the six technical criteria is answered.",
    "risk": "Medium - the two-envelope process means a technical shortfall stops the bid before price is ever seen, so all technical gaps (C-07 to C-13, C-25 to C-32, C-68, C-70, C-72) must close before submission. A visible compliance cross-reference table in the technical proposal is cheap insurance.",
+   "locationRemapped": true
+  },
+  {
+   "id": "C-75",
+   "source": "Section 1, Instructions to offerors (missing from the pack held)",
+   "requirement": "Submit by the stated deadline, to the stated address or portal, in the stated manner.",
+   "type": "mandatory-submission",
+   "whereMet": "Submission process, outside both documents",
+   "evidenceNeeded": "[[TO CONFIRM: CI to supply the submission deadline, submission method and address, and the named point of contact. The RFP copy held begins at Section 2, so the instructions to offerors are absent entirely.]]",
+   "risk": "High - a missed or misdirected submission is a zero regardless of quality, and every other lead time in the bid is scheduled backwards from this date.",
+   "locationRemapped": true
+  },
+  {
+   "id": "C-76",
+   "source": "Section 1, Instructions to offerors (missing from the pack held)",
+   "requirement": "Submit clarification questions by the stated cut-off.",
+   "type": "format",
+   "whereMet": "Consolidated clarification request, sent before submission",
+   "evidenceNeeded": "[[TO CONFIRM: CI to confirm the deadline for clarification questions and the address for them. 27 questions are listed at the end of this matrix.]]",
+   "risk": "High - the matrix raises 27 genuine ambiguities, several of which change the shape of the response. They are worthless if the cut-off has passed.",
+   "locationRemapped": true
+  },
+  {
+   "id": "C-77",
+   "source": "Section 5, Level of Effort and Cost of Services (truncated in the pack held)",
+   "requirement": "Comply with any stated level of effort, consultant-day requirement or prescribed cost format.",
+   "type": "cost-content",
+   "whereMet": "Cost Proposal sections 2 to 4",
+   "evidenceNeeded": "[[TO CONFIRM: CI to supply the complete Level of Effort section. The copy held ends mid-sentence at 'This assignment is expected to be largely desk-based with virtual'. A prescribed level of effort or cost format in the missing text would invalidate the effort model and the budget presentation, and costs cannot be revised after submission.]]",
+   "risk": "High - the cost proposal is built on a 58-day effort model that the missing text could contradict.",
+   "locationRemapped": true
+  },
+  {
+   "id": "C-78",
+   "source": "Section 1, Instructions to offerors (missing from the pack held)",
+   "requirement": "State the period for which the proposal remains valid.",
+   "type": "format",
+   "whereMet": "Technical Proposal section 12, signature block",
+   "evidenceNeeded": "[[TO CONFIRM: validity period CI requires. Stated in the signature block.]]",
+   "risk": "Medium - a stated validity period is standard and its absence is usually a formality, but a required period longer than EY will hold pricing for is a commercial exposure.",
+   "locationRemapped": true
+  },
+  {
+   "id": "C-79",
+   "source": "Section 4, Submission requirements, 'Other:' line left blank",
+   "requirement": "Supply any further submission item CI requires under the blank 'Other' line.",
+   "type": "mandatory-submission",
+   "whereMet": "Submission process, outside both documents",
+   "evidenceNeeded": "[[TO CONFIRM: CI to confirm that nothing further is required under the blank 'Other' line in the submission table, for example company registration documents, insurance certificates or a conflict-of-interest declaration.]]",
+   "risk": "Medium - the line is blank in the copy held. If CI intended an entry there, an otherwise complete proposal is incomplete.",
    "locationRemapped": true
   }
  ],
