@@ -69,9 +69,17 @@ def render(rows: list[dict], groups, heading: str, blurb: str,
 
 
 def splice(path: Path, start_marker: str, end_marker: str, body: str) -> None:
+    """Replace the block from start_marker up to the next end_marker after it.
+
+    The end marker must be searched for FROM the start marker. Searching the
+    whole document finds an earlier occurrence and splices the annex into the
+    middle of the page, which is exactly what happened before this was fixed.
+    """
     doc = path.read_text(encoding="utf-8")
     start = doc.index(start_marker)
-    end = doc.index(end_marker) if end_marker in doc else len(doc)
+    end = doc.find(end_marker, start + len(start_marker))
+    if end == -1:
+        end = len(doc)
     path.write_text(doc[:start] + body + "\n" + doc[end:], encoding="utf-8")
 
 

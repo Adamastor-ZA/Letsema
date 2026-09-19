@@ -13,7 +13,7 @@ cost       EY_Cost_Proposal_CI_RFP_0032026.pdf  6 pages total, body 5 pages  [OK
 ## QA gate
 
 ```
-48/50 passed   0 defect(s)   2 blocked on missing input   0 warning(s)
+54/56 passed   0 defect(s)   2 blocked on missing input   0 warning(s)
 ```
 
 A check reported as blocked is waiting on an input, not on a fix. The

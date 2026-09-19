@@ -493,6 +493,36 @@ def check_consistency() -> None:
         f"technical {sorted(tech_weeks)} vs cost {sorted(cost_weeks)}",
     )
 
+    # Structural integrity of the Markdown sources. A generator that splices a
+    # block into the wrong place produces a document that still builds, still
+    # reports the right page count and still passes every content check, so
+    # these have to be tested directly.
+    for label, src in (("technical", tech), ("cost", cost)):
+        opens = len(re.findall(r"<div\b", src))
+        closes = len(re.findall(r"</div>", src))
+        record(
+            f"CON-07/{label}", "CONSISTENCY",
+            f"{label}: div tags balance in the source",
+            opens == closes, True, f"{opens} open, {closes} close",
+        )
+
+        nums = [int(n) for n in re.findall(r"^#{2,3}\s+(\d+)\.", src, re.M)]
+        record(
+            f"CON-08/{label}", "CONSISTENCY",
+            f"{label}: numbered sections run in order without gaps",
+            nums == list(range(1, len(nums) + 1)), True,
+            f"found {nums}",
+        )
+
+        marker = src.find('class="annex-start"')
+        first_annex = src.find("\n## Annex ")
+        record(
+            f"CON-09/{label}", "CONSISTENCY",
+            f"{label}: no annex heading appears before the annex break",
+            marker != -1 and first_annex > marker, True,
+            f"annex break at {marker}, first annex heading at {first_annex}",
+        )
+
     cm = QA / "compliance_matrix.md"
     if cm.exists():
         text = cm.read_text(encoding="utf-8")

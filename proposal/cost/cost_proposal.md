@@ -19,26 +19,9 @@ EY proposes a fixed price of **US$40,000** for the full scope of RFP 0032026 ove
 <div class="kpi"><div class="v">US$40,000</div><div class="l">Fixed price, all-inclusive</div></div>
 <div class="kpi"><div class="v">58 days</div><div class="l">Professional effort</div></div>
 <div class="kpi"><div class="v">US$621</div><div class="l">Blended rate per day</div></div>
-## Annex C: Compliance matrix, cost requirements
-
-Every cost requirement in RFP 0032026, mapped to the place in this cost proposal where it is met. The technical requirements are mapped in Annex E of the separate Technical Proposal.
-
-### Cost proposal content
-
-| ID | Requirement | Where it is met |
-|---|---|---|
-| C-17 | The cost proposal must be all-inclusive of profit, fees or taxes; additional costs cannot be added after award and costs may not be revised after submission unless CI expressly requests it. | Cost Proposal section 1, summary table |
-| C-18 | Offerors must provide a detailed budget showing major expense line items, with all items, services etc. clearly labelled and included in the total offered price. | Cost Proposal sections 2 and 3 |
-| C-19 | Offers must show unit prices, quantities, and total price. | Cost Proposal sections 2 and 3, columns: unit, quantity, unit price US$, total US$ |
-| C-20 | The cost shall also include a budget narrative that explains the basis for the estimate of every cost element or line item. | Cost Proposal section 6, one narrative entry per line item |
-| C-21 | Supporting information must be provided in sufficient detail to allow a complete analysis of each cost element; CI reserves the right to request additional cost information. | Cost Proposal section 9 plus Cost Proposal Annex B |
-| C-22 | Offeror shall use best efforts to minimise the financing of taxes, apply for refunds where eligible, and reflect any tax savings in the total cost. | Cost Proposal section 7 |
-| C-23 | The proposal should propose a payment schedule tied to deliverables, with no more than 10% allocated to the Inception report. | Cost Proposal section 5 |
-| C-24 | The assignment has been allocated a maximum budget of US$40,000. | Cost Proposal section 1, summary table |
-| C-77 | Comply with any stated level of effort, consultant-day requirement or prescribed cost format. | Cost Proposal sections 2 to 4 |
-
-
 </div>
+
+<div class="keep" markdown="1">
 
 | Cost element | US$ |
 |---|---|
@@ -46,6 +29,8 @@ Every cost requirement in RFP 0032026, mapped to the place in this cost proposal
 | Direct costs | 4,000 |
 | Taxes, on the zero-rated export basis set out at section 7 | 0 |
 | **Total price, all-inclusive of profit, fees and taxes** | **40,000** |
+
+</div>
 
 ## 2. Professional fees
 
@@ -193,5 +178,7 @@ Every cost requirement in RFP 0032026, mapped to the place in this cost proposal
 | C-22 | Offeror shall use best efforts to minimise the financing of taxes, apply for refunds where eligible, and reflect any tax savings in the total cost. | Cost Proposal section 7 |
 | C-23 | The proposal should propose a payment schedule tied to deliverables, with no more than 10% allocated to the Inception report. | Cost Proposal section 5 |
 | C-24 | The assignment has been allocated a maximum budget of US$40,000. | Cost Proposal section 1, summary table |
+| C-77 | Comply with any stated level of effort, consultant-day requirement or prescribed cost format. | Cost Proposal sections 2 to 4 |
+
 
 </div>
