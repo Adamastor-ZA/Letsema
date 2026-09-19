@@ -70,8 +70,8 @@ RULES: list[tuple[str, str]] = [
     (rf"{T} Part 1, section 2\.4", f"{T} section 5"),
     (rf"{T} Part 1, sections? 2\.1 and 2\.2", f"{T} sections 3 and 4"),
     (rf"{T} Part 1, section 2\.2 and 2\.4", f"{T} sections 3, 4 and 5"),
-    (rf"{T} Part 1, section 2\.1", f"{T} section 3, Activity One"),
-    (rf"{T} Part 1, section 2\.2", f"{T} section 3, Activity Two, and section 4"),
+    (rf"{T} Part 1, section 2\.1", f"{T} section 3 (Activity One)"),
+    (rf"{T} Part 1, section 2\.2", f"{T} section 3 (Activity Two) and section 4"),
     (rf"{T} Part 1, section 2\.3", f"{T} section 3, interviews and appetite test"),
     (rf"{T} Part 1, sections 1-2", f"{T} sections 1 to 5"),
     (rf"{T} Part 1, section 1", f"{T} section 1"),
@@ -81,8 +81,8 @@ RULES: list[tuple[str, str]] = [
 
     # bare "Part 1, section x" (no document prefix)
     (r"\bPart 1, sections? 2\.1 and 2\.2", f"{T} sections 3 and 4"),
-    (r"\bPart 1, section 2\.2", f"{T} section 3, Activity Two, and section 4"),
-    (r"\bPart 1, section 2\.1", f"{T} section 3, Activity One"),
+    (r"\bPart 1, section 2\.2", f"{T} section 3 (Activity Two) and section 4"),
+    (r"\bPart 1, section 2\.1", f"{T} section 3 (Activity One)"),
 
     # Annex letters the agent used, resolved through sentinels so that letters
     # emitted by the rules above are never re-mapped on a later pass.

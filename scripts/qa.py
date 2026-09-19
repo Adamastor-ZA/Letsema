@@ -93,6 +93,14 @@ US_SPELLINGS = {
     r"\bcatalog(s|ed)?\b": "catalogue",
 }
 
+# Comma sequences reviewed and cleared. Each is either a verbatim quotation
+# from the RFP, where the client's own punctuation stands, or a parenthetical
+# that needs the comma before "and" to stay readable.
+OXFORD_CLEARED = [
+    "unit prices, quantities, and total price",   # quoted verbatim from RFP section 4
+    "eight case studies, two of them clustered, and five light-touch checks",
+]
+
 # Proper nouns and quoted source material that legitimately carry US spellings.
 SPELLING_EXEMPTIONS = [
     "Harpers Ferry Center", "Center for", "Mekong Tourism Coordinating Office",
@@ -136,6 +144,9 @@ def check_prose(label: str, text: str) -> None:
     ):
         middle = m.group(2)
         if re.search(r"\b(and|or|as|which|that|because|where|when|since)\b", middle):
+            continue
+        window = re.sub(r"\s+", " ", text[max(0, m.start() - 60):m.end() + 60])
+        if any(c.lower() in window.lower() for c in OXFORD_CLEARED):
             continue
         candidates.append(m.group(0))
     record(

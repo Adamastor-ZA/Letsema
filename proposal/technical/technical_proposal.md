@@ -179,7 +179,98 @@ The RFP sets these eight as minimum requirements for all offerors. The middle co
 
 ## Annex E: Compliance matrix
 
-The full matrix is maintained at `qa/compliance_matrix.md` in the working files and is reproduced here at submission.
+Every requirement in RFP 0032026 that bears on this technical proposal, mapped to the place where it is met. The cost requirements are mapped in the same way in Annex C of the separate Cost Proposal.
+
+### Submission completeness
+
+| ID | Requirement | Where it is met |
+|---|---|---|
+| C-01 | Proposal is complete only if it includes a Technical Proposal. | Technical Proposal (standalone PDF, Parts 1-3 plus annexes) |
+| C-02 | Proposal is complete only if it includes a Cost Proposal. | Cost Proposal (separate standalone PDF) |
+| C-03 | Proposal is complete only if it includes a Signed Offeror Representation of Transparency, Integrity, Social Responsibility. | Submitted separately alongside both PDFs, per RFP section 4; referenced at Technical Proposal section 12 |
+| C-13 | Provide at least three client references. | Technical Proposal section 11, with Annex B |
+
+### Format and submission rules
+
+| ID | Requirement | Where it is met |
+|---|---|---|
+| C-14 | The technical and financial proposals are to be submitted separately as PDFs. | Two separate PDFs: EY_Technical_Proposal_CI_RFP_0032026.pdf and EY_Cost_Proposal_CI_RFP_0032026.pdf and EY_CI_RFP0032026_Cost_Proposal.pdf |
+| C-15 | A technical proposal, max 5 pages (excluding annexes). | Technical Proposal body, sections 1 to 12, before Annex A |
+| C-16 | All cost information must be expressed in USD. | Cost Proposal sections 1 to 6 |
+
+### Offeror eligibility, RFP section 3
+
+| ID | Requirement | Where it is met |
+|---|---|---|
+| C-25 | Key skill: proven knowledge and experience in brand development and destination branding. | Technical Proposal Annex C, skill row: brand development and destination branding; supporting assignments in Annex C; CVs in Annex A |
+| C-26 | Key skill: skills and experience in business planning, development of business models and financial modelling. | Technical Proposal Annex C, skill row: business planning, business models and financial modelling; CVs in Annex A |
+| C-27 | Key skill: global exposure and experience in tourism and leading brand development and management. | Technical Proposal Annex C, skill row: global exposure in tourism and brand management; Technical Proposal section 10 |
+| C-28 | Key skill: proven ability to work with the private sector and secure investment or funding. | Technical Proposal Annex C, skill row: working with the private sector and securing investment |
+| C-29 | Key skill: presentation of business cases and pitching. | Technical Proposal Annex C, skill row: presentation of business cases and pitching, reinforced by the Activity Two presentation method in Technical Proposal section 3 (Activity Two) and section 4 |
+| C-30 | Key skill: stakeholder management and partnerships. | Technical Proposal Annex C, skill row: stakeholder management and partnerships, plus the interview and appetite-test method at Technical Proposal section 3 |
+| C-31 | Key skill: experience of the Africa region and tourism landscape. | Technical Proposal Annex C, skill row: experience of the Africa region and tourism landscape; Technical Proposal section 10 |
+| C-32 | Key skill: experience in protected areas and conservation. | Technical Proposal Annex C, skill row: experience in protected areas and conservation; Annex C |
+| C-33 | The consultants may execute the assignment in partnership or consortium with other relevant firms if necessary. | Technical Proposal section 6 (team structure) and section 8 |
+
+### Technical proposal content
+
+| ID | Requirement | Where it is met |
+|---|---|---|
+| C-04 | Part 1 must cover Technical Approach, Methodology and Detailed Work Plan. | Technical Proposal sections 1 to 5, with the detailed plan in Annex D |
+| C-05 | Demonstrate an understanding of the consultancy requirements. | Technical Proposal section 1 |
+| C-06 | Provide a methodology and work plan for performing the assignment. | Technical Proposal section 3 (2.1 Activity One, 2.2 Activity Two, 2.3 Activity Three, 2.4 work plan and governance) plus Annex D |
+| C-07 | Provide a detailed reference list indicating the scope and magnitude of similar assignments. | Technical Proposal section 9, with Annex C (summary table) with the full list in Annex C |
+| C-08 | Set out relevant services undertaken in the past five (5) years. | Technical Proposal section 9, with Annex C and Annex C, last five years |
+| C-09 | Provide Management, Key Personnel and Staffing Plan. | Technical Proposal section 6 |
+| C-10 | CVs may be included in an annex to the technical proposal. | Technical Proposal Annex A |
+| C-11 | Provide Corporate Capabilities, Experience and Past Performance. | Technical Proposal section 8, with Annex C |
+| C-12 | Include descriptions of similar projects or assignments. | Technical Proposal section 9, with Annex C, with fuller write-ups in Annex C |
+| C-34 | Review existing initiatives that support destination branding at a regional or multi-destination level in Africa, as well as organisations and initiatives with similar mandates (Africa's Eden, Boundless Southern Africa, others). | Technical Proposal section 3 (Activity One); delivered in Deliverable 2 |
+| C-35 | Review global destination or multi-brand platforms and business models that have relevance to the ToRs. | Technical Proposal section 3 (Activity One); delivered in Deliverable 2 |
+| C-36 | Evaluation of good practice, gaps and lessons learned. | Technical Proposal section 3 (Activity One); delivered in Deliverable 2 |
+| C-37 | Summary of key attributes and good principles for sustainable destination (protected area) branding to take forward into the assignment. | Technical Proposal section 3 (Activity One) (method commitment); delivered as the closing chapter of Deliverable 2 |
+| C-38 | Conceptualise at least three brand-delivery support models, with a critical evaluation and feasibility assessment of each; models must be innovative and capable of working cross-jurisdiction, in unstable funding environments, across multiple stakeholders and for protected areas of wide-ranging capacity, with pre-requisites considered. | Technical Proposal section 3 (Activity Two) and section 4; delivered in Deliverable 3 |
+| C-39 | For each concept provide details including scope, offer, approach, governance, management, budget and funding sources and other attributes necessary to make a full comparison, with specific detail required on the proposed financial sustainability model for each. | Deliverable 3, per-model chapters using a uniform template; committed in Technical Proposal section 3 (Activity Two) and section 4 |
+| C-40 | Evaluate and assess the model concepts for suitability in the case of protected areas across Africa (especially the CI priority areas), and make justified recommendations for selection of the preferred model, including expected results. | Deliverable 3, evaluation and recommendation chapter |
+| C-41 | Prepare and present the findings to relevant stakeholders to assess appetite and support for the preferred model, and adapt as necessary. | Technical Proposal section 3 (Activity Two) and section 4; delivered as the Deliverable 3 presentation plus a committed adaptation cycle before Deliverable 4 |
+| C-42 | Indicate detailed next steps for implementation of the model, including requirements for further research, stakeholder sensitization and others. | Deliverable 4, implementation roadmap chapter |
+| C-43 | Develop Terms of Reference to support the design and development of the selected model. | Deliverable 4, annexed draft Terms of Reference |
+| C-44 | Each brand-delivery support model must elaborate the services and offer of the model. | Technical Proposal section 3 (Activity Two) and section 4 (committed as heading 1 of the model template); delivered per model in Deliverable 3 |
+| C-45 | Each model must elaborate expected results. | Model template heading 2; Deliverable 3 per model, restated in the Deliverable 3 recommendation |
+| C-46 | Each model must elaborate stakeholders. | Model template heading 3; Deliverable 3 per model |
+| C-47 | Each model must elaborate information and cash flows. | Model template heading 4; Deliverable 3 per model, with a flow diagram each |
+| C-48 | Each model must elaborate funding needs and requirements over time. | Model template heading 5; Deliverable 3 per model, with a multi-year funding profile |
+| C-49 | Each model must elaborate governance and management structures. | Model template heading 6; Deliverable 3 per model |
+| C-50 | Each model must elaborate potential funders and investors. | Model template heading 7; Deliverable 3 per model |
+| C-51 | Each model must elaborate case studies, inspiration and lessons learned. | Model template heading 8; Deliverable 3 per model, drawing directly on the Deliverable 2 benchmark base |
+| C-52 | Each model must elaborate pros and cons from the perspective of national government, park authorities, collaborative management partners (co-management partners in protected areas), communities, visitors and private sector / business. | Model template heading 9; Deliverable 3 per model, as a six-column pros and cons table |
+| C-53 | Models should aim to be as financially sustainable as possible. | Technical Proposal section 3 (Activity Two) and section 4 (named as an evaluation criterion); scored per model in Deliverable 3 |
+| C-54 | Models should aim to operate or be serviced in an aggregated or integrated way (cost efficiency). | Technical Proposal section 3 (Activity Two) and section 4; scored per model in Deliverable 3 |
+| C-55 | Models should aim to be sensitive, conservation-led, evidence-based and culturally appropriate. | Technical Proposal section 3 (Activity Two) and section 4; scored per model in Deliverable 3 |
+| C-56 | Models should aim to support relevant data collection. | Technical Proposal section 3 (Activity Two) and section 4; scored per model in Deliverable 3 |
+| C-57 | Models should aim to support multi segment stratification and destination appeal. | Technical Proposal section 3 (Activity Two) and section 4; scored per model in Deliverable 3 |
+| C-58 | Models should promote mechanisms that support multi-stakeholder brand management, including reconciling alignment with national destination brands and other relevant organisations. | Technical Proposal section 3 (Activity Two) and section 4; scored per model in Deliverable 3, with a dedicated national-brand alignment section |
+| C-59 | Models should reference and compare approaches to existing efforts in the market to ensure the model is tailored to fill gaps rather than duplicate efforts. | Technical Proposal sections 3 and 4; delivered as the gap analysis bridging Deliverables 2 and 3 |
+| C-60 | The assignment is not concerned with creating protected area brands and identities at this stage; subsequent assignments will support phased implementation of the selected model. | Technical Proposal section 1 (explicit in-scope / out-of-scope statement) |
+| C-61 | This assignment is desk-based and does not require travel. | Technical Proposal section 3 (method stated as desk research plus virtual interviews); Cost Proposal sections 2 and 3 (no travel line) |
+| C-62 | Deliverable 1: Inception Report outlining proposed workplan and approach to the assignment, due 2 weeks after contract signing. Acceptance criterion is CI's approval and acceptance. | Technical Proposal section 5 (work plan, week 2) and Cost Proposal section 5, milestone 1 |
+| C-63 | Deliverable 2: Draft report on 'Situational Analysis and Best Practice Assessment', due 5 weeks after contract signing. Acceptance criterion is CI's approval and acceptance. | Technical Proposal section 5 (work plan, week 5); Cost Proposal section 5, milestone 2 |
+| C-64 | Deliverable 3: Draft report AND presentation on brand delivery models, due 10 weeks after contract signing. Acceptance criterion is CI's approval and acceptance of both. | Technical Proposal section 5 (work plan, week 10); Cost Proposal section 5, milestone 3 |
+| C-65 | Deliverable 4: Final report combining all elements and incorporating comments from CI and relevant stakeholders, due 12 weeks after contract signing. Acceptance criterion is CI's approval and acceptance. | Technical Proposal section 5 (work plan, week 12); Cost Proposal section 5, final milestone |
+| C-66 | Presentations may need to be made to different stakeholder groups as appropriate. | Technical Proposal sections 3, 4 and 5; Cost Proposal section 9 |
+
+### Evaluation criteria, RFP section 6
+
+| ID | Requirement | Where it is met |
+|---|---|---|
+| C-67 | Demonstrate understanding of the assignment and expected outcomes. Weighted award: 5 marks. | Technical Proposal section 1 |
+| C-68 | Demonstrate relevant experience to undertake the given assignment (5-10 years). Weighted award: 20 marks. | Technical Proposal sections 8 and 9, with Annex C; Annex C |
+| C-69 | Methodology and delivery approach of undertaking the assignment in the provided timelines. Weighted award: 5 marks. | Technical Proposal section 3 and Annex D |
+| C-70 | Demonstrate relevant services provided in the last three years with samples of work delivered. Weighted award: 15 marks. | Technical Proposal section 9, with Annex C; Annex C, last three years; Annex C and Annex F |
+| C-71 | Geographical Reach & Familiarity: demonstrate relevant geographical experience, knowledge and reach to effectively carry out the assignment. Weighted award: 10 marks. | Technical Proposal Annex C, skill row: experience of the Africa region and tourism landscape and section 5.5; Technical Proposal section 10 |
+| C-72 | Qualifications and competence of the key staff related to the study. Bidders must provide descriptions AND documentation of staff/teams' technical expertise, experience, and assignment relevance. Weighted award: 15 marks. | Technical Proposal section 6; Annex A (CVs) |
+| C-73 | Financial proposal assessed on clarity, relevance, reality to market value / value for money of cost for the assignment (inclusive of any applicable tax, reimbursables and travel). Weighted award: 30 marks. | Cost Proposal in full, sections 1 to 9 |
+| C-74 | Award will be made to the Offeror whose proposal is responsive, meets the eligibility criteria, meets the technical capability requirements and is most advantageous to CI; technical is weighted 70% and only the financial proposals of bidders who qualify technically will be reviewed; bidders should ensure they fully respond to all criteria to be comprehensively evaluated. | Whole submission; verified against this compliance matrix before release |
 
 ## Annex F: Benchmark scan, archetype map and rating matrix
 
