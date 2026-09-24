@@ -20,6 +20,9 @@ import { settingsSchema, type Settings } from './settings'
 
 export const SCHEMA_VERSION = 1
 
+/** One colour slot per scenario; the base case takes the first palette colour. */
+export const MAX_SCENARIOS = 7
+
 const overridesSchema = z.object({
   primeDeltaBps: rateBps(-5_000, 5_000).optional(),
   variableIncomeFactor: z.number().min(0).max(10).optional(),
@@ -37,7 +40,10 @@ export const scenarioSchema = z.object({
   name: z.string().trim().min(1).max(120),
   presets: z.array(z.enum(PRESET_IDS as [PresetId, ...PresetId[]])),
   custom: overridesSchema,
+  /** Included in comparisons and charts. */
   active: z.boolean(),
+  /** Fixed colour slot (1–7), so a scenario keeps its colour whatever else is shown. */
+  slot: z.number().int().min(1).max(MAX_SCENARIOS),
 })
 export type ScenarioRecord = z.output<typeof scenarioSchema>
 
@@ -74,6 +80,8 @@ export const datasetSchema = z
         ids.add(item.id)
       })
     }
+    const slots = d.scenarios.map((s) => s.slot)
+    if (new Set(slots).size !== slots.length) ctx.addIssue({ code: 'custom', path: ['scenarios'], message: 'Scenario colour slots must be unique' })
     const sweep = d.settings.sweepAssetId
     if (sweep !== null && !d.assets.some((a) => a.id === sweep && (a.tier === 'T1' || a.tier === 'T2'))) {
       ctx.addIssue({ code: 'custom', path: ['settings', 'sweepAssetId'], message: 'Sweep asset must be an existing T1 or T2 asset' })
@@ -129,13 +137,31 @@ export function inputsToDataset(inputs: ProjectionInputs, base: Settings): Datas
       sweepAssetId: inputs.sweepAssetId,
       includeT3InDrawdown: inputs.includeT3InDrawdown,
       overdraftBps: inputs.overdraftBps,
+      scenariosInitialised: true,
     },
     assets: withOrder(inputs.assets),
     debts: withOrder(inputs.debts),
     obligations: withOrder(inputs.obligations),
     incomes: withOrder(inputs.incomes),
     events: withOrder(inputs.events),
-    scenarios: [],
+    scenarios: defaultScenarios(),
     snapshots: [],
   }
+}
+
+/** The three stress presets on their own and combined, all compared by default. */
+export function defaultScenarios(): ScenarioRecord[] {
+  return [
+    { id: 'default-rate-shock', name: 'Rate shock', presets: ['rateShock'], custom: {}, active: true, slot: 1 },
+    { id: 'default-variable-income-down', name: 'Variable income down 40%', presets: ['variableIncomeDown'], custom: {}, active: true, slot: 2 },
+    { id: 'default-cost-escalation', name: 'Cost escalation', presets: ['costEscalation'], custom: {}, active: true, slot: 3 },
+    {
+      id: 'default-combined',
+      name: 'Combined stress',
+      presets: ['rateShock', 'variableIncomeDown', 'costEscalation'],
+      custom: {},
+      active: true,
+      slot: 4,
+    },
+  ]
 }

@@ -34,10 +34,12 @@ export function NetWorthChart({
   result,
   fmt,
   display,
+  actions,
 }: {
   result: ProjectionResult
   fmt: Formatter
   display: (cents: number, monthsElapsed: number) => number
+  actions?: React.ReactNode
 }) {
   const data: Point[] = useMemo(
     () =>
@@ -148,6 +150,7 @@ export function NetWorthChart({
       legend={legend}
       chart={chart}
       table={table}
+      actions={actions}
     />
   )
 }

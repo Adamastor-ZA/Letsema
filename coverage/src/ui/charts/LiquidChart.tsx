@@ -1,5 +1,6 @@
 import { useMemo, useState } from 'react'
 import { CartesianGrid, Line, LineChart, ReferenceLine, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts'
+import { liquidBalance } from '../../engine/metrics'
 import type { MonthRow } from '../../engine/types'
 import type { Formatter } from '../lib/format'
 import { ChartCard, type LegendItem } from './ChartCard'
@@ -10,6 +11,8 @@ export interface LiquidSeries {
   key: string
   label: string
   rows: MonthRow[]
+  /** Fixed colour; defaults to the series' position in the categorical order. */
+  color?: string
   /** Hidden until the user switches it on. */
   initiallyHidden?: boolean
 }
@@ -22,10 +25,9 @@ interface LiquidChartProps {
   subtitle?: React.ReactNode
   height?: number
   firstShortfall?: string | null
+  actions?: React.ReactNode
 }
 
-/** Liquid balance: liquid assets less any carried deficit. Negative means a shortfall is being carried. */
-export const liquidBalance = (r: MonthRow) => r.liquidAssetsCents - r.deficitCents
 
 export function yearTicks(months: string[]): string[] {
   const januaries = months.filter((m) => m.endsWith('-01'))
@@ -33,9 +35,9 @@ export function yearTicks(months: string[]): string[] {
   return januaries.filter((_, i) => i % step === 0)
 }
 
-export function LiquidChart({ series, fmt, display, title = 'Liquid balance', subtitle, height = 320, firstShortfall }: LiquidChartProps) {
+export function LiquidChart({ series, fmt, display, title = 'Liquid balance', subtitle, height = 320, firstShortfall, actions }: LiquidChartProps) {
   const [hidden, setHidden] = useState<Set<string>>(() => new Set(series.filter((s) => s.initiallyHidden).map((s) => s.key)))
-  const colors = useMemo(() => Object.fromEntries(series.map((s, i) => [s.key, SERIES[i % SERIES.length]!])), [series])
+  const colors = useMemo(() => Object.fromEntries(series.map((s, i) => [s.key, s.color ?? SERIES[i % SERIES.length]!])), [series])
 
   const data = useMemo(() => {
     const base = series[0]?.rows ?? []
@@ -163,5 +165,5 @@ export function LiquidChart({ series, fmt, display, title = 'Liquid balance', su
     </table>
   )
 
-  return <ChartCard title={title} subtitle={subtitle} legend={legend} chart={chart} table={table} />
+  return <ChartCard title={title} subtitle={subtitle} legend={legend} chart={chart} table={table} actions={actions} />
 }

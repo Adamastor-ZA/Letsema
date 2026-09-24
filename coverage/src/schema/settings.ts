@@ -31,6 +31,8 @@ export const settingsSchema = z.object({
   overdraftBps: rateBps(0, 10_000),
   thresholds: thresholdsSchema,
   lastExportAt: z.string().nullable(),
+  /** The default scenarios have been offered once; deleting them does not bring them back. */
+  scenariosInitialised: z.boolean().optional(),
 })
 export type Settings = z.output<typeof settingsSchema>
 

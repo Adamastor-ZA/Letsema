@@ -1,6 +1,6 @@
 import { Fragment, useState } from 'react'
 import type { FlowItem, MonthRow } from '../../engine/types'
-import { liquidBalance } from '../charts/LiquidChart'
+import { liquidBalance } from '../../engine/metrics'
 import { DisplayToggle } from '../components/DisplayToggle'
 import { Badge, Notice } from '../components/Notice'
 import type { EditorContext } from '../editors/types'

@@ -6,6 +6,9 @@ import { MetricCard } from '../components/MetricCard'
 import { Notice } from '../components/Notice'
 import type { EditorContext } from '../editors/types'
 import { useModel } from '../hooks/useModel'
+import { useScenarios, type ScenarioModel } from '../hooks/useScenarios'
+import { BASE_COLOR, scenarioColor } from '../charts/theme'
+import { StatusPill } from '../components/MetricCard'
 import { ragFor } from '../lib/rag'
 import { href } from '../routes'
 import { ThresholdsDialog } from './ThresholdsDialog'
@@ -59,8 +62,72 @@ function Headline({ metrics, settings, fmt }: { metrics: Metrics; settings: Sett
   )
 }
 
+function StressTests({ scenarios, settings, fmt, display }: { scenarios: ScenarioModel; settings: Settings; fmt: EditorContext['fmt']; display: (c: number, m: number) => number }) {
+  const t = settings.thresholds
+  const horizon = scenarios.base.result.rows.length
+  const rows = [
+    { key: 'base', name: 'Base case', color: BASE_COLOR, m: scenarios.base.metrics },
+    ...scenarios.active.map((r) => ({ key: r.scenario.id, name: r.scenario.name, color: scenarioColor(r.scenario.slot), m: r.evaluation.metrics })),
+  ]
+  return (
+    <section className="card p-4 sm:p-5" aria-label="Stress tests">
+      <header className="mb-3 flex flex-wrap items-baseline justify-between gap-2">
+        <h2 className="text-base font-semibold">Stress tests</h2>
+        <a className="text-sm text-brand-700 underline" href={href('scenarios')}>
+          {scenarios.active.length ? 'Compare in detail' : 'Choose scenarios to compare'}
+        </a>
+      </header>
+      <div className="overflow-x-auto">
+        <table className="w-full min-w-max text-sm">
+          <thead className="text-left text-xs text-slate-500">
+            <tr>
+              <th scope="col" className="py-1 pr-3 font-medium">
+                Scenario
+              </th>
+              <th scope="col" className="px-3 py-1 font-medium">
+                Coverage
+              </th>
+              <th scope="col" className="px-3 py-1 font-medium">
+                First shortfall
+              </th>
+              <th scope="col" className="px-3 py-1 text-right font-medium">
+                Liquid balance at horizon
+              </th>
+            </tr>
+          </thead>
+          <tbody className="divide-y divide-slate-100">
+            {rows.map((r) => (
+              <tr key={r.key}>
+                <th scope="row" className="py-1.5 pr-3 text-left font-normal">
+                  <span className="flex items-center gap-1.5">
+                    <span aria-hidden="true" className="inline-block h-0.5 w-4 rounded" style={{ background: r.color }} />
+                    {r.name}
+                  </span>
+                </th>
+                <td className="px-3 py-1.5">
+                  <span className="flex items-center gap-2 whitespace-nowrap">
+                    {fmt.ratio(r.m.coverage.ratio)} <StatusPill status={ragFor(r.m.coverage.ratio, t.coverageRatio)} />
+                  </span>
+                </td>
+                <td className="px-3 py-1.5">
+                  <span className="flex items-center gap-2 whitespace-nowrap">
+                    {r.m.firstShortfall.month ? fmt.month(r.m.firstShortfall.month) : 'None'}{' '}
+                    <StatusPill status={ragFor(r.m.firstShortfall.months, t.firstShortfallMonths)} />
+                  </span>
+                </td>
+                <td className="num px-3 py-1.5">{fmt.money(display(r.m.liquidBalanceHorizonCents, horizon))}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
 export function DashboardPage({ ctx }: { ctx: EditorContext }) {
   const model = useModel(ctx.dataset)
+  const scenarios = useScenarios(ctx.dataset)
   const [editThresholds, setEditThresholds] = useState(false)
   const { settings } = ctx.dataset
   const t = settings.thresholds
@@ -176,6 +243,8 @@ export function DashboardPage({ ctx }: { ctx: EditorContext }) {
           { key: 'allStops', label: 'All income stops', rows: model.evaluation.allIncomeStops.rows, initiallyHidden: true },
         ]}
       />
+
+      {!('error' in scenarios) && <StressTests scenarios={scenarios} settings={settings} fmt={fmt} display={d} />}
 
       {editThresholds && <ThresholdsDialog thresholds={t} onClose={() => setEditThresholds(false)} />}
     </section>

@@ -1,4 +1,4 @@
-import { coverageRatio, firstShortfall, type CoverageRatio, type Runway } from './metrics'
+import { coverageRatio, firstShortfall, liquidBalance, lowestLiquid, type CoverageRatio, type LowPoint, type Runway } from './metrics'
 import { project } from './project'
 import { applyOverrides, combineOverrides, resolveOverrides, type Overrides, type ScenarioDefinition } from './scenarios'
 import type { ProjectOptions, ProjectionInputs, ProjectionResult, YearMonth } from './types'
@@ -15,6 +15,9 @@ export interface Metrics {
   liquidNetWorthTodayCents: number
   netWorthHorizonCents: number
   liquidNetWorthHorizonCents: number
+  /** Liquid assets less carried deficit at the horizon. */
+  liquidBalanceHorizonCents: number
+  lowestLiquid: LowPoint
   horizonMonth: YearMonth
 }
 
@@ -50,6 +53,8 @@ export function evaluate(base: ProjectionInputs, overrides: Overrides = {}, opti
       liquidNetWorthTodayCents: result.opening.liquidNetWorthCents,
       netWorthHorizonCents: last.netWorthCents,
       liquidNetWorthHorizonCents: last.liquidNetWorthCents,
+      liquidBalanceHorizonCents: liquidBalance(last),
+      lowestLiquid: lowestLiquid(result.rows),
       horizonMonth: last.month,
     },
   }

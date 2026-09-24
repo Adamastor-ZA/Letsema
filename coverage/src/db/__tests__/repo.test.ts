@@ -100,7 +100,7 @@ describe('entities', () => {
   })
 
   it('removes deleted ids from scenario exclusions', async () => {
-    await db.scenarios.put({ id: 's', name: 's', presets: [], custom: { excludedIds: ['x', 'y'] }, active: true })
+    await db.scenarios.put({ id: 's', name: 's', presets: [], custom: { excludedIds: ['x', 'y'] }, active: true, slot: 1 })
     await saveEntity('assets', cash('x', 0))
     await deleteEntity('assets', 'x')
     expect((await db.scenarios.get('s'))?.custom.excludedIds).toEqual(['y'])
@@ -136,5 +136,44 @@ describe('whole dataset', () => {
     await clearAllData()
     expect(await hasAnyData()).toBe(false)
     expect((await getSettings()).currency).toBe('ZAR')
+  })
+})
+
+describe('scenarios', () => {
+  it('seeds the defaults once, and not again after they are deleted', async () => {
+    const { ensureDefaultScenarios, deleteScenario } = await import('../repo')
+    await ensureDefaultScenarios()
+    expect((await readDataset()).scenarios.map((s) => s.name)).toEqual(['Rate shock', 'Variable income down 40%', 'Cost escalation', 'Combined stress'])
+    await deleteScenario('default-rate-shock')
+    await ensureDefaultScenarios()
+    expect((await readDataset()).scenarios).toHaveLength(3)
+  })
+
+  it('restores deleted defaults into free colour slots', async () => {
+    const { ensureDefaultScenarios, deleteScenario, restoreDefaultScenarios, saveScenario } = await import('../repo')
+    await ensureDefaultScenarios()
+    await deleteScenario('default-rate-shock')
+    await saveScenario({ id: 'mine', name: 'Mine', presets: [], custom: { primeDeltaBps: 100 }, active: true, slot: 1 })
+    expect(await restoreDefaultScenarios()).toBe(1)
+    const scenarios = (await readDataset()).scenarios
+    expect(scenarios.find((s) => s.id === 'default-rate-shock')?.slot).toBe(5)
+    expect(new Set(scenarios.map((s) => s.slot)).size).toBe(scenarios.length)
+  })
+
+  it('enforces the scenario cap and unique colour slots', async () => {
+    const { saveScenario, freeScenarioSlot } = await import('../repo')
+    for (let slot = 1; slot <= 7; slot++) await saveScenario({ id: `s${slot}`, name: `S${slot}`, presets: [], custom: {}, active: false, slot })
+    expect(await freeScenarioSlot()).toBeNull()
+    await expect(saveScenario({ id: 's8', name: 'S8', presets: [], custom: {}, active: false, slot: 1 })).rejects.toThrow(/Up to 7/)
+    await expect(saveScenario({ id: 's1', name: 'Renamed', presets: [], custom: {}, active: true, slot: 2 })).rejects.toThrow(/slot/)
+    await saveScenario({ id: 's1', name: 'Renamed', presets: ['rateShock'], custom: {}, active: true, slot: 1 })
+    expect((await readDataset()).scenarios[0]).toMatchObject({ name: 'Renamed', presets: ['rateShock'] })
+  })
+
+  it('ships the default scenarios with the sample data', async () => {
+    await loadSampleData('2026-09')
+    const d = await readDataset()
+    expect(d.scenarios).toHaveLength(4)
+    expect(d.settings.scenariosInitialised).toBe(true)
   })
 })

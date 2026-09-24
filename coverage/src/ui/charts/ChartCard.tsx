@@ -29,7 +29,7 @@ export function ChartCard({ title, subtitle, legend, chart, table, actions }: Ch
           <h2 className="text-base font-semibold">{title}</h2>
           {subtitle && <div className="mt-0.5 text-sm text-slate-600">{subtitle}</div>}
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center justify-end gap-2">
           {actions}
           <div role="group" aria-label="View" className="inline-flex rounded-md border border-slate-300 p-0.5">
             {(['chart', 'table'] as const).map((v) => (

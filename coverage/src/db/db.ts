@@ -27,6 +27,8 @@ export class CoverageDB extends Dexie {
       snapshots: 'id, month',
       settings: 'id',
     })
+    // v2: scenarios carry a fixed colour slot, indexed for display order.
+    this.version(2).stores({ scenarios: 'id, slot' })
   }
 
   get allTables() {

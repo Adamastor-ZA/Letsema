@@ -1,6 +1,15 @@
 import type { EntityTable } from 'dexie'
 import { buildSampleInputs } from '../sample/sample-data'
-import { datasetSchema, inputsToDataset, SCHEMA_VERSION, type Dataset } from '../schema/dataset'
+import {
+  datasetSchema,
+  defaultScenarios,
+  inputsToDataset,
+  MAX_SCENARIOS,
+  scenarioSchema,
+  SCHEMA_VERSION,
+  type Dataset,
+  type ScenarioRecord,
+} from '../schema/dataset'
 import { entitySchemas, type EntityKind, type EntityRecords } from '../schema/entities'
 import { defaultSettings, settingsSchema, type Settings } from '../schema/settings'
 import { db } from './db'
@@ -96,7 +105,7 @@ export async function readDataset(): Promise<Dataset> {
     db.obligations.orderBy('sortOrder').toArray(),
     db.incomes.orderBy('sortOrder').toArray(),
     db.events.orderBy('sortOrder').toArray(),
-    db.scenarios.toArray(),
+    db.scenarios.orderBy('slot').toArray(),
     db.snapshots.orderBy('month').toArray(),
   ])
   return { schemaVersion: SCHEMA_VERSION, settings, assets, debts, obligations, incomes, events, scenarios, snapshots }
@@ -135,4 +144,61 @@ export async function loadSampleData(asOfMonth = currentYearMonth()): Promise<vo
 export async function hasAnyData(): Promise<boolean> {
   const counts = await Promise.all([db.assets.count(), db.debts.count(), db.obligations.count(), db.incomes.count(), db.events.count()])
   return counts.some((n) => n > 0)
+}
+
+/** Seed the default scenarios once per database. Safe to call on every start. */
+export async function ensureDefaultScenarios(): Promise<void> {
+  await db.transaction('rw', [db.settings, db.scenarios], async () => {
+    const settings = await getSettings()
+    if (settings.scenariosInitialised) return
+    if ((await db.scenarios.count()) === 0) await db.scenarios.bulkPut(defaultScenarios())
+    await db.settings.put({ ...settings, scenariosInitialised: true })
+  })
+}
+
+/** Restore any default scenario that has been deleted, without touching the others. */
+export async function restoreDefaultScenarios(): Promise<number> {
+  return db.transaction('rw', db.scenarios, async () => {
+    const existing = await db.scenarios.toArray()
+    const used = new Set(existing.map((s) => s.slot))
+    let added = 0
+    for (const d of defaultScenarios()) {
+      if (existing.some((s) => s.id === d.id)) continue
+      const slot = used.has(d.slot) ? nextFreeSlot(used) : d.slot
+      if (slot === null) break
+      used.add(slot)
+      await db.scenarios.put({ ...d, slot })
+      added++
+    }
+    return added
+  })
+}
+
+function nextFreeSlot(used: Set<number>): number | null {
+  for (let slot = 1; slot <= MAX_SCENARIOS; slot++) if (!used.has(slot)) return slot
+  return null
+}
+
+/** The colour slot for a new scenario, or null when all are taken. */
+export async function freeScenarioSlot(): Promise<number | null> {
+  return nextFreeSlot(new Set((await db.scenarios.toArray()).map((s) => s.slot)))
+}
+
+export async function saveScenario(scenario: ScenarioRecord): Promise<ScenarioRecord> {
+  const parsed = scenarioSchema.parse(scenario)
+  await db.transaction('rw', db.scenarios, async () => {
+    const others = (await db.scenarios.toArray()).filter((s) => s.id !== parsed.id)
+    if (others.length >= MAX_SCENARIOS) throw new Error(`Up to ${MAX_SCENARIOS} scenarios`)
+    if (others.some((s) => s.slot === parsed.slot)) throw new Error('That colour slot is already taken')
+    await db.scenarios.put(parsed)
+  })
+  return parsed
+}
+
+export async function deleteScenario(id: string): Promise<void> {
+  await db.scenarios.delete(id)
+}
+
+export async function setScenarioActive(id: string, active: boolean): Promise<void> {
+  await db.scenarios.update(id, { active })
 }

@@ -105,3 +105,23 @@ describe('net worth metrics', () => {
     })
   })
 })
+
+describe('lowest liquid balance', () => {
+  it('finds the trough and its month, including a carried deficit', async () => {
+    const { lowestLiquid } = await import('../metrics')
+    const rows = project(
+      inputs({
+        horizonMonths: 6,
+        assets: [asset('cash', 'T1', 1_000)],
+        incomes: [income('pay', 500)],
+        events: [event('bill', '2026-03', 3_000, 'outflow')],
+      }),
+    ).rows
+    // Jan 1 500, Feb 2 000, Mar −500 (deficit), Apr 0, May 500, Jun 1 000.
+    expect(lowestLiquid(rows)).toEqual({ cents: -500, month: '2026-03' })
+    expect(evaluate(inputs({ horizonMonths: 6, assets: [asset('cash', 'T1', 1_000)], incomes: [income('pay', 500)] })).metrics).toMatchObject({
+      liquidBalanceHorizonCents: 4_000,
+      lowestLiquid: { cents: 1_500, month: '2026-01' },
+    })
+  })
+})

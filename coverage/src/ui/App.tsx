@@ -7,6 +7,7 @@ import { AssumptionsPage } from './pages/AssumptionsPage'
 import { DashboardPage } from './pages/DashboardPage'
 import { Next12Page } from './pages/Next12Page'
 import { ProjectionPage } from './pages/ProjectionPage'
+import { ScenariosPage } from './pages/ScenariosPage'
 import { DataPage } from './pages/DataPage'
 import { Placeholder } from './pages/Placeholder'
 import { NAV, href, useRoute, type RouteId } from './routes'
@@ -19,6 +20,8 @@ function Page({ route, ctx }: { route: RouteId; ctx: EditorContext }) {
       return <ProjectionPage ctx={ctx} />
     case 'next12':
       return <Next12Page ctx={ctx} />
+    case 'scenarios':
+      return <ScenariosPage ctx={ctx} />
     case 'assets':
       return <EntityEditor config={assetsConfig} ctx={ctx} />
     case 'debts':

@@ -47,6 +47,26 @@ export function coverageRatio(result: ProjectionResult, months = 12): CoverageRa
   }
 }
 
+export interface LowPoint {
+  /** Lowest liquid balance (liquid assets less carried deficit) over the horizon. */
+  cents: number
+  month: YearMonth
+}
+
+/** Liquid balance: liquid assets less any carried deficit. Negative while a shortfall is carried. */
+export function liquidBalance(p: { liquidAssetsCents: number; deficitCents: number }): number {
+  return p.liquidAssetsCents - p.deficitCents
+}
+
+export function lowestLiquid(rows: MonthRow[]): LowPoint {
+  let low: LowPoint = { cents: Infinity, month: rows[0]?.month ?? '' }
+  for (const r of rows) {
+    const v = liquidBalance(r)
+    if (v < low.cents) low = { cents: v, month: r.month }
+  }
+  return low
+}
+
 export interface Runway {
   /** Full months covered before the first shortfall; null when none falls within the horizon. */
   months: number | null
