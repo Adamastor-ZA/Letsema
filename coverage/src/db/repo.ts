@@ -12,6 +12,7 @@ import {
 } from '../schema/dataset'
 import { entitySchemas, type EntityKind, type EntityRecords } from '../schema/entities'
 import { defaultSettings, settingsSchema, type Settings } from '../schema/settings'
+import { planCheckIn, type CheckInInput, type CheckInPlan } from './checkin'
 import { db } from './db'
 
 export function currentYearMonth(now = new Date()): string {
@@ -201,4 +202,25 @@ export async function deleteScenario(id: string): Promise<void> {
 
 export async function setScenarioActive(id: string, active: boolean): Promise<void> {
   await db.scenarios.update(id, { active })
+}
+
+/** Record a monthly check-in atomically: balances, rolled-forward amounts, as-of month and snapshot. */
+export async function saveCheckIn(input: CheckInInput): Promise<CheckInPlan> {
+  return db.transaction('rw', db.allTables, async () => {
+    const plan = planCheckIn(await readDataset(), input)
+    const d = datasetSchema.parse(plan.dataset) as Dataset
+    await Promise.all([
+      db.settings.put(d.settings),
+      db.assets.bulkPut(d.assets),
+      db.debts.bulkPut(d.debts),
+      db.obligations.bulkPut(d.obligations),
+      db.incomes.bulkPut(d.incomes),
+      db.snapshots.put(plan.snapshot),
+    ])
+    return plan
+  })
+}
+
+export async function deleteSnapshot(id: string): Promise<void> {
+  await db.snapshots.delete(id)
 }

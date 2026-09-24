@@ -1,5 +1,5 @@
 import { z } from 'zod'
-import type { ProjectionInputs } from '../engine/types'
+import { TIERS, type ProjectionInputs } from '../engine/types'
 import { PRESET_IDS, type PresetId } from '../engine/scenarios'
 import {
   assetSchema,
@@ -47,15 +47,22 @@ export const scenarioSchema = z.object({
 })
 export type ScenarioRecord = z.output<typeof scenarioSchema>
 
+const totalsSchema = z.object({ liquidCents: z.number().int(), netWorthCents: z.number().int(), debtCents: z.number().int() })
+
+/**
+ * A monthly check-in: actual balances at the start of `month`, and the base-case
+ * path projected from them at the time, so later actuals can be compared with
+ * what was expected. `projected[0]` is the check-in itself; each later entry is
+ * the projected position at the start of that month.
+ */
 export const snapshotSchema = z.object({
   id: z.string().min(1),
   month: yearMonth,
   takenAt: z.string(),
-  assets: z.array(z.object({ assetId: z.string(), name: z.string(), tier: z.string(), valueCents: cents })),
+  assets: z.array(z.object({ assetId: z.string(), name: z.string(), tier: z.enum(TIERS), valueCents: cents })),
   debts: z.array(z.object({ debtId: z.string(), name: z.string(), balanceCents: cents })),
-  projected: z.array(
-    z.object({ month: yearMonth, liquidCents: z.number().int(), netWorthCents: z.number().int(), debtCents: z.number().int() }),
-  ),
+  actual: totalsSchema,
+  projected: z.array(totalsSchema.extend({ month: yearMonth })),
   note: z.string().max(2000).optional(),
 })
 export type SnapshotRecord = z.output<typeof snapshotSchema>

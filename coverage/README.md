@@ -6,7 +6,7 @@ This folder is self-contained and separate from the Letsema website at the repo 
 
 ## Status
 
-Phases 1 to 4 of 5 are complete: the projection engine with its tests; the storage layer with editors for every entity and the global assumptions; the dashboard, projection charts and next-12-months view; and scenarios. The monthly check-in, export and import arrive in Phase 5.
+All five phases are complete: the projection engine with its tests; the storage layer with editors for every entity and the global assumptions; the dashboard, projection charts and next-12-months view; scenarios; and the monthly check-in with snapshots, export, import and encrypted backups.
 
 ```sh
 npm install
@@ -25,7 +25,7 @@ Data lives in IndexedDB for the origin you open the app on, so `localhost:5173` 
 ```
 src/engine/   pure projection engine, metrics, scenarios, diagnostics (no framework, clock or I/O)
 src/schema/   Zod schemas for entities, settings and the whole dataset; engine input mapping
-src/db/       Dexie database and repository (validated writes, reference clean-up, reordering)
+src/db/       Dexie database, repository, check-in planning, backup format and encryption
 src/sample/   fictional sample household
 src/ui/       React screens, generic entity editor, field parsing and formatting
 ```
@@ -41,6 +41,10 @@ The dashboard leads with the 12-month coverage ratio and shows the first shortfa
 The projection page charts the liquid balance (liquid assets less any carried deficit) for the base case and the two runway runs, and net worth by tier at each year with debt below zero. Every chart has a legend and a table view. The next-12-months page itemises what falls due against what comes in, month by month. Amounts can be shown in nominal terms or deflated by CPI to today's money.
 
 The scenarios page holds up to seven scenarios. Each combines any of the three presets (rate shock, variable income down 40%, cost escalation) with custom adjustments: prime, income levels and growth, obligation escalation, investment growth, haircuts, items left out and extra one-off events. Ticked scenarios are compared side by side with the base case, metric by metric with the change against base, and drawn on the liquid-balance charts. The three presets and a combined stress scenario are created once as defaults; deleted defaults can be restored. Each scenario keeps a fixed colour slot, so its colour never depends on which others are shown.
+
+The monthly check-in records actual balances at the start of a month, moves the model's as-of month forward and saves a snapshot. Moving forward also applies any annual increases that fell due in between to obligation and income amounts (`rollForward` in the engine), since those amounts are stated as at the as-of month. Each snapshot stores the base-case path projected from it for 36 months, so later actuals are charted against what was expected at the time, from any chosen baseline.
+
+The data page exports everything as JSON, plain or encrypted, and restores a backup after validating it in full. Encryption uses WebCrypto only: AES-256-GCM with a random 96-bit IV, the key derived from the passphrase by PBKDF2-SHA-256 with a random 128-bit salt and 600 000 iterations. A wrong passphrase or a tampered file fails authentication rather than producing garbage. The dashboard reminds you when a check-in is due or the last backup is more than 35 days old.
 
 Chart colours follow a palette validated for colour-vision deficiency; status is always carried by an icon and label as well as colour.
 

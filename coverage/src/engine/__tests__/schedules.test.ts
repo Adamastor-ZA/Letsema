@@ -79,3 +79,43 @@ describe('income schedules', () => {
     expect(result.rows[0]).toMatchObject({ incomeCents: 1_000, committedIncomeCents: 700, variableIncomeCents: 300 })
   })
 })
+
+describe('rolling the as-of month forward', () => {
+  it('applies escalation that fell due in between, then continues from the new month', async () => {
+    const { rollForward } = await import('../schedules')
+    const base = inputs({
+      asOfMonth: '2026-09',
+      obligations: [obligation('medical', 100_000, { escalationBps: 1000, escalationMonth: 1 })],
+      incomes: [income('salary', 1_000_000, { growthBps: 500, growthMonth: 3 })],
+    })
+    const { inputs: rolled, changes } = rollForward(base, '2027-04')
+    expect(rolled.asOfMonth).toBe('2027-04')
+    expect(rolled.obligations[0]!.amountCents).toBe(110_000)
+    expect(rolled.incomes[0]!.amountCents).toBe(1_050_000)
+    expect(changes.map((c) => [c.id, c.fromCents, c.toCents])).toEqual([
+      ['medical', 100_000, 110_000],
+      ['salary', 1_000_000, 1_050_000],
+    ])
+    expect(base.obligations[0]!.amountCents).toBe(100_000)
+    expect(() => rollForward(base, '2026-08')).toThrow()
+    expect(rollForward(base, '2026-09').changes).toEqual([])
+  })
+
+  it('leaves the projected flows unchanged, month for month', async () => {
+    const { rollForward } = await import('../schedules')
+    const { buildSampleInputs } = await import('../../sample/sample-data')
+    const original = { ...buildSampleInputs('2026-09'), horizonMonths: 120 }
+    const before = project(original).rows
+    for (const offset of [1, 5, 17, 40]) {
+      const to = before[offset]!.month
+      const after = project({ ...rollForward(original, to).inputs, horizonMonths: 120 - offset }).rows
+      after.forEach((r, i) => {
+        const b = before[offset + i]!
+        expect(r.month).toBe(b.month)
+        // Rounding once per roll-forward can shift a compounded amount by a cent.
+        expect(Math.abs(r.obligationsCents - b.obligationsCents)).toBeLessThanOrEqual(10)
+        expect(Math.abs(r.incomeCents - b.incomeCents)).toBeLessThanOrEqual(10)
+      })
+    }
+  })
+})

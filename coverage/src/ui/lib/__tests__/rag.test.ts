@@ -17,3 +17,17 @@ describe('ragFor', () => {
     expect(ragFor(11, { green: 12, amber: 12 })).toBe('red')
   })
 })
+
+describe('moneyCompact', () => {
+  it('keeps neighbouring ticks distinct and drops trailing zeros', async () => {
+    const { makeFormatter } = await import('../format')
+    const f = makeFormatter('ZAR', 'en-ZA')
+    expect(f.moneyCompact(125_000_000)).toBe('R 1.25m')
+    expect(f.moneyCompact(130_000_000)).toBe('R 1.3m')
+    expect(f.moneyCompact(100_000_000)).toBe('R 1m')
+    expect(f.moneyCompact(1_550_000_000)).toBe('R 15.5m')
+    expect(f.moneyCompact(85_000_000)).toBe('R 850k')
+    expect(f.moneyCompact(-4_250_000)).toBe('-R 42.5k')
+    expect(f.moneyCompact(0)).toBe('R 0')
+  })
+})

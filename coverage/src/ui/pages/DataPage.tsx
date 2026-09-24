@@ -3,6 +3,7 @@ import { clearAllData, loadSampleData } from '../../db/repo'
 import { ConfirmDialog } from '../components/ConfirmDialog'
 import { Notice } from '../components/Notice'
 import type { EditorContext } from '../editors/types'
+import { BackupPanel } from './BackupPanel'
 
 function usePersistence() {
   const [persisted, setPersisted] = useState<boolean | null>(null)
@@ -65,12 +66,7 @@ export function DataPage({ ctx }: { ctx: EditorContext }) {
           </button>
         </div>
 
-        <div className="flex flex-wrap items-center justify-between gap-3 p-4">
-          <div className="text-sm">
-            <h2 className="font-medium">Export and import</h2>
-            <p className="text-slate-600">JSON and encrypted backups arrive in Phase 5.</p>
-          </div>
-        </div>
+        <BackupPanel lastExportAt={d.settings.lastExportAt} fmt={ctx.fmt} />
 
         <div className="flex flex-wrap items-center justify-between gap-3 p-4">
           <div className="text-sm">

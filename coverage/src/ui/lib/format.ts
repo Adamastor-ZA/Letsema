@@ -34,8 +34,10 @@ export function makeFormatter(currency: string, locale: string): Formatter {
       const v = Math.abs(cents) / 100
       const sign = cents < 0 ? '-' : ''
       const [n, unit] = v >= 1e9 ? [v / 1e9, 'bn'] : v >= 1e6 ? [v / 1e6, 'm'] : v >= 1e3 ? [v / 1e3, 'k'] : [v, '']
-      const digits = unit === '' || n >= 100 ? 0 : n >= 10 ? 0 : 1
-      return `${sign}${symbol} ${n.toFixed(digits).replace(/\.0$/, '')}${unit}`
+      // Enough precision that neighbouring axis ticks stay distinct (R 1.25m, R 1.3m), trailing zeros dropped.
+      const digits = unit === '' || n >= 100 ? 0 : n >= 10 ? 1 : 2
+      const text = n.toFixed(digits).replace(/(\.\d*?)0+$/, '$1').replace(/\.$/, '')
+      return `${sign}${symbol} ${text}${unit}`
     },
     percent: (bps) => `${formatPercentInput(bps)}%`,
     month,

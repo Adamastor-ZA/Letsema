@@ -6,6 +6,7 @@ import { useDataset, useFormatter } from './hooks/useDataset'
 import { AssumptionsPage } from './pages/AssumptionsPage'
 import { DashboardPage } from './pages/DashboardPage'
 import { Next12Page } from './pages/Next12Page'
+import { CheckInPage } from './pages/CheckInPage'
 import { ProjectionPage } from './pages/ProjectionPage'
 import { ScenariosPage } from './pages/ScenariosPage'
 import { DataPage } from './pages/DataPage'
@@ -22,6 +23,8 @@ function Page({ route, ctx }: { route: RouteId; ctx: EditorContext }) {
       return <Next12Page ctx={ctx} />
     case 'scenarios':
       return <ScenariosPage ctx={ctx} />
+    case 'checkin':
+      return <CheckInPage ctx={ctx} />
     case 'assets':
       return <EntityEditor config={assetsConfig} ctx={ctx} />
     case 'debts':

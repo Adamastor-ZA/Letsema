@@ -16,7 +16,7 @@ function settingsFields(ctx: EditorContext): FieldDef[] {
       key: 'asOfMonth',
       label: 'As-of month',
       kind: 'month',
-      help: 'The first projected month. Balances you enter are as at the start of it. The monthly check-in moves it forward.',
+      help: 'The first projected month. Balances you enter are as at the start of it. Use the monthly check-in to move it forward: it also applies annual increases that fell due in between, which editing it here does not.',
     },
     { key: 'horizonYears', label: 'Projection horizon', kind: 'integer', suffix: 'years', help: '1 to 30 years.' },
     { key: 'cpiBps', label: 'CPI', kind: 'percent', suffix: '%', allowNegative: true, help: 'Used to show values in real terms.' },

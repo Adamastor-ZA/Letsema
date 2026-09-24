@@ -12,6 +12,42 @@ import { StatusPill } from '../components/MetricCard'
 import { ragFor } from '../lib/rag'
 import { href } from '../routes'
 import { ThresholdsDialog } from './ThresholdsDialog'
+import { currentYearMonth } from '../../db/repo'
+import { toIndex } from '../../engine/month'
+
+const BACKUP_REMINDER_DAYS = 35
+
+/** Nudges for the two habits the app depends on: monthly check-ins and backups. */
+function Reminders({ settings, fmt, now = new Date() }: { settings: Settings; fmt: EditorContext['fmt']; now?: Date }) {
+  const month = currentYearMonth(now)
+  const checkInDue = toIndex(month) > toIndex(settings.asOfMonth)
+  const daysSinceBackup = settings.lastExportAt ? Math.floor((now.getTime() - new Date(settings.lastExportAt).getTime()) / 86_400_000) : null
+  const backupDue = daysSinceBackup === null || daysSinceBackup > BACKUP_REMINDER_DAYS
+  if (!checkInDue && !backupDue) return null
+  return (
+    <div className="space-y-2">
+      {checkInDue && (
+        <Notice tone="warn">
+          It is {fmt.month(month)} and the model is still as of {fmt.month(settings.asOfMonth)}.{' '}
+          <a className="font-medium underline" href={href('checkin')}>
+            Do your monthly check-in
+          </a>
+          .
+        </Notice>
+      )}
+      {backupDue && (
+        <Notice tone="warn">
+          {daysSinceBackup === null ? 'You have not backed up yet.' : `Your last backup was ${daysSinceBackup} days ago.`} Your data lives only in this
+          browser.{' '}
+          <a className="font-medium underline" href={href('data')}>
+            Export a backup
+          </a>
+          .
+        </Notice>
+      )}
+    </div>
+  )
+}
 
 function bandText(band: { green: number; amber: number }, unit: string) {
   return `Green at ${band.green}${unit} or more, amber at ${band.amber}${unit} or more`
@@ -161,6 +197,8 @@ export function DashboardPage({ ctx }: { ctx: EditorContext }) {
           Status thresholds
         </button>
       </header>
+
+      <Reminders settings={settings} fmt={fmt} />
 
       <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-4">
         <MetricCard

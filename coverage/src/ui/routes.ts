@@ -29,7 +29,7 @@ export const NAV: { heading: string; items: NavItem[] }[] = [
       { id: 'projection', label: 'Projection' },
       { id: 'next12', label: 'Next 12 months' },
       { id: 'scenarios', label: 'Scenarios' },
-      { id: 'checkin', label: 'Monthly check-in', phase: 5 },
+      { id: 'checkin', label: 'Monthly check-in' },
     ],
   },
   {
