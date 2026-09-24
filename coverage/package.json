@@ -1,0 +1,24 @@
+{
+  "name": "letsema-coverage",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Private, local-first coverage model: do liquid assets plus reliable income cover what I owe?",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "demo": "tsx scripts/demo.ts",
+    "check": "npm run typecheck && npm run lint && npm run test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.6.2",
+    "eslint": "^10.11.0",
+    "tsx": "^4.23.15",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.70.1",
+    "vitest": "^5.0.1"
+  }
+}
