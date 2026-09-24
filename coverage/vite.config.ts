@@ -31,7 +31,8 @@ function contentSecurityPolicy(): Plugin {
 export default defineConfig({
   base: './',
   plugins: [react(), tailwindcss(), contentSecurityPolicy()],
-  build: { sourcemap: false },
+  // Served from localhost only, so bundle size is not a concern worth splitting chunks for.
+  build: { sourcemap: false, chunkSizeWarningLimit: 1500 },
   test: {
     include: ['src/**/*.test.{ts,tsx}'],
     setupFiles: ['src/test-setup.ts'],

@@ -233,3 +233,26 @@ describe('positions', () => {
     ])
   })
 })
+
+describe('itemised detail', () => {
+  it('records every flow for the requested months and reconciles to the totals', async () => {
+    const { buildSampleInputs } = await import('../../sample/sample-data')
+    const result = project(buildSampleInputs('2026-09'), { detailMonths: 12 })
+    for (const r of result.rows.slice(0, 12)) {
+      const items = r.items!
+      const sumOf = (kind: string, direction: string) =>
+        items.filter((i) => i.kind === kind && i.direction === direction).reduce((s, i) => s + i.amountCents, 0)
+      expect(sumOf('income', 'in')).toBe(r.incomeCents)
+      expect(sumOf('obligation', 'out')).toBe(r.obligationsCents)
+      expect(sumOf('debt', 'out')).toBe(r.debtPaymentsCents)
+      expect(sumOf('event', 'in')).toBe(r.oneOffInCents)
+      expect(sumOf('event', 'out')).toBe(r.oneOffOutCents)
+    }
+    expect(result.rows[12]!.items).toBeUndefined()
+    expect(result.rows[4]!.items!.find((i) => i.name.startsWith('School fees'))?.amountCents).toBe(10_368_000)
+  })
+
+  it('omits detail by default', () => {
+    expect(project(inputs({ incomes: [income('pay', 1)] })).rows[0]!.items).toBeUndefined()
+  })
+})

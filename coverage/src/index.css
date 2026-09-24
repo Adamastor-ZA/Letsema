@@ -45,6 +45,6 @@
     @apply rounded-lg border border-slate-200 bg-white shadow-xs;
   }
   .num {
-    @apply text-right tabular-nums;
+    @apply text-right whitespace-nowrap tabular-nums;
   }
 }

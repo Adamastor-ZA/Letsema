@@ -25,9 +25,9 @@ export const NAV: { heading: string; items: NavItem[] }[] = [
   {
     heading: 'Overview',
     items: [
-      { id: 'dashboard', label: 'Dashboard', phase: 3 },
-      { id: 'projection', label: 'Projection', phase: 3 },
-      { id: 'next12', label: 'Next 12 months', phase: 3 },
+      { id: 'dashboard', label: 'Dashboard' },
+      { id: 'projection', label: 'Projection' },
+      { id: 'next12', label: 'Next 12 months' },
       { id: 'scenarios', label: 'Scenarios', phase: 4 },
       { id: 'checkin', label: 'Monthly check-in', phase: 5 },
     ],

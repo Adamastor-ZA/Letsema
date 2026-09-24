@@ -3,7 +3,7 @@ import { applyBps, ceilDiv, roundCents } from './money'
 import { fromIndex, toIndex, type MonthIndex } from './month'
 import { monthlyEffective, monthlyNominal } from './rates'
 import { incomeDue, obligationDue } from './schedules'
-import type { Asset, Debt, MonthRow, OneOffEvent, Position, ProjectionInputs, ProjectionResult, Tier } from './types'
+import type { Asset, Debt, FlowItem, MonthRow, ProjectOptions, OneOffEvent, Position, ProjectionInputs, ProjectionResult, Tier } from './types'
 
 /** Id of the notional cash bucket used when there is no T1 asset to sweep into. */
 export const UNALLOCATED_CASH_ID = '__unallocated_cash__'
@@ -98,7 +98,7 @@ function groupEvents(events: OneOffEvent[]): Map<MonthIndex, OneOffEvent[]> {
  * rest into the sweep asset; 7. fund a shortfall from T1, then T2 net of
  * haircut (then accessible T3 if enabled), carrying anything unfunded forward.
  */
-export function project(inputs: ProjectionInputs): ProjectionResult {
+export function project(inputs: ProjectionInputs, options: ProjectOptions = {}): ProjectionResult {
   if (!Number.isInteger(inputs.horizonMonths) || inputs.horizonMonths < 1 || inputs.horizonMonths > MAX_HORIZON_MONTHS) {
     throw new Error(`Horizon must be 1–${MAX_HORIZON_MONTHS} months, got ${inputs.horizonMonths}`)
   }
@@ -143,12 +143,14 @@ export function project(inputs: ProjectionInputs): ProjectionResult {
 
   for (let index = 0; index < inputs.horizonMonths; index++) {
     const m = asOf + index
+    const items: FlowItem[] | undefined = index < (options.detailMonths ?? 0) ? [] : undefined
 
     // 1. Income
     let committedIncomeCents = 0
     let variableIncomeCents = 0
     for (const income of inputs.incomes) {
       const amount = incomeDue(income, asOf, m)
+      if (amount !== 0) items?.push({ kind: 'income', id: income.id, name: income.name, amountCents: amount, direction: 'in', confidence: income.confidence })
       if (income.confidence === 'committed') committedIncomeCents += amount
       else variableIncomeCents += amount
     }
@@ -156,7 +158,11 @@ export function project(inputs: ProjectionInputs): ProjectionResult {
 
     // 2. Recurring obligations
     let obligationsCents = 0
-    for (const o of inputs.obligations) obligationsCents += obligationDue(o, asOf, m)
+    for (const o of inputs.obligations) {
+      const amount = obligationDue(o, asOf, m)
+      if (amount !== 0) items?.push({ kind: 'obligation', id: o.id, name: o.name, amountCents: amount, direction: 'out' })
+      obligationsCents += amount
+    }
 
     // 3. Debts
     let debtPaymentsCents = 0
@@ -166,6 +172,7 @@ export function project(inputs: ProjectionInputs): ProjectionResult {
       if (d.balance <= 0) continue
       const step = stepDebt(d.balance, d.rateBps, d.debt.instalmentCents, m >= d.endIndex)
       d.balance = step.balanceCents
+      if (step.paymentCents !== 0) items?.push({ kind: 'debt', id: d.debt.id, name: d.debt.name, amountCents: step.paymentCents, direction: 'out' })
       debtPaymentsCents += step.paymentCents
       debtInterestCents += step.interestCents
       if (step.retired) debtsRetired.push(d.debt.id)
@@ -177,6 +184,7 @@ export function project(inputs: ProjectionInputs): ProjectionResult {
     let oneOffInCents = 0
     let oneOffOutCents = 0
     for (const e of eventsByMonth.get(m) ?? []) {
+      items?.push({ kind: 'event', id: e.id, name: e.name, amountCents: e.amountCents, direction: e.direction === 'inflow' ? 'in' : 'out' })
       if (e.direction === 'inflow') oneOffInCents += e.amountCents
       else oneOffOutCents += e.amountCents
     }
@@ -254,6 +262,7 @@ export function project(inputs: ProjectionInputs): ProjectionResult {
       newDeficitCents,
       debtsRetired,
       shortfall: deficit > 0,
+      ...(items ? { items } : {}),
     })
   }
 

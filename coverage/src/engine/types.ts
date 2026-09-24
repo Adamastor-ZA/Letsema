@@ -129,6 +129,16 @@ export interface Position {
   debtBalances: Record<string, number>
 }
 
+/** One line of a month's cash flow, recorded when detail is requested. */
+export interface FlowItem {
+  kind: 'income' | 'obligation' | 'debt' | 'event'
+  id: string
+  name: string
+  amountCents: number
+  direction: 'in' | 'out'
+  confidence?: Confidence
+}
+
 export interface MonthRow extends Position {
   month: YearMonth
   /** 0 for the as-of month. */
@@ -159,6 +169,13 @@ export interface MonthRow extends Position {
   debtsRetired: string[]
   /** True when a deficit is carried at month end. */
   shortfall: boolean
+  /** Itemised flows; present only for the first `detailMonths` months. */
+  items?: FlowItem[]
+}
+
+export interface ProjectOptions {
+  /** Record itemised flows for this many months from the start. */
+  detailMonths?: number
 }
 
 export interface ProjectionResult {

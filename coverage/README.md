@@ -6,7 +6,7 @@ This folder is self-contained and separate from the Letsema website at the repo 
 
 ## Status
 
-Phases 1 and 2 of 5 are complete: the projection engine with its tests, and the storage layer with editors for every entity and the global assumptions. The dashboard, charts, scenarios and check-in screens are placeholders until Phases 3 to 5.
+Phases 1 to 3 of 5 are complete: the projection engine with its tests; the storage layer with editors for every entity and the global assumptions; and the dashboard, projection charts and next-12-months view. Scenarios and the monthly check-in are placeholders until Phases 4 and 5.
 
 ```sh
 npm install
@@ -33,6 +33,14 @@ src/ui/       React screens, generic entity editor, field parsing and formatting
 Every write goes through a Zod schema. The editors share one form model (`src/ui/editors/fields.ts`): each field has a kind that controls how it is parsed and formatted, fields can be hidden depending on other fields, and schema errors are mapped back to the field they concern. Amounts accept either decimal convention (`12 000,50` or `12,000.50`).
 
 The production build carries a Content Security Policy with `connect-src 'none'`, so the browser blocks any network request from the app. The app asks the browser for persistent storage so IndexedDB is not evicted under storage pressure.
+
+## Screens
+
+The dashboard leads with the 12-month coverage ratio and shows the first shortfall and both runways with red, amber or green status (thresholds are editable and stored with the settings; a metric that never bites within the horizon is green). Net worth, liquid net worth and liquid assets sit below, with a liquid-balance chart.
+
+The projection page charts the liquid balance (liquid assets less any carried deficit) for the base case and the two runway runs, and net worth by tier at each year with debt below zero. Every chart has a legend and a table view. The next-12-months page itemises what falls due against what comes in, month by month. Amounts can be shown in nominal terms or deflated by CPI to today's money.
+
+Chart colours follow a palette validated for colour-vision deficiency; status is always carried by an icon and label as well as colour.
 
 ## Conventions
 

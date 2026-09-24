@@ -1,7 +1,7 @@
 import { coverageRatio, firstShortfall, type CoverageRatio, type Runway } from './metrics'
 import { project } from './project'
 import { applyOverrides, combineOverrides, resolveOverrides, type Overrides, type ScenarioDefinition } from './scenarios'
-import type { ProjectionInputs, ProjectionResult, YearMonth } from './types'
+import type { ProjectOptions, ProjectionInputs, ProjectionResult, YearMonth } from './types'
 
 export interface Metrics {
   coverage: CoverageRatio
@@ -22,12 +22,15 @@ export interface Evaluation {
   /** Inputs after overrides. */
   inputs: ProjectionInputs
   result: ProjectionResult
+  /** The runway runs behind the two runway metrics. */
+  variableStops: ProjectionResult
+  allIncomeStops: ProjectionResult
   metrics: Metrics
 }
 
-export function evaluate(base: ProjectionInputs, overrides: Overrides = {}): Evaluation {
+export function evaluate(base: ProjectionInputs, overrides: Overrides = {}, options: ProjectOptions = {}): Evaluation {
   const inputs = applyOverrides(base, overrides)
-  const result = project(inputs)
+  const result = project(inputs, options)
   const variableStops = project(applyOverrides(base, combineOverrides(overrides, { variableIncomeFactor: 0 })))
   const allStops = project(
     applyOverrides(base, combineOverrides(overrides, { variableIncomeFactor: 0, committedIncomeFactor: 0 })),
@@ -36,6 +39,8 @@ export function evaluate(base: ProjectionInputs, overrides: Overrides = {}): Eva
   return {
     inputs,
     result,
+    variableStops,
+    allIncomeStops: allStops,
     metrics: {
       coverage: coverageRatio(result),
       firstShortfall: firstShortfall(result.rows),

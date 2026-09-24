@@ -4,12 +4,21 @@ import { assetsConfig, debtsConfig, eventsConfig, incomesConfig, obligationsConf
 import type { EditorContext } from './editors/types'
 import { useDataset, useFormatter } from './hooks/useDataset'
 import { AssumptionsPage } from './pages/AssumptionsPage'
+import { DashboardPage } from './pages/DashboardPage'
+import { Next12Page } from './pages/Next12Page'
+import { ProjectionPage } from './pages/ProjectionPage'
 import { DataPage } from './pages/DataPage'
 import { Placeholder } from './pages/Placeholder'
 import { NAV, href, useRoute, type RouteId } from './routes'
 
 function Page({ route, ctx }: { route: RouteId; ctx: EditorContext }) {
   switch (route) {
+    case 'dashboard':
+      return <DashboardPage ctx={ctx} />
+    case 'projection':
+      return <ProjectionPage ctx={ctx} />
+    case 'next12':
+      return <Next12Page ctx={ctx} />
     case 'assets':
       return <EntityEditor config={assetsConfig} ctx={ctx} />
     case 'debts':
