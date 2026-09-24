@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --color-brand-50: oklch(0.97 0.02 185);
+  --color-brand-100: oklch(0.93 0.04 185);
+  --color-brand-600: oklch(0.52 0.1 185);
+  --color-brand-700: oklch(0.45 0.09 185);
+  --color-brand-800: oklch(0.38 0.08 185);
+}
+
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-600;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-1.5 rounded-md border border-slate-300 bg-white px-3 py-1.5 text-sm font-medium text-slate-700 shadow-xs hover:bg-slate-50 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply border-brand-700 bg-brand-700 text-white hover:bg-brand-800;
+  }
+  .btn-danger {
+    @apply border-red-700 bg-red-700 text-white hover:bg-red-800;
+  }
+  .btn-ghost {
+    @apply border-transparent bg-transparent shadow-none hover:bg-slate-100;
+  }
+  .btn-sm {
+    @apply px-2 py-1 text-xs;
+  }
+  .input {
+    @apply block w-full rounded-md border border-slate-300 bg-white px-2.5 py-1.5 text-sm shadow-xs placeholder:text-slate-400 focus:border-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-100;
+  }
+  .input[aria-invalid='true'] {
+    @apply border-red-500 focus:ring-red-100;
+  }
+  .card {
+    @apply rounded-lg border border-slate-200 bg-white shadow-xs;
+  }
+  .num {
+    @apply text-right tabular-nums;
+  }
+}

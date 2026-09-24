@@ -6,14 +6,33 @@ This folder is self-contained and separate from the Letsema website at the repo 
 
 ## Status
 
-Phase 1 of 5 is complete: data model, projection engine, metrics, scenarios and unit tests. There is no UI yet.
+Phases 1 and 2 of 5 are complete: the projection engine with its tests, and the storage layer with editors for every entity and the global assumptions. The dashboard, charts, scenarios and check-in screens are placeholders until Phases 3 to 5.
 
 ```sh
 npm install
-npm test            # unit tests
+npm run dev         # http://localhost:5173
+npm run build       # production build into dist/, with the Content Security Policy
+npm run preview     # serve the production build at http://localhost:4173
+npm test            # unit and UI tests
 npm run demo        # sample household projection in the terminal (optionally: npm run demo -- 2027-03)
 npm run check       # typecheck + lint + tests
 ```
+
+Data lives in IndexedDB for the origin you open the app on, so `localhost:5173` and `localhost:4173` hold separate data. Pick one for real use.
+
+## Layout
+
+```
+src/engine/   pure projection engine, metrics, scenarios, diagnostics (no framework, clock or I/O)
+src/schema/   Zod schemas for entities, settings and the whole dataset; engine input mapping
+src/db/       Dexie database and repository (validated writes, reference clean-up, reordering)
+src/sample/   fictional sample household
+src/ui/       React screens, generic entity editor, field parsing and formatting
+```
+
+Every write goes through a Zod schema. The editors share one form model (`src/ui/editors/fields.ts`): each field has a kind that controls how it is parsed and formatted, fields can be hidden depending on other fields, and schema errors are mapped back to the field they concern. Amounts accept either decimal convention (`12 000,50` or `12,000.50`).
+
+The production build carries a Content Security Policy with `connect-src 'none'`, so the browser blocks any network request from the app. The app asks the browser for persistent storage so IndexedDB is not evicted under storage pressure.
 
 ## Conventions
 
