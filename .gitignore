@@ -1,0 +1,8 @@
+# Research downloads must stay in the scratchpad, never in the repo
+/*.pdf
+/*.html
+/*.txt
+/*.csv
+/*.xml
+/*.zip
+/*_img/
