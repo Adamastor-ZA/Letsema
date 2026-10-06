@@ -1,0 +1,177 @@
+# 01 Cost opportunity framework: Absa Financial Services centralisation
+
+Prepared 6 October 2026. Phase 1 deliverable. Analysis to underpin an EY point of view; not the point of view itself.
+
+## Answer first
+
+The addressable cost base for centralisation sits in three of the five Level 1 pools: operating expense, acquisition cost paid within the group and cost of capital and structural leakage. Claims cost and investment management cost are largely independent of centralisation; centralisation reaches them only through shared claims capability and procurement. The tree below is MECE at each level because each level uses a single cut: Level 1 by nature of cost as an IFRS 17 insurer reports it, Level 2 by activity in the value chain, Level 3 by mechanism of reduction. Every cost sits in exactly one Level 1 pool and one Level 2 activity; levers are applied to cells, not to pools.
+
+Two facts from the public record change the perimeter the client described. First, AFS no longer owns an investment management business of scale; Absa Investments was exchanged for a stake in Sanlam Investment Holdings in December 2022 and the LISP was sold to Glacier. Second, Rest of Africa underwriting still sits in the consolidated numbers for the periods Phase 2 will cover: Botswana, Zambia and Mozambique were sold in the first half of 2025 and the Kenyan sale was only signed in August 2026. Both points are set out in section 1 and must be confirmed with management before Phase 2.
+
+One environment constraint affects Phases 2 and 3 directly. The session's network policy denies every external host except the search tool, so no primary PDF could be downloaded or parsed. Section 7 lists the blocked hosts. Everything in this document that cites a figure is sourced to a search snippet of the primary document, not to a page, and is marked as such.
+
+## 1. Entity and licence map
+
+### 1.1 What the public record shows
+
+| Entity | Role | Licence or registration | Status | Source | Tag |
+|---|---|---|---|---|---|
+| Absa Financial Services Limited | Controlling company of the Prudential Authority designated "Absa Financial Services Insurance Group", designated 30 January 2019 under the Insurance Act 18 of 2017 | Insurance group controlling company | Current | SARB PA designated entities list, https://www.resbank.co.za/content/dam/sarb/what-we-do/prudential-regulation/pa-designated-entities/insurance/ABSA%20Financial%20Services%20Insurance%20Group.pdf | Fact (snippet) |
+| Absa Life Limited | Life insurer (underwriter) | Registration 1992/001738/06; insurer licence I121 | Current | Absa Life page, https://absa.co.za/personal/insure/my-life/absa-life-limited | Fact (snippet) |
+| Absa Insurance Company Limited | Non-life insurer (underwriter); also an authorised FSP for its own products | Registration 1992/001737/06; FSP 8030 | Current. PA administrative penalty of R6 404 000 (2026) for underwriting classes and sub-classes not on its licence, sections 25(2) and 25(4) of the Insurance Act | SARB penalty order, https://www.resbank.co.za/content/dam/sarb/what-we-do/prudential-regulation/financial-sector-regulation/2026/Administrative%20Penalty%20Order%20for%20Absa%20Insurance%20Company%20Limited.pdf | Fact (snippet) |
+| Absa Insurance Risk Management Services Limited | Non-life insurer, listed by the SARB as a private sector non-life insurer; member of the designated group | Non-life insurance licence | Current, purpose to be confirmed (cell or captive style vehicle) † | SARB institutional sector classification guide, https://resbank.co.za/content/dam/sarb/what-we-do/statistics/guides/institutional-sector-classification-guide-for-sa/Private%20Sector%20Non-Life%20Insurers%20(excluding%20medical%20schemes).pdf | Fact (snippet); Assumption on purpose † |
+| Instant Life Limited | Online life insurer acquired by Absa Life, approvals April 2016; named in the 2019 designated group | Life insurer licence (2019) | Whether still a separate licence is unverified † | Techfinancials, https://techfinancials.co.za/2016/04/04/absa-lifes-deal-to-buy-instant-life-gets-regulatory-nod/ | Fact (snippet); Assumption on current status † |
+| Absa Insurance and Financial Advisers (Pty) Ltd (AIFA) | Intermediary: advice and placement of own and third-party products; wholly owned by AFS | FSP 4012 | Current | Absa financial advisers page, https://absa.co.za/personal/financial-advisers ; FAnews on the Guardrisk agreement, https://www.fanews.co.za/article/people-and-companies/12/news/1163/guardrisk-and-absa-form-cell-captive-partnership/8269 | Fact (snippet) |
+| Absa Investments (Absa Asset Management, Absa Alternative Asset Management, Absa Fund Managers excluding the Absa Prudential Money Market Fund, Absa Multi Management, NewFunds excluding commodity ETFs) | Investment management | CIS manco and FSP licences | Exchanged for a stake of up to 17.5% in Sanlam Investment Holdings; announced 5 October 2021, integration concluded 2 December 2022 | JSE SENS 5 October 2021, https://senspdf.jse.co.za/documents/SENS_20211005_S452071.pdf ; Moneyweb, https://www.moneyweb.co.za/news/companies-and-deals/sanlam-buys-absas-investment-management-businesses-in-south-africa/ | Fact (snippet) |
+| Absa Investment Management Services (LISP) | Linked investment service provider | LISP (FSP, section 13B style administrator) | Sold to Glacier by Sanlam as a suspensive condition of the above; R66bn assets under administration at 30 June 2021 | Moonstone, https://www.moonstone.co.za/absa-to-sell-lisp-business-to-glacier-as-part-of-deal-with-sanlam/ | Fact (snippet) |
+| Absa Fund Managers (residual) | CIS manco for the Absa Prudential Money Market Fund, managed by Absa Asset Management under contract after the deal | CIS manco | Whether a residual manco licence sits in AFS is unverified † | JSE SENS 5 October 2021 as above | Assumption † |
+| Absa Trust Limited | Trust and estate services | Trust company | Ownership (AFS or bank) unverified † | No public confirmation found | Assumption † |
+| Absa Life Botswana, Absa Life Zambia, Global Alliance Mozambique | Rest of Africa underwriters | Local life and non-life licences | Sold to Hollard; completed in the first half of 2025 | Insurancebiz, https://insurancebiz.co.za/news/life-insurance/hollard-life-completes-acquisition-of-absa-life-botswana.html ; Sunday World, https://sundayworld.co.za/business/absa-insurance-segment-income-lags-behind-rivals/ | Fact (snippet) |
+| Absa Life Assurance Kenya and First Assurance (Kenya), 63.32% held | Rest of Africa underwriters | Kenyan life and non-life licences | Sale and purchase agreement signed August 2026 with First Assurance Investments; completion not confirmed in the public record | Business Daily, https://www.businessdailyafrica.com/bd/corporate/companies/mudavadi-group-to-acquire-insurance-firms-from-absa-5557116 ; Khusoko, https://khusoko.com/2026/08/13/absa-first-assurance-kenya-stake-sale/ | Fact (snippet) |
+| Absa Private Wealth and Absa Wealth Management (investment advice, stockbroking, discretionary solutions) | Advice and distribution to high net worth clients | FSP licences | Appears to sit in Personal and Private Banking, the bank, rather than AFS † | Absa private wealth pages, https://www.absa.co.za/private-wealth/wealth/investment-management/ | Assumption on entity † |
+
+### 1.2 Contradictions with the client context
+
+The context says AFS holds insurance, investment and advice licences across Absa Life, Absa Insurance and Absa investments and financial advisers. The public record supports the insurance and advice licences. It does not support an investment management business of scale inside AFS after December 2022. What may remain is a residual CIS manco for one money market fund, a trust company and the advisers' investment advice authorisations. Phase 2 therefore cannot build an "investments" line from public data, and the investment management cost pool will be small or nil unless management confirms otherwise. Cost to assets under management in basis points, the Phase 3 metric for investments, will not be meaningful for AFS.
+
+The context says Rest of Africa is distribution only with no underwriting. That is the target state, not the reported state. The FY2023, FY2024 and FY2025 group results consolidate Rest of Africa underwriters, and the first half of 2026 still includes Kenya. Sunday World reports Africa Regions insurance income down 70% in the six months to 30 June 2026 because of the 2025 disposals (snippet, not verified on page). Phase 2 must strip these entities out to get a like-for-like base, and the sale proceeds and released capital are themselves a structural item.
+
+The context does not mention Absa Insurance Risk Management Services or any residual Instant Life licence. If either licence is live it is a direct candidate for the structural lever and should be confirmed first. The 2026 penalty on Absa Insurance Company for writing classes outside its licence also matters: licence scope is already under regulatory attention, which constrains how quickly licences can be merged or widened.
+
+### 1.3 Where AFS sits in group reporting
+
+For FY2023 and FY2024 Absa reported five business units; insurance sat inside the Product Solutions Cluster and net insurance income was split into Life SA, Non-Life SA and ARO Insurance (Absa 2024 results booklet via search snippet, https://www.absa.africa/wp-content/uploads/2025/03/Results-booklet-for-the-period-ended-31-December-2024-double-page.pdf). For FY2025 the booklet discloses an Insurance SA line: headline earnings of R1 010m, down 7%, and return on equity of 18.2%; net insurance income of R2 490m for Insurance SA within R3 235m for the group; life profits of R885m (search snippet of https://www.absa.africa/wp-content/uploads/2026/03/Results-booklet-for-the-period-ended-31-December-2025-double-page.pdf; page and basis unverified; IFRS 17; tag Fact pending verification). From 2026 the group reports three pan-African units: Corporate and Investment Banking, Personal and Private Banking and Business Banking; Product Solutions Cluster, Everyday Banking and Private Wealth were folded into Personal and Private Banking in 2025, with insurance distribution cited as a reason (Absa 2025 Integrated Report via snippet, https://www.absa.africa/wp-content/uploads/2026/04/Absa-Group-Limited-Integrated-Report.pdf). The risk for Phase 2 is that the Insurance SA sub-disclosure thins out under the new segmentation. The first half 2026 booklet is the test.
+
+## 2. The cost tree
+
+### 2.1 The cut at each level
+
+Level 1 cuts by nature of cost in the order an IFRS 17 income statement presents it, with one economic pool added. Claims and benefits are incurred claims and benefits inside insurance service expense, net of reinsurance recoveries. Acquisition cost is insurance acquisition cash flows (commission to AIFA and third-party intermediaries, adviser remuneration where it is production linked, distribution fees paid to Absa Bank) whether amortised through the contractual service margin, deferred under the premium allocation approach or expensed. Operating expense is split into attributable expense, which sits inside insurance service expense, and non-attributable expense, which sits below the insurance service result as other operating expenses; the split must be stated for every figure because it changes the visible cost base by a large amount. Investment management cost is fees and costs of managing policyholder and shareholder assets. Cost of capital and structural leakage is not a P&L line; it is the economic cost of capital held above a single-entity optimum plus value lost to structure: duplicated licences, trapped capital, irrecoverable VAT on intra-group charges and reinsurance placed entity by entity. Nature of cost is the cut because it is the only one that reconciles to disclosed statements.
+
+Level 2 cuts by activity. The nine activities are product and pricing; distribution; underwriting and onboarding; policy administration and servicing; claims; investments; technology; finance, actuarial, risk and compliance; governance and corporate. Activity is where cost is incurred and who owns it, so it is the cut that maps to an operating model and to a centralisation decision. Technology is an activity here, not a nature of cost; IT spend by nature appears inside the operating expense pool and is allocated to the technology activity.
+
+Level 3 cuts by mechanism. Structural changes the legal and governance perimeter. Consolidation changes the operational perimeter inside the legal structure. Productivity reduces unit cost of a given volume of work. Demand reduces the volume of work. Price reduces the unit rate paid to third parties. Leakage recovers value paid away that should not have been. The six are exhaustive because any cost reduction is a change in structure, scope, unit cost, volume, price or recovery of waste.
+
+### 2.2 Level 1 and Level 2 matrix with classification
+
+D = directly enabled by centralisation. A = adjacent, centralisation makes it easier but does not deliver it. I = independent of centralisation. Blank = cell empty by construction.
+
+| Level 1 pool \ Level 2 activity | Product and pricing | Distribution | Underwriting and onboarding | Policy admin and servicing | Claims | Investments | Technology | Finance, actuarial, risk, compliance | Governance and corporate |
+|---|---|---|---|---|---|---|---|---|---|
+| Claims and benefits cost | I (pricing and benefit design drive claims cost) | I | A (shared underwriting rules reduce anti-selection) | I | A (shared claims capability cuts leakage) | | | I (reserving) | |
+| Acquisition cost | A (product design sets commission structure) | A (commission and bank distribution fees are set by regulation and group transfer pricing; intra-group fees net out at group level) | D (shared onboarding cuts cost per sale) | | | | A (single quote and bind platform) | | |
+| Operating expense: attributable | A | D (shared sales support, training, supervision) | D | D (single policy admin platform and servicing centre) | D (shared claims operations) | | D (one application estate) | D (shared actuarial modelling, finance operations) | |
+| Operating expense: non-attributable | | | | | | | D (shared infrastructure, licences, vendor contracts) | D (one finance, risk and compliance function serving all licences) | D (boards, executive, corporate functions, premises) |
+| Investment management cost | | | | | | I (fees set by external managers, including Sanlam Investment Holdings) | | A (one investment governance process) | |
+| Cost of capital and structural leakage | | A (binder and outsourcing fee structures) | | | | A (asset-liability matching across entities) | | D (group reinsurance programme, VAT structuring of recharges) | D (licence consolidation, trapped capital release, Rest of Africa exits) |
+
+### 2.3 Level 3 levers applied to the cells
+
+| Lever | Mechanism | Pools it reaches | Activities it reaches | Classification |
+|---|---|---|---|---|
+| Structural | Consolidate entities, licences, boards and control functions | Opex non-attributable; cost of capital and leakage | Governance and corporate; finance, actuarial, risk, compliance | D |
+| Consolidation | Shared services, one platform, fewer vendors | Opex attributable and non-attributable | Policy admin, claims, technology, finance | D |
+| Productivity | Automation, straight-through processing, spans and layers | Opex attributable | Underwriting, policy admin, claims, distribution support | D where the shared function exists, otherwise A |
+| Demand | Remove failure demand, simplify products and processes | Opex attributable; claims (through fewer disputes) | Product and pricing, servicing, claims | A |
+| Price | Procurement, reinsurance, binder and outsourcing fees | Opex; claims (net of reinsurance); acquisition | Technology, claims, distribution | A (scale from centralised buying) |
+| Leakage | Claims leakage, commission leakage, premium collection | Claims; acquisition | Claims, distribution, servicing | A |
+
+## 3. Underwriter and intermediary economics
+
+AFS runs two businesses with different cost shapes and centralisation must be judged separately for each.
+
+The underwriters, Absa Life and Absa Insurance Company, carry claims, reinsurance, acquisition cost paid out to AIFA and to the bank, attributable administration cost, control function cost and the capital cost of two solvency balance sheets. Under IFRS 17 most of their attributable cost is inside the insurance service result, so the group results booklet shows only the net margin. Absa Life applies the general measurement model to long duration business and acquisition cash flows are amortised through the contractual service margin; Absa Insurance Company applies the premium allocation approach to most short duration business and acquisition cash flows are deferred over the coverage period or expensed. These are the standard treatments under IFRS 17 and must be confirmed in the entity statements (Assumption †). Centralisation reaches the underwriters through shared actuarial, finance, risk, claims, policy administration and technology.
+
+The intermediary, AIFA, earns commission and fees from Absa Life, Absa Insurance Company and third-party insurers, and spends on adviser remuneration, supervision, compliance and sales technology. Adviser remuneration that is production linked is variable and does not centralise; fixed adviser cost, branch and support cost and FAIS compliance cost do. AIFA also places business with third-party insurers, so part of its revenue is independent of the underwriters. The Guardrisk agreement shows a cell captive route for alternative risk, so AIFA and Absa Insurance Company can earn binder or cell income on business they do not underwrite. For AIFA the relevant unit economics are cost and revenue per adviser, not expense ratio to premium.
+
+Intra-group flows net to zero at group level but not at entity level. Commission from Absa Life to AIFA is acquisition cost for the underwriter and revenue for the intermediary. Distribution fees to Absa Bank are acquisition cost for AFS and non-interest revenue for the bank. Shared service recharges from Absa Bank are non-attributable expense for AFS. Phase 2 must show every cost ratio with and without these flows, because a centralisation inside AFS does not change the bank's fee but a change in transfer pricing does.
+
+## 4. What does not centralise cleanly
+
+Licence ring-fencing. The Insurance Act 18 of 2017 licenses life and non-life business separately. Absa Life and Absa Insurance Company must remain separate legal entities with their own assets, own solvency capital and own boards. A single insurer cannot hold both licences outside microinsurance. The 2026 penalty on Absa Insurance Company for writing classes outside its licence shows the Prudential Authority polices licence scope actively. Structural consolidation is therefore limited to merging licences of the same type (Absa Insurance Risk Management Services into Absa Insurance Company; any residual Instant Life licence into Absa Life) and to removing boards and licences that no longer carry business.
+
+Key individuals and heads of control functions. Each FAIS licence needs approved key individuals and a compliance officer (FAIS Act section 8, fit and proper requirements), and each insurer needs heads of actuarial, risk, compliance and internal audit who meet the Prudential Authority's fit and proper standards. One person can hold a role across two group entities with approval, but each entity's board retains accountability, so the saving is in the function's support cost rather than in the role itself.
+
+Outsourcing. Joint Standard 1 of 2024 on outsourcing by insurers replaced Prudential Standard GOI 5 from 1 December 2024 (Bowmans, https://bowmanslaw.com/insights/south-africa-new-requirements-for-outsourcing-by-insurers-published-in-joint-standard-1-of-2024/). A shared service company inside the group is an outsourcing arrangement for each insurer. Material outsourcing needs notification, a contract, oversight and a fee that is reasonable and commensurate with the service. Centralisation does not remove this overhead; it moves it into the shared service agreement.
+
+Binder regulations. Binder fees are capped. Binder holders who give advice may receive a maximum of 9% rather than the earlier 20%, made up of 3.5% for entering into, varying or renewing policies, rising to 5% where the binder holder sets wording, premium or benefits, plus 4% for settling claims (Moonstone on the binder fee regulations, https://moonstone.co.za/?p=24114; percentages are Fact from snippet, to be verified against the regulation). The fee must be commensurate with actual cost. Intra-group binders between AFS entities or with the bank cannot be re-priced as a cost allocation; they stay inside the cap and the cost test.
+
+Policyholder Protection Rules. The rules under the Long-term and Short-term Insurance Acts attach obligations to each insurer, including claims handling standards, disclosure and treating customers fairly outcomes. A shared claims or servicing unit must run each insurer's rules and keep each insurer's records separately. This limits how far processes can be standardised across life and non-life.
+
+VAT on intra-group charges. Life premiums are an exempt supply and non-life premiums are a standard rated supply under South African VAT. Absa Life cannot recover input VAT on charges from a shared service company in full; Absa Insurance Company largely can. South Africa has no VAT grouping. Moving cost from inside Absa Life into a separate service entity therefore creates a VAT cost on the recharge unless the service entity is structured with that in mind. This is both a leakage pool and a design constraint. The current VAT rate must be sourced from SARS before any sizing.
+
+Capital. Solvency capital is held per insurer. Diversification between life and non-life does not reduce the entities' own requirements. The group designation gives the Prudential Authority group-level oversight but does not create fungible capital. Trapped capital in Absa Insurance Risk Management Services and in Rest of Africa entities awaiting sale is a structural item with a timeline set by regulators and buyers, not by AFS.
+
+Reinsurance. Treaties are per cedant. A group programme can align terms and share the broker but cannot pool life and non-life risk into one treaty.
+
+Data and conduct. Sharing customer data between the bank, the insurers and AIFA for cross-selling is governed by the Protection of Personal Information Act and by conduct rules on advice and replacement. Centralised customer platforms need consent and purpose limitation built in.
+
+Companies Act and governance. Absa Life Limited and Absa Insurance Company Limited are public companies and must keep their own boards and audit committees. Board cost falls through fewer entities, not through fewer boards per licence.
+
+## 5. One worked example per lever
+
+| Lever | Worked example | Metric that would evidence it |
+|---|---|---|
+| Structural | Fold Absa Insurance Risk Management Services into Absa Insurance Company, surrender the licence, release its solvency capital above the minimum, remove its board, audit committee, external audit and head of control function support | Number of licences; licence and audit fees; solvency capital released; non-attributable expense per licence |
+| Consolidation | One policy administration platform for life and non-life retail books, one claims operation with life and non-life streams, one finance and actuarial function serving both insurers under a Joint Standard 1 outsourcing agreement | Administration cost per in-force policy; non-attributable expense as a share of insurance revenue; number of core systems; vendor count |
+| Productivity | Straight-through processing for credit life and funeral onboarding and for funeral claims under a threshold, with spans and layers reset in the shared operation | Straight-through rate; cost per policy issued; cost per claim handled; average span of control |
+| Demand | Remove failure demand by fixing premium collection at source, cutting unpaid premium lapses and rework; simplify the product shelf so fewer legacy versions need servicing | Contacts per policy per year; lapse rate from non-payment; number of live product versions |
+| Price | One reinsurance programme across both insurers with one broker; one procurement of core policy system, cloud and licences for all AFS entities; renegotiated binder and outsourcing fees under the cost-commensurate test | Reinsurance cost as a share of gross written premium; unit price of IT services; binder fee as a share of premium |
+| Leakage | Claims leakage review on motor and property and on funeral; commission clawback enforcement on early lapses; premium collection failures recovered through debit order rules | Claims leakage rate from file audit; clawback recovered as a share of first year commission; collection success rate |
+
+## 6. MECE test
+
+Overlaps found and resolved. Adviser remuneration can be acquisition cost or operating expense. Rule: production linked remuneration is acquisition cost; salaried base cost and supervision are operating expense. AFS' own split must be disclosed in Phase 2. Fees paid to the bank can be acquisition cost or operating expense. Rule: fees for distributing policies are acquisition cost; recharges for shared services are non-attributable operating expense. Reinsurance cost was not a named pool. Rule: net reinsurance cost sits inside claims and benefits net of reinsurance; the inefficiency from placing treaties entity by entity sits in structural leakage. Claims leakage and claims handling cost touch two pools. Rule: leakage is overpayment and sits in claims and benefits; handling cost sits in attributable operating expense. Demand and productivity both lower cost in the same cells. Rule: demand changes volume, productivity changes unit cost; sizing uses volume multiplied by unit cost so the two cannot double count. Structural and consolidation both remove duplicated functions. Rule: structural changes the legal perimeter, consolidation changes the operating perimeter inside it. Technology appears as an activity and IT appears as a nature of cost. Rule: Level 1 holds IT cost by nature inside operating expense; Level 2 allocates it to the technology activity. Investments appears in Level 2 and investment management cost in Level 1. Rule: the Level 2 activity holds the cost of running investment governance, which is operating expense; the Level 1 pool holds external manager fees only.
+
+Gaps found and documented. Taxation, impairments on the bank side, interest on borrowings and investment returns are not costs in this tree and are excluded by design. Cost to achieve is excluded from the tree and tracked separately in Phase 3 precedents. Revenue levers such as cross-sell and pricing are excluded; the brief is cost. Rest of Africa distribution cost sits in distribution and governance but its underwriting cost is out of scope once the disposals complete. Attributable expense inside the insurance service result is a gap in public data rather than in the tree: Phase 2 will need the entity statements or management information to see it.
+
+Exhaustiveness check. Every line of an IFRS 17 insurer income statement maps to one Level 1 pool: insurance revenue (not a cost), insurance service expense (claims and benefits, attributable expense, amortised acquisition cash flows), net reinsurance result (claims net of reinsurance), investment result (investment management cost only), other operating expenses (non-attributable), finance cost (excluded) and tax (excluded). The economic pool holds what the statements do not show. Every function in an insurer's organisation chart maps to one Level 2 activity. Every cost initiative seen in insurer transformation programmes maps to one Level 3 mechanism.
+
+## 7. Data availability scan for Phases 2 and 3
+
+### 7.1 Access constraint
+
+The session's network egress policy returns a 403 on every external host tried, including absa.africa, absa.co.za, senspdf.jse.co.za, resbank.co.za, fsca.co.za, asisa.org.za, kpmg.com, every peer domain and en.wikipedia.org. Only the search tool returns content, as snippets. The execution rule to download and parse primary PDFs cannot be met until network access is widened. The user can change Network access in the environment settings to a broader level or add the hosts above under Allowed domains; the steps are at https://code.claude.com/docs/en/cloud-environments#network-access. Without that change, Phase 2 and Phase 3 figures would rest on snippets with no page references and would breach rule 1.
+
+### 7.2 AFS sources located
+
+| Source | Periods | What it should give | Granularity | Located | Access |
+|---|---|---|---|---|---|
+| Absa Group results booklets, FY2023, FY2024, FY2025, 1H2025, 1H2026 | Dec 2023 to Jun 2026 | Net insurance income by Life SA, Non-Life SA, ARO; Insurance SA headline earnings and RoE (FY2025); segment opex where disclosed | Segment | Yes, URLs on absa.africa | Blocked |
+| Absa Group annual consolidated and separate financial statements, FY2023, FY2024, FY2025 | Dec 2023 to Dec 2025 | IFRS 17 insurance notes: insurance revenue, insurance service expense, attributable and non-attributable split, reinsurance, acquisition cash flows, CSM roll-forward; subsidiaries list | Group insurance operations, not entity | Yes, absa.africa and JSE | Blocked |
+| Absa Group investor presentations and speaker notes, FY2025 and 1H2026 | Mar 2026, Aug 2026 | Strategy statements on insurance, operating model, bancassurance exits | Narrative | Yes | Blocked |
+| Absa Group integrated report 2025 and remuneration report | FY2025 | Headcount, operating model, PPB integration rationale | Group | Yes | Blocked |
+| Absa Bank Limited financial statements and supplementary information | FY2023 to 1H2025 | Fees received from AFS entities where disclosed in related party notes | Bank | Yes | Blocked |
+| Absa Life Limited and Absa Insurance Company Limited annual financial statements | FY2023 to FY2025 | Entity revenue, expenses by nature, commission paid, related party transactions, solvency | Entity | Not found online. Public companies, so obtainable from the company or CIPC; request from management | Not located |
+| Solvency and financial condition reports | n/a | South Africa does not require public SFCRs; the Prudential Authority receives quantitative returns privately | Entity | Does not exist publicly | n/a |
+| Prudential Authority "Selected South African insurance sector data", quarterly to December 2025 | 2020 to Dec 2025 | Sector claims, commission and management expense ratios for life and non-life primary insurers | Sector aggregate, not entity | Yes, resbank.co.za | Blocked |
+| SARB PA designated entities list and administrative penalty orders | 2019, 2025, 2026 | Group perimeter; licence scope breaches | Entity | Yes | Blocked |
+| FSCA publications | Various | Conduct statistics, binder and commission regulations | Sector | Yes | Blocked |
+| ASISA statistics | Annual | Long-term industry premiums, policies, lapses | Sector | Yes | Blocked |
+| KPMG South African Insurance Industry Survey 2025 (2024 results of 16 life and 28 non-life insurers) and 2024 edition | FY2023, FY2024 | Per-insurer income statement tables, including expense ratios, where Absa Life and Absa Insurance Company participate | Entity, if included | Yes, assets.kpmg.com | Blocked |
+| PwC South Africa insurance survey | n/a | No 2025 insurance survey found | n/a | Not found | n/a |
+| Credit rating reports (Moody's, S&P, GCR) | Latest | Qualitative on insurance subsidiaries; rarely cost data | Entity | Not searched for AFS entities | Blocked |
+| Sunday World, 2026, "Absa insurance segment income lags behind rivals" | 1H2026 | Secondary commentary; use only to locate primary figures | Segment | Yes | Blocked |
+
+### 7.3 Peer sources located
+
+| Peer | Disclosure of insurance cost base | Located | Note |
+|---|---|---|---|
+| Standard Bank, Insurance and Asset Management including Liberty | Segment headline earnings and growth (FY2025 insurance earnings up 29% per snippet); Liberty Group no longer lists separately so entity depth is thinner since 2022 | Yes | Blocked |
+| FirstRand insurance activities | Insurance revenue growth in results; FNB Life and WesBank insurance not separate segments | Yes | Blocked |
+| Nedbank Insurance | Now inside Retail and Business Banking after restructuring; insurance income growth quoted (20% in 1H2026 per snippet) but no cost base | Yes | Blocked |
+| Capitec insurance | Capitec Life: 3.3 million active policies and R1.9bn net insurance income per snippet; own licence since 2024, so limited history | Yes | Blocked |
+| Sanlam, Old Mutual, Momentum, Discovery, Santam, Hollard, OUTsurance | Full annual reports; Hollard is unlisted and publishes limited financials | Yes | Blocked |
+| Crédit Agricole Assurances, BNP Paribas Cardif, VidaCaixa, Intesa Sanpaolo insurance, KBC Insurance, Société Générale Assurances, Lloyds IP&I, BB Seguridade, Itaú and Bradesco insurance, SBI Life, Etiqa | Annual reports and results releases; SBI Life operating expense ratio 5.3% for FY25 and KBC non-life combined ratio 87% for 2025 per snippets | Yes | Blocked |
+
+### 7.4 What Phase 2 will need from management regardless of access
+
+The ten data points that only management information can close will be listed formally in Phase 2. From this scan the likely candidates are the attributable and non-attributable expense split by entity and by nature, the commission and distribution fee paid to Absa Bank, group shared service recharges by function, AIFA adviser numbers and remuneration split, policy counts by product, headcount by entity and function, the Absa Insurance Risk Management Services purpose and capital, the residual investment licences, the VAT recovery rate by entity and the reinsurance programme structure.
+
+## 8. Peer set observations for Phase 3
+
+The local bancassurer set is right but thin on cost data; only Standard Bank discloses a full segment. Capitec should stay as a scale and simplicity reference rather than a like-for-like peer, given its single funeral and credit life book. Hollard should stay in the non-bank reference set but will carry limited public financials. The global set is sound; BB Seguridade is the closest structural analogue because it is a distribution-heavy holding over underwriting joint ventures, which resembles the AFS underwriter and intermediary split. Add Nedbank's and FirstRand's bank-level cost to income only where the insurer cannot be isolated, and label it as such.
+
+## Verification status
+
+No figure in this document has been checked against a page of the primary document. Every figure is tagged Fact (snippet) and must be re-verified in Phase 2 once network access allows download. The source log records each source with its URL and access date.
