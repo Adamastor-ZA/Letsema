@@ -217,3 +217,7 @@ A preliminary list, to be firmed up in Phase 2. AFS expense by nature by entity.
 4. Policyholder-borne investment fees: out of scope (recommended), since they are a margin question.
 5. Entity statements: ask the client for Absa Life, AIC and ARTIC statements for FY23 to FY25 rather than purchasing from CIPC.
 6. Peer set: confirm as given, with Standard Bank shown with and without Liberty.
+
+## 12. Decisions taken (6 October 2026)
+
+Perimeter is the AFS South African legal entities: Absa Life, AIC, ARTIC, AIFA, Instant Life, AIMS, Absa Stockbrokers and Portfolio Management and Absa Trust. Kenya (ALAK, First Assurance, Absa Asset Management Kenya), the Botswana, Zambia and Mozambique entities sold in 2025, the Botswana agency and the closed AIRMS licence are stripped out and shown only as a reconciling item. Cost of capital is in scope and reported as a separate economic line, never added to the accounting cost base without saying so. Policyholder-borne investment fees are out of scope. Entity statements are to be obtained from public sources by the analyst. The peer set stands as specified, with Standard Bank shown with and without Liberty.
