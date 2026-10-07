@@ -177,7 +177,7 @@ Segment equity of R5 540m at a cost of equity of 15.1 percent (Absa Group Integr
 | Pool 3: operating expense, total | Derived | 2,905 | 3,492 | 3,941 | Pool 3 |
 | Pool 4: investment management cost on shareholder funds | Assumption† | 7 | 10 | 13 | Pool 4 x Investments |
 | Pool 5a: cost of capital (economic charge on segment equity) | Derived; economic, not accounting | 803 | 837 | 886 | Pool 5 x Finance and risk |
-| Pool 5b: trapped capital charge (own funds above target cover x cost of equity) | Derived; Assumption† on target cover and own funds proxy | 0.00 | 78.60 | 129.39 | Pool 5 x Finance and risk |
+| Pool 5b: trapped capital charge (own funds above target cover x cost of equity) | Derived; Assumption† on target cover and own funds proxy | 0 | 79 | 129 | Pool 5 x Finance and risk |
 | Pool 5c: avoidable licence cost (one licence: ARTIC into AIC, or similar) | Assumption† | 10 | 20 | 40 | Pool 5 x Governance |
 
 #### H. Addressable cost base and the public-information savings hypothesis, FY2025 (Rm)
