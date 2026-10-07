@@ -37,7 +37,7 @@ Write it as `05_pov_afs_centralisation.docx`, A4 portrait, Arial, with landscape
 4. Where AFS stands against peers (four pages). The normalisation rules in plain words, then the four comparisons that carry the argument: as-reported overhead by division, the comparable expense ratio, acquisition cost with and without the bank fee, and the non-life combined ratio before and after overhead. One chart per comparison, built from the Benchmark tab. Name the peer group and the count under each chart.
 5. The five hypotheses (five pages, one each). For each: the claim, the evidence with data_ids, the tree cells it maps to, the lever class (direct, adjacent, independent), the rand range, the regulatory constraint that binds it from `01_framework.md` section 7, and the management information that would confirm or kill it.
 6. What centralisation can and cannot do (two pages). The direct, adjacent and independent split (18, 25 and 11 cells), what does not centralise cleanly, the VAT warning, and the point that leakage is independent of the operating model.
-7. The size of the prize and what it costs (two pages). The envelope R252m to R754m with its components, the precedent evidence (table from `03_benchmark.md` section 5, trimmed to the eight programmes with a base), the cost to achieve by lever mix, and the capital line kept separate.
+7. The size of the prize and what it costs (two pages). The envelope R276m to R806m with its components, the precedent evidence (table from `03_benchmark.md` section 5, trimmed to the eight programmes with a base), the cost to achieve by lever mix, and the capital line kept separate.
 8. Recommendation and next steps (one page). The two decisions (perimeter for the economics, and whether licences and platforms are in or out of the programme), the ten management information items as a request list with owner and timing, and a 90-day plan to convert the hypothesis range into a target.
 9. Appendices. The full cost tree with classification; the full benchmark tables; the precedents table; the assumptions register from the Normalisation tab with low, base and high and rationale; the source log; the verification summary.
 
@@ -48,7 +48,7 @@ Build the Word file with the docx skill. Charts are images rendered from the wor
 Write it as `06_pov_afs_centralisation.pptx` using the pptx-master skill with the EY profile and the EY master template. Every content slide follows the house pattern: an ALL-CAPS topic header, one topline thesis sentence in lean declarative prose, three to five prose-bullets that evidence it, a source line, and the DRAFT watermark. Slides:
 
 1. Title.
-2. THE ANSWER. Centralisation is worth a hypothesis range of R252m to R754m a year, base R468m, about a third of Insurance SA profit before tax; the money is in the non-life book, the head office and the advice business, not in life or in acquisition.
+2. THE ANSWER. Centralisation is worth a hypothesis range of R276m to R806m a year, base R505m, about a third of Insurance SA profit before tax; the money is in the non-life book, the head office and the advice business, not in life or in acquisition.
 3. WHAT AFS IS. The licence map and the three corrections.
 4. THE COST BASE. Insurance SA FY2025 in one waterfall: revenue to service expenses to overhead to profit, with the head office called out.
 5. THE OVERHEAD IS NON-LIFE AND HEAD OFFICE. Division overhead ratios against peer medians.

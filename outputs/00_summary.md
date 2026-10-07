@@ -6,7 +6,7 @@ Date: 7 October 2026. One page for the partner. Detail in 01_framework.md, 02_af
 
 AFS Insurance SA is a R9.1bn revenue business with R1.0bn of reported overhead, a further undisclosed block of attributable expense inside insurance service expenses bracketed at R0.4bn to R1.0bn, and an advice and investment arm that last reported R1.7bn of cost against R1.1bn of income. Against 29 peers, the reported overhead ratio of 11.5 percent of revenue is above the median of 6.8 percent, and the whole of that gap is in the non-life book (12.3 percent against a non-life median of 3.8 percent) and the insurance head office (R326m, growing, loss-making). On the comparable measure that includes attributable expenses, AFS sits just below the peer median and R563m short of top quartile. The non-life underwriting result is the best in the South African set before overhead and mid-pack after it. Acquisition cost is at peer top quartile once the R774m fee to Absa Bank is set aside. Twenty disclosed precedents show centralisation and efficiency programmes deliver 6 to 13 percent of an addressable base over two to three years.
 
-Two independent routes give the same order of magnitude. The benchmark gap on the opex pools is R210m to R556m. The precedent range on an addressable base of R3.1bn to R4.2bn is R187m to R541m. With claims leakage, reinsurance and trapped capital the envelope is R252m to R754m, base R468m, at a cost to achieve of R126m to R1 356m. The base case is about a third of Insurance SA profit before tax.
+Two independent routes give the same order of magnitude. The benchmark gap on the opex pools is R210m to R556m. The precedent range on an addressable base of R3.5bn to R4.6bn is R211m to R594m. With claims leakage, reinsurance and trapped capital the envelope is R276m to R806m, base R505m, at a cost to achieve of R138m to R1 451m. The base case is about a third of Insurance SA profit before tax.
 
 ## What the evidence does not support
 
@@ -22,7 +22,7 @@ It does not give the attributable expense split, headcount, policy counts, advis
 
 4. The combined ratio advantage is being spent on overhead. An 81.5 percent combined ratio before overhead and 93.8 percent after it means about 12 points of expense sit between a best-in-set underwriter and a mid-pack insurer. Claims leakage and reinsurance placement add R65m to R213m on top, and neither depends on centralisation.
 
-5. The size of the prize is R250m to R750m run-rate, base R470m, with the structural levers worth R10m to R170m of economic capital on top. Precedents say expect to deliver at or above target in three years at 1.5 to 2 times cost to achieve if licences and platforms are consolidated, and 0.3 to 0.7 times if they are not. The licence constraints in 01 decide which of those two programmes this is.
+5. The size of the prize is R280m to R810m run-rate, base R500m, with the structural levers worth R10m to R170m of economic capital on top. Precedents say expect to deliver at or above target in three years at 1.5 to 2 times cost to achieve if licences and platforms are consolidated, and 0.3 to 0.7 times if they are not. The licence constraints in 01 decide which of those two programmes this is.
 
 ## Decisions already taken
 
