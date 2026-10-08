@@ -24,6 +24,12 @@ It does not give the attributable expense split, headcount, policy counts, advis
 
 5. The size of the prize is R280m to R810m run-rate, base R500m, with the structural levers worth R10m to R170m of economic capital on top. Precedents say expect to deliver at or above target in three years at 1.5 to 2 times cost to achieve if licences and platforms are consolidated, and 0.3 to 0.7 times if they are not. The licence constraints in 01 decide which of those two programmes this is.
 
+## Two additions (8 October 2026)
+
+Most of the prize does not need centralisation. A cost programme on the present structure, working the adjacent and independent levers at the South African operating-programme precedents of 5.6 to 7.6 percent of base, is worth R254m to R552m a year, base R396m, in two years at R64m to R387m to achieve. Centralisation adds R22m to R254m on accounting lines, base R109m, plus the R10m to R169m of economic value, at R32m to R508m more cost on the lever-mix basis and a year longer; it maps to the 18 direct cells, of which the non-life platform estate and the head office are the sized ones. Section I of the workbook holds both cases; section H is unchanged.
+
+The programme runs in three waves over three years. Wave one takes the independent money in leakage, collections and procurement from month zero; wave two runs the operating programme from month three; wave three, the structural levers, opens at month six only on a gate with a frozen baseline, a tax ruling on recharges and the regulatory path in hand. In the base case run-rate reaches R249m by the end of year one and R450m by the end of year two against cumulative cost to achieve of R180m and R305m, and the chief financial officer signs every saving before it is reported.
+
 ## Decisions already taken
 
 Perimeter is the AFS South African entities, with Kenya and the entities sold in 2025 stripped out. Cost of capital is in scope as a separate line. Policyholder-borne fees are out. Entity statements were pulled from public sources; none exist online for FY2025 and the KPMG survey fills FY2023 and FY2024. The peer set stands as specified, with Société Générale Assurances excluded for want of any retrievable disclosure.
