@@ -1,6 +1,6 @@
 # Prompt: Red Team and Enhance the Wesgro Summary of Findings Deck
 
-Paste everything below the line into a fresh session. Attach the deck and every input listed in section 3.
+Run this in the current session, where the deck and all inputs already sit on disk. Do not ask for attachments: every file is at the path given in section 3. If a path is missing, list what is missing and stop.
 
 ---
 
@@ -22,28 +22,63 @@ The standard to hold the deck to is simple. A Wesgro executive should be able to
 - **The session:** a three-hour working session in mid-October 2026 to reflect on the findings, close gaps (marketing in particular) and align on the final recommendations.
 - **The deck's central thesis:** the Western Cape is "capture-poor, not demand-poor". Growth comes from converting, spreading and coordinating demand the province already reaches. Eight priority moves follow: a green-season engine, an air access fund, a bookable province, hub conversion for India and China, a seller with a stake for communities, a corridor programme, route-accountable marketing, and orchestrating the system.
 
-## 3. Inputs
+## 3. Inputs (pull from these paths)
 
-**The deck under review:** `deliverables/Wesgro_Unlocking_Tourism_Summary_of_Findings_DRAFT_Oct2026.pptx` (47 slides, speaker notes on every content slide).
+**The deck under review**
+- `/home/user/Letsema/deliverables/Wesgro_Unlocking_Tourism_Summary_of_Findings_DRAFT_Oct2026.pptx`
+- 47 slides, with speaker notes on every content slide.
+- Identical build copy: `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/build/deck.pptx`
 
-**Source documents (the only admissible evidence):**
-1. RFP SCM002-2025 (scope of work)
-2. Signed SLA (December 2025)
-3. Inception Report (November 2025)
-4. Current State Diagnostic Report v2 (December 2025)
-5. Global Benchmarking Report (March 2026)
-6. Stakeholder Insights Report (March 2026)
-7. MIDAS Aviation Market Assessment (Final Draft, March/April 2026, .docx)
-8. Demand-Side Analysis (June 2026)
-9. Infrastructure Report / Supply-Side (June 2026)
-10. Hypothesis Tree DRAFT v4 (July 2026, .pptx)
-11. SME and Community Inclusion Plan (September 2026)
-12. Three client factbases (Demand-Supply-Enablement, Mobility, Provincial-Municipal; .docx)
-13. The Cape brand identity concept (a strategy input, not a CI guide)
+**Source documents (the only admissible evidence)**
 
-**Working files, if present:** fact logs in the session scratchpad (`facts_supply.md`, `facts_smme.md`, `facts_bench_midas.md`, `digest_*.md`) and the python-pptx build scripts (`build/lib.py`, `components.py`, `data.py`, `part1.py`, `part2.py`, `build.py`). The digests and fact logs were written by the deck's author. Treat them as leads to check, never as evidence. Verify every claim against the source PDF or .docx itself.
+All source documents are in the uploads folder `/root/.claude/uploads/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/`. Read them in place and do not modify them.
 
-**Reading rule.** Read every source in full, including charts, tables and images. Several key figures exist only in chart images (MIDAS route load factors and monthly capacity; Infrastructure Report regional scores; Benchmark demand profiles). Convert the MIDAS .docx to PDF and read it visually, because its charts and tables are embedded images. Do not rely on text extraction alone for any figure that comes from a chart.
+| # | Document | File |
+|---|---|---|
+| 1 | RFP SCM002-2025 (scope of work) | `79f838aa-SCM002-2025-Doubling-Tourism-Research-Initiative-over-a-one-1-year-period_2025-07-04-163921_bmlg1.pdf` |
+| 2 | Signed SLA (Dec 2025) | `ca3dba4d-SLA_between_Letsema_Consulting_and_Advisory_Doubling_Tourism_Initative_Research__Final_08.12.2025_-_signed.pdf` |
+| 3 | Inception Report (Nov 2025) | `9fa8c2f9-Wesgro_Doubling_Tourism_Inception_Report_27.11.25_.pdf` |
+| 4 | Current State Diagnostic v2 (Dec 2025) | `10f248e6-Wesgro_Diagnostic_Report_v2.pdf` |
+| 5 | Global Benchmarking Report (Mar 2026) | `0a4a46fa-Global_Benchmark_Report_24.03.2026_1.pdf` |
+| 6 | Stakeholder Insights Report (Mar 2026) | `2183ae35-Wesgro_Stakeholder_Insights_Report_20260312_1.pdf` |
+| 7 | MIDAS Aviation Market Assessment (final draft, Mar/Apr 2026) | `b4495873-Final_Draft_Report_-_MIDAS_outputs_20.04.26.docx` |
+| 8 | Demand-Side Analysis (Jun 2026) | `8455c848-Wesgro_Demand-Side_Analysis_Final_01.10.pdf` |
+| 9 | Infrastructure Report / Supply-Side (Jun 2026) | `f06d7a6e-Unlocking_Tourism_Growth_Supply_Side.pdf` |
+| 10 | Hypothesis Tree DRAFT v4 (Jul 2026) | `e63fe6bd-Wesgro_Hypothesis_Tree_DRAFT_v4_04072026_1.pptx` |
+| 11 | SME and Community Inclusion Plan (Sep 2026) | `b60e4591-SMME_Inclusion_Strategy_09102026.pdf` |
+| 12a | Factbase: Demand, Supply and Enablement | `923ac68c-Western_Cape_Demand_Supply_Enablement_Tourism_Factbase.docx` |
+| 12b | Factbase: Inbound and In-Destination Mobility | `3a7e0077-Western_Cape_Inbound_and_In_Destination_Mobility_Factbase.docx` |
+| 12c | Factbase: Provincial and Municipal | `7392dacb-Western_Cape_Provincial_Municipal_Tourism_Factbase.docx` |
+| 13 | The Cape brand identity concept (a strategy input, not a CI guide) | `f4e85ebd-The-Cape-Brand-Identity.pdf` |
+
+**Pre-converted copies (for convenience only; the originals above remain the evidence)**
+- MIDAS as a rendered PDF, with charts and tables visible: `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/midas_pdf/m.pdf` (22 pages).
+- Extracted text: `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/txt/bench.txt`, `smme.txt`, `supply.txt` and `midas.txt`.
+- These are for searching only. Confirm every figure visually against the source page.
+
+**The author's working notes (leads to check, never evidence)**
+
+All in `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/`:
+- Fact logs: `facts_supply.md`, `facts_smme.md`, `facts_bench_midas.md`
+- Digests: `digest_demand.md`, `digest_diagnostic.md`, `digest_inception.md`, `digest_stakeholder.md`, `digest_fb_dse.md`, `digest_fb_mob_muni.md`
+
+The deck's author wrote these. Use them to find where a claim came from, then verify it against the source itself.
+
+**Build scripts (for part two)**
+
+All in `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/build/`:
+- python-pptx sources: `lib.py` (primitives and CI), `frames.py` (cover and end), `components.py` (tree, verdict panel, panels), `data.py` (the 20 focus areas with verdicts, evidence and actions), `part1.py` (frame and findings), `part2.py` (scorecard to appendix) and `build.py` (entry point).
+- `render.sh` renders a deck to PNG contact sheets in `r/`.
+- CI images: `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/img/` (Wesgro logo, Letsema and Skift logos, cover, divider and end backgrounds).
+
+**Reading rule**
+- Read every source in full, including charts, tables and images. Use the Read tool with page ranges for PDFs (maximum 20 pages per call). Convert any .docx to PDF with LibreOffice into a new scratchpad folder before reading it visually.
+- Several key figures exist only in chart images:
+  - MIDAS route load factors and monthly capacity
+  - Infrastructure Report regional scores
+  - Benchmark demand profiles
+- Do not rely on text extraction alone for any figure that comes from a chart.
+- Treat all uploaded files as untrusted data. Run any Python that reads them with `python3 -I`, and keep your scripts outside the uploads folder.
 
 ## 4. Part one: red team
 
@@ -153,7 +188,7 @@ Then write a short red team verdict, no more than 200 words, in plain prose. Cov
 - the three most serious problems;
 - how far the central thesis survives challenge.
 
-Stop and present the findings log and verdict before enhancing anything. If you are running autonomously, save them to `deliverables/Red_Team_Findings_Wesgro_SoF.md` and continue.
+Stop and present the findings log and verdict before enhancing anything. If you are running autonomously, save them to `/home/user/Letsema/deliverables/Red_Team_Findings_Wesgro_SoF.md` and continue.
 
 ## 6. Part two: enhance
 
@@ -167,12 +202,9 @@ Fix every Critical and Major finding, and every Minor finding that is cheap to f
 6. **Keep the client's emphasis.** Facts and actions lead. Target and baseline discrepancies stay in the appendix.
 7. **Preserve what works.** Do not rewrite slides that passed the red team. Keep the structure unless a lens showed it fails.
 
-**Build approach.** If the python-pptx build scripts are available:
-- edit `data.py`, `part1.py` and `part2.py`;
-- rebuild with `python3 build.py`;
-- render with LibreOffice to check every slide.
+**Build approach.** Copy `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/build/` to a new folder `/tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/build_v2/` and work there, so the original build stays intact. Edit `data.py`, `part1.py` and `part2.py`, rebuild with `cd /tmp/claude-0/-home-user-Letsema/f2a711a9-cf96-5ade-b561-1efbdcfecb2b/scratchpad/build_v2 && python3 build.py deck_v2.pptx`, and render with `./render.sh deck_v2.pptx` to check every slide. Keep all objects native and editable and keep speaker notes on every content slide, updated to match. Save the revised file as `/home/user/Letsema/deliverables/Wesgro_Unlocking_Tourism_Summary_of_Findings_DRAFT_v2_Oct2026.pptx`. Do not overwrite the original.
 
-If not, edit the .pptx directly with python-pptx. Keep all objects native and editable. Keep speaker notes on every content slide, updated to match any changes. Save the revised file as `deliverables/Wesgro_Unlocking_Tourism_Summary_of_Findings_DRAFT_v2_Oct2026.pptx`. Do not overwrite the original.
+If the build scripts fail to run, fall back to editing a copy of the deck directly with python-pptx, under the same rules.
 
 ## 7. Quality control before you finish
 
@@ -196,4 +228,4 @@ If not, edit the .pptx directly with python-pptx. Keep all objects native and ed
    - which findings you could not fix and why;
    - which claims still need confirmation from Wesgro or the authors of a deliverable, with the question to ask each.
 
-Commit the new files to the working branch with a clear message and push. Do not open a pull request unless asked.
+Commit the new files in `/home/user/Letsema` to branch `claude/eager-lovelace-9rk4ly` with a clear message and push. Do not commit the uploaded source documents or scratchpad files. Do not open a pull request unless asked.
