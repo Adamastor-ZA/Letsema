@@ -1,6 +1,6 @@
 # Verification Note: Summary of Findings v3 (Board)
 
-File: `Wesgro_Unlocking_Tourism_Summary_of_Findings_v3_Board_Oct2026.pptx`. It has 24 slides: 21 in the main deck, an end slide and two appendix slides. Every content slide carries speaker notes with a talking point, a question for the room and page references. All charts, diagrams and tables are native, editable PowerPoint objects.
+File: `Wesgro_Unlocking_Tourism_Summary_of_Findings_v3_Board_Oct2026.pptx`. It has 24 slides: 21 in the main deck, an end slide and two appendix slides. This version (13 October) adds a markets and segments slide, drops the July v4 tree and tests the December tree directly, rebuilds the Demand-Side chart as columns with the seat ceiling as a line, and strengthens the Infrastructure findings. Every content slide carries speaker notes with a talking point, a question for the room and page references. All charts, diagrams and tables are native, editable PowerPoint objects.
 
 ## Form of each slide
 
@@ -15,12 +15,12 @@ File: `Wesgro_Unlocking_Tourism_Summary_of_Findings_v3_Board_Oct2026.pptx`. It h
 | 7 | Benchmarking | Six-node ring around the three system components |
 | 8 | Stakeholder Insights | Ranked bar strip with three quote blocks |
 | 9 | MIDAS | Two-panel native charts: monthly seat share columns and route load-factor bars with 80% line |
-| 10 | Demand-Side | Scenario chart to 2035 with lever strip |
-| 11 | Infrastructure | Slope chart with route ribbon |
-| 12 | SME plan | Proportional bars drawn to scale with a four-step sequence |
-| 13 | Revised tree, Jul 2026 | Tree (2 of 3) with the team's markers |
-| 14 | Evidence against the tree | Heat strip of 20 focus areas |
-| 15 | Proposed changes (v5) | Tree diff (3 of 3) with numbered side list |
+| 10 | Demand-Side: scenarios | Column chart, base case by year then the 2035 scenarios, with the seat ceiling as a line across; four model levers and the three report levers |
+| 11 | Demand-Side: markets and segments | Dumbbell of base-case arrivals by market group, spend-per-visitor strip and four segment cards |
+| 12 | Infrastructure | Slope chart with route ribbon and four findings |
+| 13 | SME plan | Proportional bars drawn to scale with a four-step sequence |
+| 14 | Evidence against the December tree | Heat strip of the 18 December themes in six focus-area groups |
+| 15 | Proposed changes to the December tree | Tree diff (2 of 2) with numbered side list |
 | 16 | Core findings | Seven numbered cards in a 4+3 grid |
 | 17 | Working answer | Split panel: answer block and four counter-case cards |
 | 18 | What must be true | Roadmap on a horizon line with owner marker shapes |
@@ -28,10 +28,10 @@ File: `Wesgro_Unlocking_Tourism_Summary_of_Findings_v3_Board_Oct2026.pptx`. It h
 | 20 | Six-week plan | Gantt with milestones and the 31 October line |
 | 21 | Decisions | Six decision cards with tick boxes |
 | 22 | End | Wesgro end slide |
-| A1 | Evidence by focus area | The only full table |
+| A1 | Evidence by December theme | The only full table |
 | A2 | Data issues and baselines | Two compact lists |
 
-No two consecutive slides share a form, and no main-body slide is a plain table. The tree appears three times by design; cards appear twice (slides 16 and 21).
+No main-body slide is a plain table. The tree appears twice (original and proposed changes); cards appear twice (slides 16 and 21). Slides 9 and 10 both carry a column chart: slide 10 was changed to vertical bars at Michael's request, so this is a known exception to the consecutive-form rule. The July v4 tree is not used; the evaluation and the proposed changes run against the December tree.
 
 ## Figures used and their sources
 
@@ -62,19 +62,24 @@ No two consecutive slides share a form, and no main-body slide is a plain table.
 | 10 | 2024 base 1,445,031; 2035 scenarios 1,822,634, 2,175,778 and 2,516,282 | Demand-Side pp19-20 |
 | 10 | Base path 1.674m (2028), 1.803m (2030), 1.943m (2032), 2.095m (2034) | Demand-Side p21 |
 | 10 | 1.8m inbound seat ceiling | Demand-Side pp21, 53 |
-| 10 | US R32,900 against Namibia R8,600 per visitor | Demand-Side p14 |
-| 10 | ICCA meetings peak Sep 24, Oct 27, Nov 23; three levers | Demand-Side pp37, 53 |
-| 11 | Natural attractions: attractiveness 4.8, 4.0, 4.3, 4.3, 4.3, 3.3; accessibility 4.7, 3.3, 3.0, 2.0, 2.0, 1.0 | Infrastructure p29 (checked visually) |
-| 11 | 50,332 assets; no mid-scale branded beds; no OTA presence; unbookable marine and wildflower assets; six routes, one scored | Infrastructure pp2, 31-33, 36-40 |
-| 12 | 18.4% residents; 0.02-0.04% of foreign spend (R4m-R10m); R259m at 1%; R547m in 2035 | SME plan p5 |
-| 12 | Four-step order | SME plan p12 |
-| 12 | 93 of 107 within 45 minutes of a node or corridor; organisation 11 of 20, safety 9 of 20; Kliptown ~R497m and ~4,000 visitors | SME plan pp16, 27, 23-24 |
-| 13 | v4 wording, title and markers (10 validated, 8 refined, 2 new) | Hypothesis Tree v4 |
-| 14 | 14 supported, 5 partly supported, 1 not yet tested | Appendix A1 (v2 evidence base, re-checked) |
+| 10 | Four model levers: source market growth, Western Cape penetration, airlift capacity ceiling, structural market conditions; three report levers | Demand-Side pp18, 53 |
+| 11 | Base case by market group, 2024 to 2035: Mature 572,032 to 766,067; Hubs 410,467 to 634,387; Regional 283,362 to 402,812; Acceleration 171,170 to 358,633; Strategic 8,000 to 13,879 (sums match 1,445,031 and 2,175,778) | Demand-Side p21 |
+| 11 | Spend per visitor 2024: USA 32,900; UK 26,500; Germany 25,600; Australia 23,900; Netherlands 23,300; France 22,000; Brazil 19,200; Namibia 8,600; Zimbabwe 8,500 | Demand-Side p14 |
+| 11 | Nigeria R31,000 and Ghana R27,700 per visitor, 2025 | Demand-Side pp29-30 |
+| 11 | Four segments: Curious Explorers, Creative Connectors, Discerning Connoisseurs, Reflective Adventurers; qualitative Skift profiles | Diagnostic pp16-20; Demand-Side p7 |
+| 11 (notes) | India 76,547 to 165,260 and China plus HK 43,412 to 92,598, 2025 to 2035; Nigeria 310k-510k addressable trips | Demand-Side pp23, 30 |
+| 12 | Natural attractions: attractiveness 4.8, 4.0, 4.3, 4.3, 4.3, 3.3; accessibility 4.7, 3.3, 3.0, 2.0, 2.0, 1.0 | Infrastructure p29 (checked visually) |
+| 12 | 50,332 assets; Hermanus, Knysna and Plettenberg Bay unreachable without a car; N2 the only continuous corridor, a single point of failure; no mid-scale branded beds; rural properties off OTAs; marine and wildflower assets without product; shoulder-season events the single largest lever and programming critically thin; six routes, one scored | Infrastructure pp2, 5, 22, 31-34, 36-41 |
+| 13 | 18.4% residents; 0.02-0.04% of foreign spend (R4m-R10m); R259m at 1%; R547m in 2035 | SME plan p5 |
+| 13 | Four-step order | SME plan p12 |
+| 13 | 93 of 107 within 45 minutes of a node or corridor; organisation 11 of 20, safety 9 of 20; Kliptown ~R497m and ~4,000 visitors | SME plan pp16, 27, 23-24 |
+| 14 | 14 of 18 December themes supported, 4 partly supported, none contradicted | Appendix A1; Diagnostic p64 |
+| 14 | LTOs not operationally sustainable without municipal funding; Circular 131 | Stakeholder p25 (DEDAT, High) |
 | 15 | Cruise 79 calls in 2024/25 | Wesgro/StratEcon cruise report via mobility factbase |
 | 15 | Meiringspoort R421m and ~26 months | SME plan (De Rust profile) |
 | 16 | 70% of CapeNature bookings by phone | Stakeholder p42 |
 | 17 | Peak accommodation prices deter December to January events (CTICC, High) | Stakeholder p46 |
+| 10 (notes) | ICCA meetings peak Sep 24, Oct 27, Nov 23 | Demand-Side p37 |
 | 17 | "Capture-poor, not demand-poor" | DSE factbase s1.1 |
 | 18 | 250 cruise calls by 2030 | Wesgro/StratEcon cruise report via mobility factbase |
 
@@ -83,7 +88,7 @@ Slides 2, 18, 19, 20 and 21 contain Letsema proposals: the session running order
 ## QC results
 
 - **Slide count.** 24 slides, within the 20 to 25 range. The file reopens cleanly and renders all 24 pages in LibreOffice.
-- **Render check.** Every slide was inspected at full size. Label collisions, the 80% line through data labels and the appendix overflow were fixed.
+- **Render check.** Every slide was inspected at full size. Label collisions, the 80% line through data labels, the appendix overflow and the missing bar labels on the rebuilt scenario chart were fixed.
 - **Word count.** Every main-body slide has 80 or fewer body words. The count excludes titles, sources and the text inside charts, trees, the heat strip, the ring, the timeline, the matrix and the Gantt. Appendix A2 has 174 words as a reference list, which is a deliberate exception.
 - **Style.** No em or en dashes and no Oxford commas remain. Banned words appear only in three places, and none is Letsema prose:
   - the study title ("Unlocking");
@@ -108,16 +113,17 @@ Slides 2, 18, 19, 20 and 21 contain Letsema proposals: the session running order
 
 The deck argues that the Western Cape is capture-poor on distribution and coordination and demand-constrained on price, safety and airline economics. It argues that the final report must act on both. Seven findings carry that answer, each resting on at least two deliverables.
 
-Proposed tree changes for v5:
+Proposed changes to the December tree:
 
 1. Split air access into winning routes and underwriting capacity on full routes.
-2. Raise cruise to its own focus area.
-3. Reword seasonality as "create green-season demand".
-4. Merge brand equity into a findable, bookable province.
+2. Add cruise as its own theme.
+3. Reword the seasonality proposition as "create green-season demand".
+4. Reword path to purchase as a findable, bookable province.
 5. Add a price and value position by market.
-6. Reword priority markets as "convert India and China hub traffic now".
-7. Mark workforce and skills as untested.
-8. Treat sustainability and resilience as a risk lens, not a workstream.
+6. Reword growth markets as "convert India and China hub traffic now".
+7. Add workforce and service skills, flagged untested.
+8. Reword sustainable destination management as funding local bodies and managing climate risk.
+9. Reword institutional arrangements to span local, provincial and national tiers.
 
 Decisions requested:
 
