@@ -8,8 +8,10 @@ const docx = require('docx');
 const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, AlignmentType,
   Header, Footer, PageNumber, ImageRun, BorderStyle, ShadingType, HeadingLevel, LevelFormat,
-  VerticalAlign, TableLayoutType, PageBreak, Bookmark, InternalHyperlink, TabStopType,
+  VerticalAlign, TableLayoutType, PageBreak, Bookmark, InternalHyperlink, TabStopType, LineRuleType,
 } = docx;
+// LibreOffice treats w:line without w:lineRule as a fixed height, which collapses inline images; always state the rule.
+const AUTO = LineRuleType.AUTO;
 
 // ---------- Typography and palette ----------
 const FONT_TITLE = 'EB Garamond';   // brand: titles
@@ -192,9 +194,9 @@ function figure(ctx, { file, caption, source, widthCm = TEXT_WIDTH_CM }) {
     const sz = pngSize(data) || { w: 1600, h: 900 };
     const wPx = Math.round((widthCm / 2.54) * 96);
     const hPx = Math.round(wPx * (sz.h / sz.w));
-    out.push(new Paragraph({ keepNext: true, alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60 }, children: [new ImageRun({ type: 'png', data, transformation: { width: wPx, height: hPx } })] }));
+    out.push(new Paragraph({ keepNext: true, alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60, line: 240, lineRule: AUTO }, children: [new ImageRun({ type: 'png', data, transformation: { width: wPx, height: hPx } })] }));
   } else {
-    out.push(new Paragraph({ keepNext: true, alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60 }, children: [new TextRun({ text: `[Figure to be rendered: ${file ? path.basename(file) : 'no file'}]`, highlight: 'yellow', font: FONT_HEAD, size: PT(9) })] }));
+    out.push(new Paragraph({ keepNext: true, alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60, line: 240, lineRule: AUTO }, children: [new TextRun({ text: `[Figure to be rendered: ${file ? path.basename(file) : 'no file'}]`, highlight: 'yellow', font: FONT_HEAD, size: PT(9) })] }));
   }
   out.push(new Paragraph({ style: 'Caption', children: [new TextRun({ text: `${num}. `, bold: true }), ...runs(caption)] }));
   if (source) out.push(new Paragraph({ style: 'Source', children: runs(`Source: ${source}`) }));
@@ -215,19 +217,19 @@ function contentsList(entries) {
 function styles() {
   const base = { font: FONT_BODY, size: PT(11), color: C.ink };
   return {
-    default: { document: { run: base, paragraph: { spacing: { line: 276, after: 120 } } } },
+    default: { document: { run: base, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 120 } } } },
     paragraphStyles: [
-      { id: 'Body', name: 'Body', basedOn: 'Normal', next: 'Body', quickFormat: true, run: base, paragraph: { spacing: { line: 276, after: 140 }, alignment: AlignmentType.LEFT } },
-      { id: 'Lead', name: 'Lead', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(12), color: C.navy }, paragraph: { spacing: { line: 276, after: 160 } } },
+      { id: 'Body', name: 'Body', basedOn: 'Normal', next: 'Body', quickFormat: true, run: base, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 140 }, alignment: AlignmentType.LEFT } },
+      { id: 'Lead', name: 'Lead', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(12), color: C.navy }, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 160 } } },
       { id: 'Note', name: 'Note', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(9.5), color: C.grey }, paragraph: { spacing: { after: 100 } } },
       { id: 'Kicker', name: 'Kicker', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.teal, characterSpacing: 30 }, paragraph: { spacing: { before: 240, after: 40 }, keepNext: true } },
       { id: 'ListText', name: 'List Text', basedOn: 'Body', next: 'ListText', run: base, paragraph: { spacing: { after: 80 } } },
       { id: 'Caption', name: 'Caption', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(9), color: C.ink }, paragraph: { spacing: { before: 160, after: 80 }, keepNext: true } },
       { id: 'Source', name: 'Source', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 60, after: 200 } } },
-      { id: 'TableText', name: 'Table Text', basedOn: 'Normal', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), color: C.ink }, paragraph: { spacing: { before: 0, after: 0, line: 240 } } },
-      { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 0, line: 240 } } },
+      { id: 'TableText', name: 'Table Text', basedOn: 'Normal', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), color: C.ink }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
+      { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
       { id: 'BoxTitle', name: 'Box Title', basedOn: 'Normal', next: 'BoxBody', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.navy }, paragraph: { spacing: { after: 80 } } },
-      { id: 'BoxBody', name: 'Box Body', basedOn: 'Normal', next: 'BoxBody', run: { ...base, size: PT(10) }, paragraph: { spacing: { after: 80, line: 264 } } },
+      { id: 'BoxBody', name: 'Box Body', basedOn: 'Normal', next: 'BoxBody', run: { ...base, size: PT(10) }, paragraph: { spacing: { after: 80, line: 264, lineRule: AUTO } } },
       { id: 'Quote', name: 'Quote', basedOn: 'Body', next: 'Body', run: { ...base, italics: true, color: C.grey }, paragraph: { indent: { left: 567, right: 567 }, spacing: { after: 140 } } },
       { id: 'TocL1', name: 'TOC L1', basedOn: 'Normal', next: 'TocL1', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.ink }, paragraph: { spacing: { before: 100, after: 40 } } },
       { id: 'TocL2', name: 'TOC L2', basedOn: 'Normal', next: 'TocL2', run: { font: FONT_BODY, size: PT(10.5), color: C.ink }, paragraph: { indent: { left: 400 }, spacing: { after: 30 } } },
