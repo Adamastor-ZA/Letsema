@@ -15,7 +15,7 @@ const STYLE = '/root/.claude/skills/synced/1d797b75-a9af-4564-9806-faaa7d08ed42_
 
 const EXTRACTS = {
   demand_side: 'Demand-Side Analysis, Jun 2026', market_assessment: 'Market Assessment Report, May 2026', diagnostic: 'Current State Diagnostic, Dec 2025',
-  midas: 'MIDAS Aviation Market Assessment, Mar 2026 (cite by section title)', benchmark: 'Global Benchmarking Report, Mar 2026', inclusion: 'SME and Community Inclusion Plan, Oct 2026',
+  midas: 'MIDAS Aviation Market Assessment, Mar 2026 (cite by section title)', benchmark: 'Global Benchmarking Report, Mar 2026', inclusion: 'SME and Community Inclusion Plan, Sep 2026 (cover date; file dated 9 Oct 2026)',
   segmentation: 'Skift Segmentation Analysis, Mar 2026 (cite by section)', african_market: 'Skift African Market Analysis memo, Mar 2026 (cite by section)', digital: 'Skift Digital and Search Insights memo, Dec 2025 (cite by section)',
   inception: 'Inception Report, Nov 2025', stakeholder: 'Stakeholder Insights Report, Mar 2026', infrastructure_p1: 'Infrastructure Report, Jul 2026 (final, file dated 22 Sep 2026; pages 1 to 57)', infrastructure_p2: 'Infrastructure Report, Jul 2026 (final, file dated 22 Sep 2026; pages 58 to 114)',
 }

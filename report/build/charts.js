@@ -158,12 +158,93 @@ function stackedBarChart(o) {
   return s + '</svg>';
 }
 
+// ganttChart({ title, phases: [{name, from, to}], years: [2027..2035], rows: [{code, name, cells: {2027:'D'|'I'|'', ...}}] })
+// D = design (light), I = implement (dark). One row per initiative; years as columns.
+function ganttChart(o) {
+  const years = o.years;
+  const rowH = 44, headH = o.title ? 150 : 90, L = 520, R = 40;
+  const H = headH + o.rows.length * rowH + 60;
+  const pw = W - L - R, cw = pw / years.length;
+  let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
+  if (o.title) s += `<text x="40" y="52" font-size="30" font-weight="700" fill="${INK}">${esc(o.title)}</text>`;
+  if (o.subtitle) s += `<text x="40" y="88" font-size="22" fill="${GREY}">${esc(o.subtitle)}</text>`;
+  // phase bands
+  (o.phases || []).forEach((ph, i) => {
+    const i0 = years.indexOf(ph.from), i1 = years.indexOf(ph.to);
+    if (i0 < 0 || i1 < 0) return;
+    const x0 = L + i0 * cw, x1 = L + (i1 + 1) * cw;
+    s += `<rect x="${x0}" y="${headH - 50}" width="${x1 - x0}" height="${H - headH + 50 - 60}" fill="${i % 2 ? '#F3F6F9' : '#FFFFFF'}"/>`;
+    s += `<text x="${(x0 + x1) / 2}" y="${headH - 58}" text-anchor="middle" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(ph.name)}</text>`;
+  });
+  years.forEach((y, i) => { s += `<text x="${L + i * cw + cw / 2}" y="${headH - 22}" text-anchor="middle" font-size="20" fill="${GREY}">${esc(y)}</text>`; });
+  o.rows.forEach((r, ri) => {
+    const y = headH + ri * rowH;
+    s += `<line x1="40" y1="${y + rowH}" x2="${W - R}" y2="${y + rowH}" stroke="${GRID}" stroke-width="1"/>`;
+    s += `<text x="40" y="${y + rowH / 2 + 7}" font-size="19" font-weight="700" fill="${INK}">${esc(r.code)}</text>`;
+    s += `<text x="110" y="${y + rowH / 2 + 7}" font-size="19" fill="${INK}">${esc(String(r.name).slice(0, 42))}</text>`;
+    years.forEach((yr, i) => {
+      const c = (r.cells || {})[yr];
+      if (!c) return;
+      const fill = c === 'I' ? PAL[0] : (c === 'D' ? '#9DBBD0' : '#DCE6EE');
+      s += `<rect x="${L + i * cw + 3}" y="${y + 9}" width="${cw - 6}" height="${rowH - 18}" rx="3" fill="${fill}"/>`;
+    });
+  });
+  const ly = H - 26;
+  s += `<rect x="${L}" y="${ly - 16}" width="22" height="18" rx="3" fill="#9DBBD0"/><text x="${L + 30}" y="${ly}" font-size="19" fill="${INK}">Design</text>`;
+  s += `<rect x="${L + 140}" y="${ly - 16}" width="22" height="18" rx="3" fill="${PAL[0]}"/><text x="${L + 170}" y="${ly}" font-size="19" fill="${INK}">Implement</text>`;
+  return s + '</svg>';
+}
+
+// treeChart({ goal, pillars: [{name, objective, themes: [{name, areas: [{code, name, disposition}]}]}] })
+// The hypothesis tree as a figure: three pillar columns, themes stacked, focus areas listed with disposition tags.
+function treeChart(o) {
+  const cols = o.pillars.length;
+  const H = 1000;
+  const colW = (W - 80) / cols, gap = 24;
+  const DISP = { Validated: '#7A9E7E', Refined: '#1F7A8C', Reworded: '#C98B2B', New: '#0B3C5D', Moved: '#8C5E8A', Flagged: '#B23A48', Withdrawn: '#5B6572' };
+  let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
+  s += `<rect x="40" y="24" width="${W - 80}" height="60" rx="6" fill="${PAL[0]}"/><text x="${W / 2}" y="63" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
+  o.pillars.forEach((p, pi) => {
+    const x = 40 + pi * colW + gap / 2, w = colW - gap;
+    s += `<rect x="${x}" y="110" width="${w}" height="92" rx="6" fill="${PAL[1]}"/>`;
+    s += `<text x="${x + w / 2}" y="146" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">${esc(p.name)}</text>`;
+    const words = String(p.objective || '').split(' '); const l1 = words.slice(0, Math.ceil(words.length / 2)).join(' '), l2 = words.slice(Math.ceil(words.length / 2)).join(' ');
+    s += `<text x="${x + w / 2}" y="172" text-anchor="middle" font-size="16" fill="#ffffff">${esc(l1)}</text><text x="${x + w / 2}" y="192" text-anchor="middle" font-size="16" fill="#ffffff">${esc(l2)}</text>`;
+    let y = 222;
+    p.themes.forEach((t) => {
+      s += `<rect x="${x}" y="${y}" width="${w}" height="40" rx="4" fill="${C_HEAD()}"/><text x="${x + 12}" y="${y + 27}" font-size="19" font-weight="700" fill="${PAL[0]}">${esc(t.name)}</text>`;
+      y += 48;
+      t.areas.forEach((a) => {
+        const lines = wrap(a.name, 34);
+        const h = 22 + lines.length * 22;
+        s += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="#ffffff" stroke="${GRID}"/>`;
+        s += `<text x="${x + 12}" y="${y + 26}" font-size="17" font-weight="700" fill="${INK}">${esc(a.code)}</text>`;
+        lines.forEach((ln, li) => { s += `<text x="${x + 70}" y="${y + 26 + li * 22}" font-size="17" fill="${INK}">${esc(ln)}</text>`; });
+        if (a.disposition) {
+          const dw = a.disposition.length * 9 + 18;
+          s += `<rect x="${x + w - dw - 10}" y="${y + 8}" width="${dw}" height="24" rx="12" fill="${DISP[a.disposition] || GREY}"/><text x="${x + w - dw / 2 - 10}" y="${y + 25}" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">${esc(a.disposition)}</text>`;
+        }
+        y += h + 8;
+      });
+      y += 10;
+    });
+  });
+  return s + '</svg>';
+}
+function C_HEAD() { return '#DCE6EE'; }
+function wrap(text, n) {
+  const words = String(text).split(' '); const lines = []; let cur = '';
+  for (const w of words) { if ((cur + ' ' + w).trim().length > n) { lines.push(cur.trim()); cur = w; } else cur += ' ' + w; }
+  if (cur.trim()) lines.push(cur.trim());
+  return lines;
+}
+
 // Resolve a figure block that carries { chart: { type, ...options } } into its SVG string.
 function svgFor(chart) {
-  const fns = { line: lineChart, bar: barChart, hbar: hbarChart, stacked: stackedBarChart };
+  const fns = { line: lineChart, bar: barChart, hbar: hbarChart, stacked: stackedBarChart, gantt: ganttChart, tree: treeChart };
   const fn = fns[chart.type];
   if (!fn) throw new Error(`unknown chart type ${chart.type}`);
   return fn(chart);
 }
 
-module.exports = { lineChart, barChart, hbarChart, stackedBarChart, svgFor, PAL };
+module.exports = { lineChart, barChart, hbarChart, stackedBarChart, ganttChart, treeChart, svgFor, PAL };
