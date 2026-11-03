@@ -34,15 +34,21 @@ const key = args && args.theme
 const t = THEMES[key]
 if (!t) throw new Error('unknown theme ' + key)
 
+const auditOnly = !!(args && args.audit_only)
+let sheet = null
+if (auditOnly) {
+  sheet = { output_file: `${REPO}/evidence/factsheet_${key}.md`, fas_covered: t.fas, rows_per_fa: [], placeholders_needed: [] }
+} else {
 phase('Fact sheet')
 log(`Evidence pack for ${t.name}`)
-const sheet = await agent(`You build the evidence pack for ${t.name} of the final report of Wesgro's Unlocking Tourism study, covering focus areas ${t.fas.join(', ')}. Read in full: ${REPO}/evidence/tree.md (dispositions, origins, the evidence map in its section 4 and the deck-only facts in section 5), ${REPO}/discrepancies.md (values the report will use), and every verified extract: ${EXTRACTS.join(', ')}. The extracts are the only evidence you may use; the Verification section at the end of each lists corrections and omissions that override the body.
+sheet = await agent(`You build the evidence pack for ${t.name} of the final report of Wesgro's Unlocking Tourism study, covering focus areas ${t.fas.join(', ')}. Read in full: ${REPO}/evidence/tree.md (dispositions, origins, the evidence map in its section 4 and the deck-only facts in section 5), ${REPO}/discrepancies.md (values the report will use), and every verified extract: ${EXTRACTS.join(', ')}. The extracts are the only evidence you may use; the Verification section at the end of each lists corrections and omissions that override the body.
 
 ${CITE_RULES}
 
 ${FOCUS_AREAS}
 
 Write ${REPO}/evidence/factsheet_${key}.md. For each focus area in this theme, in order, give: (a) the focus area name, disposition, one-line reason, December origin and workstream, copied from tree.md; (b) an evidence table of 6 to 12 rows, each row one finding with its exact figure, unit, year and basis, the document, the page, and the Chapter 2 section it will sit in; mark any figure from a working analysis or public source as such; (c) the figures in the one-line reason that no document in hand supports, written as placeholders in square brackets with what is needed, and the supported figure that replaces each (for example eleven of 27 routes above 80% in place of sixteen); (d) the benchmark precedent available for it (document, page, two-sentence content) or "none in the Benchmarking Report" with the nearest case; (e) stakeholder evidence for it (organisation, insight, impact rating, page) from the Stakeholder Insights extract; (f) what the deliverables recommend for it (the deliverable's own "what we need to do", "strategic implication" or response lines, with page), split into what Wesgro can do, what partners must do, and what sits nationally; (g) data points that could serve as its Chapter 5 indicator with the baseline value, year and source; (h) for the theme as a whole, the candidate Chapter 4 initiatives the deliverables themselves point to (name, the focus areas it serves, the deliverable and page), so the portfolio can be assembled from evidence rather than invented. Record values exactly as the extracts give them; do not round, infer or combine. Return the structured summary.`, { label: `sheet:${key}`, phase: 'Fact sheet', schema: SHEET_SCHEMA })
+}
 if (!sheet) return { theme: key, failed: 'sheet returned null' }
 
 phase('Audit')
