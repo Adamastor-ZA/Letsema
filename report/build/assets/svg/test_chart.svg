@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" width="1200" height="600" font-family="Raleway, Arial, sans-serif">
+  <rect width="1200" height="600" fill="#ffffff"/>
+  <g stroke="#C9D1DA" stroke-width="1">
+    <line x1="120" y1="500" x2="1150" y2="500"/>
+    <line x1="120" y1="380" x2="1150" y2="380"/>
+    <line x1="120" y1="260" x2="1150" y2="260"/>
+    <line x1="120" y1="140" x2="1150" y2="140"/>
+  </g>
+  <g fill="#5B6572" font-size="22">
+    <text x="105" y="506" text-anchor="end">1.4m</text>
+    <text x="105" y="386" text-anchor="end">1.8m</text>
+    <text x="105" y="266" text-anchor="end">2.2m</text>
+    <text x="105" y="146" text-anchor="end">2.6m</text>
+  </g>
+  <line x1="120" y1="380" x2="1150" y2="380" stroke="#B23A48" stroke-width="3" stroke-dasharray="10 8"/>
+  <text x="1145" y="368" text-anchor="end" fill="#B23A48" font-size="22" font-weight="700">Seat ceiling 1.8m</text>
+  <polyline fill="none" stroke="#0B3C5D" stroke-width="5" points="180,470 420,418 580,380 740,338 900,292 1060,268"/>
+  <polyline fill="none" stroke="#1F7A8C" stroke-width="5" points="180,470 420,395 580,338 740,268 900,195 1060,165"/>
+  <g fill="#5B6572" font-size="22" text-anchor="middle">
+    <text x="180" y="540">2025</text><text x="420" y="540">2028</text><text x="580" y="540">2030</text><text x="740" y="540">2032</text><text x="900" y="540">2034</text><text x="1060" y="540">2035</text>
+  </g>
+  <text x="1070" y="275" fill="#0B3C5D" font-size="22" font-weight="700">Base 2.18m</text>
+  <text x="1070" y="170" fill="#1F7A8C" font-size="22" font-weight="700">Accelerated 2.52m</text>
+</svg>
