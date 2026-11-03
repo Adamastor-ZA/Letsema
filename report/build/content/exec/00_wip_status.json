@@ -1,0 +1,9 @@
+{ "id": "0.0", "title": "Status of this work-in-progress draft", "blocks": [
+ {"type":"lead","text":"This file is a work-in-progress build of the final report, packaged on 3 November 2026 for review of the structure, the build and the first drafted section."},
+ {"type":"box","title":"What this build contains and what it does not","paras":[
+   "**Contains.** The front matter (cover, document control, foreword placeholder, contents, lists of figures and tables, abbreviations) and section 1.2, The Western Cape tourism system today, drafted from the verified evidence extracts with three figures and three tables. Section 1.2 has not yet passed its adversarial review; a reviewer is checking every figure against the source pages.",
+   "**Does not yet contain.** Sections 1.1, 1.3, 1.4 and 1.5 (drafting in progress); Chapter 2 (six analysis summaries, next); Chapter 3 (20 focus-area entries, after Chapter 2); Chapters 4 and 5; the appendices; the executive summary, which is written last from the Chapter 3 toplines.",
+   "**Evidence base behind it.** Twelve deliverables and memos read in full and adversarially verified, figure by figure; a reconciliation log of 55 discrepancies between the structure document, the brief and the deliverables (discrepancies.md); a reconstruction of the hypothesis tree with dispositions (evidence/tree.md); fact sheets for five of the six themes, with the sixth and the audits in progress.",
+   "**Conventions already in force.** Every figure carries a source and page in the form (Demand-Side Analysis, Jun 2026, p21); page numbers are PDF page indices because the decks print none; square brackets mark open items; every page carries the draft marking; figures are redrawn from the extracted data rather than pasted."
+ ]}
+]}
