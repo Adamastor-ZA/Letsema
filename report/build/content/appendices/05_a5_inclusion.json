@@ -198,7 +198,7 @@
   {
    "type": "table",
    "caption": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p53 to p58 (binding constraint), p28 (organisation present, benefit visible to residents, assets protected or damaged), p27 (safety perception) and p20 to p26 and p40 to p51 (digital and bookability). Rows follow the shortlist order on p18; section 2.6 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
+   "source": "SME and Community Inclusion Plan, Sep 2026: p53 to p58 for the binding constraint; p28 for organisation present, benefit visible to residents and assets protected or damaged; p27 for safety perception; p20 to p26 and p40 to p51 for digital and bookability. Rows follow the shortlist order on p18; section 2.6 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
    "columns": [
     {
      "header": "Community",
@@ -516,7 +516,7 @@
   {
    "type": "table",
    "caption": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). [Source needed: the page in the Diagnostic Report v2 or Demand-Side Analysis that sets the 2035 spend ambition and the arrivals case behind it.] Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). The Diagnostic sets that ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
    "columns": [
     {
      "header": "Measure",
@@ -563,7 +563,7 @@
     [
      "1% of the 2035 spend ambition",
      "R547m",
-     "Implies R54.7 billion of 2035 spend (computed); [arrivals case behind the ambition needed from the Diagnostic Report v2]"
+     "Implies R54.7 billion of 2035 spend (computed); the Diagnostic's 5.7 million arrivals case (Current State Diagnostic, Dec 2025, p5)"
     ]
    ],
    "boldFirstCol": true

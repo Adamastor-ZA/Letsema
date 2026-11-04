@@ -20,7 +20,7 @@
   {
    "type": "table",
    "caption": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source.",
-   "source": "Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; – none expected. Rand values are not estimated.",
+   "source": "Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; blank, none expected. Rand values are not estimated.",
    "columns": [
     {
      "header": "Code",
@@ -58,8 +58,8 @@
      "I1",
      "Segment-led activation and yield in mature markets",
      "●",
-     "-",
-     "-",
+     "",
+     "",
      "○"
     ],
     [
@@ -67,7 +67,7 @@
      "Green-season events and business-events calendar",
      "●",
      "●",
-     "-",
+     "",
      "○"
     ],
     [
@@ -82,16 +82,16 @@
      "I4",
      "India and China hub conversion",
      "●",
-     "-",
-     "-",
+     "",
+     "",
      "○"
     ],
     [
      "I5",
      "Regional Africa programme",
      "●",
-     "-",
-     "-",
+     "",
+     "",
      "○"
     ],
     [
@@ -106,7 +106,7 @@
      "I7",
      "Cruise growth through product",
      "●",
-     "-",
+     "",
      "●",
      "○"
     ],
@@ -131,7 +131,7 @@
      "Visitor experience and quality standards",
      "○",
      "●",
-     "-",
+     "",
      "○"
     ],
     [
@@ -163,7 +163,7 @@
      "Tourism investment pipeline",
      "●",
      "●",
-     "-",
+     "",
      "●"
     ],
     [
@@ -171,8 +171,8 @@
      "Tourism Growth Steerco and three-tier alignment",
      "●",
      "●",
-     "-",
-     "-"
+     "",
+     ""
     ],
     [
      "I16",
@@ -187,8 +187,8 @@
      "Access and safety escalation agenda",
      "●",
      "●",
-     "-",
-     "-"
+     "",
+     ""
     ],
     [
      "I18",

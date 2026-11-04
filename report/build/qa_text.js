@@ -23,7 +23,7 @@ const BANNED = [
   { re: /\bgame-?changer/i, label: 'game-changer' },
   { re: /\brobust\b/i, label: 'robust' },
   { re: /\bjourney\b/i, label: 'journey (check: traveller journeys are allowed)' },
-  { re: /\b(really|very|incredibly|absolutely|truly|deeply)\b/i, label: 'intensifier' },
+  { re: /\b(really|very(?! weak)|incredibly|absolutely|truly|deeply)\b/i, label: 'intensifier' }, // 'Very weak' is a printed scale label
   { re: /\b(organization|prioritize|behavior|center|program\b|traveler|labor|color|optimize|analyze|realize|recognize|favor)/, label: 'US spelling' },
 ];
 const OXFORD = /,\s[^,.;:()\[\]]{1,60},\s(and|or)\s(?!then\b)/i; // "a, b c, and d": a list-final comma (heuristic; clause commas may also match)
@@ -41,7 +41,7 @@ for (const dir of dirs) {
     const strings = [];
     const push = (s, where) => { if (typeof s === 'string') strings.push({ s, where }); };
     (section.blocks || []).forEach((b, i) => {
-      push(b.text, `block ${i} ${b.type}`); push(b.caption, `block ${i} caption`);
+      push(b.text, `block ${i} ${b.type}`); push(b.caption, `block ${i} caption`); push(b.source, `block ${i} source`);
       (b.items || []).forEach((t) => push(t, `block ${i} item`));
       (b.paras || []).forEach((t) => push(t, `block ${i} box`));
       (b.rows || []).forEach((r) => r.forEach((c) => push(c, `block ${i} cell`)));
@@ -53,7 +53,8 @@ for (const dir of dirs) {
       // Count sentence length without parenthetical citations or bracketed placeholders; a closing bold marker ends a label.
       const plain = s.replace(/\([^()]*\b(19|20)\d\d\b[^()]*\)/g, '').replace(/\[[^\]]*\]/g, '').replace(/\.\*\*/g, '.');
       if (where.includes('cell')) continue;
-      for (const sent of plain.split(/(?<=[.!?])\s+/)) if (WORDS(sent) > 35) flag(file, `long sentence ${WORDS(sent)} words (${where})`, sent);
+      const splitter = where.includes('source') ? /(?<=[.!?;])\s+/ : /(?<=[.!?])\s+/; // citation lists in sources split at semicolons
+      for (const sent of plain.split(splitter)) if (WORDS(sent) > 35) flag(file, `long sentence ${WORDS(sent)} words (${where})`, sent);
     }
     // Chapter 3 template: each h3 entry (focus area) must have the kicker and the five h4 parts.
     if (/ch3/.test(dir)) {
