@@ -1,0 +1,840 @@
+{
+ "id": "A7",
+ "title": "Initiative charters and action register",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A7 Initiative charters and action register"
+  },
+  {
+   "type": "lead",
+   "text": "The 112 actions in Chapter 3 are listed here by initiative, so each lead can see every action the plan asks of it and of its partners."
+  },
+  {
+   "type": "p",
+   "text": "Section 4.3 carries the eighteen charters in full, so this appendix does not repeat them. It lists the actions from the Chapter 3 action tables in initiative order, with the tier that acts and the proposed lead and partners. The programme office loads this register into the toolkit as the Tier 3 work plan."
+  },
+  {
+   "type": "table",
+   "caption": "Every Chapter 3 action belongs to one initiative, and each initiative carries actions for Wesgro, its partners and, where the lever is national, an escalation.",
+   "source": "Chapter 3 action tables; initiative mapping from the traceability table. Leads and partners are proposals for Steerco to confirm.",
+   "columns": [
+    {
+     "header": "Initiative",
+     "width": 0.7,
+     "align": "left"
+    },
+    {
+     "header": "FA",
+     "width": 0.4,
+     "align": "left"
+    },
+    {
+     "header": "Who acts",
+     "width": 0.8,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.2,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 1.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "I1",
+     "1",
+     "Wesgro",
+     "Set segment targets inside each priority market: Curious Explorers in the UK and USA, Reflective Adventurers in Germany, Creative Connectors in India, Discerning Connoisseurs in the UAE",
+     "Destination Marketing; Research"
+    ],
+    [
+     "I1",
+     "1",
+     "Wesgro",
+     "Move spend from broad awareness to trade-led conversion through each segment's own channels, from luxury advisors to mobile-first OTAs",
+     "Destination Marketing; trade and OTA partners"
+    ],
+    [
+     "I1",
+     "1",
+     "Wesgro",
+     "Commission destination-specific research to validate the segments, extend it to the domestic and African markets and build the segments into brand tracking",
+     "Research"
+    ],
+    [
+     "I1",
+     "1",
+     "Partners",
+     "Develop segment-matched product: heritage and township experiences, creative districts, private-access wine and food and a certified network of wellness retreats and trails",
+     "Product owners; CapeNature; SANParks; LTOs"
+    ],
+    [
+     "I1",
+     "1",
+     "National",
+     "Agree one segment frame with SA Tourism for long-haul campaigns, so provincial and national spend target the same travellers",
+     "SA Tourism"
+    ],
+    [
+     "I1",
+     "5",
+     "Wesgro",
+     "Make the case to carriers on the five full routes for added frequency or larger aircraft, backed by green-season marketing",
+     "Air Access; airlines"
+    ],
+    [
+     "I1",
+     "5",
+     "Wesgro",
+     "Sell Discerning Connoisseur product through luxury advisors and high-end operators in the UK, USA, Germany, France and Switzerland",
+     "Destination Marketing; trade"
+    ],
+    [
+     "I1",
+     "5",
+     "Wesgro",
+     "Add a yield measure, spend per visitor by market with length of stay, beside arrivals in Wesgro's own targets",
+     "Research"
+    ],
+    [
+     "I1",
+     "5",
+     "Partners",
+     "Invest in premium product outside the Metro and in the midscale branded accommodation the province lacks (focus areas 11 and 15)",
+     "Accommodation investors; hospitality bodies"
+    ],
+    [
+     "I1",
+     "5",
+     "National",
+     "Escalate the cap on US carriers, the unsigned Open Skies agreement and the bilateral agreements that limit airlift",
+     "Department of Transport"
+    ],
+    [
+     "I2",
+     "2",
+     "Wesgro",
+     "Publish a green-season events calendar and aim Convention Bureau bids at May to September in the province's strongest sectors",
+     "Convention Bureau; Destination Marketing"
+    ],
+    [
+     "I2",
+     "2",
+     "Wesgro",
+     "Package green-season flight, stay and experiences with airlines and trade, and test cooler-season incentive packages with Indian and Gulf planners",
+     "Air Access; Destination Marketing; airlines"
+    ],
+    [
+     "I2",
+     "2",
+     "Wesgro",
+     "Measure meetings, incentives and exhibitions, which provincial statistics do not cover today",
+     "Research; CTICC"
+    ],
+    [
+     "I2",
+     "2",
+     "Partners",
+     "Programme lifestyle events in December and January and keep peak dates for international events; market flower, fynbos and whale events earlier",
+     "CTICC; Overberg and West Coast LTOs"
+    ],
+    [
+     "I2",
+     "2",
+     "Partners",
+     "Agree one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province",
+     "City of Cape Town; DEDAT"
+    ],
+    [
+     "I2",
+     "2",
+     "National",
+     "Ease visas for regional African delegates, whose event demand the venue operator rates as visa-constrained",
+     "Home Affairs; SA National Convention Bureau"
+    ],
+    [
+     "I3",
+     "3",
+     "Wesgro",
+     "Run a bookability census of provincial product by district and publish it as the baseline",
+     "Research; LTOs"
+    ],
+    [
+     "I3",
+     "3",
+     "Wesgro",
+     "Run a digital onboarding drive for small operators and cellars on the West Coast, Route 62 and the Overberg",
+     "Tourism; district municipalities"
+    ],
+    [
+     "I3",
+     "3",
+     "Wesgro",
+     "Deepen OTA partnerships with Trip.com, Almosafer and Booking.com, and list packaged regional itineraries on them",
+     "Destination Marketing; OTAs"
+    ],
+    [
+     "I3",
+     "3",
+     "Partners",
+     "Give each pilot community one live booking route before any promotion (focus area 13)",
+     "LTOs; community sellers"
+    ],
+    [
+     "I3",
+     "3",
+     "Partners",
+     "Move CapeNature reservations online and complete cashless payments at reserve level",
+     "CapeNature"
+    ],
+    [
+     "I3",
+     "3",
+     "National",
+     "Extend rural broadband under SA Connect, and lift the national rule that blocks bank-card payments on the George bus",
+     "National government"
+    ],
+    [
+     "I4",
+     "4",
+     "Wesgro",
+     "Secure added frequency from Emirates, Qatar Airways and Ethiopian Airlines, with joint market support tied to Indian and Chinese sales",
+     "Air Access; hub carriers"
+    ],
+    [
+     "I4",
+     "4",
+     "Wesgro",
+     "Activate inside Xiaohongshu, Douyin and MakeMyTrip with market-specific itineraries and Trip.com packages",
+     "Destination Marketing; OTAs; trade"
+    ],
+    [
+     "I4",
+     "4",
+     "Wesgro",
+     "Build long-term route cases for the India and China corridors and keep a standing relationship with Indian carriers, China Southern and China Eastern",
+     "Air Access"
+    ],
+    [
+     "I4",
+     "4",
+     "Partners",
+     "Ready the product for both markets: Mandarin and Indian-language guiding, Alipay and WeChat Pay, visible vegetarian options",
+     "Product owners; attractions; hospitality bodies"
+    ],
+    [
+     "I4",
+     "4",
+     "National",
+     "Escalate visa processing for China and India, and the route designation for China that is decided government to government",
+     "Home Affairs; Department of Transport"
+    ],
+    [
+     "I5",
+     "6",
+     "Wesgro",
+     "Make the capacity case on the five full regional routes with Airlink, Ethiopian Airlines, Kenya Airways and the other regional carriers",
+     "Air Access; airlines"
+    ],
+    [
+     "I5",
+     "6",
+     "Wesgro",
+     "Run premium, trade-led activation in Nigeria and Kenya for leisure, weddings and conferences with leisure extensions",
+     "Destination Marketing; Convention Bureau; trade"
+    ],
+    [
+     "I5",
+     "6",
+     "Wesgro",
+     "Add Nigeria and Ghana to the growth model and commission consumer research for Botswana, Zambia, Ghana and Rwanda",
+     "Research"
+    ],
+    [
+     "I5",
+     "6",
+     "Partners",
+     "Convert rest-of-Africa travellers who stop in Johannesburg with onward packages, and give regional delegates leisure extensions",
+     "Cape Town Tourism; CTICC; tour operators; Cross-Border Road Transport Agency"
+    ],
+    [
+     "I5",
+     "6",
+     "National",
+     "Escalate visas for African markets, building on the 2024 Ghana visa waiver, and liberalisation of regional air routes",
+     "Home Affairs; Department of Transport"
+    ],
+    [
+     "I6",
+     "7",
+     "Wesgro",
+     "Run a seat-retention and frequency programme on the full routes, with joint marketing tied to route performance",
+     "Air Access; Destination Marketing; airlines"
+    ],
+    [
+     "I6",
+     "7",
+     "Wesgro",
+     "Set up a public-private air access fund for route support, on the Chilean model",
+     "Air Access; DEDAT; City of Cape Town; private sector"
+    ],
+    [
+     "I6",
+     "7",
+     "Wesgro",
+     "Treat runway delivery as the first risk: track approvals and milestones quarterly and commission a capacity-against-demand model to 2035",
+     "Air Access; Research"
+    ],
+    [
+     "I6",
+     "7",
+     "Partners",
+     "Deliver the runway, terminals and George upgrade on the published dates; close the funding and name a carrier at Cape Winelands",
+     "ACSA; Cape Winelands Airport"
+    ],
+    [
+     "I6",
+     "7",
+     "National",
+     "Escalate bilateral air service agreements, the cap on US carriers and immigration processing at Cape Town International",
+     "Department of Transport; Home Affairs"
+    ],
+    [
+     "I7",
+     "8",
+     "Wesgro",
+     "Market Cape Town to lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
+     "Cruise Cape Town; Destination Marketing"
+    ],
+    [
+     "I7",
+     "8",
+     "Wesgro",
+     "Back Mossel Bay now with packaged excursions and line marketing; keep Saldanha Bay on watch until demand is proven",
+     "Cruise Cape Town; Mossel Bay municipality"
+    ],
+    [
+     "I7",
+     "8",
+     "Wesgro",
+     "Put community and regional product on cruise-operator channels, starting with a bookable walk in the Knysna townships",
+     "Cruise Cape Town; LTOs"
+    ],
+    [
+     "I7",
+     "8",
+     "Partners",
+     "Manage berth scheduling and wind delays at Cape Town, plan for shore power and review the 300m limit",
+     "Transnet National Ports Authority; V&A Waterfront"
+    ],
+    [
+     "I7",
+     "8",
+     "National",
+     "Put cruise into port planning, since current Western Cape port capital carries no cruise capacity",
+     "Transnet"
+    ],
+    [
+     "I8",
+     "9",
+     "Wesgro",
+     "Package the Southern Line as a visitor product, with refreshed branding and day passes",
+     "Tourism; Destination Marketing; City of Cape Town; PRASA"
+    ],
+    [
+     "I8",
+     "9",
+     "Wesgro",
+     "Aggregate demand and bookings for corridor shuttles, starting on the Garden Route and between Cape Town, Darling and the West Coast",
+     "Tourism; district municipalities; private operators"
+    ],
+    [
+     "I8",
+     "9",
+     "Wesgro",
+     "Sell the transfer inside the itinerary on the N2 and R62 routes, so visitors without a car can buy the trip",
+     "Destination Marketing; operators"
+    ],
+    [
+     "I8",
+     "9",
+     "Partners",
+     "Complete the Central Line recovery, MyCiTi Phase 2 and the unfunded last mile to Cape Point, with integrated ticketing",
+     "City of Cape Town; PRASA; Department of Mobility"
+    ],
+    [
+     "I8",
+     "9",
+     "Partners",
+     "Take forward the Cape Town to George rapid rail assessment and extend the George public transport model",
+     "Department of Mobility"
+    ],
+    [
+     "I8",
+     "9",
+     "National",
+     "Lift the national rule that blocks bank-card payments on the George bus, and fund passenger rail beyond the Metro",
+     "National government; PRASA"
+    ],
+    [
+     "I9",
+     "10",
+     "Wesgro",
+     "Package bookable multi-day itineraries on each of the six touring routes, starting with the Whale Coast east of Hermanus, Route 62 and the West Coast",
+     "Tourism; Destination Marketing; LTOs"
+    ],
+    [
+     "I9",
+     "10",
+     "Wesgro",
+     "Activate cold-zone assets with guided tours, interpretation and bookable product, beginning with the marine and wildflower assets",
+     "Tourism; CapeNature; SANParks; LTOs"
+    ],
+    [
+     "I9",
+     "10",
+     "Wesgro",
+     "Build regional conference offers in Stellenbosch and George, with stays before and after Cape Town events",
+     "Convention Bureau"
+    ],
+    [
+     "I9",
+     "10",
+     "Partners",
+     "Invest in accommodation and service depth beyond Hermanus, in Route 62's secondary towns and beyond Langebaan and Paternoster (focus area 15)",
+     "Accommodation investors; municipalities"
+    ],
+    [
+     "I9",
+     "10",
+     "Partners",
+     "Refresh flagship product: Robben Island beyond the prison tour; the Cableway's lower station",
+     "Robben Island Museum; Table Mountain Aerial Cableway"
+    ],
+    [
+     "I9",
+     "10",
+     "National",
+     "Complete SA Connect rural broadband and SANParks precinct projects such as the R81.7m Agulhas lighthouse precinct",
+     "National government; SANParks"
+    ],
+    [
+     "I10",
+     "11",
+     "Wesgro",
+     "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
+     "Tourism; DEDAT; industry bodies"
+    ],
+    [
+     "I10",
+     "11",
+     "Wesgro",
+     "Prepare for growth markets: multilingual guiding, digital payments and culturally relevant product for Chinese, Indian and Gulf visitors",
+     "Tourism; Destination Marketing"
+    ],
+    [
+     "I10",
+     "11",
+     "Wesgro",
+     "Make the investment case for mid-scale and conference-capable hotels in George and Mossel Bay, east of Hermanus and on Route 62 (focus area 15)",
+     "Tourism; private investors"
+    ],
+    [
+     "I10",
+     "11",
+     "Partners",
+     "Close service and interpretation gaps at named sites: Robben Island interpretation, CapeNature service readiness, restaurant quality in Mossel Bay",
+     "Attraction operators; municipalities; CATHSSETA"
+    ],
+    [
+     "I10",
+     "11",
+     "National",
+     "Improve immigration processing and peak-hour throughput at Cape Town International, and deliver the terminal relief due about 2032",
+     "Home Affairs; ACSA"
+    ],
+    [
+     "I11",
+     "12",
+     "Wesgro",
+     "Market the under-used reserves, and the Southern Line to Boulders and Simon's Town, as alternatives to peak-hour flagship visits",
+     "Destination Marketing; CapeNature; PRASA"
+    ],
+    [
+     "I11",
+     "12",
+     "Wesgro",
+     "Request visitor counts and capacity for the five flagship sites and publish them as the baseline",
+     "Research; site operators"
+    ],
+    [
+     "I11",
+     "12",
+     "Wesgro",
+     "Report spend per visitor and length of stay for nature product alongside visitor numbers",
+     "Research"
+    ],
+    [
+     "I11",
+     "12",
+     "Partners",
+     "Introduce digital visitor-flow management at the Cableway, Boulders and Cape Point, with tiered pricing where mandates allow",
+     "Table Mountain Aerial Cableway; SANParks; CapeNature"
+    ],
+    [
+     "I11",
+     "12",
+     "Partners",
+     "Make reserve product climate-resilient by reassessing asset formats and siting",
+     "CapeNature"
+    ],
+    [
+     "I11",
+     "12",
+     "National",
+     "Agree a visitor management plan for Table Mountain National Park and Boulders with the City and the operators",
+     "SANParks"
+    ],
+    [
+     "I12",
+     "13",
+     "Wesgro",
+     "Put pilot community product into the itineraries, calendars and channels Wesgro already runs, such as the Langa and Kayamandi routes and the Mal'va festival listing",
+     "Tourism; Destination Marketing"
+    ],
+    [
+     "I12",
+     "13",
+     "Wesgro",
+     "Choose the two or three pilots with partners on the plan's readiness criteria, and keep the record of bookings, visitors and locally retained revenue",
+     "Research; Tourism"
+    ],
+    [
+     "I12",
+     "13",
+     "Partners",
+     "Form or fund a local selling body in each pilot community, with one live booking route, published dates and a named customer contact",
+     "Municipalities; LTOs; community sellers"
+    ],
+    [
+     "I12",
+     "13",
+     "Partners",
+     "Attach maintenance and marketing covenants to public assets before any re-letting or upgrade",
+     "Municipalities"
+    ],
+    [
+     "I12",
+     "13",
+     "National",
+     "Commit SAPS to the launch safety plans the pilots need, and open ACSA and other national procurement to businesses trading inside the communities",
+     "SAPS; ACSA"
+    ],
+    [
+     "I13",
+     "14",
+     "Wesgro",
+     "Keep a climate and weather risk register for tourism sites and routes, starting with the Robben Island, Cableway and CapeNature losses and the Meiringspoort closure",
+     "Research; site operators"
+    ],
+    [
+     "I13",
+     "14",
+     "Wesgro",
+     "Build sustainability checks into the provincial quality charter (focus area 11) on the Mossel Bay model",
+     "Tourism; LTOs"
+    ],
+    [
+     "I13",
+     "14",
+     "Wesgro",
+     "Route itineraries and marketing around closures, starting with alternatives to Meiringspoort until the pass reopens",
+     "Destination Marketing; Garden Route and Klein Karoo LTOs"
+    ],
+    [
+     "I13",
+     "14",
+     "Partners",
+     "Give LTOs a stable funding agreement with a development mandate, written into IDPs with reporting",
+     "Municipalities; district municipalities; DEDAT"
+    ],
+    [
+     "I13",
+     "14",
+     "Partners",
+     "Make reserve and attraction assets climate-resilient, with off-grid power at remote sites",
+     "CapeNature; site operators"
+    ],
+    [
+     "I13",
+     "14",
+     "National",
+     "Resolve the effect of Treasury Circular 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+     "National Treasury; the road authority"
+    ],
+    [
+     "I14",
+     "15",
+     "Wesgro",
+     "Build a tourism investment pipeline from the gap-closure tables, scored for return, jobs and inclusion, and take it to investors",
+     "Wesgro investment promotion; Tourism; DEDAT"
+    ],
+    [
+     "I14",
+     "15",
+     "Wesgro",
+     "Prepare investment cases for mid-scale and conference-capable hotels in secondary nodes and for accommodation at De Hoop and on Route 62",
+     "Wesgro investment promotion; private investors"
+    ],
+    [
+     "I14",
+     "15",
+     "Wesgro",
+     "Set up the public-private air access fund with ring-fenced corridor budgets (focus area 7)",
+     "Air Access; DEDAT; City of Cape Town; private sector"
+    ],
+    [
+     "I14",
+     "15",
+     "Partners",
+     "Test a tourism levy and blended-finance vehicles for destination management and mobility",
+     "DEDAT; City of Cape Town"
+    ],
+    [
+     "I14",
+     "15",
+     "Partners",
+     "Attach covenants to public assets before re-letting or upgrading them, and invest in community assets only after demand is proven",
+     "Municipalities"
+    ],
+    [
+     "I14",
+     "15",
+     "National",
+     "Hold ACSA, PRASA and Transnet to their published capital dates, and add tourism use to the port plans",
+     "ACSA; PRASA; Transnet"
+    ],
+    [
+     "I15",
+     "16",
+     "Wesgro",
+     "Constitute the Tourism Growth Steerco with DEDAT and Cape Town Tourism, and agree a decision-rights map by tier from the Diagnostic's tier table",
+     "Wesgro CEO's office; DEDAT; Cape Town Tourism"
+    ],
+    [
+     "I15",
+     "16",
+     "Wesgro",
+     "Hold standing relationships with Indian carriers and authorities, with China Southern and China Eastern and with Riyadh Air",
+     "Air Access"
+    ],
+    [
+     "I15",
+     "16",
+     "Wesgro",
+     "Track the national capital programmes that bind the plan (runway, ports and rail) and report on them each quarter",
+     "Air Access; Research"
+    ],
+    [
+     "I15",
+     "16",
+     "Partners",
+     "Settle district, local and LTO mandates, restore a tourism development function where it has lapsed and revisit the Discover Garden Route partnership",
+     "District municipalities; municipalities; LTOs"
+    ],
+    [
+     "I15",
+     "16",
+     "Partners",
+     "Test a dedicated transport authority model for tourism-enabling mobility",
+     "Department of Mobility"
+    ],
+    [
+     "I15",
+     "16",
+     "National",
+     "Agree with the province how marketing and data roles divide between national and provincial bodies",
+     "SA Tourism; Department of Tourism"
+    ],
+    [
+     "I15",
+     "17",
+     "Wesgro",
+     "Use JAMS as the single consultation channel to the associations, and add the Tour Guides Association",
+     "Wesgro CEO's office; FEDHASA"
+    ],
+    [
+     "I15",
+     "17",
+     "Wesgro",
+     "Set up sector councils for wine, business events, adventure and culture inside Steerco's structure",
+     "Tourism; Convention Bureau; industry bodies"
+    ],
+    [
+     "I15",
+     "17",
+     "Wesgro",
+     "Run the demand-side engagement round with Trip.com Group, Thomas Cook India, DNATA Travel, China International Travel Service, Emirates and SATSA",
+     "Destination Marketing; Air Access"
+    ],
+    [
+     "I15",
+     "17",
+     "Partners",
+     "Supply academic and sector champions for international bids",
+     "CTICC; universities"
+    ],
+    [
+     "I15",
+     "17",
+     "Partners",
+     "Give regional forums a development agenda and tailor provincial support to district needs",
+     "District municipalities; DEDAT; LTOs"
+    ],
+    [
+     "I15",
+     "17",
+     "National",
+     "Include provincial assets in SA Tourism's campaigns for emerging source markets",
+     "SA Tourism"
+    ],
+    [
+     "I16",
+     "18",
+     "Wesgro",
+     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms",
+     "Research"
+    ],
+    [
+     "I16",
+     "18",
+     "Wesgro",
+     "Run one indicator register and dashboard, with quarterly digital tracking and annual brand research",
+     "Research; programme office"
+    ],
+    [
+     "I16",
+     "18",
+     "Wesgro",
+     "Measure meetings, incentives and exhibitions, and add Nigeria and Ghana to the growth model",
+     "Research; Convention Bureau"
+    ],
+    [
+     "I16",
+     "18",
+     "Partners",
+     "Close the provincial tourism policy gap and embed tourism in IDPs and spatial plans, with reporting",
+     "DEDAT; municipalities"
+    ],
+    [
+     "I16",
+     "18",
+     "Partners",
+     "Share visitor-level data from ticketing and reservation systems",
+     "Attraction operators; CapeNature"
+    ],
+    [
+     "I16",
+     "18",
+     "National",
+     "Approve a provincial tourism GDP and jobs methodology and resource the tourism satellite account",
+     "Department of Tourism; Stats SA"
+    ],
+    [
+     "I17",
+     "19",
+     "Wesgro",
+     "Table an escalation agenda at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements; immigration throughput at Cape Town International",
+     "Wesgro CEO's office; DEDAT"
+    ],
+    [
+     "I17",
+     "19",
+     "Wesgro",
+     "Build the market-by-market evidence for each ask, from visa processing times to safety perception in source markets",
+     "Research; Destination Marketing"
+    ],
+    [
+     "I17",
+     "19",
+     "Wesgro",
+     "Carry a visitor-safety narrative in marketing, and apply the four launch gates to any community product Wesgro sells",
+     "Destination Marketing; Tourism"
+    ],
+    [
+     "I17",
+     "19",
+     "Partners",
+     "Set up dedicated tourism safety units and programmes, with safety compacts in pilot communities",
+     "Western Cape Government; municipalities; SAPS"
+    ],
+    [
+     "I17",
+     "19",
+     "Partners",
+     "Fix basic services, water and connectivity at remote reserves and in tourism towns",
+     "Municipalities; CapeNature"
+    ],
+    [
+     "I17",
+     "19",
+     "National",
+     "Decide on visa processing, air service agreements and immigration counters, and make station security a rail line item",
+     "Home Affairs; Department of Transport; PRASA"
+    ],
+    [
+     "I18",
+     "20",
+     "Wesgro",
+     "Commission the labour analysis with DEDAT: baseline, definition, occupations, skills gaps and the training pipeline",
+     "Research; DEDAT"
+    ],
+    [
+     "I18",
+     "20",
+     "Wesgro",
+     "Extract the tourism employment table from the Pero 2025, and obtain the method note for the jobs-per-passenger ratio",
+     "Research; Air Access"
+    ],
+    [
+     "I18",
+     "20",
+     "Wesgro",
+     "Build a workforce strand into the provincial quality charter (focus area 11)",
+     "Tourism"
+    ],
+    [
+     "I18",
+     "20",
+     "Partners",
+     "Run training partnerships around reserves and in pilot communities, building on the CATHSSETA guide certification and the Prince Albert academy",
+     "CapeNature; CATHSSETA; training providers; municipalities"
+    ],
+    [
+     "I18",
+     "20",
+     "Partners",
+     "Help newly trained guides stay in the sector with bookings from existing itineraries",
+     "LTOs; tour operators"
+    ],
+    [
+     "I18",
+     "20",
+     "National",
+     "Approve a provincial tourism jobs methodology and resource the tourism satellite account",
+     "Department of Tourism; Stats SA"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

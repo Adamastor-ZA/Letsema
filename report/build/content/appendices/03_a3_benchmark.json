@@ -1,0 +1,433 @@
+{
+ "id": "A3",
+ "title": "Benchmark cases",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A3 Benchmark cases"
+  },
+  {
+   "type": "lead",
+   "text": "Six comparators were drawn from a 30-destination screen on twelve criteria, and each case reduces to a system type, two levers and the changes they require of the Western Cape."
+  },
+  {
+   "type": "h3",
+   "text": "Evaluation criteria"
+  },
+  {
+   "type": "p",
+   "text": "Both the Inception Report and the Global Benchmarking Report screen destinations on twelve criteria in four groups (Inception Report, Nov 2025, p29, p30; Global Benchmarking Report, Mar 2026, p11). Each destination received one average score across all criteria (Inception Report, Nov 2025, p29)."
+  },
+  {
+   "type": "table",
+   "caption": "Twelve criteria in four groups test how closely a destination's markets, product, trajectory and performance resemble the Western Cape.",
+   "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. The Inception Report names two criteria differently: Cruise & Multi-Modal Access for Ease of Access & Visa, and Tourism Infrastructure & Capacity for Airport & Tourism Infrastructure (p30). Neither report prints scores by criterion, so the effect of the change on the ranking cannot be checked (Inception Report, Nov 2025, p31).",
+   "columns": [
+    {
+     "header": "Group",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Criterion",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "What it compares with the Western Cape",
+     "width": 4.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Market & Access Dynamics",
+     "Long-Haul Dependence & Connectivity",
+     "Reliance on long-haul aviation, hub relationships and seat-capacity volatility"
+    ],
+    [
+     "",
+     "Source Market Portfolio",
+     "Fit with Wesgro's core and target markets (UK/EU, North America, China, India, Middle East, Africa)"
+    ],
+    [
+     "",
+     "Ease of Access & Visa",
+     "Entry conditions, visa openness and visa-free access for Western Cape priority markets"
+    ],
+    [
+     "Destination & Product Structure",
+     "City-Region Configuration",
+     "Fit with the \"Cape Town gateway + multi-regional Western Cape\" model"
+    ],
+    [
+     "",
+     "Product & Experience Mix",
+     "Fit with the mix of coast, city, nature, wine and agri-tourism, food, culture and soft adventure"
+    ],
+    [
+     "",
+     "Cost & Price Positioning",
+     "Accommodation, dining and excursion costs against a mid to upper-mid price tier"
+    ],
+    [
+     "Growth, Inclusion & Sustainability",
+     "Growth Pattern & Tourism Development Stage",
+     "Lifecycle stage, demand pressures, seasonality and infrastructure strain"
+    ],
+    [
+     "",
+     "Inclusivity, Community Participation & SMME Landscape",
+     "SMME structure, community tourism footprint and local participation"
+    ],
+    [
+     "",
+     "Sustainability, Climate & Environmental Conditions",
+     "Climate risks, coastal vulnerability, water availability and resource pressure"
+    ],
+    [
+     "Performance & Competitiveness",
+     "Tourism Volume & Seasonality",
+     "Total arrivals, international share and seasonal concentration"
+    ],
+    [
+     "",
+     "Tourism Yield & Spend Levels",
+     "Average daily spend, trip length and value profile"
+    ],
+    [
+     "",
+     "Airport & Tourism Infrastructure",
+     "Airport quality, airside and landside capacity, ground transport and tourism infrastructure"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "The screen and how the set moved"
+  },
+  {
+   "type": "p",
+   "text": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). It printed ranks 7 to 30 with scores and reasons for exclusion; ranks 1 to 6 and their scores appear nowhere (p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16)."
+  },
+  {
+   "type": "p",
+   "text": "The Global Benchmarking Report also cites a screen of 30, keeps four of the inception six and presents no case as an underperformer (Global Benchmarking Report, Mar 2026, p12, p13). It drops Porto and Vancouver and adds Kenya and Auckland from inception ranks 11 and 7 (p12). Three destinations scored 3.58, above Kenya's 3.50, and stayed out (Inception Report, Nov 2025, p31). Neither document records why Porto and Vancouver were dropped."
+  },
+  {
+   "type": "table",
+   "caption": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver.",
+   "source": "Inception Report, Nov 2025, p31 (ranks, scores and reasons not selected), p32 (inception six and rationales); Global Benchmarking Report, Mar 2026, p12 (final six and rationales). Reasons and rationales as printed, shortened only by cutting; the rationale shown is from the later document in which the destination appears.",
+   "columns": [
+    {
+     "header": "Destination",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Inception Report (Nov 2025)",
+     "width": 2.3,
+     "align": "left"
+    },
+    {
+     "header": "Final set (Mar 2026)",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Printed rationale",
+     "width": 3.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Chile",
+     "Selected",
+     "Kept",
+     "High comparability in dispersal challenges, product mix and long-haul reliance"
+    ],
+    [
+     "Melbourne & Victoria",
+     "Selected",
+     "Kept",
+     "Strong long-haul dependence and multi-regional tourism footprint"
+    ],
+    [
+     "Valencia Region",
+     "Selected",
+     "Kept",
+     "Comparable climate, product mix and price point"
+    ],
+    [
+     "Singapore",
+     "Selected",
+     "Kept",
+     "Integrated approach to air access, service quality, food culture and visitor segmentation"
+    ],
+    [
+     "Kenya",
+     "Rank 11, score 3.50; not selected: weaker wine/agri mix; pricing and governance differ",
+     "Added",
+     "Strong alignment in long-haul reliance, regional dispersal and community-based tourism"
+    ],
+    [
+     "Auckland & North Island, New Zealand",
+     "Rank 7, score 3.67; not selected: less aligned on source markets and cruise dynamics",
+     "Added as Auckland",
+     "Urban life closely intertwined with natural landscapes"
+    ],
+    [
+     "Porto & Northern Portugal",
+     "Selected",
+     "Dropped",
+     "Visitor patterns closely mirror Western Cape's multi-regional model"
+    ],
+    [
+     "Vancouver & British Columbia",
+     "Selected",
+     "Dropped",
+     "Strong comparability in outdoor positioning and long-haul reliance"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Growth record and primary levers"
+  },
+  {
+   "type": "p",
+   "text": "The Global Benchmarking Report summarises the six cases in one table, reproduced here (Global Benchmarking Report, Mar 2026, p9). Its global norm is growth of 3% to 5% a year under stable conditions (p7)."
+  },
+  {
+   "type": "table",
+   "caption": "Five of the six cases grew faster than the 3% to 5% global norm, and four of the six paired structural demand creation with demand activation.",
+   "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed, with ranges written with 'to' and decimal commas shown as points; Valencia's second lever is given its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for Australia (p17). New Zealand's ~12% matches 2025 holiday-arrivals growth of 12.1%; total arrivals grew 5.9% (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals.",
+   "columns": [
+    {
+     "header": "Destination",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "YoY growth % over 2023 to 2024",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "% change vs 2019 (recovery depth)",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Primary levers",
+     "width": 2.7,
+     "align": "left"
+    },
+    {
+     "header": "Primary demand impact",
+     "width": 2.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Chile",
+     "~+35%",
+     "~82% recovered",
+     "1) Gateway-led air concentration\n2) Product diversification and immersive experience",
+     "1) Demand Activation\n2) Structural Demand Creation"
+    ],
+    [
+     "Kenya",
+     "~12.8% to 14.6%",
+     "~102% recovered",
+     "1) Conservation-led institutionalisation of wildlife\n2) Nairobi Led Gateway Diversification",
+     "1) Structural Demand Creation\n2) Demand Activation"
+    ],
+    [
+     "Singapore",
+     "~19%",
+     "Slightly below, spend recovered",
+     "1) Integrated Aviation Hub Strategy and Stopover Demand Conversion\n2) Institutional Quality uplift of Visitor Economy",
+     "1) Structural Demand Creation\n2) Demand Activation and Acceleration"
+    ],
+    [
+     "Australia, Victoria Melbourne",
+     "~4.3%",
+     "Near full recovery, differentiation from yield, value density",
+     "1) Event-led Demand\n2) Knowledge Brand Strategy",
+     "1) Structural Demand Creation\n2) Demand Activation and Acceleration"
+    ],
+    [
+     "New Zealand, Auckland Park",
+     "~12%",
+     "90% recovery, increased yield per visitor",
+     "1) Demand-Led Route Development Integration\n2) Premiumisation",
+     "1) System and Product Yield Optimisation\n2) Demand Activation and Acceleration"
+    ],
+    [
+     "Spain, Valencia",
+     "13 to 14%",
+     "124% recovered",
+     "1) Institutionalised Quality Governance\n2) Governance-led Demand Diversification",
+     "1) System and Product Yield Optimisation\n2) Demand Activation and Acceleration"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "System type and its three components"
+  },
+  {
+   "type": "p",
+   "text": "The report treats sustained growth as the product of three reinforcing components: institutional coordination; strategic marketing and promotion; accessibility and connectivity (Global Benchmarking Report, Mar 2026, p58). Without competitive access, \"latent demand does not convert\" (p59)."
+  },
+  {
+   "type": "table",
+   "caption": "All six cases align coordination, marketing and access, but each builds its system around a different anchor.",
+   "source": "Global Benchmarking Report, Mar 2026, p61 (system type), p59 to p60 (three components by destination, condensed).",
+   "columns": [
+    {
+     "header": "Case",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "System type",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Institutional coordination",
+     "width": 2.1,
+     "align": "left"
+    },
+    {
+     "header": "Strategic marketing",
+     "width": 2.1,
+     "align": "left"
+    },
+    {
+     "header": "Accessibility",
+     "width": 2.1,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Melbourne & Victoria",
+     "Events-led system",
+     "Institutionalises events and knowledge-led brand as a cross-government economic development tool",
+     "Integrates city branding, intellectual capital and events into a single demand proposition",
+     "Uses event calendar to de-risk and stimulate aviation demand"
+    ],
+    [
+     "Chile",
+     "Connectivity-led system",
+     "Coordination anchored around a single strategic constraint, long-haul access",
+     "Unified national branding with defined regional identities; multi-region itinerary packaging",
+     "Liberal aviation policy and major hub investment position Santiago as a single efficient long-haul hub"
+    ],
+    [
+     "Kenya",
+     "Product-led system",
+     "Aligns tourism with national priorities (conservation, trade, diplomacy)",
+     "Segment-specific marketing grounded in a designed product system",
+     "Reduces entry friction; Nairobi as multipurpose regional and global hub"
+    ],
+    [
+     "Singapore",
+     "Orchestrated experience system",
+     "Centrally orchestrated system (STB) with structured public-private partnerships",
+     "Packages experiences (events, precincts, lifestyle) into seamless high-value propositions",
+     "Integrates aviation, infrastructure and visitor experience into a single seamless gateway"
+    ],
+    [
+     "Valencia",
+     "Governance-led system",
+     "Decentralised, sector-led governance",
+     "Expands reasons to visit (gastronomy, culture, sport, wellness, business events)",
+     "Connectivity supports a multi-product destination system and dispersal"
+    ],
+    [
+     "New Zealand",
+     "Value-led system",
+     "Tourism, aviation and policy integrated around shared demand objectives",
+     "Shifts from volume to value by marketing scarce, high-quality experiences",
+     "Long-haul demand converts only when marketing, aviation and distribution are aligned"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Levers and required changes"
+  },
+  {
+   "type": "p",
+   "text": "Each case closes on a transferable-levers slide that names two levers and the change each requires locally (Global Benchmarking Report, Mar 2026, p13). The table gives those bullets in the report's words, shortened only by cutting."
+  },
+  {
+   "type": "table",
+   "caption": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance.",
+   "source": "Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened only by cutting; initial capitals, dashes and list commas follow house style.",
+   "columns": [
+    {
+     "header": "Case",
+     "width": 0.9,
+     "align": "left"
+    },
+    {
+     "header": "Lever 1 and required change for the Western Cape",
+     "width": 3.5,
+     "align": "left"
+    },
+    {
+     "header": "Lever 2 and required change for the Western Cape",
+     "width": 3.5,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Melbourne & Victoria (p20)",
+     "**Event Led Demand Engine**\nProactive international bidding pipeline anchored in priority markets and sectors; unified event acquisition and calendar strategy across Wesgro, Convention Bureau, City and Province; integrate city branding, intellectual capital and sector strengths into event positioning; hotel and precinct readiness planning; activate community participation and cultural engagement",
+     "**Knowledge-Led Brand Strategy**\nStrengthen coordination between Wesgro and Convention Bureau/Universities/Industry Bodies/Trade and Investment Teams; proactive international conference bidding pipeline aligned to sector strengths; sector aligned brand narrative link to priority industries; visibility and packaging across global distribution channels"
+    ],
+    [
+     "Chile (p28)",
+     "**Gateway-Led Air Connectivity and Capacity Expansion**\nTreat air access as core economic infrastructure, not a tourism add-on; establish a permanent, well-funded Public-Private Air Access Fund; lobby for air service liberalisation and simplified visa regimes; develop a unified Gateway Narrative",
+     "**Product Diversification and Immersive Regional Positioning**\nUnify destination narrative across province, city and sectors; move from asset marketing to experience led packaging; enforce brand consistency and international quality standards"
+    ],
+    [
+     "Kenya (p35)",
+     "**Wildlife-led Product Systematisation**\nShift from asset-led to system-led tourism development; strengthen coordination across public & private sector and communities; position WC as a demand anchor; integrate MICE and business travel into broader tourism system; formalise conservation and community inclusion as part of the tourism value proposition",
+     "**Nairobi-Led Gateway Repositioning and Demand Diversification**\nTreat MICE as a system lever; align city, provincial and national actors around gateway strategy; infrastructure credibility and event-readiness must be protected; mitigate risk of MICE demand remaining disconnected"
+    ],
+    [
+     "Singapore (p42)",
+     "**Integrated Aviation Hub Strategy and Stopover Demand Conversion**\nAlign government, aviation, events and private sector stakeholders under a coordinated strategy with shared KPIs; linking air access, major events and co-op marketing to convert connectivity into high-value demand",
+     "**Institutional Quality Uplift of the Visitor Economy**\nProvince-wide quality and standards framework led by Wesgro; targeted investment in service excellence, work-force capability and infrastructure; embed continuous performance measurement and public-private accountability"
+    ],
+    [
+     "Valencia (p49)",
+     "**Integrated Quality & Sustainability Institutionalisation**\nEstablish a provincial-level quality authority or charter; phase implementation by district but embed in provincial policy; reduce SMME burden via subsidies and capability support; make certification visible across booking platforms; move from 'encouraged compliance' to institutionalised compliance",
+     "**Governance-led Demand Diversification**\nEstablish formal sector councils (Wine, MICE, Adventure, Culture etc.); embed tourism governance into permanent public-private structures; align infrastructure, promotion and policy by demand segment; integrate residents formally into planning forums"
+    ],
+    [
+     "New Zealand (p56)",
+     "**Demand-Engineered Air Access**\nRing-fence budgets around priority long-haul corridors; formalise an Aviation Partnership Framework; introduce structured early-stage route support mechanisms",
+     "**Regional Value Engineering through Strategic De-Commoditisation**\nReplace arrivals KPI with yield-based metrics; deliberate regional product curation frameworks; align conservation and premium access to protect pricing power; shape premium-ready regional circuits beyond Cape Town core; build partnerships with specialist distribution networks"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

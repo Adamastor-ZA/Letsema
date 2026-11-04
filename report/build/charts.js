@@ -201,30 +201,32 @@ function ganttChart(o) {
 // The hypothesis tree as a figure: three pillar columns, themes stacked, focus areas listed with disposition tags.
 function treeChart(o) {
   const cols = o.pillars.length;
-  const H = 1000;
   const colW = (W - 80) / cols, gap = 24;
+  const FS = 21, LH = 26, WRAP = 27;
   const DISP = { Validated: '#7A9E7E', Refined: '#1F7A8C', Reworded: '#C98B2B', New: '#0B3C5D', Moved: '#8C5E8A', Flagged: '#B23A48', Withdrawn: '#5B6572' };
+  // height: tallest pillar column
+  const colH = o.pillars.map((p) => p.themes.reduce((acc, t) => acc + 52 + t.areas.reduce((a2, ar) => a2 + 44 + (wrap(ar.name, WRAP).length) * LH + 8, 0) + 10, 0));
+  const H = 250 + Math.max(...colH) + 20;
   let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
-  s += `<rect x="40" y="24" width="${W - 80}" height="60" rx="6" fill="${PAL[0]}"/><text x="${W / 2}" y="63" text-anchor="middle" font-size="26" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
+  s += `<rect x="40" y="20" width="${W - 80}" height="64" rx="6" fill="${PAL[0]}"/><text x="${W / 2}" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
   o.pillars.forEach((p, pi) => {
     const x = 40 + pi * colW + gap / 2, w = colW - gap;
-    s += `<rect x="${x}" y="110" width="${w}" height="92" rx="6" fill="${PAL[1]}"/>`;
-    s += `<text x="${x + w / 2}" y="146" text-anchor="middle" font-size="24" font-weight="700" fill="#ffffff">${esc(p.name)}</text>`;
-    const words = String(p.objective || '').split(' '); const l1 = words.slice(0, Math.ceil(words.length / 2)).join(' '), l2 = words.slice(Math.ceil(words.length / 2)).join(' ');
-    s += `<text x="${x + w / 2}" y="172" text-anchor="middle" font-size="16" fill="#ffffff">${esc(l1)}</text><text x="${x + w / 2}" y="192" text-anchor="middle" font-size="16" fill="#ffffff">${esc(l2)}</text>`;
+    s += `<rect x="${x}" y="104" width="${w}" height="100" rx="6" fill="${PAL[1]}"/>`;
+    s += `<text x="${x + w / 2}" y="144" text-anchor="middle" font-size="27" font-weight="700" fill="#ffffff">${esc(p.name)}</text>`;
+    s += `<text x="${x + w / 2}" y="180" text-anchor="middle" font-size="20" fill="#ffffff">${esc(p.objective || '')}</text>`;
     let y = 222;
     p.themes.forEach((t) => {
-      s += `<rect x="${x}" y="${y}" width="${w}" height="40" rx="4" fill="${C_HEAD()}"/><text x="${x + 12}" y="${y + 27}" font-size="19" font-weight="700" fill="${PAL[0]}">${esc(t.name)}</text>`;
-      y += 48;
+      s += `<rect x="${x}" y="${y}" width="${w}" height="42" rx="4" fill="${C_HEAD()}"/><text x="${x + 12}" y="${y + 29}" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(t.name)}</text>`;
+      y += 52;
       t.areas.forEach((a) => {
-        const lines = wrap(a.name, 34);
-        const h = 22 + lines.length * 22;
+        const lines = wrap(a.name, WRAP);
+        const h = 44 + lines.length * LH;
         s += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="#ffffff" stroke="${GRID}"/>`;
-        s += `<text x="${x + 12}" y="${y + 26}" font-size="17" font-weight="700" fill="${INK}">${esc(a.code)}</text>`;
-        lines.forEach((ln, li) => { s += `<text x="${x + 70}" y="${y + 26 + li * 22}" font-size="17" fill="${INK}">${esc(ln)}</text>`; });
+        s += `<text x="${x + 12}" y="${y + 30}" font-size="${FS}" font-weight="700" fill="${INK}">${esc(a.code)}</text>`;
+        lines.forEach((ln, li) => { s += `<text x="${x + 52}" y="${y + 30 + li * LH}" font-size="${FS}" fill="${INK}">${esc(ln)}</text>`; });
         if (a.disposition) {
-          const dw = a.disposition.length * 9 + 18;
-          s += `<rect x="${x + w - dw - 10}" y="${y + 8}" width="${dw}" height="24" rx="12" fill="${DISP[a.disposition] || GREY}"/><text x="${x + w - dw / 2 - 10}" y="${y + 25}" text-anchor="middle" font-size="14" font-weight="700" fill="#ffffff">${esc(a.disposition)}</text>`;
+          const dw = a.disposition.length * 11 + 22;
+          s += `<rect x="${x + 52}" y="${y + h - 34}" width="${dw}" height="26" rx="13" fill="${DISP[a.disposition] || GREY}"/><text x="${x + 52 + dw / 2}" y="${y + h - 15}" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">${esc(a.disposition)}</text>`;
         }
         y += h + 8;
       });

@@ -1,0 +1,786 @@
+{
+ "id": "A2",
+ "title": "Demand model",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A2 Demand model"
+  },
+  {
+   "type": "lead",
+   "text": "The demand model takes international arrivals from 1,498,829 in 2025 to 1,822,634, 2,175,778 or 2,516,282 in 2035, and its base case passes the 1.8 million seat ceiling at the 2030 year point."
+  },
+  {
+   "type": "h3",
+   "text": "Method"
+  },
+  {
+   "type": "p",
+   "text": "The model sets a growth rate for each source market from four levers and projects arrivals from the base year to 2035 (Demand-Side Analysis, Jun 2026, p18). The levers are source market growth, Western Cape penetration of source-market outbound, an airlift capacity ceiling and structural market conditions. Source-market growth sets the ceiling: \"WC cannot sustainably grow faster than it's source market is generating travellers\" (Demand-Side Analysis, Jun 2026, p18). Projections are anchored on OAG aviation data and Skift global traveller data (Demand-Side Analysis, Jun 2026, p8)."
+  },
+  {
+   "type": "h3",
+   "text": "Scenario definitions"
+  },
+  {
+   "type": "p",
+   "text": "The three scenarios vary intervention, not demand: \"The difference between scenarios is not demand potential, but the extent to which structural barriers are removed and growth opportunities are actively pursued\" (Demand-Side Analysis, Jun 2026, p19)."
+  },
+  {
+   "type": "table",
+   "caption": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets.",
+   "source": "Demand-Side Analysis, Jun 2026, p19 (descriptor, air access, market activation and market development rows) and p20 (step-up row); Market Assessment Report, May 2026, p18 and p19 (working analysis; May additions row). Wording as printed, shortened in the last two rows.",
+   "columns": [
+    {
+     "header": "Dimension",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Conservative",
+     "width": 2.1,
+     "align": "left"
+    },
+    {
+     "header": "Base",
+     "width": 2.1,
+     "align": "left"
+    },
+    {
+     "header": "Accelerated",
+     "width": 2.1,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Descriptor",
+     "The floor. What happens if Wesgro does nothing new",
+     "The most likely outcome. Wesgro maintains current activity",
+     "The upside. What confirmed intervention unlocks"
+    ],
+    [
+     "Air access",
+     "Existing air access maintained with no additional frequencies or routes",
+     "Emirates, Qatar, Ethiopian and Turkish Airlines continue adding frequency and capacity into Cape Town",
+     "Direct India and China routes secured, alongside additional frequency growth from Emirates, Qatar, Ethiopian and Turkish Airlines"
+    ],
+    [
+     "Market activation",
+     "Continued trade and marketing activity, with no dedicated growth market investment",
+     "Existing Wesgro programmes expanded across mature, regional and hub markets",
+     "Dedicated in market activation in India, China, USA and the GCC to increase destination awareness and conversion"
+    ],
+    [
+     "Market development",
+     "Growth concentrated in existing mature markets and current connectivity corridors",
+     "UK, USA and Germany continue to grow, while India, China and Regional Africa expand through existing hub connections",
+     "India, China and the Middle East grow ahead of source market averages through improved access and activation"
+    ],
+    [
+     "May additions",
+     "WC holds share; India and China as hub flows; all CAGRs below outbound averages",
+     "Trade and marketing at 2025 intensity; selective frequency increases; share gains in mature markets",
+     "Japan and South Korea introduced; mature European markets above base, constrained by seat capacity"
+    ],
+    [
+     "Step up from previous case",
+     "Not applicable",
+     "Protecting existing airlift, growing hub frequencies, retaining source-market share and continued trade presence",
+     "Confirmed direct airlift, above-baseline marketing and added hub capacity; without confirmed routes, volume reverts to base"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "The May working analysis lists Japan and South Korea as introduced under the Accelerated case, yet its base case already carries both as the strategic group at 8,410 arrivals in 2025 (Market Assessment Report, May 2026, p18, p20, p22). Its Accelerated activation names India, China and the USA; the June matrix adds the GCC (Demand-Side Analysis, Jun 2026, p19)."
+  },
+  {
+   "type": "h3",
+   "text": "Scenario end points"
+  },
+  {
+   "type": "table",
+   "caption": "The two decks print the same 2035 end points from different bases, with the base case 676,949 arrivals above 2025.",
+   "source": "Market Assessment Report, May 2026, p19 (working analysis; 2025 basis); Demand-Side Analysis, Jun 2026, p20 (2024 basis). The last row is computed from the printed 2024 base and 2035 end points.",
+   "columns": [
+    {
+     "header": "Measure",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Conservative",
+     "width": 1.2,
+     "align": "right"
+    },
+    {
+     "header": "Base",
+     "width": 1.2,
+     "align": "right"
+    },
+    {
+     "header": "Accelerated",
+     "width": 1.2,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "2025 base (May)",
+     "1,498,829",
+     "1,498,829",
+     "1,498,829"
+    ],
+    [
+     "2035 projection",
+     "1,822,634",
+     "2,175,778",
+     "2,516,282"
+    ],
+    [
+     "Absolute growth from 2025",
+     "+328,805",
+     "+676,949",
+     "+1,017,453"
+    ],
+    [
+     "Growth vs 2025",
+     "+22%",
+     "+45%",
+     "+68%"
+    ],
+    [
+     "Implied 10-year CAGR",
+     "2.0%",
+     "3.8%",
+     "5.3%"
+    ],
+    [
+     "Uplift vs Conservative",
+     "Not applicable",
+     "+353,144",
+     "+693,648"
+    ],
+    [
+     "2024 base (June)",
+     "1,445,031",
+     "1,445,031",
+     "1,445,031"
+    ],
+    [
+     "Absolute growth from 2024",
+     "+377,603",
+     "+730,747",
+     "+1,071,251"
+    ],
+    [
+     "Growth vs 2024",
+     "+26%",
+     "+51%",
+     "+74%"
+    ],
+    [
+     "Implied 11-year CAGR, printed",
+     "2.0%",
+     "3.7%",
+     "5.0%"
+    ],
+    [
+     "11-year CAGR, computed",
+     "2.1%",
+     "3.8%",
+     "5.2%"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "The May 10-year CAGRs match their end points (Market Assessment Report, May 2026, p19). The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Demand-Side Analysis, Jun 2026, p20)."
+  },
+  {
+   "type": "h3",
+   "text": "Base case by market group"
+  },
+  {
+   "type": "table",
+   "caption": "Every market group grows at each printed year point, and the base-case total first sits above the 1.8M seat line at 2030.",
+   "source": "Market Assessment Report, May 2026, p20 (working analysis); Demand-Side Analysis, Jun 2026, p21 prints the same 2028 to 2035 values. Only these six year points are printed. Groups as printed: Mature (US, UK, Netherlands, Germany, France, Switzerland); Regional (Namibia, Zim, Zambia, Bots, Kenya, etc.); Hubs (UAE, Ethiopia, Qatar, Turkey); Acceleration (Gulf, China, India, Brazil); Strategic growth (Japan and South Korea). The five groups sum to the printed total in every year (computed).",
+   "columns": [
+    {
+     "header": "Group",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "2025",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "2028",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "2030",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "2032",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "2034",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "2035",
+     "width": 1.0,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Mature markets",
+     "587,287",
+     "635,712",
+     "670,350",
+     "707,009",
+     "745,816",
+     "766,067"
+    ],
+    [
+     "Regional markets",
+     "292,514",
+     "321,854",
+     "343,096",
+     "365,796",
+     "390,059",
+     "402,812"
+    ],
+    [
+     "Hubs",
+     "427,803",
+     "483,407",
+     "523,523",
+     "566,081",
+     "611,038",
+     "634,387"
+    ],
+    [
+     "Acceleration",
+     "182,815",
+     "223,110",
+     "255,159",
+     "292,138",
+     "334,846",
+     "358,633"
+    ],
+    [
+     "Strategic growth",
+     "8,410",
+     "9,772",
+     "10,801",
+     "11,940",
+     "13,200",
+     "13,879"
+    ],
+    [
+     "Total",
+     "1,498,829",
+     "1,673,855",
+     "1,802,929",
+     "1,942,964",
+     "2,094,959",
+     "2,175,778"
+    ],
+    [
+     "Seat capacity line",
+     "1.8M",
+     "1.8M",
+     "1.8M",
+     "1.8M",
+     "1.8M",
+     "1.8M"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Hubs add the most arrivals of any group, 206,584 from 2025 to 2035, while acceleration markets grow fastest at 7.0% a year (computed). The June deck reads the chart the same way: \"Hub markets deliver the largest absolute volume uplift in the model\" (Demand-Side Analysis, Jun 2026, p21)."
+  },
+  {
+   "type": "note",
+   "text": "On the June 2024 basis the groups start at Mature 572,032, Regional 283,362, Hubs 410,467, Acceleration 171,170 and Strategic growth 8,000, which sum to 1,445,031 (Demand-Side Analysis, Jun 2026, p21; sum computed). The June deck prints no 2025 group values."
+  },
+  {
+   "type": "h3",
+   "text": "Base case by market"
+  },
+  {
+   "type": "table",
+   "caption": "India and China + HK more than double by 2035 at 8% a year, while the six mature markets grow at 2% to 4% a year.",
+   "source": "Market Assessment Report, May 2026, p21 and p22 (working analysis); Demand-Side Analysis, Jun 2026, p22, p23 and p25 (values and assumptions). Hubs row: group values from Market Assessment Report, May 2026, p20. CAGR and group totals are computed from the printed bars; assumptions are shortened from the printed text.",
+   "columns": [
+    {
+     "header": "Market",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "2025",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "2035",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Printed rate",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "CAGR",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "Model assumption",
+     "width": 3.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "UK",
+     "182,398",
+     "233,485",
+     "+3% p.a.",
+     "2.5%",
+     "Outbound 2 to 3% p.a.; strong direct access"
+    ],
+    [
+     "Germany",
+     "130,475",
+     "159,049",
+     "+2% p.a.",
+     "2.0%",
+     "Weaker economic outlook; Lufthansa connectivity"
+    ],
+    [
+     "US",
+     "113,857",
+     "168,536",
+     "+4% p.a.",
+     "4.0%",
+     "Strong recent demand; favourable USD/ZAR"
+    ],
+    [
+     "Netherlands",
+     "107,938",
+     "138,169",
+     "+2% p.a.",
+     "2.5%",
+     "KLM Amsterdam hub"
+    ],
+    [
+     "France",
+     "21,495",
+     "28,888",
+     "+3% p.a.",
+     "3.0%",
+     "Low WC penetration; direct Air France"
+    ],
+    [
+     "Switzerland",
+     "31,124",
+     "37,940",
+     "+2% p.a.",
+     "2.0%",
+     "European hubs; seasonal Swiss direct service"
+    ],
+    [
+     "Mature total",
+     "587,287",
+     "766,067",
+     "",
+     "2.7%",
+     "Sum matches the group line"
+    ],
+    [
+     "India",
+     "76,547",
+     "165,260",
+     "+8% p.a.",
+     "8.0%",
+     "Outbound above 10% p.a.; low penetration"
+    ],
+    [
+     "China + HK",
+     "43,412",
+     "92,598",
+     "+8% p.a.",
+     "7.9%",
+     "Outbound 8 to 10% p.a.; no direct route"
+    ],
+    [
+     "Middle East",
+     "41,647",
+     "67,839",
+     "+5% p.a.",
+     "5.0%",
+     "GCC outbound about 5 to 6% p.a."
+    ],
+    [
+     "Brazil",
+     "21,209",
+     "32,937",
+     "+5% p.a.",
+     "4.5%",
+     "Outbound 5%; low penetration"
+    ],
+    [
+     "Acceleration total",
+     "182,815",
+     "358,634",
+     "",
+     "7.0%",
+     "Group line prints 358,633"
+    ],
+    [
+     "Japan",
+     "5,275",
+     "9,010",
+     "+5% p.a.",
+     "5.5%",
+     "Strategic importance, not current size"
+    ],
+    [
+     "South Korea",
+     "3,135",
+     "4,869",
+     "+5% p.a.",
+     "4.5%",
+     "Strategic importance, not current size"
+    ],
+    [
+     "Strategic total",
+     "8,410",
+     "13,879",
+     "",
+     "5.1%",
+     "Sum matches the group line"
+    ],
+    [
+     "Hubs",
+     "427,803",
+     "634,387",
+     "Not printed",
+     "4.0%",
+     "UAE, Ethiopia, Qatar and Turkey; group line only"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Regional lines grow at 2.0% to 5.0% a year with Kenya fastest, and the model carries no row for Nigeria or Ghana.",
+   "source": "Market Assessment Report, May 2026, p23 (working analysis); Demand-Side Analysis, Jun 2026, p24. Change and the regional total are computed from the printed bars; the group line prints 292,514 and 402,812 (Market Assessment Report, May 2026, p20). The Demand-Side Analysis, Jun 2026, p30 names Nigeria the largest modelled African opportunity and Ghana a high-spend market with an established base.",
+   "columns": [
+    {
+     "header": "Market",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "2025",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "2035",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Printed rate",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Change",
+     "width": 0.8,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Namibia",
+     "72,750",
+     "102,621",
+     "3.5% p.a.",
+     "+29,871"
+    ],
+    [
+     "Zimbabwe",
+     "69,005",
+     "92,737",
+     "3.0% p.a.",
+     "+23,732"
+    ],
+    [
+     "Zambia",
+     "19,638",
+     "27,701",
+     "3.5% p.a.",
+     "+8,063"
+    ],
+    [
+     "Botswana",
+     "20,237",
+     "27,197",
+     "3.0% p.a.",
+     "+6,960"
+    ],
+    [
+     "Kenya",
+     "23,394",
+     "38,106",
+     "5.0% p.a.",
+     "+14,712"
+    ],
+    [
+     "Mauritius",
+     "25,844",
+     "33,083",
+     "2.5% p.a.",
+     "+7,239"
+    ],
+    [
+     "Mozambique",
+     "12,642",
+     "16,183",
+     "2.5% p.a.",
+     "+3,541"
+    ],
+    [
+     "Angola",
+     "43,609",
+     "58,507",
+     "3.0% p.a.",
+     "+14,898"
+    ],
+    [
+     "Other Regional (Chad, St Helena, Eswatini)",
+     "5,394",
+     "6,575",
+     "2.0% p.a.",
+     "+1,181"
+    ],
+    [
+     "Regional total",
+     "292,513",
+     "402,710",
+     "",
+     "+110,197"
+    ],
+    [
+     "Nigeria",
+     "No row",
+     "No row",
+     "",
+     ""
+    ],
+    [
+     "Ghana",
+     "No row",
+     "No row",
+     "",
+     ""
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "Printed rates are rounded labels: UK and Netherlands recompute to 2.5% a year, Brazil and South Korea to 4.5% and Japan to 5.5% (computed). Bar sums miss the regional and acceleration group lines by 1 to 102 arrivals (computed). Lesotho and Malawi, with 40,266 and 12,682 tourist arrivals in 2024, also have no row (Demand-Side Analysis, Jun 2026, p27)."
+  },
+  {
+   "type": "h3",
+   "text": "Base-case spend"
+  },
+  {
+   "type": "table",
+   "caption": "At fixed average spend per group, base-case tourism spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035.",
+   "source": "Market Assessment Report, May 2026, p24 (working analysis; comma decimals on the slide shown here as points). Values in R billion. Change is computed. The 2030 group cells sum to 33.72 against the printed 33.71 total, a rounding difference (computed).",
+   "columns": [
+    {
+     "header": "Group",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Average spend per arrival",
+     "width": 1.2,
+     "align": "right"
+    },
+    {
+     "header": "2024",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "2030",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "2035",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "Change 2024 to 2035",
+     "width": 1.1,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Mature markets",
+     "R24,500",
+     "14.01",
+     "16.42",
+     "18.77",
+     "+4.76"
+    ],
+    [
+     "Regional markets",
+     "R8,500",
+     "2.41",
+     "2.92",
+     "3.42",
+     "+1.01"
+    ],
+    [
+     "Hubs",
+     "R17,500",
+     "7.18",
+     "9.16",
+     "11.10",
+     "+3.92"
+    ],
+    [
+     "Acceleration",
+     "R19,500",
+     "3.34",
+     "4.98",
+     "6.99",
+     "+3.65"
+    ],
+    [
+     "Strategic growth",
+     "R22,000",
+     "0.18",
+     "0.24",
+     "0.31",
+     "+0.13"
+    ],
+    [
+     "Total",
+     "Not printed",
+     "27.12",
+     "33.71",
+     "40.59",
+     "+13.47"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The 2030 and 2035 values equal each group's arrivals times its average spend, so spend per arrival within a group stays fixed (computed). Dividing the 2024 values by the same assumptions implies 1,445,116 arrivals, close to the June base of 1,445,031 (computed). The slide calls the 2024 values modelled, and the same deck reports foreign direct spend of R22.7bn in FY2024 (Market Assessment Report, May 2026, p10, p24). The June deck prints no spend projection."
+  },
+  {
+   "type": "h3",
+   "text": "Seat ceiling and model limits"
+  },
+  {
+   "type": "p",
+   "text": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals."
+  },
+  {
+   "type": "table",
+   "caption": "The model prints its seat ceiling and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+   "source": "MA: Market Assessment Report, May 2026 (working analysis). DS: Demand-Side Analysis, Jun 2026. Pages as listed in each row.",
+   "columns": [
+    {
+     "header": "Item",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "What the decks print",
+     "width": 3.8,
+     "align": "left"
+    },
+    {
+     "header": "Pages",
+     "width": 1.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Seat ceiling",
+     "1.8 million inbound seats, drawn as a line labelled 1.8M and called current; no year or seat definition",
+     "MA p20; DS p21"
+    ],
+    [
+     "Year the ceiling binds",
+     "Not stated; 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it",
+     "MA p20; DS p21"
+    ],
+    [
+     "Seat table",
+     "Not printed: no seats by route or year, no load factors and no frequencies",
+     "MA p17, p20; DS p18"
+    ],
+    [
+     "Annual series",
+     "Not printed: 2026, 2027, 2029, 2031 and 2033 are absent",
+     "MA p20; DS p21"
+    ],
+    [
+     "Other scenarios",
+     "Conservative and Accelerated at 2035 only: no group split, no year points and no per-market rates",
+     "MA p19; DS p20"
+    ],
+    [
+     "Base year",
+     "Calendar or financial basis and source series of 1,498,829 not stated; 2025 bars not marked as actuals or model values",
+     "MA p19, p20; DS p22 to p25"
+    ],
+    [
+     "Arrivals measures",
+     "ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled",
+     "DS p8, p11, p13, p27"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

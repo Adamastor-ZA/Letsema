@@ -1,0 +1,229 @@
+{
+ "id": "A9",
+ "title": "Glossary and references",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A9 Glossary and references"
+  },
+  {
+   "type": "lead",
+   "text": "Eleven terms carry a specific meaning in this report, and nineteen documents support it, cited by the date on their covers."
+  },
+  {
+   "type": "p",
+   "text": "Abbreviations are listed in the front matter. Deliverables are cited with the date printed on the cover; where the file date differs, both are shown below. Working analyses rank below the deliverables, and public sources are used only where no deliverable carries the figure."
+  },
+  {
+   "type": "table",
+   "caption": "Eleven terms have a fixed meaning in this report.",
+   "source": "Letsema, from Chapters 1 to 5.",
+   "columns": [
+    {
+     "header": "Term",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Meaning in this report",
+     "width": 6.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Accelerated case",
+     "The growth model's upside path: direct India and China routes secured with dedicated activation; 2,516,282 arrivals in 2035"
+    ],
+    [
+     "Base case",
+     "The growth model's most likely path: Wesgro's current activity continues and hub carriers add capacity; 2,175,778 arrivals in 2035"
+    ],
+    [
+     "Cold zone",
+     "The Infrastructure Report's term for an area with tourism assets but little or no tourism use"
+    ],
+    [
+     "Disposition",
+     "What the evidence did to a December hypothesis: Validated, Refined, Reworded, New, Moved, Flagged or Withdrawn (section 1.5)"
+    ],
+    [
+     "Focus area",
+     "One of the twenty entries on the October 2026 hypothesis tree, each with a Chapter 3 entry, an initiative and indicators"
+    ],
+    [
+     "Green season",
+     "April to September, the months of lower overseas demand"
+    ],
+    [
+     "International arrivals",
+     "On the growth model's basis, tourist arrivals; distinct from international passenger arrivals at Cape Town International, which ACSA reports"
+    ],
+    [
+     "Readiness",
+     "The Infrastructure Report's score for how ready a district's assets are to receive visitors, beside attractiveness and accessibility"
+    ],
+    [
+     "Seat ceiling",
+     "The 1.8 million inbound seats that current air access provides, as drawn in the Demand-Side Analysis"
+    ],
+    [
+     "Seller with a stake",
+     "The Inclusion Plan's term for a local body that sells community product and keeps the revenue in the community"
+    ],
+    [
+     "Tier 1, 2 and 3",
+     "Impact, outcome and output indicators (section 5.2)"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Twelve study documents, six public and reference sources and one deck not yet in hand support the report.",
+   "source": "Letsema, document register. Study team: Letsema in partnership with Skift Advisory.",
+   "columns": [
+    {
+     "header": "Document",
+     "width": 3.2,
+     "align": "left"
+    },
+    {
+     "header": "Author",
+     "width": 1.8,
+     "align": "left"
+    },
+    {
+     "header": "Date cited",
+     "width": 1.8,
+     "align": "left"
+    },
+    {
+     "header": "Status",
+     "width": 1.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Inception Report",
+     "Study team",
+     "Nov 2025 (27 November 2025)",
+     "Deliverable"
+    ],
+    [
+     "Current State Diagnostic, version 2",
+     "Study team",
+     "Dec 2025",
+     "Deliverable"
+    ],
+    [
+     "Skift Digital and Search Insights memo",
+     "Skift Advisory",
+     "10 Dec 2025",
+     "Working analysis"
+    ],
+    [
+     "Stakeholder Insights Report, phase 1",
+     "Study team",
+     "Mar 2026 (12 March 2026)",
+     "Deliverable"
+    ],
+    [
+     "Skift Segmentation Analysis, version 2.0",
+     "Skift Advisory",
+     "Mar 2026 (12 March 2026)",
+     "Working analysis"
+    ],
+    [
+     "Skift African Market Analysis, version 1",
+     "Skift Advisory",
+     "16 Mar 2026",
+     "Working analysis"
+    ],
+    [
+     "Global Benchmarking Report",
+     "Study team",
+     "Mar 2026 (24 March 2026)",
+     "Deliverable"
+    ],
+    [
+     "MIDAS Aviation Market Assessment, final draft",
+     "MIDAS",
+     "Mar 2026 (file 20 April 2026)",
+     "Deliverable"
+    ],
+    [
+     "Market Assessment Report",
+     "Study team",
+     "May 2026",
+     "Working analysis"
+    ],
+    [
+     "Demand-Side Analysis, final",
+     "Study team",
+     "Jun 2026 (file 1 October 2026)",
+     "Deliverable"
+    ],
+    [
+     "Infrastructure Report, final",
+     "Study team",
+     "Jul 2026 (file 22 September 2026)",
+     "Deliverable"
+    ],
+    [
+     "SME and Community Inclusion Plan",
+     "Study team",
+     "Sep 2026 (file 9 October 2026)",
+     "Deliverable"
+    ],
+    [
+     "Unlocking Tourism Summary of Findings, working session",
+     "Study team",
+     "14 Oct 2026 (not in this evidence base)",
+     "Deck"
+    ],
+    [
+     "Economic Value of Tourism in Cape Town for the 2024 year",
+     "City of Cape Town (Futureneer Advisors)",
+     "June 2025",
+     "Public source"
+    ],
+    [
+     "Tourism Satellite Account release, as reported",
+     "Statistics South Africa",
+     "2026, provisional",
+     "Public source"
+    ],
+    [
+     "Air access releases: jobs and spend per 100 international passengers",
+     "Wesgro and Cape Town Air Access",
+     "2023 to 2024",
+     "Public source"
+    ],
+    [
+     "Presentation to the parliamentary committee",
+     "Wesgro",
+     "1 April 2026",
+     "Public source"
+    ],
+    [
+     "Western Cape tourism is booming, but can locals afford to enjoy it?",
+     "Hypertext",
+     "April 2026",
+     "Public source"
+    ],
+    [
+     "Service Level Agreement, Annexure B",
+     "Wesgro and Letsema",
+     "December 2025 (not in this evidence base)",
+     "Contract"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

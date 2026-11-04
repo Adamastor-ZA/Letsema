@@ -1,0 +1,237 @@
+{
+ "id": "A4",
+ "title": "Readiness scores",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A4 Readiness scores"
+  },
+  {
+   "type": "lead",
+   "text": "The infrastructure assessment classifies 50,332 assets in six districts and scores each district on attractiveness, readiness and accessibility; overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo."
+  },
+  {
+   "type": "h3",
+   "text": "Method"
+  },
+  {
+   "type": "p",
+   "text": "The assessment models tourism supply in three layers (attractions, services and infrastructure) and holds that \"destination performance is constrained by the weakest layer\" (Infrastructure Report, Jul 2026, p9). Its asset database sorts the layers into twelve categories with named subtypes (p10). It draws on Wesgro, SANParks, StatsSA and CapeNature data (p2), with Overpass, WikiQuery and tourism reports for 2023 to 2025 named as sources of geographical data points (p4)."
+  },
+  {
+   "type": "table",
+   "caption": "The asset database sorts tourism supply into three layers and twelve categories, from beaches and wine estates to hospitals and police stations.",
+   "source": "Infrastructure Report, Jul 2026, p10, as printed in sentence case; the label 'Road Netowrk' is corrected.",
+   "columns": [
+    {"header": "Layer", "width": 1.0, "align": "left"},
+    {"header": "Category", "width": 1.4, "align": "left"},
+    {"header": "Subtypes", "width": 3.6, "align": "left"}
+   ],
+   "rows": [
+    ["Attraction", "Natural", "Beach; mountain; park & reserve; scenic routes"],
+    ["Attraction", "Cultural & heritage", "Museum; historical site; monument; cultural precinct"],
+    ["Attraction", "Commercial & leisure", "Wine estate; theme park"],
+    ["Attraction", "Events", "Festival; sporting event; cultural event; business events"],
+    ["Service", "Accommodation", "Hotel; guest house; lodge; self catering"],
+    ["Service", "Food & beverage", "Restaurant; café; bar"],
+    ["Service", "Tourism services", "Tour operator; travel agency; car rental"],
+    ["Service", "Visitor amenities", "Fuel station; retail centre; visitor information centres"],
+    ["Infrastructure", "Air access", "Airport; airstrip"],
+    ["Infrastructure", "Road network", "National route; regional road"],
+    ["Infrastructure", "Transport nodes", "Bus terminal; train station"],
+    ["Infrastructure", "Public services", "Hospital; police station"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The district scorecards and comparative tables score a different set of eleven categories in three groups (Infrastructure Report, Jul 2026, p88 to p90). Attractions cover activity, commercial & leisure, cultural & heritage, events and natural assets. Services cover accommodation, eatery and shopping. Transport and enabling structures cover transport, enabling structure and visitor amenities. The asset counts use five groups: accommodation, attractions, eateries, events and amenities (p23, p67)."
+  },
+  {
+   "type": "table",
+   "caption": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each.",
+   "source": "Infrastructure Report, Jul 2026, p17, as printed. Scale labels: 1 'Very weak', 2 'Weak', 3 'Functional', 4 'Strong', 5 'Leading'. Stated method: 'Average indicator scores within each dimension, then combine dimensions using the agreed weights.'",
+   "columns": [
+    {"header": "Dimension", "width": 1.4, "align": "left"},
+    {"header": "Question it answers", "width": 2.0, "align": "left"},
+    {"header": "Indicators", "width": 2.4, "align": "left"},
+    {"header": "Weight", "width": 0.7, "align": "right"}
+   ],
+   "rows": [
+    ["Attractiveness & quality", "How compelling is the tourism offer?", "Visitor ratings; uniqueness; price positioning; experience depth", "40%"],
+    ["Readiness & capacity", "Can the region service and convert demand?", "Capacity; digital discovery", "30%"],
+    ["Accessibility", "Can visitors reach and move through the destination?", "Airport proximity; gateway travel time; public transport availability", "30%"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Each dimension is the average of its indicator scores, and the dimensions are then combined at 40/30/30 (Infrastructure Report, Jul 2026, p17). All three use a common scale from 1 to 5, labelled from weak at 1 to Leading at 5 (p17). The report states four assumptions (p18). Asset volume does not equal readiness, and one framework applies to all regions. Indicator scores are evidence informed rather than purely formula derived, and missing data is not treated as poor performance."
+  },
+  {
+   "type": "note",
+   "text": "**Overall rating.** The printed overall ratings do not follow the stated weights. Applied to the printed dimension scores, 40/30/30 gives 3.25 for the Cape Metro and 3.91 for the Garden Route, against printed ratings of 4.5 and 3.4 (computed). The unweighted mean of each scorecard's category bars matches the printed rating to one decimal in five of six districts (computed). The exception is the Overberg, whose bars average 2.782 against 2.7 printed. The slides do not state how the overall rating is derived, and the report names no benchmark values behind its stated calibration (p15)."
+  },
+  {
+   "type": "h3",
+   "text": "Comparative regional scores"
+  },
+  {
+   "type": "p",
+   "text": "The comparative regional analysis scores every district on all three dimensions for each of the eleven categories (Infrastructure Report, Jul 2026, p88 to p90). Each cell gives attractiveness, readiness and accessibility in that order. Each district's accessibility score is constant within each group, except West Coast natural attractions at 2.0 against 1.7 (p88). The Cape Metro scores 4.7 for accessibility on attractions and services and 5.0 on transport and enabling structures."
+  },
+  {
+   "type": "table",
+   "caption": "Accessibility falls from 4.7 or 5.0 in the Cape Metro to 1.0 in the Central Karoo in every scored category, while natural attractiveness reaches 4.3 in three districts outside the Metro.",
+   "source": "Infrastructure Report, Jul 2026, p88 (attractions), p89 (services), p90 (transport and enabling structures). Cells give attractiveness / readiness / accessibility as printed; 'No score' marks a printed dash.",
+   "columns": [
+    {"header": "Category", "width": 1.4, "align": "left"},
+    {"header": "Cape Metro", "width": 1.0, "align": "right"},
+    {"header": "Garden Route", "width": 1.0, "align": "right"},
+    {"header": "Cape Winelands", "width": 1.0, "align": "right"},
+    {"header": "West Coast", "width": 1.0, "align": "right"},
+    {"header": "Overberg", "width": 1.0, "align": "right"},
+    {"header": "Central Karoo", "width": 1.0, "align": "right"}
+   ],
+   "rows": [
+    ["Attractions", "", "", "", "", "", ""],
+    ["Activity", "4.8 / 4.7 / 4.7", "4.3 / 3.7 / 3.0", "3.3 / 3.0 / 3.3", "2.8 / 2.0 / 1.7", "3.5 / 3.0 / 2.0", "2.5 / 1.7 / 1.0"],
+    ["Commercial & leisure", "3.8 / 4.7 / 4.7", "3.3 / 3.0 / 3.0", "4.5 / 4.0 / 3.3", "3.0 / 2.0 / 1.7", "3.3 / 3.0 / 2.0", "1.3 / 1.3 / 1.0"],
+    ["Cultural & heritage", "4.5 / 4.3 / 4.7", "3.8 / 4.0 / 3.0", "4.0 / 3.7 / 3.3", "3.8 / 3.0 / 1.7", "3.5 / 3.0 / 2.0", "3.5 / 2.3 / 1.0"],
+    ["Events", "4.3 / 4.7 / 4.7", "No score", "4.0 / 4.0 / 3.3", "3.8 / 3.0 / 1.7", "3.8 / 3.3 / 2.0", "No score"],
+    ["Natural", "4.8 / 4.7 / 4.7", "4.3 / 4.0 / 3.0", "4.0 / 3.7 / 3.3", "4.3 / 3.0 / 2.0", "4.3 / 3.3 / 2.0", "3.3 / 2.3 / 1.0"],
+    ["Services", "", "", "", "", "", ""],
+    ["Accommodation", "4.3 / 4.7 / 4.7", "4.0 / 4.0 / 3.0", "4.0 / 4.0 / 3.3", "3.3 / 2.7 / 1.7", "3.8 / 3.3 / 2.0", "3.3 / 2.0 / 1.0"],
+    ["Eatery", "4.5 / 5.0 / 4.7", "4.0 / 3.7 / 3.0", "4.0 / 4.0 / 3.3", "3.3 / 2.3 / 1.7", "3.3 / 3.0 / 2.0", "2.8 / 2.0 / 1.0"],
+    ["Shopping", "4.0 / 5.0 / 4.7", "3.0 / 3.0 / 3.0", "3.0 / 3.0 / 3.3", "3.3 / 2.3 / 1.7", "2.8 / 2.7 / 2.0", "2.3 / 1.7 / 1.0"],
+    ["Transport and enabling", "", "", "", "", "", ""],
+    ["Transport", "3.8 / 4.7 / 5.0", "3.3 / 3.2 / 3.0", "3.3 / 3.7 / 3.3", "2.3 / 2.7 / 1.7", "2.5 / 2.7 / 2.0", "2.0 / 2.3 / 1.0"],
+    ["Enabling structure", "3.3 / 4.0 / 5.0", "2.8 / 3.0 / 3.0", "2.5 / 2.7 / 3.3", "2.5 / 2.3 / 1.7", "2.3 / 2.7 / 2.0", "2.3 / 2.0 / 1.0"],
+    ["Visitor amenities", "3.8 / 4.7 / 5.0", "3.3 / 3.7 / 3.0", "2.3 / 2.7 / 3.3", "2.5 / 2.3 / 1.7", "2.3 / 2.7 / 2.0", "2.3 / 2.0 / 1.0"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "District scorecards"
+  },
+  {
+   "type": "p",
+   "text": "Each district section closes with a scorecard that prints an overall rating out of 5, the three dimension scores and a bar score for each category (Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85). Three scorecards print all three dimension scores. The Cape Winelands prints no accessibility score, and the Overberg and Central Karoo print the dimension labels without numbers."
+  },
+  {
+   "type": "table",
+   "caption": "Overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo, and only three of the six scorecards print all three dimension scores.",
+   "source": "Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85 in column order. Bars as printed, decimal commas shown as points; bar labels vary by slide. 'Not printed': a dimension label without a number. 'No bar': a category absent from the chart. Computed: the mean of the printed bars (eleven, or nine for the Central Karoo) and the p17 weights applied to the printed dimension scores.",
+   "columns": [
+    {"header": "Score", "width": 1.8, "align": "left"},
+    {"header": "Cape Metro", "width": 1.0, "align": "right"},
+    {"header": "Garden Route", "width": 1.0, "align": "right"},
+    {"header": "Cape Winelands", "width": 1.0, "align": "right"},
+    {"header": "West Coast", "width": 1.0, "align": "right"},
+    {"header": "Overberg", "width": 1.0, "align": "right"},
+    {"header": "Central Karoo", "width": 1.0, "align": "right"}
+   ],
+   "rows": [
+    ["Overall rating", "4.5/5", "3.4/5", "3.4/5", "2.5/5", "2.7/5", "1.9/5"],
+    ["Attractiveness", "4.0", "4.3", "4.5", "3.2", "Not printed", "Not printed"],
+    ["Readiness", "3.0", "3.8", "4.0", "2.7", "Not printed", "Not printed"],
+    ["Accessibility", "2.5", "3.5", "Not printed", "1.7", "Not printed", "Not printed"],
+    ["Activity", "4.7", "3.7", "3.6", "2.2", "2.9", "1.8"],
+    ["Commercial & leisure", "4.3", "3.1", "4.0", "2.3", "2.8", "1.2"],
+    ["Cultural & heritage", "4.5", "3.6", "3.5", "2.9", "2.9", "2.4"],
+    ["Events", "4.5", "No bar", "No bar", "2.9", "3.1", "No bar"],
+    ["Natural", "4.7", "3.8", "3.5", "3.2", "3.3", "2.3"],
+    ["Accommodation", "4.5", "3.8", "3.7", "2.6", "3.1", "2"],
+    ["Eatery", "4.7", "3.7", "3.8", "2.5", "2.8", "2"],
+    ["Shopping", "4.5", "3.2", "3.5", "2.5", "2.5", "2.1"],
+    ["Transport", "4.4", "3.1", "2.8", "2.2", "2.4", "1.8"],
+    ["Enabling structure", "4", "2.9", "3.0", "2.2", "2.3", "No bar"],
+    ["Visitor amenities", "4.3", "3.0", "3.2", "2.4", "2.5", "1.7"],
+    ["Visitor services", "No bar", "3.3", "3.3", "No bar", "No bar", "No bar"],
+    ["Mean of bars (computed)", "4.464", "3.382", "3.445", "2.536", "2.782", "1.922"],
+    ["Weighted 40/30/30 (computed)", "3.25", "3.91", "Not computable", "2.60", "Not computable", "Not computable"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "**Accessibility.** The scorecard dimension scores do not reconcile with the comparative tables. The Cape Metro scorecard prints accessibility of 2.5 and the Garden Route 3.5, while the comparative tables give them 4.7 to 5.0 and 3.0 (p28, p41, p88 to p90). The West Coast's 1.7 matches its comparative scores apart from natural attractions."
+  },
+  {
+   "type": "h3",
+   "text": "Touring routes"
+  },
+  {
+   "type": "p",
+   "text": "Each of the six touring routes has a route card with four metrics and a scorecard that rates four readiness dimensions (Infrastructure Report, Jul 2026, p19). Ready means the route \"meets international expectations now\", Developing that it is \"workable, with notable gaps\" and Gap \"a binding constraint to address\" (p19). The method slide announces five dimensions but lists four, numbered 1, 2, 4 and 5. The West Coast overall score of Emerging is not one of the three defined ratings (p62)."
+  },
+  {
+   "type": "table",
+   "caption": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging.",
+   "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The slides spell Cederberg 'Cederburg' and title both p72 and p73 'West Coast / Overberg'. The Garden Route summary calls the route 'fragmented across 300km' (p43).",
+   "columns": [
+    {"header": "Measure", "width": 1.4, "align": "left"},
+    {"header": "Cape Peninsula", "width": 1.0, "align": "left"},
+    {"header": "Garden Route", "width": 1.0, "align": "left"},
+    {"header": "Cape Winelands", "width": 1.0, "align": "left"},
+    {"header": "West Coast / Cederberg", "width": 1.0, "align": "left"},
+    {"header": "Whale Coast / Overberg", "width": 1.0, "align": "left"},
+    {"header": "Route 62 / Klein Karoo", "width": 1.0, "align": "left"}
+   ],
+   "rows": [
+    ["From Cape Town", "0 km", "385 km", "50 km", "120 km", "120 km", "160 km"],
+    ["Route length", "160 km", "225 km", "80 km", "280 km", "230 km", "330 km"],
+    ["End-to-end drive", "3.0 h", "3.0 h", "1.5 h", "3.5 h", "3.5 h", "4.5 h"],
+    ["Suggested stay", "2 to 3 days", "5 to 7 days", "2 to 4 days", "2 to 4 days", "3 to 5 days", "3 to 5 days"],
+    ["Air & road access", "Ready", "Ready", "Ready", "Developing", "Developing", "Developing"],
+    ["Accommodation range", "Ready", "Ready", "Ready", "Gap", "Developing", "Developing"],
+    ["Safety & support", "Developing", "Developing", "Developing", "Ready", "Developing", "Developing"],
+    ["Digital & bookability", "Ready", "Ready", "Ready", "Gap", "Developing", "Gap"],
+    ["Overall", "**Ready**", "**Developing**", "**Developing**", "**Emerging**", "**Developing**", "**Developing**"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Tourism asset counts"
+  },
+  {
+   "type": "p",
+   "text": "The assessment counts 50,332 tourism assets across the six districts (Infrastructure Report, Jul 2026, p2, p3). The six district totals sum to exactly that figure, and their shares sum to 100.0% with the Cape Winelands at 15.4% (computed). On every district slide the five category counts fall short of the stated total, leaving 592 assets not broken out (computed)."
+  },
+  {
+   "type": "table",
+   "caption": "The Cape Metro holds 20,281 of the province's 50,332 assets and the Central Karoo holds 1,518; the six district totals sum to the provincial figure.",
+   "source": "Infrastructure Report, Jul 2026, p23, p34, p45, p56, p67, p78 in column order; province total p2, p3. Counts and gauge percentages as printed; the Central Karoo amenities share is printed '%7.0'. Computed: the last two rows. Accommodation shares as printed sum to 95.7%, against 99.7% to 100.1% for the other categories; the Overberg and West Coast shares are both printed as 11.2%.",
+   "columns": [
+    {"header": "Count (share)", "width": 1.4, "align": "left"},
+    {"header": "Cape Metro", "width": 1.0, "align": "right"},
+    {"header": "Garden Route", "width": 1.0, "align": "right"},
+    {"header": "Cape Winelands", "width": 1.0, "align": "right"},
+    {"header": "West Coast", "width": 1.0, "align": "right"},
+    {"header": "Overberg", "width": 1.0, "align": "right"},
+    {"header": "Central Karoo", "width": 1.0, "align": "right"}
+   ],
+   "rows": [
+    ["Total assets", "20,281", "9,875", "7,730", "4,752", "6,176", "1,518"],
+    ["Share of province", "40.3%", "19.6%", "15.4% (gauge 40.3%)", "9.4%", "12.3%", "3.0%"],
+    ["Accommodation", "6,563 (32.2%)", "4,996 (24.3%)", "2,842 (13.8%)", "2,294 (11.2%)", "3,214 (11.2%)", "622 (3.0%)"],
+    ["Attractions", "5,544 (44.9%)", "2,136 (17.3%)", "2,298 (18.6%)", "908 (7.4%)", "1,183 (9.6%)", "281 (2.3%)"],
+    ["Eateries", "6,532 (50.2%)", "2,012 (15.5%)", "1,936 (14.5%)", "992 (7.6%)", "1,209 (9.4%)", "325 (2.5%)"],
+    ["Events", "638 (34.7%)", "297 (16.2%)", "276 (15.0%)", "247 (13.5%)", "254 (13.8%)", "124 (6.8%)"],
+    ["Amenities", "706 (34.7%)", "349 (17.1%)", "299 (14.7%)", "267 (13.1%)", "272 (13.4%)", "124 (7.0%)"],
+    ["Sum of five (computed)", "19,983", "9,790", "7,651", "4,708", "6,132", "1,476"],
+    ["Not broken out (computed)", "298", "85", "79", "44", "44", "42"]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "**Cape Winelands share.** The main gauge on the Cape Winelands asset slide prints 40.3%, the Cape Metro's share, while the slide's text layer carries 15.4% (p45). The count supports 15.4%, since 7,730 of 50,332 assets is 15.4% (computed). This appendix uses 15.4%."
+  }
+ ]
+}

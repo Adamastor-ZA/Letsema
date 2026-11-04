@@ -1,0 +1,846 @@
+{
+ "id": "0",
+ "title": "Executive summary",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "The case in brief"
+  },
+  {
+   "type": "lead",
+   "text": "The Western Cape can grow international arrivals from about 1.5 million in 2025 to between 2.2 million and 2.5 million by 2035. Supply, not demand, sets the pace."
+  },
+  {
+   "type": "p",
+   "text": "Wesgro commissioned an evidence-based strategy to double international tourist arrivals to the Western Cape by 2035 (Inception Report, Nov 2025, p4). The study tested an eighteen-entry hypothesis tree against seven deliverables and four working analyses between December 2025 and October 2026. This report sets out what the evidence found, what Wesgro and its partners should do and how progress will be measured."
+  },
+  {
+   "type": "p",
+   "text": "The evidence reframes the ambition as growth to 2.5 million arrivals, set by supply rather than demand. From 1,498,829 arrivals in 2025 the growth model reaches 2,175,778 on the base path and 2,516,282 on the accelerated path in 2035 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). International passenger arrivals at Cape Town International, the series ACSA reports, stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11)."
+  },
+  {
+   "type": "h3",
+   "text": "Five constraints cap the case"
+  },
+  {
+   "type": "bullets",
+   "items": [
+    "**The gateway.** Current air access caps inbound seats at 1.8 million, and the base case passes that ceiling at its 2030 point; runway relief at Cape Town International lands about 2033 (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103).",
+    "**Full routes.** Eleven of 27 tabled international routes run above 80% load, and carriers on full routes raise fares before they add seats (MIDAS Aviation Market Assessment, Mar 2026, Seasonality; In Conclusion).",
+    "**Seasons.** June holds 6.4% of the year's international seats, and about 65% of overseas visitor travel falls between October and March, a provisional figure (MIDAS Aviation Market Assessment, Mar 2026, Seasonality; Demand-Side Analysis, Jun 2026, p12).",
+    "**Reach.** Accessibility falls from 4.7 out of 5 in the Cape Metro to 1.0 in the Central Karoo, and one touring route of six is rated Ready (Infrastructure Report, Jul 2026, p88 to p90, p30).",
+    "**Levers held elsewhere.** Visas, air service agreements and the airport and port programmes sit with national government and SOEs, and no approved method exists for provincial tourism GDP and jobs (Current State Diagnostic, Dec 2025, p58; Stakeholder Insights Report, Mar 2026, p37)."
+   ]
+  },
+  {
+   "type": "note",
+   "text": "[Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]"
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "Strategy on a page"
+  },
+  {
+   "type": "p",
+   "text": "The updated hypothesis tree holds three pillars, six themes and twenty focus areas. Ten focus areas carried through as Validated and six were reworded to the lever the evidence supports. Of the other four, one was refined, one is new, one moved between pillars and one is flagged for analysis still to be commissioned."
+  },
+  {
+   "type": "figure",
+   "id": "fig_0_tree",
+   "caption": "The updated hypothesis tree: three pillars, six themes and twenty focus areas, each with its disposition from the October 2026 review.",
+   "source": "Current State Diagnostic, Dec 2025, p64 (December tree); dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; traceability table, Appendix A1.",
+   "chart": {
+    "type": "tree",
+    "goal": "Accelerating tourism growth: toward 2.5 million international arrivals by 2035",
+    "pillars": [
+     {
+      "name": "1 Reshape demand",
+      "objective": "More segments, markets, months and places",
+      "themes": [
+       {
+        "name": "1.1 Traveller, brand and proposition",
+        "areas": [
+         {
+          "code": "1",
+          "name": "Respond to growth segment traveller preferences",
+          "disposition": "Validated"
+         },
+         {
+          "code": "2",
+          "name": "Create green-season demand with MICE and events",
+          "disposition": "Reworded"
+         },
+         {
+          "code": "3",
+          "name": "Make the whole province findable and bookable",
+          "disposition": "Reworded"
+         }
+        ]
+       },
+       {
+        "name": "1.2 Source market growth",
+        "areas": [
+         {
+          "code": "4",
+          "name": "Convert India and China hub traffic",
+          "disposition": "Reworded"
+         },
+         {
+          "code": "5",
+          "name": "Increase yield in mature markets",
+          "disposition": "Validated"
+         },
+         {
+          "code": "6",
+          "name": "Build a regional foundation (Africa)",
+          "disposition": "Validated"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "2 Transform supply",
+      "objective": "Seats, reach, product and experience",
+      "themes": [
+       {
+        "name": "2.1 Access and infrastructure",
+        "areas": [
+         {
+          "code": "7",
+          "name": "Win direct routes and add seats on full routes",
+          "disposition": "Reworded"
+         },
+         {
+          "code": "8",
+          "name": "Grow cruise calls and ports",
+          "disposition": "New"
+         },
+         {
+          "code": "9",
+          "name": "Accelerate tourism-enabling internal mobility",
+          "disposition": "Validated"
+         }
+        ]
+       },
+       {
+        "name": "2.2 Product and capacity",
+        "areas": [
+         {
+          "code": "10",
+          "name": "Support diversified route and product development",
+          "disposition": "Validated"
+         },
+         {
+          "code": "11",
+          "name": "Align visitor experience in-destination",
+          "disposition": "Validated"
+         },
+         {
+          "code": "12",
+          "name": "Balance impact on nature-based attractions",
+          "disposition": "Validated"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "name": "3 Build enabling capability",
+      "objective": "Inclusion, capital, governance and data",
+      "themes": [
+       {
+        "name": "3.1 Inclusion and sustainability",
+        "areas": [
+         {
+          "code": "13",
+          "name": "Embed local destination bodies for community inclusion",
+          "disposition": "Refined"
+         },
+         {
+          "code": "14",
+          "name": "Manage climate risk and sustainable tourism",
+          "disposition": "Reworded"
+         },
+         {
+          "code": "15",
+          "name": "Crowd in capital with targeted investment strategies",
+          "disposition": "Validated"
+         }
+        ]
+       },
+       {
+        "name": "3.2 Governance and leadership",
+        "areas": [
+         {
+          "code": "16",
+          "name": "Align institutional stakeholders across all three tiers",
+          "disposition": "Reworded"
+         },
+         {
+          "code": "17",
+          "name": "Strengthen industry and government collaboration",
+          "disposition": "Validated"
+         },
+         {
+          "code": "18",
+          "name": "Expedite tourism-enabling policy and data sharing",
+          "disposition": "Validated"
+         },
+         {
+          "code": "19",
+          "name": "Lead removal of infrastructure, visa and safety deficits",
+          "disposition": "Moved"
+         },
+         {
+          "code": "20",
+          "name": "Develop workforce and service skills",
+          "disposition": "Flagged"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "type": "h3",
+   "text": "How the tree changed since December"
+  },
+  {
+   "type": "p",
+   "text": "Eight December entries changed scope, place or form, and one focus area was added. The changes point the same way: from general ambitions to the specific lever the evidence supports, and from provincial supply to national escalation where the lever sits nationally."
+  },
+  {
+   "type": "table",
+   "caption": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream.",
+   "source": "Current State Diagnostic, Dec 2025, p64 (December entries); dispositions as recorded at the 14 October 2026 review; section 1.4.",
+   "columns": [
+    {
+     "header": "December 2025 entry",
+     "width": 2.5,
+     "align": "left"
+    },
+    {
+     "header": "October 2026 focus area",
+     "width": 2.7,
+     "align": "left"
+    },
+    {
+     "header": "Change",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Close the Air Access and Cruise Capacity Gaps",
+     "7 Win direct routes and add seats on full routes; 8 Grow cruise calls and ports",
+     "Split: air Reworded, cruise New"
+    ],
+    [
+     "Lead Removal of Infrastructure, Visa and Safety Deficits",
+     "19, same title, under Governance and leadership",
+     "Moved from supply to governance"
+    ],
+    [
+     "None",
+     "20 Develop workforce and service skills",
+     "Added; Flagged, untested"
+    ],
+    [
+     "Develop the Seasonality and Spread Proposition",
+     "2 Create green-season demand with MICE and events",
+     "Reworded"
+    ],
+    [
+     "Facilitate Adoption Along the Path to Purchase",
+     "3 Make the whole province findable and bookable",
+     "Reworded"
+    ],
+    [
+     "Pivot to Growth Markets (China, India, ME, ASEAN)",
+     "4 Convert India and China hub traffic",
+     "Reworded"
+    ],
+    [
+     "Ensure Sustainable Destination Management",
+     "14 Manage climate risk and sustainable tourism",
+     "Reworded"
+    ],
+    [
+     "Review Institutional Arrangements (Wesgro, DEDAT, CTT)",
+     "16 Align institutional stakeholders across all three tiers",
+     "Reworded"
+    ],
+    [
+     "Drive Community and SME Inclusion",
+     "13 Embed local destination bodies for community inclusion",
+     "Refined, held at concept level"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "Twenty focus areas"
+  },
+  {
+   "type": "p",
+   "text": "Each focus area below carries the one-sentence finding that opens its Chapter 3 entry, unchanged. The entry itself gives the December hypothesis, the evidence with page references, the recommendation split between Wesgro, its partners and the national tier, a benchmark precedent and the initiative and indicators it leads to."
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 1, Reshape demand: conversion, not awareness, holds back the growth markets, the green season and the province beyond its core.",
+   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 1.9,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence shows and what follows",
+     "width": 4.2,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.9,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "1 Respond to growth segment traveller preferences",
+     "Validated",
+     "Four traveller segments, each concentrated in named home markets, give Wesgro a sharper target than country alone, and the province scores 3.7 to 4.6 out of 5 on its ability to win them.",
+     "I1"
+    ],
+    [
+     "2 Create green-season demand with MICE and events",
+     "Reworded",
+     "The green season is a seat problem and an events problem at once: June holds 6.4% of the year's international seats, while international meetings already cluster in the months leisure travel leaves empty.",
+     "I2"
+    ],
+    [
+     "3 Make the whole province findable and bookable",
+     "Reworded",
+     "Outside the Cape Peninsula, the Winelands and the Garden Route, most product cannot be booked where travellers book, so interest the province has already earned has nowhere to land.",
+     "I3"
+    ],
+    [
+     "4 Convert India and China hub traffic",
+     "Reworded",
+     "About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs, and with no direct Indian route likely before 2030, converting that flow is the lever available now.",
+     "I4"
+    ],
+    [
+     "5 Increase yield in mature markets",
+     "Validated",
+     "The mature markets already pay the most and fill the fullest routes, so growth there comes from more value per visitor and more seats on existing routes, not from more marketing.",
+     "I1"
+    ],
+    [
+     "6 Build a regional foundation (Africa)",
+     "Validated",
+     "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while Nigerian and Ghanaian visitors spend R31,000 and R27,700 each.",
+     "I5"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 2, Transform supply: the gateway binds first, and beyond the Metro the product exists but is hard to reach, book or stay in.",
+   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 1.9,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence shows and what follows",
+     "width": 4.2,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.9,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "7 Win direct routes and add seats on full routes",
+     "Reworded",
+     "Eleven of 27 international routes run above 80% load and carriers raise fares before seats, so the province must win frequency and larger aircraft now, ahead of runway relief in about 2033.",
+     "I6"
+    ],
+    [
+     "8 Grow cruise calls and ports",
+     "New",
+     "Cruise already brings about R1.79bn a year with Cape Town's berth at about 40% of its season capacity, so growth comes from ships, excursions and regional day stops, not from port capital.",
+     "I7"
+    ],
+    [
+     "9 Accelerate tourism-enabling internal mobility",
+     "Validated",
+     "Accessibility falls from 4.7 out of 5 in the Cape Metro to 1.0 in the Central Karoo, and beyond the Metro and the Garden Route the province is effectively car-only.",
+     "I8"
+    ],
+    [
+     "10 Support diversified route and product development",
+     "Validated",
+     "The province does not lack attractions; it lacks finished experiences around them, with assets outside the Metro left without guides, interpretation or bookable product and one touring route of six rated Ready.",
+     "I9"
+    ],
+    [
+     "11 Align visitor experience in-destination",
+     "Validated",
+     "The province offers luxury estates and basic self-catering with no mid-scale branded tier between them, and service, interpretation and language readiness thin out with distance from Cape Town.",
+     "I10"
+    ],
+    [
+     "12 Balance impact on nature-based attractions",
+     "Validated",
+     "Boulders is near carrying capacity and Cableway queues reach three hours, so growth at the flagship nature sites must come from managing flows and steering visitors to under-marketed reserves.",
+     "I11"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 3, Build enabling capability: inclusion, capital, governance and data are thin, and several levers sit with national government.",
+   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 1.9,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence shows and what follows",
+     "width": 4.2,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.9,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "13 Embed local destination bodies for community inclusion",
+     "Refined",
+     "Twenty communities hold 18.4% of the province's residents but a traced 0.02% to 0.04% of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
+     "I12"
+    ],
+    [
+     "14 Manage climate risk and sustainable tourism",
+     "Reworded",
+     "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that Treasury Circular 131 has disrupted.",
+     "I13"
+    ],
+    [
+     "15 Crowd in capital with targeted investment strategies",
+     "Validated",
+     "The province has a capital pipeline for airports, ports, roads and rail, but none of it reaches tourism product, bookability, accommodation depth or community assets, which is where the growth case needs investment.",
+     "I14"
+    ],
+    [
+     "16 Align institutional stakeholders across all three tiers",
+     "Reworded",
+     "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is weak, so the province needs one shared agenda with clear decision rights.",
+     "I15"
+    ],
+    [
+     "17 Strengthen industry and government collaboration",
+     "Validated",
+     "Fifteen of the sixteen organisations engaged raised collaboration, and the channels already exist in JAMS, the bid teams and the tour-operator forums, so the task is to turn existing forums into one joint plan.",
+     "I15"
+    ],
+    [
+     "18 Expedite tourism-enabling policy and data sharing",
+     "Validated",
+     "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and four arrivals measures run unreconciled, so a data-sharing protocol is the precondition for every target.",
+     "I16"
+    ],
+    [
+     "19 Lead removal of infrastructure, visa and safety deficits",
+     "Moved",
+     "Visas, air rights, the runway and policing sit with national government, so the province leads by escalation backed with evidence, and delivers the safety programmes and basic services that are its own.",
+     "I17"
+    ],
+    [
+     "20 Develop workforce and service skills",
+     "Flagged",
+     "The 300,000 tourism-linked jobs ambition has no baseline and no labour analysis behind it, so the first step is to commission that analysis, and the skills plan follows from it.",
+     "I18"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "The growth case and its sequence"
+  },
+  {
+   "type": "p",
+   "text": "The three paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). The base path needs hub carriers to keep adding capacity and Wesgro's programmes to expand. The accelerated path also needs direct India and China routes and dedicated activation in India, China, the USA and the Gulf; without confirmed routes, volume reverts to base (p20). Marketing cannot make up for missing seats, because carriers on full routes raise fares instead (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_0_paths",
+   "caption": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031.",
+   "source": "Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21. The 2031 base value and the accelerated and conservative milestones are computed (section 5.3).",
+   "chart": {
+    "type": "line",
+    "categories": [
+     "2025",
+     "2028",
+     "2031",
+     "2035"
+    ],
+    "series": [
+     {
+      "name": "Accelerated",
+      "values": [
+       1498829,
+       1750871,
+       2045297,
+       2516282
+      ],
+      "color": "#1F7A8C"
+     },
+     {
+      "name": "Base",
+      "values": [
+       1498829,
+       1673855,
+       1871637,
+       2175778
+      ],
+      "color": "#0B3C5D"
+     },
+     {
+      "name": "Conservative",
+      "values": [
+       1498829,
+       1589411,
+       1685468,
+       1822634
+      ],
+      "color": "#7A9E7E"
+     }
+    ],
+    "unit": "",
+    "yMin": 1400000,
+    "refLines": [
+     {
+      "value": 1800000,
+      "label": "1.8m inbound seat ceiling"
+     }
+    ],
+    "footnote": "Milestone years only; the intervals are three, three and four years."
+   }
+  },
+  {
+   "type": "p",
+   "text": "Air access and bookability move first, because every other lever runs through them. Phase 1, Activate (2027 to 2028), holds and adds seats on the full routes, builds the green-season calendar and counts and closes the bookability gap. It also starts two or three inclusion pilots and sets up Steerco, the data protocol and the national escalation agenda. Phase 2, Expand (2029 to 2031), scales what works and meets the seat ceiling at the 2030 mid-term review. Phase 3, Sustain (2032 to 2035), takes the direct route cases to carriers as runway capacity arrives."
+  },
+  {
+   "type": "p",
+   "text": "Eighteen initiatives carry the plan, one per focus area except where one owner delivers two. Wesgro is accountable for twelve; DEDAT, the Department of Mobility, municipalities and site operators lead the other six. Thirteen draw mainly on Wesgro's operating budget. None has yet been costed, and setting the rand bands is the first funding task (section 4.6)."
+  },
+  {
+   "type": "h3",
+   "text": "The first 24 months"
+  },
+  {
+   "type": "table",
+   "caption": "Twelve actions can start inside Wesgro's current mandate and budgets, and each opens a seat, a baseline or a booking path a later initiative needs.",
+   "source": "Section 4.5. Owners and start dates are proposals for Steerco to confirm.",
+   "columns": [
+    {
+     "header": "Action",
+     "width": 4.4,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.9,
+     "align": "left"
+    },
+    {
+     "header": "Proposed owner",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Start",
+     "width": 0.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Hold winter seats with demand: joint green-season marketing with carriers on the full routes",
+     "I6, I2",
+     "Air Access",
+     "2027 H1"
+    ],
+    [
+     "Publish a green-season events calendar and aim bids at May to September",
+     "I2",
+     "Convention Bureau",
+     "2027 H1"
+    ],
+    [
+     "Track the runway programme quarterly and model capacity against demand to 2035",
+     "I6",
+     "Air Access",
+     "2027 H1"
+    ],
+    [
+     "Constitute Steerco and table the first national escalation agenda",
+     "I15, I17",
+     "Wesgro CEO's office",
+     "2027 H1"
+    ],
+    [
+     "Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism",
+     "I16",
+     "Research",
+     "2027 H1"
+    ],
+    [
+     "Run a bookability census of provincial product by district",
+     "I3",
+     "Research",
+     "2027 H1"
+    ],
+    [
+     "Request visitor counts and capacity from the five flagship sites",
+     "I11",
+     "Research",
+     "2027 H1"
+    ],
+    [
+     "Commission the tourism labour analysis behind the jobs ambition",
+     "I18",
+     "DEDAT, with Wesgro Research",
+     "2027 H1"
+    ],
+    [
+     "Package the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary",
+     "I8, I9",
+     "Tourism",
+     "2027 H2"
+    ],
+    [
+     "Package the Southern Line as a visitor product with the City and PRASA",
+     "I8",
+     "Tourism",
+     "2027 H2"
+    ],
+    [
+     "Choose two or three pilot communities and agree who funds a seller with a stake in each",
+     "I12",
+     "Tourism",
+     "2027 H2"
+    ],
+    [
+     "Give each pilot community one live booking route before any promotion",
+     "I12, I3",
+     "LTOs, with Tourism",
+     "2028 H1"
+    ]
+   ],
+   "boldFirstCol": false
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "How progress will be measured"
+  },
+  {
+   "type": "p",
+   "text": "Seven impact indicators, twenty-five outcome indicators and thirty-six output indicators measure the plan. Steerco receives a quarterly scorecard, and the Board an annual outlook against both paths. Gates at the end of 2028 and 2031, a mid-term review in 2030 and a terminal evaluation in 2035 decide what each phase funds."
+  },
+  {
+   "type": "table",
+   "caption": "Arrivals and jobs carry targets on both paths, while season, spread and community spend start from dated baselines.",
+   "source": "Section 5.3. Computed values are marked *. Jobs use Wesgro's ratio of two jobs per 100 international passengers (public source), a ratio-based projection until the labour analysis reports.",
+   "columns": [
+    {
+     "header": "Impact indicator",
+     "width": 1.8,
+     "align": "left"
+    },
+    {
+     "header": "Baseline",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "2028 base / accelerated",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "2035 base / accelerated",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T1-01 International arrivals",
+     "1,498,829 (2025)",
+     "1,673,855 / 1,750,871*",
+     "2,175,778 / 2,516,282"
+    ],
+    [
+     "T1-02 Arrivals by market group",
+     "Five groups, 2025",
+     "Base path by group",
+     "Base path by group; accelerated not split"
+    ],
+    [
+     "T1-03 Direct foreign spend",
+     "R25.9bn (FY2025)",
+     "Not printed",
+     "R40.6bn (base, modelled)"
+    ],
+    [
+     "T1-04 Tourism jobs (ratio)",
+     "About 30,000 (2025)",
+     "33,500 / 35,000*",
+     "43,500 / 50,300*"
+    ],
+    [
+     "T1-05 Green-season share",
+     "About 35% (2025, provisional); 39% (2024)",
+     "Level set at Gate 1",
+     "Rising"
+    ],
+    [
+     "T1-06 Share outside the Metro",
+     "Not in hand; due in 2027",
+     "Baseline set",
+     "Rising"
+    ],
+    [
+     "T1-07 Community share of spend",
+     "0.02% to 0.04% (floor)",
+     "Pilots measured",
+     "1% (R259m) reference point"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "The main risks"
+  },
+  {
+   "type": "table",
+   "caption": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act.",
+   "source": "Section 4.8; likelihood and impact are Letsema's assessment.",
+   "columns": [
+    {
+     "header": "Risk",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "Likelihood and impact",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Response",
+     "width": 3.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Bilateral air agreements and the US carrier cap stay restrictive",
+     "High; high",
+     "Escalation agenda with stated asks; route work inside existing rights"
+    ],
+    [
+     "Runway relief at Cape Town International slips past about 2033",
+     "Medium; high",
+     "Quarterly milestone tracking; frequency and gauge; George as second gateway"
+    ],
+    [
+     "Visa processing for growth markets does not improve",
+     "Medium; high",
+     "Escalation agenda; processing time tracked each year"
+    ],
+    [
+     "Safety incidents or perception deter visitors",
+     "Medium; high",
+     "Safety gates before pilot launches; escalation to SAPS"
+    ],
+    [
+     "Climate events close sites and routes",
+     "High; medium",
+     "Climate risk register; itineraries routed around closures"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h2",
+   "text": "What Steerco and the Board are asked to decide"
+  },
+  {
+   "type": "numbered",
+   "items": [
+    "Adopt growth to 2.5 million arrivals by 2035 as the plan's goal, with the base and accelerated paths as its targets.",
+    "Constitute the Tourism Growth Steerco at Wesgro CEO level with DEDAT and Cape Town Tourism, and confirm the eighteen initiative leads.",
+    "Approve the twelve first-year actions inside current budgets, and ask Wesgro Finance and DEDAT to set rand bands for every initiative.",
+    "Commission the bookability census and the tourism labour analysis in 2027, so the plan's missing baselines exist by Gate 1.",
+    "Table the first national escalation agenda on visas, air service agreements and immigration processing at Cape Town International."
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Several items remain open, from the October deck's page references to the source of the 250-call cruise plan and a provincial employment baseline. Each is marked in square brackets where it occurs and listed with an owner in the open-items register that accompanies this report."
+  }
+ ]
+}

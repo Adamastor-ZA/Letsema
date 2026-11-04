@@ -1,0 +1,269 @@
+{
+ "id": "A8",
+ "title": "M&E toolkit",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A8 M&E toolkit"
+  },
+  {
+   "type": "lead",
+   "text": "The toolkit register adds the source, frequency, owner and target to each Tier 2 indicator in section 5.2."
+  },
+  {
+   "type": "p",
+   "text": "Targets come from the growth model where it prints them and from the Inclusion Plan where it sets a pilot count. Elsewhere the target is a direction or a milestone, marked proposed where it is this report's choice; Steerco fixes the levels at Gate 1 once the 2027 baselines exist. Tier 1 targets are in section 5.3 and Tier 3 outputs in the charters."
+  },
+  {
+   "type": "table",
+   "caption": "Each Tier 2 indicator has a source, a frequency, an owner and a target or direction for 2035.",
+   "source": "Indicator register, section 5.2; Market Assessment Report, May 2026, p20 to p23 (model values, working analysis); SME and Community Inclusion Plan, Sep 2026, p32. T2-01 is the sum of the four printed market values (computed).",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Indicator",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Frequency",
+     "width": 0.9,
+     "align": "left"
+    },
+    {
+     "header": "Owner",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Target or direction to 2035",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T2-01",
+     "Arrivals from the UK, Germany, USA and India",
+     "SA Tourism; growth model",
+     "Annual",
+     "Research",
+     "726,330 (2035, base; computed from MA p21, p22)"
+    ],
+    [
+     "T2-02",
+     "ICCA association meetings in Cape Town",
+     "ICCA",
+     "Annual",
+     "Convention Bureau",
+     "Rising; level set at Gate 1"
+    ],
+    [
+     "T2-03",
+     "May to September share of international seats",
+     "ACSA; OAG",
+     "Quarterly",
+     "Air Access",
+     "Rising"
+    ],
+    [
+     "T2-04",
+     "Share of operators bookable online",
+     "Bookability census",
+     "Every two years",
+     "Research",
+     "Baseline in 2027; rising"
+    ],
+    [
+     "T2-05",
+     "CapeNature reservations made online",
+     "CapeNature",
+     "Annual",
+     "Research",
+     "Rising"
+    ],
+    [
+     "T2-06",
+     "India and China arrivals via hubs",
+     "GDS bookings; growth model",
+     "Annual",
+     "Air Access",
+     "India 165,260; China and Hong Kong 92,598 (2035, base, model)"
+    ],
+    [
+     "T2-07",
+     "Spend per visitor, mature markets",
+     "SA Tourism",
+     "Annual",
+     "Research",
+     "Rising in real terms"
+    ],
+    [
+     "T2-08",
+     "African arrivals and spend",
+     "SA Tourism",
+     "Annual",
+     "Research",
+     "Regional group 402,812 (2035, base)"
+    ],
+    [
+     "T2-09",
+     "International seats and routes",
+     "ACSA; OAG",
+     "Quarterly",
+     "Air Access",
+     "From the capacity-against-demand model (I6)"
+    ],
+    [
+     "T2-10",
+     "Routes above 80% load",
+     "GDS bookings",
+     "Annual",
+     "Air Access",
+     "Seats added on each full route"
+    ],
+    [
+     "T2-11",
+     "Cruise calls and passengers",
+     "Cruise Cape Town",
+     "Each season",
+     "Cruise Cape Town",
+     "Held open until the 250-call plan is sourced"
+    ],
+    [
+     "T2-12",
+     "Accessibility score by district",
+     "Readiness re-score",
+     "2029 and 2032",
+     "Research",
+     "Rising outside the Metro"
+    ],
+    [
+     "T2-13",
+     "Corridor transfer products on sale",
+     "I8 records",
+     "Annual",
+     "Tourism",
+     "One per corridor by 2031 (proposed)"
+    ],
+    [
+     "T2-14",
+     "Overall readiness by district",
+     "Readiness re-score",
+     "2029 and 2032",
+     "Research",
+     "Rising at each re-score"
+    ],
+    [
+     "T2-15",
+     "Touring routes rated Ready",
+     "Readiness re-score",
+     "2029 and 2032",
+     "Research",
+     "Three of six by 2031; none below Developing (proposed)"
+    ],
+    [
+     "T2-16",
+     "Peak queue at the Cableway",
+     "Operator",
+     "Annual",
+     "Research",
+     "Falling"
+    ],
+    [
+     "T2-17",
+     "Communities with a live booking route",
+     "Pilot records",
+     "Quarterly",
+     "Tourism",
+     "Two or three pilots by 2028 (SCIP p32)"
+    ],
+    [
+     "T2-18",
+     "LTOs with a funding agreement",
+     "LTO survey",
+     "Annual",
+     "DEDAT",
+     "Baseline in 2027; rising"
+    ],
+    [
+     "T2-19",
+     "Weather losses at flagship sites",
+     "Site operators",
+     "Annual",
+     "Research",
+     "Tracked; no target"
+    ],
+    [
+     "T2-20",
+     "Tourism projects at financial close",
+     "I14 records",
+     "Annual",
+     "Wesgro investment promotion",
+     "First projects by 2031"
+    ],
+    [
+     "T2-21",
+     "Escalation items answered",
+     "Steerco records",
+     "Quarterly",
+     "Wesgro CEO's office",
+     "Each item answered within a year (proposed)"
+    ],
+    [
+     "T2-22",
+     "Industry partners in the joint plan",
+     "Steerco records",
+     "Annual",
+     "Wesgro CEO's office",
+     "Plan agreed in 2027; partners rising"
+    ],
+    [
+     "T2-23",
+     "Automated feeds in the dashboard",
+     "Programme office",
+     "Quarterly",
+     "Research",
+     "Arrivals, seats and cruise automated by 2028"
+    ],
+    [
+     "T2-24",
+     "Visa processing time, priority markets",
+     "Home Affairs; SA Tourism",
+     "Annual",
+     "Wesgro CEO's office",
+     "Falling"
+    ],
+    [
+     "T2-25",
+     "Tourism labour analysis published",
+     "Research",
+     "Once",
+     "DEDAT, with Wesgro Research",
+     "Published by the end of 2028"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Scorecard and dashboard templates"
+  },
+  {
+   "type": "p",
+   "text": "The quarterly scorecard carries one row per indicator: code, name, baseline and year, latest value and date, direction against the path, target, source and owner. The annual Board outlook adds the Tier 1 chart against both paths and the gate status. The dashboard data model lists each feed, its refresh frequency and the manual-entry form for indicators without a feed. The templates themselves are delivered with the Excel toolkit [M&E toolkit workbook: Letsema to deliver with the final report]."
+  }
+ ]
+}
