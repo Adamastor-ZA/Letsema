@@ -1,4 +1,5 @@
-"""Chapter 3, Pillar 3, theme 3.1: focus areas 13 to 15. Writes content/ch3/31_fa13.json to 33_fa15.json.
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ are the source of record; do not re-run this script.
+Chapter 3, Pillar 3, theme 3.1: focus areas 13 to 15. Writes content/ch3/31_fa13.json to 33_fa15.json.
 Sources: report/evidence/factsheet_t31.md, tree.md, discrepancies.md (3 November 2026).
 Inclusion rules from the brief: concept level only; no Wesgro-funded hub; no trade-mission incentives;
 none of the banned inclusion terms."""
@@ -28,7 +29,7 @@ fa13 = {
         "The plan's five cases set the order of action: a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure (SME and Community Inclusion Plan, Sep 2026, p12). Kliptown in Soweto shows the cost of the reverse order. Walter Sisulu Square cost R160 million to R180 million before an operator was in place, and drew about 4,000 museum visitors a year by 2017 against a business case of almost 200,000 international visitors (p11).",
     ],
     "recommendation": [
-        "Wesgro should connect community product to the demand it already moves, and leave the building of selling bodies to municipalities, LTOs and the communities themselves. The plan's model has three parts: a selling capability that works, a link to demand that already exists, and gates that must be passed before activation and investment (SME and Community Inclusion Plan, Sep 2026, p32). Two or three pilot communities test it, and it scales only after agreed thresholds are met (p32). The plan's sequence runs from validating the offer and opening a booking route, through a safety plan and a fixed-date test, to investment after demand and scale through channels (p31).",
+        "Wesgro should connect community product to the demand it already moves, and leave the building of selling bodies to municipalities, LTOs and the communities themselves. The plan's model has three parts: a selling capability that works, a link to demand that already exists and gates that must be passed before activation and investment (SME and Community Inclusion Plan, Sep 2026, p32). Two or three pilot communities test it, and it scales only after agreed thresholds are met (p32). The plan's sequence runs from validating the offer and opening a booking route, through a safety plan and a fixed-date test, to investment after demand and scale through channels (p31).",
     ],
     "actions": [
         ["Wesgro", "Put pilot community product into the itineraries, calendars and channels Wesgro already runs, such as the Langa and Kayamandi routes and the Mal'va festival listing", "Tourism; Destination Marketing"],
@@ -41,7 +42,7 @@ fa13 = {
     "link": "**Initiative I12**, community inclusion pilots (section 4.3), with booking routes shared with **I3** (focus area 3). **Indicators** T1-07 community share of foreign direct spend at impact level and T2-17 communities with a live booking route at outcome level (section 5.2).",
 }
 blocks = theme("3.3.1", "Investment, inclusion and sustainability", [
-    "The first enabling theme covers who benefits from growth, how it is paid for and how it lasts. It holds three focus areas: community inclusion, climate and sustainability, and investment. The inclusion entry stays at concept level, as agreed with Wesgro on 24 September 2026; roles and funding sit in Chapter 4.",
+    "The first enabling theme covers who benefits from growth, how it is paid for and how it lasts. It holds three focus areas: community inclusion, climate risk and investment. The inclusion entry stays at concept level, as agreed with Wesgro on 24 September 2026; roles and funding sit in Chapter 4.",
 ]) + entry(fa13, pagebreak=False)
 write("31_fa13.json", "3.3.1", "Embed local destination bodies for community inclusion", blocks)
 

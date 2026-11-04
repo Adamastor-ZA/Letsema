@@ -1,0 +1,69 @@
+{
+ "id": "5.6",
+ "title": "Evaluation and learning",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "5.6 Evaluation and learning"
+  },
+  {
+   "type": "lead",
+   "text": "Two evaluations bracket the plan: a mid-term review in 2030, when the seat ceiling binds, and a terminal evaluation in 2035."
+  },
+  {
+   "type": "p",
+   "text": "The mid-term review tests whether the plan is on its path and whether the path still holds. It falls in 2030 because that is when the base case reaches the 1.8 million seat ceiling (Demand-Side Analysis, Jun 2026, p21) and two years before relief at Cape Town International (Infrastructure Report, Jul 2026, p103). The terminal evaluation in 2035 measures the result against both paths and sets up the next plan. Both should be run by a party independent of the programme office."
+  },
+  {
+   "type": "table",
+   "caption": "Each pillar carries two evaluation questions, one on results and one on the assumptions behind them.",
+   "source": "Letsema, proposed evaluation questions.",
+   "columns": [
+    {
+     "header": "Pillar",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Did it work?",
+     "width": 3.2,
+     "align": "left"
+    },
+    {
+     "header": "Does the logic still hold?",
+     "width": 3.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "1 Reshape demand",
+     "Did arrivals, spend per visitor and the green-season share move with the activation, and in which markets and segments?",
+     "Is conversion still the constraint, or has access overtaken it in the growth markets?"
+    ],
+    [
+     "2 Transform supply",
+     "Did seats, readiness and bookability rise outside the Metro, and did visitors follow?",
+     "Did the airport relief arrive on time, and did the second gateways carry the load meanwhile?"
+    ],
+    [
+     "3 Build enabling capability",
+     "Did the pilots meet their thresholds, and did community spend rise?",
+     "Did the national asks get answers, and did the data protocol deliver the baselines?"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**Pilots before capital.** The inclusion pilots are evaluated before any capital is committed, on the Inclusion Plan's own measures: bookings, visitors and locally retained revenue (SME and Community Inclusion Plan, Sep 2026, p33). A pilot scales only when it meets the thresholds agreed before launch (p32). The same rule applies to any product or asset investment under I9 and I14: test demand, then invest."
+  },
+  {
+   "type": "p",
+   "text": "**Learning into the plan.** Findings from each review, gate and pilot go into the annual plan refresh under section 4.7, so the charters, targets and sequence change with the evidence rather than at the end of the plan."
+  }
+ ]
+}

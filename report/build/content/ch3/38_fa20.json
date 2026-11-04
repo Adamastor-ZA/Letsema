@@ -1,0 +1,172 @@
+{
+ "id": "3.3.2",
+ "title": "Develop workforce and service skills",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 3.2 · Governance and leadership · Focus area 20"
+  },
+  {
+   "type": "h3",
+   "text": "Develop workforce and service skills"
+  },
+  {
+   "type": "lead",
+   "text": "The 300,000 tourism-linked jobs ambition has no baseline and no labour analysis behind it, so the first step is to commission that analysis, and the skills plan follows from it."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** No December entry; skills appear in no printed version of the tree."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Flagged, untested.** The jobs goal has no labour analysis. The entry was added in October because the 300,000-jobs ambition has no labour analysis behind it, and skills constraints surfaced only as side mentions (Inception Report, Nov 2025, p4). As agreed in the report structure, it is written as a recommendation to commission the analysis, not as a finding."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "No deliverable carries a provincial tourism employment figure, and the skills evidence is a handful of statements and two training programmes.",
+   "source": "Inception Report, Nov 2025 (Inc); Stakeholder Insights Report, Mar 2026 (SIR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Current State Diagnostic, Dec 2025 (Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, as cited). The 2024/25 jobs value equals the 2022/23 GDP value in the same table, so the source study should be checked before the figure is used as a baseline.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "The ambition has no base",
+     "300,000 tourism-linked jobs, one of four headline ambitions, with no base year, baseline or target year",
+     "Inc p4"
+    ],
+    [
+     "No provincial method",
+     "No approved methodology for provincial tourism GDP and jobs estimates (Department of Tourism)",
+     "SIR p37"
+    ],
+    [
+     "Skills gaps near reserves",
+     "Low baseline skills in communities near reserves need substantial upskilling before service standards can be met (CapeNature)",
+     "SIR p43"
+    ],
+    [
+     "Municipal capacity is stretched",
+     "Local municipalities face skills and staffing constraints, and skills support is not tailored to districts (West Coast District Municipality)",
+     "SIR p39"
+    ],
+    [
+     "Training exists in places",
+     "20 CATHSSETA site guides certified in Mbekweni in August 2026; a hospitality academy in Prince Albert from early 2026",
+     "SCIP p42, p51"
+    ],
+    [
+     "One provincial series",
+     "1,234 direct cruise jobs in the Western Cape in 2024/25, the only provincial tourism jobs figure in a deliverable",
+     "Diag p37"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Public sources give the scale the analysis must work from: direct tourism employment of 106,707 in Cape Town in 2024 and 953,981 nationally (City of Cape Town, Economic Value of Tourism, 2025; Stats SA Tourism Satellite Account, provisional, 2026; public sources). The provincial figure may already be in the project's files, because the Inception Report lists the Western Cape Pero 2025 and the district Mero 2024 among the documents Wesgro supplied (Inception Report, Nov 2025, p34) [provincial tourism employment from the Pero 2025: Wesgro Research to extract]."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro and DEDAT should commission a tourism labour analysis in 2027. It should fix a provincial employment baseline, test the 300,000 ambition and identify the occupations and skills the growth case needs. Until it reports, Chapter 5 carries jobs as a ratio-based measure on Wesgro's own rule of two jobs per 100 international passengers (section 5.3). The skills plan then runs through the quality charter, where the Benchmarking Report places work-force capability (Global Benchmarking Report, Mar 2026, p42)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Commission the labour analysis with DEDAT: baseline, definition, occupations, skills gaps and the training pipeline",
+     "Research; DEDAT"
+    ],
+    [
+     "Wesgro",
+     "Extract the tourism employment table from the Pero 2025, and obtain the method note for the jobs-per-passenger ratio",
+     "Research; Air Access"
+    ],
+    [
+     "Wesgro",
+     "Build a workforce strand into the provincial quality charter (focus area 11)",
+     "Tourism"
+    ],
+    [
+     "Partners",
+     "Run training partnerships around reserves and in pilot communities, building on the CATHSSETA guide certification and the Prince Albert academy",
+     "CapeNature; CATHSSETA; training providers; municipalities"
+    ],
+    [
+     "Partners",
+     "Help newly trained guides stay in the sector with bookings from existing itineraries",
+     "LTOs; tour operators"
+    ],
+    [
+     "National",
+     "Approve a provincial tourism jobs methodology and resource the tourism satellite account",
+     "Department of Tourism; Stats SA"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Singapore's hotel industry transformation map, run by the tourism board with the hotel association and backed by dedicated funds, lifted service quality and spend per visitor (Global Benchmarking Report, Mar 2026, p41). None of the six comparators carries a labour analysis or a tourism employment target, so the sizing step has no precedent in the benchmark set."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I18**, tourism labour analysis and skills plan (section 4.3). **Indicators** T1-04 tourism jobs at impact level, carried as a ratio-based projection until the analysis reports, and T2-25 labour analysis published at outcome level (section 5.2)."
+  }
+ ]
+}

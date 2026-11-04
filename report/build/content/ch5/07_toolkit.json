@@ -1,0 +1,63 @@
+{
+ "id": "5.7",
+ "title": "Toolkit handover",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "5.7 Toolkit handover"
+  },
+  {
+   "type": "lead",
+   "text": "The M&E toolkit turns this chapter into four working files that Wesgro Research owns from handover."
+  },
+  {
+   "type": "table",
+   "caption": "Four files make up the toolkit, and each has one owner in Wesgro.",
+   "source": "Letsema; SLA clauses 1.1.10.2 and 1.1.15.3 [clause wording to be checked against the signed Annexure B].",
+   "columns": [
+    {
+     "header": "File",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Contents",
+     "width": 4.4,
+     "align": "left"
+    },
+    {
+     "header": "Owner",
+     "width": 1.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Indicator register",
+     "All 68 indicators with definition, unit, source, frequency, owner, baseline and target by year and path",
+     "Research"
+    ],
+    [
+     "Baseline workbook",
+     "The baseline values with page references to the deliverables, and the computed values with their method",
+     "Research"
+    ],
+    [
+     "Scorecard template",
+     "The quarterly Steerco scorecard and the annual Board outlook",
+     "Programme office"
+    ],
+    [
+     "Dashboard data model",
+     "Feeds, refresh frequency and manual-entry forms for the dashboard in section 5.5",
+     "Programme office"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Handover runs through knowledge-transfer sessions with Wesgro Research and the programme office, as the SLA requires (clause 1.1.15). The Excel toolkit itself is outside this report and is listed as an open item [M&E toolkit workbook: Letsema to deliver with the final report]."
+  }
+ ]
+}

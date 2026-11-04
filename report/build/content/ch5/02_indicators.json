@@ -1,0 +1,442 @@
+{
+ "id": "5.2",
+ "title": "Indicator set",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "5.2 Indicator set"
+  },
+  {
+   "type": "lead",
+   "text": "Seven impact indicators, twenty-five outcome indicators and thirty-six output indicators measure the plan, each with a definition, a source, an owner and a frequency."
+  },
+  {
+   "type": "p",
+   "text": "Tier 1 measures the 2035 case and is reported to the Board. Tier 2 measures the focus areas, one or two each, and is reported to Steerco each quarter where the source allows. Tier 3 measures the initiatives' own outputs and is reported by the leads to the programme office each month. The full register, with targets, sits in the toolkit (section 5.7)."
+  },
+  {
+   "type": "table",
+   "caption": "Seven Tier 1 indicators measure arrivals, market mix, spend, jobs, season, spread and community spend.",
+   "source": "Letsema, indicator register; SLA clauses 1.1.4 and 1.1.10; Inception Report, Nov 2025, p22, p23. Baselines and targets in section 5.3.",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Indicator",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Definition",
+     "width": 2.8,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Frequency",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Owner",
+     "width": 0.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T1-01",
+     "International arrivals",
+     "Arrivals, growth-model basis; quarterly proxy: international passenger arrivals at CTIA",
+     "SA Tourism; ACSA",
+     "Annual; quarterly proxy",
+     "Research"
+    ],
+    [
+     "T1-02",
+     "Arrivals by market group",
+     "Arrivals in the mature, hub, regional, acceleration and strategic groups",
+     "SA Tourism",
+     "Annual",
+     "Research"
+    ],
+    [
+     "T1-03",
+     "Direct foreign spend",
+     "Foreign direct spend in the Western Cape, rand",
+     "SA Tourism",
+     "Annual; quarterly shares",
+     "Research"
+    ],
+    [
+     "T1-04",
+     "Tourism jobs",
+     "Jobs supported by international air arrivals, on Wesgro's ratio, until the labour analysis sets a provincial measure",
+     "Wesgro ratio; Stats SA TSA",
+     "Annual",
+     "Research"
+    ],
+    [
+     "T1-05",
+     "Green-season share",
+     "Share of overseas visitor travel in April to September",
+     "SA Tourism; Wesgro visitor tracking",
+     "Annual",
+     "Research"
+    ],
+    [
+     "T1-06",
+     "Share outside the Metro",
+     "Share of arrivals and of spend recorded outside the Cape Metro",
+     "SA Tourism provincial data; data protocol",
+     "Annual",
+     "Research"
+    ],
+    [
+     "T1-07",
+     "Community share of foreign direct spend",
+     "Spend traced to businesses trading inside the 20 shortlisted communities, as a share of foreign direct spend",
+     "Pilot records; SA Tourism",
+     "Annual",
+     "Tourism; Research"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Twenty-five Tier 2 indicators give each focus area one or two outcome measures, and seven of them have no baseline yet.",
+   "source": "Chapter 3 evidence tables. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. IR: Infrastructure Report, Jul 2026. SIR: Stakeholder Insights Report, Mar 2026. SCIP: SME and Community Inclusion Plan, Sep 2026. Diag: Current State Diagnostic, Dec 2025. Inc: Inception Report, Nov 2025. MIDAS: MIDAS Aviation Market Assessment, Mar 2026. Computed values are sums or shares of printed figures.",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Indicator",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Focus area",
+     "width": 0.7,
+     "align": "center"
+    },
+    {
+     "header": "Baseline",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T2-01",
+     "Arrivals from the four largest segment home markets (UK, Germany, USA, India)",
+     "1",
+     "503,277 (2025, computed)",
+     "MA p21, p22"
+    ],
+    [
+     "T2-02",
+     "ICCA association meetings in Cape Town",
+     "2",
+     "58 (2024)",
+     "DSA p37"
+    ],
+    [
+     "T2-03",
+     "May to September share of international seats at CTIA",
+     "2",
+     "34.0% (2025, computed)",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "T2-04",
+     "Share of operators bookable online, by district",
+     "3",
+     "Not in hand; about 40% or more of smaller operators lack online booking (Metro slide, scope not stated)",
+     "IR p32"
+    ],
+    [
+     "T2-05",
+     "CapeNature reservations made online",
+     "3",
+     "About 70% through the call centre",
+     "SIR p42"
+    ],
+    [
+     "T2-06",
+     "India and China arrivals via hubs",
+     "4",
+     "India 71,000; China 29,600 (2025)",
+     "MIDAS, The Indian Market Opportunity; The Chinese Market Opportunity"
+    ],
+    [
+     "T2-07",
+     "Spend per visitor, mature markets",
+     "5",
+     "USA R32,900; UK R26,500; Germany R25,600 (2024)",
+     "DSA p14"
+    ],
+    [
+     "T2-08",
+     "African arrivals and spend",
+     "6",
+     "323,971 arrivals (2024); R4.2bn spend (2025)",
+     "DSA p27, p29"
+    ],
+    [
+     "T2-09",
+     "International seats and routes at CTIA",
+     "7",
+     "3,816,797 seats, printed network total (27 routes tabled; year to Nov 2025); 29 routes (2026)",
+     "MIDAS, The Capetown Market; Seasonality"
+    ],
+    [
+     "T2-10",
+     "Routes above 80% load",
+     "7",
+     "11 of 27 (year to Nov 2025)",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "T2-11",
+     "Cruise calls and passengers",
+     "8",
+     "79 vessels; 127,178 passengers (2024/25); the Infrastructure Report counts 83 calls (p110)",
+     "Diag p37"
+    ],
+    [
+     "T2-12",
+     "Accessibility score by district",
+     "9",
+     "Metro 4.7 to Central Karoo 1.0 (2026)",
+     "IR p88"
+    ],
+    [
+     "T2-13",
+     "Corridor transfer products on sale",
+     "9",
+     "No inter-town tourism shuttle on the Garden Route",
+     "IR p90"
+    ],
+    [
+     "T2-14",
+     "Overall readiness by district",
+     "10",
+     "Metro 4.5; Garden Route and Winelands 3.4; Overberg 2.7; West Coast 2.5; Central Karoo 1.9",
+     "IR p28 to p85"
+    ],
+    [
+     "T2-15",
+     "Touring routes rated Ready",
+     "11",
+     "1 of 6 (2026)",
+     "IR p30, p40, p51, p62, p73, p84"
+    ],
+    [
+     "T2-16",
+     "Peak queue at the Cableway",
+     "12",
+     "Up to three hours up and two down",
+     "SIR p36"
+    ],
+    [
+     "T2-17",
+     "Communities with a live booking route",
+     "13",
+     "0 of 19 profiled rate Ready on bookability",
+     "SCIP p20 to p26, p40 to p51"
+    ],
+    [
+     "T2-18",
+     "LTOs with a funding agreement",
+     "14",
+     "Not in hand",
+     "SIR p25"
+    ],
+    [
+     "T2-19",
+     "Weather losses at flagship sites",
+     "14",
+     "Robben Island roughly R16m a year",
+     "SIR p33"
+    ],
+    [
+     "T2-20",
+     "Tourism projects at financial close",
+     "15",
+     "None; tourism gaps carry no committed capital",
+     "IR p32 to p87"
+    ],
+    [
+     "T2-21",
+     "Escalation items answered by the national tier",
+     "16",
+     "No agenda tabled yet",
+     "This plan"
+    ],
+    [
+     "T2-22",
+     "Industry partners signed up to the joint plan",
+     "17",
+     "No joint plan; 15 of 16 organisations raised collaboration",
+     "SIR p20 to p46"
+    ],
+    [
+     "T2-23",
+     "Automated data feeds in the dashboard",
+     "18",
+     "None; no dashboard",
+     "This plan"
+    ],
+    [
+     "T2-24",
+     "Visa processing time, priority markets",
+     "19",
+     "Not in hand",
+     "SIR p36, p45"
+    ],
+    [
+     "T2-25",
+     "Tourism labour analysis published",
+     "20",
+     "No labour analysis in any deliverable",
+     "Inc p4"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Thirty-six Tier 3 output indicators, two per initiative, track what each lead delivers.",
+   "source": "Initiative charters, section 4.3. Each output has a baseline of zero at the start of 2027.",
+   "columns": [
+    {
+     "header": "Codes",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.8,
+     "align": "left"
+    },
+    {
+     "header": "Outputs",
+     "width": 5.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T3-01, T3-02",
+     "I1",
+     "Segment targets in Wesgro's annual plan; share of market budget in trade-led conversion"
+    ],
+    [
+     "T3-03, T3-04",
+     "I2",
+     "Green-season calendar published; bids submitted for May to September events"
+    ],
+    [
+     "T3-05, T3-06",
+     "I3",
+     "Bookability census published; operators onboarded to online booking"
+    ],
+    [
+     "T3-07, T3-08",
+     "I4",
+     "Joint marketing agreements with hub carriers; India and China route cases prepared"
+    ],
+    [
+     "T3-09, T3-10",
+     "I5",
+     "Activation programmes run in Nigeria and Kenya; regional capacity cases made"
+    ],
+    [
+     "T3-11, T3-12",
+     "I6",
+     "Air access fund constituted; quarterly runway milestone reports issued"
+    ],
+    [
+     "T3-13, T3-14",
+     "I7",
+     "Excursion packages listed; lines engaged on expedition and home-porting"
+    ],
+    [
+     "T3-15, T3-16",
+     "I8",
+     "Southern Line visitor product launched; corridor shuttle products bookable"
+    ],
+    [
+     "T3-17, T3-18",
+     "I9",
+     "Multi-day itineraries listed per route; cold-zone assets activated"
+    ],
+    [
+     "T3-19, T3-20",
+     "I10",
+     "Quality charter adopted; businesses certified"
+    ],
+    [
+     "T3-21, T3-22",
+     "I11",
+     "Flagship baseline published; flow-management tools in place"
+    ],
+    [
+     "T3-23, T3-24",
+     "I12",
+     "Pilot communities selected; fixed-date tests held"
+    ],
+    [
+     "T3-25, T3-26",
+     "I13",
+     "Climate risk register published; LTO funding model agreed"
+    ],
+    [
+     "T3-27, T3-28",
+     "I14",
+     "Investment cases prepared; investor engagements held"
+    ],
+    [
+     "T3-29, T3-30",
+     "I15",
+     "Steerco meetings held each quarter; joint industry plan agreed"
+    ],
+    [
+     "T3-31, T3-32",
+     "I16",
+     "Data-sharing agreements signed; dashboard live"
+    ],
+    [
+     "T3-33, T3-34",
+     "I17",
+     "Escalation agenda tabled; responses logged"
+    ],
+    [
+     "T3-35, T3-36",
+     "I18",
+     "Labour analysis published; skills plan adopted"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

@@ -1,4 +1,5 @@
-"""Chapter 4, section 4.3 Initiative charters. Writes content/ch4/03_charters.json.
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ are the source of record; do not re-run this script.
+Chapter 4, section 4.3 Initiative charters. Writes content/ch4/03_charters.json.
 Each charter: objective, focus areas, proposed lead and partners, tier, actions by phase (Design / Implement),
 dependencies, funding route (rand band open), risks, indicators. Actions come from the Chapter 3 action tables.
 I15 to I18 are completed from factsheet_t32.md."""
@@ -118,6 +119,34 @@ C = {
    dep="I9 and I10 for product and quality; I6 for the air access fund.",
    risk="Capital ahead of demand; tight fiscal space (Stakeholder Insights Report, Mar 2026, p25).",
    ind="T2-20 projects at financial close; T3-27 investment cases prepared; T3-28 investor engagements."),
+    "I15": dict(obj="Give the province one forum, one shared agenda with clear decision rights and one joint plan with industry.", tier="All three tiers and industry",
+   a="Implement (2027): Steerco constituted with terms of reference; a decision-rights map by tier from the Diagnostic's tier table; JAMS adopted as the consultation channel; sector councils designed; the demand-side engagement round with the trade.",
+   e="A joint industry plan agreed and reviewed each year; sector councils running; regional forums carrying a development agenda.",
+   s="Steerco embedded as the standing governance of the plan; the programme office hands over to the line units by the end of 2031.",
+   dep="DEDAT and Cape Town Tourism as standing members; I17 for the national asks; I16 for the scorecard.",
+   risk="Misalignment between public institutions and industry bodies persists (Stakeholder Insights Report, Mar 2026, p25); SA Tourism's institutional weakness.",
+   ind="T2-21 escalation items answered, T2-22 partners in the joint plan; T3-29 Steerco meetings held each quarter; T3-30 joint industry plan agreed."),
+ "I16": dict(obj="Agree data-sharing terms with every data holder and run one indicator register and dashboard.", tier="Provincial; national for the jobs methodology and the tourism satellite account",
+   a="Design (2027): data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, site operators and booking platforms; the indicator register. Implement (2028): dashboard live with automated arrivals, seats and cruise feeds; quarterly digital tracking; measurement of meetings, incentives and exhibitions.",
+   e="District arrivals and spend baseline; annual brand research; Nigeria and Ghana in the growth model.",
+   s="One reconciled arrivals series; the register refreshed each year.",
+   dep="Agreement from each data holder; the Department of Tourism's methodology; I15 for the forum.",
+   risk="Data holders do not share; national data lag (Stakeholder Insights Report, Mar 2026, p30, p37).",
+   ind="T2-23 automated data feeds; T3-31 data-sharing agreements signed; T3-32 dashboard live."),
+ "I17": dict(obj="Turn the national deficits into a standing agenda of asks, each with an owner, a decision and a date, backed by evidence.", tier="National (Home Affairs, Transport, SAPS, ACSA, PRASA); provincial for safety programmes; local for basic services",
+   a="Implement (2027): the first agenda tabled at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements and the US carrier cap; immigration throughput at Cape Town International; station security. Evidence built market by market.",
+   e="Responses logged and followed up each quarter; tourism safety units and programmes with the Western Cape Government; safety compacts in pilot communities.",
+   s="Asks updated as airport relief arrives; direct route designations pursued with the national tier.",
+   dep="I15 for the forum; I16 for evidence; I4 to I6 for the market case.",
+   risk="National asks go unanswered; safety incidents (section 4.8).",
+   ind="T2-24 visa processing time, T2-21 items answered; T3-33 agenda tabled; T3-34 responses logged."),
+ "I18": dict(obj="Fix a provincial tourism employment baseline, test the 300,000 ambition and set a skills plan from the result.", tier="Provincial; national for the jobs methodology and sector training",
+   a="Design (2027 to 2028): the labour analysis commissioned; the Pero 2025 tourism employment table extracted; the method note for the jobs ratio obtained; a workforce strand built into the quality charter.",
+   e="Skills plan adopted; training partnerships around reserves and in pilot communities; the jobs indicator moved from the ratio to a provincial measure.",
+   s="Labour analysis refreshed for the terminal evaluation.",
+   dep="I10 for the quality charter; I16 for data; the Department of Tourism's methodology.",
+   risk="No provincial methodology is approved; skills shortages cap service quality.",
+   ind="T1-04; T2-25 labour analysis published; T3-35 analysis published; T3-36 skills plan adopted."),
 }
 
 

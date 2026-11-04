@@ -1,0 +1,181 @@
+{
+ "id": "5.3",
+ "title": "Baselines and targets",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "5.3 Baselines and targets"
+  },
+  {
+   "type": "lead",
+   "text": "The arrivals targets come straight from the growth model, the jobs targets from a stated ratio, and the other Tier 1 targets wait for baselines that do not yet exist."
+  },
+  {
+   "type": "p",
+   "text": "Baselines are fixed at 2025, the growth model's base year, for the growth-model indicators and at FY2024/25 for the airport series, the recovery baseline used in Chapter 1. Targets follow two paths: the base case, which assumes Wesgro's current activity continues with hub carriers adding capacity, and the accelerated case, which adds direct India and China routes and dedicated activation (Demand-Side Analysis, Jun 2026, p19). The model prints the base case for 2028, 2030, 2032, 2034 and 2035, and the other paths for 2035 only. The 2031 base value and the accelerated milestones are computed and marked as such."
+  },
+  {
+   "type": "figure",
+   "id": "fig_5_paths",
+   "caption": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031.",
+   "source": "Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21 (2028 and 2035 points; 1.8m ceiling). The 2031 base value is the geometric mean of the printed 2030 and 2032 points; the accelerated and conservative milestones are computed at a constant rate between the printed 2025 and 2035 values.",
+   "chart": {
+    "type": "line",
+    "categories": [
+     "2025",
+     "2028",
+     "2031",
+     "2035"
+    ],
+    "series": [
+     {
+      "name": "Accelerated",
+      "values": [
+       1498829,
+       1750871,
+       2045297,
+       2516282
+      ],
+      "color": "#1F7A8C"
+     },
+     {
+      "name": "Base",
+      "values": [
+       1498829,
+       1673855,
+       1871637,
+       2175778
+      ],
+      "color": "#0B3C5D"
+     },
+     {
+      "name": "Conservative",
+      "values": [
+       1498829,
+       1589411,
+       1685468,
+       1822634
+      ],
+      "color": "#7A9E7E"
+     }
+    ],
+    "unit": "",
+    "yMin": 1400000,
+    "refLines": [
+     {
+      "value": 1800000,
+      "label": "1.8m inbound seat ceiling"
+     }
+    ],
+    "footnote": "Milestone years only; the intervals are three, three and four years."
+   }
+  },
+  {
+   "type": "table",
+   "caption": "Arrivals and jobs carry targets on both paths; spend carries the working analysis's base path; the other Tier 1 indicators carry dated baselines first.",
+   "source": "T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked *). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: Wesgro's ratio of two jobs per 100 international passengers, applied to T1-01 (computed; public source, see the note below). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
+   "columns": [
+    {
+     "header": "Indicator",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Baseline",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "2028 base / accelerated",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "2031 base / accelerated",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "2035 base / accelerated",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "T1-01 International arrivals",
+     "1,498,829 (2025); CTIA 1.44m (FY24/25)",
+     "1,673,855 / 1,750,871*",
+     "1,871,637* / 2,045,297*",
+     "2,175,778 / 2,516,282"
+    ],
+    [
+     "T1-02 Arrivals by market group",
+     "Mature 587,287; hubs 427,803; regional 292,514; acceleration 182,815 (2025)",
+     "Base path by group, section 2.1",
+     "2030: 670,350; 523,523; 343,096; 255,159",
+     "766,067; 634,387; 402,812; 358,633 (base); accelerated not split"
+    ],
+    [
+     "T1-03 Direct foreign spend",
+     "R25.9bn (FY2025)",
+     "Not printed",
+     "R33.7bn in 2030 (base, modelled)",
+     "R40.6bn (base, modelled); accelerated not modelled"
+    ],
+    [
+     "T1-04 Tourism jobs (ratio)",
+     "About 30,000 jobs supported (2025)",
+     "33,500 / 35,000*",
+     "37,400 / 40,900*",
+     "43,500 / 50,300*"
+    ],
+    [
+     "T1-05 Green-season share",
+     "About 35% (2025, provisional; 38.1% normalised); 39% (2024)",
+     "Level set at Gate 1",
+     "Rising",
+     "Rising"
+    ],
+    [
+     "T1-06 Share outside the Metro",
+     "Not in hand; baseline due in 2027 from the data protocol",
+     "Baseline set",
+     "Rising",
+     "Rising"
+    ],
+    [
+     "T1-07 Community share of spend",
+     "0.02% to 0.04%; R4m to R10m a year (floor)",
+     "Pilots measured",
+     "Level set after the pilots",
+     "1% (R259m at FY2025 spend) as the reference point"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**Arrivals.** The model's 2025 base and the airport series measure different things: tourist arrivals on the model's basis, and international passenger arrivals at Cape Town International. The airport series is the quarterly proxy because ACSA publishes it, and it stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11). Both are reported, each against its own history."
+  },
+  {
+   "type": "p",
+   "text": "**Jobs.** No deliverable carries a provincial tourism employment baseline, and the Pero tourism table could not be retrieved [provincial tourism employment baseline: Wesgro Research to supply from the Pero 2025 or the Stats SA provincial TSA]. The Tier 1 measure is therefore jobs supported by international air arrivals, on Wesgro's own rule of thumb of two jobs for every 100 international passengers, which counts direct, indirect and induced jobs (public source: Wesgro and Cape Town Air Access releases, 2023 to 2024) [methodology note for the ratio: Cape Town Air Access to supply]. Applied to the arrivals paths, it gives about 30,000 jobs in 2025 and adds about 13,500 on the base path and 20,300 on the accelerated path by 2035. It is a ratio-based projection, not a labour-market measure."
+  },
+  {
+   "type": "p",
+   "text": "The ratio does not reach the 300,000 tourism-linked jobs in the Inception Report's ambition, because it counts only jobs linked to international air arrivals (Inception Report, Nov 2025, p4). The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026)."
+  },
+  {
+   "type": "p",
+   "text": "**Green season.** Plan decision 6 sets the October to March share at about 65% for 2025, provisional, which puts the green season at about 35%. The 2025 month table sums to 104.9%, and once normalised it gives 61.9% and 38.1%, in line with the printed 61% and 39% for 2024 (Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32). The report recommends the normalised figure as the baseline [Michael to confirm: switch the T1-05 baseline to 38.1%]."
+  },
+  {
+   "type": "p",
+   "text": "**Spread and community spend.** No deliverable prints district visitor spend, so the share outside the Metro has no baseline until the data protocol delivers one (I16). The community share starts from the Inclusion Plan's traced floor; its 1% is a reference point the plan prints, not a target any party has adopted (SME and Community Inclusion Plan, Sep 2026, p5)."
+  }
+ ]
+}

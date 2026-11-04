@@ -560,7 +560,7 @@
     ],
     [
      "Proposed lead",
-     "Tourism, with the Department of Mobility"
+     "Department of Mobility, with Wesgro Tourism"
     ],
     [
      "Partners",
@@ -706,7 +706,7 @@
     ],
     [
      "Proposed lead",
-     "Tourism, with DEDAT"
+     "DEDAT, with Wesgro Tourism"
     ],
     [
      "Partners",
@@ -1035,6 +1035,298 @@
     [
      "Indicators",
      "T2-20 projects at financial close; T3-27 investment cases prepared; T3-28 investor engagements."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I15 Tourism Growth Steerco and three-tier alignment"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Give the province one forum, one shared agenda with clear decision rights and one joint plan with industry."
+    ],
+    [
+     "Focus areas",
+     "16, 17"
+    ],
+    [
+     "Proposed lead",
+     "Wesgro CEO's office"
+    ],
+    [
+     "Partners",
+     "DEDAT; Cape Town Tourism; City of Cape Town; district municipalities; industry bodies"
+    ],
+    [
+     "Tier of government",
+     "All three tiers and industry"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Implement (2027): Steerco constituted with terms of reference; a decision-rights map by tier from the Diagnostic's tier table; JAMS adopted as the consultation channel; sector councils designed; the demand-side engagement round with the trade."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "A joint industry plan agreed and reviewed each year; sector councils running; regional forums carrying a development agenda."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Steerco embedded as the standing governance of the plan; the programme office hands over to the line units by the end of 2031."
+    ],
+    [
+     "Dependencies",
+     "DEDAT and Cape Town Tourism as standing members; I17 for the national asks; I16 for the scorecard."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Misalignment between public institutions and industry bodies persists (Stakeholder Insights Report, Mar 2026, p25); SA Tourism's institutional weakness."
+    ],
+    [
+     "Indicators",
+     "T2-21 escalation items answered, T2-22 partners in the joint plan; T3-29 Steerco meetings held each quarter; T3-30 joint industry plan agreed."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I16 Data-sharing protocol and visitor intelligence"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Agree data-sharing terms with every data holder and run one indicator register and dashboard."
+    ],
+    [
+     "Focus areas",
+     "18"
+    ],
+    [
+     "Proposed lead",
+     "Research"
+    ],
+    [
+     "Partners",
+     "Stats SA; SA Tourism; ACSA; Cape Town Tourism; booking platforms"
+    ],
+    [
+     "Tier of government",
+     "Provincial; national for the jobs methodology and the tourism satellite account"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, site operators and booking platforms; the indicator register. Implement (2028): dashboard live with automated arrivals, seats and cruise feeds; quarterly digital tracking; measurement of meetings, incentives and exhibitions."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "District arrivals and spend baseline; annual brand research; Nigeria and Ghana in the growth model."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "One reconciled arrivals series; the register refreshed each year."
+    ],
+    [
+     "Dependencies",
+     "Agreement from each data holder; the Department of Tourism's methodology; I15 for the forum."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget. Supporting: provincial and municipal budgets, national programmes and SOEs, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Data holders do not share; national data lag (Stakeholder Insights Report, Mar 2026, p30, p37)."
+    ],
+    [
+     "Indicators",
+     "T2-23 automated data feeds; T3-31 data-sharing agreements signed; T3-32 dashboard live."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I17 Access and safety escalation agenda"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Turn the national deficits into a standing agenda of asks, each with an owner, a decision and a date, backed by evidence."
+    ],
+    [
+     "Focus areas",
+     "19"
+    ],
+    [
+     "Proposed lead",
+     "Wesgro CEO's office, with DEDAT"
+    ],
+    [
+     "Partners",
+     "Home Affairs; Department of Transport; SAPS; ACSA; SA Tourism"
+    ],
+    [
+     "Tier of government",
+     "National (Home Affairs, Transport, SAPS, ACSA, PRASA); provincial for safety programmes; local for basic services"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Implement (2027): the first agenda tabled at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements and the US carrier cap; immigration throughput at Cape Town International; station security. Evidence built market by market."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Responses logged and followed up each quarter; tourism safety units and programmes with the Western Cape Government; safety compacts in pilot communities."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Asks updated as airport relief arrives; direct route designations pursued with the national tier."
+    ],
+    [
+     "Dependencies",
+     "I15 for the forum; I16 for evidence; I4 to I6 for the market case."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "National asks go unanswered; safety incidents (section 4.8)."
+    ],
+    [
+     "Indicators",
+     "T2-24 visa processing time, T2-21 items answered; T3-33 agenda tabled; T3-34 responses logged."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I18 Tourism labour analysis and skills plan"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Fix a provincial tourism employment baseline, test the 300,000 ambition and set a skills plan from the result."
+    ],
+    [
+     "Focus areas",
+     "20"
+    ],
+    [
+     "Proposed lead",
+     "DEDAT, with Wesgro Research"
+    ],
+    [
+     "Partners",
+     "CATHSSETA; industry bodies; training providers"
+    ],
+    [
+     "Tier of government",
+     "Provincial; national for the jobs methodology and sector training"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): the labour analysis commissioned; the Pero 2025 tourism employment table extracted; the method note for the jobs ratio obtained; a workforce strand built into the quality charter."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Skills plan adopted; training partnerships around reserves and in pilot communities; the jobs indicator moved from the ratio to a provincial measure."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Labour analysis refreshed for the terminal evaluation."
+    ],
+    [
+     "Dependencies",
+     "I10 for the quality charter; I16 for data; the Department of Tourism's methodology."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets. Supporting: national programmes and SOEs, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "No provincial methodology is approved; skills shortages cap service quality."
+    ],
+    [
+     "Indicators",
+     "T1-04; T2-25 labour analysis published; T3-35 analysis published; T3-36 skills plan adopted."
     ]
    ],
    "zebra": true

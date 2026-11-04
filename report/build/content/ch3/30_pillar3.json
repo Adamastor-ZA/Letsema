@@ -1,0 +1,116 @@
+{
+ "id": "3.3",
+ "title": "Pillar 3: Build enabling capability",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "3.3 Pillar 3: Build enabling capability"
+  },
+  {
+   "type": "lead",
+   "text": "Pillar 3 decides whether the other two can be delivered and shared: who benefits, who pays, who decides and who measures."
+  },
+  {
+   "type": "p",
+   "text": "The December tree asked the pillar to build an inclusive, well-governed tourism system that supports sustainable growth, returns and development (Current State Diagnostic, Dec 2025, p64). The evidence found each part of that system thin."
+  },
+  {
+   "type": "bullets",
+   "items": [
+    "**Inclusion.** Twenty township and rural communities hold 18.4% of the province's residents but receive a traced 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5).",
+    "**Investment.** The capital pipeline funds airports, ports, roads and rail, and none of it reaches tourism product, bookability or community assets (Infrastructure Report, Jul 2026, p32 to p87, p100, p112).",
+    "**Governance.** Visas and air service agreements sit with national government, and mobility mandates are split across three tiers (Current State Diagnostic, Dec 2025, p58; Stakeholder Insights Report, Mar 2026, p23).",
+    "**Measurement.** No approved methodology exists for provincial tourism GDP and jobs (Stakeholder Insights Report, Mar 2026, p37)."
+   ]
+  },
+  {
+   "type": "p",
+   "text": "This pillar changed most between December and October, and now holds eight focus areas. The inclusion entry was refined and held at concept level. Sustainability was reworded to climate risk and local destination funding, and institutional review to three-tier alignment. The deficits entry moved in from Pillar 2, and workforce skills was added and flagged as untested."
+  },
+  {
+   "type": "p",
+   "text": "The evidence here is mostly qualitative. It rests on attributed stakeholder statements, the Diagnostic's one-slide tier table, the Inclusion Plan and the Infrastructure Report's gap tables, so this pillar carries more open items than the other two."
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree.",
+   "source": "Chapter 3 entries 13 to 20. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence showed",
+     "width": 3.4,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "13 Embed local destination bodies for community inclusion",
+     "Refined",
+     "Organisation, not distance or product, binds in eleven of twenty communities",
+     "I12"
+    ],
+    [
+     "14 Manage climate risk and sustainable tourism",
+     "Reworded",
+     "Climate already closes sites and routes; local tourism bodies depend on disrupted municipal funding",
+     "I13"
+    ],
+    [
+     "15 Crowd in capital with targeted investment strategies",
+     "Validated",
+     "No committed capital reaches tourism product, bookability or community assets",
+     "I14"
+    ],
+    [
+     "16 Align institutional stakeholders across all three tiers",
+     "Reworded",
+     "Air rights and visas sit nationally, and mandates are split across three tiers",
+     "I15"
+    ],
+    [
+     "17 Strengthen industry and government collaboration",
+     "Validated",
+     "Fifteen of sixteen organisations raised collaboration, and JAMS already exists",
+     "I15"
+    ],
+    [
+     "18 Expedite tourism-enabling policy and data sharing",
+     "Validated",
+     "No approved provincial jobs method and no single view of the visitor",
+     "I16"
+    ],
+    [
+     "19 Lead removal of infrastructure, visa and safety deficits",
+     "Moved",
+     "The best-evidenced barriers, with most of the levers held nationally",
+     "I17"
+    ],
+    [
+     "20 Develop workforce and service skills",
+     "Flagged",
+     "The jobs ambition has no baseline and no labour analysis",
+     "I18"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

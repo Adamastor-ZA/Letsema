@@ -1,0 +1,172 @@
+{
+ "id": "3.3.2",
+ "title": "Strengthen industry and government collaboration",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 3.2 · Governance and leadership · Focus area 17"
+  },
+  {
+   "type": "h3",
+   "text": "Strengthen industry and government collaboration"
+  },
+  {
+   "type": "lead",
+   "text": "Fifteen of the sixteen organisations engaged raised collaboration, and the channels already exist in JAMS, the bid teams and the tour-operator forums, so the task is to turn existing forums into one joint plan."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Strengthen Industry >> Government Collaboration (Current State Diagnostic, Dec 2025, p64), reprinted from March 2026 as Strengthen Industry > Government Collaboration (Public and Private)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Fifteen of sixteen organisations. The stakeholder theme tally drove the disposition. The count is this report's reconstruction from the appendix tables: it counts organisations with at least one collaboration insight, not insight rows, and the deck prints no tally."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing.",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Demand-Side Analysis, Jun 2026 (DSA).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Almost everyone raised it",
+     "15 of the 16 organisations raised at least one collaboration insight, 23 rows in all",
+     "SIR p20 to p46"
+    ],
+    [
+     "A channel exists",
+     "Tourism associations already coordinate through JAMS with Wesgro, the Western Cape Government and the City of Cape Town (FEDHASA)",
+     "SIR p31"
+    ],
+    [
+     "Out of step",
+     "Misalignment between public tourism institutions and key industry bodies is weakening collaboration (Department of Economic Development)",
+     "SIR p25"
+    ],
+    [
+     "Forums are marketing-led",
+     "Provincial and regional forums are dominated by destination marketing rather than development, and support is not tailored to districts (West Coast District Municipality)",
+     "SIR p39"
+    ],
+    [
+     "Joint selling works",
+     "Stakeholders collaborate well on bids; 36 conference bids secured in 2024/25 are expected to bring 27,000+ delegates and R745 million by 2028",
+     "SIR p46; DSA p36"
+    ],
+    [
+     "The trade is missing",
+     "No airline, OTA or tour operator took part in the first phase; six demand-side engagements, from Trip.com Group to Emirates, were proposed",
+     "SIR p16"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Mossel Bay shows what local collaboration delivers. Its cruise calls rose from four before COVID to 27 a season through closer coordination and better excursion packaging, and it credits its public-private tourism model with faster decisions (Stakeholder Insights Report, Mar 2026, p20, p21). The province's route record is the larger example: 17 mainline international routes added from 2015 to 2025, which MIDAS attributes to Wesgro's relationship-driven route development (MIDAS Aviation Market Assessment, Mar 2026, Executive Summary and International Comparisons)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should use the forums that exist rather than build new ones, and give them a development agenda and a joint plan. JAMS lets consultation cascade across the associations more efficiently than approaching each body separately (Stakeholder Insights Report, Mar 2026, p31). The Benchmarking Report's model is Valencia's sector councils, where sector-led committees keep development market-driven (Global Benchmarking Report, Mar 2026, p48, p49)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Use JAMS as the single consultation channel to the associations, and add the Tour Guides Association",
+     "Wesgro CEO's office; FEDHASA"
+    ],
+    [
+     "Wesgro",
+     "Set up sector councils for wine, business events, adventure and culture inside Steerco's structure",
+     "Tourism; Convention Bureau; industry bodies"
+    ],
+    [
+     "Wesgro",
+     "Run the demand-side engagement round with Trip.com Group, Thomas Cook India, DNATA Travel, China International Travel Service, Emirates and SATSA",
+     "Destination Marketing; Air Access"
+    ],
+    [
+     "Partners",
+     "Supply academic and sector champions for international bids",
+     "CTICC; universities"
+    ],
+    [
+     "Partners",
+     "Give regional forums a development agenda and tailor provincial support to district needs",
+     "District municipalities; DEDAT; LTOs"
+    ],
+    [
+     "National",
+     "Include provincial assets in SA Tourism's campaigns for emerging source markets",
+     "SA Tourism"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Valencia runs sector-led executive committees, with the regional business confederation on its governing board, so that tourism development is market-driven rather than bureaucratically led (Global Benchmarking Report, Mar 2026, p45, p48). Singapore's tourism board, airport group and national airline work under one coordinated strategy with shared KPIs (p40, p42)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I15**, Tourism Growth Steerco and three-tier alignment (section 4.3). **Indicator** T2-22 industry partners signed up to the joint plan at outcome level (section 5.2)."
+  }
+ ]
+}

@@ -1,4 +1,5 @@
-"""Chapter 3, section 3.4 The integrated case. Writes content/ch3/40_integrated.json.
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ are the source of record; do not re-run this script.
+Chapter 3, section 3.4 The integrated case. Writes content/ch3/40_integrated.json.
 Sources: Demand-Side Analysis p19 to p21 (scenario matrix, end points, seat ceiling), Market Assessment p19 (2025 base),
 Infrastructure Report p103 (CTIA relief dates), MIDAS In Conclusion; discrepancies.md A2.7, B10."""
 from ch3_lib import write

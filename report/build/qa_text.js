@@ -26,7 +26,7 @@ const BANNED = [
   { re: /\b(really|very|incredibly|absolutely|truly|deeply)\b/i, label: 'intensifier' },
   { re: /\b(organization|prioritize|behavior|center|program\b|traveler|labor|color|optimize|analyze|realize|recognize|favor)/, label: 'US spelling' },
 ];
-const OXFORD = /\b\w+,\s+\w+(\s+\w+)?,\s+(and|or)\s+\w+/i; // "a, b, and c"
+const OXFORD = /,\s[^,.;:()\[\]]{1,60},\s(and|or)\s(?!then\b)/i; // "a, b c, and d": a list-final comma (heuristic; clause commas may also match)
 const WORDS = (s) => s.trim().split(/\s+/).filter(Boolean).length;
 
 const TEMPLATE_PARTS = ['Hypothesis and disposition', 'Evidence', 'Recommendation', 'Benchmark precedent', 'Link forward'];

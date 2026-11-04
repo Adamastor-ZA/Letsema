@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "Twelve actions can start in 2027 inside Wesgro's current mandate, and each one unlocks a baseline, a seat or a booking path that a later initiative needs."
+   "text": "Twelve actions can start by mid-2028 inside Wesgro's current mandate, and each one opens a baseline, a seat or a booking path that a later initiative needs."
   },
   {
    "type": "p",
@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Twelve first-year actions use existing mandates and budgets and unlock the baselines and booking paths the later initiatives need.",
+   "caption": "Twelve actions for the first 24 months use existing mandates and budgets and open the baselines and booking paths the later initiatives need.",
    "source": "Letsema, from the Chapter 3 action tables and the initiative charters (section 4.3). Owners and start dates are proposals for Steerco to confirm.",
    "columns": [
     {
@@ -48,7 +48,7 @@
      "align": "left"
     },
     {
-     "header": "What it unlocks",
+     "header": "What it opens",
      "width": 2.0,
      "align": "left"
     }
@@ -113,7 +113,7 @@
     [
      "Commission the tourism labour analysis behind the jobs ambition",
      "I18",
-     "Research, with DEDAT",
+     "DEDAT, with Wesgro Research",
      "2027 H1",
      "Wesgro and DEDAT operating",
      "A tested jobs target"

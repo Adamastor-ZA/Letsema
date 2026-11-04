@@ -1,0 +1,172 @@
+{
+ "id": "3.3.2",
+ "title": "Expedite tourism-enabling policy and data sharing",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 3.2 · Governance and leadership · Focus area 18"
+  },
+  {
+   "type": "h3",
+   "text": "Expedite tourism-enabling policy and data sharing"
+  },
+  {
+   "type": "lead",
+   "text": "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and four arrivals measures run unreconciled, so a data-sharing protocol is the precondition for every target."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Expedite Tourism-Enabling Policy and Data Sharing (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Already underway. The stakeholder evidence drove the disposition: data and policy is the largest theme in the stakeholder record. The platforms are indeed underway, but no deliverable describes a data-sharing protocol or a policy revision in progress at provincial level [data-sharing protocol or policy revision in progress, with owner and start date: Wesgro Research and DEDAT to confirm]."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Data is the largest theme in the stakeholder record, and the gaps run from national methodology to operators' own customer records.",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "The largest theme",
+     "15 of 16 organisations and 30 insight rows, the most of any theme, 16 of them rated High",
+     "SIR p20 to p46"
+    ],
+    [
+     "No provincial method",
+     "No approved methodology for provincial tourism GDP and jobs; official tourism data lag after Covid-era method changes (Department of Tourism)",
+     "SIR p37"
+    ],
+    [
+     "National capacity is short",
+     "Tourism satellite account timeliness is constrained, with 749 Stats SA vacancies cited",
+     "SIR p30"
+    ],
+    [
+     "No single view",
+     "No single view of visitor behaviour; stakeholders collect different metrics at different frequencies with different definitions",
+     "Diag p56, p57"
+    ],
+    [
+     "Operators cannot see customers",
+     "Third-party ticketing channels do not share visitor-level data; Robben Island cannot link marketing spend to visitor acquisition",
+     "SIR p36, p33"
+    ],
+    [
+     "Platforms exist",
+     "JAMS, the provincial tourism statistics committees and a cross-agency task team exist; the Cape Town Tourism and Google collaboration is still exploratory",
+     "SIR p29, p30, p31, p37"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The policy side is as thin. The Department of Economic Development reports a provincial tourism policy gap, with limited legislation and out-of-date master-planning frameworks (Stakeholder Insights Report, Mar 2026, p25). The Demand-Side Analysis uses four arrivals measures without reconciling them: ACSA passenger arrivals, SA Tourism tourist arrivals, OAG air arrivals and the model's international arrivals (Demand-Side Analysis, Jun 2026, p11, p13, p20, p27)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should agree a data-sharing protocol with each data holder and run one indicator register and dashboard, as section 5.5 sets out. The Infrastructure Report puts it plainly: a data layer is the prerequisite, without which no intervention can be targeted or measured (Infrastructure Report, Jul 2026, p5). Skift's tracking design is ready to adopt: quarterly digital tracking, annual or twice-yearly brand research and a dashboard that cross-references campaigns, airline capacity and hotel trends (Skift Digital and Search Insights memo, 10 Dec 2025, section 6)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms",
+     "Research"
+    ],
+    [
+     "Wesgro",
+     "Run one indicator register and dashboard, with quarterly digital tracking and annual brand research",
+     "Research; programme office"
+    ],
+    [
+     "Wesgro",
+     "Measure meetings, incentives and exhibitions, and add Nigeria and Ghana to the growth model",
+     "Research; Convention Bureau"
+    ],
+    [
+     "Partners",
+     "Close the provincial tourism policy gap and embed tourism in IDPs and spatial plans, with reporting",
+     "DEDAT; municipalities"
+    ],
+    [
+     "Partners",
+     "Share visitor-level data from ticketing and reservation systems",
+     "Attraction operators; CapeNature"
+    ],
+    [
+     "National",
+     "Approve a provincial tourism GDP and jobs methodology and resource the tourism satellite account",
+     "Department of Tourism; Stats SA"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "New Zealand's route-accountable model rests partly on shared data platforms between tourism bodies and airlines, and it recorded more than 16,000 incremental bookings (Global Benchmarking Report, Mar 2026, p54). Valencia is the realism check: integrating data systems across institutions there created technical and organisational challenges (p45)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I16**, data-sharing protocol and visitor intelligence (section 4.3). **Indicator** T2-23 automated data feeds in the dashboard at outcome level (section 5.2)."
+  }
+ ]
+}

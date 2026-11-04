@@ -1,0 +1,227 @@
+{
+ "id": "5.1",
+ "title": "Results chain",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "5.1 Results chain"
+  },
+  {
+   "type": "lead",
+   "text": "Every initiative is measured at three levels: what it produces, what changes because of it and what that adds to the 2035 case."
+  },
+  {
+   "type": "p",
+   "text": "The framework is the written form of the M&E toolkit the SLA requires (clauses 1.1.4 and 1.1.10). It sets indicators, baselines and targets for arrivals, spend, jobs, airlift, cruise and SMME inclusion, with the tools to track them [clause wording to be checked against the signed Annexure B]. The Inception Report adds geographic spread and asks for definitions, sources, frequency, owners and governance for each indicator (Inception Report, Nov 2025, p23)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_5_chain",
+   "caption": "Initiatives produce outputs Wesgro controls, which move outcomes Wesgro shares with partners, which add up to the 2035 impact.",
+   "source": "Letsema, results chain for the plan.",
+   "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1600 560\" width=\"1600\" height=\"560\" font-family=\"Raleway, Arial, sans-serif\"><rect width=\"1600\" height=\"560\" fill=\"#ffffff\"/><rect x=\"40\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#5B6572\"/><text x=\"175\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">Inputs</text><text x=\"175\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Wesgro budget and units</text><text x=\"175\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Partner budgets</text><text x=\"175\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Data from SA Tourism,</text><text x=\"175\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">ACSA, Stats SA, OTAs</text><polygon points=\"318,230 344,240 318,250\" fill=\"#5B6572\"/><line x1=\"312\" y1=\"240\" x2=\"324\" y2=\"240\" stroke=\"#5B6572\" stroke-width=\"4\"/><rect x=\"352\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#1F7A8C\"/><text x=\"487\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">Activities</text><text x=\"487\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">18 initiatives,</text><text x=\"487\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">I1 to I18</text><text x=\"487\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">82 actions by tier</text><text x=\"487\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">(Chapter 3)</text><polygon points=\"630,230 656,240 630,250\" fill=\"#5B6572\"/><line x1=\"624\" y1=\"240\" x2=\"636\" y2=\"240\" stroke=\"#5B6572\" stroke-width=\"4\"/><rect x=\"664\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#7A9E7E\"/><text x=\"799\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">Outputs</text><text x=\"799\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">36 Tier 3 indicators</text><text x=\"799\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Calendar published,</text><text x=\"799\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">fund constituted,</text><text x=\"799\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">routes bookable</text><polygon points=\"942,230 968,240 942,250\" fill=\"#5B6572\"/><line x1=\"936\" y1=\"240\" x2=\"948\" y2=\"240\" stroke=\"#5B6572\" stroke-width=\"4\"/><rect x=\"976\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#C98B2B\"/><text x=\"1111\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">Outcomes</text><text x=\"1111\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">25 Tier 2 indicators</text><text x=\"1111\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Seats, readiness,</text><text x=\"1111\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">bookability, hub</text><text x=\"1111\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">arrivals, pilots</text><polygon points=\"1254,230 1280,240 1254,250\" fill=\"#5B6572\"/><line x1=\"1248\" y1=\"240\" x2=\"1260\" y2=\"240\" stroke=\"#5B6572\" stroke-width=\"4\"/><rect x=\"1288\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#0B3C5D\"/><text x=\"1423\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#fff\">Impact</text><text x=\"1423\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">7 Tier 1 indicators</text><text x=\"1423\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">Arrivals, spend, jobs,</text><text x=\"1423\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">green season, spread,</text><text x=\"1423\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#fff\">community spend</text><rect x=\"40\" y=\"460\" width=\"1520\" height=\"70\" rx=\"8\" fill=\"#F3F6F9\"/><text x=\"800\" y=\"503\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1C2431\">Wesgro controls the first three columns; outcomes and impact also depend on airlines, national government and the wider economy</text></svg>"
+  },
+  {
+   "type": "p",
+   "text": "The three tables below give the chain for each pillar. Tier 3 output indicators come from the initiative charters, Tier 2 outcome indicators from the focus areas and Tier 1 impact indicators from the growth case."
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share.",
+   "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
+   "columns": [
+    {
+     "header": "Initiative (activity)",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Outputs (Tier 3)",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Outcomes (Tier 2)",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Impact (Tier 1)",
+     "width": 1.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "I1 Segment-led activation and yield",
+     "T3-01, T3-02 segment targets set; spend moved to conversion",
+     "T2-01 segment home-market arrivals; T2-07 mature-market spend per visitor",
+     "T1-01, T1-02, T1-03"
+    ],
+    [
+     "I2 Green-season events calendar",
+     "T3-03, T3-04 calendar published; green-season bids",
+     "T2-02 ICCA meetings; T2-03 May to September seat share",
+     "T1-05"
+    ],
+    [
+     "I3 Bookable province",
+     "T3-05, T3-06 census published; operators onboarded",
+     "T2-04 operators bookable online; T2-05 CapeNature online share",
+     "T1-06"
+    ],
+    [
+     "I4 India and China hub conversion",
+     "T3-07, T3-08 carrier agreements; route cases",
+     "T2-06 India and China hub arrivals",
+     "T1-01, T1-02"
+    ],
+    [
+     "I5 Regional Africa",
+     "T3-09, T3-10 activation run; capacity cases",
+     "T2-08 African arrivals and spend",
+     "T1-02, T1-03"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro.",
+   "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
+   "columns": [
+    {
+     "header": "Initiative (activity)",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Outputs (Tier 3)",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Outcomes (Tier 2)",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Impact (Tier 1)",
+     "width": 1.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "I6 Route development and seat retention",
+     "T3-11, T3-12 fund constituted; runway reports",
+     "T2-09 seats and routes; T2-10 routes above 80% load",
+     "T1-01"
+    ],
+    [
+     "I7 Cruise growth through product",
+     "T3-13, T3-14 excursions listed; lines engaged",
+     "T2-11 cruise calls and passengers",
+     "T1-03"
+    ],
+    [
+     "I8 Corridor mobility",
+     "T3-15, T3-16 Southern Line product; shuttles bookable",
+     "T2-12 accessibility; T2-13 corridor transfer products",
+     "T1-06"
+    ],
+    [
+     "I9 Corridor product development",
+     "T3-17, T3-18 itineraries listed; assets activated",
+     "T2-14 readiness by district",
+     "T1-06"
+    ],
+    [
+     "I10 Visitor experience and quality",
+     "T3-19, T3-20 charter adopted; businesses certified",
+     "T2-15 routes rated Ready",
+     "T1-03"
+    ],
+    [
+     "I11 Flagship site demand management",
+     "T3-21, T3-22 baseline published; flow tools in place",
+     "T2-16 peak Cableway queue",
+     "T1-06"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on.",
+   "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
+   "columns": [
+    {
+     "header": "Initiative (activity)",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Outputs (Tier 3)",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Outcomes (Tier 2)",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Impact (Tier 1)",
+     "width": 1.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "I12 Community inclusion pilots",
+     "T3-23, T3-24 pilots selected; tests held",
+     "T2-17 communities with a live booking route",
+     "T1-07"
+    ],
+    [
+     "I13 Climate resilience and LTO funding",
+     "T3-25, T3-26 risk register; funding model",
+     "T2-18 LTOs funded; T2-19 weather losses",
+     "T1-06"
+    ],
+    [
+     "I14 Tourism investment pipeline",
+     "T3-27, T3-28 cases prepared; investor engagements",
+     "T2-20 projects at financial close",
+     "T1-03, T1-04"
+    ],
+    [
+     "I15 Steerco and three-tier alignment",
+     "T3-29, T3-30 quarterly Steerco; joint industry plan",
+     "T2-21 escalations resolved; T2-22 partners in the joint plan",
+     "All"
+    ],
+    [
+     "I16 Data protocol and intelligence",
+     "T3-31, T3-32 agreements signed; dashboard live",
+     "T2-23 data feeds in the dashboard",
+     "All"
+    ],
+    [
+     "I17 Access and safety escalation",
+     "T3-33, T3-34 agenda tabled; responses logged",
+     "T2-24 visa processing time",
+     "T1-01, T1-02"
+    ],
+    [
+     "I18 Labour analysis and skills plan",
+     "T3-35, T3-36 analysis published; skills plan adopted",
+     "T2-25 labour analysis published",
+     "T1-04"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

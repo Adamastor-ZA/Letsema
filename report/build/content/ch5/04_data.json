@@ -1,0 +1,210 @@
+{
+ "id": "5.4",
+ "title": "Data sources and gaps",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "5.4 Data sources and gaps"
+  },
+  {
+   "type": "lead",
+   "text": "Arrivals, seats and cruise volumes can be tracked from existing feeds; spread, bookability, jobs and community spend cannot until new data is built or shared."
+  },
+  {
+   "type": "p",
+   "text": "Stakeholders put data among the top barriers: no approved methodology exists for provincial tourism GDP and jobs (Stakeholder Insights Report, Mar 2026, p37), and no one holds a single view of visitor behaviour (Current State Diagnostic, Dec 2025, p56, p57). The data-sharing protocol under focus area 18 (I16) is the route to closing the gaps below."
+  },
+  {
+   "type": "table",
+   "caption": "Six sources cover most of the indicators, and each has a named holder the protocol must reach.",
+   "source": "Letsema, from the indicator register; data holders in part as listed in Current State Diagnostic, Dec 2025, p56, p57.",
+   "columns": [
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Holder",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Indicators",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Frequency",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Status",
+     "width": 1.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Departure survey and performance reports",
+     "SA Tourism",
+     "T1-01 to T1-03, T1-05, T2-07, T2-08",
+     "Quarterly and annual",
+     "Published; provincial cuts on request"
+    ],
+    [
+     "Passenger statistics and schedules",
+     "ACSA; OAG",
+     "T1-01 proxy, T2-03, T2-09",
+     "Monthly",
+     "Available; automated feed possible"
+    ],
+    [
+     "GDS bookings by route",
+     "MIDAS or a data vendor",
+     "T2-06, T2-10",
+     "Annual",
+     "Repeat commission needed"
+    ],
+    [
+     "Cruise season economic contribution",
+     "Cruise Cape Town (economic contribution study)",
+     "T2-11",
+     "Each season",
+     "Received by Wesgro; study not in this evidence base"
+    ],
+    [
+     "Infrastructure readiness scores",
+     "Wesgro; Letsema method",
+     "T2-12, T2-14, T2-15",
+     "Every three years",
+     "Re-score in 2029 and 2032"
+    ],
+    [
+     "Operator, site and pilot records",
+     "LTOs; CapeNature; site operators; pilots",
+     "T2-04, T2-05, T2-16, T2-17, T2-19",
+     "Annual",
+     "New collection under the protocol"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Eleven data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+   "source": "Letsema, from the placeholders in Chapters 3 and 5; owners and dates proposed for Steerco to confirm.",
+   "columns": [
+    {
+     "header": "Gap",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "Indicator",
+     "width": 0.9,
+     "align": "left"
+    },
+    {
+     "header": "Proposed owner",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Proposed date",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Route",
+     "width": 1.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "District-level visitor arrivals and spend",
+     "T1-06",
+     "Research",
+     "End 2027",
+     "SA Tourism cut; protocol"
+    ],
+    [
+     "Provincial tourism employment baseline",
+     "T1-04",
+     "Research",
+     "Mid 2027",
+     "Pero; Stats SA provincial TSA"
+    ],
+    [
+     "Methodology for two jobs per 100 passengers",
+     "T1-04",
+     "Air Access",
+     "Mid 2027",
+     "Cape Town Air Access note"
+    ],
+    [
+     "Count of bookable products by district",
+     "T2-04",
+     "Research",
+     "End 2027",
+     "Bookability census (I3)"
+    ],
+    [
+     "Visitor counts and capacity at five flagship sites",
+     "T2-16",
+     "Research",
+     "End 2027",
+     "Request to operators (I11)"
+    ],
+    [
+     "Meetings, incentives and exhibitions volumes",
+     "T2-02",
+     "Convention Bureau",
+     "End 2028",
+     "Venue and DMC returns"
+    ],
+    [
+     "LTOs and their municipal funding",
+     "T2-18",
+     "DEDAT",
+     "End 2027",
+     "LTO survey"
+    ],
+    [
+     "Visa processing times by market",
+     "T2-24",
+     "Wesgro CEO's office",
+     "End 2027",
+     "Request to Home Affairs (I17)"
+    ],
+    [
+     "Nigeria and Ghana in the growth model",
+     "T1-02",
+     "Research",
+     "Mid 2027",
+     "Model update"
+    ],
+    [
+     "Source and definition of the 250 cruise-call plan",
+     "T2-11",
+     "Cruise Cape Town",
+     "Mid 2027",
+     "Cruise Cape Town"
+    ],
+    [
+     "Mid-scale accommodation stock by district",
+     "T2-15",
+     "Research",
+     "End 2028",
+     "Supply database or audit"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}
