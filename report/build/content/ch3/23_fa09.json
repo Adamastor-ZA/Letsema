@@ -1,0 +1,172 @@
+{
+ "id": "3.2.1",
+ "title": "Accelerate tourism-enabling internal mobility",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 2.1 · Accessibility, connectivity and infrastructure · Focus area 9"
+  },
+  {
+   "type": "h3",
+   "text": "Accelerate tourism-enabling internal mobility"
+  },
+  {
+   "type": "lead",
+   "text": "Accessibility falls from 4.7 out of 5 in the Cape Metro to 1.0 in the Central Karoo, and beyond the Metro and the Garden Route the province is effectively car-only."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Accelerate Tourism-Enabling Internal Mobility (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Access decays from 4.7 to 1.0. The Infrastructure Report's comparative regional analysis and the Department of Mobility's evidence to the stakeholder programme drove the disposition. The 4.7 is the Metro's score on attractions and services; on transport it scores 5.0."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Access falls away with distance from Cape Town, and the rail and road assets that exist are not run for visitors.",
+   "source": "Infrastructure Report, Jul 2026 (IR; comparative regional analysis on a 1 to 5 scale); Stakeholder Insights Report, Mar 2026 (SIR; the theme count is reconstructed from the appendix tables, which print no tally).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Access decays with distance",
+     "Accessibility Cape Metro 4.7 (5.0 on transport), Cape Winelands 3.3, Garden Route 3.0, Overberg 2.0, West Coast 1.7, Central Karoo 1.0",
+     "IR p88 to p90"
+    ],
+    [
+     "One corridor, mostly car-only",
+     "The N2 is the only continuous inter-regional tourism corridor; beyond the Metro and the Garden Route the province is effectively car-only",
+     "IR p98, p99"
+    ],
+    [
+     "Rail exists but not for visitors",
+     "Metrorail runs 104 of 121 stations and 22.7m trips (FY2025), but no rail reaches the airport and the Southern Line's visitor branding dates to 2007",
+     "IR p100"
+    ],
+    [
+     "The Metro's last mile is unfunded",
+     "MyCiTi Phase 2 (R3.3bn) does not reach Chapman's Peak, Constantia or Cape Point south",
+     "IR p32"
+    ],
+    [
+     "No shuttles between towns",
+     "No inter-town shuttle on the Garden Route despite obvious demand; no public tourism transport between Hermanus, Stanford, Elim and Agulhas",
+     "IR p90, p67"
+    ],
+    [
+     "Stakeholders rank it high",
+     "18 insight rows from 8 of 16 organisations, 10 rated High, including public transport and airport transfer times",
+     "SIR p22, p20 to p46"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The Infrastructure Report's conclusion frames the entry: transport is primarily a connectivity and dispersal challenge, not a province-wide capacity crisis (Infrastructure Report, Jul 2026, p114). The Department of Mobility adds that mobility responsibilities are split across three tiers of government (Stakeholder Insights Report, Mar 2026, p23)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should not try to build transport. It should make the transport that exists usable for visitors and aggregate the demand that makes shuttles viable. The Southern Line is a ready-made, low-cost scenic corridor through Muizenberg, Kalk Bay, Boulders and Simon's Town (Infrastructure Report, Jul 2026, p100). On the West Coast, operators say a shared shuttle needs demand aggregation and booking integration to work (Stakeholder Insights Report, Mar 2026, p41)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Package the Southern Line as a visitor product, with refreshed branding and day passes",
+     "Tourism; Destination Marketing; City of Cape Town; PRASA"
+    ],
+    [
+     "Wesgro",
+     "Aggregate demand and bookings for corridor shuttles, starting on the Garden Route and between Cape Town, Darling and the West Coast",
+     "Tourism; district municipalities; private operators"
+    ],
+    [
+     "Wesgro",
+     "Sell the transfer inside the itinerary on the N2 and R62 routes, so visitors without a car can buy the trip",
+     "Destination Marketing; operators"
+    ],
+    [
+     "Partners",
+     "Complete the Central Line recovery, MyCiTi Phase 2 and the unfunded last mile to Cape Point, with integrated ticketing",
+     "City of Cape Town; PRASA; Department of Mobility"
+    ],
+    [
+     "Partners",
+     "Take forward the Cape Town to George rapid rail assessment and extend the George public transport model",
+     "Department of Mobility"
+    ],
+    [
+     "National",
+     "Lift the national rule that blocks bank-card payments on the George bus, and fund passenger rail beyond the Metro",
+     "National government; PRASA"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "No benchmark case carries an internal mobility lever with figures. The nearest is Chile, where a domestic air network links Santiago to Patagonia, Atacama, Valparaíso and the wine valleys, run as a designed portfolio rather than standalone attractions (Global Benchmarking Report, Mar 2026, p25, p27)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I8**, corridor mobility (section 4.3). **Indicators** T1-06 share of arrivals and spend outside the Metro at impact level, and T2-12 accessibility score by district and T2-13 corridor transfer products at outcome level (section 5.2)."
+  }
+ ]
+}

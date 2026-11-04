@@ -1,0 +1,167 @@
+{
+ "id": "3.1.2",
+ "title": "Increase yield in mature markets",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 1.2 · Source market growth and diversification · Focus area 5"
+  },
+  {
+   "type": "h3",
+   "text": "Increase yield in mature markets"
+  },
+  {
+   "type": "lead",
+   "text": "The mature markets already pay the most and fill the fullest routes, so growth there comes from more value per visitor and more seats on existing routes, not from more marketing."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Increase Yield in Mature Markets (UK, Europe, N. America) (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Full routes. The October title drops the list of markets. MIDAS drove the disposition: the mature long-haul routes run above 80% load, and carriers on full routes raise fares before they add seats."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "The highest-spending visitors come from the slowest-growing markets on the fullest routes.",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (year to November 2025); Demand-Side Analysis, Jun 2026 (DSA); Market Assessment Report, May 2026 (MA, 2025 base). No deliverable carries fare, revenue-per-seat or yield data.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Five mature routes are full",
+     "Load factor Newark 88.6%, Atlanta 84.3%, Frankfurt 83.0%, Heathrow 83.0% and Washington 80.2%; eleven of the 27 tabled routes run above 80%",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Carriers price before they add",
+     "Rather than increase capacity, carriers will seek higher selling fares rather than add new services",
+     "MIDAS, In Conclusion"
+    ],
+    [
+     "Mature visitors spend most",
+     "Average spend in the province USA R32,900, UK R26,500 and Germany R25,600, against Zimbabwe R8,500 (2024)",
+     "DSA p14"
+    ],
+    [
+     "The province earns a premium",
+     "13% to 16% of national arrivals by quarter in 2025, but 20% to 27% of national foreign direct spend",
+     "DSA p11"
+    ],
+    [
+     "Five markets dominate",
+     "The top five supplied 63% of overseas arrivals in 2025, and the UK, Germany and USA 52%",
+     "DSA p13"
+    ],
+    [
+     "Growth is steady",
+     "Mature group 587,287 to 766,067 arrivals in the base case, 2025 to 2035",
+     "MA p21; DSA p22"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The yield lever rests on MIDAS's reading of carrier behaviour, and no deliverable models a yield uplift. The entry therefore sets yield as an indicator to establish, not a target to hit, until spend per visitor by market is tracked every year [yield baseline: SAT spend per visitor by market as an annual series; only 2024 is printed]."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should protect share and raise value per visitor in the mature markets, and work the full routes for frequency and gauge before it chases new ones. The Demand-Side Analysis frames the job as protecting share, increasing yield and driving regional dispersal while new growth markets are developed (Demand-Side Analysis, Jun 2026, p17). MIDAS sees tactical room for added frequency on some routes and larger aircraft from some airlines (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Make the case to carriers on the five full routes for added frequency or larger aircraft, backed by green-season marketing",
+     "Air Access; airlines"
+    ],
+    [
+     "Wesgro",
+     "Sell Discerning Connoisseur product through luxury advisors and high-end operators in the UK, USA, Germany, France and Switzerland",
+     "Destination Marketing; trade"
+    ],
+    [
+     "Wesgro",
+     "Add a yield measure, spend per visitor by market with length of stay, beside arrivals in Wesgro's own targets",
+     "Research"
+    ],
+    [
+     "Partners",
+     "Invest in premium product outside the Metro and in the midscale branded accommodation the province lacks (focus areas 11 and 15)",
+     "Accommodation investors; hospitality bodies"
+    ],
+    [
+     "National",
+     "Escalate the cap on US carriers, the unsigned Open Skies agreement and the bilateral agreements that limit airlift",
+     "Department of Transport"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "New Zealand runs yield-based performance, putting revenue per visitor and length of stay ahead of arrivals growth and selling premium regional itineraries through specialist travel designers (Global Benchmarking Report, Mar 2026, p55). Its total visitor spend grew 9.2% in the year to March 2025, against arrivals growth of 5.9% (p53)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I1**, segment-led activation and yield in mature markets (section 4.3), with the frequency case run under **I6** (focus area 7). **Indicators** T1-03 direct foreign spend at impact level and T2-07 mature-market spend per visitor at outcome level (section 5.2)."
+  }
+ ]
+}

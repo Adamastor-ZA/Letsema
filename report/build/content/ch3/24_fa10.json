@@ -1,0 +1,180 @@
+{
+ "id": "3.2.2",
+ "title": "Support diversified route and product development",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "3.2.2 Product and destination capacity"
+  },
+  {
+   "type": "p",
+   "text": "The second supply theme covers what visitors find once they arrive: product beyond the icons, the quality of the stay and the limits of the flagship sites. All three December entries carried through as Validated."
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 2.2 · Product and destination capacity · Focus area 10"
+  },
+  {
+   "type": "h3",
+   "text": "Support diversified route and product development"
+  },
+  {
+   "type": "lead",
+   "text": "The province does not lack attractions; it lacks finished experiences around them, with assets outside the Metro left without guides, interpretation or bookable product and one touring route of six rated Ready."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Support Diversified Route and Product Development (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Idle assets and cold zones. The Infrastructure Report's spatial maps and route scorecards drove the disposition, and 11 of the 16 organisations in the stakeholder programme raised the theme. Cold zones is the report's own term; idle assets paraphrases its finding that assets are inactivated or underused."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Assets are spread across the province, but product, packaging and investment stop at the core routes.",
+   "source": "Infrastructure Report, Jul 2026 (IR; route ratings are approximate and the asset count carries no year); Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Assets are spread",
+     "50,332 mapped tourism assets; the Cape Metro holds 40.3% and the five other districts the rest",
+     "IR p2, p23"
+    ],
+    [
+     "Assets are not activated",
+     "Overberg and West Coast marine and wildflower assets have no guided tours, interpretation centres or bookable product; the Central Karoo and northern inland are attraction deserts",
+     "IR p93"
+    ],
+    [
+     "Cold zones in every district",
+     "Industrial belts with zero tourism conversion in the Metro; the inland Garden Route north of the N2; the Rûens interior; the N1 transit corridor in the Central Karoo",
+     "IR p24, p35, p68, p79"
+    ],
+    [
+     "One route is Ready",
+     "Cape Peninsula Ready; Garden Route, Cape Winelands, Whale Coast and Route 62 Developing; West Coast and Cederberg Emerging",
+     "IR p29, p39, p50, p61, p72, p83"
+    ],
+    [
+     "No capital for product",
+     "Non-wine diversification in the Winelands is strategy, not committed capital; De Hoop lacks accommodation investment; Overberg year-round product is unfunded",
+     "IR p54, p76"
+    ],
+    [
+     "Stakeholders see concentration",
+     "11 of 16 organisations raised the theme; the offer is seen as concentrated around Cape Town and a narrow set of icons",
+     "SIR p11"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The Infrastructure Report's own conclusion is that the constraint is less about creating new attractions and more about turning existing assets into complete, accessible visitor experiences (Infrastructure Report, Jul 2026, p114). No deliverable counts the assets that have no product around them [assets with no bookable product or guided access, by district: needs the Wesgro supply database behind the 50,332 count]."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should deepen the three corridors closest to ready, the Garden Route, the Cape Winelands and the Overberg, and package the two outer routes as slow-travel products. The Infrastructure Report places the strongest regional opportunity in deepening existing corridors through connectivity, packaging and service depth (Infrastructure Report, Jul 2026, p114). Dispersal needs deliberate corridor investment, not organic spillover from Cape Town (p5). Stellenbosch and George can anchor regional business events (Demand-Side Analysis, Jun 2026, p41)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Package bookable multi-day itineraries on each of the six touring routes, starting with the Whale Coast east of Hermanus, Route 62 and the West Coast",
+     "Tourism; Destination Marketing; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Activate cold-zone assets with guided tours, interpretation and bookable product, beginning with the marine and wildflower assets",
+     "Tourism; CapeNature; SANParks; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Build regional conference offers in Stellenbosch and George, with stays before and after Cape Town events",
+     "Convention Bureau"
+    ],
+    [
+     "Partners",
+     "Invest in accommodation and service depth beyond Hermanus, in Route 62's secondary towns and beyond Langebaan and Paternoster (focus area 15)",
+     "Accommodation investors; municipalities"
+    ],
+    [
+     "Partners",
+     "Refresh flagship product: Robben Island beyond the prison tour; the Cableway's lower station",
+     "Robben Island Museum; Table Mountain Aerial Cableway"
+    ],
+    [
+     "National",
+     "Complete SA Connect rural broadband and SANParks precinct projects such as the R81.7m Agulhas lighthouse precinct",
+     "National government; SANParks"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Chile ran Santiago, Valparaíso, the wine valleys and Patagonia as one portfolio, which raised global awareness, earned revenue in the shoulder season and lengthened stays as visitors explored several regions (Global Benchmarking Report, Mar 2026, p27). The required change for the Western Cape is to sell experiences as curated journeys and move from asset marketing to experience-led packaging (p28)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I9**, corridor product development (section 4.3). **Indicators** T1-06 share of arrivals and spend outside the Metro at impact level and T2-14 readiness by district at outcome level (section 5.2)."
+  }
+ ]
+}

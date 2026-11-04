@@ -58,7 +58,8 @@ for (const dir of dirs) {
     // Chapter 3 template: each h3 entry (focus area) must have the kicker and the five h4 parts.
     if (/ch3/.test(dir)) {
       const blocks = section.blocks || [];
-      const entries = blocks.map((b, i) => ({ b, i })).filter(({ b }) => b.type === 'h3');
+      // Theme headings ("3.1.1 Traveller, brand and proposition") are h3 too but carry a section number; skip them.
+      const entries = blocks.map((b, i) => ({ b, i })).filter(({ b }) => b.type === 'h3' && !/^\d+\.\d+\.\d+\s/.test(b.text));
       entries.forEach(({ i }, k) => {
         const end = k + 1 < entries.length ? entries[k + 1].i : blocks.length;
         const slice = blocks.slice(i, end);

@@ -1,0 +1,175 @@
+{
+ "id": "3.2.1",
+ "title": "Win direct routes and add seats on full routes",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "3.2.1 Accessibility, connectivity and infrastructure"
+  },
+  {
+   "type": "p",
+   "text": "The first supply theme covers how visitors reach the province and move through it. It holds three focus areas: air access, cruise and internal mobility. The December entry on visa and safety deficits left this theme for section 3.3.2."
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 2.1 · Accessibility, connectivity and infrastructure · Focus area 7"
+  },
+  {
+   "type": "h3",
+   "text": "Win direct routes and add seats on full routes"
+  },
+  {
+   "type": "lead",
+   "text": "Eleven of 27 international routes run above 80% load and carriers raise fares before seats, so the province must win frequency and larger aircraft now, ahead of runway relief in about 2033."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Close the Air Access and Cruise Capacity Gaps (Current State Diagnostic, Dec 2025, p64). The air half of the entry became this focus area and the cruise half became focus area 8."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Reworded.** The October record gives the reason as 16 of 27 routes above 80% and fares before seats. MIDAS, the source, prints eleven routes above 80%; sixteen is the count at 75% or more, and the report uses both on that basis [Summary of Findings, 14 Oct 2026: the deck's basis for 16 to confirm]. MIDAS and the Infrastructure Report's air-access section drove the change."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "The network is full on its best routes, the airport is full at its runway, and relief lands after the base case passes the seat ceiling.",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (twelve months to November 2025; 76.0% is the printed network total and the 27 rows sum to 75.0%); Demand-Side Analysis, Jun 2026 (DSA); Infrastructure Report, Jul 2026 (IR).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Routes are full",
+     "11 of 27 tabled routes above 80% load and 16 at 75% or more; network load 76.0%",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Fares before seats",
+     "Carriers on full routes will seek higher fares rather than add services, though there is tactical room for added frequency and larger aircraft",
+     "MIDAS, In Conclusion"
+    ],
+    [
+     "A record to build on",
+     "17 mainline international routes added from 2015 to 2025, ahead of Santiago (14), Valencia (12) and Calgary (8)",
+     "MIDAS, International Comparisons"
+    ],
+    [
+     "A seat ceiling in 2030",
+     "Current air access caps inbound seats at 1.8 million; the base case passes it at the 2030 year point (1,802,929)",
+     "DSA p21"
+    ],
+    [
+     "Relief lands late",
+     "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033",
+     "IR p102, p103"
+    ],
+    [
+     "Second gateways",
+     "George is solved by 2028 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
+     "IR p104 to p109"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The Infrastructure Report puts the timing problem in one line: the certain fix is the latest, and the earliest big-capacity option is the least certain (Infrastructure Report, Jul 2026, p109). No airline took part in the first phase of stakeholder engagement, so the carriers' own view of frequency and gauge is still to be tested (Stakeholder Insights Report, Mar 2026, p16)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should split the air agenda by horizon. Until about 2032 the job is to fill and enlarge what already flies: frequency and larger aircraft on the full routes, hub-carrier capacity and the five regional routes MIDAS names. After that, the job is to have direct India and China route cases ready when runway capacity arrives. The Demand-Side Analysis lists the moves: added frequency from Emirates, Qatar Airways and Ethiopian Airlines, long-term route cases for India and China, and coordinated airline incentives through Cape Town Air Access (Demand-Side Analysis, Jun 2026, p54)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Run a seat-retention and frequency programme on the full routes, with joint marketing tied to route performance",
+     "Air Access; Destination Marketing; airlines"
+    ],
+    [
+     "Wesgro",
+     "Set up a public-private air access fund for route support, on the Chilean model",
+     "Air Access; DEDAT; City of Cape Town; private sector"
+    ],
+    [
+     "Wesgro",
+     "Treat runway delivery as the first risk: track approvals and milestones quarterly and commission a capacity-against-demand model to 2035",
+     "Air Access; Research"
+    ],
+    [
+     "Partners",
+     "Deliver the runway, terminals and George upgrade on the published dates; close the funding and name a carrier at Cape Winelands",
+     "ACSA; Cape Winelands Airport"
+    ],
+    [
+     "National",
+     "Escalate bilateral air service agreements, the cap on US carriers and immigration processing at Cape Town International",
+     "Department of Transport; Home Affairs"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Chile treated its gateway airport as economic infrastructure: a private concession funded a ~US$900 million expansion at Santiago, and international seats grew ~40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). The required change for the Western Cape is a permanent, well-funded public-private air access fund and active lobbying for air service liberalisation (p28)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I6**, route development and seat retention with a public-private air access fund (section 4.3). **Indicators** T1-01 international arrivals at impact level, and T2-09 seats and routes and T2-10 routes above 80% load at outcome level (section 5.2)."
+  }
+ ]
+}

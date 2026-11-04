@@ -5,6 +5,7 @@
 //   numbered | bullets                               -> { type, items: [..], ref? }
 //   table   -> { type, caption, source, columns: [{header, width, align}], rows: [[..]], boldFirstCol? }
 //   box     -> { type, title, paras: [..] }
+//   grid    -> { type, columns, rows } (unnumbered table, no caption: Chapter 3 action tables)
 //   figure  -> { type, id, caption, source, widthCm?, svg? (inline SVG string) | file? (png under assets/png) }
 //   pagebreak
 const fs = require('fs');
@@ -53,6 +54,7 @@ function render(ctx, H, blocks, heads) {
       case 'bullets': out.push(...H.bullets(b.items)); break;
       case 'table': out.push(...H.table(ctx, { caption: b.caption, source: b.source, columns: b.columns, rows: b.rows, boldFirstCol: !!b.boldFirstCol, zebra: b.zebra !== false })); break;
       case 'box': out.push(...H.box(b.title, b.paras || [])); break;
+      case 'grid': out.push(H.grid(b.columns, b.rows, { zebra: b.zebra !== false }), H.spacer(6)); break;
       case 'figure': out.push(...H.figure(ctx, { file: ensureFigure(b), caption: b.caption, source: b.source, widthCm: b.widthCm })); break;
       case 'pagebreak': out.push(H.pageBreak()); break;
       case 'spacer': out.push(H.spacer(b.pt || 6)); break;

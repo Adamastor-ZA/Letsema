@@ -12,7 +12,7 @@
   },
   {
    "type": "p",
-   "text": "Section 2.5 opened with the scale of the gap: the 20 shortlisted communities hold 18.4% of residents and receive 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). This section explains why."
+   "text": "Section 2.5 opened with the scale of the gap: the 20 shortlisted communities hold 18.4% of residents (Census 2011) and receive a traced floor of 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). This section explains why."
   },
   {
    "type": "h3",
@@ -44,7 +44,7 @@
   },
   {
    "type": "p",
-   "text": "**1. The communities hold people, not spend.** The 20 shortlisted communities hold 18.4% of Western Cape residents and 15.4% of employed residents but receive 0.02% to 0.04% of foreign direct spend, about R4m to R10m a year on the documented floor (SME and Community Inclusion Plan, Sep 2026, p5). Capturing 1% of FY2025 foreign direct spend would bring R259m a year (p5)."
+   "text": "**1. The communities hold people, not spend.** The 20 shortlisted communities hold 18.4% of Western Cape residents and 15.4% of employed residents (Census 2011) but receive 0.02% to 0.04% of foreign direct spend, about R4m to R10m a year on the documented floor (SME and Community Inclusion Plan, Sep 2026, p5). Capturing 1% of FY2025 foreign direct spend would bring R259m a year (p5)."
   },
   {
    "type": "p",
@@ -449,7 +449,7 @@
    "rows": [
     [
      "Communities hold people, not spend",
-     "18.4% of residents; 0.02% to 0.04% of foreign spend; R4m to R10m a year",
+     "18.4% of residents (Census 2011); 0.02% to 0.04% of foreign direct spend traced (floor); R4m to R10m a year",
      "p5"
     ],
     [

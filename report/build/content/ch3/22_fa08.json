@@ -1,0 +1,167 @@
+{
+ "id": "3.2.1",
+ "title": "Grow cruise calls and ports",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 2.1 · Accessibility, connectivity and infrastructure · Focus area 8"
+  },
+  {
+   "type": "h3",
+   "text": "Grow cruise calls and ports"
+  },
+  {
+   "type": "lead",
+   "text": "Cruise already brings about R1.79bn a year with Cape Town's berth at about 40% of its season capacity, so growth comes from ships, excursions and regional day stops, not from port capital."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Close the Air Access and Cruise Capacity Gaps (Current State Diagnostic, Dec 2025, p64), the cruise half of the entry."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: New.** The October record gives 79 calls in 2024/25 and a plan to 250. The Infrastructure Report's cruise and ports section drove the split from air access: cruise runs well below berth capacity and is a product and marketing lever, a different problem from the airport."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight.",
+   "source": "Current State Diagnostic, Dec 2025 (Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, cited through the Diagnostic); Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR). The Diagnostic counts 79 vessels and the Infrastructure Report 83 calls for the same season; passengers and economic impact agree. Mossel Bay's 27 a season is its own figure; the Infrastructure Report prints 21.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Calls and passengers",
+     "79 vessels and 127,178 passengers in 2024/25, up from 67 vessels in 2023/24",
+     "Diag p37"
+    ],
+    [
+     "A berth with room",
+     "Cape Town's equipped berth ran at about 40% of a season capacity of 150 or more calls; 83 calls and R1.79bn economic impact in 2024/25",
+     "IR p110"
+    ],
+    [
+     "Ship size and wind bind",
+     "300m maximum ship length at the equipped berth; the South-Easter delays berthing; no shore power",
+     "IR p110"
+    ],
+    [
+     "Regional ports extend the route",
+     "Mossel Bay 21 calls and about 13,000 passengers, with a R22m reception facility opened in November 2025; Saldanha Bay 3 trial calls into an ore terminal",
+     "IR p111"
+    ],
+    [
+     "Port capital is for freight",
+     "Cape Town's container expansion and Saldanha's R4bn iron-ore expansion add no cruise capacity; the R22m Mossel Bay facility is the only cruise capital",
+     "IR p112"
+    ],
+    [
+     "Packaging works",
+     "Mossel Bay calls rose from four before COVID to 27 a season through closer coordination and better excursion packaging, with Wesgro credited",
+     "SIR p20, p21"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The plan to 250 calls in the October record appears in no deliverable. Cape Town's season capacity is about 150 calls, so 250 would need a second berth, a longer season or the regional ports counted in, and no document describes any of these [plan to 250 cruise calls: source, horizon and definition to confirm with Cruise Cape Town]. The report carries the 2024/25 baseline and holds the target open until the source is in hand."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should grow cruise through ships, excursions and regional day stops. The Infrastructure Report's own conclusion is to grow it through product and marketing, not capital works (Infrastructure Report, Jul 2026, p112). Cape Town anchors the itinerary, and Mossel Bay and Saldanha Bay extend it west and east as day stops rather than home ports (p111). The Inception Report names home porting and expedition vessels as the segments that bring longer stays and higher local spend (Inception Report, Nov 2025, p9)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Market Cape Town to lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
+     "Cruise Cape Town; Destination Marketing"
+    ],
+    [
+     "Wesgro",
+     "Back Mossel Bay now with packaged excursions and line marketing; keep Saldanha Bay on watch until demand is proven",
+     "Cruise Cape Town; Mossel Bay municipality"
+    ],
+    [
+     "Wesgro",
+     "Put community and regional product on cruise-operator channels, starting with a bookable walk in the Knysna townships",
+     "Cruise Cape Town; LTOs"
+    ],
+    [
+     "Partners",
+     "Manage berth scheduling and wind delays at Cape Town, plan for shore power and review the 300m limit",
+     "Transnet National Ports Authority; V&A Waterfront"
+    ],
+    [
+     "National",
+     "Put cruise into port planning, since current Western Cape port capital carries no cruise capacity",
+     "Transnet"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "The Benchmarking Report has no cruise case, and its final screening replaced the cruise criterion used at inception with ease of access and visas (Global Benchmarking Report, Mar 2026, p11; Inception Report, Nov 2025, p30). The nearest analogue is Singapore's stopover programme, in which the tourism board, the airport and the airline share one strategy to turn transit passengers into visitors (p40)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I7**, cruise growth through product (section 4.3). **Indicator** T2-11 cruise calls and passengers at outcome level, with the target held open until the 250-call plan is sourced (section 5.2)."
+  }
+ ]
+}

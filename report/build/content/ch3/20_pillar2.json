@@ -1,0 +1,103 @@
+{
+ "id": "3.2",
+ "title": "Pillar 2: Transform supply",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "3.2 Pillar 2: Transform supply"
+  },
+  {
+   "type": "lead",
+   "text": "Supply sets the ceiling on the growth case. The airport caps arrivals before its relief arrives, and outside the Metro the product exists but is hard to reach, book or stay in."
+  },
+  {
+   "type": "p",
+   "text": "The December tree asked the pillar to remove mobility, infrastructure and product constraints so as to expand the province's physical carrying capacity (Current State Diagnostic, Dec 2025, p64). The evidence confirmed the objective and located each constraint."
+  },
+  {
+   "type": "bullets",
+   "items": [
+    "**The gateway.** Current air access caps inbound seats at 1.8 million, and the base case passes that ceiling at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). New terminal space at Cape Town International is due about 2032 and the runway about 2033 (Infrastructure Report, Jul 2026, p103).",
+    "**The regions.** Accessibility scores fall from 4.7 in the Cape Metro to 1.0 in the Central Karoo, and one touring route of six is rated Ready (Infrastructure Report, Jul 2026, p88 to p90, p29).",
+    "**The product.** The constraint is less about creating new attractions and more about turning existing assets into complete, accessible visitor experiences (Infrastructure Report, Jul 2026, p114)."
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Two structural changes happened in this pillar. The December entry on air access and cruise split in two, because MIDAS gave air access its own evidence base. The Infrastructure Report found cruise to be a product and marketing lever, with Cape Town's berth at about 40% of its season capacity (Infrastructure Report, Jul 2026, p110). The entry on infrastructure, visa and safety deficits moved to Pillar 3 because its levers sit nationally (section 3.3.2)."
+  },
+  {
+   "type": "p",
+   "text": "The Infrastructure Report reads transport as a connectivity and dispersal challenge, not a province-wide capacity crisis, with Cape Town International the key gateway risk (Infrastructure Report, Jul 2026, p114). Pillar 2 follows that reading: one capacity entry at the gateway and five entries about reach, product and experience."
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated.",
+   "source": "Chapter 3 entries 7 to 12. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence showed",
+     "width": 3.4,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "7 Win direct routes and add seats on full routes",
+     "Reworded",
+     "Eleven of 27 routes run above 80% load, fares rise before seats, and runway relief lands about 2033",
+     "I6"
+    ],
+    [
+     "8 Grow cruise calls and ports",
+     "New",
+     "Cape Town's berth runs at about 40% of season capacity; growth comes through product and marketing",
+     "I7"
+    ],
+    [
+     "9 Accelerate tourism-enabling internal mobility",
+     "Validated",
+     "Accessibility falls from 4.7 in the Metro to 1.0 in the Central Karoo",
+     "I8"
+    ],
+    [
+     "10 Support diversified route and product development",
+     "Validated",
+     "Assets outside the Metro are not turned into product, and one route of six is Ready",
+     "I9"
+    ],
+    [
+     "11 Align visitor experience in-destination",
+     "Validated",
+     "No mid-scale branded tier sits between luxury estates and basic self-catering",
+     "I10"
+    ],
+    [
+     "12 Balance impact on nature-based attractions",
+     "Validated",
+     "Boulders is near carrying capacity and Cableway queues reach three hours",
+     "I11"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

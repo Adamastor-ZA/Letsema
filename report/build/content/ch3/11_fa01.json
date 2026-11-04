@@ -1,0 +1,183 @@
+{
+ "id": "3.1.1",
+ "title": "Respond to growth segment traveller preferences",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "3.1.1 Traveller, brand and proposition"
+  },
+  {
+   "type": "p",
+   "text": "The first theme is about whom the Western Cape sells to, when and how. It holds three focus areas: the segments, the green season and the bookability of the province. The theme name carries through from December unchanged."
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 1.1 · Traveller, brand and proposition · Focus area 1"
+  },
+  {
+   "type": "h3",
+   "text": "Respond to growth segment traveller preferences"
+  },
+  {
+   "type": "lead",
+   "text": "Four traveller segments, each concentrated in named home markets, give Wesgro a sharper target than country alone, and the province scores 3.7 to 4.6 out of 5 on its ability to win them."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Respond to Growth Segment Traveller Preferences (Current State Diagnostic, Dec 2025, p64). The wording is unchanged in every reprint of the tree."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Four segments were confirmed against markets of high incidence. The Skift segmentation of March 2026 drove the disposition, and the Market Assessment carried it into the demand work."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "p",
+   "text": "The segmentation rests on a May 2025 survey of more than 25,000 outbound travellers in 17 priority markets (Skift Segmentation Analysis, Mar 2026, Research Methodology)."
+  },
+  {
+   "type": "table",
+   "caption": "Four segments are sized, scored and tied to home markets, and the highest-yield segment is the smallest.",
+   "source": "Skift Segmentation Analysis, Mar 2026 (working analysis, cited by section); Market Assessment Report, May 2026 (MA). Trip spend in the currency printed, which the documents do not name. The 1.4 million carries no year or source line.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Four segments are sized",
+     "Curious Explorers about 30m, Creative Connectors about 25m, Discerning Connoisseurs about 19m and Reflective Adventurers about 23m addressable long-haul travellers across 34 markets",
+     "Skift, Executive Summary; MA p43"
+    ],
+    [
+     "The province can win them",
+     "Ability-to-win 4.6, 4.1, 4.0 and 3.7 out of 5.0, scored on product fit, brand fit, competition and ease of air access",
+     "Skift, Ability-to-Win Assessment"
+    ],
+    [
+     "Each segment has home markets",
+     "Curious Explorers are 30% of UK and US travellers; Reflective Adventurers 33% of German; Creative Connectors 32% of Indian; Discerning Connoisseurs 40% of UAE",
+     "Skift, Segment Incidence by Market; MA p43"
+    ],
+    [
+     "The smallest segment yields most",
+     "Discerning Connoisseurs spend $8,500 to $14,000 a long-haul trip, three to four times the other segments",
+     "Skift, segment 03; MA p51"
+    ],
+    [
+     "Each segment books differently",
+     "Creative Connectors book 42% through OTAs; Discerning Connoisseurs 42% through luxury travel advisors and 6% through OTAs",
+     "Skift, Travel Behaviour and Spend; MA p49, p52"
+    ],
+    [
+     "Conversion is the gap",
+     "About 97 million addressable travellers across 34 markets; about 1.4 million convert into arrivals",
+     "MA p41"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Two limits qualify the word confirmed. The segmentation leaves out the domestic market and seven African markets, Nigeria, Kenya and Ghana among them, and Skift calls its findings directional rather than definitive (Skift Segmentation Analysis, Mar 2026, Research Methodology and Disclaimer). No Western Cape validation exists yet."
+  },
+  {
+   "type": "p",
+   "text": "Stakeholders also name segments outside the four: medical tourism, township culture, eco-adventure and international MICE (Stakeholder Insights Report, Mar 2026, p34, p35, p42, p45). These are product interests that cut across the segments, and the report treats them that way rather than as a fifth segment."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should market by segment within market, not by market alone, and judge results by value as well as volume. The UK and Germany anchor the near term with a combined pool of about 12.5 million, and the USA is the largest single pool outside China (Skift Segmentation Analysis, Mar 2026, Strategic Implications). The Department of Economic Development asks for the same shift, toward a value and spend lens over arrivals (Stakeholder Insights Report, Mar 2026, p24)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Set segment targets inside each priority market: Curious Explorers in the UK and USA, Reflective Adventurers in Germany, Creative Connectors in India, Discerning Connoisseurs in the UAE",
+     "Destination Marketing; Research"
+    ],
+    [
+     "Wesgro",
+     "Move spend from broad awareness to trade-led conversion through each segment's own channels, from luxury advisors to mobile-first OTAs",
+     "Destination Marketing; trade and OTA partners"
+    ],
+    [
+     "Wesgro",
+     "Commission destination-specific research to validate the segments, extend it to the domestic and African markets and build the segments into brand tracking",
+     "Research"
+    ],
+    [
+     "Partners",
+     "Develop segment-matched product: heritage and township experiences, creative districts, private-access wine and food, and a certified wellness and trail network",
+     "Product owners; CapeNature; SANParks; LTOs"
+    ],
+    [
+     "National",
+     "Agree one segment frame with SA Tourism for long-haul campaigns, so provincial and national spend target the same travellers",
+     "SA Tourism"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "New Zealand gives each priority market a role, such as the USA as its high-yield growth engine, and judges performance on revenue per visitor and length of stay over arrivals (Global Benchmarking Report, Mar 2026, p53, p55). The required change for the Western Cape is to replace the arrivals KPI with yield-based metrics and build partnerships with specialist distribution networks (p56)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I1**, segment-led activation and yield in mature markets, carries this entry with focus area 5 (section 4.3). **Indicators** T1-01 international arrivals and T1-02 arrivals by market group at impact level, and T2-01 segment home-market arrivals at outcome level (section 5.2)."
+  }
+ ]
+}

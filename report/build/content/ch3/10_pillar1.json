@@ -1,0 +1,100 @@
+{
+ "id": "3.1",
+ "title": "Pillar 1: Reshape demand",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "3.1 Pillar 1: Reshape demand"
+  },
+  {
+   "type": "lead",
+   "text": "Demand is not what holds Pillar 1 back; conversion is. The province is known in its mature markets, under-sold in its growth markets and hard to book outside its core."
+  },
+  {
+   "type": "p",
+   "text": "The December tree gave the pillar one objective: break through the market, seasonality and spread ceilings by reshaping the brand toward new traveller segments (Current State Diagnostic, Dec 2025, p64). The evidence confirmed all three ceilings."
+  },
+  {
+   "type": "bullets",
+   "items": [
+    "**Markets.** Five markets supplied 63% of overseas arrivals in 2025, and the UK, Germany and the USA supplied 52% between them (Demand-Side Analysis, Jun 2026, p13).",
+    "**Seasons.** June held 6.4% of the year's international seats at Cape Town International in 2025, against 10.8% in December (MIDAS Aviation Market Assessment, Mar 2026, Seasonality).",
+    "**Spread.** Most rural properties have no OTA presence and are invisible to the market (Infrastructure Report, Jul 2026, p95)."
+   ]
+  },
+  {
+   "type": "p",
+   "text": "What changed between December and October is the diagnosis. The Market Assessment counts about 97 million high-value travellers in 34 markets with an interest in South Africa, of whom about 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). The Diagnostic had already named the constraint as conversion and access, not only awareness (Current State Diagnostic, Dec 2025, p30). Three of the six entries were reworded toward conversion: green-season seats, bookable product and hub traffic already in the air."
+  },
+  {
+   "type": "p",
+   "text": "Pillar 1 carries most of the base case. Between 2025 and 2035 the base case adds 676,949 arrivals (Market Assessment Report, May 2026, p20 to p23). The four hub markets supply 206,584, the mature markets 178,780, the acceleration markets 175,818, regional Africa 110,298 and the strategic group 5,469. None of it lands without seats, so the air access entry in Pillar 2 runs beside this pillar from the first phase."
+  },
+  {
+   "type": "table",
+   "caption": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion.",
+   "source": "Chapter 3 entries 1 to 6. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
+   "columns": [
+    {
+     "header": "Focus area",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Disposition",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What the evidence showed",
+     "width": 3.4,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "1 Respond to growth segment traveller preferences",
+     "Validated",
+     "Four segments with named home markets; the province scores 3.7 to 4.6 out of 5 on its ability to win them",
+     "I1"
+    ],
+    [
+     "2 Create green-season demand with MICE and events",
+     "Reworded",
+     "June holds 6.4% of the year's seats; international meetings cluster from May to November",
+     "I2"
+    ],
+    [
+     "3 Make the whole province findable and bookable",
+     "Reworded",
+     "The outer routes and every shortlisted community fall short on online bookability",
+     "I3"
+    ],
+    [
+     "4 Convert India and China hub traffic",
+     "Reworded",
+     "About 101,000 travellers a year already fly in through Dubai, Doha and Addis Ababa",
+     "I4"
+    ],
+    [
+     "5 Increase yield in mature markets",
+     "Validated",
+     "Five mature long-haul routes run above 80% load, and carriers on full routes raise fares before seats",
+     "I1"
+    ],
+    [
+     "6 Build a regional foundation (Africa)",
+     "Validated",
+     "Regional routes run above 80% load; Nigerian and Ghanaian visitors spend R31,000 and R27,700 each",
+     "I5"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

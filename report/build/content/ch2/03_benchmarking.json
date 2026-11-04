@@ -48,7 +48,7 @@
   },
   {
    "type": "p",
-   "text": "**1. Five of the six comparators grew well above the norm.** Chile grew about 35% between 2023 and 2024, Singapore about 19%, Kenya 12.8% to 14.6%, Valencia 13% to 14% and New Zealand about 12% (Global Benchmarking Report, Mar 2026, p9). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its holiday arrivals; total arrivals grew 5.9% (p53)."
+   "text": "**1. Five of the six comparators grew well above the norm.** Chile grew about 35% between 2023 and 2024, Singapore about 19%, Kenya 12.8% to 14.6%, Valencia 13% to 14% and New Zealand about 12% (Global Benchmarking Report, Mar 2026, p9). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its 2025 holiday-arrivals growth; total arrivals grew 5.9% in 2025 (p53)."
   },
   {
    "type": "table",
@@ -112,7 +112,7 @@
     ],
     [
      "New Zealand",
-     "About 12% (holiday arrivals; total 5.9%)",
+     "About 12% (matches 2025 holiday arrivals; total 5.9% in 2025)",
      "90% recovered, higher yield",
      "Demand-led route development",
      "Value-led"
@@ -130,7 +130,7 @@
   {
    "type": "figure",
    "id": "fig_23_growth",
-   "caption": "The comparators' growth sits two to nine times above the roughly 4% global rate of 2024 to 2025.",
+   "caption": "Five of the six comparators grew three to nine times the roughly 4% global rate of 2024 to 2025.",
    "source": "Global Benchmarking Report, Mar 2026, p7 (global rate, UN Tourism World Tourism Barometer, January 2025) and p9 (comparators). Where the report prints a range, the bar shows its midpoint: Kenya 12.8% to 14.6%, Valencia 13% to 14%.",
    "chart": {
     "type": "hbar",

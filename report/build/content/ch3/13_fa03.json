@@ -1,0 +1,172 @@
+{
+ "id": "3.1.1",
+ "title": "Make the whole province findable and bookable",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 1.1 · Traveller, brand and proposition · Focus area 3"
+  },
+  {
+   "type": "h3",
+   "text": "Make the whole province findable and bookable"
+  },
+  {
+   "type": "lead",
+   "text": "Outside the Cape Peninsula, the Winelands and the Garden Route, most product cannot be booked where travellers book, so interest the province has already earned has nowhere to land."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Facilitate Adoption Along the Path to Purchase (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Reworded.** Community product is unbookable, CapeNature takes about 70% of its reservations by phone and rural stock has OTA gaps. The focus moved from source-market platforms to the province's own product being invisible and unbookable. The Inclusion Plan, the stakeholder interviews and the Infrastructure Report drove the change."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Bookability holds on the three core routes and falls away on the outer routes and in every shortlisted community.",
+   "source": "Infrastructure Report, Jul 2026 (IR; the ~40% has no printed scope or source); SME and Community Inclusion Plan, Sep 2026 (SCIP; ratings compiled from the community profiles, LTO confirmation outstanding); Stakeholder Insights Report, Mar 2026 (SIR). The 70% is CapeNature's own reservation mix, not a provincial share.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Three of six routes are bookable",
+     "Digital and bookability rated Ready on the Cape Peninsula, Garden Route and Cape Winelands routes; Developing on the Whale Coast; Gap on the West Coast and Route 62",
+     "IR p30, p40, p51, p62, p73, p84"
+    ],
+    [
+     "Rural stock is invisible",
+     "Most rural properties have no OTA presence; outer-district stock has near-zero visibility on booking platforms",
+     "IR p93, p95"
+    ],
+    [
+     "Small operators lack booking",
+     "About 40% or more of smaller operators lack online booking, a gap no capital programme addresses",
+     "IR p32"
+    ],
+    [
+     "No community is bookable",
+     "None of 19 profiled communities rates Ready on digital and bookability; 8 rate Developing and 11 Gap",
+     "SCIP p20 to p26, p40 to p51"
+    ],
+    [
+     "Community product sells by phone",
+     "Four Zwelihle guides sell by phone with no shared booking channel; Visit Knysna lists nine township guides as phone contacts",
+     "SCIP p34, p47"
+    ],
+    [
+     "Large attractions rely on phones",
+     "CapeNature takes about 70% of its reservations through its call centre rather than its online platform",
+     "SIR p42"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "No deliverable counts bookable products. The platform scan planned at inception produced no output (Inception Report, Nov 2025, p15, p17), so the indicator this entry needs most, the share of provincial product listed on OTAs by district, has no baseline yet [bookable-product count by district: Wesgro Research to build; see section 5.4]."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should treat bookability as infrastructure: count it, close it district by district and then place it on the platforms each market uses. The Inclusion Plan sets a community's first deliverable as one live booking route, published operating dates, a named customer contact and a simple record of bookings and local revenue (SME and Community Inclusion Plan, Sep 2026, p33). Growth markets book on their own platforms: Trip.com and Fliggy in China, MakeMyTrip in India and Almosafer in the Gulf (Demand-Side Analysis, Jun 2026, p45, p47, p49)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Run a bookability census of provincial product by district and publish it as the baseline",
+     "Research; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Run a digital onboarding drive for small operators and cellars on the West Coast, Route 62 and the Overberg",
+     "Tourism; district municipalities"
+    ],
+    [
+     "Wesgro",
+     "Deepen OTA partnerships with Trip.com, Almosafer and Booking.com, and list packaged regional itineraries on them",
+     "Destination Marketing; OTAs"
+    ],
+    [
+     "Partners",
+     "Give each pilot community one live booking route before any promotion (focus area 13)",
+     "LTOs; community sellers"
+    ],
+    [
+     "Partners",
+     "Move CapeNature reservations online and complete cashless payments at reserve level",
+     "CapeNature"
+    ],
+    [
+     "National",
+     "Extend rural broadband under SA Connect, and lift the national rule that blocks bank-card payments on the George bus",
+     "National government"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "New Zealand packages regional clusters into bookable long-haul itineraries and pairs regional operators with specialist global travel designers (Global Benchmarking Report, Mar 2026, p55). The transferable lesson the deck draws for the Western Cape is to use Cape Town as a gateway that spreads value across the province through bookable regional experiences (p51)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I3**, bookable province programme (section 4.3); the community booking routes run through **I12** (focus area 13). **Indicators** T2-04 share of operators bookable online and T2-05 CapeNature online booking share (section 5.2)."
+  }
+ ]
+}

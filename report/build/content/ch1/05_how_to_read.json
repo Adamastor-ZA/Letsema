@@ -23,7 +23,7 @@
 
     { "type": "h3", "text": "Disposition labels" },
     { "type": "p", "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas." },
-    { "type": "table", "caption": "Six labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.", "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.", "columns": [
+    { "type": "table", "caption": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.", "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.", "columns": [
       { "header": "Label", "width": 1.4, "align": "left" },
       { "header": "Meaning", "width": 4.4, "align": "left" },
       { "header": "Focus areas", "width": 1.2, "align": "right" }
@@ -31,15 +31,15 @@
       ["Validated", "The evidence confirmed the December hypothesis as written", "10"],
       ["Refined", "The evidence confirmed the hypothesis and sharpened its content", "1"],
       ["Reworded", "The evidence confirmed the hypothesis; the entry was renamed to what the evidence showed", "6"],
-      ["New", "Added in October 2026, with no December entry behind it", "1"],
+      ["New", "Added in October 2026, with no December entry behind it", "1"], ["Moved", "The evidence confirmed the hypothesis; the entry moved to another theme because its levers sit with another tier", "1"],
       ["Withdrawn", "Dropped because the evidence did not support the hypothesis", "0"],
       ["Flagged", "Untested; carried as a question for analysis still to be commissioned", "1"]
     ], "boldFirstCol": true },
-    { "type": "p", "text": "One focus area carries a note rather than a label, so the counts sum to nineteen. Lead removal of infrastructure, visa and safety deficits keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]" },
+    { "type": "p", "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]" },
 
     { "type": "h3", "text": "Citations and figures" },
     { "type": "p", "text": "Every figure carries its source and page in the form (Demand-Side Analysis, Jun 2026, p21). The date is the cover date and the page is the PDF page index counted from the cover, because none of the decks prints page numbers. The MIDAS Aviation Market Assessment and the three Skift memos have no fixed pagination and are cited by section title." },
-    { "type": "p", "text": "Four cover dates differ from their file dates. The Demand-Side Analysis is cited as June 2026 though its file is dated 1 October 2026 and the Inclusion Plan cites a 16 September version. The Infrastructure Report cited is the July 2026 final, not the June draft; the SME and Community Inclusion Plan prints September 2026 on a file dated 9 October; the MIDAS Aviation Market Assessment prints March 2026 on a file dated 20 April 2026." },
+    { "type": "p", "text": "Four cover dates differ from their file dates. The Demand-Side Analysis is cited as June 2026 though its file is dated 1 October 2026 and the Inclusion Plan cites a 16 September version. The Infrastructure Report cited is the July 2026 final, not the June draft. The SME and Community Inclusion Plan prints September 2026 on a file dated 9 October, and the MIDAS Aviation Market Assessment prints March 2026 on a file dated 20 April 2026." },
     { "type": "p", "text": "Where two inputs disagree the report states the value it uses, names the other with its page and gives the reason. The five-market share, printed as both 63% and 61% on one slide, is one case (Demand-Side Analysis, Jun 2026, p13). Nothing is averaged and nothing is reconciled silently." },
     { "type": "p", "text": "Two arrivals figures recur and measure different things. The recovery baseline is 1.44m international passenger arrivals at Cape Town International in FY24/25, ACSA's fiscal-year count (Current State Diagnostic, Dec 2025, p25). The growth model runs from 1,498,829 arrivals in 2025 (Market Assessment Report, May 2026, p19) to 2,175,778 in the base case and 2,516,282 in the accelerated case in 2035 (Demand-Side Analysis, Jun 2026, p20)." },
     { "type": "p", "text": "The strategy's 2.5m is the accelerated case rounded. The word doubling appears only where the report quotes the original mandate (Inception Report, Nov 2025, p4)." },

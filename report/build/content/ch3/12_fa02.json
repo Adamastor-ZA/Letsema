@@ -1,0 +1,258 @@
+{
+ "id": "3.1.1",
+ "title": "Create green-season demand with MICE and events",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 1.1 · Traveller, brand and proposition · Focus area 2"
+  },
+  {
+   "type": "h3",
+   "text": "Create green-season demand with MICE and events"
+  },
+  {
+   "type": "lead",
+   "text": "The green season is a seat problem and an events problem at once: June holds 6.4% of the year's international seats, while international meetings already cluster in the months leisure travel leaves empty."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Develop the Seasonality and Spread Proposition (Current State Diagnostic, Dec 2025, p64), reprinted from March 2026 as Develop seasonality, spread and Mega events proposition (Stakeholder Insights Report, Mar 2026, p7)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Reworded.** June holds 6.4% of seats, and ICCA meetings cluster from May to November. Spread moved to focus areas 3 and 10, and business events replaced mega events as the lever. MIDAS's seasonality analysis and the Demand-Side MICE landscape drove the change."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "p",
+   "text": "Seats and visitors both fall away from April to September. Business events do not."
+  },
+  {
+   "type": "table",
+   "caption": "Leisure demand and seats trough from May to September, while international meetings peak from September to November.",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024, while the Market Assessment, p25, prints the same split on a Cape Town overseas air-arrivals basis); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "June has the fewest seats",
+     "June 6.4% of 2025 international seat capacity at Cape Town International; May to September 6.4% to 6.9% a month; November 10.3% and December 10.8%",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Visitors follow the seats",
+     "61% of 2024 overseas visitors travelled from October to March and 39% from April to September",
+     "Diag p32"
+    ],
+    [
+     "Meetings fill the trough",
+     "109 of 136 ICCA meetings in Cape Town from 2022 to 2024 fell between May and November; September to November alone held 74",
+     "DSA p37"
+    ],
+    [
+     "The meetings base is growing",
+     "ICCA meetings 33 in 2022, 46 in 2023 and 58 in 2024 (41,571 participants); 37 UIA association meetings in 2025, 58% of South Africa's",
+     "DSA p37, p38"
+    ],
+    [
+     "Business events lift yield",
+     "International business-event delegates spend R6,400 a day; Cape Town hotel occupancy was 53% in June 2023",
+     "DSA p34"
+    ],
+    [
+     "The venue confirms the gap",
+     "June to August and December to January are structurally weak for MICE, and peak-date constraints lose events",
+     "SIR p45, p46 (CTICC)"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "figure",
+   "id": "fig_3_fa02_months",
+   "caption": "International meetings peak from September to November, when seats and overseas visitors are still climbing out of the winter trough.",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026, Seasonality (share of 2025 international seat capacity at Cape Town International); Demand-Side Analysis, Jun 2026, p12 (month of travel, Western Cape overseas visitors, 2025) and p37 (ICCA meetings in Cape Town by month, 2022 to 2024, shares of 136 computed from the printed counts).",
+   "chart": {
+    "type": "line",
+    "categories": [
+     "Jan",
+     "Feb",
+     "Mar",
+     "Apr",
+     "May",
+     "Jun",
+     "Jul",
+     "Aug",
+     "Sep",
+     "Oct",
+     "Nov",
+     "Dec"
+    ],
+    "series": [
+     {
+      "name": "Seats",
+      "values": [
+       9.8,
+       8.8,
+       9.7,
+       7.8,
+       6.9,
+       6.4,
+       6.9,
+       6.9,
+       6.9,
+       8.7,
+       10.3,
+       10.8
+      ],
+      "color": "#0B3C5D"
+     },
+     {
+      "name": "Visitors",
+      "values": [
+       11.5,
+       9.9,
+       10.3,
+       6.9,
+       6.8,
+       6.1,
+       6.7,
+       6.5,
+       7.0,
+       9.2,
+       11.3,
+       12.7
+      ],
+      "color": "#7A9E7E"
+     },
+     {
+      "name": "Meetings",
+      "values": [
+       0.7,
+       2.9,
+       3.7,
+       5.1,
+       8.8,
+       4.4,
+       6.6,
+       5.9,
+       17.6,
+       19.9,
+       16.9,
+       7.4
+      ],
+      "color": "#E07A1F"
+     }
+    ],
+    "unit": "%",
+    "yMin": 0,
+    "footnote": "Share of the year by month. Seats and visitors 2025; meetings 2022 to 2024. Printed visitor shares sum to 104.9%."
+   }
+  },
+  {
+   "type": "p",
+   "text": "Two limits matter. The baseline the report uses is the printed 61% to 39% split for 2024; the 65% October to March share in earlier project material appears in no deliverable [Summary of Findings, 14 Oct 2026: source of the 65% to confirm]. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should build an April to September events spine and sell it with the seats. The Diagnostic proposed the spine itself, anchored on a small set of flagship weeks, with green-season flight, stay and experience packages sold through airline and trade partners (Current State Diagnostic, Dec 2025, p32). The Demand-Side Analysis adds the routes by segment: off-peak conference bids in sectors where the province is strong, cooler-season incentive packages for Indian and Gulf planners, and winter midweek packages for corporate meetings (Demand-Side Analysis, Jun 2026, p40)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Publish a green-season events calendar and aim Convention Bureau bids at May to September in the province's strongest sectors",
+     "Convention Bureau; Destination Marketing"
+    ],
+    [
+     "Wesgro",
+     "Package green-season flight, stay and experiences with airlines and trade, and test cooler-season incentive packages with Indian and Gulf planners",
+     "Air Access; Destination Marketing; airlines"
+    ],
+    [
+     "Wesgro",
+     "Measure meetings, incentives and exhibitions, which provincial statistics do not cover today",
+     "Research; CTICC"
+    ],
+    [
+     "Partners",
+     "Programme lifestyle events in December and January and keep peak dates for international events; market flower, fynbos and whale events earlier",
+     "CTICC; Overberg and West Coast LTOs"
+    ],
+    [
+     "Partners",
+     "Agree one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province",
+     "City of Cape Town; DEDAT"
+    ],
+    [
+     "National",
+     "Ease visas for regional African delegates, whose event demand the venue operator rates as visa-constrained",
+     "Home Affairs; SA National Convention Bureau"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Victoria curates a portfolio of global, cultural, regional and business events that generate repeat, predictable demand spikes across the year, and Melbourne's monthly arrivals stay between 7% and 12% of the year (Global Benchmarking Report, Mar 2026, p17, p18). The required change for the Western Cape is a unified event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province, with a proactive conference bidding pipeline (p20)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I2**, green-season events and business-events calendar (section 4.3). **Indicators** T1-05 green-season share at impact level, and T2-02 ICCA meetings and T2-03 May to September seat share at outcome level (section 5.2)."
+  }
+ ]
+}

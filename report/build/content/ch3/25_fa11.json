@@ -1,0 +1,167 @@
+{
+ "id": "3.2.2",
+ "title": "Align visitor experience in-destination",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 2.2 · Product and destination capacity · Focus area 11"
+  },
+  {
+   "type": "h3",
+   "text": "Align visitor experience in-destination"
+  },
+  {
+   "type": "lead",
+   "text": "The province offers luxury estates and basic self-catering with no mid-scale branded tier between them, and service, interpretation and language readiness thin out with distance from Cape Town."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Align Visitor Experience In-Destination (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** Mid-scale gap. The Infrastructure Report's accommodation mapping, the stakeholder evidence on service quality and the Valencia and Singapore benchmarks drove the disposition. The gap is stated in words; no deliverable counts mid-scale rooms."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "The experience breaks at the middle of the accommodation market, at the service counter and at the arrival gate.",
+   "source": "Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR); Demand-Side Analysis, Jun 2026 (DSA); Current State Diagnostic, Dec 2025 (Diag; Mentionlytics sentiment data).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "No mid-scale tier",
+     "Province-wide, no midscale branded product sits between luxury estates and basic self-catering; mid-market stock is effectively absent outside Stellenbosch",
+     "IR p95, p47"
+    ],
+    [
+     "Accommodation range thins",
+     "Accommodation range Ready on three routes, Developing on the Whale Coast and Route 62, and Gap on the West Coast",
+     "IR p30, p40, p51, p62, p73, p84"
+    ],
+    [
+     "A two-tier system",
+     "Strong product sits where visitors cannot easily reach or afford it; accommodation readiness 4.7 in the Metro against 2.0 in the Central Karoo",
+     "IR p89"
+    ],
+    [
+     "Service is uneven",
+     "Mossel Bay calls restaurant quality and service a major weakness; CapeNature is wary of scaling international demand because service readiness is uneven",
+     "SIR p20, p43"
+    ],
+    [
+     "Growth markets need adapting",
+     "Limited Mandarin-language services; little visibility of vegetarian options or Indian-language guides; no Arabic-language booking or local-currency options",
+     "DSA p51"
+    ],
+    [
+     "The arrival is the weak point",
+     "The international airport is the most negative node in Cape Town's online mentions; immigration processing and peak-hour throughput need work",
+     "Diag p22; DSA p54"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Two measures are missing. No deliverable counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share: 3.6% of 2024 visitors stayed in hotels, against 17.4% in self-catering (Current State Diagnostic, Dec 2025, p27)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should lead a province-wide quality and standards framework and make the investment case for mid-scale accommodation in secondary nodes. The Benchmarking Report assigns the framework to Wesgro in so many words: a province-wide quality and standards framework that aligns all tourism stakeholders under consistent benchmarks led by Wesgro (Global Benchmarking Report, Mar 2026, p42). Valencia shows the form: a provincial quality charter, phased by district, with certification visible on booking platforms (p49)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
+     "Tourism; DEDAT; industry bodies"
+    ],
+    [
+     "Wesgro",
+     "Prepare for growth markets: multilingual guiding, digital payments and culturally relevant product for Chinese, Indian and Gulf visitors",
+     "Tourism; Destination Marketing"
+    ],
+    [
+     "Wesgro",
+     "Make the investment case for mid-scale and conference-capable hotels in George and Mossel Bay, east of Hermanus and on Route 62 (focus area 15)",
+     "Tourism; private investors"
+    ],
+    [
+     "Partners",
+     "Close service and interpretation gaps at named sites: Robben Island interpretation, CapeNature service readiness, restaurant quality in Mossel Bay",
+     "Attraction operators; municipalities; CATHSSETA"
+    ],
+    [
+     "National",
+     "Improve immigration processing and peak-hour throughput at Cape Town International, and deliver the terminal relief due about 2032",
+     "Home Affairs; ACSA"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Singapore's tourism board used a hotel industry transformation map, a hotel rejuvenation fund and the Hotels Act to move the destination from short stopovers toward longer stays and higher spend (Global Benchmarking Report, Mar 2026, p41). Valencia's Qualitur programme and SICTED quality system raised service consistency, reputation and repeat visitation (p47)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I10**, visitor experience and quality standards (section 4.3). **Indicator** T2-15 routes rated Ready at outcome level (section 5.2)."
+  }
+ ]
+}
