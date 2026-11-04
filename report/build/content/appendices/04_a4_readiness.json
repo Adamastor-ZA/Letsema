@@ -69,7 +69,7 @@
   },
   {
    "type": "p",
-   "text": "Each dimension is the average of its indicator scores, and the dimensions are then combined at 40/30/30 (Infrastructure Report, Jul 2026, p17). All three use a common scale from 1 to 5, labelled from Very weak at 1 to Leading at 5 (p17). The report states four assumptions (p18). Asset volume does not equal readiness, and one framework applies to all regions. Indicator scores are evidence informed rather than purely formula derived, and missing data is not treated as poor performance."
+   "text": "Each dimension is the average of its indicator scores, and the dimensions are then combined at 40/30/30 (Infrastructure Report, Jul 2026, p17). All three use a common scale from 1 to 5, with Functional at 3 and Leading at 5 (p17). The report states four assumptions (p18). Asset volume does not equal readiness, and one framework applies to all regions. Indicator scores are evidence informed rather than purely formula derived, and missing data is not treated as poor performance."
   },
   {
    "type": "note",
