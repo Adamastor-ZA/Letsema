@@ -40,12 +40,17 @@ function ensureFigure(block) {
 function render(ctx, H, blocks, heads) {
   const out = [];
   const hd = heads || H.headings(ctx);
+  // A pagebreak block sets page-break-before on the next heading or kicker, so a section that ends exactly at the
+  // foot of a page does not leave a blank page behind it; trailing spacers before a break are dropped.
+  let brk = false;
+  const dropSpacer = () => { while (out.length && out[out.length - 1]._spacer) out.pop(); };
   for (const b of blocks) {
+    if (brk && !['h2', 'h3', 'kicker'].includes(b.type)) { out.push(H.pageBreak()); brk = false; }
     switch (b.type) {
-      case 'h2': out.push(hd.h2(b.text, b.id)); break;
-      case 'h3': out.push(hd.h3(b.text, b.id)); break;
+      case 'h2': out.push(hd.h2(b.text, b.id, brk)); brk = false; break;
+      case 'h3': out.push(hd.h3(b.text, b.id, brk)); brk = false; break;
       case 'h4': out.push(hd.h4(b.text)); break;
-      case 'kicker': out.push(H.kicker(b.text)); break;
+      case 'kicker': out.push(H.kicker(b.text, brk)); brk = false; break;
       case 'lead': out.push(H.lead(b.text)); break;
       case 'p': out.push(H.body(b.text)); break;
       case 'note': out.push(H.note(b.text)); break;
@@ -56,7 +61,7 @@ function render(ctx, H, blocks, heads) {
       case 'box': out.push(...H.box(b.title, b.paras || [])); break;
       case 'grid': out.push(H.grid(b.columns, b.rows, { zebra: b.zebra !== false }), H.spacer(6)); break;
       case 'figure': out.push(...H.figure(ctx, { file: ensureFigure(b), caption: b.caption, source: b.source, widthCm: b.widthCm })); break;
-      case 'pagebreak': out.push(H.pageBreak()); break;
+      case 'pagebreak': dropSpacer(); brk = true; break;
       case 'spacer': out.push(H.spacer(b.pt || 6)); break;
       default: throw new Error(`unknown block type ${b.type}`);
     }
@@ -83,8 +88,10 @@ function makeChapter({ chapter, title, dir, bookmark }) {
       const out = [hd.h1(title, bookmark)];
       for (const section of loadDir(dir)) {
         if (section.lead_title) out.push(hd.h2(section.lead_title));
+        if ((section.blocks || [])[0] && section.blocks[0].type === 'pagebreak') while (out.length && out[out.length - 1]._spacer) out.pop();
         out.push(...render(ctx, H, section.blocks || [], hd));
       }
+      while (out.length && out[out.length - 1]._spacer) out.pop();
       return out;
     },
   };

@@ -2,13 +2,15 @@
 
 4 November 2026. Draft for discussion. For Michael.
 
+QA at return: every page carries the draft marking; no blank pages; 185 of 185 headings, figures and tables mapped to pages; `qa_structure.py` passes with zero issues (20 entries in six parts, 18 initiatives in 4.2, 4.3 and 4.4, every indicator with a baseline or a dated gap, toplines verbatim in the summary, the October deck never cited for a figure); `qa_text.js` leaves only bracketed open items, two accepted verbatim quotations and clause commas reviewed by hand. Every chapter and appendix passed a grep-based figure check against the verified extracts (about 3,000 values checked, about 90 corrections, all applied).
+
 ## Where the files are
 
 All paths are in the repository on branch `claude/wesgro-tourism-final-report-t19djf`.
 
 | File | What it is |
 | --- | --- |
-| `report/outputs/Unlocking_Tourism_Growth_Final_Report_DRAFT_v1.docx` and `.pdf` | The report, 195 pages, DRAFT FOR DISCUSSION in the header of every page |
+| `report/outputs/Unlocking_Tourism_Growth_Final_Report_DRAFT_v1.docx` and `.pdf` | The report, 191 pages, DRAFT FOR DISCUSSION in the header of every page |
 | `report/traceability.csv` | The 20 focus areas: disposition, recorded reason, December entry, workstream, Chapter 2 sections, evidence pages, initiative and indicator codes |
 | `report/discrepancies.md` | Reconciliation table (Part A) and discrepancy log B1 to B59 |
 | `report/open_items.md` | Every bracketed open item, grouped by owner, with the top ten ranked |
@@ -20,15 +22,15 @@ All paths are in the repository on branch `claude/wesgro-tourism-final-report-t1
 
 | Part | Pages | Budget | Note |
 | --- | --- | --- | --- |
-| Front matter | 9 | 6 | Cover, document control, foreword placeholder, contents, lists of figures and tables, abbreviations |
+| Front matter | 12 | 6 | Cover, document control, foreword placeholder, contents, lists of figures and tables, abbreviations; the lists run long because the report carries over 100 numbered exhibits |
 | Executive summary | 9 | 10 to 12 | Built from the Chapter 3 toplines, verbatim; tree as Figure ES.1 |
 | 1 Context | 20 | 20 | On budget |
-| 2 Analysis summaries | 29 | 49 | Lighter: each section carries its findings table and tree box without restating the deliverable |
-| 3 Findings and recommendations | 48 | 60 to 80 | Lighter: 20 entries at about two pages each, all six parts, evidence tables of six rows |
+| 2 Analysis summaries | 28 | 49 | Lighter: each section carries its findings table and tree box without restating the deliverable |
+| 3 Findings and recommendations | 46 | 60 to 80 | Lighter: 20 entries at about two pages each, all six parts, evidence tables of six rows |
 | 4 Execution plan | 31 | 27 | Over: eighteen one-page charters |
 | 5 Monitoring and evaluation | 11 | 15 to 20 | Lighter: templates sit in A8 and the toolkit |
-| Body and front matter | 160 | 140 to 160 | Within the plan's target |
-| Appendices A1 to A9 | 35 | Extra | |
+| Body and front matter | 157 | 140 to 160 | Within the plan's target |
+| Appendices A1 to A9 | 34 | Extra | A2 to A6 drafted from the extracts and checked figure by figure (1,860 values) |
 
 ## Decisions taken in drafting
 

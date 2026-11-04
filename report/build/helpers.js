@@ -62,14 +62,14 @@ function runs(text, base = {}) {
 const body = (text, opts = {}) => new Paragraph({ style: 'Body', children: runs(text), ...opts });
 const lead = (text, opts = {}) => new Paragraph({ style: 'Lead', children: runs(text), ...opts });
 const note = (text, opts = {}) => new Paragraph({ style: 'Note', children: runs(text), ...opts });
-const kicker = (text) => new Paragraph({ style: 'Kicker', children: [new TextRun({ text: text.toUpperCase() })] });
+const kicker = (text, brk = false) => new Paragraph({ style: 'Kicker', pageBreakBefore: brk, children: [new TextRun({ text: text.toUpperCase() })] });
 const h1 = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
 const h1NoBreak = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_1, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
-const h2 = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_2, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
-const h3 = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_3, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
+const h2 = (text, id, brk = false) => new Paragraph({ heading: HeadingLevel.HEADING_2, pageBreakBefore: brk, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
+const h3 = (text, id, brk = false) => new Paragraph({ heading: HeadingLevel.HEADING_3, pageBreakBefore: brk, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
 const h4 = (text) => new Paragraph({ heading: HeadingLevel.HEADING_4, children: [new TextRun(text)] });
 const pageBreak = () => new Paragraph({ children: [new PageBreak()] });
-const spacer = (pt = 6) => new Paragraph({ spacing: { before: 0, after: PT(pt) * 10 }, children: [new TextRun('')] });
+const spacer = (pt = 6) => { const p = new Paragraph({ spacing: { before: 0, after: PT(pt) * 10 }, children: [new TextRun('')] }); p._spacer = true; return p; };
 
 // Numbered and bulleted lists. Each call to numbered() restarts at 1 through a fresh instance.
 let listInstance = 0;
@@ -97,8 +97,8 @@ function headings(ctx) {
   return {
     h1: (t, id) => h1(reg(1, t), id),
     h1NoBreak: (t, id) => h1NoBreak(reg(1, t), id),
-    h2: (t, id) => h2(reg(2, t), id),
-    h3: (t, id) => h3(reg(3, t), id),
+    h2: (t, id, brk) => h2(reg(2, t), id, brk),
+    h3: (t, id, brk) => h3(reg(3, t), id, brk),
     h4,
   };
 }
