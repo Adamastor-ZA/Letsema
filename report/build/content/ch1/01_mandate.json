@@ -1,0 +1,93 @@
+{
+  "id": "1.1",
+  "title": "Mandate and objective",
+  "blocks": [
+    {"type": "h2", "text": "1.1 Mandate and objective"},
+    {"type": "lead", "text": "Wesgro commissioned a strategy to \"double international tourist arrivals to the Western Cape by 2035\"; the evidence has reframed that ambition as growth to 2.5 million arrivals, set by supply rather than demand."},
+
+    {"type": "h3", "text": "Wesgro's mandate"},
+    {"type": "p", "text": "Wesgro's mandate frames this strategy. The agency promotes tourism, trade and investment for Cape Town and the Western Cape, and the tourism goal sits inside that wider economic brief. Its mission is to work \"together with partners, drive inclusive and sustainable economic growth, strengthen competitiveness, and create jobs in Cape Town and the Western Cape\" (Inception Report, Nov 2025, p5)."},
+    {"type": "p", "text": "Its vision is to \"be a leading regional tourism, trade and investment promotion agency\" (Inception Report, Nov 2025, p5). Two points in the mission matter for what follows: growth is a means to jobs, and Wesgro acts through partners rather than holding the levers itself."},
+    {"type": "p", "text": "Wesgro's strategy runs to eight statements, quoted here as printed (Inception Report, Nov 2025, p5):"},
+    {"type": "bullets", "items": [
+      "\"Ensure that Cape Town and the Western Cape is top of mind as a leading business and tourism destination with premium products and services.\"",
+      "\"Prioritise new investment into identified export priority areas.\"",
+      "\"Increase re-investment and expansion from existing WC businesses.\"",
+      "\"Unlock access to new markets and new buyers - China, ASEAN, India, Brazil & Middle East, while maintaining a continued focus on established markets.\"",
+      "\"Enhance and replicate catalytic delivery models to deliver economic impact with partners in key areas.\"",
+      "\"Track and address systemic challenges influencing economic competitiveness.\"",
+      "\"Provide economic data, insights & analytics for the Western Cape.\"",
+      "\"Digitally transform across all our mandates to place clients at the centre of how we deliver services, enable staff and to empower stakeholders.\""
+    ]},
+    {"type": "p", "text": "Four of the eight bear directly on this study. The first sets the destination proposition and the fourth names the new buyer markets while holding the established ones. The sixth commits Wesgro to act on systemic constraints to competitiveness and the seventh makes it the province's source of economic data."},
+
+    {"type": "h3", "text": "The study objective and the original ambitions"},
+    {"type": "p", "text": "The study objective was set in November 2025. It reads in full: \"To develop an evidence-based tourism strategy that will double international tourist arrivals to the Western Cape by 2035, through a holistic approach that drives demand, strengthens supply and enables inclusive, sustainable and geographically dispersed growth aligned with WESGRO's strategic priorities\" (Inception Report, Nov 2025, p4). That sentence fixes the three pillars the report keeps throughout: demand, supply and enablement."},
+    {"type": "p", "text": "Four headline ambitions sat under the objective: 2.8 million international visitors, 300,000 tourism-linked jobs, 10,000 SMMEs onboarded and twice the airlift and cruise volumes (Inception Report, Nov 2025, p4). None carried a base year, a baseline value or a definition; the only year on the slide is 2035. A month later the Current State Diagnostic restated the ambition as 5.7 million arrivals and R54.7 billion in tourism spend by 2035, again without a base (Current State Diagnostic, Dec 2025, p5)."},
+    {"type": "p", "text": "The two statements do not reconcile with each other or with the measured baseline. Cape Town International recorded 1.44 million international passenger arrivals in FY24/25 (Current State Diagnostic, Dec 2025, p25). Twice that is 2.88 million, close to the 2.8 million ambition and nowhere near 5.7 million, and neither ambition names the series it counts."},
+    {"type": "p", "text": "The demand model tested the ambition and reframed it. From a 2025 base of 1,498,829 international arrivals, the base case reaches 2,175,778 by 2035 and the accelerated case 2,516,282, with a conservative floor of 1,822,634 (Market Assessment Report, May 2026, p19). The accelerated case is what this strategy calls growth to 2.5 million, and it is the goal the report carries."},
+    {"type": "p", "text": "The reframing rests on what the model says about access: the base case assumes Wesgro's effort at 2025 intensity, selective frequency gains on existing routes and continued hub expansion (Market Assessment Report, May 2026, p18). The accelerated case adds confirmed direct routes to India and China, above-baseline activation and more hub capacity into Cape Town (p18). The model's own footnote is blunt: without confirmed routes, volume reverts to base (p19)."},
+    {"type": "p", "text": "Even the base case runs into a ceiling. Current air access caps inbound capacity at 1.8 million seats, and the base case first passes that line at the 2030 plotted year, at 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Growth to 2.5 million is therefore a supply programme before it is a marketing programme, and every chapter of this report returns to that point."},
+    {"type": "p", "text": "The reframing was tabled with Wesgro at the summary-of-findings session of 14 October 2026 [Summary of Findings, 14 Oct 2026, page to be confirmed against the final deck]. The table below sets each original ambition against the baseline in hand and the form in which the strategy now carries it."},
+    {"type": "table",
+     "caption": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed.",
+     "source": "Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5, p25, p37; Market Assessment Report, May 2026, p19, p20.",
+     "columns": [
+       {"header": "Ambition (November 2025)", "width": 2, "align": "left"},
+       {"header": "Baseline in hand", "width": 3, "align": "left"},
+       {"header": "How the strategy carries it", "width": 4, "align": "left"}
+     ],
+     "rows": [
+       ["2.8 million international visitors by 2035", "1.44m international passenger arrivals at Cape Town International, FY24/25 (Diagnostic p25); model base 1,498,829 in 2025 (Market Assessment p19)", "Growth to 2.5 million: accelerated case 2,516,282 and base case 2,175,778 by 2035 (Market Assessment p19). The Diagnostic's 5.7 million arrivals and R54.7 billion spend (p5) is recorded as superseded"],
+       ["300,000 tourism-linked jobs", "No Western Cape tourism employment figure in any deliverable", "Carried to Chapter 5 as a ratio-based projection, pending the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)"],
+       ["10,000 SMMEs onboarded", "No baseline or definition printed [Wesgro to confirm the baseline count and definition of SMMEs onboarded]", "Carried as community inclusion, measured in visitor spend reaching priority communities rather than a count of firms; see 2.6 and Chapter 5"],
+       ["Twice the airlift and cruise volumes", "Airlift: inbound capacity capped at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)", "Airlift carried as the seats and routes needed to lift the 1.8 million ceiling (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]"]
+     ],
+     "boldFirstCol": true},
+
+    {"type": "h3", "text": "Wesgro's outcome metrics"},
+    {"type": "p", "text": "Wesgro measures itself against six strategic outcomes, each with one metric (Inception Report, Nov 2025, p6). The slide prints no period for any of them [Wesgro to confirm the period over which the six outcome metrics are measured]. The six are:"},
+    {"type": "bullets", "items": [
+      "A differentiated Cape Town and the Western Cape as a leading regional economy: 120 million audience reached to consider Cape Town and the Western Cape as a leading trade and tourism destination",
+      "Increased foreign and domestic investment: R30 billion new investment with a focus on targeted areas and markets",
+      "Growth in Western Cape exports of goods and services: R9.1 billion new export declarations for goods and services",
+      "Growth in leisure tourism consideration in international and local markets: 800,000 to 1 million new international tourist arrivals",
+      "Growth in business events hosted in the Western Cape: 161 business event bids secured with an estimated economic value of R4.5 billion",
+      "A future-fit and trusted Wesgro: clean audit, satisfied clients and low culture entropy"
+    ]},
+    {"type": "p", "text": "Two of the six are tourism metrics, and the period decides how they compare with the growth case. The base case adds 676,949 arrivals between 2025 and 2035 and the accelerated case 1,017,453 (Market Assessment Report, May 2026, p19), so 800,000 to 1 million new arrivals sits between the two paths over a ten-year horizon. Over a horizon to 2030 it sits well above the base case, which adds about 304,000 by then (1,802,929 against 1,498,829; p20)."},
+    {"type": "p", "text": "The business-events metric ties to the green-season case. International association meetings in Cape Town rose from 33 in 2022 to 58 in 2024 and cluster between May and November (Market Assessment Report, May 2026, p26), the half of the year in which demand is weakest (p25). Chapter 5 fixes the period for both metrics and sets them against the growth case on one basis."},
+
+    {"type": "h3", "text": "Alignment with provincial strategy"},
+    {"type": "p", "text": "The SLA requires this report to align with the Growth for Jobs Strategy and with Wesgro's five-year plan (SLA Annexure B, clause 1.1.14.2). The inception report carries the same instruction: recommendations are to align with both the G4J strategy and Wesgro's FY26 to FY30 plan (Inception Report, Nov 2025, p22). The report is the Final Research Report under clause 1.1.14. Chapter 5 answers the monitoring and evaluation clauses 1.1.4 and 1.1.10 [clause references to be checked against the signed SLA Annexure B, whose wording is not in hand]."},
+    {"type": "p", "text": "The Growth for Jobs Strategy 2023, approved by Cabinet, was among the first documents Wesgro supplied to the study (Inception Report, Nov 2025, p34). It designates tourism a primary tradable sector for the province (Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis, built as 2 million in 2019 plus 1 million (Wesgro, presentation to the Standing Committee, 1 Apr 2026; public source). [G4J 2023 document to be read and the 3 million target confirmed against it.]"},
+    {"type": "p", "text": "The G4J figure and the study's figures count different things. Three million is provincial tourist arrivals as South African Tourism measures them; 1.44 million is passenger arrivals through one airport as ACSA counts them. On the SAT basis the province received about 1.5 million international tourist arrivals in 2025 (Provincial Minister's statement, reported April 2026; public source) [Wesgro Research to confirm the 2025 SAT figure and the series behind it]. The strategy's 2.5 million therefore cannot be set against the 3 million without conversion."},
+    {"type": "p", "text": "Wesgro's FY26 to FY30 plan is the second alignment test. A Wesgro five-year strategy was supplied to the study (Inception Report, Nov 2025, p34), but no plan document is in hand. Alignment is therefore stated at the level the inception report gives it [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Chapter 4 sets its first decision gate at the end of 2028, within the plan period and before the base case reaches the seat ceiling."},
+
+    {"type": "h3", "text": "One set of arrivals bases"},
+    {"type": "p", "text": "Eight arrivals figures circulate around this strategy and they count four different things. The table below fixes each one and states how the report uses it, so that no later chapter mixes an airport count with a provincial tourist count or an ambition with a projection. Cape Town International is where international visitors enter the province and disperse from, and the Diagnostic itself uses Cape Town air arrivals as the proxy for provincial performance (Current State Diagnostic, Dec 2025, p26, p41)."},
+    {"type": "table",
+     "caption": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target.",
+     "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the Standing Committee, 1 Apr 2026 (public source); Provincial Minister's statement, reported April 2026 (public source).",
+     "columns": [
+       {"header": "Figure", "width": 2, "align": "left"},
+       {"header": "What it counts", "width": 3, "align": "left"},
+       {"header": "Year", "width": 1, "align": "left"},
+       {"header": "Source", "width": 2, "align": "left"},
+       {"header": "How this report uses it", "width": 3, "align": "left"}
+     ],
+     "rows": [
+       ["1.44m", "International passenger arrivals at Cape Town International (ACSA), fiscal year", "FY24/25", "Current State Diagnostic, Dec 2025, p25", "Recovery baseline (1.2) and the baseline year for the M&E framework (Chapter 5)"],
+       ["1.57m", "Same series", "FY25/26", "Market Assessment Report, May 2026, p10", "Latest actual; shown against the model, not substituted for its base"],
+       ["1,498,829", "Demand model base; the series and year basis are not labelled in the deck", "2025", "Market Assessment Report, May 2026, p19", "Base of the growth case; every 2035 figure in Chapters 3 to 5 is an increment on it"],
+       ["2,175,778 and 2,516,282", "Model projections on the 2025 base: base case and accelerated case", "2035", "Market Assessment Report, May 2026, p19", "The strategy's two paths; growth to 2.5 million is the rounded accelerated case"],
+       ["About 1.5m", "International tourist arrivals to the Western Cape, South African Tourism basis", "2025", "Provincial Minister's statement, reported April 2026 (public source)", "Reference point for the G4J basis only; not a baseline or a target [Wesgro Research to confirm]"],
+       ["3 million", "International tourist arrivals to the province, SAT basis, built as 2 million in 2019 plus 1 million", "2035", "Wesgro, presentation to the Standing Committee, 1 Apr 2026 (public source), recording the G4J 2023 target", "Alignment reference under clause 1.1.14.2; a different measure from the airport series"],
+       ["2.8m", "\"International visitors\"; measure and base not stated", "2035", "Inception Report, Nov 2025, p4", "Original ambition; quoted, not used"],
+       ["5.7 million and R54.7 billion", "International arrivals and tourism spend; base not stated", "2035", "Current State Diagnostic, Dec 2025, p5", "The Diagnostic's statement of the ambition; superseded and quoted for the record"]
+     ],
+     "boldFirstCol": true},
+    {"type": "p", "text": "Three rules follow. Airport passenger arrivals at Cape Town International, by fiscal year, are the baseline and tracking series, with FY24/25 at 1.44 million anchoring 1.2 and the Chapter 5 baseline year. The demand model's 2025 base and its 2035 points are the target series, and South African Tourism's provincial count is used once, to read across to the G4J target."},
+    {"type": "p", "text": "One caution closes the section: the FY25/26 actual of 1.57 million already sits above the model's 2025 base and below its 2028 base-case point of 1,673,855 (Market Assessment Report, May 2026, p10, p20). The two series differ in measure and period, so the gap is not evidence that the model is cautious. The report quotes them side by side and never adds one to the other [model owner to confirm the series and year basis behind the 2025 base of 1,498,829]."}
+  ]
+}
