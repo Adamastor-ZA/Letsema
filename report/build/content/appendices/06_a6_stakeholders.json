@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "Phase 1 engaged 16 organisations, whose 223 rated insight statements span all 18 elements of the hypothesis tree and set eight priority areas for deeper engagement."
+   "text": "Phase 1 engaged 16 organisations, whose 223 rated insight statements span all 18 elements of the hypothesis tree and inform eight priority areas for deeper engagement."
   },
   {
    "type": "h3",
@@ -32,7 +32,7 @@
   {
    "type": "table",
    "caption": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings.",
-   "source": "Stakeholder Insights Report, Mar 2026, p16 (type, where listed) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16. Slide titles print Mossell Bay, Dep Mobility, Dep Economic Development, Statistic SA, Table Mountain Ariel Cable and Cape Nature.",
+   "source": "Stakeholder Insights Report, Mar 2026, p16 (type, where listed; the three local or district tourism bodies overlap the p16 supply-side entry Tourism offices of each District) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16. Slide titles print Mossell Bay, Dep Mobility, Dep Economic Development, Statistic SA, Table Mountain Ariel Cable and Cape Nature.",
    "columns": [
     {
      "header": "Organisation",
@@ -298,7 +298,7 @@
   {
    "type": "table",
    "caption": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings.",
-   "source": "Stakeholder Insights Report, Mar 2026, p7 (elements, in tree order) and p20 to p46. Reconstruction from the appendix tables, since the deck prints no tally (computed). Organisations counts those of the 16 with at least one row under the element or pillar.",
+   "source": "Stakeholder Insights Report, Mar 2026, p7 (elements, in tree order) and p20 to p46. Reconstruction from the appendix tables, since the deck prints no tally (computed). The Organisations column counts those of the 16 with at least one row under the element or pillar. Element names follow the appendix theme column, not the slightly different p7 wording.",
    "columns": [
     {
      "header": "Tree element (p7)",
@@ -522,7 +522,7 @@
   {
    "type": "table",
    "caption": "Eight priority areas, each with four lines of enquiry, set the agenda for deeper engagement after phase 1.",
-   "source": "Stakeholder Insights Report, Mar 2026, p14. Bullets lightly edited for house style; the last is truncated on the slide and shown as printed.",
+   "source": "Stakeholder Insights Report, Mar 2026, p14. Bullets as printed with initial capitals lowered, except the second bullet of the second area, reworded for house style; the last is truncated on the slide.",
    "columns": [
     {
      "header": "Priority area",

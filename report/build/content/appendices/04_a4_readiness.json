@@ -33,7 +33,7 @@
    "rows": [
     ["Attraction", "Natural", "Beach; mountain; park & reserve; scenic routes"],
     ["Attraction", "Cultural & heritage", "Museum; historical site; monument; cultural precinct"],
-    ["Attraction", "Commercial & leisure", "Wine estate; theme park"],
+    ["Attraction", "Commercial and leisure", "Wine estate; theme park"],
     ["Attraction", "Events", "Festival; sporting event; cultural event; business events"],
     ["Service", "Accommodation", "Hotel; guest house; lodge; self catering"],
     ["Service", "Food & beverage", "Restaurant; café; bar"],
@@ -48,7 +48,7 @@
   },
   {
    "type": "p",
-   "text": "The district scorecards and comparative tables score a different set of eleven categories in three groups (Infrastructure Report, Jul 2026, p88 to p90). Attractions cover activity, commercial & leisure, cultural & heritage, events and natural assets. Services cover accommodation, eatery and shopping. Transport and enabling structures cover transport, enabling structure and visitor amenities. The asset counts use five groups: accommodation, attractions, eateries, events and amenities (p23, p67)."
+   "text": "The comparative tables score a different set of eleven categories in three groups (Infrastructure Report, Jul 2026, p88 to p90), and the district scorecards chart a similar set. Attractions cover activity, commercial & leisure, cultural & heritage, events and natural assets. Services cover accommodation, eatery and shopping. Transport and enabling structures cover transport, enabling structure and visitor amenities. The asset counts use five groups: accommodation, attractions, eateries, events and amenities (p23, p67)."
   },
   {
    "type": "table",
@@ -69,11 +69,11 @@
   },
   {
    "type": "p",
-   "text": "Each dimension is the average of its indicator scores, and the dimensions are then combined at 40/30/30 (Infrastructure Report, Jul 2026, p17). All three use a common scale from 1 to 5, labelled from weak at 1 to Leading at 5 (p17). The report states four assumptions (p18). Asset volume does not equal readiness, and one framework applies to all regions. Indicator scores are evidence informed rather than purely formula derived, and missing data is not treated as poor performance."
+   "text": "Each dimension is the average of its indicator scores, and the dimensions are then combined at 40/30/30 (Infrastructure Report, Jul 2026, p17). All three use a common scale from 1 to 5, labelled from Very weak at 1 to Leading at 5 (p17). The report states four assumptions (p18). Asset volume does not equal readiness, and one framework applies to all regions. Indicator scores are evidence informed rather than purely formula derived, and missing data is not treated as poor performance."
   },
   {
    "type": "note",
-   "text": "**Overall rating.** The printed overall ratings do not follow the stated weights. Applied to the printed dimension scores, 40/30/30 gives 3.25 for the Cape Metro and 3.91 for the Garden Route, against printed ratings of 4.5 and 3.4 (computed). The unweighted mean of each scorecard's category bars matches the printed rating to one decimal in five of six districts (computed). The exception is the Overberg, whose bars average 2.782 against 2.7 printed. The slides do not state how the overall rating is derived, and the report names no benchmark values behind its stated calibration (p15)."
+   "text": "**Overall rating.** The printed overall ratings do not follow the stated weights. Applied to the printed dimension scores, 40/30/30 gives 3.25 for the Cape Metro and 3.91 for the Garden Route, against printed ratings of 4.5 and 3.4 (computed). The unweighted mean of each scorecard's category bars matches the printed rating to one decimal in five of six districts (computed). The exception is the Overberg, whose bars average 2.782 against 2.7 printed. The slides do not state how the overall rating is derived, and the method slides name no benchmark values behind the calibration claimed on p15."
   },
   {
    "type": "h3",
@@ -120,7 +120,7 @@
   },
   {
    "type": "p",
-   "text": "Each district section closes with a scorecard that prints an overall rating out of 5, the three dimension scores and a bar score for each category (Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85). Three scorecards print all three dimension scores. The Cape Winelands prints no accessibility score, and the Overberg and Central Karoo print the dimension labels without numbers."
+   "text": "Each district section includes a scorecard that prints an overall rating out of 5, the three dimension scores and a bar score for each category (Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85). Three scorecards print all three dimension scores. The Cape Winelands prints no accessibility score, and the Overberg and Central Karoo print the dimension labels without numbers."
   },
   {
    "type": "table",
@@ -172,7 +172,7 @@
   {
    "type": "table",
    "caption": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging.",
-   "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The slides spell Cederberg 'Cederburg' and title both p72 and p73 'West Coast / Overberg'. The Garden Route summary calls the route 'fragmented across 300km' (p43).",
+   "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The slides spell Cederberg 'Cederburg' and title both p72 and p73 'West Coast / Overberg'. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
    "columns": [
     {"header": "Measure", "width": 1.4, "align": "left"},
     {"header": "Cape Peninsula", "width": 1.0, "align": "left"},

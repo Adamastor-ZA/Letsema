@@ -24,7 +24,7 @@
   {
    "type": "table",
    "caption": "Twelve criteria in four groups test how closely a destination's markets, product, trajectory and performance resemble the Western Cape.",
-   "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. The Inception Report names two criteria differently: Cruise & Multi-Modal Access for Ease of Access & Visa, and Tourism Infrastructure & Capacity for Airport & Tourism Infrastructure (p30). Neither report prints scores by criterion, so the effect of the change on the ranking cannot be checked (Inception Report, Nov 2025, p31).",
+   "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. Two inception criteria differ in definition as well as name (Inception Report, Nov 2025, p30). Cruise & Multi-Modal Access covers cruise arrivals, self-drive touring and regional mobility where the later report has Ease of Access & Visa. Tourism Infrastructure & Capacity covers hotel mix, transport, visitor services and attraction capacity where it has Airport & Tourism Infrastructure. Neither report prints scores by criterion, so the effect of the change on the ranking cannot be checked (Inception Report, Nov 2025, p31; Global Benchmarking Report, Mar 2026, p12).",
    "columns": [
     {
      "header": "Group",
@@ -116,7 +116,7 @@
   },
   {
    "type": "p",
-   "text": "The Global Benchmarking Report also cites a screen of 30, keeps four of the inception six and presents no case as an underperformer (Global Benchmarking Report, Mar 2026, p12, p13). It drops Porto and Vancouver and adds Kenya and Auckland from inception ranks 11 and 7 (p12). Three destinations scored 3.58, above Kenya's 3.50, and stayed out (Inception Report, Nov 2025, p31). Neither document records why Porto and Vancouver were dropped."
+   "text": "The Global Benchmarking Report also cites a screen of 30, keeps four of the inception six and presents no case as an underperformer (Global Benchmarking Report, Mar 2026, p6, p12, p13). It drops Porto and Vancouver and adds Kenya and Auckland (p12), which ranked 11 and 7 in the inception screen (Inception Report, Nov 2025, p31). Three destinations scored 3.58, above Kenya's 3.50, and stayed out (p31). Neither document records why Porto and Vancouver were dropped."
   },
   {
    "type": "table",
@@ -206,8 +206,8 @@
   },
   {
    "type": "table",
-   "caption": "Five of the six cases grew faster than the 3% to 5% global norm, and four of the six paired structural demand creation with demand activation.",
-   "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed, with ranges written with 'to' and decimal commas shown as points; Valencia's second lever is given its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for Australia (p17). New Zealand's ~12% matches 2025 holiday-arrivals growth of 12.1%; total arrivals grew 5.9% (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals.",
+   "caption": "Five of the six printed growth rates exceed the 3% to 5% global norm, and four of the six cases pair structural demand creation with demand activation.",
+   "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals.",
    "columns": [
     {
      "header": "Destination",
