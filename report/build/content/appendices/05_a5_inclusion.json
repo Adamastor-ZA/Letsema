@@ -515,8 +515,8 @@
   },
   {
    "type": "table",
-   "caption": "The 20 communities hold 18.4% of residents but a traced floor of R4m to R10m a year, while 1% of FY2025 foreign direct spend would land R259m.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed); Current State Diagnostic, Dec 2025, p5, which pairs R54.7 billion of tourism spend with 5.7 million international arrivals by 2035. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
+   "caption": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). [Source needed: the page in the Diagnostic Report v2 or Demand-Side Analysis that sets the 2035 spend ambition and the arrivals case behind it.] Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
    "columns": [
     {
      "header": "Measure",
@@ -563,7 +563,7 @@
     [
      "1% of the 2035 spend ambition",
      "R547m",
-     "Implies R54.7 billion (computed); belongs to the Diagnostic's 5.7 million arrivals case"
+     "Implies R54.7 billion of 2035 spend (computed); [arrivals case behind the ambition needed from the Diagnostic Report v2]"
     ]
    ],
    "boldFirstCol": true
@@ -578,7 +578,7 @@
   },
   {
    "type": "table",
-   "caption": "Across the five cases, local selling mechanisms lasted while assets and training without a durable route to market did not.",
+   "caption": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit.",
    "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11 (case cards), p12 (takeaways) and p30 (benchmark evidence). The Rio, Medellín, Vilakazi Street and Kliptown cards print no source line; the plan pools their sources on p12.",
    "columns": [
     {

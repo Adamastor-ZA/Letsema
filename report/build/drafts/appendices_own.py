@@ -1,4 +1,5 @@
-"""Appendices built from the report's own data: A1 (hypothesis evaluation evidence), A7 (action register),
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ are the source of record; do not re-run this script.
+Appendices built from the report's own data: A1 (hypothesis evaluation evidence), A7 (action register),
 A8 (M&E toolkit register) and A9 (glossary and references). Writes content/appendices/01, 07, 08, 09.
 A2 to A6 are drafted from the extracts by the appendix workflow."""
 import csv, json, os, glob

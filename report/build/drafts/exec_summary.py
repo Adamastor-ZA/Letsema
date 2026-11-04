@@ -1,4 +1,5 @@
-"""Executive summary, written last. Toplines are lifted verbatim from the Chapter 3 lead under each focus-area h3,
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ are the source of record; do not re-run this script.
+Executive summary, written last. Toplines are lifted verbatim from the Chapter 3 lead under each focus-area h3,
 so the summary cannot drift from the body. Writes content/exec/01_summary.json and removes the WIP status box."""
 import csv, json, os, glob
 
