@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Bookability holds on the three core routes and falls away on the outer routes and in every shortlisted community.",
+   "caption": "Bookability holds on the three core routes and falls away on the outer routes and in every profiled community.",
    "source": "Infrastructure Report, Jul 2026 (IR; the ~40% has no printed scope or source); SME and Community Inclusion Plan, Sep 2026 (SCIP; ratings compiled from the community profiles, LTO confirmation outstanding); Stakeholder Insights Report, Mar 2026 (SIR). The 70% is CapeNature's own reservation mix, not a provincial share.",
    "columns": [
     {
@@ -63,7 +63,7 @@
     [
      "Rural stock is invisible",
      "Most rural properties have no OTA presence; outer-district stock has near-zero visibility on booking platforms",
-     "IR p93, p95"
+     "IR p95"
     ],
     [
      "Small operators lack booking",

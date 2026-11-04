@@ -1,4 +1,5 @@
-"""Chapter 3, Pillar 2: Transform supply. Writes content/ch3/20_pillar2.json and 21_fa07.json to 26_fa12.json.
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ch3 are the source of record; do not re-run this script.
+Chapter 3, Pillar 2: Transform supply. Writes content/ch3/20_pillar2.json and 21_fa07.json to 26_fa12.json.
 Sources: report/evidence/factsheet_t21.md, factsheet_t22.md, tree.md, discrepancies.md (3 November 2026)."""
 from ch3_lib import theme, entry, write
 

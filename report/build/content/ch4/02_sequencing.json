@@ -1,0 +1,358 @@
+{
+ "id": "4.2",
+ "title": "Sequencing and phases",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.2 Sequencing and phases"
+  },
+  {
+   "type": "lead",
+   "text": "Three phases run to 2035, and the first is weighted to the moves that change the 2030 constraint: seats, bookability, green-season events and the inclusion pilots."
+  },
+  {
+   "type": "p",
+   "text": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). The first gate, at the end of 2028, falls in Wesgro's FY2028/29, two years before the base case reaches the seat ceiling at its 2030 point (Demand-Side Analysis, Jun 2026, p21)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_4_gantt",
+   "caption": "Three initiatives start in implementation in 2027, eleven are in implementation by 2028 and all eighteen by 2029.",
+   "source": "Letsema, initiative portfolio (sections 4.1 and 4.3). Design means scoping, data, agreements and pilots; implement means delivery at scale.",
+   "chart": {
+    "type": "gantt",
+    "years": [
+     "2027",
+     "2028",
+     "2029",
+     "2030",
+     "2031",
+     "2032",
+     "2033",
+     "2034",
+     "2035"
+    ],
+    "phases": [
+     {
+      "name": "Activate",
+      "from": "2027",
+      "to": "2028"
+     },
+     {
+      "name": "Expand",
+      "from": "2029",
+      "to": "2031"
+     },
+     {
+      "name": "Sustain",
+      "from": "2032",
+      "to": "2035"
+     }
+    ],
+    "rows": [
+     {
+      "code": "I1",
+      "name": "Segment-led activation and yield in",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I2",
+      "name": "Green-season events and business-events",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I3",
+      "name": "Bookable province programme",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I4",
+      "name": "India and China hub conversion",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I5",
+      "name": "Regional Africa programme",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I6",
+      "name": "Route development and seat retention,",
+      "cells": {
+       "2027": "I",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I7",
+      "name": "Cruise growth through product",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I8",
+      "name": "Corridor mobility",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I9",
+      "name": "Corridor product development",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I10",
+      "name": "Visitor experience and quality standards",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I11",
+      "name": "Flagship site demand management",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I12",
+      "name": "Community inclusion pilots",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I13",
+      "name": "Climate resilience and destination",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I14",
+      "name": "Tourism investment pipeline",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I15",
+      "name": "Tourism Growth Steerco and three-tier",
+      "cells": {
+       "2027": "I",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I16",
+      "name": "Data-sharing protocol and visitor",
+      "cells": {
+       "2027": "D",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I17",
+      "name": "Access and safety escalation agenda",
+      "cells": {
+       "2027": "I",
+       "2028": "I",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     },
+     {
+      "code": "I18",
+      "name": "Tourism labour analysis and skills plan",
+      "cells": {
+       "2027": "D",
+       "2028": "D",
+       "2029": "I",
+       "2030": "I",
+       "2031": "I",
+       "2032": "I",
+       "2033": "I",
+       "2034": "I",
+       "2035": "I"
+      }
+     }
+    ]
+   }
+  },
+  {
+   "type": "h3",
+   "text": "Phase 1: Activate, 2027 to 2028"
+  },
+  {
+   "type": "p",
+   "text": "Phase 1 works inside Wesgro's mandate and budget and on the levers that move before the airport can. It holds and adds seats on the full routes and builds the air access fund (I6). It publishes the green-season calendar (I2), counts and starts to close the bookability gap (I3) and starts two or three inclusion pilots (I12). Steerco, the data-sharing protocol and the escalation agenda start in the first quarter (I15, I16, I17), because every other initiative reports through them."
+  },
+  {
+   "type": "p",
+   "text": "The marketing initiatives (I1, I4, I5) and cruise (I7) spend 2027 on design: segment targets, hub-carrier agreements, the Nigeria and Kenya plans and excursion products. Seven initiatives use both years for design (I8 to I11, I13, I14, I18). Their first task is a baseline or a case that no deliverable holds: corridor mobility, product, quality, flagship capacity, climate risk and LTO funding, the investment pipeline and the labour analysis. The gate at the end of 2028 asks whether seats on the full routes have held, whether the bookability baseline exists and is moving, and whether any pilot has met its thresholds."
+  },
+  {
+   "type": "h3",
+   "text": "Phase 2: Expand, 2029 to 2031"
+  },
+  {
+   "type": "p",
+   "text": "Phase 2 scales what Phase 1 proved and meets the seat ceiling. Hub conversion, regional Africa and segment marketing run at scale. Corridor mobility and product move from design to delivery, on the Garden Route, the Winelands and the Overberg first. The quality charter is adopted and phased by district, and the investment pipeline reaches financial close on its first projects. The mid-term review in 2030 tests arrivals against the base path when the ceiling binds, and checks that the runway is on its published dates (section 5.6)."
+  },
+  {
+   "type": "h3",
+   "text": "Phase 3: Sustain, 2032 to 2035"
+  },
+  {
+   "type": "p",
+   "text": "Phase 3 runs as relief arrives at Cape Town International: the international terminal about 2032 and the runway about 2033 (Infrastructure Report, Jul 2026, p103). The direct India and China route cases built since 2027 go to carriers as capacity frees up, which is the step the accelerated case depends on. Inclusion pilots that met their thresholds scale through channels, climate risk and LTO funding are embedded in municipal planning, and the terminal evaluation in 2035 closes the plan (section 5.6)."
+  }
+ ]
+}

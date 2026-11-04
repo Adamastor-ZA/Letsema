@@ -1,4 +1,5 @@
-"""Chapter 3, Pillar 1: Reshape demand. Writes content/ch3/10_pillar1.json and 11_fa01.json to 16_fa06.json.
+"""FIRST-DRAFT GENERATOR ONLY. After the figure check (4 Nov 2026) the JSON files in content/ch3 are the source of record; do not re-run this script.
+Chapter 3, Pillar 1: Reshape demand. Writes content/ch3/10_pillar1.json and 11_fa01.json to 16_fa06.json.
 Sources: report/evidence/factsheet_t11.md, factsheet_t12.md, tree.md, discrepancies.md (3 November 2026)."""
 from ch3_lib import theme, entry, write
 

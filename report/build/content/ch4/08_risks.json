@@ -1,0 +1,141 @@
+{
+ "id": "4.8",
+ "title": "Risks and dependencies",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.8 Risks and dependencies"
+  },
+  {
+   "type": "lead",
+   "text": "Six of the ten material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act."
+  },
+  {
+   "type": "p",
+   "text": "Likelihood and impact are Letsema's assessment on a three-point scale, from the evidence cited in each row. Steerco reviews the register each quarter and the owner reports on any risk rated high on both."
+  },
+  {
+   "type": "table",
+   "caption": "Ten risks could move the plan off its path, and the two rated high on both measures concern the airport and the national air and visa regime.",
+   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
+   "columns": [
+    {
+     "header": "Risk",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Evidence",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Likelihood",
+     "width": 0.8,
+     "align": "left"
+    },
+    {
+     "header": "Impact",
+     "width": 0.7,
+     "align": "left"
+    },
+    {
+     "header": "Mitigation",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Owner",
+     "width": 1.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Runway relief at Cape Town International slips past about 2033",
+     "IR p103, p109",
+     "Medium",
+     "High",
+     "Quarterly milestone tracking; frequency and gauge on full routes; George as second gateway (I6)",
+     "Air Access; ACSA"
+    ],
+    [
+     "Bilateral air agreements and the US carrier cap stay restrictive",
+     "SIR p24; Inc p8",
+     "High",
+     "High",
+     "Escalation agenda with stated asks (I17); route work inside existing rights (I6)",
+     "Steerco; DEDAT"
+    ],
+    [
+     "Visa processing for China, India and African markets does not improve",
+     "SIR p36, p45; Diag p34",
+     "Medium",
+     "High",
+     "Escalation agenda; processing time tracked as T2-24 (I17)",
+     "Steerco"
+    ],
+    [
+     "Safety incidents or perception deter visitors",
+     "Diag p55; SCIP p27, p30",
+     "Medium",
+     "High",
+     "Safety gates before any pilot launch (I12); escalation to SAPS (I17)",
+     "Tourism; Steerco"
+    ],
+    [
+     "Climate events close sites and routes",
+     "SCIP p24; SIR p33, p43",
+     "High",
+     "Medium",
+     "Climate risk register; itineraries routed around closures (I13)",
+     "Research; DEDAT"
+    ],
+    [
+     "Water and power supply fail in peak season",
+     "Diag p38, p43; IR p31",
+     "Medium",
+     "Medium",
+     "Escalation of utility risks; off-grid power at remote sites (I13, I17)",
+     "DEDAT; site operators"
+    ],
+    [
+     "LTO funding collapses under Treasury Circular 131",
+     "SIR p25, p39",
+     "High",
+     "Medium",
+     "Stable funding agreements with a development mandate (I13)",
+     "DEDAT; municipalities"
+    ],
+    [
+     "Data holders do not share data",
+     "SIR p37; Diag p57",
+     "Medium",
+     "Medium",
+     "Data-sharing protocol with each holder (I16)",
+     "Research"
+    ],
+    [
+     "Cruise growth reverses as Red Sea reroutes end",
+     "IR p112",
+     "Medium",
+     "Low",
+     "Diversify lines and add Mossel Bay day stops (I7)",
+     "Cruise Cape Town"
+    ],
+    [
+     "Skills shortages cap service quality",
+     "SIR p43; Inc p8",
+     "Medium",
+     "Medium",
+     "Labour analysis and skills plan (I18); quality charter (I10)",
+     "Research; DEDAT"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

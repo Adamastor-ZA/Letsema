@@ -1,0 +1,235 @@
+{
+ "id": "4.6",
+ "title": "Funding and investment",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.6 Funding and investment"
+  },
+  {
+   "type": "lead",
+   "text": "Most of the plan runs on budgets that already exist; the capital it needs sits with ACSA, PRASA, Transnet and private investors, and none of it has been costed yet."
+  },
+  {
+   "type": "p",
+   "text": "No deliverable costs any initiative. The Inception Report scoped an investment opportunity framework with return scoring, but no separate output was delivered (Inception Report, Nov 2025, p18, p20), and stakeholders describe Western Cape tourism funding as materially below peer destinations without giving a figure (Stakeholder Insights Report, Mar 2026, p25). This section therefore sets the funding route for each initiative and leaves the rand bands to be set with Wesgro Finance and DEDAT [cost band per initiative and phase: Wesgro Finance and DEDAT to set before Steerco signs off the plan]."
+  },
+  {
+   "type": "table",
+   "caption": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source.",
+   "source": "Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; – none expected. Rand values are not estimated.",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 3.2,
+     "align": "left"
+    },
+    {
+     "header": "Wesgro operating",
+     "width": 1.0,
+     "align": "center"
+    },
+    {
+     "header": "Provincial and municipal",
+     "width": 1.0,
+     "align": "center"
+    },
+    {
+     "header": "National and SOE",
+     "width": 1.0,
+     "align": "center"
+    },
+    {
+     "header": "Private capital",
+     "width": 1.0,
+     "align": "center"
+    }
+   ],
+   "rows": [
+    [
+     "I1",
+     "Segment-led activation and yield in mature markets",
+     "●",
+     "-",
+     "-",
+     "○"
+    ],
+    [
+     "I2",
+     "Green-season events and business-events calendar",
+     "●",
+     "●",
+     "-",
+     "○"
+    ],
+    [
+     "I3",
+     "Bookable province programme",
+     "●",
+     "●",
+     "○",
+     "○"
+    ],
+    [
+     "I4",
+     "India and China hub conversion",
+     "●",
+     "-",
+     "-",
+     "○"
+    ],
+    [
+     "I5",
+     "Regional Africa programme",
+     "●",
+     "-",
+     "-",
+     "○"
+    ],
+    [
+     "I6",
+     "Route development and seat retention, with a public-private air access fund",
+     "●",
+     "●",
+     "○",
+     "●"
+    ],
+    [
+     "I7",
+     "Cruise growth through product",
+     "●",
+     "-",
+     "●",
+     "○"
+    ],
+    [
+     "I8",
+     "Corridor mobility",
+     "○",
+     "●",
+     "●",
+     "○"
+    ],
+    [
+     "I9",
+     "Corridor product development",
+     "●",
+     "●",
+     "○",
+     "●"
+    ],
+    [
+     "I10",
+     "Visitor experience and quality standards",
+     "○",
+     "●",
+     "-",
+     "○"
+    ],
+    [
+     "I11",
+     "Flagship site demand management",
+     "○",
+     "○",
+     "●",
+     "●"
+    ],
+    [
+     "I12",
+     "Community inclusion pilots",
+     "○",
+     "●",
+     "○",
+     "○"
+    ],
+    [
+     "I13",
+     "Climate resilience and destination management, including LTO funding",
+     "○",
+     "●",
+     "○",
+     "○"
+    ],
+    [
+     "I14",
+     "Tourism investment pipeline",
+     "●",
+     "●",
+     "-",
+     "●"
+    ],
+    [
+     "I15",
+     "Tourism Growth Steerco and three-tier alignment",
+     "●",
+     "●",
+     "-",
+     "-"
+    ],
+    [
+     "I16",
+     "Data-sharing protocol and visitor intelligence",
+     "●",
+     "○",
+     "○",
+     "○"
+    ],
+    [
+     "I17",
+     "Access and safety escalation agenda",
+     "●",
+     "●",
+     "-",
+     "-"
+    ],
+    [
+     "I18",
+     "Tourism labour analysis and skills plan",
+     "●",
+     "●",
+     "○",
+     "○"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "figure",
+   "id": "fig_4_funding",
+   "caption": "Wesgro's operating budget is the main source for most initiatives, while private capital is the main source for the capital-heavy ones.",
+   "source": "Letsema, count of initiatives by main funding source from the table above. An initiative can have more than one main source.",
+   "chart": {
+    "type": "hbar",
+    "categories": [
+     "Wesgro operating budget",
+     "Provincial and municipal budgets",
+     "National programmes and SOEs",
+     "Private capital"
+    ],
+    "values": [
+     13,
+     12,
+     3,
+     4
+    ],
+    "unit": ""
+   }
+  },
+  {
+   "type": "p",
+   "text": "**Crowding in capital.** The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p15, p31). Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14; Infrastructure Report, Jul 2026, p32 to p87). The air access fund draws public and private money on the Chilean model (I6; Global Benchmarking Report, Mar 2026, p28)."
+  },
+  {
+   "type": "p",
+   "text": "**What the SLA asks and what is still to do.** The SLA asks for return projections on infrastructure priorities (clause 1.1.8.3) [clause wording to be checked against the signed Annexure B]. Those need costed projects, and the only costed items in hand are the airport, rail and port programmes the province does not fund. The return case is therefore an output of I14 in Phase 1, built project by project as the pipeline forms."
+  }
+ ]
+}

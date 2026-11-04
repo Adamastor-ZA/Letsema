@@ -1,0 +1,1043 @@
+{
+ "id": "4.3",
+ "title": "Initiative charters",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.3 Initiative charters"
+  },
+  {
+   "type": "lead",
+   "text": "Each initiative has a one-page charter that a lead can run from and Steerco can hold to account."
+  },
+  {
+   "type": "p",
+   "text": "Every charter uses the same fields. It states the objective, the focus areas served, the proposed lead and partners and the tier of government. It then sets the actions in each phase, marked Design or Implement, and closes with the dependencies, the funding route, the risks and the indicators it moves. Actions come from the Chapter 3 action tables. Leads are proposals for Steerco to confirm, and rand bands are set in section 4.6."
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I1 Segment-led activation and yield in mature markets"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Raise value per visitor from the mature markets and target every priority market by segment, not by country alone."
+    ],
+    [
+     "Focus areas",
+     "1, 5"
+    ],
+    [
+     "Proposed lead",
+     "Destination Marketing"
+    ],
+    [
+     "Partners",
+     "Research; trade and OTA partners; SA Tourism"
+    ],
+    [
+     "Tier of government",
+     "Provincial (Wesgro); national alignment with SA Tourism"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): segment targets inside each priority market; a shared segment frame with SA Tourism; destination-specific segment research. Implement (2028): move spend from broad awareness to trade-led conversion; luxury-advisor and high-end operator distribution in the UK, USA, Germany, France and Switzerland."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Segment campaigns at scale; spend per visitor and length of stay added to Wesgro's own targets; segments built into brand tracking."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Segment research refreshed; budget shifted toward the segments and markets with the highest yield."
+    ],
+    [
+     "Dependencies",
+     "I6 for seats on the full routes; I16 for spend-per-visitor data; I10 for product quality."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget. Supporting: private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Carriers on full routes raise fares rather than seats; SA Tourism's institutional weakness limits joint campaigns (Stakeholder Insights Report, Mar 2026, p25)."
+    ],
+    [
+     "Indicators",
+     "T1-01, T1-02, T1-03; T2-01, T2-07; T3-01 segment targets in Wesgro's annual plan; T3-02 share of market budget in trade-led conversion."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I2 Green-season events and business-events calendar"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Build an April to September demand spine from business events and flagship weeks, and sell it with the seats."
+    ],
+    [
+     "Focus areas",
+     "2"
+    ],
+    [
+     "Proposed lead",
+     "Convention Bureau"
+    ],
+    [
+     "Partners",
+     "Destination Marketing; CTICC; City of Cape Town; DEDAT; LTOs"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; national for delegate visas"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province; a way to measure meetings, incentives and exhibitions. Implement (2028): publish the calendar; aim bids at May to September; green-season packages with airlines and trade; cooler-season incentive packages for Indian and Gulf planners."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Regional conferences in Stellenbosch and George; lifestyle events at CTICC in December and January; flower, fynbos and whale events marketed earlier."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Calendar refreshed each year; a standing bid pipeline for green-season dates."
+    ],
+    [
+     "Dependencies",
+     "I6 for seats in the trough months; I9 for regional venues; I17 for visas for African delegates."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets. Supporting: private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Weather limits summit and outdoor events (Stakeholder Insights Report, Mar 2026, p35); peak hotel prices deter December and January events (p46)."
+    ],
+    [
+     "Indicators",
+     "T1-05; T2-02 ICCA meetings, T2-03 May to September seat share; T3-03 calendar published; T3-04 bids for May to September events."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I3 Bookable province programme"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Make provincial product bookable where travellers book, district by district."
+    ],
+    [
+     "Focus areas",
+     "3"
+    ],
+    [
+     "Proposed lead",
+     "Tourism"
+    ],
+    [
+     "Partners",
+     "Research; LTOs; district municipalities; OTAs; CapeNature"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; national for broadband and payment rules"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): a bookability census of provincial product by district. Implement (2028): a digital onboarding drive for small operators and cellars on the West Coast, Route 62 and the Overberg; OTA partnerships with Trip.com, Almosafer and Booking.com; community booking routes with I12."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Packaged regional itineraries listed on OTAs; CapeNature reservations moved online."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Census repeated every two years; listing extended to every route."
+    ],
+    [
+     "Dependencies",
+     "I12 for community routes; I16 for the census data; SA Connect rural broadband."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets. Supporting: national programmes and SOEs, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Rural connectivity and payments; compliance cost for small operators."
+    ],
+    [
+     "Indicators",
+     "T2-04 share of operators bookable online, T2-05 CapeNature online share; T3-05 census published; T3-06 operators onboarded."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I4 India and China hub conversion"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Convert the Indian and Chinese travellers already flying in through hubs, and prepare the direct route case for when runway capacity arrives."
+    ],
+    [
+     "Focus areas",
+     "4"
+    ],
+    [
+     "Proposed lead",
+     "Destination Marketing"
+    ],
+    [
+     "Partners",
+     "Air Access; hub carriers; OTAs; trade"
+    ],
+    [
+     "Tier of government",
+     "Provincial; national for visas and route designation"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): joint market support with Emirates, Qatar Airways and Ethiopian Airlines; activation plans for Xiaohongshu, Douyin and MakeMyTrip. Implement (2028): in-market activation with Trip.com packages and market-specific itineraries; product readiness with Mandarin and Indian-language guiding and Alipay and WeChat Pay."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Activation at scale; standing relationships with Indian carriers, China Southern and China Eastern."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Direct route cases taken to carriers as runway capacity arrives, with I6."
+    ],
+    [
+     "Dependencies",
+     "I6 for route cases; I10 for product readiness; I17 for visas and route designation."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget. Supporting: private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Visa processing; no Indian aircraft for a direct route before 2030 (MIDAS Aviation Market Assessment, Mar 2026, Indian Market Opportunity)."
+    ],
+    [
+     "Indicators",
+     "T1-02; T2-06 India and China hub arrivals; T3-07 hub-carrier agreements; T3-08 route cases prepared."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I5 Regional Africa programme"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Hold the regional volume base and grow Nigeria and Kenya as premium markets."
+    ],
+    [
+     "Focus areas",
+     "6"
+    ],
+    [
+     "Proposed lead",
+     "Destination Marketing"
+    ],
+    [
+     "Partners",
+     "Air Access; Convention Bureau; regional carriers; trade"
+    ],
+    [
+     "Tier of government",
+     "Provincial; national for visas and route liberalisation"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): Nigeria and Kenya activation plans; Nigeria and Ghana added to the growth model; consumer research for Botswana, Zambia, Ghana and Rwanda. Implement (2028): premium, trade-led activation; capacity cases on the five full regional routes."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Conferences with leisure extensions; onward packages for regional travellers who stop in Johannesburg."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Effort shifted with results; brand seeding in the watch markets."
+    ],
+    [
+     "Dependencies",
+     "I6 for regional capacity; I2 for conference demand; I17 for visas."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget. Supporting: private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Visa friction and budget sensitivity of regional demand (Stakeholder Insights Report, Mar 2026, p45)."
+    ],
+    [
+     "Indicators",
+     "T1-02; T2-08 African arrivals and spend; T3-09 activation programmes run; T3-10 regional capacity cases made."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I6 Route development and seat retention, with a public-private air access fund"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Hold and add seats on the full routes until runway relief, and have direct route cases ready when it arrives."
+    ],
+    [
+     "Focus areas",
+     "7"
+    ],
+    [
+     "Proposed lead",
+     "Air Access"
+    ],
+    [
+     "Partners",
+     "DEDAT; City of Cape Town; ACSA; airlines; private sector"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; national for air service agreements; ACSA for airport capacity"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Implement (2027): a seat-retention and frequency programme on the full routes with joint marketing; quarterly runway milestone tracking; a capacity-against-demand model to 2035. Design (2027 to 2028): a public-private air access fund with ring-fenced corridor budgets."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Fund in operation; frequency and gauge cases on the five full regional routes; growth at George."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Direct India and China route cases taken to carriers as runway capacity arrives."
+    ],
+    [
+     "Dependencies",
+     "ACSA's programme at Cape Town International; I17 for air service agreements; I4 and I5 for demand."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets, private capital. Supporting: national programmes and SOEs. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Runway relief slips; bilateral agreements stay restrictive (section 4.8)."
+    ],
+    [
+     "Indicators",
+     "T1-01; T2-09 seats and routes, T2-10 routes above 80% load; T3-11 fund constituted; T3-12 runway milestone reports issued."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I7 Cruise growth through product"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Grow cruise calls and shore spend through ships that fit, packaged excursions and regional day stops."
+    ],
+    [
+     "Focus areas",
+     "8"
+    ],
+    [
+     "Proposed lead",
+     "Cruise Cape Town"
+    ],
+    [
+     "Partners",
+     "Transnet National Ports Authority; V&A Waterfront; Mossel Bay municipality; cruise lines"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; Transnet for ports"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): line targeting for ships that fit the 300m berth; Mossel Bay excursion packages; source and define the 250-call plan. Implement (2028): marketing to expedition and home-porting operators; community product on cruise-operator channels."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Saldanha Bay only if demand is proven; shore power and wind planning with the ports authority."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Longer itineraries and pre- and post-cruise stays."
+    ],
+    [
+     "Dependencies",
+     "Berth scheduling by Transnet National Ports Authority; I3 and I12 for bookable shore product."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, national programmes and SOEs. Supporting: private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Red Sea reroutes reverse; the 300m ship-length limit (Infrastructure Report, Jul 2026, p110, p112)."
+    ],
+    [
+     "Indicators",
+     "T2-11 cruise calls and passengers; T3-13 excursion packages listed; T3-14 lines engaged."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I8 Corridor mobility"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Make the transport that exists usable for visitors and aggregate the demand that makes corridor shuttles viable."
+    ],
+    [
+     "Focus areas",
+     "9"
+    ],
+    [
+     "Proposed lead",
+     "Tourism, with the Department of Mobility"
+    ],
+    [
+     "Partners",
+     "City of Cape Town; PRASA; district municipalities; private operators"
+    ],
+    [
+     "Tier of government",
+     "Provincial, local and national (PRASA)"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design and pilot (2027 to 2028): a Southern Line visitor product with the City and PRASA; shuttle demand aggregation on the Garden Route and between Cape Town, Darling and the West Coast; transfers sold inside N2 and R62 itineraries."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Shuttle products in operation; Central Line recovery, MyCiTi Phase 2 and integrated ticketing."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "A decision on Cape Town to George rapid rail; the last mile to Cape Point."
+    ],
+    [
+     "Dependencies",
+     "PRASA and the City of Cape Town; the national rule on bank-card payments on the George bus; I9 for itineraries."
+    ],
+    [
+     "Funding route",
+     "Main: provincial and municipal budgets, national programmes and SOEs. Supporting: Wesgro operating budget, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Rail safety and reliability; shuttle viability at low volumes."
+    ],
+    [
+     "Indicators",
+     "T1-06; T2-12 accessibility score, T2-13 corridor transfer products; T3-15 Southern Line product launched; T3-16 shuttle products bookable."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I9 Corridor product development"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Turn assets outside the Metro into bookable multi-day itineraries, starting with the corridors closest to ready."
+    ],
+    [
+     "Focus areas",
+     "10"
+    ],
+    [
+     "Proposed lead",
+     "Tourism"
+    ],
+    [
+     "Partners",
+     "LTOs; district municipalities; CapeNature; SANParks; private investors"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; national for SANParks precincts and broadband"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): itineraries for the six touring routes; a plan to activate cold-zone assets; regional conference offers in Stellenbosch and George."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Delivery on the Garden Route, the Cape Winelands and the Overberg first, then Route 62 and the West Coast."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Accommodation and service depth in secondary towns; refreshed flagship product."
+    ],
+    [
+     "Dependencies",
+     "I3 for bookability; I8 for transfers; I14 for capital."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets, private capital. Supporting: national programmes and SOEs. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "No committed capital for product (Infrastructure Report, Jul 2026, p54, p76); operator capacity."
+    ],
+    [
+     "Indicators",
+     "T1-06; T2-14 readiness by district; T3-17 multi-day itineraries listed; T3-18 cold-zone assets activated."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I10 Visitor experience and quality standards"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Adopt a provincial quality charter, phased by district, and prepare the province for growth-market visitors."
+    ],
+    [
+     "Focus areas",
+     "11"
+    ],
+    [
+     "Proposed lead",
+     "Tourism, with DEDAT"
+    ],
+    [
+     "Partners",
+     "Industry bodies; CATHSSETA; attraction operators"
+    ],
+    [
+     "Tier of government",
+     "Provincial; industry"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): a charter with certification visible on booking platforms; support for SMMEs to comply; readiness standards for language, payments and food."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Charter adopted and phased by district; investment case for mid-scale hotels with I14."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Charter embedded in grading; measurement repeated."
+    ],
+    [
+     "Dependencies",
+     "I14 for mid-scale capital; I18 for skills; I3 for visibility on platforms."
+    ],
+    [
+     "Funding route",
+     "Main: provincial and municipal budgets. Supporting: Wesgro operating budget, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Compliance burden on small businesses; skills shortages."
+    ],
+    [
+     "Indicators",
+     "T2-15 routes rated Ready; T3-19 charter adopted; T3-20 businesses certified."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I11 Flagship site demand management"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Manage visitor flows at the flagship nature sites and steer visitors to under-marketed reserves."
+    ],
+    [
+     "Focus areas",
+     "12"
+    ],
+    [
+     "Proposed lead",
+     "Site operators, with Wesgro Research"
+    ],
+    [
+     "Partners",
+     "SANParks; Table Mountain Aerial Cableway; CapeNature; Robben Island Museum; City of Cape Town"
+    ],
+    [
+     "Tier of government",
+     "National (SANParks), provincial (CapeNature) and site operators"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): a baseline of visitor counts and capacity for five flagship sites; marketing of reserves and the Southern Line as alternatives."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Digital flow management and tiered pricing at the Cableway, Boulders and Cape Point; a visitor management plan for Table Mountain National Park and Boulders."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Yield measures for nature product; climate-resilient asset formats."
+    ],
+    [
+     "Dependencies",
+     "I8 for the Southern Line; I16 for data; I13 for climate risk."
+    ],
+    [
+     "Funding route",
+     "Main: national programmes and SOEs, private capital. Supporting: Wesgro operating budget, provincial and municipal budgets. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Operators do not share data; mandates limit pricing (Stakeholder Insights Report, Mar 2026, p44)."
+    ],
+    [
+     "Indicators",
+     "T2-16 peak Cableway queue; T3-21 flagship baseline published; T3-22 flow tools in place."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I12 Community inclusion pilots"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Test the Inclusion Plan's model in two or three communities: a seller with a stake, a link to existing demand and gates before any investment."
+    ],
+    [
+     "Focus areas",
+     "13"
+    ],
+    [
+     "Proposed lead",
+     "Municipalities and LTOs, with Wesgro Tourism"
+    ],
+    [
+     "Partners",
+     "Municipalities; LTOs; community sellers; SAPS"
+    ],
+    [
+     "Tier of government",
+     "Local and provincial; national for safety (SAPS)"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027): pilots chosen on readiness; agreement on who funds a seller with a stake in each; safety plans. Implement (2028): one live booking route per pilot; a fixed-date test; product placed in Wesgro's itineraries and calendars."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Pilots that meet their thresholds scale; covenants on public assets; links to tourism procurement."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Extension to more shortlisted communities through channels."
+    ],
+    [
+     "Dependencies",
+     "I3 for booking routes; I17 for safety; municipal assets."
+    ],
+    [
+     "Funding route",
+     "Main: provincial and municipal budgets. Supporting: Wesgro operating budget, national programmes and SOEs, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Safety; the selling body is not sustained; capital ahead of demand (SME and Community Inclusion Plan, Sep 2026, p11)."
+    ],
+    [
+     "Indicators",
+     "T1-07; T2-17 communities with a live booking route; T3-23 pilots selected; T3-24 fixed-date tests held."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I13 Climate resilience and destination management, including LTO funding"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Track and plan for climate losses, and give local tourism bodies stable funding with a development mandate."
+    ],
+    [
+     "Focus areas",
+     "14"
+    ],
+    [
+     "Proposed lead",
+     "DEDAT, with Wesgro Research"
+    ],
+    [
+     "Partners",
+     "Municipalities; district municipalities; CapeNature; site operators"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; national for Treasury Circular 131"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): a climate and weather risk register for sites and routes; an LTO funding model in response to Circular 131."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Funding agreements signed; sustainability checks in the quality charter; itineraries routed around closures."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Climate risk and LTO funding embedded in IDPs with reporting."
+    ],
+    [
+     "Dependencies",
+     "National Treasury on Circular 131; I10 for the charter."
+    ],
+    [
+     "Funding route",
+     "Main: provincial and municipal budgets. Supporting: Wesgro operating budget, national programmes and SOEs, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Circular 131 unresolved; further climate events (section 4.8)."
+    ],
+    [
+     "Indicators",
+     "T2-18 LTOs with a funding agreement, T2-19 weather losses at flagship sites; T3-25 risk register published; T3-26 LTO funding model agreed."
+    ]
+   ],
+   "zebra": true
+  },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h3",
+   "text": "I14 Tourism investment pipeline"
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Field",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Charter",
+     "width": 6.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Objective",
+     "Build a scored pipeline of tourism investments from the gap-closure tables and take it to investors."
+    ],
+    [
+     "Focus areas",
+     "15"
+    ],
+    [
+     "Proposed lead",
+     "Wesgro investment promotion"
+    ],
+    [
+     "Partners",
+     "DEDAT; Tourism; private investors; municipalities"
+    ],
+    [
+     "Tier of government",
+     "Provincial and local; private"
+    ],
+    [
+     "Activate, 2027 to 2028",
+     "Design (2027 to 2028): a pipeline from the gap tables, scored for return, jobs and inclusion; return projections for the SLA; investment cases for mid-scale and conference hotels and for accommodation at De Hoop and on Route 62."
+    ],
+    [
+     "Expand, 2029 to 2031",
+     "Investor engagement; first projects at financial close; a tourism levy and blended finance tested with DEDAT."
+    ],
+    [
+     "Sustain, 2032 to 2035",
+     "Pipeline refreshed each year; covenants on public assets."
+    ],
+    [
+     "Dependencies",
+     "I9 and I10 for product and quality; I6 for the air access fund."
+    ],
+    [
+     "Funding route",
+     "Main: Wesgro operating budget, provincial and municipal budgets, private capital. Rand band to be set (section 4.6)."
+    ],
+    [
+     "Risks",
+     "Capital ahead of demand; tight fiscal space (Stakeholder Insights Report, Mar 2026, p25)."
+    ],
+    [
+     "Indicators",
+     "T2-20 projects at financial close; T3-27 investment cases prepared; T3-28 investor engagements."
+    ]
+   ],
+   "zebra": true
+  }
+ ]
+}

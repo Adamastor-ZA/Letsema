@@ -1,0 +1,329 @@
+{
+ "id": "4.4",
+ "title": "Roles and accountabilities",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.4 Roles and accountabilities"
+  },
+  {
+   "type": "lead",
+   "text": "Wesgro is accountable for twelve initiatives and does part of the work in all eighteen; for the other six, the accountable lead sits with another tier, and the plan names it."
+  },
+  {
+   "type": "p",
+   "text": "The matrix below assigns each initiative to the four roles: responsible (R) for doing the work, accountable (A) for the result, consulted (C) before decisions and informed (I) of progress. Where Wesgro is accountable and does the work itself, the cell reads A/R. Assignments are proposals for Steerco to confirm, built from the actions in Chapter 3."
+  },
+  {
+   "type": "table",
+   "caption": "Wesgro is accountable for twelve initiatives; provincial departments, municipalities or site operators are accountable for six, and SOEs or national departments do part of the work in four.",
+   "source": "Letsema, from the Chapter 3 action tables; proposed for Steerco to confirm. Province: DEDAT and the Department of Mobility. SOEs: ACSA, Transnet and PRASA. National: Home Affairs, Transport, National Treasury and SAPS. Industry: industry bodies, airlines, CapeNature, SANParks and attraction operators.",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.55,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Wesgro",
+     "width": 0.62,
+     "align": "center"
+    },
+    {
+     "header": "Province",
+     "width": 0.62,
+     "align": "center"
+    },
+    {
+     "header": "City, CTT",
+     "width": 0.62,
+     "align": "center"
+    },
+    {
+     "header": "Districts, LTOs",
+     "width": 0.62,
+     "align": "center"
+    },
+    {
+     "header": "SOEs",
+     "width": 0.55,
+     "align": "center"
+    },
+    {
+     "header": "SAT",
+     "width": 0.5,
+     "align": "center"
+    },
+    {
+     "header": "National",
+     "width": 0.62,
+     "align": "center"
+    },
+    {
+     "header": "Industry, sites",
+     "width": 0.62,
+     "align": "center"
+    }
+   ],
+   "rows": [
+    [
+     "I1",
+     "Segment-led activation and yield in mature markets",
+     "A/R",
+     "C",
+     "I",
+     "I",
+     "-",
+     "C",
+     "-",
+     "C"
+    ],
+    [
+     "I2",
+     "Green-season events and business-events calendar",
+     "A/R",
+     "C",
+     "R",
+     "R",
+     "-",
+     "I",
+     "-",
+     "C"
+    ],
+    [
+     "I3",
+     "Bookable province programme",
+     "A/R",
+     "C",
+     "C",
+     "R",
+     "-",
+     "-",
+     "I",
+     "C"
+    ],
+    [
+     "I4",
+     "India and China hub conversion",
+     "A/R",
+     "I",
+     "I",
+     "-",
+     "C",
+     "C",
+     "C",
+     "C"
+    ],
+    [
+     "I5",
+     "Regional Africa programme",
+     "A/R",
+     "I",
+     "I",
+     "-",
+     "C",
+     "C",
+     "C",
+     "C"
+    ],
+    [
+     "I6",
+     "Route development and seat retention, with a public-private air access fund",
+     "A/R",
+     "R",
+     "R",
+     "-",
+     "C",
+     "I",
+     "C",
+     "C"
+    ],
+    [
+     "I7",
+     "Cruise growth through product",
+     "A/R",
+     "I",
+     "C",
+     "C",
+     "R",
+     "-",
+     "-",
+     "C"
+    ],
+    [
+     "I8",
+     "Corridor mobility",
+     "R",
+     "A",
+     "R",
+     "R",
+     "R",
+     "-",
+     "C",
+     "C"
+    ],
+    [
+     "I9",
+     "Corridor product development",
+     "A/R",
+     "C",
+     "C",
+     "R",
+     "-",
+     "-",
+     "C",
+     "C"
+    ],
+    [
+     "I10",
+     "Visitor experience and quality standards",
+     "R",
+     "A",
+     "C",
+     "C",
+     "-",
+     "-",
+     "-",
+     "R"
+    ],
+    [
+     "I11",
+     "Flagship site demand management",
+     "R",
+     "C",
+     "C",
+     "C",
+     "-",
+     "-",
+     "C",
+     "A"
+    ],
+    [
+     "I12",
+     "Community inclusion pilots",
+     "R",
+     "C",
+     "R",
+     "A",
+     "-",
+     "-",
+     "C",
+     "C"
+    ],
+    [
+     "I13",
+     "Climate resilience and destination management, including LTO funding",
+     "R",
+     "A",
+     "C",
+     "R",
+     "-",
+     "-",
+     "C",
+     "R"
+    ],
+    [
+     "I14",
+     "Tourism investment pipeline",
+     "A/R",
+     "R",
+     "C",
+     "C",
+     "C",
+     "-",
+     "-",
+     "C"
+    ],
+    [
+     "I15",
+     "Tourism Growth Steerco and three-tier alignment",
+     "A/R",
+     "R",
+     "R",
+     "R",
+     "C",
+     "C",
+     "C",
+     "R"
+    ],
+    [
+     "I16",
+     "Data-sharing protocol and visitor intelligence",
+     "A/R",
+     "C",
+     "R",
+     "C",
+     "R",
+     "R",
+     "R",
+     "C"
+    ],
+    [
+     "I17",
+     "Access and safety escalation agenda",
+     "A/R",
+     "R",
+     "C",
+     "C",
+     "C",
+     "C",
+     "R",
+     "C"
+    ],
+    [
+     "I18",
+     "Tourism labour analysis and skills plan",
+     "R",
+     "A",
+     "C",
+     "C",
+     "-",
+     "-",
+     "C",
+     "R"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "National government and the state-owned entities"
+  },
+  {
+   "type": "p",
+   "text": "Four levers sit outside the province and cannot be bought or marketed into place: air service agreements and route rights, visa rules and border processing, the airport and port capital programmes, and policing (Current State Diagnostic, Dec 2025, p58; Infrastructure Report, Jul 2026, p103, p112). The plan treats them as an escalation agenda (I17), carried by Steerco through DEDAT to the national departments and SOEs. Each item is stated as a decision, an owner and a date the province is asking for. Wesgro's own route work (I6) runs inside the existing agreements meanwhile."
+  },
+  {
+   "type": "h3",
+   "text": "Provincial government"
+  },
+  {
+   "type": "p",
+   "text": "DEDAT is co-chair of Steerco and the accountable lead where the lever is policy or funding rather than promotion: quality standards (I10), LTO funding and climate risk (I13) and the labour analysis (I18). The Department of Mobility leads the transport half of corridor mobility (I8). Wesgro's units lead the demand, access, product and data initiatives and report through the programme office."
+  },
+  {
+   "type": "h3",
+   "text": "District and local government"
+  },
+  {
+   "type": "p",
+   "text": "Municipalities and LTOs hold the assets, the selling bodies and the visitor services that the regional and inclusion initiatives depend on. They lead the community selling bodies in the pilots (I12), attach covenants to public assets (I12, I14) and carry the route and product work in their districts (I3, I9). The City of Cape Town and Cape Town Tourism are partners on events, mobility and data (I2, I8, I16) and sit on Steerco."
+  },
+  {
+   "type": "h3",
+   "text": "The private sector and site operators"
+  },
+  {
+   "type": "p",
+   "text": "Airlines decide frequency and gauge, hotel investors decide the mid-scale tier, and attraction operators manage their own capacity. The plan gives them the evidence and the demand case. It asks for the decisions it cannot make for them: seats on full routes (I6), investment in secondary nodes (I14) and visitor-flow management at flagship sites, where the operators are accountable (I11)."
+  }
+ ]
+}

@@ -1,0 +1,157 @@
+{
+ "id": "4.5",
+ "title": "Tactical wins for the first 24 months",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "4.5 Tactical wins for the first 24 months"
+  },
+  {
+   "type": "lead",
+   "text": "Twelve actions can start in 2027 inside Wesgro's current mandate, and each one unlocks a baseline, a seat or a booking path that a later initiative needs."
+  },
+  {
+   "type": "p",
+   "text": "The list is weighted the way Phase 1 is: seats, bookability, the green season, inclusion pilots and the data the rest of the plan reports on. Start dates are proposals in half-years. No action needs new capital; the funding route column says where the money comes from."
+  },
+  {
+   "type": "table",
+   "caption": "Twelve first-year actions use existing mandates and budgets and unlock the baselines and booking paths the later initiatives need.",
+   "source": "Letsema, from the Chapter 3 action tables and the initiative charters (section 4.3). Owners and start dates are proposals for Steerco to confirm.",
+   "columns": [
+    {
+     "header": "Action",
+     "width": 2.8,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 0.7,
+     "align": "left"
+    },
+    {
+     "header": "Proposed owner",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Start",
+     "width": 0.7,
+     "align": "left"
+    },
+    {
+     "header": "Funding route",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "What it unlocks",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Hold winter seats with demand: joint green-season marketing with carriers on the full routes",
+     "I6, I2",
+     "Air Access",
+     "2027 H1",
+     "Wesgro operating",
+     "Seats kept in May to September, when carriers cut first"
+    ],
+    [
+     "Publish a green-season events calendar and aim bids at May to September",
+     "I2",
+     "Convention Bureau",
+     "2027 H1",
+     "Wesgro operating",
+     "A demand spine for the trough months"
+    ],
+    [
+     "Track the runway programme quarterly and commission a capacity-against-demand model to 2035",
+     "I6",
+     "Air Access",
+     "2027 H1",
+     "Wesgro operating",
+     "Early warning on the binding constraint"
+    ],
+    [
+     "Constitute Steerco with terms of reference and table the first escalation agenda",
+     "I15, I17",
+     "Wesgro CEO's office",
+     "2027 H1",
+     "Wesgro operating",
+     "One forum and one route to national decisions"
+    ],
+    [
+     "Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism",
+     "I16",
+     "Research",
+     "2027 H1",
+     "Wesgro operating",
+     "The feeds the scorecard needs"
+    ],
+    [
+     "Run a bookability census of provincial product by district",
+     "I3",
+     "Research",
+     "2027 H1",
+     "Wesgro operating",
+     "The baseline for the bookability indicator"
+    ],
+    [
+     "Request visitor counts and capacity from the five flagship sites",
+     "I11",
+     "Research",
+     "2027 H1",
+     "Wesgro operating",
+     "The flagship capacity baseline"
+    ],
+    [
+     "Commission the tourism labour analysis behind the jobs ambition",
+     "I18",
+     "Research, with DEDAT",
+     "2027 H1",
+     "Wesgro and DEDAT operating",
+     "A tested jobs target"
+    ],
+    [
+     "Package the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary",
+     "I8, I9",
+     "Tourism",
+     "2027 H2",
+     "Wesgro operating; operators",
+     "Car-free multi-day trips beyond the Metro"
+    ],
+    [
+     "Package the Southern Line as a visitor product with the City and PRASA",
+     "I8",
+     "Tourism",
+     "2027 H2",
+     "Wesgro operating; City",
+     "A scenic rail route to Boulders and Simon's Town"
+    ],
+    [
+     "Choose two or three pilot communities and agree with municipalities and LTOs who funds a seller with a stake in each",
+     "I12",
+     "Tourism",
+     "2027 H2",
+     "Municipal and LTO budgets",
+     "The first test of the inclusion model"
+    ],
+    [
+     "Give each pilot community one live booking route before any promotion",
+     "I12, I3",
+     "LTOs, with Tourism",
+     "2028 H1",
+     "Municipal and LTO budgets",
+     "Community product that can be bought"
+    ]
+   ],
+   "boldFirstCol": false
+  }
+ ]
+}

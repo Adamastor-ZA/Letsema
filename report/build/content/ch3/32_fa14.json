@@ -1,0 +1,172 @@
+{
+ "id": "3.3.1",
+ "title": "Manage climate risk and sustainable tourism",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 3.1 · Investment, inclusion and sustainability · Focus area 14"
+  },
+  {
+   "type": "h3",
+   "text": "Manage climate risk and sustainable tourism"
+  },
+  {
+   "type": "lead",
+   "text": "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that Treasury Circular 131 has disrupted."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Ensure Sustainable Destination Management (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Reworded.** LTOs are unfunded and the Meiringspoort flood cut a route. Destination-management funding and dated climate losses replaced a general sustainability entry. The stakeholder evidence on LTO funding and climate losses drove the change, with the Inclusion Plan's De Rust profile for the flood."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Climate losses are dated and site-specific, and the bodies that manage destinations locally have no stable funding.",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; statements attributed to organisations, not quotations); SME and Community Inclusion Plan, Sep 2026 (SCIP); Infrastructure Report, Jul 2026 (IR); Current State Diagnostic, Dec 2025 (Diag). No deliverable quantifies climate risk province-wide.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "LTOs depend on municipalities",
+     "Most local tourism bodies are not operationally sustainable without municipal funding, and Treasury Circular 131 has disrupted that route (Department of Economic Development)",
+     "SIR p25"
+    ],
+    [
+     "LTO budgets go to marketing",
+     "LTO contracts and budgets are weighted toward destination marketing, leaving little for tourism development (West Coast District Municipality)",
+     "SIR p39"
+    ],
+    [
+     "A flood cut a route",
+     "Meiringspoort closed since the flood of 6 May 2026; rebuild R421m over about 26 months; De Rust's pass-through trade cut",
+     "SCIP p24"
+    ],
+    [
+     "Weather costs a flagship",
+     "Weather cancellations cost Robben Island roughly R16m a year, on management's estimate",
+     "SIR p33"
+    ],
+    [
+     "Sites are closing",
+     "Flooding, fire and extreme heat are closing CapeNature sites and restricting trails; high winds close the Cableway for a significant part of the year",
+     "SIR p43, p36"
+    ],
+    [
+     "Every district has a climate risk",
+     "Water security in the Metro and the Garden Route; wildflower predictability on the West Coast; whale migration and sea levels in the Overberg; summer heat in the Central Karoo",
+     "IR p31, p64, p75, p86; Diag p43"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "No deliverable puts a provincial figure on tourism revenue at risk from weather or water [provincial estimate of tourism revenue at risk: none in hand], and none counts the LTOs or their grant funding [number of Western Cape LTOs and their municipal funding before and after Circular 131: DEDAT to supply]. The only working sustainability standard on record is Mossel Bay's membership inspections, which check water-wise and green practices (Stakeholder Insights Report, Mar 2026, p20)."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should treat climate as a destination-management risk it reports on and plans around, and press for stable funding of the local bodies that do the work. The deliverables diagnose this entry more than they prescribe for it. The Diagnostic asks for a climate-smart wine region, a nature-positive test bed in the Overberg and resilience investment on the Garden Route (Current State Diagnostic, Dec 2025, p43, p45, p49). CapeNature is already reassessing asset formats and siting to cut losses from flood, fire and heat (Stakeholder Insights Report, Mar 2026, p43)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Keep a climate and weather risk register for tourism sites and routes, starting with the Robben Island, Cableway and CapeNature losses and the Meiringspoort closure",
+     "Research; site operators"
+    ],
+    [
+     "Wesgro",
+     "Build sustainability checks into the provincial quality charter (focus area 11) on the Mossel Bay model",
+     "Tourism; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Route itineraries and marketing around closures, starting with alternatives to Meiringspoort until the pass reopens",
+     "Destination Marketing; Garden Route and Klein Karoo LTOs"
+    ],
+    [
+     "Partners",
+     "Give LTOs a stable funding agreement with a development mandate, written into IDPs with reporting",
+     "Municipalities; district municipalities; DEDAT"
+    ],
+    [
+     "Partners",
+     "Make reserve and attraction assets climate-resilient, with off-grid power at remote sites",
+     "CapeNature; site operators"
+    ],
+    [
+     "National",
+     "Resolve the effect of Treasury Circular 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+     "National Treasury; the road authority"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "No benchmark case carries a climate-adaptation or local destination-body funding lever. The nearest are Kenya's tourism-funded conservation financing, a self-financing system that supports conservation and sustains demand, and Valencia's SICTED quality system with its environmental compliance frameworks (Global Benchmarking Report, Mar 2026, p33, p47)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I13**, climate resilience and destination management, including LTO funding (section 4.3). **Indicators** T2-18 LTOs with a funding agreement and T2-19 weather losses at flagship sites at outcome level (section 5.2)."
+  }
+ ]
+}

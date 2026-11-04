@@ -1,0 +1,259 @@
+{
+ "id": "4.1",
+ "title": "From strategy to initiatives",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "4.1 From strategy to initiatives"
+  },
+  {
+   "type": "lead",
+   "text": "Twenty focus areas become eighteen initiatives, one per focus area except where one owner delivers two."
+  },
+  {
+   "type": "p",
+   "text": "The plan follows one chain from vision to measure. Each level answers a different question. The pillar says what must change and the focus area says where; the initiative says what Wesgro and its partners do, and the indicator says how Steerco will know it has happened (section 5.1)."
+  },
+  {
+   "type": "table",
+   "caption": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan.",
+   "source": "Chapter 3; traceability table, Appendix A1. Action count from the Chapter 3 action tables.",
+   "columns": [
+    {
+     "header": "Level",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Count",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "What it answers",
+     "width": 2.8,
+     "align": "left"
+    },
+    {
+     "header": "Example",
+     "width": 2.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Vision",
+     "1",
+     "Where the province is going",
+     "Grow international arrivals from 1.5m in 2025 toward 2.5m by 2035"
+    ],
+    [
+     "Pillars",
+     "3",
+     "What must change",
+     "Reshape demand"
+    ],
+    [
+     "Themes",
+     "6",
+     "In which part of the system",
+     "Source market growth and diversification"
+    ],
+    [
+     "Focus areas",
+     "20",
+     "Where the evidence says to act",
+     "Convert India and China hub traffic"
+    ],
+    [
+     "Initiatives",
+     "18",
+     "What Wesgro and its partners do",
+     "I4 India and China hub conversion"
+    ],
+    [
+     "Actions",
+     "82",
+     "Who does what, by tier",
+     "Activate inside Xiaohongshu, Douyin and MakeMyTrip"
+    ],
+    [
+     "Indicators",
+     "7, 25 and 36",
+     "How Steerco knows, at impact, outcome and output level",
+     "T2-06 India and China hub arrivals"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "Two merges take twenty focus areas to eighteen initiatives. Segment-led marketing and mature-market yield share one owner and one set of channels, so focus areas 1 and 5 form initiative I1. Institutional alignment and industry collaboration share one forum, so focus areas 16 and 17 form I15. Every other focus area has its own initiative, numbered I1 to I18 in one sequence so that the M&E toolkit can track them on one list."
+  },
+  {
+   "type": "p",
+   "text": "Leads are proposed, not agreed. They follow the Wesgro units named in the Inception Report's stakeholder map and the actions in Chapter 3, and Steerco confirms them at its first meeting [Steerco to confirm initiative leads and partners]. Six initiatives have a partner as the accountable lead, because the main lever sits outside Wesgro's mandate: corridor mobility, quality standards, flagship sites, the community pilots, climate and LTO funding, and skills."
+  },
+  {
+   "type": "table",
+   "caption": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028.",
+   "source": "Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2.",
+   "columns": [
+    {
+     "header": "Code",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Initiative",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "Focus areas",
+     "width": 0.9,
+     "align": "left"
+    },
+    {
+     "header": "Proposed lead",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Phase 1 role",
+     "width": 1.4,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "I1",
+     "Segment-led activation and yield in mature markets",
+     "1, 5",
+     "Destination Marketing",
+     "Design, then implement"
+    ],
+    [
+     "I2",
+     "Green-season events and business-events calendar",
+     "2",
+     "Convention Bureau",
+     "Design, then implement"
+    ],
+    [
+     "I3",
+     "Bookable province programme",
+     "3",
+     "Tourism",
+     "Design, then implement"
+    ],
+    [
+     "I4",
+     "India and China hub conversion",
+     "4",
+     "Destination Marketing",
+     "Design, then implement"
+    ],
+    [
+     "I5",
+     "Regional Africa programme",
+     "6",
+     "Destination Marketing",
+     "Design, then implement"
+    ],
+    [
+     "I6",
+     "Route development and seat retention, with a public-private air access fund",
+     "7",
+     "Air Access",
+     "Implement"
+    ],
+    [
+     "I7",
+     "Cruise growth through product",
+     "8",
+     "Cruise Cape Town",
+     "Design, then implement"
+    ],
+    [
+     "I8",
+     "Corridor mobility",
+     "9",
+     "Tourism, with the Department of Mobility",
+     "Design"
+    ],
+    [
+     "I9",
+     "Corridor product development",
+     "10",
+     "Tourism",
+     "Design"
+    ],
+    [
+     "I10",
+     "Visitor experience and quality standards",
+     "11",
+     "Tourism, with DEDAT",
+     "Design"
+    ],
+    [
+     "I11",
+     "Flagship site demand management",
+     "12",
+     "Site operators, with Wesgro Research",
+     "Design"
+    ],
+    [
+     "I12",
+     "Community inclusion pilots",
+     "13",
+     "Municipalities and LTOs, with Wesgro Tourism",
+     "Design, then implement"
+    ],
+    [
+     "I13",
+     "Climate resilience and destination management, including LTO funding",
+     "14",
+     "DEDAT, with Wesgro Research",
+     "Design"
+    ],
+    [
+     "I14",
+     "Tourism investment pipeline",
+     "15",
+     "Wesgro investment promotion",
+     "Design"
+    ],
+    [
+     "I15",
+     "Tourism Growth Steerco and three-tier alignment",
+     "16, 17",
+     "Wesgro CEO's office",
+     "Implement"
+    ],
+    [
+     "I16",
+     "Data-sharing protocol and visitor intelligence",
+     "18",
+     "Research",
+     "Design, then implement"
+    ],
+    [
+     "I17",
+     "Access and safety escalation agenda",
+     "19",
+     "Wesgro CEO's office, with DEDAT",
+     "Implement"
+    ],
+    [
+     "I18",
+     "Tourism labour analysis and skills plan",
+     "20",
+     "Research, with DEDAT",
+     "Design"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}

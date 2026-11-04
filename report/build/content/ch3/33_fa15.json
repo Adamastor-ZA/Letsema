@@ -1,0 +1,172 @@
+{
+ "id": "3.3.1",
+ "title": "Crowd in capital with targeted investment strategies",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "kicker",
+   "text": "Theme 3.1 · Investment, inclusion and sustainability · Focus area 15"
+  },
+  {
+   "type": "h3",
+   "text": "Crowd in capital with targeted investment strategies"
+  },
+  {
+   "type": "lead",
+   "text": "The province has a capital pipeline for airports, ports, roads and rail, but none of it reaches tourism product, bookability, accommodation depth or community assets, which is where the growth case needs investment."
+  },
+  {
+   "type": "h4",
+   "text": "Hypothesis and disposition"
+  },
+  {
+   "type": "p",
+   "text": "**December 2025.** Crowd-In Capital with Targeted Investment Strategies (Current State Diagnostic, Dec 2025, p64)."
+  },
+  {
+   "type": "p",
+   "text": "**October 2026: Validated.** No pipeline. The Infrastructure Report's pipeline and gap-closure tables drove the disposition, with the stakeholder view that funding sits below peers and the Chilean and New Zealand benchmarks. The reason is an inference: the report lists a large capital pipeline, and its gap columns show that none of it reaches tourism product."
+  },
+  {
+   "type": "h4",
+   "text": "Evidence"
+  },
+  {
+   "type": "table",
+   "caption": "Capital is committed to gateways and transport, and each district's tourism gaps carry no committed capital.",
+   "source": "Infrastructure Report, Jul 2026 (IR; the ~R11.3bn CTIA headline itemises to R9.94bn on p103); Stakeholder Insights Report, Mar 2026 (SIR); SME and Community Inclusion Plan, Sep 2026 (SCIP). No deliverable gives a Western Cape tourism funding-gap figure.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "The Metro pipeline",
+     "About R30bn or more planned: ~R11.3bn at Cape Town International, R20bn for the V&A Granger Bay expansion and R3.3bn for MyCiTi Phase 2; SME bookability and township product sit outside every capital programme",
+     "IR p32"
+    ],
+    [
+     "Airports are funded",
+     "R310m George terminal by 2028; Cape Winelands Airport ~R8bn private phase 1, with funding not yet locked in",
+     "IR p43, p106"
+    ],
+    [
+     "Tourism gaps are not",
+     "No committed capital for West Coast accommodation and payments, De Hoop accommodation, Whale Coast bookability, Overberg year-round product or Route 62 accommodation",
+     "IR p65, p76, p87"
+    ],
+    [
+     "Port capital is for freight",
+     "Of the port capital listed, only the R22m Mossel Bay reception facility is for cruise",
+     "IR p112"
+    ],
+    [
+     "Funding is below peers",
+     "Western Cape tourism funding is materially below peer destinations, and a tourism levy and blended finance are under consideration",
+     "SIR p25, p23"
+    ],
+    [
+     "Capital first fails",
+     "Kliptown's Walter Sisulu Square cost R160m to R180m before an operator and drew about 4,000 museum visitors a year by 2017",
+     "SCIP p11"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The instrument this entry calls for was planned and not delivered. The Inception Report scoped an investment opportunity framework that would score gaps against return, jobs and inclusion, with a roadmap of quick wins, medium-term plays and long-term moves (Inception Report, Nov 2025, p18, p20). The gap-closure tables are its input [Western Cape tourism funding against the peer set: DEDAT and Wesgro budget data needed]."
+  },
+  {
+   "type": "h4",
+   "text": "Recommendation"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should build the tourism investment pipeline the gap tables imply, and commit capital only where demand has been shown. The Inclusion Plan's rule applies across the portfolio: invest after demand, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p31, p15). The benchmarks offer the vehicles: Chile's private concession for its gateway airport and New Zealand's route incentives tied to bookings (Global Benchmarking Report, Mar 2026, p26, p54)."
+  },
+  {
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Build a tourism investment pipeline from the gap-closure tables, scored for return, jobs and inclusion, and take it to investors",
+     "Wesgro investment promotion; Tourism; DEDAT"
+    ],
+    [
+     "Wesgro",
+     "Prepare investment cases for mid-scale and conference-capable hotels in secondary nodes and for accommodation at De Hoop and on Route 62",
+     "Wesgro investment promotion; private investors"
+    ],
+    [
+     "Wesgro",
+     "Set up the public-private air access fund with ring-fenced corridor budgets (focus area 7)",
+     "Air Access; DEDAT; City of Cape Town; private sector"
+    ],
+    [
+     "Partners",
+     "Test a tourism levy and blended-finance vehicles for destination management and mobility",
+     "DEDAT; City of Cape Town"
+    ],
+    [
+     "Partners",
+     "Attach covenants to public assets before re-letting or upgrading them, and invest in community assets only after demand is proven",
+     "Municipalities"
+    ],
+    [
+     "National",
+     "Hold ACSA, PRASA and Transnet to their published capital dates, and add tourism use to the port plans",
+     "ACSA; PRASA; Transnet"
+    ]
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Benchmark precedent"
+  },
+  {
+   "type": "p",
+   "text": "Chile funded a ~US$900 million expansion of its gateway airport through a private concession awarded by its Ministry of Public Works (Global Benchmarking Report, Mar 2026, p26). Melbourne's event-led demand drew 21% growth in hotel rooms, 5,000 new rooms and the entry of global hotel brands (p18)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "p",
+   "text": "**Initiative I14**, tourism investment pipeline (section 4.3). **Indicator** T2-20 pipeline projects at financial close at outcome level (section 5.2)."
+  }
+ ]
+}
