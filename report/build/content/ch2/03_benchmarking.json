@@ -1,0 +1,342 @@
+{
+ "id": "2.3",
+ "title": "Global benchmarking",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "2.3 Global benchmarking"
+  },
+  {
+   "type": "lead",
+   "text": "The comparator destinations grew faster than the global norm by running institutions, marketing and air access as one system aimed at a single binding constraint."
+  },
+  {
+   "type": "h3",
+   "text": "What was asked"
+  },
+  {
+   "type": "p",
+   "text": "The inception report asked for four to six global comparators aligned to the Western Cape's market profile (Inception Report, Nov 2025, p16). It wanted the strategies and policies behind their growth and the lessons on air access, investment, partnerships and visitor experience that transfer. The agreed report structure assigns this work to SLA Annexure B clauses 1.1.5, 1.1.11 and 3.2.7. [Clause wording to be checked against the signed Annexure B.]"
+  },
+  {
+   "type": "h3",
+   "text": "What was done"
+  },
+  {
+   "type": "p",
+   "text": "The Global Benchmarking Report screened 30 destinations against 12 criteria in four groups: market and access, destination and product structure, growth and inclusion, and performance (Global Benchmarking Report, Mar 2026, p11, p12). Each selected case was then read through one framework covering its demand profile, two proven growth levers and their transferability to the Western Cape (p13)."
+  },
+  {
+   "type": "p",
+   "text": "The final comparator set is the report's six: Chile; Melbourne and Victoria; Valencia; Singapore; Kenya; and Auckland and New Zealand (Global Benchmarking Report, Mar 2026, p12). This report uses that set. Where a sharper example exists elsewhere, it is cited as a public source and labelled outside the set."
+  },
+  {
+   "type": "p",
+   "text": "The set moved twice before it settled. The inception report selected Chile, Porto, Vancouver, Melbourne, Valencia and Singapore, and its screen placed Auckland seventh and Kenya eleventh, both marked not selected (Inception Report, Nov 2025, p31, p32). The Diagnostic then recorded that adding Namibia and Kenya \"will support a more balanced and regionally grounded benchmark set\" (Current State Diagnostic, Dec 2025, p62)."
+  },
+  {
+   "type": "p",
+   "text": "The March report kept Kenya, added New Zealand and dropped Porto, Vancouver and Namibia. No document in hand records why, and the change is logged. MIDAS ran its own aviation benchmark against eight secondary airports, summarised in 2.2."
+  },
+  {
+   "type": "p",
+   "text": "The report sets a global norm against which growth counts as structural. Global arrivals grow 3% to 5% a year under stable conditions, more than 5% marks structural acceleration and 10% or more a structural shift (Global Benchmarking Report, Mar 2026, p7). Growth counts as structural only when it is \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (p8)."
+  },
+  {
+   "type": "h3",
+   "text": "Findings that survived into the tree"
+  },
+  {
+   "type": "p",
+   "text": "**1. Five of the six comparators grew well above the norm.** Chile grew about 35% between 2023 and 2024, Singapore about 19%, Kenya 12.8% to 14.6%, Valencia 13% to 14% and New Zealand about 12% (Global Benchmarking Report, Mar 2026, p9). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its holiday arrivals; total arrivals grew 5.9% (p53)."
+  },
+  {
+   "type": "table",
+   "caption": "Five of the six comparators grew above the 3% to 5% global norm in 2023 to 2024, each through a primary lever of its own.",
+   "source": "Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type).",
+   "columns": [
+    {
+     "header": "Destination",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Growth 2023 to 2024",
+     "width": 1.3,
+     "align": "right"
+    },
+    {
+     "header": "Against 2019",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Primary lever",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "System type",
+     "width": 1.5,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Chile",
+     "About 35%",
+     "About 82% recovered",
+     "Gateway-led air concentration",
+     "Connectivity-led"
+    ],
+    [
+     "Singapore",
+     "About 19%",
+     "Slightly below; spend recovered",
+     "Aviation hub and stopover conversion",
+     "Orchestrated experience"
+    ],
+    [
+     "Kenya",
+     "12.8% to 14.6%",
+     "About 102% recovered",
+     "Conservation-led wildlife product",
+     "Product-led"
+    ],
+    [
+     "Valencia",
+     "13% to 14%",
+     "124% recovered",
+     "Institutionalised quality governance",
+     "Governance-led"
+    ],
+    [
+     "New Zealand",
+     "About 12% (holiday arrivals; total 5.9%)",
+     "90% recovered, higher yield",
+     "Demand-led route development",
+     "Value-led"
+    ],
+    [
+     "Melbourne and Victoria",
+     "4.3% (Australia, forecast)",
+     "Near full recovery",
+     "Event-led demand",
+     "Events-led"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "figure",
+   "id": "fig_23_growth",
+   "caption": "The comparators' growth sits two to nine times above the roughly 4% global rate of 2024 to 2025.",
+   "source": "Global Benchmarking Report, Mar 2026, p7 (global rate, UN Tourism World Tourism Barometer, January 2025) and p9 (comparators). Where the report prints a range, the bar shows its midpoint: Kenya 12.8% to 14.6%, Valencia 13% to 14%.",
+   "chart": {
+    "type": "hbar",
+    "categories": [
+     "Chile",
+     "Singapore",
+     "Kenya (range midpoint)",
+     "Valencia (range midpoint)",
+     "New Zealand (holiday arrivals)",
+     "Melbourne (Australian forecast)",
+     "Global, 2024 to 2025"
+    ],
+    "values": [
+     35,
+     19,
+     13.7,
+     13.5,
+     12,
+     4.3,
+     4
+    ],
+    "unit": "%",
+    "highlight": [
+     6
+    ],
+    "footnote": "The report's global norm is 3% to 5% a year; above 5% marks structural acceleration (p7)."
+   }
+  },
+  {
+   "type": "p",
+   "text": "**2. Access comes first, and the state treats it as infrastructure.** Santiago handles about 90% to 95% of Chile's 5.2 million international arrivals, and its airport traffic rose from about 16 million passengers in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p24, p25). A private concession won in 2015 funded about US$900 million of expansion, under one of the world's most liberal aviation systems built on open-skies agreements (p23, p26)."
+  },
+  {
+   "type": "p",
+   "text": "The report draws the lesson for the Western Cape directly (Global Benchmarking Report, Mar 2026, p28). It says to \"treat air access as core economic infrastructure, not a tourism add-on\" and to establish \"a permanent, well-funded Public–Private Air Access Fund\". It also says to \"actively lobby for air service liberalisation and simplified visa regimes\" (p28)."
+  },
+  {
+   "type": "p",
+   "text": "**3. Marketing money follows routes.** New Zealand \"shifted from awareness-driven marketing to route accountable demand generation\", tying budgets to specific long-haul corridors and designing campaigns around airline breakeven and shoulder-season loads (Global Benchmarking Report, Mar 2026, p54). The programme reports more than 16,000 incremental bookings and a return of about NZ$55 million in 2023/24, supported by government-backed early-stage route incentives and data shared between tourism bodies and airlines (p54)."
+  },
+  {
+   "type": "p",
+   "text": "**4. Hubs can be converted, not just flown through.** Singapore turns transit into visits through its stopover programme, with the tourism board, Changi Airport Group and Singapore Airlines working \"under a coordinated strategy\" (Global Benchmarking Report, Mar 2026, p40). It received 13 million international visitors in 2024, 19% more than in 2023, and visitor spend reached $31.3 billion (p39). Kenya positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals (p32, p34)."
+  },
+  {
+   "type": "p",
+   "text": "**5. Events steady demand and pull air capacity.** Victoria curates a portfolio of events that \"generate repeat, predictable demand spikes across the year\", and Melbourne \"uses its event calendar to de-risk and stimulate aviation demand\" (Global Benchmarking Report, Mar 2026, p18, p59). Hotel stock grew 21%, about 5,000 rooms, behind it (p18). The transferable step is \"a unified event acquisition and calendar strategy across Wesgro, Convention Bureau, City and Province\" (p20)."
+  },
+  {
+   "type": "p",
+   "text": "**6. Quality is governed, not encouraged.** Valencia adopted a destination-wide quality system across its tourism businesses and placed coordination in \"a permanent public–private structure led by Visit València\" (Global Benchmarking Report, Mar 2026, p47). It received 3.5 million international visitors in 2024, 13.9% more than in 2023 and 24.4% above 2019 (p46). The required change is a provincial quality charter, with certification \"visible across booking platforms\" (p49)."
+  },
+  {
+   "type": "p",
+   "text": "**7. The leaders measure value, not arrivals.** New Zealand manages regional capacity to protect pricing and recommends that destinations \"replace arrival growth with yield-based regional performance metrics\" (Global Benchmarking Report, Mar 2026, p55, p56). Kenya earned about US$1,650 per visitor in 2024 by building conservation and community participation into one governed product system (p32, p33)."
+  },
+  {
+   "type": "p",
+   "text": "**8. The system is the lever.** The report's synthesis is that \"sustained tourism growth is not created by fragmented interventions, but by a coordinated destination system in which governance, demand generation and access reinforce one another\" (Global Benchmarking Report, Mar 2026, p58). Chile's coordination works best \"when anchored around a single strategic constraint\", which for Chile was long-haul access (p59)."
+  },
+  {
+   "type": "p",
+   "text": "Coordination is hard everywhere. Victoria reports tension between national and state bodies over roles and branding, Valencia struggles to integrate data systems across institutions and Kenya's collaboration between government, industry and financiers is \"mixed\" (Global Benchmarking Report, Mar 2026, p16, p31, p45). The Western Cape's constraint has the same shape as Chile's: seats into one gateway airport."
+  },
+  {
+   "type": "table",
+   "caption": "Each comparator's lesson translates into a change the Western Cape would have to make.",
+   "source": "Global Benchmarking Report, Mar 2026, p20, p28, p35, p42, p49, p56 (required change for the Western Cape, condensed).",
+   "columns": [
+    {
+     "header": "Destination",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Lever",
+     "width": 1.9,
+     "align": "left"
+    },
+    {
+     "header": "Required change for the Western Cape",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Page",
+     "width": 0.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Chile",
+     "Gateway-led air connectivity",
+     "Treat air access as core economic infrastructure; a permanent public-private air access fund; lobby for air service liberalisation and simpler visas",
+     "p28"
+    ],
+    [
+     "New Zealand",
+     "Demand-engineered air access",
+     "Ring-fence marketing budgets around priority long-haul corridors; an aviation partnership framework; early-stage route support",
+     "p56"
+    ],
+    [
+     "Melbourne and Victoria",
+     "Event-led demand",
+     "One event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province; conference bidding aligned to sector strengths",
+     "p20"
+    ],
+    [
+     "Singapore",
+     "Hub conversion and quality uplift",
+     "Government, aviation, events and industry under shared KPIs; a province-wide quality and standards framework led by Wesgro",
+     "p42"
+    ],
+    [
+     "Valencia",
+     "Governed quality and sector councils",
+     "A provincial quality charter, phased by district; certification visible on booking platforms; standing sector councils for wine, MICE, adventure and culture",
+     "p49"
+    ],
+    [
+     "Kenya",
+     "Gateway diversification and conservation-led product",
+     "Treat MICE as a system lever; align city, provincial and national actors around a gateway strategy; build conservation and community inclusion into the offer",
+     "p35"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Eight benchmark findings carry into the hypothesis tree, each with a named precedent.",
+   "source": "Global Benchmarking Report, Mar 2026, pages as cited.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Precedent and figure",
+     "width": 3.9,
+     "align": "left"
+    },
+    {
+     "header": "Pages",
+     "width": 1.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Growth above the norm is designed",
+     "Norm 3% to 5% a year; Chile about 35%, Singapore about 19%, Valencia 13% to 14%",
+     "p7, p8, p9"
+    ],
+    [
+     "Access as infrastructure",
+     "Chile: US$900m airport concession (2015); open skies; Santiago 90% to 95% of 5.2m arrivals",
+     "p23 to p26"
+    ],
+    [
+     "Air access fund",
+     "Chile lesson: permanent public-private air access fund; lobby for liberalisation and simpler visas",
+     "p28"
+    ],
+    [
+     "Route-accountable marketing",
+     "New Zealand: 16,000+ incremental bookings; about NZ$55m return, 2023/24",
+     "p54"
+    ],
+    [
+     "Hub conversion",
+     "Singapore: stopover programme; 13m arrivals (+19%) and $31.3bn spend, 2024",
+     "p39, p40"
+    ],
+    [
+     "Events pull capacity",
+     "Melbourne: 5,000 new rooms (+21%); unified event calendar across Wesgro, City and Province",
+     "p18, p20"
+    ],
+    [
+     "Governed quality",
+     "Valencia: destination-wide quality system; 3.5m visitors (+13.9%), 2024",
+     "p46, p47"
+    ],
+    [
+     "Value metrics",
+     "New Zealand: yield-based regional metrics; Kenya: about US$1,650 per visitor",
+     "p32, p56"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "box",
+   "title": "What this means for the tree",
+   "paras": [
+    "**Supplies precedent for FA07, Win direct routes and add seats on full routes, and FA15, Crowd in capital with targeted investment strategies.** Chile's airport concession and air access fund; New Zealand's route-tied marketing (findings 2 and 3).",
+    "**Supplies precedent for FA04, Convert India and China hub traffic.** Singapore's stopover conversion and Kenya's hub strategy (finding 4).",
+    "**Supplies precedent for FA02, Create green-season demand with MICE and events.** Melbourne's events-led system and unified calendar (finding 5).",
+    "**Supplies precedent for FA11, Align visitor experience in-destination, and FA03, Make the whole province findable and bookable.** Valencia's governed quality and certification visible on booking platforms (finding 6).",
+    "**Supplies precedent for FA05, FA12 and FA14.** Yield-based metrics, capacity discipline and conservation-led product (finding 7).",
+    "**Supports FA16, FA17 and FA18.** One coordinated system of governance, marketing and access, with shared data between tourism bodies and airlines (findings 3 and 8)."
+   ]
+  }
+ ]
+}

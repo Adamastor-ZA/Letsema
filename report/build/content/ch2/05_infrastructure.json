@@ -1,0 +1,502 @@
+{
+ "id": "2.5",
+ "title": "Spatial and infrastructure readiness",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "2.5 Spatial and infrastructure readiness"
+  },
+  {
+   "type": "lead",
+   "text": "Tourism readiness falls with every step away from Cape Town, so growth outside the Metro depends on deliberate corridor investment rather than spillover."
+  },
+  {
+   "type": "h3",
+   "text": "The tourism economy and who shares in it"
+  },
+  {
+   "type": "p",
+   "text": "The supply-side evidence in this section and the next starts from the same fact: the tourism economy is large and concentrated. Foreign visitors spent R25.9bn in the province in FY2025 (Demand-Side Analysis, Jun 2026, p11), and the Cape Metro generates 72.5% of provincial GDPR (Current State Diagnostic, Dec 2025, p39)."
+  },
+  {
+   "type": "p",
+   "text": "Little of that spend reaches the communities around the nodes. The 20 communities shortlisted by the inclusion work hold 18.4% of the province's residents but receive 0.02% to 0.04% of foreign direct spend, about R4m to R10m a year (SME and Community Inclusion Plan, Sep 2026, p5). Section 2.5 sets out where the supply sits; section 2.6 sets out why so little of it is shared."
+  },
+  {
+   "type": "h3",
+   "text": "What was asked"
+  },
+  {
+   "type": "p",
+   "text": "The supply phase was asked to understand spatial infrastructure and readiness for scalable growth through an asset inventory and readiness index, GIS mapping, regional profiles and an investment opportunity framework (Inception Report, Nov 2025, p11, p18). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.2, 1.1.8 and 3.2.4. [Clause wording to be checked against the signed Annexure B.]"
+  },
+  {
+   "type": "h3",
+   "text": "What was done"
+  },
+  {
+   "type": "p",
+   "text": "The Infrastructure Report mapped 50,332 tourism assets across the six regions in three layers: attractions, services and enabling infrastructure (Infrastructure Report, Jul 2026, p2, p9, p10). It drew on Wesgro's supply database, SANParks and CapeNature data and open geographic sources (p4). Its premise is that \"destination performance is constrained by the weakest layer\" (p9)."
+  },
+  {
+   "type": "p",
+   "text": "Each region is scored from 1 to 5 on attractiveness (40%), readiness and capacity (30%) and accessibility (30%) (Infrastructure Report, Jul 2026, p17). The scores \"are evidence informed, not purely formula derived\", and missing data is not scored as poor performance (p18). The printed overall ratings do not reproduce from the weighted dimension scores, so this report quotes them as printed."
+  },
+  {
+   "type": "p",
+   "text": "Six touring routes were rated Ready, Developing or Gap on access, accommodation, safety and bookability (Infrastructure Report, Jul 2026, p19). The final report of July 2026 supersedes a June draft. [Dataset limits, including the absence of geography below district level, to be confirmed against the supply dataset notes.]"
+  },
+  {
+   "type": "h3",
+   "text": "Findings that survived into the tree"
+  },
+  {
+   "type": "p",
+   "text": "**1. Readiness halves between the Metro and the periphery.** The Cape Metro rates 4.5 out of 5, the Cape Winelands and the Garden Route 3.4, the Overberg 2.7, the West Coast 2.5 and the Central Karoo 1.9 (Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85). The report's summary is blunt: infrastructure is \"eroding rapidly with distance from Cape Town, weakening the visitor experience\" (p5)."
+  },
+  {
+   "type": "p",
+   "text": "Accessibility falls fastest (Infrastructure Report, Jul 2026, p88 to p90). On attractions it scores 4.7 in the Metro, 3.3 in the Winelands and 3.0 on the Garden Route. It drops to 2.0 in the Overberg, 1.7 on the West Coast and 1.0 in the Central Karoo; on transport the Metro scores 5.0. \"The further from Cape Town, the faster the infrastructure falls away\" (p90)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_25_readiness",
+   "caption": "Overall readiness and accessibility both fall with each step away from the Cape Metro.",
+   "source": "Infrastructure Report, Jul 2026: overall ratings p28, p41, p52, p63, p74, p85; accessibility of attractions p88. Scale 1 (very weak) to 5 (leading). Districts ordered from the Metro outward.",
+   "chart": {
+    "type": "bar",
+    "categories": [
+     "Cape Metro",
+     "Cape Winelands",
+     "Garden Route",
+     "Overberg",
+     "West Coast",
+     "Central Karoo"
+    ],
+    "series": [
+     {
+      "name": "Overall readiness",
+      "values": [
+       4.5,
+       3.4,
+       3.4,
+       2.7,
+       2.5,
+       1.9
+      ]
+     },
+     {
+      "name": "Accessibility of attractions",
+      "values": [
+       4.7,
+       3.3,
+       3.0,
+       2.0,
+       1.7,
+       1.0
+      ]
+     }
+    ],
+    "unit": ""
+   }
+  },
+  {
+   "type": "p",
+   "text": "**2. Cape Town is the gateway and the dispersal point.** The Metro holds 20,281 of the 50,332 assets, 40.3%, and five of the province's six highest-volume attractions (Infrastructure Report, Jul 2026, p23, p88). It is the only region with an international airport and rapid transit (p90). The report concludes that \"dispersal needs deliberate corridor investment, not organic spillover from Cape Town\" (p5)."
+  },
+  {
+   "type": "table",
+   "caption": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets.",
+   "source": "Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (the Winelands gauge misprints 40.3%; 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
+   "columns": [
+    {
+     "header": "District",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Assets",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "Share",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Strength",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Weakness",
+     "width": 2.4,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Cape Metro",
+     "20,281",
+     "40.3%",
+     "Five of the six highest-volume attractions; the only international airport and rapid transit",
+     "Peak congestion at flagship sites; rail unusable for tourism"
+    ],
+    [
+     "Garden Route",
+     "9,875",
+     "19.6%",
+     "Second-largest accommodation stock; a regional airport with direct flights",
+     "300km of coastline fragments the route; no inter-town shuttle"
+    ],
+    [
+     "Cape Winelands",
+     "7,730",
+     "15.4%",
+     "Largest commercial and leisure base, anchored by 200-plus wine estates",
+     "Wine dominates; adventure and heritage under-promoted"
+    ],
+    [
+     "Overberg",
+     "6,176",
+     "12.3%",
+     "Whale coast; the only market where demand and pricing peak in winter",
+     "Public transport effectively absent; interpretation gaps"
+    ],
+    [
+     "West Coast",
+     "4,752",
+     "9.4%",
+     "Highest natural-asset attractiveness; accessible pricing",
+     "Short wildflower season; dining in a handful of nodes"
+    ],
+    [
+     "Central Karoo",
+     "1,518",
+     "3.0%",
+     "Niche assets of the highest uniqueness; dark-sky astro-tourism",
+     "A service desert outside Prince Albert and Beaufort West"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**3. Beyond the Metro and the Garden Route the visitor drives.** Public transport is \"effectively absent\" on the West Coast and in the Overberg, the Winelands have no transit between estates or valleys, and every accessibility measure in the Central Karoo \"sits at the floor\" (Infrastructure Report, Jul 2026, p49, p90). Metro rail is \"functionally unusable for tourism\" (p90)."
+  },
+  {
+   "type": "p",
+   "text": "**4. Strong assets sit in cold zones.** The West Coast has the province's highest natural-asset attractiveness and the Central Karoo its most unique niche assets, yet both score lowest on readiness (Infrastructure Report, Jul 2026, p88). Inland areas north of the N2 on the Garden Route are tourism-inactive, and industrial belts in the Metro show \"zero tourism conversion\" despite nearby attractions (p24, p35)."
+  },
+  {
+   "type": "p",
+   "text": "**5. The mid-market is missing.** Mid-market accommodation \"is effectively absent outside Stellenbosch\" in the Winelands, where a \"luxury-skewed product mix excludes mid-market and family segments\" (Infrastructure Report, Jul 2026, p47, p53). Accommodation is thin beyond Langebaan and Paternoster on the West Coast and thin at international grade along Route 62 (p62, p84). The report gives no bed count for the gap."
+  },
+  {
+   "type": "p",
+   "text": "**6. Bookability fails first in the regions.** About 40% or more of the Metro's smaller operators lack online booking (Infrastructure Report, Jul 2026, p32). Route 62 has the lowest online bookability of the six routes, and the West Coast route rates Gap on digital distribution and payments (p62, p84, p87)."
+  },
+  {
+   "type": "table",
+   "caption": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest.",
+   "source": "Infrastructure Report, Jul 2026, p29, p30, p39, p40, p50, p51, p61, p62, p72, p73, p83, p84.",
+   "columns": [
+    {
+     "header": "Route",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "From Cape Town",
+     "width": 1.0,
+     "align": "right"
+    },
+    {
+     "header": "Access",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Accommodation",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Safety",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Bookability",
+     "width": 1.0,
+     "align": "left"
+    },
+    {
+     "header": "Overall",
+     "width": 1.1,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Cape Peninsula",
+     "0 km",
+     "Ready",
+     "Ready",
+     "Developing",
+     "Ready",
+     "Ready"
+    ],
+    [
+     "Cape Winelands",
+     "50 km",
+     "Ready",
+     "Ready",
+     "Developing",
+     "Ready",
+     "Developing"
+    ],
+    [
+     "Whale Coast and Overberg",
+     "120 km",
+     "Developing",
+     "Developing",
+     "Developing",
+     "Developing",
+     "Developing"
+    ],
+    [
+     "West Coast and Cederberg",
+     "120 km",
+     "Developing",
+     "Gap",
+     "Ready",
+     "Gap",
+     "Emerging"
+    ],
+    [
+     "Route 62 and Klein Karoo",
+     "160 km",
+     "Developing",
+     "Developing",
+     "Developing",
+     "Gap",
+     "Developing"
+    ],
+    [
+     "Garden Route",
+     "385 km",
+     "Ready",
+     "Ready",
+     "Developing",
+     "Ready",
+     "Developing"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**7. The flagships are full in season.** Table Mountain Aerial Cableway queues run two to three hours at peak, Chapman's Peak suffers disruptions and the December to January peak \"overwhelms transport and accommodation capacity\" (Infrastructure Report, Jul 2026, p22, p31, p32). Cape Point and township attractions, by contrast, are underused (p24)."
+  },
+  {
+   "type": "p",
+   "text": "**8. Committed capital closes the air gaps, not the regional ones.** The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul and the R20bn V&A Granger Bay expansion, and George's R310m terminal doubles capacity by 2028 (Infrastructure Report, Jul 2026, p32, p43). Last-mile transit, small-operator bookability and township product remain unfunded in the Metro, as do inter-node transport and winter product on the Garden Route (p32, p43)."
+  },
+  {
+   "type": "p",
+   "text": "Port spending is not going to cruise. Cape Town's single berth runs at about 40% of a season capacity of 150 or more calls, with 83 calls and R1.79bn of impact in 2024/25 (Infrastructure Report, Jul 2026, p110). Saldanha's R4bn upgrade is for iron ore, and the report's advice is to grow cruise \"through product and marketing, not capital works\" (p112)."
+  },
+  {
+   "type": "table",
+   "caption": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief.",
+   "source": "Infrastructure Report, Jul 2026, p110 to p112.",
+   "columns": [
+    {
+     "header": "Port",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Activity",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "Constraint",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Stance",
+     "width": 0.9,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Cape Town",
+     "83 calls and about 127,000 passengers in 2024/25, about 40% of a season capacity of 150 or more calls; R1.79bn impact",
+     "300m ship-length limit and the South-Easter wind; no shore power",
+     "Protect"
+    ],
+    [
+     "Mossel Bay",
+     "21 calls and about 13,000 passengers; R22m passenger facility opened November 2025",
+     "No cruise quay; ships anchor and tender; small and mid-sized ships only",
+     "Back now"
+    ],
+    [
+     "Saldanha Bay",
+     "3 trial calls",
+     "Shares the ore terminal; no cruise berth or passenger facility",
+     "Watch"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Each region carries a remaining gap that no committed investment closes.",
+   "source": "Infrastructure Report, Jul 2026: ratings p28, p41, p52, p63, p74, p85; gaps and investments p32, p43, p54, p65, p76, p87.",
+   "columns": [
+    {
+     "header": "Region",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Rating",
+     "width": 0.7,
+     "align": "right"
+    },
+    {
+     "header": "Committed investment",
+     "width": 2.8,
+     "align": "left"
+    },
+    {
+     "header": "Gap that remains open",
+     "width": 2.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Cape Metro",
+     "4.5",
+     "R11.3bn airport overhaul; R20bn V&A Granger Bay; R3.3bn MyCiTi Phase 2",
+     "Last-mile transit to Chapman's Peak, Constantia and Cape Point; small-operator online booking; township product"
+    ],
+    [
+     "Cape Winelands",
+     "3.4",
+     "R8bn Cape Winelands Airport phase one, by 2028; R16bn to R20bn wider precinct",
+     "No transit inside the wine triangle; non-wine product; pricing for domestic visitors"
+    ],
+    [
+     "Garden Route",
+     "3.4",
+     "R310m George terminal, by 2028; R9.4m landing-system upgrade",
+     "No international carrier; winter trough; transport between towns"
+    ],
+    [
+     "Overberg",
+     "2.7",
+     "R81.7m Agulhas lighthouse precinct; R17m Malgas road",
+     "Accommodation towards De Hoop; bookability east of Hermanus; year-round product"
+    ],
+    [
+     "West Coast",
+     "2.5",
+     "R693m Malmesbury bypass (complete); R4bn Saldanha port upgrade, iron ore",
+     "Accommodation depth; digital payments; no airport"
+    ],
+    [
+     "Central Karoo and Route 62",
+     "1.9",
+     "R62 reconstruction under way; rural broadband to 2026",
+     "Accommodation depth; emergency support; no airport"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "table",
+   "caption": "Eight findings from the spatial and infrastructure work carry into the hypothesis tree.",
+   "source": "Infrastructure Report, Jul 2026, pages as cited.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.3,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 3.8,
+     "align": "left"
+    },
+    {
+     "header": "Pages",
+     "width": 1.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Readiness falls with distance",
+     "Metro 4.5; Winelands and Garden Route 3.4; Overberg 2.7; West Coast 2.5; Central Karoo 1.9",
+     "p28 to p85"
+    ],
+    [
+     "Accessibility decays",
+     "4.7 in the Metro to 1.0 in the Central Karoo (attractions); 5.0 to 1.0 (transport)",
+     "p88 to p90"
+    ],
+    [
+     "Cape Town is the gateway",
+     "20,281 of 50,332 assets (40.3%); only international airport and rapid transit",
+     "p23, p90"
+    ],
+    [
+     "Car-only beyond Metro and Garden Route",
+     "Public transport effectively absent in the West Coast and Overberg",
+     "p90"
+    ],
+    [
+     "Mid-market missing",
+     "Mid-market accommodation effectively absent outside Stellenbosch",
+     "p47, p53"
+    ],
+    [
+     "Bookability weakest in the regions",
+     "About 40% or more of smaller Metro operators lack online booking; Route 62 lowest",
+     "p32, p87"
+    ],
+    [
+     "Flagships full at peak",
+     "Cableway queues of two to three hours; Dec to Jan peak overwhelms capacity",
+     "p22, p32"
+    ],
+    [
+     "Capital closes air gaps only",
+     "Metro pipeline R30bn or more; George R310m by 2028; cruise berth at about 40%",
+     "p32, p43, p110"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "box",
+   "title": "What this means for the tree",
+   "paras": [
+    "**Validates FA09, Accelerate tourism-enabling internal mobility.** Accessibility decays from 4.7 to 1.0 and public transport is absent beyond the Metro and the Garden Route (findings 1 and 3).",
+    "**Validates FA10, Support diversified route and product development, and FA11, Align visitor experience in-destination.** Strong assets in cold zones and a missing mid-market (findings 4 and 5).",
+    "**Validates FA12, Balance impact on nature-based attractions.** Flagships full at peak while alternatives are underused (finding 7).",
+    "**Supports FA03, Make the whole province findable and bookable.** Bookability fails first in the regions (finding 6).",
+    "**Supports FA07, FA08 and FA15.** Airport capital is committed; cruise needs product, not berths; regional gaps have no committed capital (finding 8)."
+   ]
+  }
+ ]
+}

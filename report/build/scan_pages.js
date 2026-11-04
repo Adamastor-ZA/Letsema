@@ -11,25 +11,30 @@ const registry = JSON.parse(fs.readFileSync(path.join(here, 'headings.json'), 'u
 const nPages = parseInt((execFileSync('pdfinfo', [pdf]).toString().match(/Pages:\s+(\d+)/) || [0, '0'])[1], 10);
 
 const norm = (s) => s.replace(/\s+/g, ' ').replace(/[‘’]/g, "'").replace(/[“”]/g, '"').trim().toLowerCase();
+// Each page is kept as its list of normalised lines; a heading or caption matches only a line that starts with it,
+// so a heading's words inside a table or a sentence do not count.
 const pages = [];
 for (let p = 1; p <= nPages; p++) {
-  const txt = execFileSync('pdftotext', ['-layout', '-f', String(p), '-l', String(p), pdf, '-']).toString();
-  pages.push(norm(txt));
+  const txt = execFileSync('pdftotext', ['-f', String(p), '-l', String(p), pdf, '-']).toString();
+  pages.push(txt.split('\n').map(norm).filter(Boolean));
 }
+const has = (lines, needle) => lines.some((l) => l.startsWith(needle) || (needle.length > 40 && l.length >= 20 && needle.startsWith(l)));
 
-// Search in order, never moving backwards, skipping the contents pages themselves (first `skip` pages).
-const skip = registry.skipPages || 0;
+// Search in order, never moving backwards, starting after the front matter: the first page whose lines include the
+// Abbreviations heading closes it (contents, figures and tables lists all come before it).
+const abbrevIdx = pages.findIndex((lines) => lines.includes('abbreviations'));
+const skip = abbrevIdx >= 0 ? abbrevIdx + 1 : (registry.skipPages || 0);
 const map = {};
 let cursor = Math.max(0, skip);
 for (const item of registry.items) {
-  const needle = norm(item.title).slice(0, 70);
+  const needle = norm(item.title).slice(0, 60);
   let found = null;
   for (let p = cursor; p < pages.length; p++) {
-    if (pages[p].includes(needle)) { found = p + 1; cursor = p; break; }
+    if (has(pages[p], needle)) { found = p + 1; cursor = p; break; }
   }
   if (found == null) {
     // fall back to an unordered search after the contents pages
-    for (let p = skip; p < pages.length; p++) if (pages[p].includes(needle)) { found = p + 1; break; }
+    for (let p = skip; p < pages.length; p++) if (has(pages[p], needle)) { found = p + 1; break; }
   }
   map[item.title] = found;
 }

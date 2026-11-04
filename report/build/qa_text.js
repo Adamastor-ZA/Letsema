@@ -50,7 +50,10 @@ for (const dir of dirs) {
       for (const b of BANNED) if (b.re.test(s) && !(b.label.startsWith('unlocking') && /Unlocking Tourism/.test(s))) flag(file, `${b.label} (${where})`, s);
       if (OXFORD.test(s)) flag(file, `possible Oxford comma (${where})`, s.match(OXFORD)[0]);
       if (/\[[^\]]+\]/.test(s)) flag(file, `placeholder (${where})`, s.match(/\[[^\]]+\]/)[0]);
-      for (const sent of s.split(/(?<=[.!?])\s+/)) if (WORDS(sent) > 38) flag(file, `long sentence ${WORDS(sent)} words (${where})`, sent);
+      // Count sentence length without parenthetical citations or bracketed placeholders; a closing bold marker ends a label.
+      const plain = s.replace(/\([^()]*\b(19|20)\d\d\b[^()]*\)/g, '').replace(/\[[^\]]*\]/g, '').replace(/\.\*\*/g, '.');
+      if (where.includes('cell')) continue;
+      for (const sent of plain.split(/(?<=[.!?])\s+/)) if (WORDS(sent) > 35) flag(file, `long sentence ${WORDS(sent)} words (${where})`, sent);
     }
     // Chapter 3 template: each h3 entry (focus area) must have the kicker and the five h4 parts.
     if (/ch3/.test(dir)) {

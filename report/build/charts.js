@@ -9,11 +9,13 @@ const W = 1600, HGT = 900;
 const FONT = 'Raleway, Arial, sans-serif';
 
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+let DEC = false; // set per chart: when any value in a small-number series has decimals, print one decimal throughout
 function fmt(v, unit) {
   if (v == null || Number.isNaN(v)) return '';
   const a = Math.abs(v);
   let s;
-  if (unit === '%') s = `${Math.round(v * 10) / 10}%`;
+  if (unit === '%') s = DEC ? `${(Math.round(v * 10) / 10).toFixed(1)}%` : `${Math.round(v * 10) / 10}%`;
+  else if (DEC && a < 100) s = (Math.round(v * 10) / 10).toFixed(1);
   else if (a >= 1e6) s = `${(v / 1e6).toFixed(a >= 1e7 ? 1 : 2)}m`;
   else if (a >= 1e4) s = `${Math.round(v / 1e3)}k`;
   else if (a >= 1e3) s = Math.round(v).toLocaleString('en-GB');
@@ -62,7 +64,7 @@ function lineChart(o) {
   o.categories.forEach((c, i) => { s += `<text x="${x(i)}" y="${T + ph + 44}" text-anchor="middle" font-size="22" fill="${GREY}">${esc(c)}</text>`; });
   for (const r of o.refLines || []) {
     s += `<line x1="${L}" y1="${y(r.value)}" x2="${L + pw}" y2="${y(r.value)}" stroke="${r.color || '#B23A48'}" stroke-width="3" stroke-dasharray="12 9"/>`;
-    s += `<text x="${L + pw + 14}" y="${y(r.value) + 8}" font-size="22" font-weight="700" fill="${r.color || '#B23A48'}">${esc(r.label || '')}</text>`;
+    s += `<text x="${L + 12}" y="${y(r.value) - 12}" font-size="22" font-weight="700" fill="${r.color || '#B23A48'}">${esc(r.label || '')}</text>`;
   }
   o.series.forEach((sr, si) => {
     const col = sr.color || PAL[si % PAL.length];
@@ -241,6 +243,8 @@ function wrap(text, n) {
 
 // Resolve a figure block that carries { chart: { type, ...options } } into its SVG string.
 function svgFor(chart) {
+  const vals = [].concat(chart.values || [], ...((chart.series || []).map((x) => x.values || []))).filter((v) => typeof v === 'number');
+  DEC = vals.length > 0 && vals.every((v) => Math.abs(v) < 100) && vals.some((v) => !Number.isInteger(v));
   const fns = { line: lineChart, bar: barChart, hbar: hbarChart, stacked: stackedBarChart, gantt: ganttChart, tree: treeChart };
   const fn = fns[chart.type];
   if (!fn) throw new Error(`unknown chart type ${chart.type}`);

@@ -1,0 +1,505 @@
+{
+ "id": "2.6",
+ "title": "SME and community inclusion",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "2.6 SME and community inclusion"
+  },
+  {
+   "type": "lead",
+   "text": "Organisation, not distance, keeps tourism spend out of the province's townships and rural settlements: 93 of 107 sit within 45 minutes of a tourism node."
+  },
+  {
+   "type": "p",
+   "text": "Section 2.5 opened with the scale of the gap: the 20 shortlisted communities hold 18.4% of residents and receive 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). This section explains why."
+  },
+  {
+   "type": "h3",
+   "text": "What was asked"
+  },
+  {
+   "type": "p",
+   "text": "The inception report asked for a framework to bring SMMEs and communities into tourism, built from value-chain analysis, a typology of barriers, evaluation of global models and an inclusion blueprint (Inception Report, Nov 2025, p19). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.3, 1.1.9 and 3.2.5. [Clause wording to be checked against the signed Annexure B.]"
+  },
+  {
+   "type": "h3",
+   "text": "What was done"
+  },
+  {
+   "type": "p",
+   "text": "The SME and Community Inclusion Plan set out \"to identify which township and rural communities are missing out on tourism income, to understand why and identify practical routes to stimulate development\" (SME and Community Inclusion Plan, Sep 2026, p3). It defines inclusion by where the activity sits: a tour, a meal, a bed or a market inside the community counts; a resident commuting to a hotel job in town does not (p4)."
+  },
+  {
+   "type": "p",
+   "text": "The long-list takes every Census sub-place cluster of 1,500 people or more with official unemployment of 25% or more, plus named mission, fishing and farm settlements (SME and Community Inclusion Plan, Sep 2026, p14). That gives 107 communities holding 2.81 million people in 2011, 48% of the province (p16). Five weighted criteria (need, tourism potential, proximity, readiness and access) produced a shortlist of 20, five in the Cape Metro and three in each district (p14, p16)."
+  },
+  {
+   "type": "p",
+   "text": "The evidence joins Census 2011 sub-places to an OpenStreetMap asset layer extracted in September 2026, with road travel times and municipal plans (SME and Community Inclusion Plan, Sep 2026, p15, p16). Need rests on Census 2011 because Census 2022 is not published below ward level and asked no income question (p15). Five benchmark cases, from Rio de Janeiro to Kliptown, test what lasted (p7 to p11)."
+  },
+  {
+   "type": "h3",
+   "text": "Findings that survived into the tree"
+  },
+  {
+   "type": "p",
+   "text": "**1. The communities hold people, not spend.** The 20 shortlisted communities hold 18.4% of Western Cape residents and 15.4% of employed residents but receive 0.02% to 0.04% of foreign direct spend, about R4m to R10m a year on the documented floor (SME and Community Inclusion Plan, Sep 2026, p5). Capturing 1% of FY2025 foreign direct spend would bring R259m a year (p5)."
+  },
+  {
+   "type": "p",
+   "text": "**2. Distance is not the barrier.** Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (p18). Distance is the binding constraint in none of the 20 (p30)."
+  },
+  {
+   "type": "p",
+   "text": "**3. Organisation is.** Organisation is the binding constraint in 11 of the 20, ten have no identified active tourism body and nine show no benefit visible to residents (SME and Community Inclusion Plan, Sep 2026, p28, p30). Product often exists without a seller: Langa's walk sells on global platforms at ratings above 4.8, yet city firms sell most of the 23 Langa walks on Viator (p20, p28)."
+  },
+  {
+   "type": "p",
+   "text": "The same pattern repeats. Zwelihle's four resident guides sell by phone with no shared booking channel, and the Mitchells Plain festival drew 27,800 visitors in November 2025 with no local operator or LTO behind it (SME and Community Inclusion Plan, Sep 2026, p22, p34). The communities cannot yet be found or booked on the channels visitors use."
+  },
+  {
+   "type": "figure",
+   "id": "fig_26_constraints",
+   "caption": "Organisation binds in 11 of the 20 shortlisted communities and distance in none.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p30 (constraint tally across the 20 shortlisted communities).",
+   "chart": {
+    "type": "hbar",
+    "categories": [
+     "Organisation is the binding constraint",
+     "Safety-perception gap recorded",
+     "Extortion recorded",
+     "Distance is the binding constraint"
+    ],
+    "values": [
+     11,
+     9,
+     5,
+     0
+    ],
+    "unit": "",
+    "highlight": [
+     0
+    ]
+   }
+  },
+  {
+   "type": "p",
+   "text": "**4. Safety is the second gate.** Nine of the 20 record a safety-perception gap and five record extortion (SME and Community Inclusion Plan, Sep 2026, p30). The plan treats safety as a launch requirement in its own right: \"tourism activity alone cannot resolve crime or extortion\" (p35)."
+  },
+  {
+   "type": "p",
+   "text": "**5. The benchmarks point to one order.** The cases converge on \"a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure\" (SME and Community Inclusion Plan, Sep 2026, p12). In Rio, resident guides kept selling after the programme that launched them ended; local selling mechanisms lasted where assets and training without a route to market did not (p7, p30)."
+  },
+  {
+   "type": "p",
+   "text": "Capital first fails. Kliptown received a first allocation of R436 million and was projected to draw almost 200,000 international visitors a year, but its museum drew about 4,000 visitors a year by 2017 (SME and Community Inclusion Plan, Sep 2026, p11). Costa Rica's community network turned over more than USD 800,000 in 2013 and dissolved after donor support ended (p10)."
+  },
+  {
+   "type": "table",
+   "caption": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11.",
+   "columns": [
+    {
+     "header": "Case",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "What happened",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "Lesson",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Page",
+     "width": 0.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Rio de Janeiro, Santa Marta",
+     "About 20 resident guides ran the tours by 2015 and outside jeep firms had left",
+     "Access and safety are preconditions, not product; resident sellers outlast programmes",
+     "p7"
+    ],
+    [
+     "Medellín, Comuna 13",
+     "1.98 million visitors in 2025, 52% international; about 300 professional guides",
+     "Mobility built for residents became the stage; carrying-capacity limits came late",
+     "p8"
+    ],
+    [
+     "Vilakazi Street, Soweto",
+     "Ten restaurants employ more than 800 people",
+     "Public-realm works amplify existing assets; benefits concentrate on street-front owners",
+     "p9"
+    ],
+    [
+     "Costa Rica community network",
+     "Turnover above USD 800,000 in 2013; dissolved at the end of 2018",
+     "A selling entity is the engine and must survive donor exit",
+     "p10"
+    ],
+    [
+     "Kliptown, Soweto",
+     "R436 million allocated; about 4,000 museum visitors a year by 2017",
+     "Capital built before an operator yields no operating income",
+     "p11"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**6. Each archetype needs its own first move.** Communities near a node with product already in place need a seller and a slot in the node's itineraries (SME and Community Inclusion Plan, Sep 2026, p15). Those near a node with nothing inside need one anchor asset, but only after a seller is in place. Remote communities need access first or, where nothing sits inside, procurement and skills before any asset (p15)."
+  },
+  {
+   "type": "table",
+   "caption": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p15 and p17 (long-list and shortlist counts; p4 prints 48 and 8 for the two assets-underused rows), p15 (responses).",
+   "columns": [
+    {
+     "header": "Archetype",
+     "width": 2.0,
+     "align": "left"
+    },
+    {
+     "header": "Long-list",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "Shortlist",
+     "width": 0.9,
+     "align": "right"
+    },
+    {
+     "header": "First response",
+     "width": 3.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Near a node, assets underused",
+     "49",
+     "11",
+     "Integrate: itinerary slots, procurement and events; organise sellers"
+    ],
+    [
+     "Near a node, no assets",
+     "43",
+     "6",
+     "Create one anchor asset under a covenant, then integrate; a seller comes first"
+    ],
+    [
+     "Remote, assets underused",
+     "7",
+     "2",
+     "Open access and place the asset on a route product the LTO already sells"
+    ],
+    [
+     "Remote, no assets",
+     "8",
+     "1",
+     "Procurement and skills first; an asset only once a route product exists"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "**7. The model is a seller, a link to demand and a set of gates.** The plan's core model is a functioning selling capability, a connection to demand the node already has and launch gates for safety, access and a viable operating model (SME and Community Inclusion Plan, Sep 2026, p32). It proposes a pilot in two or three of six profiled communities, scaled only once bookings, local spend, delivery and safety meet thresholds agreed before launch (p32)."
+  },
+  {
+   "type": "p",
+   "text": "The first deliverable is deliberately small: \"one live booking route, published operating dates, a named customer contact and a simple record of bookings and local revenue\" (SME and Community Inclusion Plan, Sep 2026, p33). Most of the illustrative first moves carry no dedicated budget line (p36). Roles and funding are set out in Chapter 4."
+  },
+  {
+   "type": "p",
+   "text": "**8. Nobody counts tourism jobs inside the communities.** No profile counts tourism employment inside a community boundary; the plan gives node-side figures instead, such as about 4,700 formal Town Centre jobs for 82,393 employed Mitchells Plain residents (SME and Community Inclusion Plan, Sep 2026, p22). Need rests on fifteen-year-old Census data (p15)."
+  },
+  {
+   "type": "table",
+   "caption": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p18 (shortlist, composite score, free-flow minutes) and p53 to p58 (binding constraint). Archetypes abbreviated: N = near a node (45 minutes or less); R = remote; A = assets underused; 0 = no community-based product.",
+   "columns": [
+    {
+     "header": "Region",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Community",
+     "width": 1.8,
+     "align": "left"
+    },
+    {
+     "header": "Type",
+     "width": 0.6,
+     "align": "left"
+    },
+    {
+     "header": "Score",
+     "width": 0.7,
+     "align": "right"
+    },
+    {
+     "header": "Minutes to node",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "Binding constraint",
+     "width": 1.3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Cape Metro",
+     "Langa",
+     "N-A",
+     "3.00",
+     "12 to CTIA",
+     "Organisation"
+    ],
+    [
+     "Cape Metro",
+     "Khayelitsha",
+     "N-A",
+     "3.00",
+     "15 to CTIA",
+     "Organisation"
+    ],
+    [
+     "Cape Metro",
+     "Gugulethu",
+     "N-A",
+     "2.80",
+     "8 to CTIA",
+     "Attraction"
+    ],
+    [
+     "Cape Metro",
+     "Mitchells Plain",
+     "N-A",
+     "2.35",
+     "16 to CTIA",
+     "Organisation"
+    ],
+    [
+     "Cape Metro",
+     "Atlantis",
+     "R-A",
+     "2.20",
+     "26 to Darling",
+     "Organisation"
+    ],
+    [
+     "Cape Winelands",
+     "Kayamandi",
+     "N-0",
+     "2.55",
+     "8 to Stellenbosch",
+     "Safety"
+    ],
+    [
+     "Cape Winelands",
+     "Mbekweni",
+     "N-0",
+     "2.40",
+     "10 to Paarl",
+     "Attraction"
+    ],
+    [
+     "Cape Winelands",
+     "Nkqubela",
+     "N-0",
+     "1.90",
+     "22 to the R62",
+     "Attraction"
+    ],
+    [
+     "Overberg",
+     "Genadendal",
+     "N-A",
+     "2.45",
+     "11 to Greyton",
+     "Organisation"
+    ],
+    [
+     "Overberg",
+     "Zwelihle",
+     "N-A",
+     "2.05",
+     "7 to Hermanus",
+     "Organisation"
+    ],
+    [
+     "Overberg",
+     "Kassiesbaai",
+     "N-A",
+     "2.05",
+     "1 to Arniston",
+     "Organisation"
+    ],
+    [
+     "Garden Route",
+     "Knysna northern townships",
+     "N-0",
+     "2.60",
+     "9 to Knysna",
+     "Market link"
+    ],
+    [
+     "Garden Route",
+     "Thembalethu",
+     "N-0",
+     "2.30",
+     "11 to George",
+     "Attraction"
+    ],
+    [
+     "Garden Route",
+     "De Rust",
+     "N-A",
+     "2.30",
+     "42 to the R62",
+     "Infrastructure"
+    ],
+    [
+     "West Coast",
+     "Laingville",
+     "N-A",
+     "2.10",
+     "4 to St Helena Bay",
+     "Organisation"
+    ],
+    [
+     "West Coast",
+     "Doringbaai",
+     "R-0",
+     "2.00",
+     "111 to Clanwilliam",
+     "Organisation"
+    ],
+    [
+     "West Coast",
+     "Elands Bay",
+     "R-A",
+     "1.85",
+     "87 to Clanwilliam",
+     "Organisation"
+    ],
+    [
+     "Central Karoo",
+     "Laingsburg (Bergsig)",
+     "N-A",
+     "2.35",
+     "22 to Matjiesfontein",
+     "Attraction"
+    ],
+    [
+     "Central Karoo",
+     "Kwa-Mandlenkosi",
+     "N-0",
+     "2.20",
+     "6 to Beaufort West",
+     "Organisation"
+    ],
+    [
+     "Central Karoo",
+     "Prince Albert North",
+     "N-A",
+     "1.80",
+     "4 to Prince Albert",
+     "Attraction"
+    ]
+   ],
+   "boldFirstCol": false
+  },
+  {
+   "type": "table",
+   "caption": "Eight findings from the inclusion work carry into the hypothesis tree.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, pages as cited.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.3,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 3.8,
+     "align": "left"
+    },
+    {
+     "header": "Pages",
+     "width": 1.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Communities hold people, not spend",
+     "18.4% of residents; 0.02% to 0.04% of foreign spend; R4m to R10m a year",
+     "p5"
+    ],
+    [
+     "Capture potential",
+     "1% of FY2025 foreign direct spend is R259m a year",
+     "p5"
+    ],
+    [
+     "Distance is not the barrier",
+     "93 of 107 within 45 minutes of a node or corridor; distance binds in 0 of 20",
+     "p16, p30"
+    ],
+    [
+     "Organisation is",
+     "Binds in 11 of 20; 10 have no active tourism body",
+     "p28, p30"
+    ],
+    [
+     "Safety is the second gate",
+     "Safety-perception gap in 9 of 20; extortion in 5",
+     "p30"
+    ],
+    [
+     "Sellers last; capital first fails",
+     "Kliptown: R436m allocated, about 4,000 museum visitors a year by 2017",
+     "p11, p12"
+    ],
+    [
+     "Pilot before scale",
+     "Two or three of six profiled communities; scale only after thresholds are met",
+     "p32"
+    ],
+    [
+     "No jobs counted inside",
+     "No profile counts tourism jobs inside a community boundary",
+     "p22, p40"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "box",
+   "title": "What this means for the tree",
+   "paras": [
+    "**Refines FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node (findings 2, 3, 5 and 7).",
+    "**Supports FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators (finding 3).",
+    "**Supports FA10, Support diversified route and product development, and FA15, Crowd in capital.** Assets follow sellers and route products, not the reverse (findings 5 and 6).",
+    "**Supports FA19, Lead removal of infrastructure, visa and safety deficits.** Safety and extortion gate activation in up to nine communities (finding 4).",
+    "**Supports FA20, Develop workforce and service skills, and FA18, Expedite tourism-enabling policy and data sharing.** No count of tourism jobs inside the communities; need rests on Census 2011 (finding 8)."
+   ]
+  }
+ ]
+}
