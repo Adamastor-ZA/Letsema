@@ -19,7 +19,7 @@
   },
   {
    "type": "p",
-   "text": "The model sets a growth rate for each source market from four levers and projects arrivals from the base year to 2035 (Demand-Side Analysis, Jun 2026, p18). The levers are source market growth, Western Cape penetration of source-market outbound, an airlift capacity ceiling and structural market conditions. Source-market growth sets the ceiling: \"WC cannot sustainably grow faster than it's source market is generating travellers\" (Demand-Side Analysis, Jun 2026, p18). Projections are anchored on OAG aviation data and Skift global traveller data (Demand-Side Analysis, Jun 2026, p8)."
+   "text": "The model sets a growth rate for each source market from four levers and projects arrivals from the base year to 2035 (Demand-Side Analysis, Jun 2026, p18, p20). The levers are source market growth, Western Cape penetration of source-market outbound, an airlift capacity ceiling and structural market conditions. Source-market growth sets the ceiling: \"WC cannot sustainably grow faster than it's source market is generating travellers\" (Demand-Side Analysis, Jun 2026, p18). Projections are anchored on OAG aviation data and Skift global traveller data (Demand-Side Analysis, Jun 2026, p8)."
   },
   {
    "type": "h3",
@@ -32,7 +32,7 @@
   {
    "type": "table",
    "caption": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets.",
-   "source": "Demand-Side Analysis, Jun 2026, p19 (descriptor, air access, market activation and market development rows) and p20 (step-up row); Market Assessment Report, May 2026, p18 and p19 (working analysis; May additions row). Wording as printed, shortened in the last two rows.",
+   "source": "Demand-Side Analysis, Jun 2026, p19 (descriptor, air access, market activation and market development rows) and p20 (step-up row). Market Assessment Report, May 2026, p18 (working analysis; May additions row) and p19 (the same step-up wording). Wording as printed, shortened in the last two rows.",
    "columns": [
     {
      "header": "Dimension",
@@ -201,7 +201,7 @@
   },
   {
    "type": "note",
-   "text": "The May 10-year CAGRs match their end points (Market Assessment Report, May 2026, p19). The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Demand-Side Analysis, Jun 2026, p20)."
+   "text": "The May deck prints Conservative absolute growth of +328,805, but its own end points give +323,805; its 10-year CAGRs do match the end points (computed; Market Assessment Report, May 2026, p19). The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Both subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20)."
   },
   {
    "type": "h3",
@@ -304,7 +304,7 @@
      "2,175,778"
     ],
     [
-     "Seat capacity line",
+     "Current seat capacity line (seats, as drawn)",
      "1.8M",
      "1.8M",
      "1.8M",
@@ -761,7 +761,7 @@
     ],
     [
      "Annual series",
-     "Not printed: 2026, 2027, 2029, 2031 and 2033 are absent",
+     "Not printed: 2026, 2027, 2029, 2031 and 2033 are absent; the June chart starts at 2024, not 2025",
      "MA p20; DS p21"
     ],
     [
@@ -777,7 +777,7 @@
     [
      "Arrivals measures",
      "ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled",
-     "DS p8, p11, p13, p27"
+     "DS p8, p11, p13, p20, p27"
     ]
    ],
    "boldFirstCol": true

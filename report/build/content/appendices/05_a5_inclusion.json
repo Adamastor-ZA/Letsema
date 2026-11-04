@@ -2,175 +2,637 @@
  "id": "A5",
  "title": "Inclusion fact base",
  "blocks": [
-  { "type": "pagebreak" },
-  { "type": "h2", "text": "A5 Inclusion fact base" },
-  { "type": "lead", "text": "The Inclusion Plan scores 107 long-listed communities down to a shortlist of 20, rates their readiness, sizes the spend they could capture and takes its order of action from five benchmark cases." },
-
-  { "type": "h3", "text": "Long-list rule and scoring weights" },
-  { "type": "p", "text": "The long-list takes every Census 2011 sub-place cluster with 1,500 people or more and official unemployment of 25% or more, plus named mission, fishing and farm settlements (SME and Community Inclusion Plan, Sep 2026, p14). The rule yields 107 township and rural communities with 2.81 million people in 2011 (48% of the province) and 3.79 million on the 2025 estimate (p16). Of the 107, 93 sit within 45 minutes of one of 35 supply-report nodes or three corridors (p16)." },
-  { "type": "p", "text": "By region the long-list holds Cape Metro 26, Cape Winelands 16, Overberg 19, Garden Route 23, West Coast 13 and Central Karoo 10 (SME and Community Inclusion Plan, Sep 2026, p16). The shortlist takes five from Cape Metro and three from each other region (p16). Need rests on Census 2011 because Census 2022 is not published below municipality and ward and asked no income question (p15)." },
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A5 Inclusion fact base"
+  },
+  {
+   "type": "lead",
+   "text": "The Inclusion Plan scores 107 long-listed communities down to a shortlist of 20, rates their readiness, sizes the spend they could capture and takes its order of action from five benchmark cases."
+  },
+  {
+   "type": "h3",
+   "text": "Long-list rule and scoring weights"
+  },
+  {
+   "type": "p",
+   "text": "The long-list takes every Census 2011 sub-place cluster with 1,500 people or more and official unemployment of 25% or more, plus named mission, fishing and farm settlements (SME and Community Inclusion Plan, Sep 2026, p14). The rule yields 107 township and rural communities with 2.81 million people in 2011 (48% of the province) and 3.79 million on the 2025 estimate (p16). Of the 107, 93 sit within 45 minutes of one of 35 supply-report nodes or three corridors (p16)."
+  },
+  {
+   "type": "p",
+   "text": "By region the long-list holds Cape Metro 26, Cape Winelands 16, Overberg 19, Garden Route 23, West Coast 13 and Central Karoo 10 (SME and Community Inclusion Plan, Sep 2026, p16). The shortlist takes five from Cape Metro and three from each other region (p16). Need rests on Census 2011 because Census 2022 is not published below municipality and ward and asked no income question (p15)."
+  },
   {
    "type": "table",
    "caption": "Need carries the largest weight of the five criteria, and each criterion scores a community from 3 to 1 against printed thresholds.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p14. Thresholds as printed; the weights sum to 1.00 (computed). Shortlist composite scores run from 1.80 (Prince Albert North) to 3.00 (Langa and Khayelitsha) (p18). Regional counts sum to the printed 107 and 20 (computed).",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p14. Thresholds as printed; the weights sum to 1.00 (computed). Shortlist composite scores run from 1.80 (Prince Albert North) to 3.00 (Langa and Khayelitsha) (p18). Regional counts sum to the printed 107 and 20 (computed); the p14 panel prints 18 shortlisted, three per region, against 20 on p3, p16, p18 and p28. Drive times are OSRM free-flow estimates (p16, p17).",
    "columns": [
-    { "header": "Criterion", "width": 1.3, "align": "left" },
-    { "header": "Weight", "width": 0.6, "align": "right" },
-    { "header": "Score 3", "width": 2.4, "align": "left" },
-    { "header": "Score 2", "width": 1.7, "align": "left" },
-    { "header": "Score 1", "width": 1.0, "align": "left" }
+    {
+     "header": "Criterion",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Weight",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "Score 3",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Score 2",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Score 1",
+     "width": 1.0,
+     "align": "left"
+    }
    ],
    "rows": [
-    ["Need", "0.25", "Unemployment 32% or more (1.5 times the provincial rate)", "22% to 32%", "Below 22%"],
-    ["Tourism Potential", "0.20", "Three or more attractions inside, or any cultural or heritage asset", "One or two inside, or ten or more within 5 km", "None"],
-    ["Proximity", "0.20", "20 min or less to a node or corridor", "21 to 45 min", "Beyond 45 min"],
-    ["Readiness", "0.20", "Three or more of: LTO or community organisation; events; LED activity; corporate investment", "One or two", "None"],
-    ["Access", "0.15", "Rail station within 1.5 km", "Bus stop or taxi rank within 500 m", "Neither"],
-    ["Total", "1.00", "", "", ""]
+    [
+     "Need",
+     "0.25",
+     "Unemployment 32% or more (1.5 times the provincial rate)",
+     "22% to 32%",
+     "Below 22%"
+    ],
+    [
+     "Tourism Potential",
+     "0.20",
+     "Three or more attractions inside, or any cultural or heritage asset",
+     "One or two inside, or ten or more within 5 km",
+     "None"
+    ],
+    [
+     "Proximity",
+     "0.20",
+     "20 min or less to a node or corridor",
+     "21 to 45 min",
+     "Beyond 45 min"
+    ],
+    [
+     "Readiness",
+     "0.20",
+     "Three or more of: LTO or community organisation; events; LED activity; corporate investment",
+     "One or two",
+     "None"
+    ],
+    [
+     "Access",
+     "0.15",
+     "Rail station within 1.5 km",
+     "Bus stop or taxi rank within 500 m",
+     "Neither"
+    ]
    ],
    "boldFirstCol": true
   },
-  { "type": "note", "text": "The p14 panel prints 18 shortlisted, three per region; p3, p16, p18 and p28 print 20 (SME and Community Inclusion Plan, Sep 2026). Drive times are OSRM free-flow estimates measured from the community side (p16, p17)." },
-
-  { "type": "h3", "text": "Archetypes and responses" },
-  { "type": "p", "text": "Two tests set the archetype: a 45-minute drive time to the nearest node or corridor and whether any attraction sits inside the boundary (SME and Community Inclusion Plan, Sep 2026, p4, p14). Atlantis is held remote by Wesgro naming at 26 minutes from Darling (p17). For the largest group the plan's diagnosis is that \"the product and the node's demand are there; the seller is missing\" (p15)." },
+  {
+   "type": "h3",
+   "text": "Archetypes and responses"
+  },
+  {
+   "type": "p",
+   "text": "Two tests set the archetype: a 45-minute drive time to the nearest node or corridor and whether any attraction sits inside the boundary (SME and Community Inclusion Plan, Sep 2026, p4, p14). Atlantis is held remote by Wesgro naming at 26 minutes from Darling (p17). For the largest group the plan's diagnosis is that \"the product and the node's demand are there; the seller is missing\" (p15)."
+  },
   {
    "type": "table",
    "caption": "Proximate communities with underused assets are the largest group on both lists, and the plan pairs each archetype with a response, a first move and a benchmark.",
    "source": "SME and Community Inclusion Plan, Sep 2026, p15 and p17 (counts), p15 (response types and benchmarks) and p31 (first moves). The p4 slide prints long-list counts of 48 and 8 for the two assets-underused rows. Totals are computed.",
    "columns": [
-    { "header": "Archetype", "width": 1.4, "align": "left" },
-    { "header": "Long-list", "width": 0.7, "align": "right" },
-    { "header": "Shortlist", "width": 0.7, "align": "right" },
-    { "header": "Response type (p15)", "width": 2.2, "align": "left" },
-    { "header": "First move (p31)", "width": 2.9, "align": "left" },
-    { "header": "Benchmark (p15)", "width": 1.1, "align": "left" }
+    {
+     "header": "Archetype",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Long-list",
+     "width": 0.7,
+     "align": "right"
+    },
+    {
+     "header": "Shortlist",
+     "width": 0.7,
+     "align": "right"
+    },
+    {
+     "header": "Response type (p15)",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "First move (p31)",
+     "width": 2.9,
+     "align": "left"
+    },
+    {
+     "header": "Benchmark (p15)",
+     "width": 1.1,
+     "align": "left"
+    }
    ],
    "rows": [
-    ["Proximate, assets underused", "49", "11", "Integrate: itinerary slots, procurement, events; organise sellers", "Package the existing product through the nearby tourism node and test demand before adding assets", "Vilakazi Street; Rio"],
-    ["Proximate, no assets", "43", "6", "Create one anchor asset with covenant, then integrate", "Test a bookable route, experience or event before considering capital investment", "Kliptown"],
-    ["Remote, assets underused", "7", "2", "Open access and place asset on route product", "Address the last-mile access constraint and connect the existing asset to a route already reaching the area", "Comuna 13"],
-    ["Remote, no assets", "8", "1", "Procurement and skills first; asset only with route product", "Begin with procurement and skills linked to nearby tourism establishments; defer assets until demand is demonstrated", "Costa Rica"],
-    ["Total", "107", "20", "", "", ""]
+    [
+     "Proximate, assets underused",
+     "49",
+     "11",
+     "Integrate: itinerary slots, procurement, events; organise sellers",
+     "Package the existing product through the nearby tourism node and test demand before adding assets",
+     "Vilakazi Street; Rio"
+    ],
+    [
+     "Proximate, no assets",
+     "43",
+     "6",
+     "Create one anchor asset with covenant, then integrate",
+     "Test a bookable route, experience or event before considering capital investment",
+     "Kliptown"
+    ],
+    [
+     "Remote, assets underused",
+     "7",
+     "2",
+     "Open access and place asset on route product",
+     "Address the last-mile access constraint and connect the existing asset to a route already reaching the area",
+     "Comuna 13"
+    ],
+    [
+     "Remote, no assets",
+     "8",
+     "1",
+     "Procurement and skills first; asset only with route product",
+     "Begin with procurement and skills linked to nearby tourism establishments; defer assets until demand is demonstrated",
+     "Costa Rica"
+    ],
+    [
+     "Total",
+     "107",
+     "20",
+     "",
+     "",
+     ""
+    ]
    ],
    "boldFirstCol": true
   },
-  { "type": "note", "text": "The counts give 92 proximate communities against 93 within 45 minutes on p16 (computed). Doringbaai and Laingsburg (Bergsig) carry different archetypes on their profiles than on the shortlist (SME and Community Inclusion Plan, Sep 2026, p18, p25, p26). Knysna northern townships and Kwa-Mandlenkosi are scored as having no community-based product but \"assets underused on the evidence\" (p56, p58)." },
-  { "type": "p", "text": "All four archetypes share five design requirements: a functioning selling mechanism, an established route to market, a site-specific safety plan, a baseline from the first test and a viable model before assets (SME and Community Inclusion Plan, Sep 2026, p31). The common sequence runs from validating the offer to establishing a booking route, completing the safety plan, testing on a fixed date, investing after demand and scaling through channels (p31)." },
-
-  { "type": "h3", "text": "Readiness of the shortlisted communities" },
-  { "type": "p", "text": "The plan rates each shortlisted community Ready, Developing or Gap from the community side, with LTO confirmation outstanding (SME and Community Inclusion Plan, Sep 2026, p27, p28). Digital and bookability comes from the 19 profile pages; Gugulethu has no profile (p20 to p26, p40 to p51)." },
+  {
+   "type": "note",
+   "text": "The counts give 92 proximate communities against 93 within 45 minutes on p16 (computed). Doringbaai and Laingsburg (Bergsig) carry different archetypes on their profiles than on the shortlist (SME and Community Inclusion Plan, Sep 2026, p18, p25, p26). Knysna northern townships and Kwa-Mandlenkosi are scored as having no community-based product but \"assets underused on the evidence\" (p56, p58)."
+  },
+  {
+   "type": "h3",
+   "text": "Readiness of the shortlisted communities"
+  },
+  {
+   "type": "p",
+   "text": "The plan rates each shortlisted community Ready, Developing or Gap from the community side, with LTO confirmation outstanding (SME and Community Inclusion Plan, Sep 2026, p27, p28). Digital and bookability comes from the 19 profile pages; Gugulethu has no profile (p20 to p26, p40 to p51)."
+  },
   {
    "type": "table",
    "caption": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p53 to p58 (binding constraint), p28 (organisation present, benefit visible to residents, assets protected or damaged), p27 (safety perception) and p20 to p26 and p40 to p51 (digital and bookability). Rows follow the shortlist order on p18. Counts are tallied from the printed cells (computed).",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p53 to p58 (binding constraint), p28 (organisation present, benefit visible to residents, assets protected or damaged), p27 (safety perception) and p20 to p26 and p40 to p51 (digital and bookability). Rows follow the shortlist order on p18; section 2.6 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
    "columns": [
-    { "header": "Community", "width": 1.7, "align": "left" },
-    { "header": "Binding constraint", "width": 1.2, "align": "left" },
-    { "header": "Organisation present", "width": 1.05, "align": "left" },
-    { "header": "Benefit visible to residents", "width": 1.05, "align": "left" },
-    { "header": "Assets protected", "width": 1.05, "align": "left" },
-    { "header": "Safety perception", "width": 1.05, "align": "left" },
-    { "header": "Digital and bookability", "width": 1.05, "align": "left" }
+    {
+     "header": "Community",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Binding constraint",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Organisation present",
+     "width": 1.05,
+     "align": "left"
+    },
+    {
+     "header": "Benefit visible to residents",
+     "width": 1.05,
+     "align": "left"
+    },
+    {
+     "header": "Assets protected",
+     "width": 1.05,
+     "align": "left"
+    },
+    {
+     "header": "Safety perception",
+     "width": 1.05,
+     "align": "left"
+    },
+    {
+     "header": "Digital and bookability",
+     "width": 1.05,
+     "align": "left"
+    }
    ],
    "rows": [
-    ["**Cape Metro**", "", "", "", "", "", ""],
-    ["Langa", "Organisation", "Developing", "Developing", "Ready", "Developing", "Developing"],
-    ["Khayelitsha", "Organisation", "Developing", "Developing", "Gap", "Gap", "Developing"],
-    ["Atlantis", "Organisation", "Gap", "Gap", "Developing", "Gap", "Developing"],
-    ["Mitchells Plain", "Organisation", "Developing", "Developing", "Gap", "Gap", "Developing"],
-    ["Gugulethu", "Attraction", "Gap", "Developing", "Developing", "Gap", "No profile"],
-    ["**Cape Winelands**", "", "", "", "", "", ""],
-    ["Kayamandi", "Safety", "Developing", "Developing", "Developing", "Gap", "Developing"],
-    ["Mbekweni", "Attraction", "Developing", "Gap", "Gap", "Gap", "Gap"],
-    ["Nkqubela", "Attraction", "Gap", "Gap", "Developing", "Gap", "Gap"],
-    ["**Overberg**", "", "", "", "", "", ""],
-    ["Zwelihle", "Organisation", "Gap", "Developing", "Gap", "Developing", "Gap"],
-    ["Kassiesbaai", "Organisation", "Developing", "Developing", "Ready", "Developing", "Gap"],
-    ["Genadendal", "Organisation", "Developing", "Gap", "Ready", "Developing", "Gap"],
-    ["**Garden Route**", "", "", "", "", "", ""],
-    ["Thembalethu", "Attraction", "Gap", "Developing", "Developing", "Gap", "Gap"],
-    ["Knysna northern townships", "Market link", "Developing", "Developing", "Ready", "Developing", "Gap"],
-    ["De Rust", "Infrastructure", "Developing", "Gap", "Developing", "Developing", "Developing"],
-    ["**West Coast**", "", "", "", "", "", ""],
-    ["Laingville", "Organisation", "Gap", "Gap", "Developing", "Developing", "Gap"],
-    ["Doringbaai", "Organisation", "Gap", "Developing", "Developing", "Ready", "Developing"],
-    ["Elands Bay", "Organisation", "Gap", "Gap", "Developing", "Ready", "Developing"],
-    ["**Central Karoo**", "", "", "", "", "", ""],
-    ["Kwa-Mandlenkosi", "Organisation", "Gap", "Gap", "Gap", "Gap", "Gap"],
-    ["Prince Albert North", "Attraction", "Ready", "Developing", "Ready", "Developing", "Gap"],
-    ["Laingsburg (Bergsig)", "Attraction", "Gap", "Gap", "Developing", "Developing", "Gap"],
-    ["**Ready (count)**", "", "1", "0", "5", "2", "0"],
-    ["**Developing (count)**", "", "9", "11", "10", "9", "8"],
-    ["**Gap (count)**", "", "10", "9", "5", "9", "11"]
+    [
+     "**Cape Metro**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Langa",
+     "Organisation",
+     "Developing",
+     "Developing",
+     "Ready",
+     "Developing",
+     "Developing"
+    ],
+    [
+     "Khayelitsha",
+     "Organisation",
+     "Developing",
+     "Developing",
+     "Gap",
+     "Gap",
+     "Developing"
+    ],
+    [
+     "Atlantis",
+     "Organisation",
+     "Gap",
+     "Gap",
+     "Developing",
+     "Gap",
+     "Developing"
+    ],
+    [
+     "Mitchells Plain",
+     "Organisation",
+     "Developing",
+     "Developing",
+     "Gap",
+     "Gap",
+     "Developing"
+    ],
+    [
+     "Gugulethu",
+     "Attraction",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Gap",
+     "No profile"
+    ],
+    [
+     "**Cape Winelands**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Kayamandi",
+     "Safety",
+     "Developing",
+     "Developing",
+     "Developing",
+     "Gap",
+     "Developing"
+    ],
+    [
+     "Mbekweni",
+     "Attraction",
+     "Developing",
+     "Gap",
+     "Gap",
+     "Gap",
+     "Gap"
+    ],
+    [
+     "Nkqubela",
+     "Attraction",
+     "Gap",
+     "Gap",
+     "Developing",
+     "Gap",
+     "Gap"
+    ],
+    [
+     "**Overberg**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Zwelihle",
+     "Organisation",
+     "Gap",
+     "Developing",
+     "Gap",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "Kassiesbaai",
+     "Organisation",
+     "Developing",
+     "Developing",
+     "Ready",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "Genadendal",
+     "Organisation",
+     "Developing",
+     "Gap",
+     "Ready",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "**Garden Route**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Thembalethu",
+     "Attraction",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Gap",
+     "Gap"
+    ],
+    [
+     "Knysna northern townships",
+     "Market link",
+     "Developing",
+     "Developing",
+     "Ready",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "De Rust",
+     "Infrastructure",
+     "Developing",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Developing"
+    ],
+    [
+     "**West Coast**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Laingville",
+     "Organisation",
+     "Gap",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "Doringbaai",
+     "Organisation",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Ready",
+     "Developing"
+    ],
+    [
+     "Elands Bay",
+     "Organisation",
+     "Gap",
+     "Gap",
+     "Developing",
+     "Ready",
+     "Developing"
+    ],
+    [
+     "**Central Karoo**",
+     "",
+     "",
+     "",
+     "",
+     "",
+     ""
+    ],
+    [
+     "Kwa-Mandlenkosi",
+     "Organisation",
+     "Gap",
+     "Gap",
+     "Gap",
+     "Gap",
+     "Gap"
+    ],
+    [
+     "Prince Albert North",
+     "Attraction",
+     "Ready",
+     "Developing",
+     "Ready",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "Laingsburg (Bergsig)",
+     "Attraction",
+     "Gap",
+     "Gap",
+     "Developing",
+     "Developing",
+     "Gap"
+    ],
+    [
+     "**Ready (count)**",
+     "",
+     "1",
+     "0",
+     "5",
+     "2",
+     "0"
+    ],
+    [
+     "**Developing (count)**",
+     "",
+     "9",
+     "11",
+     "10",
+     "9",
+     "8"
+    ],
+    [
+     "**Gap (count)**",
+     "",
+     "10",
+     "9",
+     "5",
+     "9",
+     "11"
+    ]
    ],
    "boldFirstCol": false
   },
   {
-   "type": "table",
-   "caption": "Coach access is rated Developing in all 20 communities, and accommodation range is a Gap in 14 of the 19 profiled.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p27 (20 communities) and p20 to p26 and p40 to p51 (profiles, 19 communities). Counts are tallied from the printed cells (computed).",
-   "columns": [
-    { "header": "Dimension", "width": 1.9, "align": "left" },
-    { "header": "Ready", "width": 0.6, "align": "right" },
-    { "header": "Developing", "width": 0.8, "align": "right" },
-    { "header": "Gap", "width": 0.5, "align": "right" },
-    { "header": "Communities rated Gap", "width": 3.8, "align": "left" }
-   ],
-   "rows": [
-    ["Extortion (p27)", "10", "5", "5", "Khayelitsha, Atlantis, Mitchells Plain, Gugulethu and Kayamandi"],
-    ["Energy supply (p27)", "6", "14", "0", "None"],
-    ["Water and sanitation (p27)", "1", "14", "5", "Langa, Mbekweni, Nkqubela, Knysna northern townships and Kwa-Mandlenkosi"],
-    ["Coach access (p27)", "0", "20", "0", "None"],
-    ["Service delivery (p27)", "1", "14", "5", "Khayelitsha, Zwelihle, Genadendal, Knysna northern townships and Kwa-Mandlenkosi"],
-    ["Air and road access (profiles)", "2", "16", "1", "De Rust"],
-    ["Accommodation range (profiles)", "0", "5", "14", "All but De Rust, Doringbaai, Khayelitsha, Kassiesbaai and Elands Bay"],
-    ["Safety and support (profiles)", "0", "11", "8", "Kayamandi, Mitchells Plain, Khayelitsha, Atlantis, Mbekweni, Nkqubela, Thembalethu and Kwa-Mandlenkosi"]
-   ],
-   "boldFirstCol": true
+   "type": "note",
+   "text": "The remaining ratings are counted in the order Ready, Developing and Gap. On p27, extortion is 10, 5, 5; energy supply 6, 14, 0; water and sanitation 1, 14, 5; coach access 0, 20, 0; service delivery 1, 14, 5 (SME and Community Inclusion Plan, Sep 2026, p27, computed). In the 19 profiles, air and road access is 2, 16, 1; accommodation range 0, 5, 14; safety and support 0, 11, 8 (p20 to p26, p40 to p51, computed)."
   },
-  { "type": "note", "text": "Binding constraints tally Organisation 11, Attraction 6, Safety 1, Market link 1 and Infrastructure 1 (SME and Community Inclusion Plan, Sep 2026, p53 to p58). The p28 headline counts six communities with asset damage against five Gap cells. The plan names no pilot community and assigns no owner; it tests two to three of six profiled exemplars and lists stakeholders for validation only (p32, p53 to p58)." },
-
-  { "type": "h3", "text": "Spend capture scenarios" },
+  {
+   "type": "note",
+   "text": "Extortion is a Gap in Khayelitsha, Atlantis, Mitchells Plain, Gugulethu and Kayamandi (SME and Community Inclusion Plan, Sep 2026, p27). Binding constraints tally Organisation 11, Attraction 6, Safety 1, Market link 1 and Infrastructure 1 (p53 to p58). The p28 headline counts six communities with asset damage against five Gap cells. The plan names no pilot community and assigns no owner; it tests two to three of six profiled exemplars and lists stakeholders for validation only (p32, p53 to p58)."
+  },
+  {
+   "type": "h3",
+   "text": "Spend capture scenarios"
+  },
   {
    "type": "table",
    "caption": "The 20 communities hold 18.4% of residents but a traced floor of R4m to R10m a year, while 1% of FY2025 foreign direct spend would land R259m.",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed); Current State Diagnostic, Dec 2025, p5 (2035 ambition). The plan's p5 source line cites Census 2011 sub-places, the WCG PDO 2025 estimate, SA Tourism, the Demand-Side Analysis, Diagnostic Report v2 and project analysis. Implied totals are computed.",
+   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed); Current State Diagnostic, Dec 2025, p5, which pairs R54.7 billion of tourism spend with 5.7 million international arrivals by 2035. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
    "columns": [
-    { "header": "Measure", "width": 2.6, "align": "left" },
-    { "header": "Value", "width": 1.1, "align": "right" },
-    { "header": "What it shows", "width": 3.0, "align": "left" }
+    {
+     "header": "Measure",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Value",
+     "width": 1.1,
+     "align": "right"
+    },
+    {
+     "header": "What it shows",
+     "width": 3.0,
+     "align": "left"
+    }
    ],
    "rows": [
-    ["Residents (Census 2011)", "18.4%", "Share of Western Cape residents"],
-    ["Employed residents (Census 2011)", "15.4%", "Share of employed residents"],
-    ["Foreign direct spend traced to businesses trading inside (floor)", "0.02% to 0.04%", "Share of foreign direct spend; tracing method not printed"],
-    ["Documented today (floor)", "R4m to R10m", "Visitor spend landing in the 20 communities a year"],
-    ["1% of FY2025 foreign direct spend", "R259m", "Implies R25.9 billion of FY2025 foreign direct spend (computed)"],
-    ["1% of the 2035 spend ambition", "R547m", "Implies R54.7 billion (computed), the Diagnostic's 2035 ambition with 5.7 million arrivals"]
+    [
+     "Residents (Census 2011)",
+     "18.4%",
+     "Share of Western Cape residents"
+    ],
+    [
+     "Employed residents (Census 2011)",
+     "15.4%",
+     "Share of employed residents"
+    ],
+    [
+     "Foreign direct spend traced to businesses trading inside (floor)",
+     "0.02% to 0.04%",
+     "Share of foreign direct spend"
+    ],
+    [
+     "Documented today (floor)",
+     "R4m to R10m",
+     "Visitor spend landing in the 20 communities a year"
+    ],
+    [
+     "1% of FY2025 foreign direct spend",
+     "R259m",
+     "Implies R25.9 billion of FY2025 foreign direct spend (computed)"
+    ],
+    [
+     "1% of the 2035 spend ambition",
+     "R547m",
+     "Implies R54.7 billion (computed); belongs to the Diagnostic's 5.7 million arrivals case"
+    ]
    ],
    "boldFirstCol": true
   },
-  { "type": "note", "text": "The Current State Diagnostic pairs R54.7 billion of tourism spend with 5.7 million international arrivals by 2035 (Current State Diagnostic, Dec 2025, p5). The R547m bar therefore belongs to the Diagnostic's 5.7 million arrivals case; Appendix A2 sets out the demand model's own 2035 cases." },
-
-  { "type": "h3", "text": "Benchmark cases and the order of action" },
-  { "type": "p", "text": "The five cases point to one order of action: \"a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure\" (SME and Community Inclusion Plan, Sep 2026, p12). The plan's six takeaways are that a sustainable local operator is essential, resident ownership matters, safety is a prerequisite, local spend should be captured, existing product should be sold and spending should be tracked (p12)." },
+  {
+   "type": "h3",
+   "text": "Benchmark cases and the order of action"
+  },
+  {
+   "type": "p",
+   "text": "The five cases point to one order of action: \"a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure\" (SME and Community Inclusion Plan, Sep 2026, p12). The plan's six takeaways are that a sustainable local operator is essential, resident ownership matters, safety is a prerequisite, local spend should be captured, existing product should be sold and spending should be tracked (p12)."
+  },
   {
    "type": "table",
    "caption": "Across the five cases, local selling mechanisms lasted while assets and training without a durable route to market did not.",
    "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11 (case cards), p12 (takeaways) and p30 (benchmark evidence). The Rio, Medellín, Vilakazi Street and Kliptown cards print no source line; the plan pools their sources on p12.",
    "columns": [
-    { "header": "Case", "width": 1.1, "align": "left" },
-    { "header": "Cost and funder", "width": 2.7, "align": "left" },
-    { "header": "Results and failures", "width": 2.8, "align": "left" },
-    { "header": "Lesson", "width": 2.1, "align": "left" }
+    {
+     "header": "Case",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Cost and funder",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Results and failures",
+     "width": 2.7,
+     "align": "left"
+    },
+    {
+     "header": "Lesson",
+     "width": 2.3,
+     "align": "left"
+    }
    ],
    "rows": [
-    ["Rio de Janeiro, Santa Marta and Rocinha (p7)", "Rio Top Tour first phase about R$230,000 (R$184,000 federal, R$46,000 state); Cantagalo elevator about R$89 million; Providência cable car R$75 million in a R$163 million package; 38 police units and almost 10,000 officers at peak", "About 4,500 visitors in the first month (2010); about 20 resident guides by 2015; 81% of foreign visitors spent up to R$10 in Rocinha (2014); cable car idle eight years; security collapsed in 2017; 544,000 visitors to Rocinha in 2023", "Access and safety were preconditions, not product; resident guides continued after the programme that launched them (p30)"],
-    ["Medellín, Comuna 13 (p8)", "Metrocable Line J (2008) about 96.9 billion pesos; escalators (2011) about 10 billion pesos, maintenance above 260 million pesos a year; urban programme 65 billion pesos by 2010, above 100 billion by 2020", "Metrocable about 35,000 passengers a day; 1.66 million visitors (2022) and 1.98 million (2025), 52% international; more than 1,000 businesses and about 300 guides; capacity 667 visitors a day (2023 study)", "Fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product before the city brand amplified it (p30)"],
-    ["Soweto, Vilakazi Street (p9)", "Hector Pieterson Museum R23.2 million (national government and City of Johannesburg); Mandela House restoration about R9 million (corporate donors); Orlando Stadium about R280 million; public-realm cost not disclosed", "About 1,000 tourists a day by January 2010; Sakhumzi from four employees (2001) to about 110 (2019); ten restaurants more than 800 jobs; 13 guesthouses formed an association; Mandela House company liquidated", "Public-realm works amplified existing assets but benefits concentrated on street-front owners; set design governance and a precinct entity with resident representation at the outset"],
-    ["Costa Rica, ACTUAR (p10)", "UNDP GEF small grants from the 1990s; Law 8724 (2009) gave ICT duties without a budget; no state funding for the selling network identified", "ACTUAR (2001) turnover more than USD 800,000 in 2013 for more than 30 member communities; dissolved at the end of 2018; benefits \"stopped at association members\"", "A management entity with its own selling channel was the engine and did not survive donor exit; membership rules should let wages and supply contracts reach non-members"],
-    ["Soweto, Kliptown (p11)", "R436 million first allocated; JDA about R497 million (2001 to 2010) plus R40 million to 2013; Walter Sisulu Square R160 million to R180 million; 48-room hotel R24 million; R60 million infrastructure and R20 million refurbishment (2015)", "Business case almost 200,000 international visitors a year; about 4,000 museum visitors a year by 2017; hotel above break-even only during the 2010 FIFA World Cup; local small businesses 5% of construction contract value; looting in 2021", "Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut"]
+    [
+     "Rio de Janeiro, Santa Marta and Rocinha (p7)",
+     "Rio Top Tour first phase about R$230,000 (R$184,000 federal, R$46,000 state); Cantagalo elevator about R$89 million; Providência cable car R$75 million in a R$163 million package; almost 10,000 officers at peak",
+     "About 4,500 visitors in the first month (2010); about 20 resident guides by 2015; 81% of foreign visitors spent up to R$10 in Rocinha (2014); cable car idle eight years; security collapsed in 2017; 544,000 visitors to Rocinha in 2023",
+     "Access and safety were preconditions, not product; resident guides continued after the programme that launched them (p30)"
+    ],
+    [
+     "Medellín, Comuna 13 (p8)",
+     "Metrocable Line J (2008) about 96.9 billion pesos; escalators (2011) about 10 billion pesos, maintenance above 260 million pesos a year; integrated urban programme more than 100 billion pesos by 2020",
+     "1.66 million visitors (2022) and 1.98 million (2025), 52% international; more than 1,000 businesses and about 300 guides; capacity 667 visitors a day (2023 study)",
+     "Fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product first (p30)"
+    ],
+    [
+     "Soweto, Vilakazi Street (p9)",
+     "Hector Pieterson Museum R23.2 million; Mandela House restoration about R9 million (corporate donors); Orlando Stadium about R280 million; public-realm cost not disclosed",
+     "About 1,000 tourists a day by January 2010; Sakhumzi from four employees (2001) to about 110 (2019); ten restaurants more than 800 jobs; Mandela House company liquidated",
+     "Upgrades amplified existing assets but benefits concentrated on street-front owners; set design governance and a resident precinct entity at the outset"
+    ],
+    [
+     "Costa Rica, ACTUAR (p10)",
+     "UNDP GEF small grants from the 1990s; Law 8724 (2009) gave ICT duties without a budget; no state funding for the selling network identified",
+     "ACTUAR (2001) turnover more than USD 800,000 in 2013 for more than 30 member communities; dissolved at the end of 2018; benefits \"stopped at association members\"",
+     "A management entity with its own selling channel was the engine and did not survive donor exit"
+    ],
+    [
+     "Soweto, Kliptown (p11)",
+     "R436 million first allocated; JDA about R497 million (2001 to 2010) plus R40 million to 2013; Walter Sisulu Square R160 million to R180 million; 48-room hotel R24 million",
+     "Business case almost 200,000 international visitors a year; about 4,000 museum visitors a year by 2017; hotel above break-even only during the 2010 FIFA World Cup; local small businesses 5% of construction contract value; looting in 2021",
+     "Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut"
+    ]
    ],
    "boldFirstCol": true
   }

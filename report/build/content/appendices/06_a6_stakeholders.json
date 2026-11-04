@@ -1,0 +1,575 @@
+{
+ "id": "A6",
+ "title": "Stakeholder inputs",
+ "blocks": [
+  {
+   "type": "pagebreak"
+  },
+  {
+   "type": "h2",
+   "text": "A6 Stakeholder inputs"
+  },
+  {
+   "type": "lead",
+   "text": "Phase 1 engaged 16 organisations, whose 223 rated insight statements span all 18 elements of the hypothesis tree and set eight priority areas for deeper engagement."
+  },
+  {
+   "type": "h3",
+   "text": "Engagement record and method"
+  },
+  {
+   "type": "p",
+   "text": "Engagement runs in four phases: Intro & Framing from January to March 2026, sense-making and validation from April to May, strategy socialisation from June to July and strategy mobilisation from August into October (Stakeholder Insights Report, Mar 2026, p4, p17). The March deck closes phase 1 and marks phase 2, a validation round with a select few stakeholders, as still to commence (p4, p15). [Phase 2 to 4 records not in hand: Letsema to supply the organisations engaged, session dates and outcomes for each phase.]"
+  },
+  {
+   "type": "p",
+   "text": "The project team held structured sessions with key stakeholders, extracted insights, mapped each to the project hypothesis tree and aggregated them (Stakeholder Insights Report, Mar 2026, p5). Each insight is a concise statement written by the team, not a verbatim quotation (p5). Every row carries a pillar, a tree element and one impact rating of High, Medium or Low (p20 to p46). The deck does not define the ratings or record session dates, participants or roles, so this appendix attributes insights to organisations and does not quote them."
+  },
+  {
+   "type": "h3",
+   "text": "Organisations engaged in phase 1"
+  },
+  {
+   "type": "table",
+   "caption": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings.",
+   "source": "Stakeholder Insights Report, Mar 2026, p16 (type, where listed) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16. Slide titles print Mossell Bay, Dep Mobility, Dep Economic Development, Statistic SA, Table Mountain Ariel Cable and Cape Nature.",
+   "columns": [
+    {
+     "header": "Organisation",
+     "width": 2.8,
+     "align": "left"
+    },
+    {
+     "header": "Type",
+     "width": 2.3,
+     "align": "left"
+    },
+    {
+     "header": "Pages",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Rows",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "High",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "Medium",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Low",
+     "width": 0.5,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Mossel Bay",
+     "Local or district tourism body",
+     "p20, p21",
+     "18",
+     "9",
+     "9",
+     "0"
+    ],
+    [
+     "Department of Mobility",
+     "Enabling environment",
+     "p22, p23",
+     "14",
+     "7",
+     "7",
+     "0"
+    ],
+    [
+     "Dept of Economic Development",
+     "Enabling environment",
+     "p24, p25",
+     "19",
+     "15",
+     "4",
+     "0"
+    ],
+    [
+     "Overberg District",
+     "Local or district tourism body",
+     "p26, p27",
+     "19",
+     "5",
+     "13",
+     "1"
+    ],
+    [
+     "C-BRTA",
+     "Supply side",
+     "p28",
+     "7",
+     "2",
+     "5",
+     "0"
+    ],
+    [
+     "Google",
+     "Enabling environment",
+     "p29",
+     "8",
+     "1",
+     "6",
+     "1"
+    ],
+    [
+     "Stats SA",
+     "Enabling environment",
+     "p30",
+     "7",
+     "1",
+     "4",
+     "2"
+    ],
+    [
+     "FEDHASA",
+     "Supply side",
+     "p31",
+     "9",
+     "2",
+     "6",
+     "1"
+    ],
+    [
+     "Robben Island Museum",
+     "Supply side",
+     "p32, p33",
+     "14",
+     "8",
+     "6",
+     "0"
+    ],
+    [
+     "SATVITO",
+     "Enabling environment",
+     "p34",
+     "11",
+     "9",
+     "2",
+     "0"
+    ],
+    [
+     "Table Mountain Aerial Cableway",
+     "Supply side",
+     "p35, p36",
+     "19",
+     "10",
+     "8",
+     "1"
+    ],
+    [
+     "Department of Tourism",
+     "National, not on p16",
+     "p37",
+     "7",
+     "4",
+     "3",
+     "0"
+    ],
+    [
+     "West Coast District Municipality",
+     "Local or district tourism body",
+     "p38, p39",
+     "15",
+     "11",
+     "4",
+     "0"
+    ],
+    [
+     "!Khwa ttu",
+     "Supply side",
+     "p40, p41",
+     "16",
+     "7",
+     "9",
+     "0"
+    ],
+    [
+     "CapeNature",
+     "Supply side",
+     "p42 to p44",
+     "24",
+     "17",
+     "7",
+     "0"
+    ],
+    [
+     "CTICC",
+     "Supply side",
+     "p45, p46",
+     "16",
+     "7",
+     "9",
+     "0"
+    ],
+    [
+     "Total",
+     "",
+     "p20 to p46",
+     "223",
+     "115",
+     "102",
+     "6"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Organisations listed for later phases"
+  },
+  {
+   "type": "p",
+   "text": "The deck lists 13 supply-side stakeholders, 6 proposed demand-side engagements and 11 enabling-environment stakeholders engaged or in progress (Stakeholder Insights Report, Mar 2026, p16). No airline, online travel agency or tour operator is among the 16 phase 1 organisations."
+  },
+  {
+   "type": "table",
+   "caption": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed.",
+   "source": "Stakeholder Insights Report, Mar 2026, p16. Entries, spellings and markets in brackets as printed; the appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature.",
+   "columns": [
+    {
+     "header": "Group and status (p16)",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Entries",
+     "width": 4.9,
+     "align": "left"
+    },
+    {
+     "header": "Count",
+     "width": 0.7,
+     "align": "right"
+    },
+    {
+     "header": "With a phase 1 table",
+     "width": 1.0,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Supply side: stakeholders",
+     "Tourism offices of each District; Table Mountain Aerial Cableway; Robben Island Museum; Hospitality Providers; Conference Venue Operators; CapeNature; SANParks; CBRTA; Ikhwa ttu; CCID; CTICC; FEDHASA; V&A Waterfront",
+     "13",
+     "7"
+    ],
+    [
+     "Demand side: proposed engagements",
+     "Trip.com Group (China, ASEAN); Thomas Cook India (India, Middle East outbound); DNATA Travel (Middle East, India, ASEAN); China International Travel Service (China); Emirates (China, India, Middle East, ASEAN); SATSA",
+     "6",
+     "0"
+    ],
+    [
+     "Enabling environment: engaged/in progress",
+     "Department of Economic Development and Tourism; Ministry of Mobility; South African Tourism; SouthAfrica.net; We Do Tourism; SATOvito; Statistics South Africa; Google (Government Affairs and Public Policy); Cape Town International Airport; Winelands Airport; George Airport",
+     "11",
+     "5"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "SANParks, the V&A Waterfront, the CCID, hospitality providers, conference venue operators, South African Tourism, SouthAfrica.net, We Do Tourism and the three airports have no phase 1 table (Stakeholder Insights Report, Mar 2026, p16). The entry for district tourism offices overlaps the Mossel Bay, Overberg District and West Coast District Municipality tables."
+  },
+  {
+   "type": "h3",
+   "text": "Theme tally by tree element"
+  },
+  {
+   "type": "p",
+   "text": "The deck prints no tally by theme, so the table below is a reconstruction from the 16 appendix tables (Stakeholder Insights Report, Mar 2026, p20 to p46)."
+  },
+  {
+   "type": "table",
+   "caption": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings.",
+   "source": "Stakeholder Insights Report, Mar 2026, p7 (elements, in tree order) and p20 to p46. Reconstruction from the appendix tables, since the deck prints no tally (computed). Organisations counts those of the 16 with at least one row under the element or pillar.",
+   "columns": [
+    {
+     "header": "Tree element (p7)",
+     "width": 4.4,
+     "align": "left"
+    },
+    {
+     "header": "Organisations",
+     "width": 1.2,
+     "align": "right"
+    },
+    {
+     "header": "Rows",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "High",
+     "width": 0.6,
+     "align": "right"
+    },
+    {
+     "header": "Medium",
+     "width": 0.8,
+     "align": "right"
+    },
+    {
+     "header": "Low",
+     "width": 0.5,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "**Reshape Demand (pillar)**",
+     "12",
+     "64",
+     "23",
+     "40",
+     "1"
+    ],
+    [
+     "Respond to Growth Segment Traveller Preferences",
+     "10",
+     "14",
+     "6",
+     "8",
+     "0"
+    ],
+    [
+     "Develop the Seasonality, Spread and Mega Events Proposition",
+     "9",
+     "15",
+     "4",
+     "11",
+     "0"
+    ],
+    [
+     "Facilitate Adoption Along the Path to Purchase",
+     "11",
+     "15",
+     "6",
+     "9",
+     "0"
+    ],
+    [
+     "Pivot to Growth Markets (China, India, ME, ASEAN)",
+     "8",
+     "9",
+     "3",
+     "6",
+     "0"
+    ],
+    [
+     "Increase Yield in Mature Markets (UK, Europe, N. America)",
+     "4",
+     "7",
+     "2",
+     "4",
+     "1"
+    ],
+    [
+     "Build a Regional Foundation (Africa)",
+     "3",
+     "4",
+     "2",
+     "2",
+     "0"
+    ],
+    [
+     "**Transform Supply (pillar)**",
+     "14",
+     "68",
+     "44",
+     "24",
+     "0"
+    ],
+    [
+     "Close the Air Access and Cruise Capacity Gaps",
+     "3",
+     "3",
+     "3",
+     "0",
+     "0"
+    ],
+    [
+     "Accelerate Tourism-Enabling Internal Mobility",
+     "8",
+     "18",
+     "10",
+     "8",
+     "0"
+    ],
+    [
+     "Lead Removal of Infrastructure, Visa and Safety Deficits",
+     "10",
+     "14",
+     "9",
+     "5",
+     "0"
+    ],
+    [
+     "Support Diversified Route and Product Development",
+     "11",
+     "18",
+     "11",
+     "7",
+     "0"
+    ],
+    [
+     "Align Visitor Experience In-Destination",
+     "8",
+     "11",
+     "7",
+     "4",
+     "0"
+    ],
+    [
+     "Balance Impact on Nature-Based Attractions",
+     "3",
+     "4",
+     "4",
+     "0",
+     "0"
+    ],
+    [
+     "**Build Enabling Capability (pillar)**",
+     "16",
+     "91",
+     "48",
+     "38",
+     "5"
+    ],
+    [
+     "Drive Community and SME Inclusion",
+     "9",
+     "14",
+     "6",
+     "7",
+     "1"
+    ],
+    [
+     "Ensure Sustainable Destination Management",
+     "4",
+     "5",
+     "3",
+     "2",
+     "0"
+    ],
+    [
+     "Crowd-In Capital with Targeted Investment Strategies",
+     "6",
+     "8",
+     "6",
+     "2",
+     "0"
+    ],
+    [
+     "Review Institutional Arrangements",
+     "5",
+     "11",
+     "9",
+     "2",
+     "0"
+    ],
+    [
+     "Strengthen Industry-Government Collaboration",
+     "15",
+     "23",
+     "8",
+     "13",
+     "2"
+    ],
+    [
+     "Expedite Tourism-Enabling Policy and Data Sharing",
+     "15",
+     "30",
+     "16",
+     "12",
+     "2"
+    ],
+    [
+     "**Total**",
+     "16",
+     "223",
+     "115",
+     "102",
+     "6"
+    ]
+   ],
+   "boldFirstCol": false
+  },
+  {
+   "type": "note",
+   "text": "The p7 tree has no skills element, so skills insights from CapeNature, the West Coast District Municipality and the Overberg District sit under other elements (Stakeholder Insights Report, Mar 2026, p27, p39, p43, p44)."
+  },
+  {
+   "type": "h3",
+   "text": "Priority areas for deeper engagement"
+  },
+  {
+   "type": "table",
+   "caption": "Eight priority areas, each with four lines of enquiry, set the agenda for deeper engagement after phase 1.",
+   "source": "Stakeholder Insights Report, Mar 2026, p14. Bullets lightly edited for house style; the last is truncated on the slide and shown as printed.",
+   "columns": [
+    {
+     "header": "Priority area",
+     "width": 2.1,
+     "align": "left"
+    },
+    {
+     "header": "Lines of enquiry (p14)",
+     "width": 5.4,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Province-wide access, mobility and visitor movement",
+     "Highest-friction transport bottlenecks affecting visitor movement; last-mile access gaps across priority routes and attractions; most feasible mobility interventions by corridor and destination; how to measure mobility impact on spread, stay and satisfaction"
+    ],
+    [
+     "International access friction: air access, visas and onward conversion",
+     "Priority market access barriers across air, visa and onward travel; where the province is losing international access conversion; highest-impact interventions to ease international access friction; evidence required to support route and facilitation prioritisation"
+    ],
+    [
+     "Destination readiness, safety and resilience",
+     "Safety issues most damaging to demand and destination confidence; destination infrastructure and service-readiness gaps; climate and utility risks facing priority tourism assets; peak-period visitor-management challenges and operating responses"
+    ],
+    [
+     "Product diversification and geographic spread beyond the Cape Town core",
+     "Regions and products with strongest potential for incremental growth; barriers preventing secondary destinations from scaling; most credible route-development and multi-stop travel opportunities; how to balance investment between core and emerging destinations"
+    ],
+    [
+     "Inclusive tourism growth and SME/community participation",
+     "Capability gaps limiting SME and community participation; why current support mechanisms are not scaling market-ready operators; partnership and mentoring models that could improve market access; how inclusion can support both equity and tourism differentiation"
+    ],
+    [
+     "Market prioritisation and demand development in mature and emerging source markets",
+     "Priority source markets by scale, yield and strategic fit; market-specific barriers to stronger demand conversion; how to balance mature-market yield with growth-market expansion; which segment propositions are strongest by market"
+    ],
+    [
+     "Seasonality management, events and demand spread",
+     "Where seasonality is most severe by region and segment; event opportunities with strongest off-peak and regional potential; constraints limiting event-led demand growth; how to embed seasonality and spread objectives into activation"
+    ],
+    [
+     "Digital conversion, packaging and tourism intelligence",
+     "Where the Western Cape is losing travellers along the path to purchase; digital and content gaps weakening conversion; minimum tourism-data architecture needed for better decisions; realistic data-sharing partnerships across the tourism syst (truncated on the slide)"
+    ]
+   ],
+   "boldFirstCol": true
+  }
+ ]
+}
