@@ -7,6 +7,27 @@
 const CHAR = '#4D4D4F', CYAN = '#00A3DA', DCYAN = '#006E93', LCYAN = '#80D1EC', PINK = '#C8385F';
 const PAL = [CHAR, CYAN, DCYAN, LCYAN, '#A7A9AC', PINK, '#6D6E71'];
 const INK = '#2B2B2D', GREY = '#6D6E71', GRID = '#D9DADB', FILL = '#F5F6F7', RULE = '#E6E7E8';
+// Corner radius for every bar, box, cell and swatch: slightly rounded, never more than a third of the short side.
+const RX = 8;
+const rr = (w, h, r = RX) => Math.max(0, Math.min(r, w / 3, h / 3)).toFixed(1);
+let clipId = 0;
+
+// Smoothed line through the points: monotone cubic (Fritsch and Carlson), so the curve passes through every data point
+// and never bulges above or below the values on either side of it.
+function smoothPath(pts) {
+  if (pts.length < 3) return `M${pts.map((p) => p.join(',')).join(' L')}`;
+  const n = pts.length, dx = [], m = [], t = [];
+  for (let i = 0; i < n - 1; i++) { dx[i] = pts[i + 1][0] - pts[i][0]; m[i] = (pts[i + 1][1] - pts[i][1]) / dx[i]; }
+  t[0] = m[0]; t[n - 1] = m[n - 2];
+  for (let i = 1; i < n - 1; i++) t[i] = m[i - 1] * m[i] <= 0 ? 0 : (3 * (dx[i - 1] + dx[i])) / ((2 * dx[i] + dx[i - 1]) / m[i - 1] + (dx[i] + 2 * dx[i - 1]) / m[i]);
+  let d = `M${pts[0][0]},${pts[0][1]}`;
+  for (let i = 0; i < n - 1; i++) {
+    const [x0, y0] = pts[i], [x1, y1] = pts[i + 1], h = dx[i] / 3;
+    d += ` C${(x0 + h).toFixed(1)},${(y0 + t[i] * h).toFixed(1)} ${(x1 - h).toFixed(1)},${(y1 - t[i + 1] * h).toFixed(1)} ${x1},${y1}`;
+  }
+  return d;
+}
+
 // White or near-black text, whichever meets 4.5:1 on the fill.
 function textOn(hex) {
   const lin = (i) => { const v = parseInt(hex.slice(1 + 2 * i, 3 + 2 * i), 16) / 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; };
@@ -51,7 +72,7 @@ function frame(title, subtitle) {
 function legend(series, x, y) {
   let s = ''; let cx = x;
   series.forEach((sr, i) => {
-    s += `<rect x="${cx}" y="${y - 16}" width="22" height="22" rx="3" fill="${sr.color || PAL[i % PAL.length]}"/>`;
+    s += `<rect x="${cx}" y="${y - 16}" width="22" height="22" rx="5" fill="${sr.color || PAL[i % PAL.length]}"/>`;
     s += `<text x="${cx + 32}" y="${y + 2}" font-size="22" fill="${INK}">${esc(sr.name)}</text>`;
     cx += 32 + sr.name.length * 12.5 + 40;
   });
@@ -78,8 +99,8 @@ function lineChart(o) {
   }
   o.series.forEach((sr, si) => {
     const col = sr.color || PAL[si % PAL.length];
-    const pts = sr.values.map((v, i) => (v == null ? null : `${x(i)},${y(v)}`)).filter(Boolean).join(' ');
-    s += `<polyline fill="none" stroke="${col}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="${pts}"/>`;
+    const pts = sr.values.map((v, i) => (v == null ? null : [+x(i).toFixed(1), +y(v).toFixed(1)])).filter(Boolean);
+    s += `<path fill="none" stroke="${col}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" d="${smoothPath(pts)}"/>`;
     sr.values.forEach((v, i) => { if (v != null) s += `<circle cx="${x(i)}" cy="${y(v)}" r="7" fill="${col}"/>`; });
     const lastIdx = sr.values.length - 1;
     // The light shade is too pale for type on white, so its label takes the dark shade.
@@ -111,7 +132,7 @@ function barChart(o) {
       const col = sr.color || PAL[si % PAL.length];
       const x0 = L + i * slot + gap / 2 + si * bw;
       const top = Math.min(y(v), y(0)), h = Math.abs(y(0) - y(v));
-      s += `<rect x="${x0}" y="${top}" width="${bw - 4}" height="${h}" fill="${col}" rx="2"/>`;
+      s += `<rect x="${x0}" y="${top}" width="${bw - 4}" height="${h}" fill="${col}" rx="${rr(bw - 4, h)}"/>`;
       if (o.showValues !== false) s += `<text x="${x0 + (bw - 4) / 2}" y="${top - 10}" text-anchor="middle" font-size="20" font-weight="700" fill="${INK}">${fmt(v, o.unit)}</text>`;
     });
   });
@@ -135,7 +156,7 @@ function hbarChart(o) {
     const col = (o.highlight || []).includes(i) ? (o.highlightColor || PAL[1]) : (o.color || PAL[0]);
     s += `<text x="${L - 16}" y="${cy + 8}" text-anchor="end" font-size="22" fill="${INK}">${esc(c)}</text>`;
     if (v != null) {
-      s += `<rect x="${L}" y="${cy - bh / 2}" width="${Math.max(2, x(v) - L)}" height="${bh}" fill="${col}" rx="3"/>`;
+      s += `<rect x="${L}" y="${cy - bh / 2}" width="${Math.max(2, x(v) - L)}" height="${bh}" fill="${col}" rx="${rr(Math.max(2, x(v) - L), bh)}"/>`;
       s += `<text x="${x(v) + 12}" y="${cy + 8}" font-size="22" font-weight="700" fill="${INK}">${fmt(v, o.unit)}</text>`;
     }
   });
@@ -156,6 +177,9 @@ function stackedBarChart(o) {
   for (const t of ticks) s += `<line x1="${L}" y1="${y(t)}" x2="${L + pw}" y2="${y(t)}" stroke="${GRID}" stroke-width="1"/><text x="${L - 14}" y="${y(t) + 8}" text-anchor="end" font-size="22" fill="${GREY}">${fmt(t, o.unit)}</text>`;
   o.categories.forEach((c, i) => {
     const x0 = L + i * slot + (slot - bw) / 2; let acc = 0;
+    // The stack is clipped to one rounded rectangle, so only its outer corners round, not every segment.
+    const id = `sb${++clipId}`;
+    s += `<clipPath id="${id}"><rect x="${x0}" y="${y(sums[i])}" width="${bw}" height="${y(0) - y(sums[i])}" rx="${rr(bw, y(0) - y(sums[i]))}"/></clipPath><g clip-path="url(#${id})">`;
     o.series.forEach((sr, si) => {
       const v = sr.values[i] || 0; if (!v) return;
       const col = sr.color || PAL[si % PAL.length];
@@ -163,6 +187,7 @@ function stackedBarChart(o) {
       if ((y(acc) - y(acc + v)) > 26 && o.segmentValues !== false) s += `<text x="${x0 + bw / 2}" y="${(y(acc) + y(acc + v)) / 2 + 7}" text-anchor="middle" font-size="19" fill="${textOn(col)}">${fmt(v, o.unit)}</text>`;
       acc += v;
     });
+    s += '</g>';
     if (o.totals !== false) s += `<text x="${x0 + bw / 2}" y="${y(acc) - 10}" text-anchor="middle" font-size="21" font-weight="700" fill="${INK}">${fmt(acc, o.unit)}</text>`;
     s += `<text x="${x0 + bw / 2}" y="${T + ph + 40}" text-anchor="middle" font-size="22" fill="${GREY}">${esc(c)}</text>`;
   });
@@ -187,7 +212,7 @@ function ganttChart(o) {
     const i0 = years.indexOf(ph.from), i1 = years.indexOf(ph.to);
     if (i0 < 0 || i1 < 0) return;
     const x0 = L + i0 * cw, x1 = L + (i1 + 1) * cw;
-    s += `<rect x="${x0}" y="${headH - 50}" width="${x1 - x0}" height="${H - headH + 50 - 60}" fill="${i % 2 ? FILL : '#FFFFFF'}"/>`;
+    s += `<rect x="${x0}" y="${headH - 50}" width="${x1 - x0}" height="${H - headH + 50 - 60}" rx="${RX}" fill="${i % 2 ? FILL : '#FFFFFF'}"/>`;
     s += `<text x="${(x0 + x1) / 2}" y="${headH - 58}" text-anchor="middle" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(ph.name)}</text>`;
   });
   years.forEach((y, i) => { s += `<text x="${L + i * cw + cw / 2}" y="${headH - 22}" text-anchor="middle" font-size="20" fill="${GREY}">${esc(y)}</text>`; });
@@ -204,12 +229,12 @@ function ganttChart(o) {
       const c = (r.cells || {})[yr];
       if (!c) return;
       const fill = c === 'I' ? CHAR : (c === 'D' ? LCYAN : RULE);
-      s += `<rect x="${L + i * cw + 3}" y="${y + 9}" width="${cw - 6}" height="${rowH - 18}" rx="3" fill="${fill}"/>`;
+      s += `<rect x="${L + i * cw + 3}" y="${y + 9}" width="${cw - 6}" height="${rowH - 18}" rx="${rr(cw - 6, rowH - 18, 6)}" fill="${fill}"/>`;
     });
   });
   const ly = H - 26;
-  s += `<rect x="${L}" y="${ly - 16}" width="22" height="18" rx="3" fill="${LCYAN}"/><text x="${L + 30}" y="${ly}" font-size="19" fill="${INK}">Design</text>`;
-  s += `<rect x="${L + 140}" y="${ly - 16}" width="22" height="18" rx="3" fill="${PAL[0]}"/><text x="${L + 170}" y="${ly}" font-size="19" fill="${INK}">Implement</text>`;
+  s += `<rect x="${L}" y="${ly - 16}" width="22" height="18" rx="5" fill="${LCYAN}"/><text x="${L + 30}" y="${ly}" font-size="19" fill="${INK}">Design</text>`;
+  s += `<rect x="${L + 140}" y="${ly - 16}" width="22" height="18" rx="5" fill="${PAL[0]}"/><text x="${L + 170}" y="${ly}" font-size="19" fill="${INK}">Implement</text>`;
   return s + '</svg>';
 }
 
@@ -224,20 +249,20 @@ function treeChart(o) {
   const colH = o.pillars.map((p) => p.themes.reduce((acc, t) => acc + 52 + t.areas.reduce((a2, ar) => a2 + 44 + (wrap(ar.name, WRAP).length) * LH + 8, 0) + 10, 0));
   const H = 250 + Math.max(...colH) + 20;
   let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
-  s += `<rect x="40" y="20" width="${W - 80}" height="64" rx="6" fill="${PAL[0]}"/><text x="${W / 2}" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
+  s += `<rect x="40" y="20" width="${W - 80}" height="64" rx="${RX}" fill="${PAL[0]}"/><text x="${W / 2}" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
   o.pillars.forEach((p, pi) => {
     const x = 40 + pi * colW + gap / 2, w = colW - gap;
-    s += `<rect x="${x}" y="104" width="${w}" height="100" rx="6" fill="${DCYAN}"/>`;
+    s += `<rect x="${x}" y="104" width="${w}" height="100" rx="${RX}" fill="${DCYAN}"/>`;
     s += `<text x="${x + w / 2}" y="144" text-anchor="middle" font-size="27" font-weight="700" fill="#ffffff">${esc(p.name)}</text>`;
     s += `<text x="${x + w / 2}" y="180" text-anchor="middle" font-size="20" fill="#ffffff">${esc(p.objective || '')}</text>`;
     let y = 222;
     p.themes.forEach((t) => {
-      s += `<rect x="${x}" y="${y}" width="${w}" height="42" rx="4" fill="${C_HEAD()}"/><text x="${x + 12}" y="${y + 29}" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(t.name)}</text>`;
+      s += `<rect x="${x}" y="${y}" width="${w}" height="42" rx="6" fill="${C_HEAD()}"/><text x="${x + 12}" y="${y + 29}" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(t.name)}</text>`;
       y += 52;
       t.areas.forEach((a) => {
         const lines = wrap(a.name, WRAP);
         const h = 44 + lines.length * LH;
-        s += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="4" fill="#ffffff" stroke="${GRID}"/>`;
+        s += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#ffffff" stroke="${GRID}"/>`;
         s += `<text x="${x + 12}" y="${y + 30}" font-size="${FS}" font-weight="700" fill="${INK}">${esc(a.code)}</text>`;
         lines.forEach((ln, li) => { s += `<text x="${x + 52}" y="${y + 30 + li * LH}" font-size="${FS}" fill="${INK}">${esc(ln)}</text>`; });
         if (a.disposition) {
@@ -275,7 +300,8 @@ function calloutBox(c) {
   const h = 2 * pad + fs + (lines.length - 1) * lh;
   const a = c.anchor || 'tl';
   const x = a.endsWith('r') ? c.x - w : c.x, y = a.startsWith('b') ? c.y - h : c.y;
-  let s = `<g class="callout"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${FILL}"/><rect x="${x}" y="${y}" width="${bar}" height="${h}" rx="3" fill="${CYAN}"/>`;
+  const id = `co${++clipId}`;
+  let s = `<g class="callout"><clipPath id="${id}"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${RX}"/></clipPath><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="${RX}" fill="${FILL}"/><rect x="${x}" y="${y}" width="${bar}" height="${h}" fill="${CYAN}" clip-path="url(#${id})"/>`;
   lines.forEach((ln, i) => { s += `<text x="${x + bar + pad}" y="${y + pad + fs - 3 + i * lh}" font-size="${fs}" font-weight="700" fill="${PAL[0]}">${esc(ln)}</text>`; });
   return { svg: s + '</g>', h };
 }
