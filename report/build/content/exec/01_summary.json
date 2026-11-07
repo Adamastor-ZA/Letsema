@@ -46,7 +46,7 @@
   {
    "type": "figure",
    "id": "fig_0_tree",
-   "caption": "The updated hypothesis tree: three pillars, six themes and twenty focus areas, each with its disposition from the October 2026 review.",
+   "caption": "The updated hypothesis tree",
    "source": "Current State Diagnostic, Dec 2025, p64 (December tree); dispositions as recorded at the 14 October 2026 review; traceability table, Appendix A1.",
    "chart": {
     "type": "tree",
@@ -516,7 +516,7 @@
   {
    "type": "figure",
    "id": "fig_0_paths",
-   "caption": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+   "caption": "Arrivals paths to 2035",
    "source": "Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21. The 2031 base value and the accelerated and conservative milestones are computed (section 5.3).",
    "chart": {
     "type": "line",
@@ -566,7 +566,13 @@
       "label": "1.8m seat line (model)"
      }
     ],
-    "timeAxis": true
+    "timeAxis": true,
+    "callout": {
+     "text": "Only the accelerated path clears 2.5m by 2035; the base path crosses the seat line before 2031.",
+     "x": 180,
+     "y": 80,
+     "w": 700
+    }
    }
   },
   {

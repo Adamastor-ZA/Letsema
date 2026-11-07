@@ -20,7 +20,7 @@
   {
    "type": "figure",
    "id": "fig_4_gantt",
-   "caption": "Three initiatives start in implementation in 2027, eleven are in implementation by 2028 and all eighteen by 2029.",
+   "caption": "Initiative timeline, 2027 to 2035",
    "source": "Letsema, initiative portfolio (sections 4.1 and 4.3). Design means scoping, data, agreements and pilots; implement means delivery at scale.",
    "chart": {
     "type": "gantt",
@@ -323,7 +323,11 @@
        "2035": "I"
       }
      }
-    ]
+    ],
+    "callout": {
+     "text": "Three initiatives start in implementation in 2027, eleven by 2028 and all eighteen by 2029.",
+     "band": true
+    }
    }
   },
   {

@@ -95,7 +95,7 @@
   {
    "type": "figure",
    "id": "fig_3_fa02_months",
-   "caption": "International meetings peak from September to November, when seats and overseas visitors are still climbing out of the winter trough.",
+   "caption": "Meetings, seats and visitors by month",
    "source": "MIDAS Aviation Market Assessment, Mar 2026, Seasonality (share of 2025 international seat capacity at Cape Town International); Demand-Side Analysis, Jun 2026, p12 (month of travel, Western Cape overseas visitors, 2025) and p37 (ICCA meetings in Cape Town by month, 2022 to 2024, shares of 136 computed from the printed counts).",
    "chart": {
     "type": "line",
@@ -171,7 +171,13 @@
     ],
     "unit": "%",
     "yMin": 0,
-    "footnote": "Share of the year by month. Seats and visitors 2025; meetings 2022 to 2024. Printed visitor shares sum to 104.9%."
+    "footnote": "Share of the year by month. Seats and visitors 2025; meetings 2022 to 2024. Printed visitor shares sum to 104.9%.",
+    "callout": {
+     "text": "Meetings peak from September to November, while seats and visitors climb out of the winter trough.",
+     "x": 180,
+     "y": 80,
+     "w": 640
+    }
    }
   },
   {

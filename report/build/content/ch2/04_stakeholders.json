@@ -45,7 +45,7 @@
   {
    "type": "figure",
    "id": "fig_24_tally",
-   "caption": "Fifteen of 16 organisations raised collaboration and fifteen raised policy and data sharing, more than any other theme.",
+   "caption": "Themes raised by stakeholder organisations",
    "source": "Stakeholder Insights Report, Mar 2026, p20 to p46: number of the 16 organisations with at least one insight under each hypothesis-tree element, counted from the appendix tables. The report prints no tally.",
    "chart": {
     "type": "hbar",
@@ -93,7 +93,13 @@
     "highlight": [
      0,
      1
-    ]
+    ],
+    "callout": {
+     "text": "Industry-government collaboration and data sharing each drew 15 of the 16 organisations.",
+     "x": 1100,
+     "y": 360,
+     "w": 460
+    }
    }
   },
   {

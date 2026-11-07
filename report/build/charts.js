@@ -251,13 +251,47 @@ function wrap(text, n) {
 }
 
 // Resolve a figure block that carries { chart: { type, ...options } } into its SVG string.
+// Key-message callout: a shaded box with a teal rule on its left and the message in bold navy, wrapped to its width.
+// { text, x, y, w, anchor: 'tl' (x, y = top-left, the default) | 'tr' | 'bl' | 'br', fontSize }
+function calloutBox(c) {
+  // Raleway bold runs at about 0.49 of the font size per character (measured in Chromium); 0.53 leaves a margin.
+  const fs = c.fontSize || 24, lh = Math.round(fs * 1.3), pad = 18, bar = 8, cw = fs * 0.53;
+  const perLine = Math.max(10, Math.floor(((c.w || 600) - 2 * pad - bar) / cw));
+  const lines = []; let cur = '';
+  for (const wd of String(c.text).split(' ')) {
+    if (cur && `${cur} ${wd}`.length > perLine) { lines.push(cur); cur = wd; } else cur = cur ? `${cur} ${wd}` : wd;
+  }
+  if (cur) lines.push(cur);
+  const w = c.band ? (c.w || 600) : Math.min(c.w || 600, Math.ceil(Math.max(...lines.map((l) => l.length)) * cw + 2 * pad + bar + 6));
+  const h = 2 * pad + fs + (lines.length - 1) * lh;
+  const a = c.anchor || 'tl';
+  const x = a.endsWith('r') ? c.x - w : c.x, y = a.startsWith('b') ? c.y - h : c.y;
+  let s = `<g class="callout"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#F3F6F9"/><rect x="${x}" y="${y}" width="${bar}" height="${h}" rx="3" fill="${PAL[1]}"/>`;
+  lines.forEach((ln, i) => { s += `<text x="${x + bar + pad}" y="${y + pad + fs - 3 + i * lh}" font-size="${fs}" font-weight="700" fill="${PAL[0]}">${esc(ln)}</text>`; });
+  return { svg: s + '</g>', h };
+}
+
+// Add a callout to a finished chart: inside the plot at given coordinates, or, with band: true, in a strip added above
+// the chart (for charts with no free space, such as the route loads and the Gantt).
+function withCallout(svg, c) {
+  if (!c || !c.text) return svg;
+  if (!c.band) return svg.replace(/<\/svg>$/, `${calloutBox(c).svg}</svg>`);
+  const m = svg.match(/^<svg[^>]*viewBox="0 0 (\d+) (\d+)"[^>]*>/);
+  const w0 = +m[1], h0 = +m[2];
+  const box = calloutBox({ ...c, x: 40, y: 24, w: c.w || w0 - 80, anchor: 'tl', band: true });
+  const bh = box.h + 40;
+  const head = m[0].replace(`viewBox="0 0 ${w0} ${h0}"`, `viewBox="0 0 ${w0} ${h0 + bh}"`).replace(`height="${h0}"`, `height="${h0 + bh}"`);
+  const inner = svg.slice(m[0].length, -'</svg>'.length);
+  return `${head}<rect width="${w0}" height="${h0 + bh}" fill="#ffffff"/>${box.svg}<g transform="translate(0,${bh})">${inner}</g></svg>`;
+}
+
 function svgFor(chart) {
   const vals = [].concat(chart.values || [], ...((chart.series || []).map((x) => x.values || []))).filter((v) => typeof v === 'number');
   DEC = vals.length > 0 && vals.every((v) => Math.abs(v) < 100) && vals.some((v) => !Number.isInteger(v));
   const fns = { line: lineChart, bar: barChart, hbar: hbarChart, stacked: stackedBarChart, gantt: ganttChart, tree: treeChart };
   const fn = fns[chart.type];
   if (!fn) throw new Error(`unknown chart type ${chart.type}`);
-  return fn(chart);
+  return withCallout(fn(chart), chart.callout);
 }
 
-module.exports = { lineChart, barChart, hbarChart, stackedBarChart, ganttChart, treeChart, svgFor, PAL };
+module.exports = { lineChart, barChart, hbarChart, stackedBarChart, ganttChart, treeChart, svgFor, withCallout, PAL };

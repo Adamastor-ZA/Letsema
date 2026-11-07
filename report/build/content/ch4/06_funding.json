@@ -204,7 +204,7 @@
   {
    "type": "figure",
    "id": "fig_4_funding",
-   "caption": "Wesgro's operating budget is the main source for most initiatives, while private capital is the main source for the capital-heavy ones.",
+   "caption": "Initiatives by main funding source",
    "source": "Letsema, count of initiatives by main funding source from the table above. An initiative can have more than one main source.",
    "chart": {
     "type": "hbar",
@@ -220,7 +220,13 @@
      3,
      4
     ],
-    "unit": ""
+    "unit": "",
+    "callout": {
+     "text": "Wesgro's operating budget is the main source for 13 initiatives, and private capital for the four capital-heavy ones.",
+     "x": 880,
+     "y": 500,
+     "w": 640
+    }
    }
   },
   {

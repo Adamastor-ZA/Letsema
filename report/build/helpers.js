@@ -9,6 +9,7 @@ const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, AlignmentType,
   Header, Footer, PageNumber, ImageRun, BorderStyle, ShadingType, HeadingLevel, LevelFormat,
   VerticalAlign, TableLayoutType, PageBreak, Bookmark, InternalHyperlink, TabStopType, LineRuleType,
+  FootnoteReferenceRun,
 } = docx;
 // LibreOffice treats w:line without w:lineRule as a fixed height, which collapses inline images; always state the rule.
 const AUTO = LineRuleType.AUTO;
@@ -58,10 +59,119 @@ function runs(text, base = {}) {
   return out;
 }
 
+// ---------- Citations as footnotes ----------
+// Body text keeps its citations in the house form, (Demand-Side Analysis, Jun 2026, p21), in the content modules.
+// At render time each citation becomes a numbered footnote: the parenthesis leaves the text, the reference mark
+// follows any punctuation that closed the citation, and short forms such as (p22) or ("Seasonality") are written out
+// in full from the last source cited in the same section. Cross-references and data notes, such as (section 4.3),
+// (I6) or (computed), stay inline. Captions, source lines and table cells are not touched.
+const FOOTNOTES = {};
+const FOOTNOTE_TEXT = []; // plain text of each footnote, for QA
+let footnoteId = 0;
+const citeState = { last: null, lastSect: null };
+const resetCites = () => { citeState.last = null; citeState.lastSect = null; };
+const MON = '(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*';
+const RE_FULL = new RegExp(`^[A-Z][^;]*?,\\s(?:\\d{1,2}\\s)?${MON}\\s\\d{4}\\b`);
+const RE_DOC = new RegExp(`^(.*?,\\s(?:\\d{1,2}\\s)?${MON}\\s\\d{4})`);
+const RE_NAMED = /^(?:Wesgro Research, Western Cape Tourism Performance|City of Cape Town|Stats SA|Sernatur|UN Tourism|World Tourism Barometer|ACSA|Minister of Transport|George Herald|Western Cape Government|Singapore Tourism Board|Hypertext|Travel News)\b.*\b(?:19|20)\d{2}\b|^SLA Annexure B\b/;
+const PG = 'pp?\\d+(?:\\s(?:to|and)\\spp?\\d+)?';
+const RE_PAGE = new RegExp(`^(?:computed from\\s)?${PG}(?:,\\s(?:${PG}|computed|counted))*$`);
+const RE_SECT = /^"[^"]+"(?:,\s"[^"]+")*$/;
+const RE_MOD = /^(?:(?:sum\s)?computed|public sources?|counted)$/;
+const RE_STUDY = /^(?:Inception Report|Current State Diagnostic|Stakeholder Insights Report|Global Benchmarking Report|MIDAS Aviation Market Assessment|Market Assessment Report|Demand-Side Analysis|Infrastructure Report|SME and Community Inclusion Plan|Summary of Findings|Skift)\b/;
+
+function citeKind(part, prevFull) {
+  if (RE_FULL.test(part) || RE_NAMED.test(part)) return 'full';
+  if (RE_PAGE.test(part)) return 'page';
+  if (RE_SECT.test(part)) return 'sect';
+  if (RE_MOD.test(part)) return 'mod';
+  if (prevFull && /^[A-Z][A-Za-z ]{2,40}$/.test(part) && part.split(' ').length <= 4) return 'sect';
+  return 'other';
+}
+
+// Parse the inside of one parenthesis. Returns null if it is not a citation, else { note, inline }.
+function parseCitation(inner) {
+  const parts = inner.split(';').map((x) => x.trim());
+  const kinds = []; let prevFull = false;
+  for (const p of parts) { const k = citeKind(p, prevFull); kinds.push(k); prevFull = k === 'full'; }
+  if (!kinds.some((k) => k === 'full' || k === 'page' || k === 'sect')) return null;
+  let { last, lastSect } = citeState;
+  const fn = [], inl = [];
+  for (let i = 0; i < parts.length; i++) {
+    const p = parts[i], k = kinds[i];
+    if (k === 'full') {
+      fn.push(p);
+      const m = p.match(RE_DOC);
+      // Short forms (p22) and ("Seasonality") only ever refer to the study documents, so public sources do not reset them.
+      if (m && RE_STUDY.test(m[1])) { last = m[1]; if (!/^,\s+pp?\d/.test(p.slice(m[1].length))) lastSect = m[1]; }
+    } else if (k === 'page') {
+      if (!last) return null;
+      const m = p.match(/^computed from\s(.*)$/);
+      // a second location in the source the same citation has just named is written without repeating the source
+      if (!m && fn.length && fn[fn.length - 1].startsWith(`${last},`)) fn.push(p);
+      else fn.push(m ? `computed from ${last}, ${m[1]}` : `${last}, ${p}`);
+    } else if (k === 'sect') {
+      const src = lastSect || last;
+      if (!src) return null;
+      fn.push(fn.length && fn[fn.length - 1].startsWith(`${src},`) ? p : `${src}, ${p}`);
+    } else if (k === 'mod') {
+      if (fn.length) fn[fn.length - 1] += `, ${p}`; else fn.push(p);
+    } else if (fn.length && /^[a-z]/.test(p) && p.split(' ').length >= 4) {
+      fn[fn.length - 1] += `; ${p}`; // a note on the source, such as what a count covers
+    } else inl.push(p);
+  }
+  citeState.last = last; citeState.lastSect = lastSect;
+  const note = fn.join('; ');
+  return { note: note.charAt(0).toUpperCase() + note.slice(1) + (/[.!?]$/.test(note) ? '' : '.'), inline: inl.length ? inl.join('; ') : null };
+}
+
+function addFootnote(text) {
+  footnoteId += 1;
+  FOOTNOTES[footnoteId] = { children: [new Paragraph({ style: 'FootnoteText', children: runs(` ${text}`) })] };
+  FOOTNOTE_TEXT.push(text);
+  return footnoteId;
+}
+
+// Split text into strings and footnote ids. Parentheses inside [open items] are left alone.
+function citeSplit(text) {
+  const skip = [];
+  for (const m of text.matchAll(/\[[^\]\n]+\]/g)) skip.push([m.index, m.index + m[0].length]);
+  const inSkip = (i) => skip.some(([a, b]) => i >= a && i < b);
+  const out = []; let pos = 0, depth = 0, start = -1;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '(' && !inSkip(i)) { if (depth === 0) start = i; depth += 1; }
+    else if (ch === ')' && depth > 0 && !inSkip(i)) {
+      depth -= 1;
+      if (depth === 0) {
+        const c = parseCitation(text.slice(start + 1, i));
+        if (!c) continue;
+        let before = text.slice(pos, start);
+        before = c.inline ? `${before}(${c.inline})` : before.replace(/\s+$/, '');
+        let next = i + 1;
+        if ('.,;:'.includes(text[next] || '')) { before += text[next]; next += 1; }
+        out.push(before, { fn: addFootnote(c.note) });
+        pos = next; i = next - 1;
+      }
+    }
+  }
+  out.push(text.slice(pos));
+  return out.filter((x) => x !== '');
+}
+
+// Citation in the house form, for code that builds text: (Demand-Side Analysis, Jun 2026, p21)
+const cite = (doc, date, page) => `(${doc}, ${date}${page ? ', ' + page : ''})`;
+
+// runs() with citations moved to footnotes.
+function noteRuns(text, base = {}) {
+  if (typeof text !== 'string') return runs(text, base);
+  return citeSplit(text).flatMap((seg) => (typeof seg === 'string' ? runs(seg, base) : [new FootnoteReferenceRun(seg.fn)]));
+}
+
 // ---------- Paragraph helpers ----------
-const body = (text, opts = {}) => new Paragraph({ style: 'Body', children: runs(text), ...opts });
-const lead = (text, opts = {}) => new Paragraph({ style: 'Lead', children: runs(text), ...opts });
-const note = (text, opts = {}) => new Paragraph({ style: 'Note', children: runs(text), ...opts });
+const body = (text, opts = {}) => new Paragraph({ style: 'Body', children: noteRuns(text), ...opts });
+const lead = (text, opts = {}) => new Paragraph({ style: 'Lead', children: noteRuns(text), ...opts });
+const note = (text, opts = {}) => new Paragraph({ style: 'Note', children: noteRuns(text), ...opts });
 const kicker = (text, brk = false) => new Paragraph({ style: 'Kicker', pageBreakBefore: brk, children: [new TextRun({ text: text.toUpperCase() })] });
 const h1 = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_1, pageBreakBefore: true, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
 const h1NoBreak = (text, id) => new Paragraph({ heading: HeadingLevel.HEADING_1, children: id ? [new Bookmark({ id, children: [new TextRun(text)] })] : [new TextRun(text)] });
@@ -77,14 +187,12 @@ let listInstance = 0;
 function numbered(items, reference = 'n_policy', cont = false) {
   if (!cont) listInstance += 1;
   const inst = listInstance;
-  return items.map((t) => new Paragraph({ style: 'ListText', numbering: { reference, level: 0, instance: inst }, children: runs(t) }));
+  return items.map((t) => new Paragraph({ style: 'ListText', numbering: { reference, level: 0, instance: inst }, children: noteRuns(t) }));
 }
 function bullets(items) {
-  return items.map((t) => new Paragraph({ style: 'ListText', numbering: { reference: 'bullets', level: 0 }, children: runs(t) }));
+  return items.map((t) => new Paragraph({ style: 'ListText', numbering: { reference: 'bullets', level: 0 }, children: noteRuns(t) }));
 }
 
-// Citation in the house form: (Demand-Side Analysis, Jun 2026, p21)
-const cite = (doc, date, page) => `(${doc}, ${date}${page ? ', ' + page : ''})`;
 
 // ---------- Counters and registries for figures and tables ----------
 function makeContext() {
@@ -173,7 +281,7 @@ function grid(columns, rows, { headShade = C.head, zebra = false } = {}) {
 function box(title, paragraphs, { fill = C.light } = {}) {
   const children = [];
   if (title) children.push(new Paragraph({ style: 'BoxTitle', children: [new TextRun(title)] }));
-  for (const p of paragraphs) children.push(typeof p === 'string' ? new Paragraph({ style: 'BoxBody', children: runs(p) }) : p);
+  for (const p of paragraphs) children.push(typeof p === 'string' ? new Paragraph({ style: 'BoxBody', children: noteRuns(p) }) : p);
   const t = new Table({
     width: { size: TEXT_WIDTH_DXA, type: WidthType.DXA }, columnWidths: [TEXT_WIDTH_DXA], layout: TableLayoutType.FIXED,
     borders: { top: { style: BorderStyle.SINGLE, size: 12, color: C.teal }, bottom: noBorder, left: noBorder, right: noBorder, insideHorizontal: noBorder, insideVertical: noBorder },
@@ -233,6 +341,7 @@ function styles() {
       { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
       { id: 'BoxTitle', name: 'Box Title', basedOn: 'Normal', next: 'BoxBody', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.navy }, paragraph: { spacing: { after: 80 } } },
       { id: 'BoxBody', name: 'Box Body', basedOn: 'Normal', next: 'BoxBody', run: { ...base, size: PT(10) }, paragraph: { spacing: { after: 80, line: 264, lineRule: AUTO } } },
+      { id: 'FootnoteText', name: 'footnote text', basedOn: 'Normal', next: 'FootnoteText', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 0, after: 20, line: 220, lineRule: AUTO } } },
       { id: 'Quote', name: 'Quote', basedOn: 'Body', next: 'Body', run: { ...base, italics: true, color: C.grey }, paragraph: { indent: { left: 567, right: 567 }, spacing: { after: 140 } } },
       { id: 'TocL1', name: 'TOC L1', basedOn: 'Normal', next: 'TocL1', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.ink }, paragraph: { spacing: { before: 100, after: 40 } } },
       { id: 'TocL2', name: 'TOC L2', basedOn: 'Normal', next: 'TocL2', run: { font: FONT_BODY, size: PT(10.5), color: C.ink }, paragraph: { indent: { left: 400 }, spacing: { after: 30 } } },
@@ -276,7 +385,7 @@ function buildDocument({ sections, shortTitle, draft = true, title, creator = 'L
   const { header, footer } = headerFooter(shortTitle, draft);
   return new Document({
     creator, title, description: 'Final research report',
-    styles: styles(), numbering: numberingConfig(),
+    styles: styles(), numbering: numberingConfig(), footnotes: FOOTNOTES,
     features: { updateFields: false },
     sections: sections.map((s, i) => ({
       properties: {
@@ -300,7 +409,7 @@ async function save(doc, outPath) {
 
 module.exports = {
   docx, C, PT, FONT_TITLE, FONT_HEAD, FONT_BODY, TEXT_WIDTH_CM, TEXT_WIDTH_DXA,
-  runs, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite,
+  runs, noteRuns, resetCites, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite, citeSplit, FOOTNOTE_TEXT,
   makeContext, setChapter, headings, pageOf, table, grid, box, figure, contentsList, buildDocument, save,
   Paragraph, TextRun, AlignmentType,
 };

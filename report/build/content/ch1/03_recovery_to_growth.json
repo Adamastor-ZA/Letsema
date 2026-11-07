@@ -41,7 +41,7 @@
   {
    "type": "figure",
    "id": "fig_base_case_seat_ceiling",
-   "caption": "The base case crosses the model's 1.8m seat line at the 2030 plotted year, before runway relief on the planning date of about 2033.",
+   "caption": "Base case against the seat line",
    "source": "Market Assessment Report, May 2026, p20 (base case by year from a 2025 base of 1,498,829; the 2028 to 2035 points are identical in the Demand-Side Analysis, Jun 2026, p21). Seat line as drawn on the same slide. Airport relief from about 2032: Infrastructure Report, Jul 2026, p103. The model prints only these six year points and no seat table beneath the 1.8m line, so the crossing falls between 2028 (1,673,855) and 2030 (1,802,929). The conservative (1,822,634) and accelerated (2,516,282) cases are printed as 2035 end points only and are not plotted.",
    "chart": {
     "type": "line",
@@ -74,7 +74,13 @@
       "label": "1.8m seat line (model)"
      }
     ],
-    "timeAxis": true
+    "timeAxis": true,
+    "callout": {
+     "text": "The base case crosses the model's 1.8m seat line in 2030, before runway relief in about 2033.",
+     "x": 180,
+     "y": 80,
+     "w": 700
+    }
    }
   },
   {

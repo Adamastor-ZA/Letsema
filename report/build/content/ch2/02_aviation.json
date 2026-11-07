@@ -158,7 +158,7 @@
   {
    "type": "figure",
    "id": "fig_22_loads",
-   "caption": "Eleven of Cape Town's 27 international routes ran above 80% in the year to November 2025, and sixteen at 75% or more.",
+   "caption": "Route load factors to November 2025",
    "source": "MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\" (international route load-factor table: estimated bookings divided by capacity, bookings for the twelve months to November 2025). Routes above 80% highlighted; the eleven routes below 75% are not shown.",
    "chart": {
     "type": "hbar",
@@ -211,7 +211,11 @@
      8,
      9,
      10
-    ]
+    ],
+    "callout": {
+     "text": "Eleven of 27 routes ran above 80% load in the year to November 2025, and sixteen at 75% or more.",
+     "band": true
+    }
    }
   },
   {
@@ -225,7 +229,7 @@
   {
    "type": "figure",
    "id": "fig_22_months",
-   "caption": "Airlines schedule 10.8% of Cape Town's annual international seats in December and 6.4% in June.",
+   "caption": "International seats by month, 2025",
    "source": "MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\" (Capetown international capacity by month, 2025, printed data labels).",
    "chart": {
     "type": "bar",
@@ -262,7 +266,13 @@
       ]
      }
     ],
-    "unit": "%"
+    "unit": "%",
+    "callout": {
+     "text": "December carries 10.8% of the year's international seats; June carries 6.4%.",
+     "x": 180,
+     "y": 90,
+     "w": 700
+    }
    }
   },
   {

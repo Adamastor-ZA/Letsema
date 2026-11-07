@@ -61,7 +61,7 @@
   {
    "type": "figure",
    "id": "fig_25_readiness",
-   "caption": "Overall readiness and accessibility both fall with each step away from the Cape Metro.",
+   "caption": "Readiness and accessibility by district",
    "source": "Infrastructure Report, Jul 2026: overall ratings p28, p41, p52, p63, p74, p85; accessibility of attractions p88. Scale 1 (very weak) to 5 (leading). Districts ordered from the Metro outward.",
    "chart": {
     "type": "bar",
@@ -97,7 +97,13 @@
       ]
      }
     ],
-    "unit": ""
+    "unit": "",
+    "callout": {
+     "text": "Both scores fall with each step away from the Cape Metro.",
+     "x": 960,
+     "y": 100,
+     "w": 580
+    }
    }
   },
   {

@@ -1,0 +1,176 @@
+[
+ {
+  "id": "fig_ctia_arrivals_fy",
+  "file": "ch1/02_system_today.json",
+  "block": 7,
+  "before": "International passenger arrivals at Cape Town International passed their pre-pandemic peak in FY23/24 and reached 1.44m in FY24/25 and 1.57m in FY25/26.",
+  "title": "Airport arrivals, FY15/16 to FY25/26",
+  "callout": "Arrivals passed the pre-pandemic peak in FY23/24 and reached 1.57m in FY25/26."
+ },
+ {
+  "id": "fig_source_markets_2025",
+  "file": "ch1/02_system_today.json",
+  "block": 18,
+  "before": "Five markets supplied 63% of overseas arrivals in 2025, and the UK, Germany and the USA alone supplied 52%.",
+  "title": "Overseas arrivals by market, 2025",
+  "callout": "Five markets supply 63% of overseas arrivals; the UK, Germany and the USA alone supply 52%."
+ },
+ {
+  "id": "fig_spend_per_visitor_2024",
+  "file": "ch1/02_system_today.json",
+  "block": 19,
+  "before": "Average spend per visitor in 2024 ranged from R32,900 for the USA to R8,500 for Zimbabwe, a spread of 3.9 times.",
+  "title": "Spend per visitor by market, 2024",
+  "callout": "The USA spends R32,900 a visit, 3.9 times Zimbabwe's R8,500."
+ },
+ {
+  "id": "fig_base_case_seat_ceiling",
+  "file": "ch1/03_recovery_to_growth.json",
+  "block": 9,
+  "before": "The base case crosses the model's 1.8m seat line at the 2030 plotted year, before runway relief on the planning date of about 2033.",
+  "title": "Base case against the seat line",
+  "callout": "The base case crosses the model's 1.8m seat line in 2030, before runway relief in about 2033."
+ },
+ {
+  "id": "fig_21_scenarios",
+  "file": "ch2/01_demand.json",
+  "block": 18,
+  "before": "The base case crosses the model's 1.8m seat line at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
+  "title": "Growth scenarios to 2035",
+  "callout": "The base case crosses the seat line in 2030; only the accelerated case reaches 2.5m by 2035."
+ },
+ {
+  "id": "fig_21_groups",
+  "file": "ch2/01_demand.json",
+  "block": 20,
+  "before": "Hub and acceleration markets supply 382,402 of the 676,949 arrivals the base case adds between 2025 and 2035.",
+  "title": "Base-case growth by market group",
+  "callout": "Hub and acceleration markets supply 382,402 of the 676,949 arrivals the base case adds."
+ },
+ {
+  "id": "fig_22_loads",
+  "file": "ch2/02_aviation.json",
+  "block": 18,
+  "before": "Eleven of Cape Town's 27 international routes ran above 80% in the year to November 2025, and sixteen at 75% or more.",
+  "title": "Route load factors to November 2025",
+  "callout": "Eleven of 27 routes ran above 80% load in the year to November 2025, and sixteen at 75% or more."
+ },
+ {
+  "id": "fig_22_months",
+  "file": "ch2/02_aviation.json",
+  "block": 21,
+  "before": "Airlines schedule 10.8% of Cape Town's annual international seats in December and 6.4% in June.",
+  "title": "International seats by month, 2025",
+  "callout": "December carries 10.8% of the year's international seats; June carries 6.4%."
+ },
+ {
+  "id": "fig_23_growth",
+  "file": "ch2/03_benchmarking.json",
+  "block": 14,
+  "before": "Against global growth of 11% in 2024, Chile and Singapore grew two to four times as fast, and Kenya, Valencia and New Zealand slightly faster.",
+  "title": "Comparator growth, 2023 to 2024",
+  "callout": "Chile and Singapore grew two to four times the world's 11%; Kenya, Valencia and New Zealand slightly faster."
+ },
+ {
+  "id": "fig_24_tally",
+  "file": "ch2/04_stakeholders.json",
+  "block": 10,
+  "before": "Fifteen of 16 organisations raised collaboration and fifteen raised policy and data sharing, more than any other theme.",
+  "title": "Themes raised by stakeholder organisations",
+  "callout": "Industry-government collaboration and data sharing each drew 15 of the 16 organisations."
+ },
+ {
+  "id": "fig_25_readiness",
+  "file": "ch2/05_infrastructure.json",
+  "block": 14,
+  "before": "Overall readiness and accessibility both fall with each step away from the Cape Metro.",
+  "title": "Readiness and accessibility by district",
+  "callout": "Both scores fall with each step away from the Cape Metro."
+ },
+ {
+  "id": "fig_26_constraints",
+  "file": "ch2/06_inclusion.json",
+  "block": 14,
+  "before": "Organisation binds in 11 of the 20 shortlisted communities and distance in none.",
+  "title": "Binding constraints in 20 communities",
+  "callout": "Organisation binds in 11 of the 20 communities; distance binds in none."
+ },
+ {
+  "id": "fig_3_fa02_months",
+  "file": "ch3/12_fa02.json",
+  "block": 10,
+  "before": "International meetings peak from September to November, when seats and overseas visitors are still climbing out of the winter trough.",
+  "title": "Meetings, seats and visitors by month",
+  "callout": "Meetings peak from September to November, while seats and visitors climb out of the winter trough."
+ },
+ {
+  "id": "fig_4_gantt",
+  "file": "ch4/02_sequencing.json",
+  "block": 4,
+  "before": "Three initiatives start in implementation in 2027, eleven are in implementation by 2028 and all eighteen by 2029.",
+  "title": "Initiative timeline, 2027 to 2035",
+  "callout": "Three initiatives start in implementation in 2027, eleven by 2028 and all eighteen by 2029."
+ },
+ {
+  "id": "fig_4_funding",
+  "file": "ch4/06_funding.json",
+  "block": 5,
+  "before": "Wesgro's operating budget is the main source for most initiatives, while private capital is the main source for the capital-heavy ones.",
+  "title": "Initiatives by main funding source",
+  "callout": "Wesgro's operating budget is the main source for 13 initiatives, and private capital for the four capital-heavy ones."
+ },
+ {
+  "id": "fig_4_governance",
+  "file": "ch4/07_governance.json",
+  "block": 3,
+  "before": "Steerco sits between the Board and the initiative leads, with a route to national government on one side and the partners on the other.",
+  "title": "Delivery governance structure",
+  "callout": null
+ },
+ {
+  "id": "fig_5_chain",
+  "file": "ch5/01_results_chain.json",
+  "block": 3,
+  "before": "Initiatives produce outputs Wesgro controls, which move outcomes Wesgro shares with partners, which add up to the 2035 impact.",
+  "title": "Results chain for the plan",
+  "callout": null
+ },
+ {
+  "id": "fig_5_paths",
+  "file": "ch5/03_baselines_targets.json",
+  "block": 4,
+  "before": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+  "title": "Arrivals paths and milestones to 2035",
+  "callout": "Only the accelerated path clears 2.5m by 2035; the base path crosses the seat line before 2031."
+ },
+ {
+  "id": "fig_5_dashboard",
+  "file": "ch5/05_tracking.json",
+  "block": 4,
+  "before": "The scorecard puts the seven impact indicators on one line, then seats and arrivals by month, initiative status and the outcome indicators by pillar.",
+  "title": "Quarterly scorecard layout",
+  "callout": null
+ },
+ {
+  "id": "fig_0_tree",
+  "file": "exec/01_summary.json",
+  "block": 9,
+  "before": "The updated hypothesis tree: three pillars, six themes and twenty focus areas, each with its disposition from the October 2026 review.",
+  "title": "The updated hypothesis tree",
+  "callout": null
+ },
+ {
+  "id": "fig_0_paths",
+  "file": "exec/01_summary.json",
+  "block": 22,
+  "before": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+  "title": "Arrivals paths to 2035",
+  "callout": "Only the accelerated path clears 2.5m by 2035; the base path crosses the seat line before 2031."
+ },
+ {
+  "id": "citations",
+  "file": "ch1/05_how_to_read.json",
+  "before": "Every figure carries its source and page in the form (Demand-Side Analysis, Jun 2026, p21).",
+  "after": "Every figure carries its source and page in a footnote, in the form Demand-Side Analysis, Jun 2026, p21."
+ }
+]

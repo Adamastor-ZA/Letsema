@@ -134,7 +134,7 @@
   {
    "type": "figure",
    "id": "fig_23_growth",
-   "caption": "Against global growth of 11% in 2024, Chile and Singapore grew two to four times as fast, and Kenya, Valencia and New Zealand slightly faster.",
+   "caption": "Comparator growth, 2023 to 2024",
    "source": "Global Benchmarking Report, Mar 2026, p9 (comparators); Sernatur, Dec 2025 (Chile); Singapore Tourism Board, Feb 2025 (Singapore); Kenya Tourism data as reported, May 2025 (Kenya); UN Tourism, World Tourism Barometer, Jan 2025 (world, 2024). Where the report prints a range, the bar shows its midpoint: Valencia 13% to 14%.",
    "chart": {
     "type": "hbar",
@@ -160,7 +160,13 @@
     "highlight": [
      6
     ],
-    "footnote": "The report's global norm is 3% to 5% a year; above 5% marks structural acceleration (p7)."
+    "footnote": "The report's global norm is 3% to 5% a year; above 5% marks structural acceleration (p7).",
+    "callout": {
+     "text": "Chile and Singapore grew two to four times the world's 11%; Kenya, Valencia and New Zealand slightly faster.",
+     "x": 930,
+     "y": 330,
+     "w": 600
+    }
    }
   },
   {

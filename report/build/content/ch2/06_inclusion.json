@@ -61,7 +61,7 @@
   {
    "type": "figure",
    "id": "fig_26_constraints",
-   "caption": "Organisation binds in 11 of the 20 shortlisted communities and distance in none.",
+   "caption": "Binding constraints in 20 communities",
    "source": "SME and Community Inclusion Plan, Sep 2026, p30 (constraint tally across the 20 shortlisted communities).",
    "chart": {
     "type": "hbar",
@@ -80,7 +80,13 @@
     "unit": "",
     "highlight": [
      0
-    ]
+    ],
+    "callout": {
+     "text": "Organisation binds in 11 of the 20 communities; distance binds in none.",
+     "x": 640,
+     "y": 690,
+     "w": 760
+    }
    }
   },
   {

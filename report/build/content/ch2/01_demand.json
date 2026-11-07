@@ -77,7 +77,7 @@
   {
    "type": "figure",
    "id": "fig_21_scenarios",
-   "caption": "The base case crosses the model's 1.8m seat line at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
+   "caption": "Growth scenarios to 2035",
    "source": "Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat line as drawn). OAG Aviation Analytics.",
    "chart": {
     "type": "line",
@@ -136,7 +136,13 @@
      }
     ],
     "footnote": "The conservative and accelerated cases are printed as 2025 and 2035 points only and are drawn as straight lines between them.",
-    "timeAxis": true
+    "timeAxis": true,
+    "callout": {
+     "text": "The base case crosses the seat line in 2030; only the accelerated case reaches 2.5m by 2035.",
+     "x": 180,
+     "y": 80,
+     "w": 700
+    }
    }
   },
   {
@@ -146,7 +152,7 @@
   {
    "type": "figure",
    "id": "fig_21_groups",
-   "caption": "Hub and acceleration markets supply 382,402 of the 676,949 arrivals the base case adds between 2025 and 2035.",
+   "caption": "Base-case growth by market group",
    "source": "Market Assessment Report, May 2026, p20. Groups as printed: Mature (UK, Germany, USA, Netherlands, France, Switzerland); Hubs (UAE, Ethiopia, Qatar, Turkey); Regional (Namibia, Zimbabwe, Zambia, Botswana, Kenya and others); Acceleration (Gulf, China, India, Brazil); Strategic (Japan, South Korea).",
    "chart": {
     "type": "stacked",
@@ -197,7 +203,13 @@
       ]
      }
     ],
-    "unit": ""
+    "unit": "",
+    "callout": {
+     "text": "Hub and acceleration markets supply 382,402 of the 676,949 arrivals the base case adds.",
+     "x": 180,
+     "y": 110,
+     "w": 520
+    }
    }
   },
   {

@@ -38,7 +38,7 @@
   {
    "type": "figure",
    "id": "fig_ctia_arrivals_fy",
-   "caption": "International passenger arrivals at Cape Town International passed their pre-pandemic peak in FY23/24 and reached 1.44m in FY24/25 and 1.57m in FY25/26.",
+   "caption": "Airport arrivals, FY15/16 to FY25/26",
    "source": "Current State Diagnostic, Dec 2025, p25 (FY15/16 to FY24/25); Demand-Side Analysis, Jun 2026, p11 (FY25/26). CTIA and ACSA CPT passenger statistics, international arrivals by fiscal year.",
    "chart": {
     "type": "line",
@@ -81,7 +81,13 @@
       "label": "FY18/19 peak 1.19m"
      }
     ],
-    "footnote": "International passenger arrivals by fiscal year, ACSA. FY25/26 from the Demand-Side Analysis."
+    "footnote": "International passenger arrivals by fiscal year, ACSA. FY25/26 from the Demand-Side Analysis.",
+    "callout": {
+     "text": "Arrivals passed the pre-pandemic peak in FY23/24 and reached 1.57m in FY25/26.",
+     "x": 180,
+     "y": 80,
+     "w": 640
+    }
    }
   },
   {
@@ -127,7 +133,7 @@
   {
    "type": "figure",
    "id": "fig_source_markets_2025",
-   "caption": "Five markets supplied 63% of overseas arrivals in 2025, and the UK, Germany and the USA alone supplied 52%.",
+   "caption": "Overseas arrivals by market, 2025",
    "source": "Demand-Side Analysis, Jun 2026, p13 (Stats SA and SAT International Performance Report 2025). The same slide prints 61% in its text; the five shares shown sum to 63%.",
    "chart": {
     "type": "hbar",
@@ -165,13 +171,19 @@
      3,
      4
     ],
-    "footnote": "Share of overseas arrivals to the Western Cape, 2025. The five highlighted markets sum to 63%."
+    "footnote": "Share of overseas arrivals to the Western Cape, 2025. The five highlighted markets sum to 63%.",
+    "callout": {
+     "text": "Five markets supply 63% of overseas arrivals; the UK, Germany and the USA alone supply 52%.",
+     "x": 620,
+     "y": 450,
+     "w": 760
+    }
    }
   },
   {
    "type": "figure",
    "id": "fig_spend_per_visitor_2024",
-   "caption": "Average spend per visitor in 2024 ranged from R32,900 for the USA to R8,500 for Zimbabwe, a spread of 3.9 times.",
+   "caption": "Spend per visitor by market, 2024",
    "source": "Demand-Side Analysis, Jun 2026, p14 (Stats SA and SAT International Performance Report). Average spend in the Western Cape by source market, ZAR, 2024.",
    "chart": {
     "type": "hbar",
@@ -202,7 +214,13 @@
      7,
      8
     ],
-    "footnote": "Average spend per visitor, R thousand, 2024. Regional markets highlighted."
+    "footnote": "Average spend per visitor, R thousand, 2024. Regional markets highlighted.",
+    "callout": {
+     "text": "The USA spends R32,900 a visit, 3.9 times Zimbabwe's R8,500.",
+     "x": 640,
+     "y": 700,
+     "w": 760
+    }
    }
   },
   {

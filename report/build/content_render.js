@@ -89,6 +89,7 @@ function makeChapter({ chapter, title, dir, bookmark }) {
       for (const section of loadDir(dir)) {
         if (section.lead_title) out.push(hd.h2(section.lead_title));
         if ((section.blocks || [])[0] && section.blocks[0].type === 'pagebreak') while (out.length && out[out.length - 1]._spacer) out.pop();
+        H.resetCites(); // short-form citations resolve within one section file
         out.push(...render(ctx, H, section.blocks || [], hd));
       }
       while (out.length && out[out.length - 1]._spacer) out.pop();
