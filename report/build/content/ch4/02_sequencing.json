@@ -15,7 +15,7 @@
   },
   {
    "type": "p",
-   "text": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). The first gate, at the end of 2028, falls in Wesgro's FY2028/29, two years before the base case reaches the seat ceiling at its 2030 point (Demand-Side Analysis, Jun 2026, p21)."
+   "text": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). The first gate, at the end of 2028, falls in Wesgro's FY2028/29, two years before the base case crosses the model's seat line around 2030 (Demand-Side Analysis, Jun 2026, p21)."
   },
   {
    "type": "figure",
@@ -55,7 +55,7 @@
     "rows": [
      {
       "code": "I1",
-      "name": "Segment-led activation and yield in",
+      "name": "Segment-led activation and yield in mature markets",
       "cells": {
        "2027": "D",
        "2028": "I",
@@ -70,7 +70,7 @@
      },
      {
       "code": "I2",
-      "name": "Green-season events and business-events",
+      "name": "Green-season events and business-events calendar",
       "cells": {
        "2027": "D",
        "2028": "I",
@@ -130,7 +130,7 @@
      },
      {
       "code": "I6",
-      "name": "Route development and seat retention,",
+      "name": "Route development and seat retention, with a public-private air access fund",
       "cells": {
        "2027": "I",
        "2028": "I",
@@ -235,7 +235,7 @@
      },
      {
       "code": "I13",
-      "name": "Climate resilience and destination",
+      "name": "Climate resilience and destination management, including LTO funding",
       "cells": {
        "2027": "D",
        "2028": "D",
@@ -265,7 +265,7 @@
      },
      {
       "code": "I15",
-      "name": "Tourism Growth Steerco and three-tier",
+      "name": "Tourism Growth Steerco and three-tier alignment",
       "cells": {
        "2027": "I",
        "2028": "I",
@@ -280,7 +280,7 @@
      },
      {
       "code": "I16",
-      "name": "Data-sharing protocol and visitor",
+      "name": "Data-sharing protocol and visitor intelligence",
       "cells": {
        "2027": "D",
        "2028": "I",
@@ -344,7 +344,7 @@
   },
   {
    "type": "p",
-   "text": "Phase 2 scales what Phase 1 proved and meets the seat ceiling. Hub conversion, regional Africa and segment marketing run at scale. Corridor mobility and product move from design to delivery, on the Garden Route, the Winelands and the Overberg first. The quality charter is adopted and phased by district, and the investment pipeline reaches financial close on its first projects. The mid-term review in 2030 tests arrivals against the base path when the ceiling binds, and checks that the runway is on its published dates (section 5.6)."
+   "text": "Phase 2 scales what Phase 1 proved and meets the model's seat line. Hub conversion, regional Africa and segment marketing run at scale. Corridor mobility and product move from design to delivery, on the Garden Route, the Winelands and the Overberg first. The quality charter is adopted and phased by district, and the investment pipeline reaches financial close on its first projects. The mid-term review in 2030 tests arrivals against the base path when the base case crosses the model's seat line, and checks that the runway is on its published dates (section 5.6)."
   },
   {
    "type": "h3",

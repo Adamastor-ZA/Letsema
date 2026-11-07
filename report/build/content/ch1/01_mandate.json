@@ -8,7 +8,7 @@
   },
   {
    "type": "lead",
-   "text": "Wesgro commissioned a strategy to \"double international tourist arrivals to the Western Cape by 2035\"; the evidence has reframed that ambition as growth to 2.5 million arrivals, set by supply rather than demand."
+   "text": "Wesgro commissioned a strategy to \"double international tourist arrivals to the Western Cape by 2035\"; the evidence has reframed that ambition as growth to 2.5 million arrivals, paced by gateway capacity in the summer peak and by demand in the green season."
   },
   {
    "type": "h3",
@@ -69,7 +69,7 @@
   },
   {
    "type": "p",
-   "text": "Even the base case runs into a ceiling. Current air access caps inbound capacity at 1.8 million seats, and the base case first passes that line at the 2030 plotted year, at 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Growth to 2.5 million is therefore a supply programme before it is a marketing programme, and every chapter of this report returns to that point."
+   "text": "Even the base case runs into the model's seat line. The growth model draws inbound capacity at 1.8 million seats, and the base case first passes that line at the 2030 plotted year, at 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Growth to 2.5 million is therefore a supply programme before it is a marketing programme, and every chapter of this report returns to that point."
   },
   {
    "type": "p",
@@ -105,7 +105,7 @@
     [
      "300,000 tourism-linked jobs",
      "No Western Cape tourism employment figure in any deliverable",
-     "Carried to Chapter 5 as a ratio-based projection, pending the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)"
+     "Carried to Chapter 5 with its baseline set by the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)"
     ],
     [
      "10,000 SMMEs onboarded",
@@ -114,8 +114,8 @@
     ],
     [
      "Twice the airlift and cruise volumes",
-     "Airlift: inbound capacity capped at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)",
-     "Airlift carried as the seats and routes needed to lift the 1.8 million ceiling (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]"
+     "Airlift: inbound capacity drawn at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)",
+     "Airlift carried as the seats and routes needed to lift the 1.8 million seat line (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]"
     ]
    ],
    "boldFirstCol": true
@@ -157,15 +157,15 @@
   },
   {
    "type": "p",
-   "text": "The Growth for Jobs Strategy 2023, approved by Cabinet, was among the first documents Wesgro supplied to the study (Inception Report, Nov 2025, p34). It designates tourism a primary tradable sector for the province (Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis, built as 2 million in 2019 plus 1 million (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). [G4J 2023 document to be read and the 3 million target confirmed against it.]"
+   "text": "The Growth for Jobs Strategy 2023, approved by Cabinet, was among the first documents Wesgro supplied to the study (Inception Report, Nov 2025, p34). It designates tourism a primary tradable sector for the province (Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis, built as 2 million in 2019 plus 1 million (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). If the model counts arrivals on the SA Tourism basis, G4J's 3 million for 2035 sits above both paths. The difference is method: G4J adds 1 million to 2019's 2 million, while the growth model builds up market by market against the seats and routes the gateway can carry. [G4J 2023 document to be read and the 3 million target confirmed against it.]"
   },
   {
    "type": "p",
-   "text": "The G4J figure and the study's figures count different things. Three million is provincial tourist arrivals as South African Tourism measures them; 1.44 million is passenger arrivals through one airport as ACSA counts them. On the SAT basis the province received about 1.5 million international tourist arrivals in 2025, an 11.1% increase (Hypertext, Apr 2026, reporting the Provincial Minister; public source). [Wesgro Research to confirm the 2025 SAT figure and the series behind it.] The strategy's 2.5 million therefore cannot be set against the 3 million without conversion."
+   "text": "The G4J figure and the study's figures count different things. Three million is provincial tourist arrivals as South African Tourism measures them; 1.44 million is passenger arrivals through one airport as ACSA counts them. On the SAT basis the province received 1,538,142 international tourist arrivals in 2025, an 11.1% increase (Wesgro Research, Western Cape Tourism Performance: Annual 2025, from SA Tourism data; public source). The strategy's 2.5 million therefore cannot be set against the 3 million without conversion."
   },
   {
    "type": "p",
-   "text": "Wesgro's FY26 to FY30 plan is the second alignment test. A Wesgro five-year strategy was supplied to the study (Inception Report, Nov 2025, p34), but no plan document is in hand. Alignment is therefore stated at the level the inception report gives it [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Chapter 4 sets its first decision gate at the end of 2028, within the plan period and before the base case reaches the seat ceiling."
+   "text": "Wesgro's FY26 to FY30 plan is the second alignment test. A Wesgro five-year strategy was supplied to the study (Inception Report, Nov 2025, p34), but no plan document is in hand. Alignment is therefore stated at the level the inception report gives it [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Chapter 4 sets its first decision gate at the end of 2028, within the plan period and before the base case crosses the model's seat line."
   },
   {
    "type": "h3",
@@ -178,7 +178,7 @@
   {
    "type": "table",
    "caption": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target.",
-   "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Hypertext, Apr 2026, reporting the Provincial Minister; public source.",
+   "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source.",
    "columns": [
     {
      "header": "Figure",
@@ -236,11 +236,11 @@
      "The strategy's two paths; growth to 2.5 million is the rounded accelerated case"
     ],
     [
-     "About 1.5m",
+     "1,538,142",
      "International tourist arrivals to the Western Cape, South African Tourism basis",
      "2025",
-     "Hypertext, Apr 2026, reporting the Provincial Minister; public source",
-     "Reference point for the G4J basis only; not a baseline or a target [Wesgro Research to confirm the figure and its series]"
+     "Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source",
+     "Reference point for the G4J basis only; not a baseline or a target"
     ],
     [
      "3 million",
@@ -265,6 +265,10 @@
     ]
    ],
    "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The model's 2025 base of 1,498,829 sits close to, but below, SA Tourism's 1,538,142 for 2025 (Wesgro Research, Western Cape Tourism Performance: Annual 2025). Each market group's step from the June deck's 2024 base also tracks its own growth rate to within 0.2 points (Appendix A2; computed). This report therefore treats the 2025 base as a model value until the basis is confirmed. [Open item: Skift to confirm in writing what the model counts (SA Tourism tourist arrivals, ACSA passengers including returning residents or OAG origin-and-destination flows) and how the Hubs group is built.]"
   },
   {
    "type": "p",

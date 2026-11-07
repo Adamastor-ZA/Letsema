@@ -8,7 +8,7 @@
   },
   {
    "type": "lead",
-   "text": "Concentration, seasonality and seats cap growth before demand does, and the base case meets the 1.8m inbound seat ceiling by 2030."
+   "text": "Concentration, seasonality and peak seats cap growth before demand does, and the base case crosses the model's 1.8m seat line by 2030."
   },
   {
    "type": "h3",
@@ -24,7 +24,7 @@
   },
   {
    "type": "p",
-   "text": "The agreed report structure assigns this work to SLA Annexure B clauses 1.1.1, 1.1.7 and 3.2.3. [Clause wording to be checked against the signed Annexure B.]"
+   "text": "This work answers SLA Annexure B clauses 1.1.1, 1.1.7 and 3.2.3. [Clause wording to be checked against the signed Annexure B.]"
   },
   {
    "type": "h3",
@@ -44,7 +44,7 @@
   },
   {
    "type": "p",
-   "text": "The two decks print the same 2035 points from different bases. The May deck runs from a 2025 base of 1,498,829 and the June deck from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). This report uses the 2025 base and logs the difference."
+   "text": "The two decks print the same 2035 points from different bases. The May deck runs from a 2025 base of 1,498,829 and the June deck from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). This report uses the 2025 base."
   },
   {
    "type": "p",
@@ -64,7 +64,7 @@
   },
   {
    "type": "p",
-   "text": "**2. Six months carry nearly two thirds of the year.** December, January and November were the peak months of 2025 at 12.7%, 11.5% and 11.3% of overseas visitors, while June fell to 6.1% (Demand-Side Analysis, Jun 2026, p12). October to March hold about 65% on that table, a provisional figure because its twelve shares sum to 104.9%. On a Cape Town overseas air-arrivals basis for January to August 2024 the split was 61% and 39% (Market Assessment Report, May 2026, p25)."
+   "text": "**2. Six months carry nearly two thirds of the year.** December, January and November were the peak months of 2025 at 12.7%, 11.5% and 11.3% of overseas visitors, while June fell to 6.1% (Demand-Side Analysis, Jun 2026, p12). October to March hold about 62% on that table once its twelve shares, which sum to 104.9%, are normalised. The 2024 Wesgro Visitor Tracking Survey gives 61% and 39% (Current State Diagnostic, Dec 2025, p32)."
   },
   {
    "type": "p",
@@ -77,8 +77,8 @@
   {
    "type": "figure",
    "id": "fig_21_scenarios",
-   "caption": "The base case passes the 1.8m inbound seat ceiling at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
-   "source": "Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat ceiling as drawn). OAG Aviation Analytics.",
+   "caption": "The base case crosses the model's 1.8m seat line at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
+   "source": "Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat line as drawn). OAG Aviation Analytics.",
    "chart": {
     "type": "line",
     "categories": [
@@ -132,10 +132,11 @@
     "refLines": [
      {
       "value": 1800000,
-      "label": "1.8m inbound seat ceiling"
+      "label": "1.8m seat line (model)"
      }
     ],
-    "footnote": "The conservative and accelerated cases are printed as 2025 and 2035 points only and are drawn as straight lines between them."
+    "footnote": "The conservative and accelerated cases are printed as 2025 and 2035 points only and are drawn as straight lines between them.",
+    "timeAxis": true
    }
   },
   {
@@ -205,7 +206,7 @@
   },
   {
    "type": "p",
-   "text": "**4. Seats bind before demand does.** The model draws current air access as \"a hard ceiling at 1.8 million inbound seats\", and the base case first passes it at the 2030 year point with 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Only six year points are printed, so the crossing falls between 2028, at 1,673,855, and 2030. The deck judges 2.1 million by 2035 achievable only with deliberate intervention to add capacity (p20)."
+   "text": "**4. Seats bind at the peak before demand does.** The model draws current air access as \"a hard ceiling at 1.8 million inbound seats\", and the base case first passes it at the 2030 year point with 1,802,929 arrivals (Market Assessment Report, May 2026, p20). The line is the model's assumption, not a measured cap (section 1.3). Only six year points are printed, so the crossing falls between 2028, at 1,673,855, and 2030. The deck judges 2.1 million by 2035 achievable only with deliberate intervention to add capacity (p20)."
   },
   {
    "type": "p",
@@ -309,7 +310,7 @@
   {
    "type": "table",
    "caption": "Ten findings from the demand workstream carry into the hypothesis tree.",
-   "source": "As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026.",
+   "source": "As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. Diag: Current State Diagnostic, Dec 2025.",
    "columns": [
     {
      "header": "Finding",
@@ -340,8 +341,8 @@
     ],
     [
      "Demand peaks in summer",
-     "October to March about 65%, 2025 (provisional; shares sum to 104.9%); 61%, Jan to Aug 2024, Cape Town overseas air arrivals",
-     "DSA p12; MA p25"
+     "October to March about 62%, 2025 (normalised; printed shares sum to 104.9%); 61%, 2024, Wesgro Visitor Tracking Survey",
+     "DSA p12; Diag p32"
     ],
     [
      "Growth case to 2035",
@@ -349,8 +350,8 @@
      "MA p19"
     ],
     [
-     "Seats bind by 2030",
-     "1.8m inbound seats; base case 1,673,855 in 2028 and 1,802,929 in 2030",
+     "Seat line crossed by 2030",
+     "1.8m inbound seats as drawn; base case 1,673,855 in 2028 and 1,802,929 in 2030",
      "MA p20"
     ],
     [
@@ -374,7 +375,7 @@
      "DSA p27, p29"
     ],
     [
-     "Business events fill the green season",
+     "Business events can fill the green season",
      "ICCA meetings 33 (2022) to 58 (2024); 109 of 136 held May to November",
      "DSA p37"
     ]

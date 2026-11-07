@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "Six of the ten material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act."
+   "text": "Ten of the fourteen material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act."
   },
   {
    "type": "p",
@@ -19,8 +19,8 @@
   },
   {
    "type": "table",
-   "caption": "Ten risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
-   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
+   "caption": "Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
+   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
    "columns": [
     {
      "header": "Risk",
@@ -59,7 +59,7 @@
      "IR p103, p109",
      "Medium",
      "High",
-     "Quarterly milestone tracking; frequency and gauge on full routes; George as second gateway (I6)",
+     "Quarterly milestone tracking; frequency and gauge on full routes; George for domestic connections (I6)",
      "Air Access; ACSA"
     ],
     [
@@ -103,7 +103,7 @@
      "DEDAT; site operators"
     ],
     [
-     "LTO funding collapses under Treasury Circular 131",
+     "LTO funding collapses under MFMA Circular No. 131",
      "SIR p25, p39",
      "High",
      "Medium",
@@ -133,6 +133,38 @@
      "Medium",
      "Labour analysis and skills plan (I18); quality charter (I10)",
      "Research; DEDAT"
+    ],
+    [
+     "Gulf hub disruption cuts connecting capacity",
+     "Hub routes carry 53% of arrivals on the ten largest routes (DSA p13)",
+     "Medium",
+     "High",
+     "Spread hub-carrier work across Dubai, Doha, Addis Ababa and Istanbul; keep direct-route cases ready (I4, I6)",
+     "Air Access"
+    ],
+    [
+     "A downturn in the core markets",
+     "The UK, Germany and the USA supply 52% of overseas arrivals (DSA p13)",
+     "Medium",
+     "High",
+     "Rebalance activation towards Africa and the hub markets (I1, I4, I5)",
+     "Destination Marketing"
+    ],
+    [
+     "Wesgro's operating budget is cut",
+     "Thirteen initiatives draw mainly on Wesgro's operating budget (Table 4.5)",
+     "Medium",
+     "High",
+     "Rand bands and a stop list agreed with DEDAT before Gate 1 (Decision 3)",
+     "Wesgro CEO's office; DEDAT"
+    ],
+    [
+     "Resident pushback in the Metro",
+     "Public debate on locals' costs and access (Hypertext, Apr 2026)",
+     "Medium",
+     "Medium",
+     "Spread visitors in time and space (I2, I8, I9); track resident sentiment",
+     "City of Cape Town; Cape Town Tourism"
     ]
    ],
    "boldFirstCol": true

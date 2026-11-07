@@ -16,7 +16,7 @@
   },
   {
    "type": "p",
-   "text": "The inception report asked for four to six global comparators aligned to the Western Cape's market profile (Inception Report, Nov 2025, p16). It wanted the strategies and policies behind their growth and the lessons on air access, investment, partnerships and visitor experience that transfer. The agreed report structure assigns this work to SLA Annexure B clauses 1.1.5, 1.1.11 and 3.2.7. [Clause wording to be checked against the signed Annexure B.]"
+   "text": "The inception report asked for four to six global comparators aligned to the Western Cape's market profile (Inception Report, Nov 2025, p16). It wanted the strategies and policies behind their growth and the lessons on air access, investment, partnerships and visitor experience that transfer. This work answers SLA Annexure B clauses 1.1.5, 1.1.11 and 3.2.7. [Clause wording to be checked against the signed Annexure B.]"
   },
   {
    "type": "h3",
@@ -40,7 +40,7 @@
   },
   {
    "type": "p",
-   "text": "The report sets a global norm against which growth counts as structural. Global arrivals grow 3% to 5% a year under stable conditions, more than 5% marks structural acceleration and 10% or more a structural shift (Global Benchmarking Report, Mar 2026, p7). Growth counts as structural only when it is \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (p8)."
+   "text": "The report sets a global norm against which growth counts as structural. Global arrivals grow 3% to 5% a year under stable conditions, more than 5% marks structural acceleration and 10% or more a structural shift (Global Benchmarking Report, Mar 2026, p7). UN Tourism's own figures put global growth at 11% in 2024, while recovery was still running, and about 4% in 2025 (World Tourism Barometer, Jan 2025 and Jan 2026). Growth counts as structural only when it is \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (p8)."
   },
   {
    "type": "h3",
@@ -48,12 +48,12 @@
   },
   {
    "type": "p",
-   "text": "**1. Five of the six comparators grew well above the norm.** Chile grew about 35% between 2023 and 2024, Singapore about 19%, Kenya 12.8% to 14.6%, Valencia 13% to 14% and New Zealand about 12% (Global Benchmarking Report, Mar 2026, p9). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its 2025 holiday-arrivals growth; total arrivals grew 5.9% in 2025 (p53)."
+   "text": "**1. Two of the six comparators grew well above the world.** Chile grew 40.4% between 2023 and 2024 and Singapore 21%, against global growth of 11%; Kenya (14.6%), Valencia (13% to 14%) and New Zealand (about 12%) grew slightly faster than the world (Global Benchmarking Report, Mar 2026, p9; Sernatur, Dec 2025; Singapore Tourism Board, Feb 2025). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its 2025 holiday-arrivals growth; total arrivals grew 5.9% in 2025 (p53)."
   },
   {
    "type": "table",
-   "caption": "Five of the six comparators grew above the 3% to 5% global norm in 2023 to 2024, each through a primary lever of its own.",
-   "source": "Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type).",
+   "caption": "Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019.",
+   "source": "Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type). Chile: Sernatur, Anuario de Turismo 2024 (Dec 2025). Singapore: Singapore Tourism Board (Feb 2025). Kenya growth: Kenya Tourism data as reported, May 2025.",
    "columns": [
     {
      "header": "Destination",
@@ -84,21 +84,21 @@
    "rows": [
     [
      "Chile",
-     "About 35%",
-     "About 82% recovered",
+     "40.4%",
+     "116% of 2019; 55.6% of arrivals overland, 40% from Argentina",
      "Gateway-led air concentration",
      "Connectivity-led"
     ],
     [
      "Singapore",
-     "About 19%",
-     "Slightly below; spend recovered",
+     "21%",
+     "86% of 2019; receipts at a record",
      "Aviation hub and stopover conversion",
      "Orchestrated experience"
     ],
     [
      "Kenya",
-     "12.8% to 14.6%",
+     "14.6%",
      "About 102% recovered",
      "Conservation-led wildlife product",
      "Product-led"
@@ -128,29 +128,33 @@
    "boldFirstCol": true
   },
   {
+   "type": "p",
+   "text": "[Open item: add one comparator that underperformed, as the Inception Report's plan asked (Inception Report, Nov 2025, p16).]"
+  },
+  {
    "type": "figure",
    "id": "fig_23_growth",
-   "caption": "Five of the six comparators grew three to nine times the roughly 4% global rate of 2024 to 2025.",
-   "source": "Global Benchmarking Report, Mar 2026, p7 (global rate, UN Tourism World Tourism Barometer, January 2025) and p9 (comparators). Where the report prints a range, the bar shows its midpoint: Kenya 12.8% to 14.6%, Valencia 13% to 14%.",
+   "caption": "Against global growth of 11% in 2024, Chile and Singapore grew two to four times as fast, and Kenya, Valencia and New Zealand slightly faster.",
+   "source": "Global Benchmarking Report, Mar 2026, p9 (comparators); Sernatur, Dec 2025 (Chile); Singapore Tourism Board, Feb 2025 (Singapore); Kenya Tourism data as reported, May 2025 (Kenya); UN Tourism, World Tourism Barometer, Jan 2025 (world, 2024). Where the report prints a range, the bar shows its midpoint: Valencia 13% to 14%.",
    "chart": {
     "type": "hbar",
     "categories": [
      "Chile",
      "Singapore",
-     "Kenya (range midpoint)",
+     "Kenya",
      "Valencia (range midpoint)",
      "New Zealand (holiday arrivals)",
      "Melbourne (Australian forecast)",
-     "Global, 2024 to 2025"
+     "World, 2024 (UN Tourism)"
     ],
     "values": [
-     35,
-     19,
-     13.7,
+     40.4,
+     21,
+     14.6,
      13.5,
      12,
      4.3,
-     4
+     11
     ],
     "unit": "%",
     "highlight": [
@@ -173,7 +177,7 @@
   },
   {
    "type": "p",
-   "text": "**4. Hubs can be converted, not just flown through.** Singapore turns transit into visits through its stopover programme, with the tourism board, Changi Airport Group and Singapore Airlines working \"under a coordinated strategy\" (Global Benchmarking Report, Mar 2026, p40). It received 13 million international visitors in 2024, 19% more than in 2023, and visitor spend reached $31.3 billion (p39). Kenya positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals (p32, p34)."
+   "text": "**4. Hubs can be converted, not just flown through.** Singapore turns transit into visits through its stopover programme, with the tourism board, Changi Airport Group and Singapore Airlines working \"under a coordinated strategy\" (Global Benchmarking Report, Mar 2026, p40). It received 16.5 million international visitors in 2024, 21% more than in 2023, and tourism receipts reached a record of about S$29 billion (Singapore Tourism Board, Feb 2025). Kenya positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals (p32, p34)."
   },
   {
    "type": "p",
@@ -185,7 +189,7 @@
   },
   {
    "type": "p",
-   "text": "**7. The leaders measure value, not arrivals.** New Zealand manages regional capacity to protect pricing and recommends that destinations \"replace arrival growth with yield-based regional performance metrics\" (Global Benchmarking Report, Mar 2026, p55, p56). Kenya earned about US$1,650 per visitor in 2024 by building conservation and community participation into one governed product system (p32, p33)."
+   "text": "**7. The leaders measure value, not arrivals.** New Zealand manages regional capacity to protect pricing and recommends that destinations \"replace arrival growth with yield-based regional performance metrics\" (Global Benchmarking Report, Mar 2026, p55, p56). Kenya earned about US$1,460 per visitor in 2024 (Demand-Side Analysis, Jun 2026, p15) by building conservation and community participation into one governed product system (Global Benchmarking Report, Mar 2026, p32, p33)."
   },
   {
    "type": "p",
@@ -285,7 +289,7 @@
    "rows": [
     [
      "Growth above the norm is designed",
-     "Norm 3% to 5% a year; Chile about 35%, Singapore about 19%, Valencia 13% to 14%",
+     "World 11% in 2024; Chile 40.4%, Singapore 21%, Valencia 13% to 14%",
      "p7, p8, p9"
     ],
     [
@@ -305,8 +309,8 @@
     ],
     [
      "Hub conversion",
-     "Singapore: stopover programme; 13m arrivals (+19%) and $31.3bn spend, 2024",
-     "p39, p40"
+     "Singapore: stopover programme; 16.5m arrivals (+21%) and about S$29bn receipts, 2024",
+     "p39, p40; STB, Feb 2025"
     ],
     [
      "Events pull capacity",
@@ -320,8 +324,8 @@
     ],
     [
      "Value metrics",
-     "New Zealand: yield-based regional metrics; Kenya: about US$1,650 per visitor",
-     "p32, p56"
+     "New Zealand: yield-based regional metrics; Kenya: about US$1,460 per visitor",
+     "p32, p56; DSA p15"
     ]
    ],
    "boldFirstCol": true

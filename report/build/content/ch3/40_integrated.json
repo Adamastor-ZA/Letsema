@@ -67,7 +67,7 @@
   },
   {
    "type": "p",
-   "text": "**The gateway binds first.** Current air access places a hard ceiling at 1.8 million inbound seats, and the base case passes it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). Between those dates, growth has to come from larger aircraft and added frequency on the full routes, from hub-carrier capacity and from George, whose terminal doubles by 2028 (focus areas 5, 6 and 7)."
+   "text": "**The gateway binds first, at peak.** The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). ACSA now schedules the realigned runway for December 2029, subject to contract award. This plan keeps about 2033 as its planning date and treats the earlier date as upside (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026). Between those dates, growth has to come from larger aircraft and added frequency on the full routes, from hub-carrier capacity and, for domestic connections, from George, whose terminal doubles by 2028 or 2029 (focus areas 5, 6 and 7)."
   },
   {
    "type": "note",
@@ -75,7 +75,7 @@
   },
   {
    "type": "p",
-   "text": "**If the supply moves slip, the case stops at the ceiling.** The deck states that the projected growth cannot be realised without additional capacity or frequency (Demand-Side Analysis, Jun 2026, p21), and that without confirmed routes the accelerated case reverts to base (p20). Demand work cannot make up the gap, because marketing into full routes raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion)."
+   "text": "**If the supply moves slip, the case stops at the seat line.** The deck states that the projected growth cannot be realised without additional capacity or frequency (Demand-Side Analysis, Jun 2026, p21), and that without confirmed routes the accelerated case reverts to base (p20). On the full routes, demand work cannot make up the gap, because marketing raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion); on the hub routes, which have seats to spare, it can."
   },
   {
    "type": "p",
@@ -87,8 +87,8 @@
   },
   {
    "type": "table",
-   "caption": "The first phase works the seats and the booking path before the base case reaches the seat ceiling, and the direct routes wait for runway relief.",
-   "source": "Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat ceiling from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
+   "caption": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief.",
+   "source": "Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat line from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
    "columns": [
     {
      "header": "Phase",
@@ -110,12 +110,12 @@
     [
      "Activate, 2027 to 2028",
      "Seats held and added on full routes (5, 6, 7); green-season calendar (2); bookability census and onboarding (3); two or three inclusion pilots (13); Steerco, data protocol and escalation agenda (16, 18, 19); labour analysis commissioned (20)",
-     "Before the base case reaches the seat ceiling at the 2030 point"
+     "Before the base case crosses the model's seat line around 2030"
     ],
     [
      "Expand, 2029 to 2031",
      "Hub conversion at scale (4); corridor product and mobility (9, 10); quality charter (11); flagship flow management (12); cruise product (8); investment pipeline at financial close (15)",
-     "The 2030 mid-term review tests the ceiling; terminal relief from about 2032"
+     "The 2030 mid-term review tests the seat line; terminal relief from about 2032"
     ],
     [
      "Sustain, 2032 to 2035",

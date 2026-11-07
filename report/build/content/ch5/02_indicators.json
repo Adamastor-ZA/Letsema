@@ -66,7 +66,7 @@
      "T1-02",
      "Arrivals by market group",
      "Arrivals in the mature, hub, regional, acceleration and strategic groups",
-     "SA Tourism",
+     "SA Tourism [Open item: SA Tourism cannot report the Hubs group; Skift to define it.]",
      "Annual",
      "Research"
     ],
@@ -81,8 +81,8 @@
     [
      "T1-04",
      "Tourism jobs",
-     "Jobs supported by international air arrivals, on Wesgro's ratio, until the labour analysis sets a provincial measure",
-     "Wesgro ratio; Stats SA TSA",
+     "Tourism jobs in the Western Cape, on the measure the labour analysis sets (I18)",
+     "Labour analysis (I18); Stats SA TSA",
      "Annual",
      "Research"
     ],
@@ -105,7 +105,7 @@
     [
      "T1-07",
      "Community share of foreign direct spend",
-     "Spend traced to businesses trading inside the 20 shortlisted communities, as a share of foreign direct spend",
+     "Spend traced to businesses trading inside the pilot communities, as a share of foreign direct spend; widened to the 20 shortlisted communities once a source covers them",
      "Pilot records; SA Tourism",
      "Annual",
      "Tourism; Research"
@@ -184,8 +184,8 @@
      "T2-06",
      "India and China arrivals via hubs",
      "4",
-     "India 71,000; China 29,600 (2025)",
-     "MIDAS, The Indian Market Opportunity; The Chinese Market Opportunity"
+     "India 76,547; China with Hong Kong 43,412 (2025, model value)",
+     "MA p20, p22"
     ],
     [
      "T2-07",
@@ -198,8 +198,8 @@
      "T2-08",
      "African arrivals and spend",
      "6",
-     "323,971 arrivals (2024); R4.2bn spend (2025)",
-     "DSA p27, p29"
+     "292,514 arrivals (2025, model value, regional group); R4.2bn spend (2025)",
+     "MA p20; DSA p29"
     ],
     [
      "T2-09",
@@ -210,9 +210,9 @@
     ],
     [
      "T2-10",
-     "Routes above 80% load",
+     "Seats added on routes above 80% load",
      "7",
-     "11 of 27 (year to Nov 2025)",
+     "11 routes above 80% (year to Nov 2025); seats added from the capacity-against-demand model (I6)",
      "MIDAS, Seasonality"
     ],
     [
@@ -322,6 +322,10 @@
     ]
    ],
    "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The seven without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24 and T2-25. Each carries no target until its baseline exists, on the dates in Table 5.9."
   },
   {
    "type": "table",

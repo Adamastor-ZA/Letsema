@@ -35,7 +35,7 @@
   },
   {
    "type": "p",
-   "text": "**October 2026: Reworded.** The October record gives the reason as 16 of 27 routes above 80% and fares before seats. MIDAS, the source, prints eleven routes above 80%; sixteen is the count at 75% or more, and the report uses both on that basis [Summary of Findings, 14 Oct 2026: the deck's basis for 16 to confirm]. MIDAS and the Infrastructure Report's air-access section drove the change."
+   "text": "**October 2026: Reworded.** The reason is full routes and fares before seats: eleven routes run above 80% load and sixteen at 75% or more (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). MIDAS and the Infrastructure Report's air-access section drove the change."
   },
   {
    "type": "h4",
@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "The network is full on its best routes, the airport is full at its runway, and relief lands after the base case passes the seat ceiling.",
+   "caption": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line.",
    "source": "MIDAS Aviation Market Assessment, Mar 2026 (twelve months to November 2025; 76.0% is the printed network total and the 27 rows sum to 75.0%); Demand-Side Analysis, Jun 2026 (DSA); Infrastructure Report, Jul 2026 (IR).",
    "columns": [
     {
@@ -79,18 +79,18 @@
      "MIDAS, International Comparisons"
     ],
     [
-     "A seat ceiling in 2030",
-     "Current air access caps inbound seats at 1.8 million; the base case passes it at the 2030 year point (1,802,929)",
+     "A seat line in 2030",
+     "The model draws current air access at 1.8 million inbound seats; the base case crosses it at the 2030 year point (1,802,929)",
      "DSA p21"
     ],
     [
      "Relief lands late",
-     "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033",
-     "IR p101 to p103"
+     "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033; ACSA's latest schedule shows the runway by December 2029",
+     "IR p101 to p103; ACSA, Aug 2026"
     ],
     [
      "Second gateways",
-     "George is solved by 2028 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
+     "George doubles by 2028 or 2029 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
      "IR p104 to p109"
     ]
    ],
@@ -135,7 +135,7 @@
     ],
     [
      "Wesgro",
-     "Set up a public-private air access fund for route support, on the Chilean model",
+     "Scale and ring-fence Cape Town Air Access's route fund as a public-private fund for route support, with a set size and governance",
      "Air Access; DEDAT; City of Cape Town; private sector"
     ],
     [
@@ -161,7 +161,7 @@
   },
   {
    "type": "p",
-   "text": "Chile treated its gateway airport as economic infrastructure: a private concession funded a ~US$900 million expansion at Santiago, and international seats grew ~40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). The required change for the Western Cape is a permanent, well-funded public-private air access fund and active lobbying for air service liberalisation (p28)."
+   "text": "Chile treated its gateway airport as economic infrastructure: a private concession funded a ~US$900 million expansion at Santiago, and international seats grew ~40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). For the Western Cape the lesson splits by tier. The province can scale its existing route fund; open skies and private airport finance are national levers, so this report carries them in the escalation agenda (focus area 19). Chile's 2024 surge also came mostly overland: land borders carried 55.6% of arrivals and Argentina about 40% (Sernatur, Anuario de Turismo 2024, Dec 2025)."
   },
   {
    "type": "h4",
@@ -169,7 +169,7 @@
   },
   {
    "type": "p",
-   "text": "**Initiative I6**, route development and seat retention with a public-private air access fund (section 4.3). **Indicators** T1-01 international arrivals at impact level, and T2-09 seats and routes and T2-10 routes above 80% load at outcome level (section 5.2)."
+   "text": "**Initiative I6**, route development and seat retention with a public-private air access fund (section 4.3). **Indicators** T1-01 international arrivals at impact level, and T2-09 seats and routes and T2-10 seats added on full routes at outcome level (section 5.2)."
   }
  ]
 }

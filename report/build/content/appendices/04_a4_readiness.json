@@ -24,7 +24,7 @@
   {
    "type": "table",
    "caption": "The asset database sorts tourism supply into three layers and twelve categories, from beaches and wine estates to hospitals and police stations.",
-   "source": "Infrastructure Report, Jul 2026, p10, as printed in sentence case; the label 'Road Netowrk' is corrected.",
+   "source": "Infrastructure Report, Jul 2026, p10, as printed in sentence case.",
    "columns": [
     {
      "header": "Layer",
@@ -164,7 +164,7 @@
   },
   {
    "type": "note",
-   "text": "**Overall rating.** The printed overall ratings do not follow the stated weights. Applied to the printed dimension scores, 40/30/30 gives 3.25 for the Cape Metro and 3.91 for the Garden Route, against printed ratings of 4.5 and 3.4 (computed). The unweighted mean of each scorecard's category bars matches the printed rating to one decimal in five of six districts (computed). The exception is the Overberg, whose bars average 2.782 against 2.7 printed. The slides do not state how the overall rating is derived, and the method slides name no benchmark values behind the calibration claimed on p15."
+   "text": "**Overall rating.** The overall ratings are the Infrastructure Report's evidence-informed judgement, not a weighted formula, so this report does not re-derive them."
   },
   {
    "type": "h3",
@@ -575,7 +575,7 @@
   {
    "type": "table",
    "caption": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging.",
-   "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The slides spell Cederberg 'Cederburg' and title both p72 and p73 'West Coast / Overberg'. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
+   "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
    "columns": [
     {
      "header": "Measure",
@@ -834,7 +834,7 @@
   },
   {
    "type": "note",
-   "text": "**Cape Winelands share.** The main gauge on the Cape Winelands asset slide prints 40.3%, the Cape Metro's share, while the slide's text layer carries 15.4% (p45). The count supports 15.4%, since 7,730 of 50,332 assets is 15.4% (computed). This appendix uses 15.4%."
+   "text": "**Cape Winelands share.** This appendix uses 15.4%, computed from the count (7,730 of 50,332)."
   }
  ]
 }

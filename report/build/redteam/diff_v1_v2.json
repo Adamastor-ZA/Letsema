@@ -1,0 +1,2822 @@
+{
+ "changed": [
+  {
+   "op": "replace",
+   "v1": "Figure ES.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031. 18",
+   "v2": "Figure ES.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031. 18",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 1.4. The base case crosses the 1.8m inbound seat ceiling at the 2030 plotted year, two years before the earliest relief at Cape Town International. 34",
+   "v2": "Figure 1.4. The base case crosses the model's 1.8m seat line at the 2030 plotted year, before runway relief on the planning date of about 2033. 34",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 2.1. The base case passes the 1.8m inbound seat ceiling at the 2030 year point, and only the accelerated case reaches 2.5m by 2035. 44",
+   "v2": "Figure 2.1. The base case crosses the model's 1.8m seat line at the 2030 year point, and only the accelerated case reaches 2.5m by 2035. 45",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 2.5. Five of the six comparators grew three to nine times the roughly 4% global rate of 2024 to 2025. 54",
+   "v2": "Figure 2.5. Against global growth of 11% in 2024, Chile and Singapore grew two to four times as fast, and Kenya, Valencia and New Zealand slightly faster. 55",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 5.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031. 152",
+   "v2": "Figure 5.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031. 154",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table ES.5. Twelve actions can start inside Wesgro's current mandate and budgets, and each opens a seat, a baseline or a booking path a later initiative needs. 19",
+   "v2": "Table ES.5. Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs. 19",
+   "ids": [
+    "C6.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table ES.6. Arrivals and jobs carry targets on both paths, while season, spread and community spend start from dated baselines. 20",
+   "v2": "Table ES.6. Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines. 20",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 1.3. Six summer months, October to March, carry between 61% and 65% of overseas visitors' travel in the two years for which month of travel is recorded. 30",
+   "v2": "Table 1.3. Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded. 30",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 2.5. Five of the six comparators grew above the 3% to 5% global norm in 2023 to 2024, each through a primary lever of its own. 53",
+   "v2": "Table 2.5. Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019. 55",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 3.9. The network is full on its best routes, the airport is full at its runway, and relief lands after the base case passes the seat ceiling. 85",
+   "v2": "Table 3.9. The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line. 86",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 3.25. The first phase works the seats and the booking path before the base case reaches the seat ceiling, and the direct routes wait for runway relief. 115",
+   "v2": "Table 3.25. The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief. 116",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 4.7. Ten risks could move the plan off its path, and the one rated high on both measures concerns the national air regime. 146",
+   "v2": "Table 4.7. Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime. 147",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 5.7. Arrivals and jobs carry targets on both paths; spend carries the working analysis's base path; the other Tier 1 indicators carry dated baselines first. 152",
+   "v2": "Table 5.7. Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first. 154",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 5.9. Eleven data gaps stand between the plan and a full baseline, and each has a proposed owner and date. 154",
+   "v2": "Table 5.9. Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date. 156",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.9. The model prints its seat ceiling and six base-case year points but no seat table, annual series or group split for the other scenarios. 165",
+   "v2": "Table A.9. The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios. 167",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.12. Five of the six printed growth rates exceed the 3% to 5% global norm, and four of the six cases pair structural demand creation with demand activation. 168",
+   "v2": "Table A.12. Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation. 170",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.33. Twelve study documents, six public and reference sources and one deck not yet in hand support the report. 190",
+   "v2": "Table A.33. Twelve study documents, fifteen public and reference sources and one deck not yet in hand support the report. 192",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The Western Cape can grow international arrivals from about 1.5 million in 2025 to between 2.2 million and 2.5 million by 2035. Supply, not demand, sets the pace.",
+   "v2": "The Western Cape can grow international arrivals from about 1.5 million in 2025 to 2.2 million by 2035 on the base path, and to 2.5 million on the accelerated path. Gateway capacity sets the pace in the summer peak; demand and conversion set it in the green season and beyond the Metro.",
+   "ids": [
+    "M13"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro commissioned an evidence-based strategy to double international tourist arrivals to the Western Cape by 2035 (Inception Report, Nov 2025, p4). The study tested an eighteen-entry hypothesis tree against seven deliverables and four working analyses between December 2025 and October 2026. This report sets out what the evidence found, what Wesgro and its partners should do and how progress will be measured.",
+   "v2": "From 1,498,829 arrivals in 2025 the growth model reaches 2,175,778 on the base path and 2,516,282 on the accelerated path in 2035 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). International passenger arrivals at Cape Town International, the series ACSA reports, stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11).",
+   "ids": [
+    "M13"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The evidence reframes the ambition as growth to 2.5 million arrivals, set by supply rather than demand. From 1,498,829 arrivals in 2025 the growth model reaches 2,175,778 on the base path and 2,516,282 on the accelerated path in 2035 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). International passenger arrivals at Cape Town International, the series ACSA reports, stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11).",
+   "v2": "The study tested an eighteen-entry hypothesis tree against seven deliverables and four working analyses between December 2025 and October 2026. This report sets out what the evidence found, what Wesgro and its partners should do and how progress will be measured.",
+   "ids": [
+    "C2",
+    "M13",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The gateway. Current air access caps inbound seats at 1.8 million, and the base case passes that ceiling at its 2030 point; runway relief at Cape Town International lands about 2033 (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103).",
+   "v2": "The gateway. The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it around 2030. Runway relief is planned for about 2033, though ACSA now schedules the realigned runway for December 2029 (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103; ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026).",
+   "ids": [
+    "C1.1",
+    "C1.3",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Seasons. June holds 6.4% of the year's international seats, and about 65% of overseas visitor travel falls between October and March, a provisional figure (MIDAS Aviation Market Assessment, Mar 2026, Seasonality; Demand-Side Analysis, Jun 2026, p12).",
+   "v2": "Seasons. June holds 6.4% of the year's international seats, and about 62% of overseas visitor travel falls between October and March (MIDAS Aviation Market Assessment, Mar 2026, Seasonality; Demand-Side Analysis, Jun 2026, p12).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "[Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]",
+   "v2": "",
+   "ids": [
+    "P5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Current State Diagnostic, Dec 2025, p64 (December tree); dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; traceability table, Appendix A1.",
+   "v2": "Source: Current State Diagnostic, Dec 2025, p64 (December tree); dispositions as recorded at the 14 October 2026 review; traceability table, Appendix A1.",
+   "ids": [
+    "P5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The green season is a seat problem and an events problem at once: June holds 6.4% of the year's international seats, while international meetings already cluster in the months leisure travel leaves empty.",
+   "v2": "The green season is a seat problem and an events problem at once. June holds 6.4% of the year's international seats, and business events are the lever best placed to fill the trough, though international meetings now peak from September to November.",
+   "ids": [
+    "M4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while Nigerian and Ghanaian visitors spend R31,000 and R27,700 each.",
+   "v2": "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while West African visitors spend the most per visit.",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Twenty communities hold 18.4% of the province's residents but a traced 0.02% to 0.04% of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
+   "v2": "Twenty communities hold 18.4% of the province's residents but receive only a small documented share of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that Treasury Circular 131 has disrupted.",
+   "v2": "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that MFMA Circular No. 131 has disrupted.",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is weak, so the province needs one shared agenda with clear decision rights.",
+   "v2": "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is under strain, so the province needs one shared agenda with clear decision rights.",
+   "ids": [
+    "M13"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The three paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). The base path needs hub carriers to keep adding capacity and Wesgro's programmes to expand. The accelerated path also needs direct India and China routes and dedicated activation in India, China, the USA and the Gulf; without confirmed routes, volume reverts to base (p19, p20). Marketing cannot make up for missing seats, because carriers on full routes raise fares instead (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion).",
+   "v2": "The three paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). The base path needs hub carriers to keep adding capacity and Wesgro's programmes to expand. The accelerated path also needs direct India and China routes and dedicated activation in India, China, the USA and the Gulf; without confirmed routes, volume reverts to base (p19, p20). On the eleven full routes, marketing cannot make up for missing seats, because carriers raise fares instead (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion). On the hub routes, which run at 65% to 72% load and add the most base-case arrivals, it can (\"Seasonality\").",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure ES.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031.",
+   "v2": "Figure ES.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Air access and bookability move first, because every other lever runs through them. Phase 1, Activate (2027 to 2028), holds and adds seats on the full routes, builds the green-season calendar and counts and closes the bookability gap. It also starts two or three inclusion pilots and sets up Steerco, the data protocol and the national escalation agenda. Phase 2, Expand (2029 to 2031), scales what works and meets the seat ceiling at the 2030 mid-term review. Phase 3, Sustain (2032 to 2035), takes the direct route cases to carriers as runway capacity arrives.",
+   "v2": "Air access and bookability move first, because every other lever runs through them. Phase 1, Activate (2027 to 2028), holds and adds seats on the full routes, builds the green-season calendar and counts and closes the bookability gap. It also starts two or three inclusion pilots and sets up Steerco, the data protocol and the national escalation agenda. Phase 2, Expand (2029 to 2031), scales what works and meets the model's seat line at the 2030 mid-term review. Phase 3, Sustain (2032 to 2035), takes the direct route cases to carriers as runway capacity arrives.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table ES.5. Twelve actions can start inside Wesgro's current mandate and budgets, and each opens a seat, a baseline or a booking path a later initiative needs.",
+   "v2": "Table ES.5. Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs.",
+   "ids": [
+    "C6.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro CEO's office",
+   "v2": "Wesgro CEO's office; DEDAT",
+   "ids": [
+    "C6.4",
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table ES.6. Arrivals and jobs carry targets on both paths, while season, spread and community spend start from dated baselines.",
+   "v2": "Table ES.6. Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines.",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "1,498,829 (2025)",
+   "v2": "1,498,829 (2025, model value)",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "R25.9bn (FY2025)",
+   "v2": "R25.9bn (FY2025, nominal)",
+   "ids": [
+    "C4.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "R40.6bn (base, modelled)",
+   "v2": "R40.6bn (base, modelled, constant 2024 rand)",
+   "ids": [
+    "C4.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "T1-04 Tourism jobs (ratio)",
+   "v2": "T1-04 Tourism jobs",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 30,000 (2025)",
+   "v2": "Set by the labour analysis (I18)",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "33,500 / 35,000",
+   "v2": "Set at Gate 1",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "43,500 / 50,300",
+   "v2": "Set at Gate 1",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 35% (2025, provisional); 39% (2024)",
+   "v2": "38.1% (2025, normalised); 39% (2024)",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "0.02% to 0.04% (floor)",
+   "v2": "R4m to R10m a year (documented floor)",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Section 5.3. Computed values are marked . Jobs use Wesgro's ratio of two jobs per 100 international passengers (public source), a ratio-based projection until the labour analysis reports.",
+   "v2": "Source: Section 5.3. Computed values are marked . Tourism jobs have no provincial baseline; the labour analysis (I18) sets one by Gate 1. T1-03 targets are in constant 2024 rand.",
+   "ids": [
+    "C4.2",
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Quarterly milestone tracking; frequency and gauge; George as second gateway",
+   "v2": "Quarterly milestone tracking; frequency and gauge; George for domestic connections",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "The Wesgro Board decides:",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Constitute the Tourism Growth Steerco at Wesgro CEO level with DEDAT and Cape Town Tourism, and confirm the eighteen initiative leads.",
+   "v2": "Constitute the Tourism Growth Steerco, co-chaired by Wesgro's CEO and DEDAT's Head of Department with Cape Town Tourism as a standing member, and confirm the twelve initiative leads that sit with Wesgro.",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Approve the twelve first-year actions inside current budgets, and ask Wesgro Finance and DEDAT to set rand bands for every initiative.",
+   "v2": "Approve the nine first-24-month actions that sit inside Wesgro's mandate and budget. Ask Wesgro Finance and DEDAT to set rand bands for every initiative, and to name what Wesgro deprioritises to fund them, before Gate 1. [Open item: Wesgro Finance to give an indicative rand band for the first 24 months.]",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Commission the bookability census and the tourism labour analysis in 2027, so the plan's missing baselines exist by Gate 1.",
+   "v2": "Commission the bookability census in 2027, so the plan's missing baselines exist by Gate 1.",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "The Board recommends to the Provincial Minister, DEDAT and the municipalities:",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "That DEDAT commission the tourism labour analysis in 2027 and lead I10, I13 and I18, and that the Department of Mobility lead I8.",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "That the municipalities and LTOs lead and fund I12, and that the site operators lead I11.",
+   "ids": [
+    "C6.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro commissioned a strategy to \"double international tourist arrivals to the Western Cape by 2035\"; the evidence has reframed that ambition as growth to 2.5 million arrivals, set by supply rather than demand.",
+   "v2": "Wesgro commissioned a strategy to \"double international tourist arrivals to the Western Cape by 2035\"; the evidence has reframed that ambition as growth to 2.5 million arrivals, paced by gateway capacity in the summer peak and by demand in the green season.",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Even the base case runs into a ceiling. Current air access caps inbound capacity at 1.8 million seats, and the base case first passes that line at the 2030 plotted year, at 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Growth to 2.5 million is therefore a supply programme before it is a marketing programme, and every chapter of this report returns to that point.",
+   "v2": "Even the base case runs into the model's seat line. The growth model draws inbound capacity at 1.8 million seats, and the base case first passes that line at the 2030 plotted year, at 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Growth to 2.5 million is therefore a supply programme before it is a marketing programme, and every chapter of this report returns to that point.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Carried to Chapter 5 as a ratio-based projection, pending the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)",
+   "v2": "Carried to Chapter 5 with its baseline set by the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Airlift: inbound capacity capped at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)",
+   "v2": "Airlift: inbound capacity drawn at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Airlift carried as the seats and routes needed to lift the 1.8 million ceiling (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]",
+   "v2": "Airlift carried as the seats and routes needed to lift the 1.8 million seat line (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The Growth for Jobs Strategy 2023, approved by Cabinet, was among the first documents Wesgro supplied to the study (Inception Report, Nov 2025, p34). It designates tourism a primary tradable sector for the province (Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis, built as 2 million in 2019 plus 1 million (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). [G4J 2023 document to be read and the 3 million target confirmed against it.]",
+   "v2": "The Growth for Jobs Strategy 2023, approved by Cabinet, was among the first documents Wesgro supplied to the study (Inception Report, Nov 2025, p34). It designates tourism a primary tradable sector for the province (Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis, built as 2 million in 2019 plus 1 million (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). If the model counts arrivals on the SA Tourism basis, G4J's 3 million for 2035 sits above both paths. The difference is method: G4J adds 1 million to 2019's 2 million, while the growth model builds up market by market against the seats and routes the gateway can carry. [G4J 2023 document to be read and the 3 million target confirmed against it.]",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The G4J figure and the study's figures count different things. Three million is provincial tourist arrivals as South African Tourism measures them; 1.44 million is passenger arrivals through one airport as ACSA counts them. On the SAT basis the province received about 1.5 million international tourist arrivals in 2025, an 11.1% increase (Hypertext, Apr 2026, reporting the Provincial Minister; public source). [Wesgro Research to confirm the 2025 SAT figure and the series behind it.] The strategy's 2.5 million therefore cannot be set against the 3 million without conversion.",
+   "v2": "The G4J figure and the study's figures count different things. Three million is provincial tourist arrivals as South African Tourism measures them; 1.44 million is passenger arrivals through one airport as ACSA counts them. On the SAT basis the province received 1,538,142 international tourist arrivals in 2025, an 11.1% increase (Wesgro Research, Western Cape Tourism Performance: Annual 2025, from SA Tourism data; public source). The strategy's 2.5 million therefore cannot be set against the 3 million without conversion.",
+   "ids": [
+    "P19",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro's FY26 to FY30 plan is the second alignment test. A Wesgro five-year strategy was supplied to the study (Inception Report, Nov 2025, p34), but no plan document is in hand. Alignment is therefore stated at the level the inception report gives it [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Chapter 4 sets its first decision gate at the end of 2028, within the plan period and before the base case reaches the seat ceiling.",
+   "v2": "Wesgro's FY26 to FY30 plan is the second alignment test. A Wesgro five-year strategy was supplied to the study (Inception Report, Nov 2025, p34), but no plan document is in hand. Alignment is therefore stated at the level the inception report gives it [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Chapter 4 sets its first decision gate at the end of 2028, within the plan period and before the base case crosses the model's seat line.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 1.5m",
+   "v2": "1,538,142",
+   "ids": [
+    "P19"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Hypertext, Apr 2026, reporting the Provincial Minister; public source",
+   "v2": "Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source",
+   "ids": [
+    "P19",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Reference point for the G4J basis only; not a baseline or a target [Wesgro Research to confirm the figure and its series]",
+   "v2": "Reference point for the G4J basis only; not a baseline or a target",
+   "ids": [
+    "P19"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Hypertext, Apr 2026, reporting the Provincial Minister; public source.",
+   "v2": "Source: Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source.",
+   "ids": [
+    "P19",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "The model's 2025 base of 1,498,829 sits close to, but below, SA Tourism's 1,538,142 for 2025 (Wesgro Research, Western Cape Tourism Performance: Annual 2025). Each market group's step from the June deck's 2024 base also tracks its own growth rate to within 0.2 points (Appendix A2; computed). This report therefore treats the 2025 base as a model value until the basis is confirmed. [Open item: Skift to confirm in writing what the model counts (SA Tourism tourist arrivals, ACSA passengers including returning residents or OAG origin-and-destination flows) and how the Hubs group is built.]",
+   "ids": [
+    "C3",
+    "P19",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The modal visitor in the 2024 Wesgro survey spends R1,000 to R2,000 a day, is aged 36 to 50 and travels as a pair (Current State Diagnostic, Dec 2025, p25). Nearly 40% spend more than R1,000 a day (p27). Self-catering at 17.4% and guesthouses at 9.7% lead accommodation choice, ahead of hotels at 3.6% (p27).",
+   "v2": "The modal visitor in the 2024 Wesgro survey spends R1,000 to R2,000 a day, is aged 36 to 50 and travels as a pair (Current State Diagnostic, Dec 2025, p25). Nearly 40% spend more than R1,000 a day (p27). Self-catering at 17.4% and guesthouses at 9.7% lead accommodation choice, ahead of hotels at 3.6% (p27); together these shares cover under a third of respondents.",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Five markets supply 63% of overseas arrivals. In 2025 the UK held 19%, Germany 17%, the USA 16%, the Netherlands 7% and France 4%, and the three largest alone held 52% (Demand-Side Analysis, Jun 2026, p13). The same slide prints 61% in its text; the report uses 63%, the sum of the printed shares, and logs the conflict.",
+   "v2": "Five markets supply 63% of overseas arrivals. In 2025 the UK held 19%, Germany 17%, the USA 16%, the Netherlands 7% and France 4%, and the three largest alone held 52% (Demand-Side Analysis, Jun 2026, p13). The report uses 63%, the sum of the printed shares.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Demand peaks in the southern summer. In 2025, 12.7% of overseas visitors travelled in December, 11.5% in January and 11.3% in November, against 6.1% in June and 6.5% in August (Demand-Side Analysis, Jun 2026, p12). October to March together account for about 65% of the year.",
+   "v2": "Demand peaks in the southern summer. In 2025, 12.7% of overseas visitors travelled in December, 11.5% in January and 11.3% in November, against 6.1% in June and 6.5% in August (Demand-Side Analysis, Jun 2026, p12). October to March together account for about 62% of the year once the twelve printed shares, which sum to 104.9%, are scaled to 100% [Wesgro Research to confirm the 2025 month-of-travel shares].",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "That 65% is derived, not printed. The twelve monthly shares on the 2025 slide sum to 104.9%, so the October to March figure is provisional and flagged wherever it appears [Wesgro Research to confirm the 2025 month-of-travel shares]. The 2024 Wesgro Visitor Tracking Survey, whose monthly shares sum to 100%, gives 61% for October to March and 39% for April to September (Current State Diagnostic, Dec 2025, p25, p32).",
+   "v2": "The 2024 Wesgro Visitor Tracking Survey, whose monthly shares sum to 100%, gives 61% for October to March and 39% for April to September (Current State Diagnostic, Dec 2025, p25, p32).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Supply follows the same curve. June carries 6.4% of 2025 international seat capacity into Cape Town (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"), and Cape Town hotel occupancy was 53% in June 2023 (Demand-Side Analysis, Jun 2026, p34). The Diagnostic drew the conclusion early: growth \"will depend on improving conversion in Apr-Sep rather than pushing incremental demand into already busy peak months\" (Current State Diagnostic, Dec 2025, p32).",
+   "v2": "Supply follows the same curve. June carries 6.4% of 2025 international seat capacity into Cape Town (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"), and Cape Town hotel occupancy was 53% in June 2023 (Demand-Side Analysis, Jun 2026, p34). [Open item: Wesgro Research to supply June 2025 occupancy.] The Diagnostic drew the conclusion early: growth \"will depend on improving conversion in Apr-Sep rather than pushing incremental demand into already busy peak months\" (Current State Diagnostic, Dec 2025, p32).",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 1.3. Six summer months, October to March, carry between 61% and 65% of overseas visitors' travel in the two years for which month of travel is recorded.",
+   "v2": "Table 1.3. Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded.",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "65%",
+   "v2": "62%",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: 2024: Current State Diagnostic, Dec 2025, p25 and p32 (Wesgro Visitor Tracking Survey 2024; shares sum to 100%). 2025: Demand-Side Analysis, Jun 2026, p12 (Stats SA and SAT 2025; the printed shares sum to 104.9%, so the 2025 row and its October to March share are provisional).",
+   "v2": "Source: 2024: Current State Diagnostic, Dec 2025, p25 and p32 (Wesgro Visitor Tracking Survey 2024; shares sum to 100%). 2025: Demand-Side Analysis, Jun 2026, p12 (Stats SA and SAT 2025; the printed shares sum to 104.9%, and the October to March share is computed with the 2025 shares normalised to 100%).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Cape Town International itself is now the physical ceiling. One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief only from about 2032 to 2034 (Infrastructure Report, Jul 2026, p101 to p103). The secondary gateways do not change the picture: George, above its design limit at 911,000 passengers in 2025, doubles by 2028 (p104, p105), and Cape Winelands Airport targets 2028 with no named carrier (p106, p107).",
+   "v2": "Cape Town International itself is now the physical ceiling. One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief from about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p101 to p103). ACSA's latest schedule shows the realigned runway from December 2026 to December 2029, subject to contract award (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026). The secondary gateways do not change the picture: George, above its design limit at 911,000 passengers in 2025, doubles by 2028 or 2029, with construction from October 2026 (p104, p105; George Herald, Jul 2026), and Cape Winelands Airport targets 2028 with no named carrier (p106, p107).",
+   "ids": [
+    "C1.1",
+    "C1.3",
+    "M10",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: GDPR shares: Current State Diagnostic, Dec 2025, p39, p42, p44, p46, p48, p50 (year not printed; Garden Route share is for 2023). Asset counts: Infrastructure Report, Jul 2026, p2, p23, p34, p45, p56, p67, p78 (the Winelands gauge misprints 40.3%; 7,730 of 50,332 is 15.4%). Accessibility: Infrastructure Report, Jul 2026, p88 to p90, attractions and services basis; the Metro scores 5.0 on transport.",
+   "v2": "Source: GDPR shares: Current State Diagnostic, Dec 2025, p39, p42, p44, p46, p48, p50 (year not printed; Garden Route share is for 2023). Asset counts: Infrastructure Report, Jul 2026, p2, p23, p34, p45, p56, p67, p78 (Winelands share computed: 7,730 of 50,332 is 15.4%). Accessibility: Infrastructure Report, Jul 2026, p88 to p90, attractions and services basis; the Metro scores 5.0 on transport.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Alignment across those tiers is thin. The Diagnostic records specific dysfunctions, \"SAT is in turmoil\" among them, and the added pressure of a lack of fiscal space (Current State Diagnostic, Dec 2025, p58). More than twenty bodies produce tourism data and \"there is no single view of visitor behaviour, making strategy reactive rather than predictive\" (p56, p57).",
+   "v2": "Alignment across those tiers is thin. Stakeholders described strain at SA Tourism and a lack of fiscal space (Current State Diagnostic, Dec 2025, p58). More than twenty bodies produce tourism data and \"there is no single view of visitor behaviour, making strategy reactive rather than predictive\" (p56, p57).",
+   "ids": [
+    "M13"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The recovery is complete, and the growth that follows is capped by supply rather than demand.",
+   "v2": "The recovery is complete; gateway capacity caps growth in the summer peak, and demand and conversion cap it in the green season.",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Demand without seats",
+   "v2": "Seats in summer, demand in winter",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Growth is now supply-constrained, not demand-constrained. Skift's survey of 34 outbound markets counts 97 million high-value, South Africa-interested travellers, of whom only 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). The report's conclusion is that \"the challenge is not demand generation but improving conversion into actual visits\" (p41).",
+   "v2": "Growth is now supply-constrained in the summer peak and demand-constrained in the green season, when airlines withdraw seats: June carries 6.4% of the year's international capacity (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Skift's survey of 34 outbound markets counts 97 million high-value, South Africa-interested travellers, of whom only 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). The report's conclusion is that \"the challenge is not demand generation but improving conversion into actual visits\" (p41).",
+   "ids": [
+    "C2",
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The binding supply is seats. Current air access places a hard ceiling at 1.8 million inbound seats, and the base case, in which Wesgro maintains current activity, reaches 1,802,929 arrivals at the 2030 plotted year (Market Assessment Report, May 2026, p20). The chart below sets the base case against that ceiling.",
+   "v2": "The binding supply is peak capacity at the gateway. The growth model draws current air access as a line at 1.8 million inbound seats, and the base case, in which Wesgro maintains current activity, reaches 1,802,929 arrivals at the 2030 plotted year (Market Assessment Report, May 2026, p20). The chart below sets the base case against that line.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 1.4. The base case crosses the 1.8m inbound seat ceiling at the 2030 plotted year, two years before the earliest relief at Cape Town International.",
+   "v2": "Figure 1.4. The base case crosses the model's 1.8m seat line at the 2030 plotted year, before runway relief on the planning date of about 2033.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Market Assessment Report, May 2026, p20 (base case by year from a 2025 base of 1,498,829; the 2028 to 2035 points are identical in the Demand-Side Analysis, Jun 2026, p21). Seat ceiling as drawn on the same slide. Airport relief from about 2032: Infrastructure Report, Jul 2026, p103.",
+   "v2": "Source: Market Assessment Report, May 2026, p20 (base case by year from a 2025 base of 1,498,829; the 2028 to 2035 points are identical in the Demand-Side Analysis, Jun 2026, p21). Seat line as drawn on the same slide. Airport relief from about 2032: Infrastructure Report, Jul 2026, p103. The model prints only these six year points and no seat table beneath the 1.8m line, so the crossing falls between 2028 (1,673,855) and 2030 (1,802,929). The conservative (1,822,634) and accelerated (2,516,282) cases are printed as 2035 end points only and are not plotted.",
+   "ids": [
+    "C1.1",
+    "P2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The routes that exist are full. Eleven of the 27 international routes in the load-factor table ran above 80% in the year to November 2025, and the network averaged 76.0% on the printed total (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Five of the eleven are mature long-haul routes, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (\"Seasonality\").",
+   "v2": "The line is the model's assumption, not a measured cap. At Cape Town International's 79% average load factor, 1.8 million inbound seats would carry about 1.42 million arrivals, fewer than the 1.57 million ACSA recorded in FY25/26 (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"; Demand-Side Analysis, Jun 2026, p11; computed). MIDAS tables 3,816,797 international seats for the year to November 2025, more than 1.8 million each way even if that total counts both directions (\"Seasonality\"). What binds is the runway at peak hours in the summer peak, at about 30 movements an hour (Infrastructure Report, Jul 2026, p101). [Open item: ACSA or OAG to supply peak-hour and seasonal slot headroom at Cape Town International.]",
+   "ids": [
+    "C1.2",
+    "P9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "The routes that exist are full. Eleven of the 27 international routes in the load-factor table ran above 80% in the year to November 2025, and the network averaged 76.0% on the printed total (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). MIDAS tables 27 routes for the year to November 2025; 29 serve the airport in 2026. Five of the eleven are mature long-haul routes, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (\"Seasonality\").",
+   "ids": [
+    "C2",
+    "C5",
+    "P9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Behind the routes sits the runway. \"The airport, not a shortage of visitors is what now caps Cape Town's tourism growth\" (Infrastructure Report, Jul 2026, p101). One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief only from about 2032 (p101 to p103).",
+   "v2": "Behind the routes sits the runway. \"The airport, not a shortage of visitors is what now caps Cape Town's tourism growth\" (Infrastructure Report, Jul 2026, p101). One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief from about 2032 for the terminal and about 2033 for the runway (p101 to p103).",
+   "ids": [
+    "C1.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The alternatives do not close the gap in time. George, domestic only, doubles by 2028, and Cape Winelands Airport targets 2028 with no named carrier. In the Infrastructure Report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p104 to p109). Route rights sit a tier up: air service agreements are a national function (Current State Diagnostic, Dec 2025, p58). The Department of Economic Development rates restrictive bilateral agreements a high-impact constraint on airlift (Stakeholder Insights Report, Mar 2026, p24).",
+   "v2": "The alternatives do not close the gap in time. George, domestic only, doubles by 2028 or 2029, and Cape Winelands Airport targets 2028 with no named carrier. In the Infrastructure Report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p104 to p109). Route rights sit a tier up: air service agreements are a national function (Current State Diagnostic, Dec 2025, p58). The Department of Economic Development rates restrictive bilateral agreements a high-impact constraint on airlift (Stakeholder Insights Report, Mar 2026, p24).",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Global tourism grows 3 to 5% a year under stable conditions, the band the Benchmarking Report calls organic growth (Global Benchmarking Report, Mar 2026, p7). Five of the six comparator destinations grew faster (p9). Chile grew about 35%, Singapore about 19%, Kenya 12.8 to 14.6%, Valencia 13 to 14% and New Zealand about 12%. New Zealand's figure matches its 2025 holiday-arrivals growth rather than the 5.9% for total arrivals in 2025 (p53). Melbourne's 4.3% is an Australia-wide forecast rather than an actual (p9, p17), so the comparator range runs from about 4% to 35%.",
+   "v2": "Global tourism grows 3 to 5% a year under stable conditions, the band the Benchmarking Report calls organic growth (Global Benchmarking Report, Mar 2026, p7). Five of the six comparator destinations grew faster (p9). Chile grew 40.4%, Singapore 21%, Kenya 14.6%, Valencia 13 to 14% and New Zealand about 12%, against global growth of 11% in 2024 (Sernatur, Anuario de Turismo 2024, Dec 2025; Singapore Tourism Board, Feb 2025; UN Tourism, World Tourism Barometer, Jan 2025). New Zealand's figure matches its 2025 holiday-arrivals growth rather than the 5.9% for total arrivals in 2025 (p53). Melbourne's 4.3% is an Australia-wide forecast rather than an actual (p9, p17), so the comparator range runs from about 4% to 40%.",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). The later deliverables reprinted the tree as a recap and marked the branch they addressed.",
+   "v2": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). Because the study team mapped the insights to tree entries, the counts show where views cluster; they do not on their own validate an entry. The later deliverables reprinted the tree as a recap and marked the branch they addressed.",
+   "ids": [
+    "M3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "The reconciliation behind this rule logged 55 discrepancies between the agreed structure and the deliverables, seven of them material. They concern the model base year, the October to March share, the routes above 80% load, the comparator growth range, the 2035 ambition, the cruise call baseline and the Infrastructure Report's date. Each is resolved where it is used, with both values shown.",
+   "v2": "",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Nine dated documents carry the evidence, and the table below dates each by its cover. Four carry a later file date than their cover, which the report records rather than hides. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19).",
+   "v2": "Nine dated documents carry the evidence, and the table below dates each by its cover. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Cover pages and file dates of each document; SLA Annexure B clause numbers as assigned in the agreed report structure of 2 November 2026 [to be checked against the signed Annexure B].",
+   "v2": "Source: Cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B].",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6].",
+   "v2": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). [Open item: test the gateway and governance chapters with ACSA, the Cape Town Air Access airline partners, the City of Cape Town and Cape Town Tourism before Steerco.] The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6].",
+   "ids": [
+    "M5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "[Supply dataset limits to confirm: neither part of the Infrastructure Report, Jul 2026 (p1 to p114) states that the dataset has no geography below district or that records added after May 2026 are placeholders; the source of this statement is needed.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22).",
+   "v2": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.4, 2.11 and A.20 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22).",
+   "ids": [
+    "M6"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "What Wesgro asked for, where the system stands after recovery, why the next step is supply-constrained and how the study ran",
+   "v2": "What Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "What the evidence argued against. No entry was withdrawn, but the evidence narrowed or overturned three parts of the December case. First, the pivot to four growth markets narrowed to converting India and China traffic already flying through hubs; the Middle East and ASEAN cases did not survive (focus area 4). Second, the ambition to double arrivals did not survive: the growth model supports 2.2 million to 2.5 million by 2035 (section 1.1). Third, the 300,000 tourism-linked jobs ambition has no baseline behind it and is flagged untested (focus area 20). Two Validated entries also rest on less than direct evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables (section 3.3).",
+   "ids": [
+    "M3"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "[Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]",
+   "ids": [
+    "P5"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "[Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]",
+   "ids": [
+    "P5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Concentration, seasonality and seats cap growth before demand does, and the base case meets the 1.8m inbound seat ceiling by 2030.",
+   "v2": "Concentration, seasonality and peak seats cap growth before demand does, and the base case crosses the model's 1.8m seat line by 2030.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The agreed report structure assigns this work to SLA Annexure B clauses 1.1.1, 1.1.7 and 3.2.3. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "This work answers SLA Annexure B clauses 1.1.1, 1.1.7 and 3.2.3. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The two decks print the same 2035 points from different bases. The May deck runs from a 2025 base of 1,498,829 and the June deck from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). This report uses the 2025 base and logs the difference.",
+   "v2": "The two decks print the same 2035 points from different bases. The May deck runs from a 2025 base of 1,498,829 and the June deck from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). This report uses the 2025 base.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "2. Six months carry nearly two thirds of the year. December, January and November were the peak months of 2025 at 12.7%, 11.5% and 11.3% of overseas visitors, while June fell to 6.1% (Demand-Side Analysis, Jun 2026, p12). October to March hold about 65% on that table, a provisional figure because its twelve shares sum to 104.9%. On a Cape Town overseas air-arrivals basis for January to August 2024 the split was 61% and 39% (Market Assessment Report, May 2026, p25).",
+   "v2": "2. Six months carry nearly two thirds of the year. December, January and November were the peak months of 2025 at 12.7%, 11.5% and 11.3% of overseas visitors, while June fell to 6.1% (Demand-Side Analysis, Jun 2026, p12). October to March hold about 62% on that table once its twelve shares, which sum to 104.9%, are normalised. The 2024 Wesgro Visitor Tracking Survey gives 61% and 39% (Current State Diagnostic, Dec 2025, p32).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 2.1. The base case passes the 1.8m inbound seat ceiling at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
+   "v2": "Figure 2.1. The base case crosses the model's 1.8m seat line at the 2030 year point, and only the accelerated case reaches 2.5m by 2035.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat ceiling as drawn). OAG Aviation Analytics.",
+   "v2": "Source: Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat line as drawn). OAG Aviation Analytics.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "4. Seats bind before demand does. The model draws current air access as \"a hard ceiling at 1.8 million inbound seats\", and the base case first passes it at the 2030 year point with 1,802,929 arrivals (Market Assessment Report, May 2026, p20). Only six year points are printed, so the crossing falls between 2028, at 1,673,855, and 2030. The deck judges 2.1 million by 2035 achievable only with deliberate intervention to add capacity (p20).",
+   "v2": "4. Seats bind at the peak before demand does. The model draws current air access as \"a hard ceiling at 1.8 million inbound seats\", and the base case first passes it at the 2030 year point with 1,802,929 arrivals (Market Assessment Report, May 2026, p20). The line is the model's assumption, not a measured cap (section 1.3). Only six year points are printed, so the crossing falls between 2028, at 1,673,855, and 2030. The deck judges 2.1 million by 2035 achievable only with deliberate intervention to add capacity (p20).",
+   "ids": [
+    "C1.1",
+    "C1.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "October to March about 65%, 2025 (provisional; shares sum to 104.9%); 61%, Jan to Aug 2024, Cape Town overseas air arrivals",
+   "v2": "October to March about 62%, 2025 (normalised; printed shares sum to 104.9%); 61%, 2024, Wesgro Visitor Tracking Survey",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "DSA p12; MA p25",
+   "v2": "DSA p12; Diag p32",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Seats bind by 2030",
+   "v2": "Seat line crossed by 2030",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "1.8m inbound seats; base case 1,673,855 in 2028 and 1,802,929 in 2030",
+   "v2": "1.8m inbound seats as drawn; base case 1,673,855 in 2028 and 1,802,929 in 2030",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Business events fill the green season",
+   "v2": "Business events can fill the green season",
+   "ids": [
+    "M4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026.",
+   "v2": "Source: As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. Diag: Current State Diagnostic, Dec 2025.",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The agreed report structure assigns this work to SLA Annexure B clause 1.1.1.2. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "This work answers SLA Annexure B clause 1.1.1.2. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "1. Cape Town has already won its routes. Twenty-nine international routes serve the airport in 2026, and Cape Town added 17 mainline international services between 2015 and 2025, more than Santiago (14), Valencia (12) or Calgary (8) (MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"; \"International Comparisons\"). The body of the report counts fourteen new routes since 2014, a difference this report logs. Cape Town's share of South Africa's international capacity rose from 10% in 2010 to 25% (\"The Capetown Market\").",
+   "v2": "1. Cape Town has already won its routes. Twenty-nine international routes serve the airport in 2026, and Cape Town added 17 mainline international services between 2015 and 2025, more than Santiago (14), Valencia (12) or Calgary (8) (MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"; \"International Comparisons\"). Other study documents count new routes from 2014 on a different basis. Cape Town's share of South Africa's international capacity rose from 10% in 2010 to 25% (\"The Capetown Market\").",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "3. The routes that exist are full. Eleven of the 27 international routes in the load table ran above 80% in the year to November 2025, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Sixteen ran at 75% or more, the count the agreed structure attributes to the 80% line (computed from the same table).",
+   "v2": "3. The routes that exist are full. Eleven of the 27 international routes in the load table ran above 80% in the year to November 2025, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Sixteen ran at 75% or more (computed from the same table).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "8. The airport, not the airlines, sets the outer limit. Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour, and two of the airport's seven parts are already full (Infrastructure Report, Jul 2026, p101, p102). The R6.39bn runway relocation adds about 40% more movements an hour but completes around 2033, and relief across the airport lands from about 2032 (p103).",
+   "v2": "8. The airport, not the airlines, sets the outer limit. Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour, and two of the airport's seven parts are already full (Infrastructure Report, Jul 2026, p101, p102). The R6.39bn runway relocation lifts capacity from 30 to 45 movements an hour, a 50% rise, and completes around 2033 on the Infrastructure Report's timing, with terminal relief from about 2032 (p103; Minister of Transport, parliamentary reply, Apr 2025). ACSA's latest schedule shows the runway finished by December 2029 (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, Aug 2026).",
+   "ids": [
+    "C1.3",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The alternatives arrive sooner but carry less. George handled 911,000 passengers in 2025, above its design limit, and a R310m terminal expansion doubles it to about 2 million by 2028 (Infrastructure Report, Jul 2026, p104, p105). Cape Winelands Airport targets first passengers in 2028 on an R8bn phase one but has no firm airline (p106). In the report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (p109).",
+   "v2": "The alternatives arrive sooner but carry less. George handled 911,000 passengers in 2025, above its design limit, and a R310m terminal expansion doubles it to about 2 million by 2028 or 2029 (Infrastructure Report, Jul 2026, p104, p105). Cape Winelands Airport targets first passengers in 2028 on an R8bn phase one but has no firm airline (p106). In the report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (p109).",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 30 movements an hour; relief from about 2032; George to about 2m by 2028",
+   "v2": "About 30 movements an hour; relief from about 2032; George to about 2m by 2029",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Rewords FA07, Win direct routes and add seats on full routes. Eleven routes above 80%, fares before seats and a runway that binds until about 2032 (findings 3, 4 and 8). The structure's \"16 of 27 above 80%\" is corrected to eleven.",
+   "v2": "Rewords FA07, Win direct routes and add seats on full routes. Eleven routes above 80%, fares before seats and a runway that binds until about 2032 (findings 3, 4 and 8).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The inception report asked for four to six global comparators aligned to the Western Cape's market profile (Inception Report, Nov 2025, p16). It wanted the strategies and policies behind their growth and the lessons on air access, investment, partnerships and visitor experience that transfer. The agreed report structure assigns this work to SLA Annexure B clauses 1.1.5, 1.1.11 and 3.2.7. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "The inception report asked for four to six global comparators aligned to the Western Cape's market profile (Inception Report, Nov 2025, p16). It wanted the strategies and policies behind their growth and the lessons on air access, investment, partnerships and visitor experience that transfer. This work answers SLA Annexure B clauses 1.1.5, 1.1.11 and 3.2.7. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The report sets a global norm against which growth counts as structural. Global arrivals grow 3% to 5% a year under stable conditions, more than 5% marks structural acceleration and 10% or more a structural shift (Global Benchmarking Report, Mar 2026, p7). Growth counts as structural only when it is \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (p8).",
+   "v2": "The report sets a global norm against which growth counts as structural. Global arrivals grow 3% to 5% a year under stable conditions, more than 5% marks structural acceleration and 10% or more a structural shift (Global Benchmarking Report, Mar 2026, p7). UN Tourism's own figures put global growth at 11% in 2024, while recovery was still running, and about 4% in 2025 (World Tourism Barometer, Jan 2025 and Jan 2026). Growth counts as structural only when it is \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (p8).",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "1. Five of the six comparators grew well above the norm. Chile grew about 35% between 2023 and 2024, Singapore about 19%, Kenya 12.8% to 14.6%, Valencia 13% to 14% and New Zealand about 12% (Global Benchmarking Report, Mar 2026, p9). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its 2025 holiday-arrivals growth; total arrivals grew 5.9% in 2025 (p53).",
+   "v2": "1. Two of the six comparators grew well above the world. Chile grew 40.4% between 2023 and 2024 and Singapore 21%, against global growth of 11%; Kenya (14.6%), Valencia (13% to 14%) and New Zealand (about 12%) grew slightly faster than the world (Global Benchmarking Report, Mar 2026, p9; Sernatur, Dec 2025; Singapore Tourism Board, Feb 2025). Melbourne's 4.3% is an Australia-wide forecast of average annual growth rather than an actual (p9, p17), and New Zealand's 12% matches its 2025 holiday-arrivals growth; total arrivals grew 5.9% in 2025 (p53).",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 2.5. Five of the six comparators grew above the 3% to 5% global norm in 2023 to 2024, each through a primary lever of its own.",
+   "v2": "Table 2.5. Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019.",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 35%",
+   "v2": "40.4%",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 82% recovered",
+   "v2": "116% of 2019; 55.6% of arrivals overland, 40% from Argentina",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 19%",
+   "v2": "21%",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Slightly below; spend recovered",
+   "v2": "86% of 2019; receipts at a record",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "12.8% to 14.6%",
+   "v2": "14.6%",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type).",
+   "v2": "Source: Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type). Chile: Sernatur, Anuario de Turismo 2024 (Dec 2025). Singapore: Singapore Tourism Board (Feb 2025). Kenya growth: Kenya Tourism data as reported, May 2025.",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 2.5. Five of the six comparators grew three to nine times the roughly 4% global rate of 2024 to 2025.",
+   "v2": "[Open item: add one comparator that underperformed, as the Inception Report's plan asked (Inception Report, Nov 2025, p16).]",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Global Benchmarking Report, Mar 2026, p7 (global rate, UN Tourism World Tourism Barometer, January 2025) and p9 (comparators). Where the report prints a range, the bar shows its midpoint: Kenya 12.8% to 14.6%, Valencia 13% to 14%.",
+   "v2": "Figure 2.5. Against global growth of 11% in 2024, Chile and Singapore grew two to four times as fast, and Kenya, Valencia and New Zealand slightly faster.",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Source: Global Benchmarking Report, Mar 2026, p9 (comparators); Sernatur, Dec 2025 (Chile); Singapore Tourism Board, Feb 2025 (Singapore); Kenya Tourism data as reported, May 2025 (Kenya); UN Tourism, World Tourism Barometer, Jan 2025 (world, 2024). Where the report prints a range, the bar shows its midpoint: Valencia 13% to 14%.",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "4. Hubs can be converted, not just flown through. Singapore turns transit into visits through its stopover programme, with the tourism board, Changi Airport Group and Singapore Airlines working \"under a coordinated strategy\" (Global Benchmarking Report, Mar 2026, p40). It received 13 million international visitors in 2024, 19% more than in 2023, and visitor spend reached $31.3 billion (p39). Kenya positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals (p32, p34).",
+   "v2": "4. Hubs can be converted, not just flown through. Singapore turns transit into visits through its stopover programme, with the tourism board, Changi Airport Group and Singapore Airlines working \"under a coordinated strategy\" (Global Benchmarking Report, Mar 2026, p40). It received 16.5 million international visitors in 2024, 21% more than in 2023, and tourism receipts reached a record of about S$29 billion (Singapore Tourism Board, Feb 2025). Kenya positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals (p32, p34).",
+   "ids": [
+    "M2",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "7. The leaders measure value, not arrivals. New Zealand manages regional capacity to protect pricing and recommends that destinations \"replace arrival growth with yield-based regional performance metrics\" (Global Benchmarking Report, Mar 2026, p55, p56). Kenya earned about US$1,650 per visitor in 2024 by building conservation and community participation into one governed product system (p32, p33).",
+   "v2": "7. The leaders measure value, not arrivals. New Zealand manages regional capacity to protect pricing and recommends that destinations \"replace arrival growth with yield-based regional performance metrics\" (Global Benchmarking Report, Mar 2026, p55, p56). Kenya earned about US$1,460 per visitor in 2024 (Demand-Side Analysis, Jun 2026, p15) by building conservation and community participation into one governed product system (Global Benchmarking Report, Mar 2026, p32, p33).",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Norm 3% to 5% a year; Chile about 35%, Singapore about 19%, Valencia 13% to 14%",
+   "v2": "World 11% in 2024; Chile 40.4%, Singapore 21%, Valencia 13% to 14%",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Singapore: stopover programme; 13m arrivals (+19%) and $31.3bn spend, 2024",
+   "v2": "Singapore: stopover programme; 16.5m arrivals (+21%) and about S$29bn receipts, 2024",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "p39, p40",
+   "v2": "p39, p40; STB, Feb 2025",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "New Zealand: yield-based regional metrics; Kenya: about US$1,650 per visitor",
+   "v2": "New Zealand: yield-based regional metrics; Kenya: about US$1,460 per visitor",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "p32, p56",
+   "v2": "p32, p56; DSA p15",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The inception report committed the study to interviews, focus groups and roundtables with key stakeholders, with their insights carried into the final report (Inception Report, Nov 2025, p22). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.6 and 3.2.8. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "The inception report committed the study to interviews, focus groups and roundtables with key stakeholders, with their insights carried into the final report (Inception Report, Nov 2025, p22). This work answers SLA Annexure B clauses 1.1.6 and 3.2.8. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "4. Funding and institutions have weakened. The Department of Economic Development rates destination funding \"materially below peer destinations\" and reports that tourism institutional capacity \"has eroded over the past decade at both provincial and municipal level\", both High (Stakeholder Insights Report, Mar 2026, p25). National Treasury Circular 131 has disrupted municipal funding for local tourism bodies, most of which \"are not operationally sustainable without municipal funding support\" (p25).",
+   "v2": "4. Funding and institutions have weakened. The Department of Economic Development rates destination funding \"materially below peer destinations\" and reports that tourism institutional capacity \"has eroded over the past decade at both provincial and municipal level\", both High (Stakeholder Insights Report, Mar 2026, p25). National Treasury's MFMA Circular No. 131 of 31 March 2025 has disrupted municipal funding for local tourism bodies, most of which \"are not operationally sustainable without municipal funding support\" (p25).",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "National Treasury Circular 131 has disrupted established municipal funding mechanisms for local tourism bodies",
+   "v2": "MFMA Circular No. 131 has disrupted established municipal funding mechanisms for local tourism bodies",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Stakeholder Insights Report, Mar 2026, appendix tables, pages as cited. Insights are the project team's statements, attributed to the organisation engaged.",
+   "v2": "Source: Stakeholder Insights Report, Mar 2026, appendix tables, pages as cited. Insights are the project team's statements, attributed to the organisation engaged. [Open item: each organisation named in this table to approve its paraphrase before publication.]",
+   "ids": [
+    "M5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The supply phase was asked to understand spatial infrastructure and readiness for scalable growth through an asset inventory and readiness index, GIS mapping, regional profiles and an investment opportunity framework (Inception Report, Nov 2025, p11, p18). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.2, 1.1.8 and 3.2.4. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "The supply phase was asked to understand spatial infrastructure and readiness for scalable growth through an asset inventory and readiness index, GIS mapping, regional profiles and an investment opportunity framework (Inception Report, Nov 2025, p11, p18). This work answers SLA Annexure B clauses 1.1.2, 1.1.8 and 3.2.4. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Each region is scored from 1 to 5 on attractiveness (40%), readiness and capacity (30%) and accessibility (30%) (Infrastructure Report, Jul 2026, p17). The scores \"are evidence informed, not purely formula derived\", and missing data is not scored as poor performance (p18). The printed overall ratings do not reproduce from the weighted dimension scores, so this report quotes them as printed.",
+   "v2": "Each region is scored from 1 to 5 on attractiveness (40%), readiness and capacity (30%) and accessibility (30%) (Infrastructure Report, Jul 2026, p17). The scores \"are evidence informed, not purely formula derived\", and missing data is not scored as poor performance (p18). The overall ratings are the Infrastructure Report's evidence-informed judgement, not a weighted formula, so this report does not re-derive them.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (the Winelands gauge misprints 40.3%; 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
+   "v2": "Source: Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (Winelands share computed: 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "8. Committed capital closes the air gaps, not the regional ones. The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul and the R20bn V&A Granger Bay expansion, and George's R310m terminal doubles capacity by 2028 (Infrastructure Report, Jul 2026, p32, p43). Last-mile transit, small-operator bookability and township product remain unfunded in the Metro, as do inter-node transport and winter product on the Garden Route (p32, p43).",
+   "v2": "8. Committed capital closes the air gaps, not the regional ones. The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul and the R20bn V&A Granger Bay expansion, and George's R310m terminal doubles capacity by 2028 or 2029 (Infrastructure Report, Jul 2026, p32, p43). Last-mile transit, small-operator bookability and township product remain unfunded in the Metro, as do inter-node transport and winter product on the Garden Route (p32, p43).",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Metro pipeline R30bn or more; George R310m by 2028; cruise berth at about 40%",
+   "v2": "Metro pipeline R30bn or more; George R310m by 2029; cruise berth at about 40%",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The inception report asked for a framework to bring SMMEs and communities into tourism, built from value-chain analysis, a typology of barriers, evaluation of global models and an inclusion blueprint (Inception Report, Nov 2025, p19). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.3, 1.1.9 and 3.2.5. [Clause wording to be checked against the signed Annexure B.]",
+   "v2": "The inception report asked for a framework to bring SMMEs and communities into tourism, built from value-chain analysis, a typology of barriers, evaluation of global models and an inclusion blueprint (Inception Report, Nov 2025, p19). This work answers SLA Annexure B clauses 1.1.3, 1.1.9 and 3.2.5. [Clause wording to be checked against the signed Annexure B.]",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "2. Distance is not the barrier. Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (p18). Distance is the binding constraint in none of the 20 (p30).",
+   "v2": "2. Distance is not the barrier. Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (p18). Distance is the binding constraint in none of the 20 (p30). Proximity and access carried 35% of the shortlist score (Table A.21), so this result is partly built into the selection.",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: SME and Community Inclusion Plan, Sep 2026, p18 (shortlist, composite score, free-flow minutes) and p53 to p58 (binding constraint). Archetypes abbreviated: N = near a node (45 minutes or less); R = remote; A = assets underused; 0 = no community-based product.",
+   "v2": "Source: SME and Community Inclusion Plan, Sep 2026, p18 (shortlist, composite score, free-flow minutes) and p53 to p58 (binding constraint). Archetypes abbreviated: N = near a node (45 minutes or less); R = remote; A = assets underused; 0 = no community-based product. [Open item: re-measure Metro travel times to a visitor node such as the V&A Waterfront or the CBD, not CTIA.]",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Demand is not what holds Pillar 1 back; conversion is. The province is known in its mature markets, under-sold in its growth markets and hard to book outside its core.",
+   "v2": "Latent interest is not what holds Pillar 1 back; turning it into bookings is. The province is known in its mature markets, under-sold in its growth markets and hard to book outside its core.",
+   "ids": [
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Regional routes run above 80% load; Nigerian and Ghanaian visitors spend R31,000 and R27,700 each",
+   "v2": "Regional routes run above 80% load; West African visitors spend the most per visit",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The green season is a seat problem and an events problem at once: June holds 6.4% of the year's international seats, while international meetings already cluster in the months leisure travel leaves empty.",
+   "v2": "The green season is a seat problem and an events problem at once. June holds 6.4% of the year's international seats, and business events are the lever best placed to fill the trough, though international meetings now peak from September to November.",
+   "ids": [
+    "M4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 65% of 2025 overseas visitor travel fell between October and March (provisional); the printed 2024 split is 61% to 39%",
+   "v2": "About 62% of 2025 overseas visitor travel fell between October and March (normalised); the printed 2024 split is 61% to 39%",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Meetings fill the trough",
+   "v2": "Meetings sit beside the trough",
+   "ids": [
+    "M4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024, while the Market Assessment, p25, prints the same split on a Cape Town overseas air-arrivals basis); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable.",
+   "v2": "Source: MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable. [Open item: Wesgro Convention Bureau to confirm the 2023 ICCA count (46 printed; Wesgro reported 42 in May 2025) and reconcile the yearly total of 137 with the 136 monthly records.]",
+   "ids": [
+    "C4.1",
+    "P15"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Two limits matter. The October to March share is about 65% for 2025, but the figure is provisional: it is computed from a month-of-travel table whose shares sum to 104.9% (Demand-Side Analysis, Jun 2026, p12). The only printed split is 61% to 39% for 2024 (Current State Diagnostic, Dec 2025, p32), and the report carries both. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36).",
+   "v2": "Two limits matter. The October to March share is about 62% for 2025, computed from a month-of-travel table whose shares sum to 104.9% and normalised (Demand-Side Analysis, Jun 2026, p12). The only printed split is 61% to 39% for 2024 (Current State Diagnostic, Dec 2025, p32), and the report carries both. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "October 2026: Reworded. About 101,000 travellers a year already fly in via hubs. The Middle East and ASEAN left the title, and the lever narrowed from pivoting to converting traffic already in the air. The Demand-Side route-to-market work and MIDAS drove the change. The Middle East stays in the growth model's acceleration group.",
+   "v2": "October 2026: Reworded, with the scope narrowed. About 101,000 travellers a year already fly in via hubs. The Middle East and ASEAN left the title, and the lever narrowed from pivoting to converting traffic already in the air. The Demand-Side route-to-market work and MIDAS drove the change. The Middle East stays in the growth model's acceleration group.",
+   "ids": [
+    "M3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "October 2026: Validated. Full routes. The October title drops the list of markets. MIDAS drove the disposition: the mature long-haul routes run above 80% load, and carriers on full routes raise fares before they add seats.",
+   "v2": "October 2026: Validated, without fare or yield data. Full routes. The October title drops the list of markets. MIDAS drove the disposition: the mature long-haul routes run above 80% load, and carriers on full routes raise fares before they add seats.",
+   "ids": [
+    "M3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Escalate the cap on US carriers, the unsigned Open Skies agreement and the bilateral agreements that limit airlift",
+   "v2": "Escalate the cap on US carriers, the absence of an Open Skies agreement and the bilateral agreements that limit airlift",
+   "ids": [
+    "P17"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while Nigerian and Ghanaian visitors spend R31,000 and R27,700 each.",
+   "v2": "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while West African visitors spend the most per visit.",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Spend per visitor Nigeria R31,000, Ghana R27,700 and Kenya R16,900; African visitors spent R4.2bn in 2025",
+   "v2": "Spend per visitor Nigeria R31,000, Ghana R27,700 and Kenya R16,900 (printed averages; they do not reconcile with the printed totals); African visitors spent R4.2bn in 2025",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Escalate visas for African markets, building on the 2024 Ghana visa waiver, and liberalisation of regional air routes",
+   "v2": "Escalate visas for African markets, building on the Ghana visa waiver of November 2023, and liberalisation of regional air routes",
+   "ids": [
+    "P16"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The gateway. Current air access caps inbound seats at 1.8 million, and the base case passes that ceiling at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). The international terminal upgrade at Cape Town International is due about 2032 and the runway about 2033 (Infrastructure Report, Jul 2026, p103).",
+   "v2": "The gateway. The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21); the runway binds at peak hours. The international terminal upgrade at Cape Town International is due about 2032 and the runway about 2033 (Infrastructure Report, Jul 2026, p103).",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "October 2026: Reworded. The October record gives the reason as 16 of 27 routes above 80% and fares before seats. MIDAS, the source, prints eleven routes above 80%; sixteen is the count at 75% or more, and the report uses both on that basis [Summary of Findings, 14 Oct 2026: the deck's basis for 16 to confirm]. MIDAS and the Infrastructure Report's air-access section drove the change.",
+   "v2": "October 2026: Reworded. The reason is full routes and fares before seats: eleven routes run above 80% load and sixteen at 75% or more (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). MIDAS and the Infrastructure Report's air-access section drove the change.",
+   "ids": [
+    "C2",
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 3.9. The network is full on its best routes, the airport is full at its runway, and relief lands after the base case passes the seat ceiling.",
+   "v2": "Table 3.9. The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "A seat ceiling in 2030",
+   "v2": "A seat line in 2030",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Current air access caps inbound seats at 1.8 million; the base case passes it at the 2030 year point (1,802,929)",
+   "v2": "The model draws current air access at 1.8 million inbound seats; the base case crosses it at the 2030 year point (1,802,929)",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033",
+   "v2": "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033; ACSA's latest schedule shows the runway by December 2029",
+   "ids": [
+    "C1.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "IR p101 to p103",
+   "v2": "IR p101 to p103; ACSA, Aug 2026",
+   "ids": [
+    "C1.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "George is solved by 2028 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
+   "v2": "George doubles by 2028 or 2029 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Set up a public-private air access fund for route support, on the Chilean model",
+   "v2": "Scale and ring-fence Cape Town Air Access's route fund as a public-private fund for route support, with a set size and governance",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Chile treated its gateway airport as economic infrastructure: a private concession funded a ~US$900 million expansion at Santiago, and international seats grew ~40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). The required change for the Western Cape is a permanent, well-funded public-private air access fund and active lobbying for air service liberalisation (p28).",
+   "v2": "Chile treated its gateway airport as economic infrastructure: a private concession funded a ~US$900 million expansion at Santiago, and international seats grew ~40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). For the Western Cape the lesson splits by tier. The province can scale its existing route fund; open skies and private airport finance are national levers, so this report carries them in the escalation agenda (focus area 19). Chile's 2024 surge also came mostly overland: land borders carried 55.6% of arrivals and Argentina about 40% (Sernatur, Anuario de Turismo 2024, Dec 2025).",
+   "ids": [
+    "M9",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Initiative I6, route development and seat retention with a public-private air access fund (section 4.3). Indicators T1-01 international arrivals at impact level, and T2-09 seats and routes and T2-10 routes above 80% load at outcome level (section 5.2).",
+   "v2": "Initiative I6, route development and seat retention with a public-private air access fund (section 4.3). Indicators T1-01 international arrivals at impact level, and T2-09 seats and routes and T2-10 seats added on full routes at outcome level (section 5.2).",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Two measures are missing. No deliverable counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share: 3.6% of 2024 visitors stayed in hotels, against 17.4% in self-catering (Current State Diagnostic, Dec 2025, p27).",
+   "v2": "Two measures are missing. No deliverable counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share from the 2024 visitor survey: 3.6% of respondents named hotels and 17.4% self-catering, shares that cover under a third of the sample (Current State Diagnostic, Dec 2025, p27).",
+   "ids": [
+    "M12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Twenty communities hold 18.4% of the province's residents but a traced 0.02% to 0.04% of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
+   "v2": "Twenty communities hold 18.4% of the province's residents but receive only a small documented share of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The plan's five cases set the order of action: a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure (SME and Community Inclusion Plan, Sep 2026, p12). Kliptown in Soweto shows the cost of the reverse order. Walter Sisulu Square cost R160 million to R180 million before an operator was in place, and drew about 4,000 museum visitors a year by 2017 against a business case of almost 200,000 international visitors (p11).",
+   "v2": "[Open item: the Inclusion Plan to set out how the R4m to R10m floor was traced.]",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "The plan's five cases set the order of action: a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure (SME and Community Inclusion Plan, Sep 2026, p12). Kliptown in Soweto shows the cost of the reverse order. Walter Sisulu Square cost R160 million to R180 million, out of the R436 million first allocated to Kliptown (section 2.6), before an operator was in place, and drew about 4,000 museum visitors a year by 2017 against a business case of almost 200,000 international visitors (p11).",
+   "ids": [
+    "M8"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that Treasury Circular 131 has disrupted.",
+   "v2": "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that MFMA Circular No. 131 has disrupted.",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Most local tourism bodies are not operationally sustainable without municipal funding, and Treasury Circular 131 has disrupted that route (Department of Economic Development)",
+   "v2": "Most local tourism bodies are not operationally sustainable without municipal funding, and MFMA Circular No. 131 has disrupted that route (Department of Economic Development)",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Meiringspoort closed since the flood of 6 May 2026; rebuild R421m over about 26 months; De Rust's pass-through trade cut",
+   "v2": "Meiringspoort closed since the flood of 6 May 2026; rebuild R421m over about 26 months; De Rust's pass-through trade cut; a temporary one-lane reopening is targeted for December 2026",
+   "ids": [
+    "P20"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "SCIP p24",
+   "v2": "SCIP p24; Western Cape Government, Jul 2026",
+   "ids": [
+    "P20",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Resolve the effect of Treasury Circular 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+   "v2": "Resolve the effect of MFMA Circular No. 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "October 2026: Validated. No pipeline. The Infrastructure Report's pipeline and gap-closure tables drove the disposition, with the stakeholder view that funding sits below peers and the Chilean and New Zealand benchmarks. The reason is an inference: the report lists a large capital pipeline, and its gap columns show that none of it reaches tourism product.",
+   "v2": "October 2026: Validated, on inference. No pipeline. The Infrastructure Report's pipeline and gap-closure tables drove the disposition, with the stakeholder view that funding sits below peers and the Chilean and New Zealand benchmarks. The reason is an inference: the report lists a large capital pipeline, and its gap columns show that none of it reaches tourism product.",
+   "ids": [
+    "M3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Set up the public-private air access fund with ring-fenced corridor budgets (focus area 7)",
+   "v2": "Scale Cape Town Air Access's route fund into the public-private air access fund, with ring-fenced corridor budgets (focus area 7)",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is weak, so the province needs one shared agenda with clear decision rights.",
+   "v2": "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is under strain, so the province needs one shared agenda with clear decision rights.",
+   "ids": [
+    "M13"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Constitute the Tourism Growth Steerco with DEDAT and Cape Town Tourism, and agree a decision-rights map by tier from the Diagnostic's tier table",
+   "v2": "Constitute the Tourism Growth Steerco, co-chaired with DEDAT and with Cape Town Tourism as a standing member, and agree a decision-rights map by tier from the Diagnostic's tier table",
+   "ids": [
+    "C6.4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The 2024 Ghana visa waiver drove 36,656 arrivals to South Africa",
+   "v2": "Ghanaian arrivals reached 36,656 in 2024, the first full year of the visa waiver that took effect on 1 November 2023",
+   "ids": [
+    "P16"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro and DEDAT should commission a tourism labour analysis in 2027. It should fix a provincial employment baseline, test the 300,000 ambition and identify the occupations and skills the growth case needs. Until it reports, Chapter 5 carries jobs as a ratio-based measure on Wesgro's own rule of two jobs per 100 international passengers (section 5.3). The skills plan then runs through the quality charter, where the Benchmarking Report places work-force capability (Global Benchmarking Report, Mar 2026, p42).",
+   "v2": "Wesgro and DEDAT should commission a tourism labour analysis in 2027. It should fix a provincial employment baseline, test the 300,000 ambition and identify the occupations and skills the growth case needs. Until it reports, Chapter 5 carries jobs without a baseline or target. The skills plan then runs through the quality charter, where the Benchmarking Report places work-force capability (Global Benchmarking Report, Mar 2026, p42).",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Initiative I18, tourism labour analysis and skills plan (section 4.3). Indicators T1-04 tourism jobs at impact level, carried as a ratio-based projection until the analysis reports, and T2-25 labour analysis published at outcome level (section 5.2).",
+   "v2": "Initiative I18, tourism labour analysis and skills plan (section 4.3). Indicators T1-04 tourism jobs at impact level, with its baseline set by the analysis, and T2-25 labour analysis published at outcome level (section 5.2).",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The gateway binds first. Current air access places a hard ceiling at 1.8 million inbound seats, and the base case passes it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). Between those dates, growth has to come from larger aircraft and added frequency on the full routes, from hub-carrier capacity and from George, whose terminal doubles by 2028 (focus areas 5, 6 and 7).",
+   "v2": "The gateway binds first, at peak. The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). ACSA now schedules the realigned runway for December 2029, subject to contract award. This plan keeps about 2033 as its planning date and treats the earlier date as upside (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026). Between those dates, growth has to come from larger aircraft and added frequency on the full routes, from hub-carrier capacity and, for domestic connections, from George, whose terminal doubles by 2028 or 2029 (focus areas 5, 6 and 7).",
+   "ids": [
+    "C1.1",
+    "C1.3",
+    "M10",
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "If the supply moves slip, the case stops at the ceiling. The deck states that the projected growth cannot be realised without additional capacity or frequency (Demand-Side Analysis, Jun 2026, p21), and that without confirmed routes the accelerated case reverts to base (p20). Demand work cannot make up the gap, because marketing into full routes raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion).",
+   "v2": "If the supply moves slip, the case stops at the seat line. The deck states that the projected growth cannot be realised without additional capacity or frequency (Demand-Side Analysis, Jun 2026, p21), and that without confirmed routes the accelerated case reverts to base (p20). On the full routes, demand work cannot make up the gap, because marketing raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion); on the hub routes, which have seats to spare, it can.",
+   "ids": [
+    "C1.1",
+    "C2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 3.25. The first phase works the seats and the booking path before the base case reaches the seat ceiling, and the direct routes wait for runway relief.",
+   "v2": "Table 3.25. The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Before the base case reaches the seat ceiling at the 2030 point",
+   "v2": "Before the base case crosses the model's seat line around 2030",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The 2030 mid-term review tests the ceiling; terminal relief from about 2032",
+   "v2": "The 2030 mid-term review tests the seat line; terminal relief from about 2032",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat ceiling from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
+   "v2": "Source: Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat line from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). The first gate, at the end of 2028, falls in Wesgro's FY2028/29, two years before the base case reaches the seat ceiling at its 2030 point (Demand-Side Analysis, Jun 2026, p21).",
+   "v2": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). The first gate, at the end of 2028, falls in Wesgro's FY2028/29, two years before the base case crosses the model's seat line around 2030 (Demand-Side Analysis, Jun 2026, p21).",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Phase 2 scales what Phase 1 proved and meets the seat ceiling. Hub conversion, regional Africa and segment marketing run at scale. Corridor mobility and product move from design to delivery, on the Garden Route, the Winelands and the Overberg first. The quality charter is adopted and phased by district, and the investment pipeline reaches financial close on its first projects. The mid-term review in 2030 tests arrivals against the base path when the ceiling binds, and checks that the runway is on its published dates (section 5.6).",
+   "v2": "Phase 2 scales what Phase 1 proved and meets the model's seat line. Hub conversion, regional Africa and segment marketing run at scale. Corridor mobility and product move from design to delivery, on the Garden Route, the Winelands and the Overberg first. The quality charter is adopted and phased by district, and the investment pipeline reaches financial close on its first projects. The mid-term review in 2030 tests arrivals against the base path when the base case crosses the model's seat line, and checks that the runway is on its published dates (section 5.6).",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Main: Wesgro operating budget, provincial and municipal budgets, private capital. Supporting: national programmes and SOEs. Rand band to be set (section 4.6).",
+   "v2": "Main: Wesgro operating budget, provincial and municipal budgets, private capital. Supporting: national programmes and SOEs. Rand band to be set (section 4.6). [Open item: Air Access to give the current size and funders of its route fund.]",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "T1-01; T2-09 seats and routes, T2-10 routes above 80% load; T3-11 fund constituted; T3-12 runway milestone reports issued.",
+   "v2": "T1-01; T2-09 seats and routes, T2-10 seats added on full routes; T3-11 fund constituted; T3-12 runway milestone reports issued.",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Provincial and local; national for Treasury Circular 131",
+   "v2": "Provincial and local; national for MFMA Circular No. 131",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Twelve actions can start by mid-2028 inside Wesgro's current mandate, and each one opens a baseline, a seat or a booking path that a later initiative needs.",
+   "v2": "Twelve actions can start by mid-2028, nine of them inside Wesgro's current mandate and budget, and each one opens a baseline, a seat or a booking path that a later initiative needs.",
+   "ids": [
+    "C6.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro CEO's office",
+   "v2": "Wesgro CEO's office; DEDAT",
+   "ids": [
+    "C6.4",
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Crowding in capital. The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p15, p31, p32). Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14; Infrastructure Report, Jul 2026, p32 to p87). The air access fund draws public and private money on the Chilean model (I6; Global Benchmarking Report, Mar 2026, p28).",
+   "v2": "Crowding in capital. The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p15, p31, p32). Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14; Infrastructure Report, Jul 2026, p32 to p87). The air access fund scales Cape Town Air Access's existing route fund with public and private money (I6).",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Steerco. A Tourism Growth Steerco chaired at Wesgro CEO level, with DEDAT and Cape Town Tourism as standing members and the City of Cape Town, the district municipalities and the industry bodies at the table. It receives the quarterly scorecard, clears cross-initiative issues, holds the escalation agenda and recommends gate decisions to the Board. Stakeholders asked for this kind of alignment directly: mobility responsibilities alone are split across three tiers of government (Stakeholder Insights Report, Mar 2026, p23).",
+   "v2": "Steerco. A Tourism Growth Steerco co-chaired by Wesgro's CEO and DEDAT's Head of Department, with Cape Town Tourism as a standing member and the City of Cape Town, the district municipalities and the industry bodies at the table. It is distinct from the Unlocking Tourism Steerco that oversees this study. It receives the quarterly scorecard, clears cross-initiative issues, holds the escalation agenda and recommends gate decisions to the Board. Stakeholders asked for this kind of alignment directly: mobility responsibilities alone are split across three tiers of government (Stakeholder Insights Report, Mar 2026, p23).",
+   "ids": [
+    "C6.4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Move to Expand; scale or stop each pilot; confirm route cases for India and China",
+   "v2": "Move to Expand; scale or stop each pilot; confirm route cases for India and China, and bring them into Phase 2 if ACSA awards the runway contract on its December 2029 schedule",
+   "ids": [
+    "C1.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Arrivals against the base path at the seat ceiling (T1-01); runway on its published dates; green-season share (T1-05)",
+   "v2": "Arrivals against the base path at the model's seat line (T1-01); peak-hour runway headroom; runway on its published dates; green-season share (T1-05)",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Re-sequence Phase 2 if the ceiling binds early or relief slips",
+   "v2": "Re-sequence Phase 2 if peak capacity binds early or relief slips",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Six of the ten material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act.",
+   "v2": "Ten of the fourteen material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act.",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 4.7. Ten risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
+   "v2": "Table 4.7. Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Quarterly milestone tracking; frequency and gauge on full routes; George as second gateway (I6)",
+   "v2": "Quarterly milestone tracking; frequency and gauge on full routes; George for domestic connections (I6)",
+   "ids": [
+    "M10"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "LTO funding collapses under Treasury Circular 131",
+   "v2": "LTO funding collapses under MFMA Circular No. 131",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
+   "v2": "Gulf hub disruption cuts connecting capacity",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Hub routes carry 53% of arrivals on the ten largest routes (DSA p13)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Medium",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "High",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Spread hub-carrier work across Dubai, Doha, Addis Ababa and Istanbul; keep direct-route cases ready (I4, I6)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Air Access",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "A downturn in the core markets",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "The UK, Germany and the USA supply 52% of overseas arrivals (DSA p13)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Medium",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "High",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Rebalance activation towards Africa and the hub markets (I1, I4, I5)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Destination Marketing",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Wesgro's operating budget is cut",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Thirteen initiatives draw mainly on Wesgro's operating budget (Table 4.5)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Medium",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "High",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Rand bands and a stop list agreed with DEDAT before Gate 1 (Decision 3)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Wesgro CEO's office; DEDAT",
+   "ids": [
+    "C6.4",
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Resident pushback in the Metro",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Public debate on locals' costs and access (Hypertext, Apr 2026)",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Medium",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Medium",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Spread visitors in time and space (I2, I8, I9); track resident sentiment",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "City of Cape Town; Cape Town Tourism",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Source: Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
+   "ids": [
+    "M11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "T2-09 seats and routes; T2-10 routes above 80% load",
+   "v2": "T2-09 seats and routes; T2-10 seats added on full routes",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "SA Tourism",
+   "v2": "SA Tourism [Open item: SA Tourism cannot report the Hubs group; Skift to define it.]",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Jobs supported by international air arrivals, on Wesgro's ratio, until the labour analysis sets a provincial measure",
+   "v2": "Tourism jobs in the Western Cape, on the measure the labour analysis sets (I18)",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Wesgro ratio; Stats SA TSA",
+   "v2": "Labour analysis (I18); Stats SA TSA",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Spend traced to businesses trading inside the 20 shortlisted communities, as a share of foreign direct spend",
+   "v2": "Spend traced to businesses trading inside the pilot communities, as a share of foreign direct spend; widened to the 20 shortlisted communities once a source covers them",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "India 71,000; China 29,600 (2025)",
+   "v2": "India 76,547; China with Hong Kong 43,412 (2025, model value)",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "MIDAS, The Indian Market Opportunity; The Chinese Market Opportunity",
+   "v2": "MA p20, p22",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "323,971 arrivals (2024); R4.2bn spend (2025)",
+   "v2": "292,514 arrivals (2025, model value, regional group); R4.2bn spend (2025)",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "DSA p27, p29",
+   "v2": "MA p20; DSA p29",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Routes above 80% load",
+   "v2": "Seats added on routes above 80% load",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "11 of 27 (year to Nov 2025)",
+   "v2": "11 routes above 80% (year to Nov 2025); seats added from the capacity-against-demand model (I6)",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "The seven without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24 and T2-25. Each carries no target until its baseline exists, on the dates in Table 5.9.",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The arrivals targets come straight from the growth model, the jobs targets from a stated ratio, and the other Tier 1 targets wait for baselines that do not yet exist.",
+   "v2": "The arrivals targets come straight from the growth model, while the jobs and other Tier 1 targets wait for baselines that do not yet exist.",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Figure 5.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031.",
+   "v2": "Figure 5.2. Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21 (2028 and 2035 points; 1.8m ceiling). The 2031 base value is the geometric mean of the printed 2030 and 2032 points; the accelerated and conservative milestones are computed at a constant rate between the printed 2025 and 2035 values.",
+   "v2": "Source: Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21 (2028 and 2035 points; 1.8m seat line). The 2031 base value is the geometric mean of the printed 2030 and 2032 points; the accelerated and conservative milestones are computed at a constant rate between the printed 2025 and 2035 values.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 5.7. Arrivals and jobs carry targets on both paths; spend carries the working analysis's base path; the other Tier 1 indicators carry dated baselines first.",
+   "v2": "Table 5.7. Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first.",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "1,498,829 (2025); CTIA 1.44m (FY24/25)",
+   "v2": "1,498,829 (2025, model value); CTIA 1.44m (FY24/25)",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "R25.9bn (FY2025)",
+   "v2": "R25.9bn (FY2025, nominal)",
+   "ids": [
+    "C4.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "R33.7bn in 2030 (base, modelled)",
+   "v2": "R33.7bn in 2030 (base, modelled, constant 2024 rand)",
+   "ids": [
+    "C4.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "R40.6bn (base, modelled); accelerated not modelled",
+   "v2": "R40.6bn (base, modelled, constant 2024 rand); accelerated not modelled",
+   "ids": [
+    "C4.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "T1-04 Tourism jobs (ratio)",
+   "v2": "T1-04 Tourism jobs",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 30,000 jobs supported (2025)",
+   "v2": "Set by the labour analysis (I18)",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "33,500 / 35,000",
+   "v2": "Set at Gate 1",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "37,400 / 40,900",
+   "v2": "Set at Gate 1",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "43,500 / 50,300",
+   "v2": "Set at Gate 1",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "About 35% (2025, provisional; 38.1% normalised); 39% (2024)",
+   "v2": "38.1% (2025, normalised); 39% (2024)",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked ). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: Wesgro's ratio of two jobs per 100 international passengers, applied to T1-01 (computed; public source, see the note below). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
+   "v2": "Source: T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked ). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: baseline and targets to be set by the labour analysis (I18). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Arrivals. The model's 2025 base and the airport series measure different things: tourist arrivals on the model's basis, and international passenger arrivals at Cape Town International. The airport series is the quarterly proxy because ACSA publishes it, and it stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11). Both are reported, each against its own history.",
+   "v2": "Arrivals. The model's 2025 base and the airport series measure different things: arrivals on the growth model's basis, which Skift is to confirm (section 1.1), and international passenger arrivals at Cape Town International. The airport series is the quarterly proxy because ACSA publishes it, and it stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11). Both are reported, each against its own history.",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Jobs. No deliverable carries a provincial tourism employment baseline, and the Pero tourism table could not be retrieved [provincial tourism employment baseline: Wesgro Research to supply from the Pero 2025 or the Stats SA provincial TSA]. The Tier 1 measure is therefore jobs supported by international air arrivals, on Wesgro's own rule of thumb of two jobs for every 100 international passengers, which counts direct, indirect and induced jobs (public source: Wesgro and Cape Town Air Access releases, 2023 to 2024) [methodology note for the ratio: Cape Town Air Access to supply]. Applied to the arrivals paths, it gives about 30,000 jobs in 2025 and adds about 13,500 on the base path and 20,300 on the accelerated path by 2035. It is a ratio-based projection, not a labour-market measure.",
+   "v2": "Spend. T1-03's path holds spend per arrival fixed, so its targets are in constant 2024 rand, while SA Tourism reports nominal rand; progress is read after deflating by CPI. The model's 2024 spend of R27.12bn sits 19% above the R22.7bn SA Tourism reported for FY2024 (Market Assessment Report, May 2026, p10, p24). [Open item: Skift to rebase the spend path on the FY2025 actual of R25.9bn.]",
+   "ids": [
+    "C4.2",
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The ratio does not reach the 300,000 tourism-linked jobs in the Inception Report's ambition, because it counts only jobs linked to international air arrivals (Inception Report, Nov 2025, p4). The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026).",
+   "v2": "Jobs. No deliverable carries a provincial tourism employment baseline, and the Pero tourism table could not be retrieved [provincial tourism employment baseline: Wesgro Research to supply from the Pero 2025 or the Stats SA provincial TSA]. T1-04 therefore carries no baseline or modelled path until the labour analysis sets a provincial measure (I18).",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Green season. Plan decision 6 sets the October to March share at about 65% for 2025, provisional, which puts the green season at about 35%. The 2025 month table sums to 104.9%, and once normalised it gives 61.9% and 38.1%, in line with the printed 61% and 39% for 2024 (Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32). The report recommends the normalised figure as the baseline [Michael to confirm: switch the T1-05 baseline to 38.1%].",
+   "v2": "The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026).",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "",
+   "v2": "Green season. The 2025 month table sums to 104.9%. Normalised, it gives 61.9% for October to March and 38.1% for the green season, in line with the printed 61% and 39% for 2024 (Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32). T1-05 uses 38.1% as its baseline.",
+   "ids": [
+    "C4.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Re-score in 2029 and 2032",
+   "v2": "Re-score in 2029 and 2032 [Open item: publish the scoring formula before the 2029 re-score; the Infrastructure Report's overall ratings are judgement-based (Appendix A4).]",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table 5.9. Eleven data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+   "v2": "Table 5.9. Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "Methodology for two jobs per 100 passengers",
+   "v2": "",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "T1-04",
+   "v2": "",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "Air Access",
+   "v2": "",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "Mid 2027",
+   "v2": "",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "delete",
+   "v1": "Cape Town Air Access note",
+   "v2": "",
+   "ids": [
+    "C4.3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Two evaluations bracket the plan: a mid-term review in 2030, when the seat ceiling binds, and a terminal evaluation in 2035.",
+   "v2": "Two evaluations bracket the plan: a mid-term review in 2030, when the base case crosses the model's seat line, and a terminal evaluation in 2035.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The mid-term review tests whether the plan is on its path and whether the path still holds. It falls in 2030 because that is when the base case reaches the 1.8 million seat ceiling (Demand-Side Analysis, Jun 2026, p21) and two years before relief at Cape Town International (Infrastructure Report, Jul 2026, p103). The terminal evaluation in 2035 measures the result against both paths and sets up the next plan. Both should be run by a party independent of the programme office.",
+   "v2": "The mid-term review tests whether the plan is on its path and whether the path still holds. It falls in 2030 because that is when the base case crosses the model's 1.8 million seat line (Demand-Side Analysis, Jun 2026, p21), before runway relief on the planning date (Infrastructure Report, Jul 2026, p103). The terminal evaluation in 2035 measures the result against both paths and sets up the next plan. Both should be run by a party independent of the programme office.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Stakeholder Insights (Treasury Circular 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
+   "v2": "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The demand model takes international arrivals from 1,498,829 in 2025 to 1,822,634, 2,175,778 or 2,516,282 in 2035, and its base case passes the 1.8 million seat ceiling at the 2030 year point.",
+   "v2": "The demand model takes international arrivals from 1,498,829 in 2025 to 1,822,634, 2,175,778 or 2,516,282 in 2035, and its base case crosses the 1.8 million seat line the model draws, at the 2030 year point.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "+328,805",
+   "v2": "+323,805",
+   "ids": [
+    "P7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The May deck prints Conservative absolute growth of +328,805, but its own end points give +323,805; its 10-year CAGRs do match the end points (computed; Market Assessment Report, May 2026, p19). The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Both subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20).",
+   "v2": "The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Both subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20).",
+   "ids": [
+    "P7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Seat ceiling and model limits",
+   "v2": "Seat line and model limits",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals.",
+   "v2": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals. At the 79% average load factor, 1.8 million seats would carry about 1.42 million arrivals, below the 1.57 million recorded in FY25/26, so this report reads the line as the model's assumption, not a measured cap (section 1.3).",
+   "ids": [
+    "C1.1",
+    "C1.2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.9. The model prints its seat ceiling and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+   "v2": "Table A.9. The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Seat ceiling",
+   "v2": "Seat line",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Year the ceiling binds",
+   "v2": "Year the line is crossed",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). It printed ranks 7 to 30 with scores and reasons for exclusion; ranks 1 to 6 and their scores appear nowhere (p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16).",
+   "v2": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.12. Five of the six printed growth rates exceed the 3% to 5% global norm, and four of the six cases pair structural demand creation with demand activation.",
+   "v2": "Table A.12. Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation.",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "New Zealand, Auckland Park",
+   "v2": "New Zealand",
+   "ids": [
+    "P11"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals.",
+   "v2": "Source: Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals. Corrected 2024 figures: Chile 40.4% (116% of 2019), Singapore 21% (86% of 2019), Kenya 14.6% (section 2.2).",
+   "ids": [
+    "M2"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Shift from asset-led to system-led tourism development; strengthen coordination across public & private sector and communities; position WC as a demand anchor; integrate MICE and business travel into broader tourism system; formalise conservation and community inclusion as part of the tourism value proposition",
+   "v2": "Shift from asset-led to system-led tourism development; strengthen coordination across public & private sector and communities; position WC as a demand anchor; integrate MICE and business travel into broader tourism system; build conservation and community inclusion into the tourism value proposition",
+   "ids": [
+    "P12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened only by cutting; initial capitals, dashes and list commas follow house style.",
+   "v2": "Source: Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened by cutting, with one verb paraphrased; initial capitals, dashes and list commas follow this report's style.",
+   "ids": [
+    "C5",
+    "P12"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Infrastructure Report, Jul 2026, p10, as printed in sentence case; the label 'Road Netowrk' is corrected.",
+   "v2": "Source: Infrastructure Report, Jul 2026, p10, as printed in sentence case.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Overall rating. The printed overall ratings do not follow the stated weights. Applied to the printed dimension scores, 40/30/30 gives 3.25 for the Cape Metro and 3.91 for the Garden Route, against printed ratings of 4.5 and 3.4 (computed). The unweighted mean of each scorecard's category bars matches the printed rating to one decimal in five of six districts (computed). The exception is the Overberg, whose bars average 2.782 against 2.7 printed. The slides do not state how the overall rating is derived, and the method slides name no benchmark values behind the calibration claimed on p15.",
+   "v2": "Overall rating. The overall ratings are the Infrastructure Report's evidence-informed judgement, not a weighted formula, so this report does not re-derive them.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The slides spell Cederberg 'Cederburg' and title both p72 and p73 'West Coast / Overberg'. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
+   "v2": "Source: Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Cape Winelands share. The main gauge on the Cape Winelands asset slide prints 40.3%, the Cape Metro's share, while the slide's text layer carries 15.4% (p45). The count supports 15.4%, since 7,730 of 50,332 assets is 15.4% (computed). This appendix uses 15.4%.",
+   "v2": "Cape Winelands share. This appendix uses 15.4%, computed from the count (7,730 of 50,332).",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Stakeholder Insights Report, Mar 2026, p16 (type, where listed; the three local or district tourism bodies overlap the p16 supply-side entry Tourism offices of each District) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16. Slide titles print Mossell Bay, Dep Mobility, Dep Economic Development, Statistic SA, Table Mountain Ariel Cable and Cape Nature.",
+   "v2": "Source: Stakeholder Insights Report, Mar 2026, p16 (type, where listed; the three local or district tourism bodies overlap the p16 supply-side entry Tourism offices of each District) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Source: Stakeholder Insights Report, Mar 2026, p14. Bullets as printed with initial capitals lowered, except the second bullet of the second area, reworded for house style; the last is truncated on the slide.",
+   "v2": "Source: Stakeholder Insights Report, Mar 2026, p14. Bullets as printed with initial capitals lowered, except the second bullet of the second area, reworded for this report's style; the last is truncated on the slide.",
+   "ids": [
+    "C5"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Escalate the cap on US carriers, the unsigned Open Skies agreement and the bilateral agreements that limit airlift",
+   "v2": "Escalate the cap on US carriers, the absence of an Open Skies agreement and the bilateral agreements that limit airlift",
+   "ids": [
+    "P17"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Escalate visas for African markets, building on the 2024 Ghana visa waiver, and liberalisation of regional air routes",
+   "v2": "Escalate visas for African markets, building on the Ghana visa waiver of November 2023, and liberalisation of regional air routes",
+   "ids": [
+    "P16"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Set up a public-private air access fund for route support, on the Chilean model",
+   "v2": "Scale and ring-fence Cape Town Air Access's route fund as a public-private fund for route support, with a set size and governance",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Resolve the effect of Treasury Circular 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+   "v2": "Resolve the effect of MFMA Circular No. 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+   "ids": [
+    "P18"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Set up the public-private air access fund with ring-fenced corridor budgets (focus area 7)",
+   "v2": "Scale Cape Town Air Access's route fund into the public-private air access fund, with ring-fenced corridor budgets (focus area 7)",
+   "ids": [
+    "M9"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Constitute the Tourism Growth Steerco with DEDAT and Cape Town Tourism, and agree a decision-rights map by tier from the Diagnostic's tier table",
+   "v2": "Constitute the Tourism Growth Steerco, co-chaired with DEDAT and with Cape Town Tourism as a standing member, and agree a decision-rights map by tier from the Diagnostic's tier table",
+   "ids": [
+    "C6.4"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Routes above 80% load",
+   "v2": "Seats added on routes above 80% load",
+   "ids": [
+    "M7"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Eleven terms carry a specific meaning in this report, and nineteen documents support it, cited by the date on their covers.",
+   "v2": "Eleven terms carry a specific meaning in this report, and twenty-eight documents support it, cited by the date on their covers.",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "On the growth model's basis, tourist arrivals; distinct from international passenger arrivals at Cape Town International, which ACSA reports",
+   "v2": "On the growth model's basis, which Skift is to confirm; distinct from international passenger arrivals at Cape Town International, which ACSA reports",
+   "ids": [
+    "C3"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Seat ceiling",
+   "v2": "Seat line",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "The 1.8 million inbound seats that current air access provides, as drawn in the Demand-Side Analysis",
+   "v2": "The 1.8 million inbound seats the growth model draws as current air access, as drawn in the Demand-Side Analysis; a model assumption, not a measured cap (section 1.3)",
+   "ids": [
+    "C1.1"
+   ]
+  },
+  {
+   "op": "replace",
+   "v1": "Table A.33. Twelve study documents, six public and reference sources and one deck not yet in hand support the report.",
+   "v2": "Table A.33. Twelve study documents, fifteen public and reference sources and one deck not yet in hand support the report.",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Western Cape Tourism Performance: Annual 2025",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Wesgro Research (SA Tourism data)",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "2026",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Q1 2026/27 performance presentation to the Portfolio Committee on Transport, as reported by Travel News",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "ACSA",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "August 2026",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Parliamentary reply on Cape Town International runway capacity",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Minister of Transport",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "April 2025",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Anuario de Turismo 2024",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Sernatur, Chile",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "December 2025",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Singapore achieves historical high in tourism receipts in 2024",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Singapore Tourism Board",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "February 2025",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "World Tourism Barometer",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "UN Tourism",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "January 2025 and January 2026",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "George Airport expansion reporting",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "George Herald",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "July 2026",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Meiringspoort temporary reinstatement",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Western Cape Government",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "July 2026",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Kenya 2024 tourism performance, as reported",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "The Star (Kenya)",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "May 2025",
+   "ids": [
+    "Sources"
+   ]
+  },
+  {
+   "op": "insert",
+   "v1": "",
+   "v2": "Public source",
+   "ids": [
+    "Sources"
+   ]
+  }
+ ],
+ "unexplained": [],
+ "toc_only": 141
+}

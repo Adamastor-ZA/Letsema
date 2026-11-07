@@ -73,8 +73,9 @@ const spacer = (pt = 6) => { const p = new Paragraph({ spacing: { before: 0, aft
 
 // Numbered and bulleted lists. Each call to numbered() restarts at 1 through a fresh instance.
 let listInstance = 0;
-function numbered(items, reference = 'n_policy') {
-  listInstance += 1;
+// cont = true carries the numbering on from the previous list (a list split by an intervening paragraph).
+function numbered(items, reference = 'n_policy', cont = false) {
+  if (!cont) listInstance += 1;
   const inst = listInstance;
   return items.map((t) => new Paragraph({ style: 'ListText', numbering: { reference, level: 0, instance: inst }, children: runs(t) }));
 }
@@ -109,11 +110,11 @@ const thinBorder = { style: BorderStyle.SINGLE, size: 4, color: C.mid };
 const noBorder = { style: BorderStyle.NONE, size: 0, color: C.white };
 const cellMargins = { top: 60, bottom: 60, left: 90, right: 90 };
 
-function cellText(content, { head = false, align = AlignmentType.LEFT, bold = false } = {}) {
+function cellText(content, { head = false, align = AlignmentType.LEFT, bold = false, keepNext = false } = {}) {
   const style = head ? 'TableHead' : 'TableText';
   if (Array.isArray(content) && content.length && content[0] instanceof Paragraph) return content;
   const lines = String(content == null ? '' : content).split('\n');
-  return lines.map((line) => new Paragraph({ style, alignment: align, children: runs(line, bold ? { bold: true } : {}) }));
+  return lines.map((line) => new Paragraph({ style, alignment: align, keepNext, children: runs(line, bold ? { bold: true } : {}) }));
 }
 
 // columns: [{ header, width (fraction of text width or cm), align }]
@@ -129,7 +130,9 @@ function table(ctx, { caption, source, columns, rows, fontSize, headShade = C.he
     children: columns.map((c, i) => new TableCell({
       width: { size: colDxa[i], type: WidthType.DXA }, margins: cellMargins,
       shading: { type: ShadingType.CLEAR, fill: headShade, color: 'auto' }, verticalAlign: VerticalAlign.BOTTOM,
-      children: cellText(c.header, { head: true, align: c.align || AlignmentType.LEFT }),
+      // keepNext holds the header row with the first body row: a header left alone at a page foot made LibreOffice drop
+      // the rows that follow it (Table 5.2 in draft v1).
+      children: cellText(c.header, { head: true, align: c.align || AlignmentType.LEFT, keepNext: true }),
     })),
   });
   const bodyRows = rows.map((r, ri) => new TableRow({

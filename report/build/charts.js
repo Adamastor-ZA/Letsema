@@ -58,7 +58,9 @@ function lineChart(o) {
   const { lo, hi, ticks } = niceTicks(o.yMin != null ? o.yMin : Math.min(...all), Math.max(...all));
   const y = (v) => T + ph - ((v - lo) / (hi - lo)) * ph;
   const n = o.categories.length;
-  const x = (i) => L + (n === 1 ? pw / 2 : (i / (n - 1)) * pw);
+  // timeAxis: categories are calendar years, placed at their true distance rather than evenly spaced.
+  const yrs = o.timeAxis ? o.categories.map(Number) : null;
+  const x = (i) => (yrs ? L + ((yrs[i] - yrs[0]) / (yrs[n - 1] - yrs[0])) * pw : L + (n === 1 ? pw / 2 : (i / (n - 1)) * pw));
   let s = frame(o.title, o.subtitle);
   for (const t of ticks) s += `<line x1="${L}" y1="${y(t)}" x2="${L + pw}" y2="${y(t)}" stroke="${GRID}" stroke-width="1"/><text x="${L - 14}" y="${y(t) + 8}" text-anchor="end" font-size="22" fill="${GREY}">${fmt(t, o.unit)}</text>`;
   o.categories.forEach((c, i) => { s += `<text x="${x(i)}" y="${T + ph + 44}" text-anchor="middle" font-size="22" fill="${GREY}">${esc(c)}</text>`; });
@@ -164,7 +166,8 @@ function stackedBarChart(o) {
 // D = design (light), I = implement (dark). One row per initiative; years as columns.
 function ganttChart(o) {
   const years = o.years;
-  const rowH = 44, headH = o.title ? 150 : 90, L = 520, R = 40;
+  const LABEL_CHARS = 40;
+  const rowH = o.rows.some((r) => String(r.name).length > LABEL_CHARS) ? 54 : 44, headH = o.title ? 150 : 90, L = 520, R = 40;
   const H = headH + o.rows.length * rowH + 60;
   const pw = W - L - R, cw = pw / years.length;
   let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
@@ -183,7 +186,11 @@ function ganttChart(o) {
     const y = headH + ri * rowH;
     s += `<line x1="40" y1="${y + rowH}" x2="${W - R}" y2="${y + rowH}" stroke="${GRID}" stroke-width="1"/>`;
     s += `<text x="40" y="${y + rowH / 2 + 7}" font-size="19" font-weight="700" fill="${INK}">${esc(r.code)}</text>`;
-    s += `<text x="110" y="${y + rowH / 2 + 7}" font-size="19" fill="${INK}">${esc(String(r.name).slice(0, 42))}</text>`;
+    // Names longer than the label column wrap to two lines at a word break.
+    const nm = String(r.name), lines = [];
+    if (nm.length <= LABEL_CHARS) lines.push(nm);
+    else { const cut = nm.lastIndexOf(' ', LABEL_CHARS); lines.push(nm.slice(0, cut), nm.slice(cut + 1)); }
+    lines.forEach((ln, li) => { s += `<text x="110" y="${y + rowH / 2 + 7 + (lines.length === 2 ? (li ? 11 : -11) : 0)}" font-size="19" fill="${INK}">${esc(ln)}</text>`; });
     years.forEach((yr, i) => {
       const c = (r.cells || {})[yr];
       if (!c) return;

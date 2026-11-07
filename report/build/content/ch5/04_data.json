@@ -82,7 +82,7 @@
      "Wesgro; Letsema method",
      "T2-12, T2-14, T2-15",
      "Every three years",
-     "Re-score in 2029 and 2032"
+     "Re-score in 2029 and 2032 [Open item: publish the scoring formula before the 2029 re-score; the Infrastructure Report's overall ratings are judgement-based (Appendix A4).]"
     ],
     [
      "Operator, site and pilot records",
@@ -96,7 +96,7 @@
   },
   {
    "type": "table",
-   "caption": "Eleven data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+   "caption": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
    "source": "Letsema, from the placeholders in Chapters 3 and 5; owners and dates proposed for Steerco to confirm.",
    "columns": [
     {
@@ -139,13 +139,6 @@
      "Research",
      "Mid 2027",
      "Pero; Stats SA provincial TSA"
-    ],
-    [
-     "Methodology for two jobs per 100 passengers",
-     "T1-04",
-     "Air Access",
-     "Mid 2027",
-     "Cape Town Air Access note"
     ],
     [
      "Count of bookable products by district",

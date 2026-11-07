@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "The demand model takes international arrivals from 1,498,829 in 2025 to 1,822,634, 2,175,778 or 2,516,282 in 2035, and its base case passes the 1.8 million seat ceiling at the 2030 year point."
+   "text": "The demand model takes international arrivals from 1,498,829 in 2025 to 1,822,634, 2,175,778 or 2,516,282 in 2035, and its base case crosses the 1.8 million seat line the model draws, at the 2030 year point."
   },
   {
    "type": "h3",
@@ -144,7 +144,7 @@
     ],
     [
      "Absolute growth from 2025",
-     "+328,805",
+     "+323,805",
      "+676,949",
      "+1,017,453"
     ],
@@ -201,7 +201,7 @@
   },
   {
    "type": "note",
-   "text": "The May deck prints Conservative absolute growth of +328,805, but its own end points give +323,805; its 10-year CAGRs do match the end points (computed; Market Assessment Report, May 2026, p19). The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Both subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20)."
+   "text": "The June deck prints 11-year CAGRs of 2.0%, 3.7% and 5.0%, while its own end points give 2.1%, 3.8% and 5.2% (computed). Both subtitles round the Conservative and Accelerated end points to 1.82M and 2.52M (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20)."
   },
   {
    "type": "h3",
@@ -716,15 +716,15 @@
   },
   {
    "type": "h3",
-   "text": "Seat ceiling and model limits"
+   "text": "Seat line and model limits"
   },
   {
    "type": "p",
-   "text": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals."
+   "text": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals. At the 79% average load factor, 1.8 million seats would carry about 1.42 million arrivals, below the 1.57 million recorded in FY25/26, so this report reads the line as the model's assumption, not a measured cap (section 1.3)."
   },
   {
    "type": "table",
-   "caption": "The model prints its seat ceiling and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+   "caption": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios.",
    "source": "MA: Market Assessment Report, May 2026 (working analysis). DS: Demand-Side Analysis, Jun 2026. Pages as listed in each row.",
    "columns": [
     {
@@ -745,12 +745,12 @@
    ],
    "rows": [
     [
-     "Seat ceiling",
+     "Seat line",
      "1.8 million inbound seats, drawn as a line labelled 1.8M and called current; no year or seat definition",
      "MA p20; DS p21"
     ],
     [
-     "Year the ceiling binds",
+     "Year the line is crossed",
      "Not stated; 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it",
      "MA p20; DS p21"
     ],

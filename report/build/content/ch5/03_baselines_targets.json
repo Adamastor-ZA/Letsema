@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "The arrivals targets come straight from the growth model, the jobs targets from a stated ratio, and the other Tier 1 targets wait for baselines that do not yet exist."
+   "text": "The arrivals targets come straight from the growth model, while the jobs and other Tier 1 targets wait for baselines that do not yet exist."
   },
   {
    "type": "p",
@@ -20,8 +20,8 @@
   {
    "type": "figure",
    "id": "fig_5_paths",
-   "caption": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path passes the 1.8m seat ceiling before 2031.",
-   "source": "Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21 (2028 and 2035 points; 1.8m ceiling). The 2031 base value is the geometric mean of the printed 2030 and 2032 points; the accelerated and conservative milestones are computed at a constant rate between the printed 2025 and 2035 values.",
+   "caption": "Only the accelerated path clears 2.5 million arrivals in 2035, and the base path crosses the model's 1.8m seat line before 2031.",
+   "source": "Market Assessment Report, May 2026, p19 (2025 base); Demand-Side Analysis, Jun 2026, p20, p21 (2028 and 2035 points; 1.8m seat line). The 2031 base value is the geometric mean of the printed 2030 and 2032 points; the accelerated and conservative milestones are computed at a constant rate between the printed 2025 and 2035 values.",
    "chart": {
     "type": "line",
     "categories": [
@@ -67,16 +67,16 @@
     "refLines": [
      {
       "value": 1800000,
-      "label": "1.8m inbound seat ceiling"
+      "label": "1.8m seat line (model)"
      }
     ],
-    "footnote": "Milestone years only; the intervals are three, three and four years."
+    "timeAxis": true
    }
   },
   {
    "type": "table",
-   "caption": "Arrivals and jobs carry targets on both paths; spend carries the working analysis's base path; the other Tier 1 indicators carry dated baselines first.",
-   "source": "T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked *). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: Wesgro's ratio of two jobs per 100 international passengers, applied to T1-01 (computed; public source, see the note below). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
+   "caption": "Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first.",
+   "source": "T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked *). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: baseline and targets to be set by the labour analysis (I18). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
    "columns": [
     {
      "header": "Indicator",
@@ -107,7 +107,7 @@
    "rows": [
     [
      "T1-01 International arrivals",
-     "1,498,829 (2025); CTIA 1.44m (FY24/25)",
+     "1,498,829 (2025, model value); CTIA 1.44m (FY24/25)",
      "1,673,855 / 1,750,871*",
      "1,871,637* / 2,045,297*",
      "2,175,778 / 2,516,282"
@@ -121,21 +121,21 @@
     ],
     [
      "T1-03 Direct foreign spend",
-     "R25.9bn (FY2025)",
+     "R25.9bn (FY2025, nominal)",
      "Not printed",
-     "R33.7bn in 2030 (base, modelled)",
-     "R40.6bn (base, modelled); accelerated not modelled"
+     "R33.7bn in 2030 (base, modelled, constant 2024 rand)",
+     "R40.6bn (base, modelled, constant 2024 rand); accelerated not modelled"
     ],
     [
-     "T1-04 Tourism jobs (ratio)",
-     "About 30,000 jobs supported (2025)",
-     "33,500 / 35,000*",
-     "37,400 / 40,900*",
-     "43,500 / 50,300*"
+     "T1-04 Tourism jobs",
+     "Set by the labour analysis (I18)",
+     "Set at Gate 1",
+     "Set at Gate 1",
+     "Set at Gate 1"
     ],
     [
      "T1-05 Green-season share",
-     "About 35% (2025, provisional; 38.1% normalised); 39% (2024)",
+     "38.1% (2025, normalised); 39% (2024)",
      "Level set at Gate 1",
      "Rising",
      "Rising"
@@ -159,19 +159,23 @@
   },
   {
    "type": "p",
-   "text": "**Arrivals.** The model's 2025 base and the airport series measure different things: tourist arrivals on the model's basis, and international passenger arrivals at Cape Town International. The airport series is the quarterly proxy because ACSA publishes it, and it stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11). Both are reported, each against its own history."
+   "text": "**Arrivals.** The model's 2025 base and the airport series measure different things: arrivals on the growth model's basis, which Skift is to confirm (section 1.1), and international passenger arrivals at Cape Town International. The airport series is the quarterly proxy because ACSA publishes it, and it stood at 1.44m in FY24/25 and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11). Both are reported, each against its own history."
   },
   {
    "type": "p",
-   "text": "**Jobs.** No deliverable carries a provincial tourism employment baseline, and the Pero tourism table could not be retrieved [provincial tourism employment baseline: Wesgro Research to supply from the Pero 2025 or the Stats SA provincial TSA]. The Tier 1 measure is therefore jobs supported by international air arrivals, on Wesgro's own rule of thumb of two jobs for every 100 international passengers, which counts direct, indirect and induced jobs (public source: Wesgro and Cape Town Air Access releases, 2023 to 2024) [methodology note for the ratio: Cape Town Air Access to supply]. Applied to the arrivals paths, it gives about 30,000 jobs in 2025 and adds about 13,500 on the base path and 20,300 on the accelerated path by 2035. It is a ratio-based projection, not a labour-market measure."
+   "text": "**Spend.** T1-03's path holds spend per arrival fixed, so its targets are in constant 2024 rand, while SA Tourism reports nominal rand; progress is read after deflating by CPI. The model's 2024 spend of R27.12bn sits 19% above the R22.7bn SA Tourism reported for FY2024 (Market Assessment Report, May 2026, p10, p24). [Open item: Skift to rebase the spend path on the FY2025 actual of R25.9bn.]"
   },
   {
    "type": "p",
-   "text": "The ratio does not reach the 300,000 tourism-linked jobs in the Inception Report's ambition, because it counts only jobs linked to international air arrivals (Inception Report, Nov 2025, p4). The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026)."
+   "text": "**Jobs.** No deliverable carries a provincial tourism employment baseline, and the Pero tourism table could not be retrieved [provincial tourism employment baseline: Wesgro Research to supply from the Pero 2025 or the Stats SA provincial TSA]. T1-04 therefore carries no baseline or modelled path until the labour analysis sets a provincial measure (I18)."
   },
   {
    "type": "p",
-   "text": "**Green season.** Plan decision 6 sets the October to March share at about 65% for 2025, provisional, which puts the green season at about 35%. The 2025 month table sums to 104.9%, and once normalised it gives 61.9% and 38.1%, in line with the printed 61% and 39% for 2024 (Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32). The report recommends the normalised figure as the baseline [Michael to confirm: switch the T1-05 baseline to 38.1%]."
+   "text": "The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026)."
+  },
+  {
+   "type": "p",
+   "text": "**Green season.** The 2025 month table sums to 104.9%. Normalised, it gives 61.9% for October to March and 38.1% for the green season, in line with the printed 61% and 39% for 2024 (Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32). T1-05 uses 38.1% as its baseline."
   },
   {
    "type": "p",

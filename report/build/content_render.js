@@ -2,7 +2,7 @@
 // Renders content-block JSON (written by drafting agents) into docx elements through helpers.js.
 // A content file is { "id": "2.1", "title": "...", "blocks": [ ... ] }. Block types:
 //   h2 | h3 | h4 | kicker | lead | p | note | quote   -> { type, text, attribution? }
-//   numbered | bullets                               -> { type, items: [..], ref? }
+//   numbered | bullets                               -> { type, items: [..], ref?, continue? (numbered: carry on the last list's count) }
 //   table   -> { type, caption, source, columns: [{header, width, align}], rows: [[..]], boldFirstCol? }
 //   box     -> { type, title, paras: [..] }
 //   grid    -> { type, columns, rows } (unnumbered table, no caption: Chapter 3 action tables)
@@ -55,7 +55,7 @@ function render(ctx, H, blocks, heads) {
       case 'p': out.push(H.body(b.text)); break;
       case 'note': out.push(H.note(b.text)); break;
       case 'quote': out.push(new H.Paragraph({ style: 'Quote', children: H.runs(b.attribution ? `${b.text} (${b.attribution})` : b.text) })); break;
-      case 'numbered': out.push(...H.numbered(b.items, b.ref || 'n_policy')); break;
+      case 'numbered': out.push(...H.numbered(b.items, b.ref || 'n_policy', !!b.continue)); break;
       case 'bullets': out.push(...H.bullets(b.items)); break;
       case 'table': out.push(...H.table(ctx, { caption: b.caption, source: b.source, columns: b.columns, rows: b.rows, boldFirstCol: !!b.boldFirstCol, zebra: b.zebra !== false })); break;
       case 'box': out.push(...H.box(b.title, b.paras || [])); break;

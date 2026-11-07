@@ -15,7 +15,7 @@
   },
   {
    "type": "lead",
-   "text": "The green season is a seat problem and an events problem at once: June holds 6.4% of the year's international seats, while international meetings already cluster in the months leisure travel leaves empty."
+   "text": "The green season is a seat problem and an events problem at once. June holds 6.4% of the year's international seats, and business events are the lever best placed to fill the trough, though international meetings now peak from September to November."
   },
   {
    "type": "h4",
@@ -40,7 +40,7 @@
   {
    "type": "table",
    "caption": "Leisure demand and seats trough from May to September, while international meetings peak from September to November.",
-   "source": "MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024, while the Market Assessment, p25, prints the same split on a Cape Town overseas air-arrivals basis); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable.",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable. [Open item: Wesgro Convention Bureau to confirm the 2023 ICCA count (46 printed; Wesgro reported 42 in May 2025) and reconcile the yearly total of 137 with the 136 monthly records.]",
    "columns": [
     {
      "header": "Finding",
@@ -66,11 +66,11 @@
     ],
     [
      "Visitors follow the seats",
-     "About 65% of 2025 overseas visitor travel fell between October and March (provisional); the printed 2024 split is 61% to 39%",
+     "About 62% of 2025 overseas visitor travel fell between October and March (normalised); the printed 2024 split is 61% to 39%",
      "DSA p12; Diag p32"
     ],
     [
-     "Meetings fill the trough",
+     "Meetings sit beside the trough",
      "109 of 136 ICCA meetings in Cape Town from 2022 to 2024 fell between May and November; September to November alone held 74",
      "DSA p37"
     ],
@@ -176,7 +176,7 @@
   },
   {
    "type": "p",
-   "text": "Two limits matter. The October to March share is about 65% for 2025, but the figure is provisional: it is computed from a month-of-travel table whose shares sum to 104.9% (Demand-Side Analysis, Jun 2026, p12). The only printed split is 61% to 39% for 2024 (Current State Diagnostic, Dec 2025, p32), and the report carries both. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36)."
+   "text": "Two limits matter. The October to March share is about 62% for 2025, computed from a month-of-travel table whose shares sum to 104.9% and normalised (Demand-Side Analysis, Jun 2026, p12). The only printed split is 61% to 39% for 2024 (Current State Diagnostic, Dec 2025, p32), and the report carries both. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36)."
   },
   {
    "type": "h4",

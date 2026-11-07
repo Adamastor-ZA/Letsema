@@ -112,7 +112,7 @@
   },
   {
    "type": "p",
-   "text": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). It printed ranks 7 to 30 with scores and reasons for exclusion; ranks 1 to 6 and their scores appear nowhere (p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16)."
+   "text": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16)."
   },
   {
    "type": "p",
@@ -206,8 +206,8 @@
   },
   {
    "type": "table",
-   "caption": "Five of the six printed growth rates exceed the 3% to 5% global norm, and four of the six cases pair structural demand creation with demand activation.",
-   "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals.",
+   "caption": "Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation.",
+   "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals. Corrected 2024 figures: Chile 40.4% (116% of 2019), Singapore 21% (86% of 2019), Kenya 14.6% (section 2.2).",
    "columns": [
     {
      "header": "Destination",
@@ -265,7 +265,7 @@
      "1) Structural Demand Creation\n2) Demand Activation and Acceleration"
     ],
     [
-     "New Zealand, Auckland Park",
+     "New Zealand",
      "~12%",
      "90% recovery, increased yield per visitor",
      "1) Demand-Led Route Development Integration\n2) Premiumisation",
@@ -377,7 +377,7 @@
   {
    "type": "table",
    "caption": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance.",
-   "source": "Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened only by cutting; initial capitals, dashes and list commas follow house style.",
+   "source": "Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened by cutting, with one verb paraphrased; initial capitals, dashes and list commas follow this report's style.",
    "columns": [
     {
      "header": "Case",
@@ -408,7 +408,7 @@
     ],
     [
      "Kenya (p35)",
-     "**Wildlife-led Product Systematisation**\nShift from asset-led to system-led tourism development; strengthen coordination across public & private sector and communities; position WC as a demand anchor; integrate MICE and business travel into broader tourism system; formalise conservation and community inclusion as part of the tourism value proposition",
+     "**Wildlife-led Product Systematisation**\nShift from asset-led to system-led tourism development; strengthen coordination across public & private sector and communities; position WC as a demand anchor; integrate MICE and business travel into broader tourism system; build conservation and community inclusion into the tourism value proposition",
      "**Nairobi-Led Gateway Repositioning and Demand Diversification**\nTreat MICE as a system lever; align city, provincial and national actors around gateway strategy; infrastructure credibility and event-readiness must be protected; mitigate risk of MICE demand remaining disconnected"
     ],
     [

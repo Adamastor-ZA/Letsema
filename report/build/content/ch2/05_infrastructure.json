@@ -28,7 +28,7 @@
   },
   {
    "type": "p",
-   "text": "The supply phase was asked to understand spatial infrastructure and readiness for scalable growth through an asset inventory and readiness index, GIS mapping, regional profiles and an investment opportunity framework (Inception Report, Nov 2025, p11, p18). The agreed report structure assigns this work to SLA Annexure B clauses 1.1.2, 1.1.8 and 3.2.4. [Clause wording to be checked against the signed Annexure B.]"
+   "text": "The supply phase was asked to understand spatial infrastructure and readiness for scalable growth through an asset inventory and readiness index, GIS mapping, regional profiles and an investment opportunity framework (Inception Report, Nov 2025, p11, p18). This work answers SLA Annexure B clauses 1.1.2, 1.1.8 and 3.2.4. [Clause wording to be checked against the signed Annexure B.]"
   },
   {
    "type": "h3",
@@ -40,7 +40,7 @@
   },
   {
    "type": "p",
-   "text": "Each region is scored from 1 to 5 on attractiveness (40%), readiness and capacity (30%) and accessibility (30%) (Infrastructure Report, Jul 2026, p17). The scores \"are evidence informed, not purely formula derived\", and missing data is not scored as poor performance (p18). The printed overall ratings do not reproduce from the weighted dimension scores, so this report quotes them as printed."
+   "text": "Each region is scored from 1 to 5 on attractiveness (40%), readiness and capacity (30%) and accessibility (30%) (Infrastructure Report, Jul 2026, p17). The scores \"are evidence informed, not purely formula derived\", and missing data is not scored as poor performance (p18). The overall ratings are the Infrastructure Report's evidence-informed judgement, not a weighted formula, so this report does not re-derive them."
   },
   {
    "type": "p",
@@ -107,7 +107,7 @@
   {
    "type": "table",
    "caption": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets.",
-   "source": "Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (the Winelands gauge misprints 40.3%; 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
+   "source": "Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (Winelands share computed: 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
    "columns": [
     {
      "header": "District",
@@ -302,7 +302,7 @@
   },
   {
    "type": "p",
-   "text": "**8. Committed capital closes the air gaps, not the regional ones.** The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul and the R20bn V&A Granger Bay expansion, and George's R310m terminal doubles capacity by 2028 (Infrastructure Report, Jul 2026, p32, p43). Last-mile transit, small-operator bookability and township product remain unfunded in the Metro, as do inter-node transport and winter product on the Garden Route (p32, p43)."
+   "text": "**8. Committed capital closes the air gaps, not the regional ones.** The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul and the R20bn V&A Granger Bay expansion, and George's R310m terminal doubles capacity by 2028 or 2029 (Infrastructure Report, Jul 2026, p32, p43). Last-mile transit, small-operator bookability and township product remain unfunded in the Metro, as do inter-node transport and winter product on the Garden Route (p32, p43)."
   },
   {
    "type": "p",
@@ -481,7 +481,7 @@
     ],
     [
      "Capital closes air gaps only",
-     "Metro pipeline R30bn or more; George R310m by 2028; cruise berth at about 40%",
+     "Metro pipeline R30bn or more; George R310m by 2029; cruise berth at about 40%",
      "p32, p43, p110"
     ]
    ],

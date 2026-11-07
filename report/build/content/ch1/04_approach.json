@@ -36,7 +36,7 @@
   },
   {
    "type": "p",
-   "text": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). The later deliverables reprinted the tree as a recap and marked the branch they addressed."
+   "text": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). Because the study team mapped the insights to tree entries, the counts show where views cluster; they do not on their own validate an entry. The later deliverables reprinted the tree as a recap and marked the branch they addressed."
   },
   {
    "type": "p",
@@ -161,21 +161,17 @@
    "text": "Two conventions follow. The MIDAS Aviation Market Assessment and the Skift memos are Word files without page numbers, so they are cited by section title. The 14 October 2026 summary deck ranks below the deliverables: where the two differ, the deliverable's figure is used and the difference is logged."
   },
   {
-   "type": "p",
-   "text": "The reconciliation behind this rule logged 55 discrepancies between the agreed structure and the deliverables, seven of them material. They concern the model base year, the October to March share, the routes above 80% load, the comparator growth range, the 2035 ambition, the cruise call baseline and the Infrastructure Report's date. Each is resolved where it is used, with both values shown."
-  },
-  {
    "type": "h3",
    "text": "Interim deliverables"
   },
   {
    "type": "p",
-   "text": "Nine dated documents carry the evidence, and the table below dates each by its cover. Four carry a later file date than their cover, which the report records rather than hides. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
+   "text": "Nine dated documents carry the evidence, and the table below dates each by its cover. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
   },
   {
    "type": "table",
    "caption": "Nine dated documents carry the evidence and answer the SLA clauses the final report consolidates.",
-   "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers as assigned in the agreed report structure of 2 November 2026 [to be checked against the signed Annexure B].",
+   "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B].",
    "columns": [
     {
      "header": "Document",
@@ -284,7 +280,7 @@
   },
   {
    "type": "p",
-   "text": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6]."
+   "text": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). [Open item: test the gateway and governance chapters with ACSA, the Cape Town Air Access airline partners, the City of Cape Town and Cape Town Tourism before Steerco.] The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6]."
   },
   {
    "type": "h3",
@@ -296,7 +292,7 @@
   },
   {
    "type": "p",
-   "text": "[Supply dataset limits to confirm: neither part of the Infrastructure Report, Jul 2026 (p1 to p114) states that the dataset has no geography below district or that records added after May 2026 are placeholders; the source of this statement is needed.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+   "text": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.4, 2.11 and A.20 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
   },
   {
    "type": "p",

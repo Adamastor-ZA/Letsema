@@ -20,7 +20,7 @@
   },
   {
    "type": "p",
-   "text": "The agreed report structure assigns this work to SLA Annexure B clause 1.1.1.2. [Clause wording to be checked against the signed Annexure B.]"
+   "text": "This work answers SLA Annexure B clause 1.1.1.2. [Clause wording to be checked against the signed Annexure B.]"
   },
   {
    "type": "h3",
@@ -44,7 +44,7 @@
   },
   {
    "type": "p",
-   "text": "**1. Cape Town has already won its routes.** Twenty-nine international routes serve the airport in 2026, and Cape Town added 17 mainline international services between 2015 and 2025, more than Santiago (14), Valencia (12) or Calgary (8) (MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"; \"International Comparisons\"). The body of the report counts fourteen new routes since 2014, a difference this report logs. Cape Town's share of South Africa's international capacity rose from 10% in 2010 to 25% (\"The Capetown Market\")."
+   "text": "**1. Cape Town has already won its routes.** Twenty-nine international routes serve the airport in 2026, and Cape Town added 17 mainline international services between 2015 and 2025, more than Santiago (14), Valencia (12) or Calgary (8) (MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"; \"International Comparisons\"). Other study documents count new routes from 2014 on a different basis. Cape Town's share of South Africa's international capacity rose from 10% in 2010 to 25% (\"The Capetown Market\")."
   },
   {
    "type": "p",
@@ -149,7 +149,7 @@
   },
   {
    "type": "p",
-   "text": "**3. The routes that exist are full.** Eleven of the 27 international routes in the load table ran above 80% in the year to November 2025, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Sixteen ran at 75% or more, the count the agreed structure attributes to the 80% line (computed from the same table)."
+   "text": "**3. The routes that exist are full.** Eleven of the 27 international routes in the load table ran above 80% in the year to November 2025, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Sixteen ran at 75% or more (computed from the same table)."
   },
   {
    "type": "p",
@@ -279,11 +279,11 @@
   },
   {
    "type": "p",
-   "text": "**8. The airport, not the airlines, sets the outer limit.** Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour, and two of the airport's seven parts are already full (Infrastructure Report, Jul 2026, p101, p102). The R6.39bn runway relocation adds about 40% more movements an hour but completes around 2033, and relief across the airport lands from about 2032 (p103)."
+   "text": "**8. The airport, not the airlines, sets the outer limit.** Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour, and two of the airport's seven parts are already full (Infrastructure Report, Jul 2026, p101, p102). The R6.39bn runway relocation lifts capacity from 30 to 45 movements an hour, a 50% rise, and completes around 2033 on the Infrastructure Report's timing, with terminal relief from about 2032 (p103; Minister of Transport, parliamentary reply, Apr 2025). ACSA's latest schedule shows the runway finished by December 2029 (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, Aug 2026)."
   },
   {
    "type": "p",
-   "text": "The alternatives arrive sooner but carry less. George handled 911,000 passengers in 2025, above its design limit, and a R310m terminal expansion doubles it to about 2 million by 2028 (Infrastructure Report, Jul 2026, p104, p105). Cape Winelands Airport targets first passengers in 2028 on an R8bn phase one but has no firm airline (p106). In the report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (p109)."
+   "text": "The alternatives arrive sooner but carry less. George handled 911,000 passengers in 2025, above its design limit, and a R310m terminal expansion doubles it to about 2 million by 2028 or 2029 (Infrastructure Report, Jul 2026, p104, p105). Cape Winelands Airport targets first passengers in 2028 on an R8bn phase one but has no firm airline (p106). In the report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (p109)."
   },
   {
    "type": "table",
@@ -349,7 +349,7 @@
     ],
     [
      "Airport is the ceiling",
-     "About 30 movements an hour; relief from about 2032; George to about 2m by 2028",
+     "About 30 movements an hour; relief from about 2032; George to about 2m by 2029",
      "IR p101 to p105"
     ]
    ],
@@ -359,7 +359,7 @@
    "type": "box",
    "title": "What this means for the tree",
    "paras": [
-    "**Rewords FA07, Win direct routes and add seats on full routes.** Eleven routes above 80%, fares before seats and a runway that binds until about 2032 (findings 3, 4 and 8). The structure's \"16 of 27 above 80%\" is corrected to eleven.",
+    "**Rewords FA07, Win direct routes and add seats on full routes.** Eleven routes above 80%, fares before seats and a runway that binds until about 2032 (findings 3, 4 and 8).",
     "**Supports FA02, Create green-season demand with MICE and events.** Winter seats fall to 6.4% of the year in June (finding 5).",
     "**Rewords FA04, Convert India and China hub traffic.** No direct Asian route before 2030; conversion runs through the hubs (findings 2 and 7).",
     "**Validates FA05, Increase yield in mature markets.** The mature long-haul routes are the fullest (finding 3).",

@@ -47,7 +47,7 @@
     ],
     [
      "1 Context",
-     "What Wesgro asked for, where the system stands after recovery, why the next step is supply-constrained and how the study ran",
+     "What Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran",
      "Every reader; the Board member who reads no other chapter of the body"
     ],
     [
@@ -148,6 +148,10 @@
   },
   {
    "type": "p",
+   "text": "**What the evidence argued against.** No entry was withdrawn, but the evidence narrowed or overturned three parts of the December case. First, the pivot to four growth markets narrowed to converting India and China traffic already flying through hubs; the Middle East and ASEAN cases did not survive (focus area 4). Second, the ambition to double arrivals did not survive: the growth model supports 2.2 million to 2.5 million by 2035 (section 1.1). Third, the 300,000 tourism-linked jobs ambition has no baseline behind it and is flagged untested (focus area 20). Two Validated entries also rest on less than direct evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables (section 3.3)."
+  },
+  {
+   "type": "p",
    "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]"
   },
   {
@@ -189,6 +193,13 @@
   {
    "type": "p",
    "text": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition and its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure."
+  },
+  {
+   "type": "bullets",
+   "items": [
+    "[Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]",
+    "[Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]"
+   ]
   }
  ]
 }
