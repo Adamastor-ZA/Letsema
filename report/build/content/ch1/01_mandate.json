@@ -73,53 +73,23 @@
   },
   {
    "type": "p",
-   "text": "The reframing was tabled with Wesgro at the summary-of-findings session of 14 October 2026 [Summary of Findings, 14 Oct 2026, page to be confirmed against the final deck]. The table below sets each original ambition against the baseline in hand and the form in which the strategy now carries it."
+   "text": "The reframing was tabled with Wesgro at the summary-of-findings session of 14 October 2026 [Summary of Findings, 14 Oct 2026, page to be confirmed against the final deck]. The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed."
   },
   {
-   "type": "table",
-   "caption": "The four headline ambitions",
-   "source": "Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5, p25, p37; Market Assessment Report, May 2026, p19, p20.",
-   "columns": [
-    {
-     "header": "Ambition (November 2025)",
-     "width": 2,
-     "align": "left"
-    },
-    {
-     "header": "Baseline in hand",
-     "width": 3,
-     "align": "left"
-    },
-    {
-     "header": "How the strategy carries it",
-     "width": 4,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "2.8 million international visitors by 2035",
-     "1.44m international passenger arrivals at Cape Town International, FY24/25 (Diagnostic p25); model base 1,498,829 in 2025 (Market Assessment p19)",
-     "Growth to 2.5 million: accelerated case 2,516,282 and base case 2,175,778 by 2035 (Market Assessment p19). The Diagnostic's 5.7 million arrivals and R54.7 billion spend (p5) is recorded as superseded"
-    ],
-    [
-     "300,000 tourism-linked jobs",
-     "No Western Cape tourism employment figure in any deliverable",
-     "Carried to Chapter 5 with its baseline set by the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged)"
-    ],
-    [
-     "10,000 SMMEs onboarded",
-     "No baseline or definition printed [Wesgro to confirm the baseline count and definition of SMMEs onboarded]",
-     "Carried as community inclusion, measured in visitor spend reaching priority communities rather than a count of firms; see 2.6 and Chapter 5"
-    ],
-    [
-     "Twice the airlift and cruise volumes",
-     "Airlift: inbound capacity drawn at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37)",
-     "Airlift carried as the seats and routes needed to lift the 1.8 million seat line (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed."
+   "type": "p",
+   "text": "**Arrivals.** The ambition was 2.8 million international visitors by 2035 (Inception Report, Nov 2025, p4). The baseline in hand is 1.44m international passenger arrivals at Cape Town International in FY24/25 (Current State Diagnostic, Dec 2025, p25) and the model base of 1,498,829 in 2025 (Market Assessment Report, May 2026, p19). The strategy carries it as growth to 2.5 million: 2,516,282 on the accelerated case and 2,175,778 on the base case by 2035 (p19). The Diagnostic's 5.7 million arrivals and R54.7 billion spend is recorded as superseded (Current State Diagnostic, Dec 2025, p5)."
+  },
+  {
+   "type": "p",
+   "text": "**Jobs.** The ambition was 300,000 tourism-linked jobs, and no deliverable carries a Western Cape tourism employment figure. The strategy carries it to Chapter 5 with its baseline set by the labour analysis it commissions under workforce and service skills (focus area 20, flagged)."
+  },
+  {
+   "type": "p",
+   "text": "**SMMEs.** The ambition was 10,000 SMMEs onboarded, with no baseline or definition printed [Wesgro to confirm the baseline count and definition of SMMEs onboarded]. It is carried as community inclusion, measured in visitor spend reaching priority communities rather than a count of firms (section 2.6 and Chapter 5)."
+  },
+  {
+   "type": "p",
+   "text": "**Airlift and cruise.** The ambition was twice the airlift and cruise volumes. For airlift, the growth model draws inbound capacity at 1.8 million seats (Market Assessment Report, May 2026, p20); for cruise, the baseline is 79 vessels in the 2024/25 season (Current State Diagnostic, Dec 2025, p37). Airlift is carried as the seats and routes needed to lift the 1.8 million seat line, and cruise as calls and ports (section 3.2.1) [Cruise Cape Town to confirm the call target and its definition]."
   },
   {
    "type": "h3",

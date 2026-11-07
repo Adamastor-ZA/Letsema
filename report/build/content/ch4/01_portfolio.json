@@ -15,77 +15,8 @@
    "text": "The plan follows one chain from vision to measure. Each level answers a different question. The pillar says what must change and the focus area says where; the initiative says what Wesgro and its partners do, and the indicator says how Steerco will know it has happened (section 5.1)."
   },
   {
-   "type": "table",
-   "caption": "Levels of the plan",
-   "source": "Chapter 3; traceability table, Appendix A1. Action count from the Chapter 3 action tables.",
-   "columns": [
-    {
-     "header": "Level",
-     "width": 1.4,
-     "align": "left"
-    },
-    {
-     "header": "Count",
-     "width": 0.8,
-     "align": "right"
-    },
-    {
-     "header": "What it answers",
-     "width": 2.8,
-     "align": "left"
-    },
-    {
-     "header": "Example",
-     "width": 2.8,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Vision",
-     "1",
-     "Where the province is going",
-     "Grow international arrivals from 1.5m in 2025 toward 2.5m by 2035"
-    ],
-    [
-     "Pillars",
-     "3",
-     "What must change",
-     "Reshape demand"
-    ],
-    [
-     "Themes",
-     "6",
-     "In which part of the system",
-     "Source market growth and diversification"
-    ],
-    [
-     "Focus areas",
-     "20",
-     "Where the evidence says to act",
-     "Convert India and China hub traffic"
-    ],
-    [
-     "Initiatives",
-     "18",
-     "What Wesgro and its partners do",
-     "I4 India and China hub conversion"
-    ],
-    [
-     "Actions",
-     "112",
-     "Who does what, by tier",
-     "Activate inside Xiaohongshu, Douyin and MakeMyTrip"
-    ],
-    [
-     "Indicators",
-     "7, 25 and 36",
-     "How Steerco knows, at impact, outcome and output level",
-     "T2-06 India and China hub arrivals"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan."
+   "type": "p",
+   "text": "Seven levels run from the vision to the measures, and each has a fixed count in this plan. One vision says where the province is going: grow international arrivals from 1.5m in 2025 toward 2.5m by 2035. Three pillars say what must change, such as Reshape demand. Six themes say in which part of the system, such as source market growth and diversification. Twenty focus areas say where the evidence says to act, such as Convert India and China hub traffic. Eighteen initiatives say what Wesgro and its partners do, such as I4 India and China hub conversion. The 112 actions say who does what, by tier, such as activation inside Xiaohongshu, Douyin and MakeMyTrip. The indicators, 7 at impact, 25 at outcome and 36 at output level, say how Steerco knows, such as T2-06 India and China hub arrivals. The counts come from Chapter 3, the action tables and the traceability table in Appendix A1."
   },
   {
    "type": "p",
@@ -98,31 +29,41 @@
   {
    "type": "table",
    "caption": "The eighteen initiatives",
-   "source": "Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2.",
+   "source": "Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2. Funding routes from the initiative charters (section 4.3); rand values are not estimated.",
    "columns": [
     {
      "header": "Code",
-     "width": 0.6,
+     "width": 0.8,
      "align": "left"
     },
     {
      "header": "Initiative",
-     "width": 3.0,
+     "width": 2.4,
      "align": "left"
     },
     {
      "header": "Focus areas",
-     "width": 0.9,
+     "width": 0.8,
      "align": "left"
     },
     {
      "header": "Proposed lead",
-     "width": 2.0,
+     "width": 1.9,
      "align": "left"
     },
     {
      "header": "Phase 1 role",
-     "width": 1.4,
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Main funding",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Supporting funding",
+     "width": 1.7,
      "align": "left"
     }
    ],
@@ -132,130 +73,166 @@
      "Segment-led activation and yield in mature markets",
      "1, 5",
      "Destination Marketing",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating",
+     "Private capital"
     ],
     [
      "I2",
      "Green-season events and business-events calendar",
      "2",
      "Convention Bureau",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating; Provincial and municipal",
+     "Private capital"
     ],
     [
      "I3",
      "Bookable province programme",
      "3",
      "Tourism",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating; Provincial and municipal",
+     "National and SOE; Private capital"
     ],
     [
      "I4",
      "India and China hub conversion",
      "4",
      "Destination Marketing",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating",
+     "Private capital"
     ],
     [
      "I5",
      "Regional Africa programme",
      "6",
      "Destination Marketing",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating",
+     "Private capital"
     ],
     [
      "I6",
      "Route development and seat retention, with a public-private air access fund",
      "7",
      "Air Access",
-     "Implement"
+     "Implement",
+     "Wesgro operating; Provincial and municipal; Private capital",
+     "National and SOE"
     ],
     [
      "I7",
      "Cruise growth through product",
      "8",
      "Cruise Cape Town",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating; National and SOE",
+     "Private capital"
     ],
     [
      "I8",
      "Corridor mobility",
      "9",
      "Department of Mobility, with Wesgro Tourism",
-     "Design"
+     "Design",
+     "Provincial and municipal; National and SOE",
+     "Wesgro operating; Private capital"
     ],
     [
      "I9",
      "Corridor product development",
      "10",
      "Tourism",
-     "Design"
+     "Design",
+     "Wesgro operating; Provincial and municipal; Private capital",
+     "National and SOE"
     ],
     [
      "I10",
      "Visitor experience and quality standards",
      "11",
      "DEDAT, with Wesgro Tourism",
-     "Design"
+     "Design",
+     "Provincial and municipal",
+     "Wesgro operating; Private capital"
     ],
     [
      "I11",
      "Flagship site demand management",
      "12",
      "Site operators, with Wesgro Research",
-     "Design"
+     "Design",
+     "National and SOE; Private capital",
+     "Wesgro operating; Provincial and municipal"
     ],
     [
      "I12",
      "Community inclusion pilots",
      "13",
      "Municipalities and LTOs, with Wesgro Tourism",
-     "Design, then implement"
+     "Design, then implement",
+     "Provincial and municipal",
+     "Wesgro operating; National and SOE; Private capital"
     ],
     [
      "I13",
      "Climate resilience and destination management, including LTO funding",
      "14",
      "DEDAT, with Wesgro Research",
-     "Design"
+     "Design",
+     "Provincial and municipal",
+     "Wesgro operating; National and SOE; Private capital"
     ],
     [
      "I14",
      "Tourism investment pipeline",
      "15",
      "Wesgro investment promotion",
-     "Design"
+     "Design",
+     "Wesgro operating; Provincial and municipal; Private capital",
+     "None"
     ],
     [
      "I15",
      "Tourism Growth Steerco and three-tier alignment",
      "16, 17",
      "Wesgro CEO's office",
-     "Implement"
+     "Implement",
+     "Wesgro operating; Provincial and municipal",
+     "None"
     ],
     [
      "I16",
      "Data-sharing protocol and visitor intelligence",
      "18",
      "Research",
-     "Design, then implement"
+     "Design, then implement",
+     "Wesgro operating",
+     "Provincial and municipal; National and SOE; Private capital"
     ],
     [
      "I17",
      "Access and safety escalation agenda",
      "19",
      "Wesgro CEO's office, with DEDAT",
-     "Implement"
+     "Implement",
+     "Wesgro operating; Provincial and municipal",
+     "None"
     ],
     [
      "I18",
      "Tourism labour analysis and skills plan",
      "20",
      "DEDAT, with Wesgro Research",
-     "Design"
+     "Design",
+     "Wesgro operating; Provincial and municipal",
+     "National and SOE; Private capital"
     ]
    ],
    "boldFirstCol": true,
-   "message": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028."
+   "message": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028. Thirteen draw mainly on Wesgro's operating budget, and four need private capital as a main source."
   }
  ]
 }

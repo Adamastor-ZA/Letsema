@@ -15,56 +15,11 @@
   },
   {
    "type": "p",
-   "text": "The growth model sets out three paths from the 2025 base of 1,498,829 arrivals: 1,822,634 in 2035 on the conservative path, 2,175,778 on the base path and 2,516,282 on the accelerated path (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). The deck is explicit that the paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). Each step up the case therefore rests on a set of moves, and the table below maps each set to the focus areas that deliver it."
+   "text": "The growth model sets out three paths from the 2025 base of 1,498,829 arrivals: 1,822,634 in 2035 on the conservative path, 2,175,778 on the base path and 2,516,282 on the accelerated path (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). The deck is explicit that the paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). Each step of the growth case therefore rests on a named set of interventions, and each set draws on focus areas in all three pillars."
   },
   {
-   "type": "table",
-   "caption": "Growth paths and their interventions",
-   "source": "Demand-Side Analysis, Jun 2026, p19 (assumptions) and p20 (2035 end points); Market Assessment Report, May 2026, p19 (2025 base). Increments between paths are computed from the printed end points. The mapping to focus areas is this report's.",
-   "columns": [
-    {
-     "header": "Path",
-     "width": 1.2,
-     "align": "left"
-    },
-    {
-     "header": "Arrivals in 2035",
-     "width": 1.4,
-     "align": "right"
-    },
-    {
-     "header": "What the model assumes",
-     "width": 3.6,
-     "align": "left"
-    },
-    {
-     "header": "Focus areas that deliver it",
-     "width": 1.6,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Conservative",
-     "1,822,634",
-     "Existing air access held with no added frequencies or routes; continued trade and marketing; growth in the mature markets and current corridors",
-     "5 and 7 hold the base"
-    ],
-    [
-     "Base",
-     "2,175,778 (+353,144)",
-     "Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity; existing Wesgro programmes expand; India, China and regional Africa grow through hub connections",
-     "1 to 7, 9 and 10"
-    ],
-    [
-     "Accelerated",
-     "2,516,282 (+340,504)",
-     "Direct India and China routes secured; dedicated activation in India, China, the USA and the GCC; India, China and the Middle East grow ahead of their source markets",
-     "4, 7, 16 and 19, on top of the base"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars."
+   "type": "p",
+   "text": "The conservative path, 1,822,634 arrivals in 2035, holds existing air access with no added frequencies or routes and continues trade and marketing, with growth in the mature markets and current corridors. Focus areas 5 and 7 hold that base. The base path adds 353,144 arrivals to reach 2,175,778. It assumes Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity and existing Wesgro programmes expand, while India, China and regional Africa grow through hub connections. Focus areas 1 to 7, 9 and 10 deliver it. The accelerated path adds a further 340,504 to reach 2,516,282. It needs direct India and China routes secured and dedicated activation in India, China, the USA and the GCC, with India, China and the Middle East growing ahead of their source markets. Focus areas 4, 7, 16 and 19 deliver it on top of the base (Demand-Side Analysis, Jun 2026, p19, p20; Market Assessment Report, May 2026, p19, the 2025 base; increments computed from the printed end points; the mapping to focus areas is this report's)."
   },
   {
    "type": "p",
@@ -84,48 +39,19 @@
   },
   {
    "type": "p",
-   "text": "**Air access and bookability move first, because every other lever runs through them.** The table below sets the order. Chapter 4 turns it into eighteen initiatives with owners, phases and decision gates."
+   "text": "**Air access and bookability move first, because every other lever runs through them.** The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief. Chapter 4 turns the sequence into eighteen initiatives with owners, phases and decision gates."
   },
   {
-   "type": "table",
-   "caption": "What moves in each phase",
-   "source": "Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat line from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
-   "columns": [
-    {
-     "header": "Phase",
-     "width": 1.4,
-     "align": "left"
-    },
-    {
-     "header": "What moves (focus areas)",
-     "width": 4.0,
-     "align": "left"
-    },
-    {
-     "header": "Why then",
-     "width": 2.4,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Activate, 2027 to 2028",
-     "Seats held and added on full routes (5, 6, 7); green-season calendar (2); bookability census and onboarding (3); two or three inclusion pilots (13); Steerco, data protocol and escalation agenda (16, 18, 19); labour analysis commissioned (20)",
-     "Before the base case crosses the model's seat line around 2030"
-    ],
-    [
-     "Expand, 2029 to 2031",
-     "Hub conversion at scale (4); corridor product and mobility (9, 10); quality charter (11); flagship flow management (12); cruise product (8); investment pipeline at financial close (15)",
-     "The 2030 mid-term review tests the seat line; terminal relief from about 2032"
-    ],
-    [
-     "Sustain, 2032 to 2035",
-     "Direct India and China routes as runway capacity arrives (4, 7); inclusion scaled after thresholds are met (13); climate risk and LTO funding embedded (14)",
-     "Runway relief about 2033; the accelerated case depends on direct routes"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief."
+   "type": "p",
+   "text": "**Activate, 2027 to 2028,** comes before the base case crosses the model's seat line around 2030. Seats are held and added on the full routes (focus areas 5, 6 and 7), the green-season calendar is set (2) and the bookability census and onboarding run (3). Two or three inclusion pilots start (13), Steerco, the data protocol and the escalation agenda are set up (16, 18 and 19) and the labour analysis is commissioned (20)."
+  },
+  {
+   "type": "p",
+   "text": "**Expand, 2029 to 2031,** brings hub conversion at scale (4), corridor product and mobility (9 and 10), the quality charter (11) and flagship flow management (12), along with cruise product (8) and the investment pipeline at financial close (15). The 2030 mid-term review tests the seat line, and terminal relief arrives from about 2032."
+  },
+  {
+   "type": "p",
+   "text": "**Sustain, 2032 to 2035,** takes direct India and China routes to carriers as runway capacity arrives (4 and 7), scales inclusion once its thresholds are met (13) and embeds climate risk and LTO funding (14). Runway relief arrives about 2033, and the accelerated case depends on the direct routes (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103; phase years as set in section 4.2)."
   }
  ]
 }

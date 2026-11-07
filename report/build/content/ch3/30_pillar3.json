@@ -35,83 +35,8 @@
    "text": "The evidence here is mostly qualitative. It rests on attributed stakeholder statements, the Diagnostic's one-slide tier table, the Inclusion Plan and the Infrastructure Report's gap tables, so this pillar carries more open items than the other two."
   },
   {
-   "type": "table",
-   "caption": "Pillar 3 focus areas",
-   "source": "Chapter 3 entries 13 to 20. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
-   "columns": [
-    {
-     "header": "Focus area",
-     "width": 2.6,
-     "align": "left"
-    },
-    {
-     "header": "Disposition",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
-     "header": "What the evidence showed",
-     "width": 3.4,
-     "align": "left"
-    },
-    {
-     "header": "Initiative",
-     "width": 0.8,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "13 Embed local destination bodies for community inclusion",
-     "Refined",
-     "Organisation, not distance or product, binds in eleven of twenty communities",
-     "I12"
-    ],
-    [
-     "14 Manage climate risk and sustainable tourism",
-     "Reworded",
-     "Climate already closes sites and routes; local tourism bodies depend on disrupted municipal funding",
-     "I13"
-    ],
-    [
-     "15 Crowd in capital with targeted investment strategies",
-     "Validated",
-     "No committed capital reaches tourism product, bookability or community assets",
-     "I14"
-    ],
-    [
-     "16 Align institutional stakeholders across all three tiers",
-     "Reworded",
-     "Air rights and visas sit nationally, and mandates are split across three tiers",
-     "I15"
-    ],
-    [
-     "17 Strengthen industry and government collaboration",
-     "Validated",
-     "Fifteen of sixteen organisations raised collaboration, and JAMS already exists",
-     "I15"
-    ],
-    [
-     "18 Expedite tourism-enabling policy and data sharing",
-     "Validated",
-     "No approved provincial jobs method and no single view of the visitor",
-     "I16"
-    ],
-    [
-     "19 Lead removal of infrastructure, visa and safety deficits",
-     "Moved",
-     "The best-evidenced barriers, with most of the levers held nationally",
-     "I17"
-    ],
-    [
-     "20 Develop workforce and service skills",
-     "Flagged",
-     "The jobs ambition has no baseline and no labour analysis",
-     "I18"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree."
+   "type": "p",
+   "text": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree. The entries follow, and the executive summary lists them with their initiatives. Dispositions are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]."
   }
  ]
 }

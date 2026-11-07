@@ -499,7 +499,7 @@
   },
   {
    "type": "p",
-   "text": "Wesgro runs the demand side of this system through six units: Cape Town Air Access, Cruise Cape Town, the Convention Bureau, Destination Marketing, Research and Tourism (Inception Report, Nov 2025, p7). Around them sit fifteen external organisations, from national agencies and state-owned entities to the province, the City, destination and attraction bodies and private operators (p7). The table below sets out who holds what."
+   "text": "Wesgro runs the demand side of this system through six units: Cape Town Air Access, Cruise Cape Town, the Convention Bureau, Destination Marketing, Research and Tourism (Inception Report, Nov 2025, p7). Around them sit fifteen external organisations, from national agencies and state-owned entities to the province, the City, destination and attraction bodies and private operators (p7)."
   },
   {
    "type": "p",
@@ -514,55 +514,20 @@
    "text": "Stakeholders say the same. Fifteen of the sixteen organisations interviewed raised industry and government collaboration (Stakeholder Insights Report, Mar 2026, p20 to p46; the count is of organisations with at least one insight under the theme). The Department of Economic Development named restrictive bilateral air agreements and destination funding materially below peer destinations as high-impact constraints (p24, p25)."
   },
   {
-   "type": "table",
-   "caption": "The tourism system by tier",
-   "source": "Inception Report, Nov 2025, p7 (organisations as shown on the stakeholder map; the grouping is this report's); Current State Diagnostic, Dec 2025, p58 (functions by tier).",
-   "columns": [
-    {
-     "header": "Group",
-     "width": 1.6,
-     "align": "left"
-    },
-    {
-     "header": "Organisations",
-     "width": 2.8,
-     "align": "left"
-    },
-    {
-     "header": "What sits here",
-     "width": 3.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Wesgro units",
-     "Cape Town Air Access; Cruise Cape Town; Convention Bureau; Destination Marketing; Research; Tourism",
-     "Route development, cruise, business events bids, destination marketing, research and tourism promotion for Cape Town and the Western Cape"
-    ],
-    [
-     "Provincial and city government",
-     "Western Cape Government (Economic Development and Tourism); City of Cape Town",
-     "Provincial tier: jobs, inclusion and spatial outcomes; sector development and safety programmes; infrastructure planning and resilience. Local tier: service delivery and precinct management; events readiness and place experience; congestion, by-laws and community impact"
-    ],
-    [
-     "National agencies and state-owned entities",
-     "South African Tourism; Airports Company South Africa; Transnet; South African Maritime Safety Authority",
-     "National tier: visa rules and border compliance; air service agreements and route rights; national brand and investment priorities. Airport capacity and port operations"
-    ],
-    [
-     "Destination and attraction bodies",
-     "Cape Town Tourism; V&A Waterfront; CapeNature; South African National Parks; Table Mountain Aerial Cableway",
-     "Industry tier: demand generation and destination marketing; product quality and visitor experience at the flagship sites"
-    ],
-    [
-     "Private operators",
-     "MSC Cruises; Cape Grace; Pullman Hotels and Resorts (Cape Town City Centre); Southern Sun",
-     "Industry tier: route and product viability and commercial performance; pricing and service standards"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry."
+   "type": "p",
+   "text": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry (Inception Report, Nov 2025, p7, organisations as shown on the stakeholder map and grouped by this report; Current State Diagnostic, Dec 2025, p58). The six units are Cape Town Air Access, Cruise Cape Town, the Convention Bureau, Destination Marketing, Research and Tourism. Between them they cover route development, cruise, business events bids, destination marketing, research and tourism promotion for Cape Town and the Western Cape."
+  },
+  {
+   "type": "p",
+   "text": "The Western Cape Government (Economic Development and Tourism) and the City of Cape Town make up provincial and city government. The provincial tier sets jobs, inclusion and spatial outcomes, runs sector development and safety programmes and plans infrastructure and resilience. The local tier delivers services and manages precincts. It also readies events and place experience and handles congestion, by-laws and community impact."
+  },
+  {
+   "type": "p",
+   "text": "South African Tourism, Airports Company South Africa, Transnet and the South African Maritime Safety Authority sit at the national tier. It holds visa rules and border compliance. It also holds air service agreements and route rights, sets national brand and investment priorities and runs airport capacity and port operations."
+  },
+  {
+   "type": "p",
+   "text": "Cape Town Tourism, the V&A Waterfront, CapeNature, South African National Parks and the Table Mountain Aerial Cableway are the destination and attraction bodies. They carry demand generation and destination marketing as well as product quality and visitor experience at the flagship sites. The private operators, MSC Cruises, Cape Grace, Pullman Hotels and Resorts (Cape Town City Centre) and Southern Sun, carry route and product viability and commercial performance. They also set pricing and service standards. Together they form the industry tier."
   },
   {
    "type": "p",

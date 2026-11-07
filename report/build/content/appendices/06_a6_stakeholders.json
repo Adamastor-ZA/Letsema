@@ -237,53 +237,12 @@
    "text": "The deck lists 13 supply-side stakeholders, 6 proposed demand-side engagements and 11 enabling-environment stakeholders engaged or in progress (Stakeholder Insights Report, Mar 2026, p16). No airline, online travel agency or tour operator is among the 16 phase 1 organisations."
   },
   {
-   "type": "table",
-   "caption": "Later-phase engagement list",
-   "source": "Stakeholder Insights Report, Mar 2026, p16. Entries, spellings and markets in brackets as printed; the appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature.",
-   "columns": [
-    {
-     "header": "Group and status (p16)",
-     "width": 1.7,
-     "align": "left"
-    },
-    {
-     "header": "Entries",
-     "width": 4.9,
-     "align": "left"
-    },
-    {
-     "header": "Count",
-     "width": 0.7,
-     "align": "right"
-    },
-    {
-     "header": "With a phase 1 table",
-     "width": 1.0,
-     "align": "right"
-    }
-   ],
-   "rows": [
-    [
-     "Supply side: stakeholders",
-     "Tourism offices of each District; Table Mountain Aerial Cableway; Robben Island Museum; Hospitality Providers; Conference Venue Operators; CapeNature; SANParks; CBRTA; Ikhwa ttu; CCID; CTICC; FEDHASA; V&A Waterfront",
-     "13",
-     "7"
-    ],
-    [
-     "Demand side: proposed engagements",
-     "Trip.com Group (China, ASEAN); Thomas Cook India (India, Middle East outbound); DNATA Travel (Middle East, India, ASEAN); China International Travel Service (China); Emirates (China, India, Middle East, ASEAN); SATSA",
-     "6",
-     "0"
-    ],
-    [
-     "Enabling environment: engaged/in progress",
-     "Department of Economic Development and Tourism; Ministry of Mobility; South African Tourism; SouthAfrica.net; We Do Tourism; SATOvito; Statistics South Africa; Google (Government Affairs and Public Policy); Cape Town International Airport; Winelands Airport; George Airport",
-     "11",
-     "5"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed."
+   "type": "p",
+   "text": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed (Stakeholder Insights Report, Mar 2026, p16; entries, spellings and markets in brackets as printed). The 13 supply-side stakeholders, seven of them with a phase 1 table, are: Tourism offices of each District; Table Mountain Aerial Cableway; Robben Island Museum; Hospitality Providers; Conference Venue Operators; CapeNature; SANParks; CBRTA; Ikhwa ttu; CCID; CTICC; FEDHASA; V&A Waterfront."
+  },
+  {
+   "type": "p",
+   "text": "The 6 proposed demand-side engagements, none with a phase 1 table, are: Trip.com Group (China, ASEAN); Thomas Cook India (India, Middle East outbound); DNATA Travel (Middle East, India, ASEAN); China International Travel Service (China); Emirates (China, India, Middle East, ASEAN); SATSA. The 11 enabling-environment stakeholders engaged or in progress, five of them with a phase 1 table, are: Department of Economic Development and Tourism; Ministry of Mobility; South African Tourism; SouthAfrica.net; We Do Tourism; SATOvito; Statistics South Africa; Google (Government Affairs and Public Policy); Cape Town International Airport; Winelands Airport; George Airport. The appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature."
   },
   {
    "type": "note",

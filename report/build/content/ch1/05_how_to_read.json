@@ -16,67 +16,19 @@
   },
   {
    "type": "p",
-   "text": "The report moves from context to evidence to recommendations to delivery, and the table below gives the route through it for each reader."
+   "text": "The report moves from context to evidence to recommendations to delivery."
   },
   {
-   "type": "table",
-   "caption": "Chapter map and readers",
-   "source": "Letsema, structure of this report, November 2026.",
-   "columns": [
-    {
-     "header": "Part",
-     "width": 1.6,
-     "align": "left"
-    },
-    {
-     "header": "What it answers",
-     "width": 3.4,
-     "align": "left"
-    },
-    {
-     "header": "Who should read it",
-     "width": 2.6,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Executive summary",
-     "The case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators",
-     "Board, Exco and the February 2027 launch audience; it stands alone"
-    ],
-    [
-     "1 Context",
-     "What Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran",
-     "Every reader; the Board member who reads no other chapter of the body"
-    ],
-    [
-     "2 Analysis summaries",
-     "What each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree",
-     "Readers checking the evidence behind a Chapter 3 entry; each section closes with a box naming the focus areas it supports"
-    ],
-    [
-     "3 Findings and recommendations",
-     "For each of the twenty focus areas: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally",
-     "Board and Exco by entry; the programme owner in full; Section 3.4 for the sequence"
-    ],
-    [
-     "4 Execution plan",
-     "Which initiatives, in what order, owned by whom, at what cost and with which decision gates",
-     "The programme owner, Steerco and the partners named in the RACI"
-    ],
-    [
-     "5 Monitoring and evaluation",
-     "How progress is measured: indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review",
-     "Wesgro Research, the programme office and Steerco"
-    ],
-    [
-     "Appendices A1 to A9",
-     "The traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references",
-     "Analysts and anyone checking a figure"
-    ]
-   ],
-   "boldFirstCol": true
+   "type": "p",
+   "text": "The executive summary gives the case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators. It stands alone, for the Board, Exco and the February 2027 launch audience. Chapter 1 is for every reader, and is the chapter of the body a Board member should read if they read no other. It sets out what Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran."
+  },
+  {
+   "type": "p",
+   "text": "Chapter 2 summarises what each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree. It serves readers checking the evidence behind a Chapter 3 entry, and each section closes with a box naming the focus areas it supports. Chapter 3 takes the twenty focus areas in turn: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally. The Board and Exco can read it entry by entry and the programme owner in full; section 3.4 gives the sequence."
+  },
+  {
+   "type": "p",
+   "text": "Chapter 4 sets out which initiatives run, in what order, owned by whom, at what cost and with which decision gates, for the programme owner, Steerco and the partners named in the RACI. Chapter 5 sets out how progress is measured, through indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review, for Wesgro Research, the programme office and Steerco. Appendices A1 to A9 hold the traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references, for analysts and anyone checking a figure."
   },
   {
    "type": "h3",
@@ -87,65 +39,8 @@
    "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas."
   },
   {
-   "type": "table",
-   "caption": "Disposition labels and counts",
-   "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.",
-   "columns": [
-    {
-     "header": "Label",
-     "width": 1.4,
-     "align": "left"
-    },
-    {
-     "header": "Meaning",
-     "width": 4.4,
-     "align": "left"
-    },
-    {
-     "header": "Focus areas",
-     "width": 1.2,
-     "align": "right"
-    }
-   ],
-   "rows": [
-    [
-     "Validated",
-     "The evidence confirmed the December hypothesis as written",
-     "10"
-    ],
-    [
-     "Refined",
-     "The evidence confirmed the hypothesis and sharpened its content",
-     "1"
-    ],
-    [
-     "Reworded",
-     "The evidence confirmed the hypothesis; the entry was renamed to what the evidence showed",
-     "6"
-    ],
-    [
-     "New",
-     "Added in October 2026, with no December entry behind it",
-     "1"
-    ],
-    [
-     "Moved",
-     "The evidence confirmed the hypothesis; the entry moved to another theme because its levers sit with another tier",
-     "1"
-    ],
-    [
-     "Withdrawn",
-     "Dropped because the evidence did not support the hypothesis",
-     "0"
-    ],
-    [
-     "Flagged",
-     "Untested; carried as a question for analysis still to be commissioned",
-     "1"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated."
+   "type": "p",
+   "text": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated: the evidence confirmed the hypothesis as written. One is Refined, where the evidence confirmed the hypothesis and sharpened its content. Six are Reworded: the evidence confirmed the hypothesis and the entry was renamed to what the evidence showed. One is New, added in October 2026 with no December entry behind it. One is Moved: confirmed, but placed in another theme because its levers sit with another tier. One is Flagged: untested, and carried as a question for analysis still to be commissioned. None is Withdrawn, the label for an entry dropped because the evidence did not support it. The labels are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed against the final deck], and the counts come from the traceability table in Appendix A1."
   },
   {
    "type": "p",

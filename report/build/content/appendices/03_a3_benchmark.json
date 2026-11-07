@@ -292,82 +292,32 @@
    "text": "The report treats sustained growth as the product of three reinforcing components: institutional coordination; strategic marketing and promotion; accessibility and connectivity (Global Benchmarking Report, Mar 2026, p58). Without competitive access, \"latent demand does not convert\" (p59)."
   },
   {
-   "type": "table",
-   "caption": "Comparator system types",
-   "source": "Global Benchmarking Report, Mar 2026, p61 (system type), p59 to p60 (three components by destination, condensed).",
-   "columns": [
-    {
-     "header": "Case",
-     "width": 1.2,
-     "align": "left"
-    },
-    {
-     "header": "System type",
-     "width": 1.2,
-     "align": "left"
-    },
-    {
-     "header": "Institutional coordination",
-     "width": 2.1,
-     "align": "left"
-    },
-    {
-     "header": "Strategic marketing",
-     "width": 2.1,
-     "align": "left"
-    },
-    {
-     "header": "Accessibility",
-     "width": 2.1,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Melbourne & Victoria",
-     "Events-led system",
-     "Institutionalises events and knowledge-led brand as a cross-government economic development tool",
-     "Integrates city branding, intellectual capital and events into a single demand proposition",
-     "Uses event calendar to de-risk and stimulate aviation demand"
-    ],
-    [
-     "Chile",
-     "Connectivity-led system",
-     "Coordination anchored around a single strategic constraint, long-haul access",
-     "Unified national branding with defined regional identities; multi-region itinerary packaging",
-     "Liberal aviation policy and major hub investment position Santiago as a single efficient long-haul hub"
-    ],
-    [
-     "Kenya",
-     "Product-led system",
-     "Aligns tourism with national priorities (conservation, trade, diplomacy)",
-     "Segment-specific marketing grounded in a designed product system",
-     "Reduces entry friction; Nairobi as multipurpose regional and global hub"
-    ],
-    [
-     "Singapore",
-     "Orchestrated experience system",
-     "Centrally orchestrated system (STB) with structured public-private partnerships",
-     "Packages experiences (events, precincts, lifestyle) into seamless high-value propositions",
-     "Integrates aviation, infrastructure and visitor experience into a single seamless gateway"
-    ],
-    [
-     "Valencia",
-     "Governance-led system",
-     "Decentralised, sector-led governance",
-     "Expands reasons to visit (gastronomy, culture, sport, wellness, business events)",
-     "Connectivity supports a multi-product destination system and dispersal"
-    ],
-    [
-     "New Zealand",
-     "Value-led system",
-     "Tourism, aviation and policy integrated around shared demand objectives",
-     "Shifts from volume to value by marketing scarce, high-quality experiences",
-     "Long-haul demand converts only when marketing, aviation and distribution are aligned"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "All six cases align coordination, marketing and access, but each builds its system around a different anchor."
+   "type": "p",
+   "text": "All six cases align coordination, marketing and access, but each builds its system around a different anchor (Global Benchmarking Report, Mar 2026, p61 for the system types; p59 to p60 for the three components, condensed)."
+  },
+  {
+   "type": "p",
+   "text": "**Melbourne and Victoria: events-led.** Coordination institutionalises events and a knowledge-led brand as a cross-government economic development tool. Marketing integrates city branding, intellectual capital and events into a single demand proposition. The event calendar is used to de-risk and stimulate aviation demand."
+  },
+  {
+   "type": "p",
+   "text": "**Chile: connectivity-led.** Coordination is anchored around a single strategic constraint, long-haul access. Marketing runs unified national branding with defined regional identities and multi-region itinerary packaging. Liberal aviation policy and major hub investment position Santiago as a single efficient long-haul hub."
+  },
+  {
+   "type": "p",
+   "text": "**Kenya: product-led.** Coordination aligns tourism with national priorities in conservation, trade and diplomacy. Marketing is segment-specific and grounded in a designed product system. Access reduces entry friction, with Nairobi as a multipurpose regional and global hub."
+  },
+  {
+   "type": "p",
+   "text": "**Singapore: orchestrated experience.** A centrally orchestrated system under STB works through structured public-private partnerships. Marketing packages experiences (events, precincts, lifestyle) into seamless high-value propositions. Aviation, infrastructure and visitor experience are integrated into a single seamless gateway."
+  },
+  {
+   "type": "p",
+   "text": "**Valencia: governance-led.** Governance is decentralised and sector-led. Marketing expands the reasons to visit: gastronomy, culture, sport, wellness and business events. Connectivity supports a multi-product destination system and dispersal."
+  },
+  {
+   "type": "p",
+   "text": "**New Zealand: value-led.** Tourism, aviation and policy are integrated around shared demand objectives. Marketing shifts from volume to value by selling scarce, high-quality experiences. Long-haul demand converts only when marketing, aviation and distribution are aligned."
   },
   {
    "type": "h3",

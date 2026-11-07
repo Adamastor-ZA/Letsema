@@ -18,44 +18,8 @@
    "text": "The mid-term review tests whether the plan is on its path and whether the path still holds. It falls in 2030 because that is when the base case crosses the model's 1.8 million seat line (Demand-Side Analysis, Jun 2026, p21), before runway relief on the planning date (Infrastructure Report, Jul 2026, p103). The terminal evaluation in 2035 measures the result against both paths and sets up the next plan. Both should be run by a party independent of the programme office."
   },
   {
-   "type": "table",
-   "caption": "Evaluation questions by pillar",
-   "source": "Letsema, proposed evaluation questions.",
-   "columns": [
-    {
-     "header": "Pillar",
-     "width": 1.4,
-     "align": "left"
-    },
-    {
-     "header": "Did it work?",
-     "width": 3.2,
-     "align": "left"
-    },
-    {
-     "header": "Does the logic still hold?",
-     "width": 3.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "1 Reshape demand",
-     "Did arrivals, spend per visitor and the green-season share move with the activation, and in which markets and segments?",
-     "Is conversion still the constraint, or has access overtaken it in the growth markets?"
-    ],
-    [
-     "2 Transform supply",
-     "Did seats, readiness and bookability rise outside the Metro, and did visitors follow?",
-     "Did the airport relief arrive on time, and did the second gateways carry the load meanwhile?"
-    ],
-    [
-     "3 Build enabling capability",
-     "Did the pilots meet their thresholds, and did community spend rise?",
-     "Did the national asks get answers, and did the data protocol deliver the baselines?"
-    ]
-   ],
-   "boldFirstCol": true
+   "type": "p",
+   "text": "Each pillar carries two evaluation questions, one on results and one on the assumptions behind them. For Reshape demand: did arrivals, spend per visitor and the green-season share move with the activation, and in which markets and segments? Is conversion still the constraint, or has access overtaken it in the growth markets? For Transform supply: did seats, readiness and bookability rise outside the Metro, and did visitors follow? Did the airport relief arrive on time, and did the second gateways carry the load meanwhile? For Build enabling capability: did the pilots meet their thresholds, and did community spend rise? Did the national asks get answers, and did the data protocol deliver the baselines?"
   },
   {
    "type": "p",

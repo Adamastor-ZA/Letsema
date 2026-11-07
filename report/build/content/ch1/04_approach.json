@@ -167,105 +167,7 @@
   },
   {
    "type": "p",
-   "text": "Nine dated documents carry the evidence, and the table below dates each by its cover. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
-  },
-  {
-   "type": "table",
-   "caption": "Interim deliverables and SLA clauses",
-   "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B].",
-   "columns": [
-    {
-     "header": "Document",
-     "width": 2.4,
-     "align": "left"
-    },
-    {
-     "header": "Cover date",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
-     "header": "Version in hand",
-     "width": 3.0,
-     "align": "left"
-    },
-    {
-     "header": "SLA clauses answered",
-     "width": 1.5,
-     "align": "left"
-    },
-    {
-     "header": "Summarised in",
-     "width": 1.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Inception Report",
-     "Nov 2025",
-     "37 slides; working session of 28 November 2025; no tree printed",
-     "[to confirm against Annexure B]",
-     "1.1, 1.4"
-    ],
-    [
-     "Current State Diagnostic",
-     "Dec 2025",
-     "v2 in the file name; December tree on p64",
-     "[to confirm against Annexure B]",
-     "1.2; folded into 2.1 and 2.5"
-    ],
-    [
-     "Stakeholder Insights Report (phase 1)",
-     "Mar 2026",
-     "File dated 12 March 2026; sixteen organisation tables",
-     "1.1.6, 3.2.8",
-     "2.4"
-    ],
-    [
-     "Global Benchmarking Report",
-     "Mar 2026",
-     "Cover prints 2026 only; file dated 24 March 2026",
-     "1.1.5, 1.1.11, 3.2.7",
-     "2.3"
-    ],
-    [
-     "MIDAS Aviation Market Assessment",
-     "Mar 2026",
-     "Word file marked final draft, dated 20 April 2026; no page numbers",
-     "1.1.1.2",
-     "2.2"
-    ],
-    [
-     "Market Assessment Report",
-     "May 2026",
-     "Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base",
-     "Working analysis under 1.1.1 [to confirm]",
-     "2.1"
-    ],
-    [
-     "Demand-Side Analysis",
-     "Jun 2026",
-     "Final; file dated 1 October 2026",
-     "1.1.1, 1.1.7, 3.2.3",
-     "2.1"
-    ],
-    [
-     "Infrastructure Report",
-     "Jul 2026",
-     "Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded",
-     "1.1.2, 1.1.8, 3.2.4",
-     "2.5"
-    ],
-    [
-     "SME and Community Inclusion Plan",
-     "Sep 2026",
-     "File dated 9 October 2026",
-     "1.1.3, 1.1.9, 3.2.5",
-     "2.6"
-    ]
-   ],
-   "boldFirstCol": true
+   "text": "Nine dated documents carry the evidence. Appendix A9 dates each by its cover and gives the version in hand and the SLA clauses it answers. Chapter 2 summarises them: the Market Assessment Report and the Demand-Side Analysis in 2.1, the MIDAS Aviation Market Assessment in 2.2, the Global Benchmarking Report in 2.3, the Stakeholder Insights Report in 2.4, the Infrastructure Report in 2.5 and the SME and Community Inclusion Plan in 2.6. The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2 and is folded into 2.1 and 2.5. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
   },
   {
    "type": "h3",
@@ -293,7 +195,7 @@
   },
   {
    "type": "p",
-   "text": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.4, 2.11 and A.20 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+   "text": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.3, 2.3 and A.17 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
   },
   {
    "type": "p",

@@ -517,60 +517,12 @@
    "text": "Spend capture scenarios"
   },
   {
-   "type": "table",
-   "caption": "Community share of spend",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). The Diagnostic sets that ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
-   "columns": [
-    {
-     "header": "Measure",
-     "width": 2.6,
-     "align": "left"
-    },
-    {
-     "header": "Value",
-     "width": 1.1,
-     "align": "right"
-    },
-    {
-     "header": "What it shows",
-     "width": 3.0,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Residents (Census 2011)",
-     "18.4%",
-     "Share of Western Cape residents"
-    ],
-    [
-     "Employed residents (Census 2011)",
-     "15.4%",
-     "Share of employed residents"
-    ],
-    [
-     "Foreign direct spend traced to businesses trading inside (floor)",
-     "0.02% to 0.04%",
-     "Share of foreign direct spend"
-    ],
-    [
-     "Documented today (floor)",
-     "R4m to R10m",
-     "Visitor spend landing in the 20 communities a year"
-    ],
-    [
-     "1% of FY2025 foreign direct spend",
-     "R259m",
-     "Implies R25.9 billion of FY2025 foreign direct spend (computed)"
-    ],
-    [
-     "1% of the 2035 spend ambition",
-     "R547m",
-     "Implies R54.7 billion of 2035 spend (computed); the Diagnostic's 5.7 million arrivals case (Current State Diagnostic, Dec 2025, p5)"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m."
+   "type": "p",
+   "text": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m (SME and Community Inclusion Plan, Sep 2026, p5; values as printed, with no tracing method or denominator printed). They also hold 15.4% of employed residents; both shares come from Census 2011. Foreign direct spend traced to businesses trading inside the communities is a floor of 0.02% to 0.04%, which the plan documents as R4m to R10m landing in the 20 communities a year."
+  },
+  {
+   "type": "p",
+   "text": "At 1%, FY2025 foreign direct spend would land R259m in the communities, which implies R25.9 billion of FY2025 foreign direct spend (computed). At 1% of the 2035 spend ambition the figure is R547m, which implies R54.7 billion of spend in 2035 (computed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for that scenario (SME and Community Inclusion Plan, Sep 2026, p5). The Diagnostic sets the ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Appendix A2 sets out the demand model's own 2035 cases."
   },
   {
    "type": "h3",
@@ -581,65 +533,28 @@
    "text": "The five cases point to one order of action: \"a seller with a stake, a safe and workable visit, product that keeps spend in the community, then exposure\" (SME and Community Inclusion Plan, Sep 2026, p12). The plan's six takeaways are that a sustainable local operator is essential, resident ownership matters, safety is a prerequisite, local spend should be captured, existing product should be sold and spending should be tracked (p12)."
   },
   {
-   "type": "table",
-   "caption": "Inclusion cases and lessons",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11 (case cards), p12 (takeaways) and p30 (benchmark evidence). The Rio, Medellín, Vilakazi Street and Kliptown cards print no source line; the plan pools their sources on p12.",
-   "columns": [
-    {
-     "header": "Case",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
-     "header": "Cost and funder",
-     "width": 2.6,
-     "align": "left"
-    },
-    {
-     "header": "Results and failures",
-     "width": 2.7,
-     "align": "left"
-    },
-    {
-     "header": "Lesson",
-     "width": 2.3,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Rio de Janeiro, Santa Marta and Rocinha (p7)",
-     "Rio Top Tour first phase about R$230,000 (R$184,000 federal, R$46,000 state); Cantagalo elevator about R$89 million; Providência cable car R$75 million in a R$163 million package; almost 10,000 officers at peak",
-     "About 4,500 visitors in the first month (2010); about 20 resident guides by 2015; 81% of foreign visitors spent up to R$10 in Rocinha (2014); cable car idle eight years; security collapsed in 2017; 544,000 visitors to Rocinha in 2023",
-     "Access and safety were preconditions, not product; resident guides continued after the programme that launched them (p30)"
-    ],
-    [
-     "Medellín, Comuna 13 (p8)",
-     "Metrocable Line J (2008) about 96.9 billion pesos; escalators (2011) about 10 billion pesos, maintenance above 260 million pesos a year; integrated urban programme more than 100 billion pesos by 2020",
-     "1.66 million visitors (2022) and 1.98 million (2025), 52% international; more than 1,000 businesses and about 300 guides; capacity 667 visitors a day (2023 study)",
-     "Fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product first (p30)"
-    ],
-    [
-     "Soweto, Vilakazi Street (p9)",
-     "Hector Pieterson Museum R23.2 million; Mandela House restoration about R9 million (corporate donors); Orlando Stadium about R280 million; public-realm cost not disclosed",
-     "About 1,000 tourists a day by January 2010; Sakhumzi from four employees (2001) to about 110 (2019); ten restaurants more than 800 jobs; Mandela House company liquidated",
-     "Upgrades amplified existing assets but benefits concentrated on street-front owners; set design governance and a resident precinct entity at the outset"
-    ],
-    [
-     "Costa Rica, ACTUAR (p10)",
-     "UNDP GEF small grants from the 1990s; Law 8724 (2009) gave ICT duties without a budget; no state funding for the selling network identified",
-     "ACTUAR (2001) turnover more than USD 800,000 in 2013 for more than 30 member communities; dissolved at the end of 2018; benefits \"stopped at association members\"",
-     "A management entity with its own selling channel was the engine and did not survive donor exit"
-    ],
-    [
-     "Soweto, Kliptown (p11)",
-     "R436 million first allocated; JDA about R497 million (2001 to 2010) plus R40 million to 2013; Walter Sisulu Square R160 million to R180 million; 48-room hotel R24 million",
-     "Business case almost 200,000 international visitors a year; about 4,000 museum visitors a year by 2017; hotel above break-even only during the 2010 FIFA World Cup; local small businesses 5% of construction contract value; looting in 2021",
-     "Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit."
+   "type": "p",
+   "text": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit (SME and Community Inclusion Plan, Sep 2026, p7 to p12, p30; the Rio, Medellín, Vilakazi Street and Kliptown cards print no source line, and the plan pools their sources on p12)."
+  },
+  {
+   "type": "p",
+   "text": "**Rio de Janeiro, Santa Marta and Rocinha.** The Rio Top Tour's first phase cost about R$230,000 (R$184,000 federal, R$46,000 state). The Cantagalo elevator cost about R$89 million and the Providência cable car R$75 million in a R$163 million package, and almost 10,000 officers were deployed at peak (p7). The tours drew about 4,500 visitors in their first month in 2010, and about 20 resident guides were working by 2015. In 2014, 81% of foreign visitors spent up to R$10 in Rocinha. The cable car stood idle for eight years and security collapsed in 2017, yet Rocinha drew 544,000 visitors in 2023. Access and safety were preconditions, not product, and resident guides continued after the programme that launched them (p30)."
+  },
+  {
+   "type": "p",
+   "text": "**Medellín, Comuna 13.** Metrocable Line J (2008) cost about 96.9 billion pesos and the escalators (2011) about 10 billion pesos, with maintenance above 260 million pesos a year; the integrated urban programme passed 100 billion pesos by 2020 (p8). Comuna 13 drew 1.66 million visitors in 2022 and 1.98 million in 2025, 52% of them international, with more than 1,000 businesses and about 300 guides. A 2023 study put its capacity at 667 visitors a day. The lesson is to fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product first (p30)."
+  },
+  {
+   "type": "p",
+   "text": "**Soweto, Vilakazi Street.** The Hector Pieterson Museum cost R23.2 million, the Mandela House restoration about R9 million from corporate donors and Orlando Stadium about R280 million; the public-realm cost is not disclosed (p9). The street drew about 1,000 tourists a day by January 2010. Sakhumzi grew from four employees in 2001 to about 110 in 2019, and the ten restaurants provide more than 800 jobs, though the Mandela House company was liquidated. Upgrades amplified existing assets but benefits concentrated on street-front owners, so design governance and a resident precinct entity belong at the outset."
+  },
+  {
+   "type": "p",
+   "text": "**Costa Rica, ACTUAR.** UNDP GEF small grants funded the network from the 1990s. Law 8724 (2009) gave ICT duties without a budget, and no state funding for the selling network has been identified (p10). ACTUAR, founded in 2001, turned over more than USD 800,000 in 2013 for more than 30 member communities and dissolved at the end of 2018; its benefits \"stopped at association members\". A management entity with its own selling channel was the engine, and it did not survive donor exit."
+  },
+  {
+   "type": "p",
+   "text": "**Soweto, Kliptown.** Kliptown received R436 million in its first allocation. The JDA spent about R497 million from 2001 to 2010 plus R40 million to 2013, Walter Sisulu Square cost R160 million to R180 million and a 48-room hotel R24 million (p11). The business case projected almost 200,000 international visitors a year, but the museum drew about 4,000 a year by 2017 and the hotel traded above break-even only during the 2010 FIFA World Cup. Local small businesses took 5% of construction contract value, and the site was looted in 2021. Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut."
   }
  ]
 }

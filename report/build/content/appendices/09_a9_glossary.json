@@ -84,26 +84,31 @@
   {
    "type": "table",
    "caption": "Documents and sources cited",
-   "source": "Letsema, document register. Study team: Letsema in partnership with Skift Advisory.",
+   "source": "Letsema, document register. Study team: Letsema in partnership with Skift Advisory. Versions in hand from the cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B].",
    "columns": [
     {
      "header": "Document",
-     "width": 3.2,
+     "width": 2.4,
      "align": "left"
     },
     {
      "header": "Author",
-     "width": 1.8,
+     "width": 1.5,
      "align": "left"
     },
     {
      "header": "Date cited",
-     "width": 1.8,
+     "width": 1.5,
      "align": "left"
     },
     {
      "header": "Status",
-     "width": 1.0,
+     "width": 1.35,
+     "align": "left"
+    },
+    {
+     "header": "Version in hand and SLA clauses",
+     "width": 2.5,
      "align": "left"
     }
    ],
@@ -112,169 +117,197 @@
      "Inception Report",
      "Study team",
      "Nov 2025 (27 November 2025)",
-     "Deliverable"
+     "Deliverable",
+     "37 slides; working session of 28 November 2025; no tree printed. SLA clauses: [to confirm against Annexure B]"
     ],
     [
      "Current State Diagnostic, version 2",
      "Study team",
      "Dec 2025",
-     "Deliverable"
+     "Deliverable",
+     "v2 in the file name; December tree on p64. SLA clauses: [to confirm against Annexure B]"
     ],
     [
      "Skift Digital and Search Insights memo",
      "Skift Advisory",
      "10 Dec 2025",
-     "Working analysis"
+     "Working analysis",
+     ""
     ],
     [
      "Stakeholder Insights Report, phase 1",
      "Study team",
      "Mar 2026 (12 March 2026)",
-     "Deliverable"
+     "Deliverable",
+     "File dated 12 March 2026; sixteen organisation tables. SLA clauses: 1.1.6, 3.2.8"
     ],
     [
      "Skift Segmentation Analysis, version 2.0",
      "Skift Advisory",
      "Mar 2026 (12 March 2026)",
-     "Working analysis"
+     "Working analysis",
+     ""
     ],
     [
      "Skift African Market Analysis, version 1",
      "Skift Advisory",
      "16 Mar 2026",
-     "Working analysis"
+     "Working analysis",
+     ""
     ],
     [
      "Global Benchmarking Report",
      "Study team",
      "Mar 2026 (cover prints 2026 only; file 24 March 2026)",
-     "Deliverable"
+     "Deliverable",
+     "Cover prints 2026 only; file dated 24 March 2026. SLA clauses: 1.1.5, 1.1.11, 3.2.7"
     ],
     [
      "MIDAS Aviation Market Assessment, final draft",
      "MIDAS",
      "Mar 2026 (file 20 April 2026)",
-     "Deliverable"
+     "Deliverable",
+     "Word file marked final draft, dated 20 April 2026; no page numbers. SLA clauses: 1.1.1.2"
     ],
     [
      "Market Assessment Report",
      "Study team",
      "May 2026",
-     "Working analysis"
+     "Working analysis",
+     "Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base. SLA clauses: Working analysis under 1.1.1 [to confirm]"
     ],
     [
      "Demand-Side Analysis, final",
      "Study team",
      "Jun 2026 (file 1 October 2026)",
-     "Deliverable"
+     "Deliverable",
+     "Final; file dated 1 October 2026. SLA clauses: 1.1.1, 1.1.7, 3.2.3"
     ],
     [
      "Infrastructure Report, final",
      "Study team",
      "Jul 2026 (file 22 September 2026)",
-     "Deliverable"
+     "Deliverable",
+     "Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded. SLA clauses: 1.1.2, 1.1.8, 3.2.4"
     ],
     [
      "SME and Community Inclusion Plan",
      "Study team",
      "Sep 2026 (file 9 October 2026)",
-     "Deliverable"
+     "Deliverable",
+     "File dated 9 October 2026. SLA clauses: 1.1.3, 1.1.9, 3.2.5"
     ],
     [
      "Unlocking Tourism Summary of Findings, working session",
      "Study team",
      "14 Oct 2026 (not in this evidence base)",
-     "Deck"
+     "Deck",
+     ""
     ],
     [
      "Economic Value of Tourism in Cape Town for the 2024 year",
      "City of Cape Town (Futureneer Advisors)",
      "June 2025",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Tourism Satellite Account release, as reported",
      "Statistics South Africa",
      "2026, provisional",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Air access releases: jobs and spend per 100 international passengers",
      "Wesgro and Cape Town Air Access",
      "2023 to 2024",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Presentation to the parliamentary committee",
      "Wesgro",
      "1 April 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Western Cape tourism is booming, but can locals afford to enjoy it?",
      "Hypertext",
      "April 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Western Cape Tourism Performance: Annual 2025",
      "Wesgro Research (SA Tourism data)",
      "2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Q1 2026/27 performance presentation to the Portfolio Committee on Transport, as reported by Travel News",
      "ACSA",
      "August 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Parliamentary reply on Cape Town International runway capacity",
      "Minister of Transport",
      "April 2025",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Anuario de Turismo 2024",
      "Sernatur, Chile",
      "December 2025",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Singapore achieves historical high in tourism receipts in 2024",
      "Singapore Tourism Board",
      "February 2025",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "World Tourism Barometer",
      "UN Tourism",
      "January 2025 and January 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "George Airport expansion reporting",
      "George Herald",
      "July 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Meiringspoort temporary reinstatement",
      "Western Cape Government",
      "July 2026",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Kenya 2024 tourism performance, as reported",
      "The Star (Kenya)",
      "May 2025",
-     "Public source"
+     "Public source",
+     ""
     ],
     [
      "Service Level Agreement, Annexure B",
      "Wesgro and Letsema",
      "December 2025 (not in this evidence base)",
-     "Contract"
+     "Contract",
+     ""
     ]
    ],
    "boldFirstCol": true

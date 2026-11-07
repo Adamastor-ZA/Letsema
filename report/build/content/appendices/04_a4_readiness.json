@@ -111,53 +111,8 @@
    "text": "The comparative tables score a different set of eleven categories in three groups (Infrastructure Report, Jul 2026, p88 to p90), and the district scorecards chart a similar set. Attractions cover activity, commercial & leisure, cultural & heritage, events and natural assets. Services cover accommodation, eatery and shopping. Transport and enabling structures cover transport, enabling structure and visitor amenities. The asset counts use five groups: accommodation, attractions, eateries, events and amenities (p23, p67)."
   },
   {
-   "type": "table",
-   "caption": "Readiness index weights",
-   "source": "Infrastructure Report, Jul 2026, p17, as printed. Scale labels: 1 'Very weak', 2 'Weak', 3 'Functional', 4 'Strong', 5 'Leading'. Stated method: 'Average indicator scores within each dimension, then combine dimensions using the agreed weights.'",
-   "columns": [
-    {
-     "header": "Dimension",
-     "width": 1.4,
-     "align": "left"
-    },
-    {
-     "header": "Question it answers",
-     "width": 2.0,
-     "align": "left"
-    },
-    {
-     "header": "Indicators",
-     "width": 2.4,
-     "align": "left"
-    },
-    {
-     "header": "Weight",
-     "width": 0.7,
-     "align": "right"
-    }
-   ],
-   "rows": [
-    [
-     "Attractiveness & quality",
-     "How compelling is the tourism offer?",
-     "Visitor ratings; uniqueness; price positioning; experience depth",
-     "40%"
-    ],
-    [
-     "Readiness & capacity",
-     "Can the region service and convert demand?",
-     "Capacity; digital discovery",
-     "30%"
-    ],
-    [
-     "Accessibility",
-     "Can visitors reach and move through the destination?",
-     "Airport proximity; gateway travel time; public transport availability",
-     "30%"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each."
+   "type": "p",
+   "text": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each (Infrastructure Report, Jul 2026, p17). Attractiveness and quality asks how compelling the tourism offer is, through visitor ratings, uniqueness, price positioning and experience depth. Readiness and capacity asks whether the region can service and convert demand, through capacity and digital discovery. Accessibility asks whether visitors can reach and move through the destination, through airport proximity, gateway travel time and public transport availability. The scale runs from 1 'Very weak' and 2 'Weak' through 3 'Functional' and 4 'Strong' to 5 'Leading'. The stated method is: \"Average indicator scores within each dimension, then combine dimensions using the agreed weights\" (p17)."
   },
   {
    "type": "p",

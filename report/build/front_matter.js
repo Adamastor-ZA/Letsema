@@ -2,6 +2,10 @@
 // Front matter: cover, document control, foreword placeholder, contents, figures, tables, abbreviations.
 // Contents page numbers come from ctx.pagemap on pass 2 (see report.js and scan_pages.js).
 
+// The draft version on the cover and in document control follows the output name (..._DRAFT_v7.docx reads version 7).
+const OUT_ARG = process.argv[process.argv.indexOf('--out') + 1] || '';
+const VERSION = (OUT_ARG.match(/_v(\d+)\.docx$/) || [null, '7'])[1];
+
 const ABBREVIATIONS = [
   ['ACSA', 'Airports Company South Africa'],
   ['CAGR', 'Compound annual growth rate'],
@@ -49,7 +53,7 @@ function build(ctx, H) {
     children: [W('Unlocking Tourism Growth', { size: H.PT(32), bold: true })] }));
   out.push(new Paragraph({ spacing: { after: 600 }, children: [W('A Strategy for the Western Cape to 2035', { size: H.PT(17) })] }));
   out.push(new Paragraph({ spacing: { after: 60 }, children: [W('Letsema in partnership with Skift Advisory', { size: H.PT(9.5) })] }));
-  out.push(new Paragraph({ spacing: { after: 60 }, children: [W('Draft for discussion  |  Version 4  |  November 2026', { size: H.PT(9.5) })] }));
+  out.push(new Paragraph({ spacing: { after: 60 }, children: [W(`Draft for discussion  |  Version ${VERSION}  |  November 2026`, { size: H.PT(9.5) })] }));
   out.push(new Paragraph({ spacing: { before: 120, after: 60 }, children: [W('DRAFT FOR DISCUSSION. Not for circulation beyond the Wesgro project team.', { size: H.PT(8.5), bold: true })] }));
   out.push(H.pageBreak());
 
@@ -62,7 +66,7 @@ function build(ctx, H) {
       ['Client', 'Wesgro, the Western Cape Tourism, Trade and Investment Promotion Agency'],
       ['Authors', 'Letsema Consulting and Advisory in partnership with Skift Advisory'],
       ['Contract', 'Service Level Agreement, Annexure B, clause 1.1.14 (Final Research Report); clauses 1.1.4 and 1.1.10 (M&E toolkit)'],
-      ['Status', 'Draft for discussion, version 4. Every page carries the draft marking until the Steerco review'],
+      ['Status', `Draft for discussion, version ${VERSION}. Every page carries the draft marking until the Steerco review`],
       ['Audience', 'Unlocking Tourism Steerco, Wesgro Exco and Board; the written report launches at the Unlocking Tourism business outlook, February 2027'],
       ['Conventions', 'Figures carry a source and page in the form (Demand-Side Analysis, Jun 2026, p21). Square-bracketed text marks an open item. See section 1.5'],
     ],

@@ -1,0 +1,652 @@
+{
+ "log": [
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/01_demand.json",
+   "table": "Demand findings for the tree",
+   "action": "deleted",
+   "before": " As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. Diag: Current State Diagnostic, Dec 2025. Five markets dominate overseas arrivals UK 19%, Germany 17%, USA 16%, Netherlands 7%, France 4%; top five 63% (61% in the slide text), 2025 DSA p13 Spend per visitor varies almost fourfold USA R32,900 to Zimbabwe R8,500, 2024 DSA p14 Demand peaks in summer October to March about 62%, 2025 (normalised; printed shares sum to 104.9%); 61%, 2024, Wesgro Visitor Tracking Survey DSA p12; Diag p32 Growth case to 2035 1,498,829 (2025) to 1,822,634, 2,175,778 or 2,516,282; 2.0%, 3.8% or 5.3% a year MA p19 Seat line crossed by 2030 1.8m inbound seats as drawn; base case 1,673,855 in 2028 and 1,802,929 in 2030 MA p20 Hubs add most arrivals Hubs +206,584; mature +178,780; acceleration +175,818; regional +110,298; strategic +5,469, 2025 to 2035 MA p20, computed India and China arrive only via hubs India about 71,000 and China about 30,000 journeys a year; direct Indian service unlikely before 2030 DSA p46, p48 Four segments, 97 million addressable 30m, 25m, 19m and 23m; priority pairs UK and USA, India, China and UAE, Germany MA p43 African demand is large and high-yield at the top 323,971 arrivals (2024); R4.2bn spend (2025); Nigeria R31,000 and Ghana R27,700 a visit DSA p27, p29 Business events can fill the green season ICCA meetings 33 (2022) to 58 (2024); 109 of 136 held May to November DSA p37",
+   "after": ""
+  },
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/02_aviation.json",
+   "table": "Aviation findings for the tree",
+   "action": "deleted",
+   "before": " As cited in each row. MIDAS: MIDAS Aviation Market Assessment, Mar 2026, by section. IR: Infrastructure Report, Jul 2026. Route record ahead of peers 17 new mainline international services 2015 to 2025, against Santiago 14, Valencia 12, Calgary 8; 29 international routes in 2026 MIDAS, International Comparisons; Executive Summary Hub-dependent network Top seven markets all hubs, 2.7m seats in 2026 (+35% on 2019); Emirates connecting share above 80% MIDAS, The Capetown Market; Seasonality No direct Asian capacity No direct route to any Asian market; one Asian airline against ten African MIDAS, The Capetown Market; Diagnostic p35 Full routes 11 of 27 routes above 80%; 16 at 75% or more; printed network total 76.0% MIDAS, Seasonality Fares before seats Carriers expected to raise fares rather than add services MIDAS, In Conclusion Winter seats withdrawn June 6.4% and December 10.8% of 2025 international seats MIDAS, Seasonality Regional routes full Luanda 86.2% and 83.4%, Maputo 83.3%, Gaborone 82.3%, Mauritius 81.8%, Harare 81.3%; Durban 90.0% MIDAS, Seasonality India and China via hubs India about 71,000 indirect (2025), direct unlikely before 2030; China about 29,600 MIDAS, Indian and Chinese Market Opportunity Airport is the ceiling About 30 movements an hour; relief from about 2032; George to about 2m by 2029 IR p101 to p105",
+   "after": ""
+  },
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/03_benchmarking.json",
+   "table": "Benchmark findings for the tree",
+   "action": "deleted",
+   "before": " Global Benchmarking Report, Mar 2026, pages as cited. Growth above the norm is designed World 11% in 2024; Chile 40.4%, Singapore 21%, Valencia 13% to 14% p7, p8, p9 Access as infrastructure Chile: US$900m airport concession (2015); open skies; Santiago 90% to 95% of 5.2m arrivals p23 to p26 Air access fund Chile lesson: permanent public-private air access fund; lobby for liberalisation and simpler visas p28 Route-accountable marketing New Zealand: 16,000+ incremental bookings; about NZ$55m return, 2023/24 p54 Hub conversion Singapore: stopover programme; 16.5m arrivals (+21%) and about S$29bn receipts, 2024 p39, p40; STB, Feb 2025 Events pull capacity Melbourne: 5,000 new rooms (+21%); unified event calendar across Wesgro, City and Province p18, p20 Governed quality Valencia: destination-wide quality system; 3.5m visitors (+13.9%), 2024 p46, p47 Value metrics New Zealand: yield-based regional metrics; Kenya: about US$1,460 per visitor p32, p56; DSA p15",
+   "after": ""
+  },
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/04_stakeholders.json",
+   "table": "Stakeholder findings for the tree",
+   "action": "deleted",
+   "before": " Stakeholder Insights Report, Mar 2026, pages as cited; counts from the appendix tables, p20 to p46. Collaboration and data most widely raised 15 of 16 organisations each; data sharing 30 insights, 16 High p20 to p46 No provincial jobs or GDP method No approved methodology; satellite account delayed by 749 vacancies p30, p37 Supply rated most severe 44 of 68 supply insights High, against 23 of 64 for demand p20 to p46 Funding and institutions weakened Funding below peers; capacity eroded; Circular 131 disrupts LTO funding p25, p39 National levers bind Bilateral air agreements; visas raised by four organisations; safety by seven p10, p24, p36, p45 Flagships at capacity Boulders near carrying capacity; Robben Island about R16m a year lost to weather p24, p33 Product hard to book CapeNature about 70% of reservations by call centre p42 Gaps in the record No airline, OTA or tour operator in phase one; airport capacity not raised p16, p22",
+   "after": ""
+  },
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/05_infrastructure.json",
+   "table": "Spatial findings for the tree",
+   "action": "deleted",
+   "before": " Infrastructure Report, Jul 2026, pages as cited. Readiness falls with distance Metro 4.5; Winelands and Garden Route 3.4; Overberg 2.7; West Coast 2.5; Central Karoo 1.9 p28 to p85 Accessibility decays 4.7 in the Metro to 1.0 in the Central Karoo (attractions); 5.0 to 1.0 (transport) p88 to p90 Cape Town is the gateway 20,281 of 50,332 assets (40.3%); only international airport and rapid transit p23, p90 Car-only beyond Metro and Garden Route Public transport effectively absent in the West Coast and Overberg p90 Mid-market missing Mid-market accommodation effectively absent outside Stellenbosch p47, p53 Bookability weakest in the regions About 40% or more of smaller Metro operators lack online booking; Route 62 lowest p32, p87 Flagships full at peak Cableway queues of two to three hours; Dec to Jan peak overwhelms capacity p28, p32 Capital closes air gaps only Metro pipeline R30bn or more; George R310m by 2029; cruise berth at about 40% p32, p43, p110",
+   "after": ""
+  },
+  {
+   "group": "1 delete (recap of the numbered findings above)",
+   "file": "ch2/06_inclusion.json",
+   "table": "Inclusion findings for the tree",
+   "action": "deleted",
+   "before": " SME and Community Inclusion Plan, Sep 2026, pages as cited. Communities hold people, not spend 18.4% of residents (Census 2011); 0.02% to 0.04% of foreign direct spend traced (floor); R4m to R10m a year p5 Capture potential 1% of FY2025 foreign direct spend is R259m a year p5 Distance is not the barrier 93 of 107 within 45 minutes of a node or corridor; distance binds in 0 of 20 p16, p30 Organisation is Binds in 11 of 20; 10 have no active tourism body p28, p30 Safety is the second gate Safety-perception gap in 9 of 20; extortion in 5 p30 Sellers last; capital first fails Kliptown: R436m allocated, about 4,000 museum visitors a year by 2017 p11, p12 Pilot before scale Two or three of six profiled communities; scale only after thresholds are met p32 No jobs counted inside No profile counts tourism jobs inside a community boundary p22, p40",
+   "after": ""
+  },
+  {
+   "group": "1 delete (held in full in Appendix A6)",
+   "file": "ch2/04_stakeholders.json",
+   "table": "Stakeholder priority areas",
+   "action": "deleted",
+   "before": " Stakeholder Insights Report, Mar 2026, p14 (one of the four questions listed under each area). Province-wide access, mobility and visitor movement Which transport bottlenecks cause the most friction for visitor movement? International access friction: air, visas and onward conversion Where is the province losing conversion in the international access journey? Destination readiness, safety and resilience Which safety issues most damage demand and destination confidence? Product diversification and spread beyond the Cape Town core Which barriers stop secondary destinations from scaling? Inclusive growth and SME and community participation Why are current support mechanisms not scaling market-ready operators? Market prioritisation in mature and emerging source markets How should mature-market yield be balanced against growth-market expansion? Seasonality, events and demand spread Which events have the strongest off-peak and regional potential? Digital conversion, packaging and tourism intelligence What is the minimum tourism-data architecture needed for better decisions?",
+   "after": ""
+  },
+  {
+   "group": "1 consequential",
+   "file": "ch2/04_stakeholders.json",
+   "table": null,
+   "action": "text edit",
+   "before": "which frame the questions the later phases were to test (Stakeholder Insights Report, Mar 2026, p14).",
+   "after": "which frame the questions the later phases were to test (Stakeholder Insights Report, Mar 2026, p14). Appendix A6 lists them with their lines of enquiry."
+  },
+  {
+   "group": "1 delete (repeats the executive-summary pillar table and Appendix A2)",
+   "file": "ch3/10_pillar1.json",
+   "table": "Pillar 1 focus areas",
+   "action": "narrative",
+   "before": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion. Chapter 3 entries 1 to 6. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]. 1 Respond to growth segment traveller preferences Validated Four segments with named home markets; the province scores 3.7 to 4.6 out of 5 on its ability to win them I1 2 Create green-season demand with MICE and events Reworded June holds 6.4% of the year's seats; international meetings cluster from May to November I2 3 Make the whole province findable and bookable Reworded The outer routes and every profiled community fall short on online bookability I3 4 Convert India and China hub traffic Reworded About 101,000 travellers a year already fly in, mainly through Dubai, Doha and Addis Ababa I4 5 Increase yield in mature markets Validated Five mature long-haul routes run above 80% load, and carriers on full routes raise fares before seats I1 6 Build a regional foundation (Africa) Validated Regional routes run above 80% load; West African visitors spend the most per visit I5",
+   "after": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion. The entries follow, and the executive summary lists them with their initiatives. Dispositions are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]."
+  },
+  {
+   "group": "1 delete (repeats the executive-summary pillar table and Appendix A2)",
+   "file": "ch3/20_pillar2.json",
+   "table": "Pillar 2 focus areas",
+   "action": "narrative",
+   "before": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated. Chapter 3 entries 7 to 12. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]. 7 Win direct routes and add seats on full routes Reworded Eleven of 27 routes run above 80% load, fares rise before seats, and runway relief lands about 2033 I6 8 Grow cruise calls and ports New Cape Town's berth runs at about 40% of season capacity; growth comes through product and marketing I7 9 Accelerate tourism-enabling internal mobility Validated Accessibility falls from 4.7 in the Metro to 1.0 in the Central Karoo I8 10 Support diversified route and product development Validated Assets outside the Metro are not turned into product, and one route of six is Ready I9 11 Align visitor experience in-destination Validated No mid-scale branded tier sits between luxury estates and basic self-catering I10 12 Balance impact on nature-based attractions Validated Boulders is near carrying capacity and Cableway queues reach three hours I11",
+   "after": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated. The entries follow, and the executive summary lists them with their initiatives. Dispositions are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]."
+  },
+  {
+   "group": "1 delete (repeats the executive-summary pillar table and Appendix A2)",
+   "file": "ch3/30_pillar3.json",
+   "table": "Pillar 3 focus areas",
+   "action": "narrative",
+   "before": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree. Chapter 3 entries 13 to 20. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]. 13 Embed local destination bodies for community inclusion Refined Organisation, not distance or product, binds in eleven of twenty communities I12 14 Manage climate risk and sustainable tourism Reworded Climate already closes sites and routes; local tourism bodies depend on disrupted municipal funding I13 15 Crowd in capital with targeted investment strategies Validated No committed capital reaches tourism product, bookability or community assets I14 16 Align institutional stakeholders across all three tiers Reworded Air rights and visas sit nationally, and mandates are split across three tiers I15 17 Strengthen industry and government collaboration Validated Fifteen of sixteen organisations raised collaboration, and JAMS already exists I15 18 Expedite tourism-enabling policy and data sharing Validated No approved provincial jobs method and no single view of the visitor I16 19 Lead removal of infrastructure, visa and safety deficits Moved The best-evidenced barriers, with most of the levers held nationally I17 20 Develop workforce and service skills Flagged The jobs ambition has no baseline and no labour analysis I18",
+   "after": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree. The entries follow, and the executive summary lists them with their initiatives. Dispositions are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]."
+  },
+  {
+   "group": "2 narrative",
+   "file": "exec/01_summary.json",
+   "table": "How the tree changed",
+   "action": "narrative",
+   "before": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream. Current State Diagnostic, Dec 2025, p64 (December entries); dispositions as recorded at the 14 October 2026 review; section 1.4. Close the Air Access and Cruise Capacity Gaps 7 Win direct routes and add seats on full routes; 8 Grow cruise calls and ports Split: air Reworded, cruise New Lead Removal of Infrastructure, Visa and Safety Deficits 19, same title, under Governance and leadership Moved from supply to governance None 20 Develop workforce and service skills Added; Flagged, untested Develop the Seasonality and Spread Proposition 2 Create green-season demand with MICE and events Reworded Facilitate Adoption Along the Path to Purchase 3 Make the whole province findable and bookable Reworded Pivot to Growth Markets (China, India, ME, ASEAN) 4 Convert India and China hub traffic Reworded Ensure Sustainable Destination Management 14 Manage climate risk and sustainable tourism Reworded Review Institutional Arrangements (Wesgro, DEDAT, CTT) 16 Align institutional stakeholders across all three tiers Reworded Drive Community and SME Inclusion 13 Embed local destination bodies for community inclusion Refined, held at concept level",
+   "after": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream. The air access and cruise entry split in two: focus area 7, Win direct routes and add seats on full routes, is Reworded, and focus area 8, Grow cruise calls and ports, is New. Focus area 19, Lead removal of infrastructure, visa and safety deficits, keeps its December title but moves from supply to governance. Focus area 20, Develop workforce and service skills, was added and is Flagged, untested. Five entries were Reworded to the lever the evidence supports. Develop the Seasonality and Spread Proposition became focus area 2, Create green-season demand with MICE and events. Facilitate Adoption Along the Path to Purchase became focus area 3, Make the whole province findable and bookable. Pivot to Growth Markets (China, India, ME, ASEAN) became focus area 4, Convert India and China hub traffic. Ensure Sustainable Destination Management became focus area 14, Manage climate risk and sustainable tourism. Review Institutional Arrangements (Wesgro, DEDAT, CTT) became focus area 16, Align institutional stakeholders across all three tiers. Drive Community and SME Inclusion became focus area 13, Embed local destination bodies for community inclusion, Refined and held at concept level (Current State Diagnostic, Dec 2025, p64; dispositions as recorded at the 14 October 2026 review; section 1.4)."
+  },
+  {
+   "group": "2 narrative",
+   "file": "exec/01_summary.json",
+   "table": "Actions for the first 24 months",
+   "action": "narrative",
+   "before": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs. Section 4.5. Owners and start dates are proposals for Steerco to confirm. Hold winter seats with demand: joint green-season marketing with carriers on the full routes I6, I2 Air Access 2027 H1 Publish a green-season events calendar and aim bids at May to September I2 Convention Bureau 2027 H1 Track the runway programme quarterly and model capacity against demand to 2035 I6 Air Access 2027 H1 Constitute Steerco and table the first national escalation agenda I15, I17 Wesgro CEO's office; DEDAT 2027 H1 Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism I16 Research 2027 H1 Run a bookability census of provincial product by district I3 Research 2027 H1 Request visitor counts and capacity from the five flagship sites I11 Research 2027 H1 Commission the tourism labour analysis behind the jobs ambition I18 DEDAT, with Wesgro Research 2027 H1 Package the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary I8, I9 Tourism 2027 H2 Package the Southern Line as a visitor product with the City and PRASA I8 Tourism 2027 H2 Choose two or three pilot communities and agree who funds a seller with a stake in each I12 Tourism 2027 H2 Give each pilot community one live booking route before any promotion I12, I3 LTOs, with Tourism 2028 H1",
+   "after": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs. Section 4.5 lists them with their funding routes; owners and start dates are proposals for Steerco to confirm. **Seats and season, from 2027 H1.** Air Access holds winter seats with demand through joint green-season marketing with carriers on the full routes (I6, I2). It also tracks the runway programme quarterly and models capacity against demand to 2035 (I6). The Convention Bureau publishes a green-season events calendar and aims bids at May to September (I2). **Governance and baselines, from 2027 H1.** The Wesgro CEO's office and DEDAT constitute Steerco and table the first national escalation agenda (I15, I17). Research agrees the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism (I16), runs a bookability census of provincial product by district (I3) and requests visitor counts and capacity from the five flagship sites (I11). DEDAT, with Wesgro Research, commissions the tourism labour analysis behind the jobs ambition (I18). **Product and inclusion, from 2027 H2.** Tourism packages the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary (I8, I9), and the Southern Line as a visitor product with the City and PRASA (I8). It chooses two or three pilot communities and agrees who funds a seller with a stake in each (I12). From 2028 H1, the LTOs, with Tourism, give each pilot community one live booking route before any promotion (I12, I3)."
+  },
+  {
+   "group": "2 narrative",
+   "file": "exec/01_summary.json",
+   "table": "The main risks",
+   "action": "narrative",
+   "before": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act. Section 4.8; likelihood and impact are Letsema's assessment. Bilateral air agreements and the US carrier cap stay restrictive High; high Escalation agenda with stated asks; route work inside existing rights Runway relief at Cape Town International slips past about 2033 Medium; high Quarterly milestone tracking; frequency and gauge; George for domestic connections Visa processing for growth markets does not improve Medium; high Escalation agenda; processing time tracked each year Safety incidents or perception deter visitors Medium; high Safety gates before pilot launches; escalation to SAPS Climate events close sites and routes High; medium Climate risk register; itineraries routed around closures",
+   "after": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act. Restrictive bilateral air agreements and the US carrier cap are the one risk rated high on both likelihood and impact; the response is an escalation agenda with stated asks and route work inside existing rights. Three risks are rated medium likelihood and high impact. If runway relief at Cape Town International slips past about 2033, the response is quarterly milestone tracking, more frequency and larger aircraft, with George for domestic connections. If visa processing for growth markets does not improve, the escalation agenda carries it and processing time is tracked each year. Safety incidents or perception that deter visitors meet safety gates before pilot launches and escalation to SAPS. Climate events that close sites and routes are rated high likelihood and medium impact; a climate risk register and itineraries routed around closures are the response. Likelihood and impact are Letsema's assessment, and section 4.8 holds the full register."
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch1/01_mandate.json",
+   "table": null,
+   "action": "text edit",
+   "before": "The table below sets each original ambition against the baseline in hand and the form in which the strategy now carries it.",
+   "after": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch1/01_mandate.json",
+   "table": "The four headline ambitions",
+   "action": "narrative",
+   "before": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed. Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5, p25, p37; Market Assessment Report, May 2026, p19, p20. 2.8 million international visitors by 2035 1.44m international passenger arrivals at Cape Town International, FY24/25 (Diagnostic p25); model base 1,498,829 in 2025 (Market Assessment p19) Growth to 2.5 million: accelerated case 2,516,282 and base case 2,175,778 by 2035 (Market Assessment p19). The Diagnostic's 5.7 million arrivals and R54.7 billion spend (p5) is recorded as superseded 300,000 tourism-linked jobs No Western Cape tourism employment figure in any deliverable Carried to Chapter 5 with its baseline set by the labour analysis the strategy commissions under workforce and service skills (focus area 20, flagged) 10,000 SMMEs onboarded No baseline or definition printed [Wesgro to confirm the baseline count and definition of SMMEs onboarded] Carried as community inclusion, measured in visitor spend reaching priority communities rather than a count of firms; see 2.6 and Chapter 5 Twice the airlift and cruise volumes Airlift: inbound capacity drawn at 1.8 million seats (Market Assessment p20). Cruise: 79 vessels in the 2024/25 season (Diagnostic p37) Airlift carried as the seats and routes needed to lift the 1.8 million seat line (3.2.1). Cruise carried as calls and ports (3.2.1) [Cruise Cape Town to confirm the call target and its definition]",
+   "after": "**Arrivals.** The ambition was 2.8 million international visitors by 2035 (Inception Report, Nov 2025, p4). The baseline in hand is 1.44m international passenger arrivals at Cape Town International in FY24/25 (Current State Diagnostic, Dec 2025, p25) and the model base of 1,498,829 in 2025 (Market Assessment Report, May 2026, p19). The strategy carries it as growth to 2.5 million: 2,516,282 on the accelerated case and 2,175,778 on the base case by 2035 (p19). The Diagnostic's 5.7 million arrivals and R54.7 billion spend is recorded as superseded (Current State Diagnostic, Dec 2025, p5). **Jobs.** The ambition was 300,000 tourism-linked jobs, and no deliverable carries a Western Cape tourism employment figure. The strategy carries it to Chapter 5 with its baseline set by the labour analysis it commissions under workforce and service skills (focus area 20, flagged). **SMMEs.** The ambition was 10,000 SMMEs onboarded, with no baseline or definition printed [Wesgro to confirm the baseline count and definition of SMMEs onboarded]. It is carried as community inclusion, measured in visitor spend reaching priority communities rather than a count of firms (section 2.6 and Chapter 5). **Airlift and cruise.** The ambition was twice the airlift and cruise volumes. For airlift, the growth model draws inbound capacity at 1.8 million seats (Market Assessment Report, May 2026, p20); for cruise, the baseline is 79 vessels in the 2024/25 season (Current State Diagnostic, Dec 2025, p37). Airlift is carried as the seats and routes needed to lift the 1.8 million seat line, and cruise as calls and ports (section 3.2.1) [Cruise Cape Town to confirm the call target and its definition]."
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch1/02_system_today.json",
+   "table": null,
+   "action": "text edit",
+   "before": " The table below sets out who holds what.",
+   "after": ""
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch1/02_system_today.json",
+   "table": "The tourism system by tier",
+   "action": "narrative",
+   "before": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry. Inception Report, Nov 2025, p7 (organisations as shown on the stakeholder map; the grouping is this report's); Current State Diagnostic, Dec 2025, p58 (functions by tier). Wesgro units Cape Town Air Access; Cruise Cape Town; Convention Bureau; Destination Marketing; Research; Tourism Route development, cruise, business events bids, destination marketing, research and tourism promotion for Cape Town and the Western Cape Provincial and city government Western Cape Government (Economic Development and Tourism); City of Cape Town Provincial tier: jobs, inclusion and spatial outcomes; sector development and safety programmes; infrastructure planning and resilience. Local tier: service delivery and precinct management; events readiness and place experience; congestion, by-laws and community impact National agencies and state-owned entities South African Tourism; Airports Company South Africa; Transnet; South African Maritime Safety Authority National tier: visa rules and border compliance; air service agreements and route rights; national brand and investment priorities. Airport capacity and port operations Destination and attraction bodies Cape Town Tourism; V&A Waterfront; CapeNature; South African National Parks; Table Mountain Aerial Cableway Industry tier: demand generation and destination marketing; product quality and visitor experience at the flagship sites Private operators MSC Cruises; Cape Grace; Pullman Hotels and Resorts (Cape Town City Centre); Southern Sun Industry tier: route and product viability and commercial performance; pricing and service standards",
+   "after": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry (Inception Report, Nov 2025, p7, organisations as shown on the stakeholder map and grouped by this report; Current State Diagnostic, Dec 2025, p58). The six units are Cape Town Air Access, Cruise Cape Town, the Convention Bureau, Destination Marketing, Research and Tourism. Between them they cover route development, cruise, business events bids, destination marketing, research and tourism promotion for Cape Town and the Western Cape. The Western Cape Government (Economic Development and Tourism) and the City of Cape Town make up provincial and city government. The provincial tier sets jobs, inclusion and spatial outcomes, runs sector development and safety programmes and plans infrastructure and resilience. The local tier delivers services and manages precincts. It also readies events and place experience and handles congestion, by-laws and community impact. South African Tourism, Airports Company South Africa, Transnet and the South African Maritime Safety Authority sit at the national tier. It holds visa rules and border compliance. It also holds air service agreements and route rights, sets national brand and investment priorities and runs airport capacity and port operations. Cape Town Tourism, the V&A Waterfront, CapeNature, South African National Parks and the Table Mountain Aerial Cableway are the destination and attraction bodies. They carry demand generation and destination marketing as well as product quality and visitor experience at the flagship sites. The private operators, MSC Cruises, Cape Grace, Pullman Hotels and Resorts (Cape Town City Centre) and Southern Sun, carry route and product viability and commercial performance. They also set pricing and service standards. Together they form the industry tier."
+  },
+  {
+   "group": "2 fold into A9",
+   "file": "ch1/04_approach.json",
+   "table": "Interim deliverables and SLA clauses",
+   "action": "deleted",
+   "before": " Cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B]. Inception Report Nov 2025 37 slides; working session of 28 November 2025; no tree printed [to confirm against Annexure B] 1.1, 1.4 Current State Diagnostic Dec 2025 v2 in the file name; December tree on p64 [to confirm against Annexure B] 1.2; folded into 2.1 and 2.5 Stakeholder Insights Report (phase 1) Mar 2026 File dated 12 March 2026; sixteen organisation tables 1.1.6, 3.2.8 2.4 Global Benchmarking Report Mar 2026 Cover prints 2026 only; file dated 24 March 2026 1.1.5, 1.1.11, 3.2.7 2.3 MIDAS Aviation Market Assessment Mar 2026 Word file marked final draft, dated 20 April 2026; no page numbers 1.1.1.2 2.2 Market Assessment Report May 2026 Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base Working analysis under 1.1.1 [to confirm] 2.1 Demand-Side Analysis Jun 2026 Final; file dated 1 October 2026 1.1.1, 1.1.7, 3.2.3 2.1 Infrastructure Report Jul 2026 Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded 1.1.2, 1.1.8, 3.2.4 2.5 SME and Community Inclusion Plan Sep 2026 File dated 9 October 2026 1.1.3, 1.1.9, 3.2.5 2.6",
+   "after": ""
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch1/04_approach.json",
+   "table": null,
+   "action": "text edit",
+   "before": "Nine dated documents carry the evidence, and the table below dates each by its cover.",
+   "after": "Nine dated documents carry the evidence. Appendix A9 dates each by its cover and gives the version in hand and the SLA clauses it answers. Chapter 2 summarises them: the Market Assessment Report and the Demand-Side Analysis in 2.1, the MIDAS Aviation Market Assessment in 2.2, the Global Benchmarking Report in 2.3, the Stakeholder Insights Report in 2.4, the Infrastructure Report in 2.5 and the SME and Community Inclusion Plan in 2.6. The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2 and is folded into 2.1 and 2.5."
+  },
+  {
+   "group": "2 fold into A9",
+   "file": "appendices/09_a9_glossary.json",
+   "table": "Documents and sources cited",
+   "action": "column added from Table 1.7",
+   "before": "",
+   "after": "{\"Inception Report\": \"37 slides; working session of 28 November 2025; no tree printed. SLA clauses: [to confirm against Annexure B]\", \"Current State Diagnostic\": \"v2 in the file name; December tree on p64. SLA clauses: [to confirm against Annexure B]\", \"Stakeholder Insights Report\": \"File dated 12 March 2026; sixteen organisation tables. SLA clauses: 1.1.6, 3.2.8\", \"Global Benchmarking Report\": \"Cover prints 2026 only; file dated 24 March 2026. SLA clauses: 1.1.5, 1.1.11, 3.2.7\", \"MIDAS Aviation Market Assessment\": \"Word file marked final draft, dated 20 April 2026; no page numbers. SLA clauses: 1.1.1.2\", \"Market Assessment Report\": \"Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base. SLA clauses: Working analysis under 1.1.1 [to confirm]\", \"Demand-Side Analysis\": \"Final; file dated 1 October 2026. SLA clauses: 1.1.1, 1.1.7, 3.2.3\", \"Infrastructure Report\": \"Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded. SLA clauses: 1.1.2, 1.1.8, 3.2.4\", \"SME and Community Inclusion Plan\": \"File dated 9 October 2026. SLA clauses: 1.1.3, 1.1.9, 3.2.5\"}"
+  },
+  {
+   "group": "2 fold into A9",
+   "file": "appendices/09_a9_glossary.json",
+   "table": "Documents and sources cited",
+   "action": "source extended",
+   "before": "Letsema, document register. Study team: Letsema in partnership with Skift Advisory.",
+   "after": "Letsema, document register. Study team: Letsema in partnership with Skift Advisory. Versions in hand from the cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B]."
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch1/05_how_to_read.json",
+   "table": null,
+   "action": "text edit",
+   "before": "The report moves from context to evidence to recommendations to delivery, and the table below gives the route through it for each reader.",
+   "after": "The report moves from context to evidence to recommendations to delivery."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch1/05_how_to_read.json",
+   "table": "Chapter map and readers",
+   "action": "narrative",
+   "before": " Letsema, structure of this report, November 2026. Executive summary The case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators Board, Exco and the February 2027 launch audience; it stands alone 1 Context What Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran Every reader; the Board member who reads no other chapter of the body 2 Analysis summaries What each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree Readers checking the evidence behind a Chapter 3 entry; each section closes with a box naming the focus areas it supports 3 Findings and recommendations For each of the twenty focus areas: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally Board and Exco by entry; the programme owner in full; Section 3.4 for the sequence 4 Execution plan Which initiatives, in what order, owned by whom, at what cost and with which decision gates The programme owner, Steerco and the partners named in the RACI 5 Monitoring and evaluation How progress is measured: indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review Wesgro Research, the programme office and Steerco Appendices A1 to A9 The traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references Analysts and anyone checking a figure",
+   "after": "The executive summary gives the case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators. It stands alone, for the Board, Exco and the February 2027 launch audience. Chapter 1 is for every reader, and is the chapter of the body a Board member should read if they read no other. It sets out what Wesgro asked for, where the system stands after recovery, why the next step is constrained by peak capacity and how the study ran. Chapter 2 summarises what each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree. It serves readers checking the evidence behind a Chapter 3 entry, and each section closes with a box naming the focus areas it supports. Chapter 3 takes the twenty focus areas in turn: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally. The Board and Exco can read it entry by entry and the programme owner in full; section 3.4 gives the sequence. Chapter 4 sets out which initiatives run, in what order, owned by whom, at what cost and with which decision gates, for the programme owner, Steerco and the partners named in the RACI. Chapter 5 sets out how progress is measured, through indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review, for Wesgro Research, the programme office and Steerco. Appendices A1 to A9 hold the traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references, for analysts and anyone checking a figure."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch1/05_how_to_read.json",
+   "table": "Disposition labels and counts",
+   "action": "narrative",
+   "before": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated. Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1. Validated The evidence confirmed the December hypothesis as written 10 Refined The evidence confirmed the hypothesis and sharpened its content 1 Reworded The evidence confirmed the hypothesis; the entry was renamed to what the evidence showed 6 New Added in October 2026, with no December entry behind it 1 Moved The evidence confirmed the hypothesis; the entry moved to another theme because its levers sit with another tier 1 Withdrawn Dropped because the evidence did not support the hypothesis 0 Flagged Untested; carried as a question for analysis still to be commissioned 1",
+   "after": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated: the evidence confirmed the hypothesis as written. One is Refined, where the evidence confirmed the hypothesis and sharpened its content. Six are Reworded: the evidence confirmed the hypothesis and the entry was renamed to what the evidence showed. One is New, added in October 2026 with no December entry behind it. One is Moved: confirmed, but placed in another theme because its levers sit with another tier. One is Flagged: untested, and carried as a question for analysis still to be commissioned. None is Withdrawn, the label for an entry dropped because the evidence did not support it. The labels are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed against the final deck], and the counts come from the traceability table in Appendix A1."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/02_aviation.json",
+   "table": "Carrier launches since 2014",
+   "action": "narrative",
+   "before": "Twelve carriers have launched Cape Town services since 2014, seven of them to African points. MIDAS Aviation Market Assessment, Mar 2026, \"The Capetown Market\" (carriers launched since 2014, 2026 scheduled seats). Airlink Various regional points 441,602 Ethiopian Airlines Addis Ababa 437,430 Turkish Airlines Istanbul 240,200 United Airlines Newark and Washington 172,190 Kenya Airways Nairobi 127,138 Delta Air Lines Atlanta 110,612 Norse Atlantic UK London Gatwick 103,428 LATAM Airlines Group São Paulo 47,084 Air Tanzania Dar es Salaam and Victoria Falls 37,716 Safair Windhoek 32,130 Proflight Zambia Livingstone 14,600 Eswatini Air Manzini 3,700",
+   "after": "By 2026 scheduled seats, the five largest are Airlink to various regional points (441,602), Ethiopian Airlines to Addis Ababa (437,430), Turkish Airlines to Istanbul (240,200), United Airlines to Newark and Washington (172,190) and Kenya Airways to Nairobi (127,138). The other seven are Delta Air Lines to Atlanta (110,612), Norse Atlantic UK to London Gatwick (103,428), LATAM Airlines Group to São Paulo (47,084), Air Tanzania to Dar es Salaam and Victoria Falls (37,716), Safair to Windhoek (32,130), Proflight Zambia to Livingstone (14,600) and Eswatini Air to Manzini (3,700) (\"The Capetown Market\")."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/03_benchmarking.json",
+   "table": "Comparator lessons for the province",
+   "action": "narrative",
+   "before": " Global Benchmarking Report, Mar 2026, p20, p28, p35, p42, p49, p56 (required change for the Western Cape, condensed). Chile Gateway-led air connectivity Treat air access as core economic infrastructure; a permanent public-private air access fund; lobby for air service liberalisation and simpler visas p28 New Zealand Demand-engineered air access Ring-fence marketing budgets around priority long-haul corridors; an aviation partnership framework; early-stage route support p56 Melbourne and Victoria Event-led demand One event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province; conference bidding aligned to sector strengths p20 Singapore Hub conversion and quality uplift Government, aviation, events and industry under shared KPIs; a province-wide quality and standards framework led by Wesgro p42 Valencia Governed quality and sector councils A provincial quality charter, phased by district; certification visible on booking platforms; standing sector councils for wine, MICE, adventure and culture p49 Kenya Gateway diversification and conservation-led product Treat MICE as a system lever; align city, provincial and national actors around a gateway strategy; build conservation and community inclusion into the offer p35",
+   "after": "Each comparator's lesson translates into a change the Western Cape would have to make (Global Benchmarking Report, Mar 2026, p20, p28, p35, p42, p49, p56). Chile's gateway-led air connectivity means treating air access as core economic infrastructure, with a permanent public-private air access fund and lobbying for air service liberalisation and simpler visas (p28). New Zealand's demand-engineered air access means ring-fencing marketing budgets around priority long-haul corridors, with an aviation partnership framework and early-stage route support (p56). Melbourne and Victoria's event-led demand means one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province, with conference bidding aligned to sector strengths (p20). Singapore's hub conversion and quality uplift means government, aviation, events and industry working to shared KPIs, under a province-wide quality and standards framework led by Wesgro (p42). Valencia's governed quality and sector councils mean a provincial quality charter phased by district, certification visible on booking platforms and standing sector councils for wine, MICE, adventure and culture (p49). Kenya's gateway diversification and conservation-led product mean treating MICE as a system lever, aligning city, provincial and national actors around a gateway strategy and building conservation and community inclusion into the offer (p35)."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/04_stakeholders.json",
+   "table": "Attributed high-rated insights",
+   "action": "narrative",
+   "before": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence. Stakeholder Insights Report, Mar 2026, appendix tables, pages as cited. Insights are the project team's statements, attributed to the organisation engaged. [Open item: each organisation named in this table to approve its paraphrase before publication.] Dept of Economic Development Restrictive bilateral air agreements are limiting airlift growth and leave the province less competitive than peer destinations p24 Dept of Economic Development Western Cape/Cape Town tourism funding is materially below peer destinations for destination management and destination marketing p25 Dept of Economic Development MFMA Circular No. 131 has disrupted established municipal funding mechanisms for local tourism bodies p25 Dept of Tourism There is no approved official methodology for provincial tourism GDP and jobs estimates p37 CapeNature Approximately 70% of reservations come through the call centre rather than the online platform p42 Robben Island Museum Weather and climate disruption cost roughly R16 million a year in cancelled trips p33 West Coast District A mandate disconnect between the district, local municipalities and LTOs has created unclear ownership for tourism development p39 Table Mountain Cableway Peak-period queues of up to three hours up and two hours down detract from the visitor experience p36",
+   "after": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence (Stakeholder Insights Report, Mar 2026, appendix tables; the insights are the project team's statements, attributed to the organisation engaged). The Department of Economic Development reports that restrictive bilateral air agreements are limiting airlift growth and leave the province less competitive than peer destinations (p24). It rates Western Cape and Cape Town tourism funding materially below peer destinations for destination management and destination marketing, and finds that MFMA Circular No. 131 has disrupted established municipal funding mechanisms for local tourism bodies (p25). The Department of Tourism notes that there is no approved official methodology for provincial tourism GDP and jobs estimates (p37). CapeNature takes approximately 70% of its reservations through the call centre rather than the online platform (p42). Robben Island Museum puts the cost of weather and climate disruption at roughly R16 million a year in cancelled trips (p33). The West Coast District describes a mandate disconnect between the district, local municipalities and LTOs that has left tourism development without clear ownership (p39). The Table Mountain Cableway reports peak-period queues of up to three hours up and two hours down, which detract from the visitor experience (p36). [Open item: each organisation named here to approve its paraphrase before publication.]"
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/05_infrastructure.json",
+   "table": "Cruise ports and stance",
+   "action": "narrative",
+   "before": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief. Infrastructure Report, Jul 2026, p110 to p112. Cape Town 83 calls and about 127,000 passengers in 2024/25, about 40% of a season capacity of 150 or more calls; R1.79bn impact 300m ship-length limit and the South-Easter wind; no shore power Protect Mossel Bay 21 calls and about 13,000 passengers; R22m passenger facility opened November 2025 No cruise quay; ships anchor and tender; small and mid-sized ships only Back now Saldanha Bay 3 trial calls Shares the ore terminal; no cruise berth or passenger facility Watch",
+   "after": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief (Infrastructure Report, Jul 2026, p110 to p112). Cape Town, where the stance is to protect, handled 83 calls and about 127,000 passengers in 2024/25, about 40% of a season capacity of 150 or more calls, for R1.79bn of impact; its limits are a 300m ship length, the South-Easter wind and no shore power. Mossel Bay, to back now, handled 21 calls and about 13,000 passengers and opened a R22m passenger facility in November 2025; it has no cruise quay, so ships anchor and tender, and only small and mid-sized ships call. Saldanha Bay, to watch, has had 3 trial calls; it shares the ore terminal and has no cruise berth or passenger facility."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/05_infrastructure.json",
+   "table": "Remaining gaps by region",
+   "action": "narrative",
+   "before": "Each region carries a remaining gap that no committed investment closes. Infrastructure Report, Jul 2026: ratings p28, p41, p52, p63, p74, p85; gaps and investments p32, p43, p54, p65, p76, p87. Cape Metro 4.5 R11.3bn airport overhaul; R20bn V&A Granger Bay; R3.3bn MyCiTi Phase 2 Last-mile transit to Chapman's Peak, Constantia and Cape Point; small-operator online booking; township product Cape Winelands 3.4 R8bn Cape Winelands Airport phase one, by 2028; R16bn to R20bn wider precinct No transit inside the wine triangle; non-wine product; pricing for domestic visitors Garden Route 3.4 R310m George terminal, by 2028; R9.4m landing-system upgrade No international carrier; winter trough; transport between towns Overberg 2.7 R81.7m Agulhas lighthouse precinct; R17m Malgas road Accommodation towards De Hoop; bookability east of Hermanus; year-round product West Coast 2.5 R693m Malmesbury bypass (complete); R4bn Saldanha port upgrade, iron ore Accommodation depth; digital payments; no airport Central Karoo and Route 62 1.9 R62 reconstruction under way; rural broadband to 2026 Accommodation depth; emergency support; no airport",
+   "after": "Each region carries a remaining gap that no committed investment closes (Infrastructure Report, Jul 2026, ratings p28, p41, p52, p63, p74, p85; gaps and investments p32, p43, p54, p65, p76, p87). The Cape Metro, rated 4.5, has the R11.3bn airport overhaul, the R20bn V&A Granger Bay expansion and the R3.3bn MyCiTi Phase 2. Last-mile transit to Chapman's Peak, Constantia and Cape Point, small-operator online booking and township product remain open. The Cape Winelands, rated 3.4, has the R8bn first phase of Cape Winelands Airport by 2028 and a wider precinct of R16bn to R20bn, but no transit inside the wine triangle, little non-wine product and no pricing for domestic visitors. The Garden Route, rated 3.4, has the R310m George terminal by 2028 and a R9.4m landing-system upgrade, but no international carrier, a winter trough and no transport between towns. The Overberg, rated 2.7, has the R81.7m Agulhas lighthouse precinct and the R17m Malgas road, but lacks accommodation towards De Hoop, bookability east of Hermanus and year-round product. The West Coast, rated 2.5, has the completed R693m Malmesbury bypass and the R4bn Saldanha port upgrade, which serves iron ore; it lacks accommodation depth and digital payments, and has no airport. The Central Karoo and Route 62, rated 1.9, have the R62 reconstruction under way and rural broadband to 2026, but lack accommodation depth and emergency support, and have no airport."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/06_inclusion.json",
+   "table": "Inclusion benchmark cases",
+   "action": "narrative",
+   "before": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing. SME and Community Inclusion Plan, Sep 2026, p7 to p11. Rio de Janeiro, Santa Marta About 20 resident guides ran the tours by 2015 and outside jeep firms had left Access and safety are preconditions, not product; resident sellers outlast programmes p7 Medellín, Comuna 13 1.98 million visitors in 2025, 52% international; about 300 professional guides Mobility built for residents became the stage; carrying-capacity limits came late p8 Vilakazi Street, Soweto Ten restaurants employ more than 800 people Public-realm works amplify existing assets; benefits concentrate on street-front owners p9 Costa Rica community network Turnover above USD 800,000 in 2013; dissolved at the end of 2018 A selling entity is the engine and must survive donor exit p10 Kliptown, Soweto R436 million allocated; about 4,000 museum visitors a year by 2017 Capital built before an operator yields no operating income p11",
+   "after": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing (SME and Community Inclusion Plan, Sep 2026, p7 to p11). In Santa Marta in Rio de Janeiro, about 20 resident guides ran the tours by 2015 and outside jeep firms had left: access and safety are preconditions, not product, and resident sellers outlast programmes (p7). Medellín's Comuna 13 drew 1.98 million visitors in 2025, 52% of them international, with about 300 professional guides; mobility built for residents became the stage, but carrying-capacity limits came late (p8). On Vilakazi Street in Soweto, ten restaurants employ more than 800 people; public-realm works amplify existing assets, but benefits concentrate on street-front owners (p9). Costa Rica's community network turned over more than USD 800,000 in 2013 and dissolved at the end of 2018: a selling entity is the engine and must survive donor exit (p10). Kliptown in Soweto received R436 million and drew about 4,000 museum visitors a year by 2017, because capital built before an operator yields no operating income (p11)."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch2/06_inclusion.json",
+   "table": "Community archetypes and responses",
+   "action": "narrative",
+   "before": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response. SME and Community Inclusion Plan, Sep 2026, p15 and p17 (long-list and shortlist counts; p4 prints 48 and 8 for the two assets-underused rows), p15 (responses). Near a node, assets underused 49 11 Integrate: itinerary slots, procurement and events; organise sellers Near a node, no assets 43 6 Create one anchor asset under a covenant, then integrate; a seller comes first Remote, assets underused 7 2 Open access and place the asset on a route product the LTO already sells Remote, no assets 8 1 Procurement and skills first; an asset only once a route product exists",
+   "after": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response (SME and Community Inclusion Plan, Sep 2026, p15, p17; p4 prints 48 and 8 for the two assets-underused rows). Near a node with assets underused, 49 long-listed and 11 shortlisted communities need integration through itinerary slots, procurement and events, with sellers organised. Near a node with no assets, 43 long-listed and 6 shortlisted communities need one anchor asset under a covenant, then integration, with a seller first. Remote communities with underused assets, 7 long-listed and 2 shortlisted, need access opened and the asset placed on a route product the LTO already sells. Remote communities with no assets, 8 long-listed and 1 shortlisted, need procurement and skills first, and an asset only once a route product exists."
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch3/40_integrated.json",
+   "table": null,
+   "action": "text edit",
+   "before": "Each step up the case therefore rests on a set of moves, and the table below maps each set to the focus areas that deliver it.",
+   "after": "Each step of the growth case therefore rests on a named set of interventions, and each set draws on focus areas in all three pillars."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch3/40_integrated.json",
+   "table": "Growth paths and their interventions",
+   "action": "narrative",
+   "before": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars. Demand-Side Analysis, Jun 2026, p19 (assumptions) and p20 (2035 end points); Market Assessment Report, May 2026, p19 (2025 base). Increments between paths are computed from the printed end points. The mapping to focus areas is this report's. Conservative 1,822,634 Existing air access held with no added frequencies or routes; continued trade and marketing; growth in the mature markets and current corridors 5 and 7 hold the base Base 2,175,778 (+353,144) Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity; existing Wesgro programmes expand; India, China and regional Africa grow through hub connections 1 to 7, 9 and 10 Accelerated 2,516,282 (+340,504) Direct India and China routes secured; dedicated activation in India, China, the USA and the GCC; India, China and the Middle East grow ahead of their source markets 4, 7, 16 and 19, on top of the base",
+   "after": "The conservative path, 1,822,634 arrivals in 2035, holds existing air access with no added frequencies or routes and continues trade and marketing, with growth in the mature markets and current corridors; focus areas 5 and 7 hold that base. The base path adds 353,144 arrivals to reach 2,175,778. It assumes Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity and existing Wesgro programmes expand, while India, China and regional Africa grow through hub connections; focus areas 1 to 7, 9 and 10 deliver it. The accelerated path adds a further 340,504 to reach 2,516,282. It needs direct India and China routes secured and dedicated activation in India, China, the USA and the GCC, with India, China and the Middle East growing ahead of their source markets; focus areas 4, 7, 16 and 19 deliver it on top of the base (Demand-Side Analysis, Jun 2026, p19, p20; Market Assessment Report, May 2026, p19, the 2025 base; increments computed from the printed end points; the mapping to focus areas is this report's)."
+  },
+  {
+   "group": "2 consequential",
+   "file": "ch3/40_integrated.json",
+   "table": null,
+   "action": "text edit",
+   "before": " The table below sets the order. Chapter 4 turns it into eighteen initiatives with owners, phases and decision gates.",
+   "after": " The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief. Chapter 4 turns the sequence into eighteen initiatives with owners, phases and decision gates."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch3/40_integrated.json",
+   "table": "What moves in each phase",
+   "action": "narrative",
+   "before": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief. Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat line from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103. Activate, 2027 to 2028 Seats held and added on full routes (5, 6, 7); green-season calendar (2); bookability census and onboarding (3); two or three inclusion pilots (13); Steerco, data protocol and escalation agenda (16, 18, 19); labour analysis commissioned (20) Before the base case crosses the model's seat line around 2030 Expand, 2029 to 2031 Hub conversion at scale (4); corridor product and mobility (9, 10); quality charter (11); flagship flow management (12); cruise product (8); investment pipeline at financial close (15) The 2030 mid-term review tests the seat line; terminal relief from about 2032 Sustain, 2032 to 2035 Direct India and China routes as runway capacity arrives (4, 7); inclusion scaled after thresholds are met (13); climate risk and LTO funding embedded (14) Runway relief about 2033; the accelerated case depends on direct routes",
+   "after": "**Activate, 2027 to 2028,** comes before the base case crosses the model's seat line around 2030. Seats are held and added on the full routes (focus areas 5, 6 and 7), the green-season calendar is set (2) and the bookability census and onboarding run (3). Two or three inclusion pilots start (13), Steerco, the data protocol and the escalation agenda are set up (16, 18 and 19) and the labour analysis is commissioned (20). **Expand, 2029 to 2031,** brings hub conversion at scale (4), corridor product and mobility (9 and 10), the quality charter (11) and flagship flow management (12), along with cruise product (8) and the investment pipeline at financial close (15). The 2030 mid-term review tests the seat line, and terminal relief arrives from about 2032. **Sustain, 2032 to 2035,** takes direct India and China routes to carriers as runway capacity arrives (4 and 7), scales inclusion once its thresholds are met (13) and embeds climate risk and LTO funding (14). Runway relief arrives about 2033, and the accelerated case depends on the direct routes (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103; phase years as set in section 4.2)."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch4/01_portfolio.json",
+   "table": "Levels of the plan",
+   "action": "narrative",
+   "before": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan. Chapter 3; traceability table, Appendix A1. Action count from the Chapter 3 action tables. Vision 1 Where the province is going Grow international arrivals from 1.5m in 2025 toward 2.5m by 2035 Pillars 3 What must change Reshape demand Themes 6 In which part of the system Source market growth and diversification Focus areas 20 Where the evidence says to act Convert India and China hub traffic Initiatives 18 What Wesgro and its partners do I4 India and China hub conversion Actions 112 Who does what, by tier Activate inside Xiaohongshu, Douyin and MakeMyTrip Indicators 7, 25 and 36 How Steerco knows, at impact, outcome and output level T2-06 India and China hub arrivals",
+   "after": "Seven levels run from the vision to the measures, and each has a fixed count in this plan. One vision says where the province is going: grow international arrivals from 1.5m in 2025 toward 2.5m by 2035. Three pillars say what must change, such as Reshape demand. Six themes say in which part of the system, such as source market growth and diversification. Twenty focus areas say where the evidence says to act, such as Convert India and China hub traffic. Eighteen initiatives say what Wesgro and its partners do, such as I4 India and China hub conversion. The 112 actions say who does what, by tier, such as activation inside Xiaohongshu, Douyin and MakeMyTrip. The indicators, 7 at impact, 25 at outcome and 36 at output level, say how Steerco knows, such as T2-06 India and China hub arrivals. The counts come from Chapter 3, the action tables and the traceability table in Appendix A1."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch5/05_tracking.json",
+   "table": "Reporting calendar and cycles",
+   "action": "narrative",
+   "before": " Letsema, proposed reporting calendar. Monthly Tier 3 outputs and initiative status; seats and arrivals feeds Leads to the programme office Dashboard update Quarterly Tier 2 outcomes where available; risks rated high; escalation responses Programme office to Steerco Scorecard Annual Tier 1 impact against both paths; plan refresh; gate status Steerco to the Board; public at the business outlook event Outlook report At gates Gate tests in section 4.7 Steerco to the Board Gate paper",
+   "after": "Reporting runs on a fixed calendar tied to Steerco and the Board. Each month, the leads send Tier 3 outputs, initiative status and the seats and arrivals feeds to the programme office as a dashboard update. Each quarter, the programme office takes Tier 2 outcomes where available, the risks rated high and the escalation responses to Steerco in the scorecard. Each year, Steerco takes Tier 1 impact against both paths, the plan refresh and gate status to the Board in an outlook report, made public at the business outlook event. At each gate, Steerco sends the Board a gate paper on the tests in section 4.7."
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch5/06_evaluation.json",
+   "table": "Evaluation questions by pillar",
+   "action": "narrative",
+   "before": " Letsema, proposed evaluation questions. 1 Reshape demand Did arrivals, spend per visitor and the green-season share move with the activation, and in which markets and segments? Is conversion still the constraint, or has access overtaken it in the growth markets? 2 Transform supply Did seats, readiness and bookability rise outside the Metro, and did visitors follow? Did the airport relief arrive on time, and did the second gateways carry the load meanwhile? 3 Build enabling capability Did the pilots meet their thresholds, and did community spend rise? Did the national asks get answers, and did the data protocol deliver the baselines?",
+   "after": "Each pillar carries two evaluation questions, one on results and one on the assumptions behind them. For Reshape demand: did arrivals, spend per visitor and the green-season share move with the activation, and in which markets and segments? Is conversion still the constraint, or has access overtaken it in the growth markets? For Transform supply: did seats, readiness and bookability rise outside the Metro, and did visitors follow? Did the airport relief arrive on time, and did the second gateways carry the load meanwhile? For Build enabling capability: did the pilots meet their thresholds, and did community spend rise? Did the national asks get answers, and did the data protocol deliver the baselines?"
+  },
+  {
+   "group": "2 narrative",
+   "file": "ch5/07_toolkit.json",
+   "table": "The M&E toolkit files",
+   "action": "narrative",
+   "before": " Letsema; SLA clauses 1.1.10.2 and 1.1.15.3 [clause wording to be checked against the signed Annexure B]. Indicator register All 68 indicators with definition, unit, source, frequency, owner, baseline and target by year and path Research Baseline workbook The baseline values with page references to the deliverables, and the computed values with their method Research Scorecard template The quarterly Steerco scorecard and the annual Board outlook Programme office Dashboard data model Feeds, refresh frequency and manual-entry forms for the dashboard in section 5.5 Programme office",
+   "after": "The four files are the indicator register, the baseline workbook, the scorecard template and the dashboard data model (SLA clauses 1.1.10.2 and 1.1.15.3) [clause wording to be checked against the signed Annexure B]. The indicator register holds all 68 indicators with their definition, unit, source, frequency, owner, baseline and target by year and path. The baseline workbook holds the baseline values with page references to the deliverables, and the computed values with their method. Wesgro Research owns both. The programme office owns the scorecard template, which carries the quarterly Steerco scorecard and the annual Board outlook. It also owns the dashboard data model: the feeds, refresh frequency and manual-entry forms for the dashboard in section 5.5."
+  },
+  {
+   "group": "3 merge",
+   "file": "ch5/01_results_chain.json",
+   "table": "Pillar 1 to 3 results chain",
+   "action": "merged into one table",
+   "before": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share. Initiative charters (section 4.3); indicator register (section 5.2). I1 Segment-led activation and yield T3-01, T3-02 segment targets set; spend moved to conversion T2-01 segment home-market arrivals; T2-07 mature-market spend per visitor T1-01, T1-02, T1-03 I2 Green-season events calendar T3-03, T3-04 calendar published; green-season bids T2-02 ICCA meetings; T2-03 April to September seat share T1-05 I3 Bookable province T3-05, T3-06 census published; operators onboarded T2-04 operators bookable online; T2-05 CapeNature online share T1-06 I4 India and China hub conversion T3-07, T3-08 carrier agreements; route cases T2-06 India and China hub arrivals T1-01, T1-02 I5 Regional Africa T3-09, T3-10 activation run; capacity cases T2-08 African arrivals and spend T1-02, T1-03 || Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro. Initiative charters (section 4.3); indicator register (section 5.2). I6 Route development and seat retention T3-11, T3-12 fund constituted; runway reports T2-09 seats and routes; T2-10 seats added on full routes T1-01 I7 Cruise growth through product T3-13, T3-14 excursions listed; lines engaged T2-11 cruise calls and passengers T1-03 I8 Corridor mobility T3-15, T3-16 Southern Line product; shuttles bookable T2-12 accessibility; T2-13 corridor transfer products T1-06 I9 Corridor product development T3-17, T3-18 itineraries listed; assets activated T2-14 readiness by district T1-06 I10 Visitor experience and quality T3-19, T3-20 charter adopted; businesses certified T2-15 routes rated Ready T1-03 I11 Flagship site demand management T3-21, T3-22 baseline published; flow tools in place T2-16 peak Cableway queue T1-06 || Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on. Initiative charters (section 4.3); indicator register (section 5.2). I12 Community inclusion pilots T3-23, T3-24 pilots selected; tests held T2-17 communities with a live booking route T1-07 I13 Climate resilience and LTO funding T3-25, T3-26 risk register; funding model T2-18 LTOs funded; T2-19 weather losses T1-06 I14 Tourism investment pipeline T3-27, T3-28 cases prepared; investor engagements T2-20 projects at financial close T1-03, T1-04 I15 Steerco and three-tier alignment T3-29, T3-30 quarterly Steerco; joint industry plan T2-21 escalations resolved; T2-22 partners in the joint plan All I16 Data protocol and intelligence T3-31, T3-32 agreements signed; dashboard live T2-23 data feeds in the dashboard All I17 Access and safety escalation T3-33, T3-34 agenda tabled; responses logged T2-24 visa processing time T1-01, T1-02 I18 Labour analysis and skills plan T3-35, T3-36 analysis published; skills plan adopted T2-25 labour analysis published T1-04",
+   "after": "Pillar 1 initiatives (I1 to I5) move arrivals, market mix, spend and the green-season share. Pillar 2 initiatives (I6 to I11) move seats, cruise volumes and the share of visitors and spend outside the Metro. Pillar 3 initiatives (I12 to I18) move community spend and jobs, and supply the governance and data every other indicator relies on. Initiative charters (section 4.3); indicator register (section 5.2). I1 Segment-led activation and yield T3-01, T3-02 segment targets set; spend moved to conversion T2-01 segment home-market arrivals; T2-07 mature-market spend per visitor T1-01, T1-02, T1-03 I2 Green-season events calendar T3-03, T3-04 calendar published; green-season bids T2-02 ICCA meetings; T2-03 April to September seat share T1-05 I3 Bookable province T3-05, T3-06 census published; operators onboarded T2-04 operators bookable online; T2-05 CapeNature online share T1-06 I4 India and China hub conversion T3-07, T3-08 carrier agreements; route cases T2-06 India and China hub arrivals T1-01, T1-02 I5 Regional Africa T3-09, T3-10 activation run; capacity cases T2-08 African arrivals and spend T1-02, T1-03 I6 Route development and seat retention T3-11, T3-12 fund constituted; runway reports T2-09 seats and routes; T2-10 seats added on full routes T1-01 I7 Cruise growth through product T3-13, T3-14 excursions listed; lines engaged T2-11 cruise calls and passengers T1-03 I8 Corridor mobility T3-15, T3-16 Southern Line product; shuttles bookable T2-12 accessibility; T2-13 corridor transfer products T1-06 I9 Corridor product development T3-17, T3-18 itineraries listed; assets activated T2-14 readiness by district T1-06 I10 Visitor experience and quality T3-19, T3-20 charter adopted; businesses certified T2-15 routes rated Ready T1-03 I11 Flagship site demand management T3-21, T3-22 baseline published; flow tools in place T2-16 peak Cableway queue T1-06 I12 Community inclusion pilots T3-23, T3-24 pilots selected; tests held T2-17 communities with a live booking route T1-07 I13 Climate resilience and LTO funding T3-25, T3-26 risk register; funding model T2-18 LTOs funded; T2-19 weather losses T1-06 I14 Tourism investment pipeline T3-27, T3-28 cases prepared; investor engagements T2-20 projects at financial close T1-03, T1-04 I15 Steerco and three-tier alignment T3-29, T3-30 quarterly Steerco; joint industry plan T2-21 escalations resolved; T2-22 partners in the joint plan All I16 Data protocol and intelligence T3-31, T3-32 agreements signed; dashboard live T2-23 data feeds in the dashboard All I17 Access and safety escalation T3-33, T3-34 agenda tabled; responses logged T2-24 visa processing time T1-01, T1-02 I18 Labour analysis and skills plan T3-35, T3-36 analysis published; skills plan adopted T2-25 labour analysis published T1-04",
+   "captions": [
+    "Pillar 1 results chain",
+    "Pillar 2 results chain",
+    "Pillar 3 results chain",
+    "Results chain by initiative"
+   ]
+  },
+  {
+   "group": "3 consequential",
+   "file": "ch5/01_results_chain.json",
+   "table": null,
+   "action": "text edit",
+   "before": "The three tables below give the chain for each pillar.",
+   "after": "The table below gives the chain for each initiative, pillar by pillar."
+  },
+  {
+   "group": "3 merge into the initiatives table",
+   "file": "ch4/06_funding.json",
+   "table": "Funding routes by initiative",
+   "action": "deleted",
+   "before": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source. Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; blank, none expected. Rand values are not estimated. I1 Segment-led activation and yield in mature markets ●   ○ I2 Green-season events and business-events calendar ● ●  ○ I3 Bookable province programme ● ● ○ ○ I4 India and China hub conversion ●   ○ I5 Regional Africa programme ●   ○ I6 Route development and seat retention, with a public-private air access fund ● ● ○ ● I7 Cruise growth through product ●  ● ○ I8 Corridor mobility ○ ● ● ○ I9 Corridor product development ● ● ○ ● I10 Visitor experience and quality standards ○ ●  ○ I11 Flagship site demand management ○ ○ ● ● I12 Community inclusion pilots ○ ● ○ ○ I13 Climate resilience and destination management, including LTO funding ○ ● ○ ○ I14 Tourism investment pipeline ● ●  ● I15 Tourism Growth Steerco and three-tier alignment ● ●   I16 Data-sharing protocol and visitor intelligence ● ○ ○ ○ I17 Access and safety escalation agenda ● ●   I18 Tourism labour analysis and skills plan ● ● ○ ○",
+   "after": ""
+  },
+  {
+   "group": "3 merge",
+   "file": "ch4/01_portfolio.json",
+   "table": "The eighteen initiatives",
+   "action": "funding columns added from Table 4.5",
+   "before": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source. Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; blank, none expected. Rand values are not estimated. I1 Segment-led activation and yield in mature markets ●   ○ I2 Green-season events and business-events calendar ● ●  ○ I3 Bookable province programme ● ● ○ ○ I4 India and China hub conversion ●   ○ I5 Regional Africa programme ●   ○ I6 Route development and seat retention, with a public-private air access fund ● ● ○ ● I7 Cruise growth through product ●  ● ○ I8 Corridor mobility ○ ● ● ○ I9 Corridor product development ● ● ○ ● I10 Visitor experience and quality standards ○ ●  ○ I11 Flagship site demand management ○ ○ ● ● I12 Community inclusion pilots ○ ● ○ ○ I13 Climate resilience and destination management, including LTO funding ○ ● ○ ○ I14 Tourism investment pipeline ● ●  ● I15 Tourism Growth Steerco and three-tier alignment ● ●   I16 Data-sharing protocol and visitor intelligence ● ○ ○ ○ I17 Access and safety escalation agenda ● ●   I18 Tourism labour analysis and skills plan ● ● ○ ○",
+   "after": "{\"Wesgro operating\": 13, \"Provincial and municipal\": 12, \"National and SOE\": 3, \"Private capital\": 4}"
+  },
+  {
+   "group": "3 merge",
+   "file": "ch4/01_portfolio.json",
+   "table": "The eighteen initiatives",
+   "action": "message and source extended",
+   "before": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028. || Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2.",
+   "after": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028. Thirteen draw mainly on Wesgro's operating budget, and four need private capital as a main source. || Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2. Funding routes from the initiative charters (section 4.3); rand values are not estimated."
+  },
+  {
+   "group": "3 consequential",
+   "file": "ch4/06_funding.json",
+   "table": null,
+   "action": "text edit",
+   "before": "This section therefore sets the funding route for each initiative and leaves the rand bands to be set with Wesgro Finance and DEDAT",
+   "after": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source; the initiatives table in section 4.1 gives each one's main and supporting funding routes. This section leaves the rand bands to be set with Wesgro Finance and DEDAT"
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/02_a2_demand_model.json",
+   "table": "Model printouts and limits",
+   "action": "narrative",
+   "before": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios. MA: Market Assessment Report, May 2026 (working analysis). DS: Demand-Side Analysis, Jun 2026. Pages as listed in each row. Seat line 1.8 million inbound seats, drawn as a line labelled 1.8M and called current; no year or seat definition MA p20; DS p21 Year the line is crossed Not stated; 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it MA p20; DS p21 Seat table Not printed: no seats by route or year, no load factors and no frequencies MA p17, p20; DS p18 Annual series Not printed: 2026, 2027, 2029, 2031 and 2033 are absent; the June chart starts at 2024, not 2025 MA p20; DS p21 Other scenarios Conservative and Accelerated at 2035 only: no group split, no year points and no per-market rates MA p19; DS p20 Base year Calendar or financial basis and source series of 1,498,829 not stated; 2025 bars not marked as actuals or model values MA p19, p20; DS p22 to p25 Arrivals measures ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled DS p8, p11, p13, p20, p27",
+   "after": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios. The seat line is 1.8 million inbound seats, drawn as a line labelled 1.8M and called current, with no year or seat definition (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck states the year the line is crossed: 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). No seat table is printed: there are no seats by route or year, no load factors and no frequencies (Market Assessment Report, May 2026, p17, p20; Demand-Side Analysis, Jun 2026, p18). Nor is an annual series: 2026, 2027, 2029, 2031 and 2033 are absent, and the June chart starts at 2024, not 2025 (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). The conservative and accelerated scenarios appear at 2035 only, with no group split, no year points and no per-market rates (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). The calendar or financial basis and the source series of the 1,498,829 base are not stated, and the 2025 bars are not marked as actuals or model values (Market Assessment Report, May 2026, p19, p20; Demand-Side Analysis, Jun 2026, p22 to p25). ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled (Demand-Side Analysis, Jun 2026, p8, p11, p13, p20, p27)."
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/03_a3_benchmark.json",
+   "table": "Comparator system types",
+   "action": "narrative",
+   "before": "All six cases align coordination, marketing and access, but each builds its system around a different anchor. Global Benchmarking Report, Mar 2026, p61 (system type), p59 to p60 (three components by destination, condensed). Melbourne & Victoria Events-led system Institutionalises events and knowledge-led brand as a cross-government economic development tool Integrates city branding, intellectual capital and events into a single demand proposition Uses event calendar to de-risk and stimulate aviation demand Chile Connectivity-led system Coordination anchored around a single strategic constraint, long-haul access Unified national branding with defined regional identities; multi-region itinerary packaging Liberal aviation policy and major hub investment position Santiago as a single efficient long-haul hub Kenya Product-led system Aligns tourism with national priorities (conservation, trade, diplomacy) Segment-specific marketing grounded in a designed product system Reduces entry friction; Nairobi as multipurpose regional and global hub Singapore Orchestrated experience system Centrally orchestrated system (STB) with structured public-private partnerships Packages experiences (events, precincts, lifestyle) into seamless high-value propositions Integrates aviation, infrastructure and visitor experience into a single seamless gateway Valencia Governance-led system Decentralised, sector-led governance Expands reasons to visit (gastronomy, culture, sport, wellness, business events) Connectivity supports a multi-product destination system and dispersal New Zealand Value-led system Tourism, aviation and policy integrated around shared demand objectives Shifts from volume to value by marketing scarce, high-quality experiences Long-haul demand converts only when marketing, aviation and distribution are aligned",
+   "after": "All six cases align coordination, marketing and access, but each builds its system around a different anchor (Global Benchmarking Report, Mar 2026, p61 for the system types; p59 to p60 for the three components, condensed). **Melbourne and Victoria: events-led.** Coordination institutionalises events and a knowledge-led brand as a cross-government economic development tool. Marketing integrates city branding, intellectual capital and events into a single demand proposition. The event calendar is used to de-risk and stimulate aviation demand. **Chile: connectivity-led.** Coordination is anchored around a single strategic constraint, long-haul access. Marketing runs unified national branding with defined regional identities and multi-region itinerary packaging. Liberal aviation policy and major hub investment position Santiago as a single efficient long-haul hub. **Kenya: product-led.** Coordination aligns tourism with national priorities in conservation, trade and diplomacy. Marketing is segment-specific and grounded in a designed product system. Access reduces entry friction, with Nairobi as a multipurpose regional and global hub. **Singapore: orchestrated experience.** A centrally orchestrated system under STB works through structured public-private partnerships. Marketing packages experiences (events, precincts, lifestyle) into seamless high-value propositions. Aviation, infrastructure and visitor experience are integrated into a single seamless gateway. **Valencia: governance-led.** Governance is decentralised and sector-led. Marketing expands the reasons to visit: gastronomy, culture, sport, wellness and business events. Connectivity supports a multi-product destination system and dispersal. **New Zealand: value-led.** Tourism, aviation and policy are integrated around shared demand objectives. Marketing shifts from volume to value by selling scarce, high-quality experiences. Long-haul demand converts only when marketing, aviation and distribution are aligned."
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/04_a4_readiness.json",
+   "table": "Readiness index weights",
+   "action": "narrative",
+   "before": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each. Infrastructure Report, Jul 2026, p17, as printed. Scale labels: 1 'Very weak', 2 'Weak', 3 'Functional', 4 'Strong', 5 'Leading'. Stated method: 'Average indicator scores within each dimension, then combine dimensions using the agreed weights.' Attractiveness & quality How compelling is the tourism offer? Visitor ratings; uniqueness; price positioning; experience depth 40% Readiness & capacity Can the region service and convert demand? Capacity; digital discovery 30% Accessibility Can visitors reach and move through the destination? Airport proximity; gateway travel time; public transport availability 30%",
+   "after": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each (Infrastructure Report, Jul 2026, p17). Attractiveness and quality asks how compelling the tourism offer is, through visitor ratings, uniqueness, price positioning and experience depth. Readiness and capacity asks whether the region can service and convert demand, through capacity and digital discovery. Accessibility asks whether visitors can reach and move through the destination, through airport proximity, gateway travel time and public transport availability. The scale runs from 1 'Very weak' and 2 'Weak' through 3 'Functional' and 4 'Strong' to 5 'Leading', and the stated method is: \"Average indicator scores within each dimension, then combine dimensions using the agreed weights\" (p17)."
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/05_a5_inclusion.json",
+   "table": "Community share of spend",
+   "action": "narrative",
+   "before": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m. SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). The Diagnostic sets that ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases. Residents (Census 2011) 18.4% Share of Western Cape residents Employed residents (Census 2011) 15.4% Share of employed residents Foreign direct spend traced to businesses trading inside (floor) 0.02% to 0.04% Share of foreign direct spend Documented today (floor) R4m to R10m Visitor spend landing in the 20 communities a year 1% of FY2025 foreign direct spend R259m Implies R25.9 billion of FY2025 foreign direct spend (computed) 1% of the 2035 spend ambition R547m Implies R54.7 billion of 2035 spend (computed); the Diagnostic's 5.7 million arrivals case (Current State Diagnostic, Dec 2025, p5)",
+   "after": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m (SME and Community Inclusion Plan, Sep 2026, p5; values as printed, with no tracing method or denominator printed). They also hold 15.4% of employed residents; both shares come from Census 2011. Foreign direct spend traced to businesses trading inside the communities is a floor of 0.02% to 0.04%, which the plan documents as R4m to R10m landing in the 20 communities a year. At 1%, FY2025 foreign direct spend would land R259m in the communities, which implies R25.9 billion of FY2025 foreign direct spend (computed). At 1% of the 2035 spend ambition the figure is R547m, which implies R54.7 billion of spend in 2035 (computed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for that scenario (SME and Community Inclusion Plan, Sep 2026, p5). The Diagnostic sets the ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries; Appendix A2 sets out the demand model's own 2035 cases."
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/05_a5_inclusion.json",
+   "table": "Inclusion cases and lessons",
+   "action": "narrative",
+   "before": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit. SME and Community Inclusion Plan, Sep 2026, p7 to p11 (case cards), p12 (takeaways) and p30 (benchmark evidence). The Rio, Medellín, Vilakazi Street and Kliptown cards print no source line; the plan pools their sources on p12. Rio de Janeiro, Santa Marta and Rocinha (p7) Rio Top Tour first phase about R$230,000 (R$184,000 federal, R$46,000 state); Cantagalo elevator about R$89 million; Providência cable car R$75 million in a R$163 million package; almost 10,000 officers at peak About 4,500 visitors in the first month (2010); about 20 resident guides by 2015; 81% of foreign visitors spent up to R$10 in Rocinha (2014); cable car idle eight years; security collapsed in 2017; 544,000 visitors to Rocinha in 2023 Access and safety were preconditions, not product; resident guides continued after the programme that launched them (p30) Medellín, Comuna 13 (p8) Metrocable Line J (2008) about 96.9 billion pesos; escalators (2011) about 10 billion pesos, maintenance above 260 million pesos a year; integrated urban programme more than 100 billion pesos by 2020 1.66 million visitors (2022) and 1.98 million (2025), 52% international; more than 1,000 businesses and about 300 guides; capacity 667 visitors a day (2023 study) Fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product first (p30) Soweto, Vilakazi Street (p9) Hector Pieterson Museum R23.2 million; Mandela House restoration about R9 million (corporate donors); Orlando Stadium about R280 million; public-realm cost not disclosed About 1,000 tourists a day by January 2010; Sakhumzi from four employees (2001) to about 110 (2019); ten restaurants more than 800 jobs; Mandela House company liquidated Upgrades amplified existing assets but benefits concentrated on street-front owners; set design governance and a resident precinct entity at the outset Costa Rica, ACTUAR (p10) UNDP GEF small grants from the 1990s; Law 8724 (2009) gave ICT duties without a budget; no state funding for the selling network identified ACTUAR (2001) turnover more than USD 800,000 in 2013 for more than 30 member communities; dissolved at the end of 2018; benefits \"stopped at association members\" A management entity with its own selling channel was the engine and did not survive donor exit Soweto, Kliptown (p11) R436 million first allocated; JDA about R497 million (2001 to 2010) plus R40 million to 2013; Walter Sisulu Square R160 million to R180 million; 48-room hotel R24 million Business case almost 200,000 international visitors a year; about 4,000 museum visitors a year by 2017; hotel above break-even only during the 2010 FIFA World Cup; local small businesses 5% of construction contract value; looting in 2021 Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut",
+   "after": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit (SME and Community Inclusion Plan, Sep 2026, p7 to p12, p30; the Rio, Medellín, Vilakazi Street and Kliptown cards print no source line, and the plan pools their sources on p12). **Rio de Janeiro, Santa Marta and Rocinha.** The Rio Top Tour's first phase cost about R$230,000 (R$184,000 federal, R$46,000 state). The Cantagalo elevator cost about R$89 million and the Providência cable car R$75 million in a R$163 million package, and almost 10,000 officers were deployed at peak (p7). The tours drew about 4,500 visitors in their first month in 2010, and about 20 resident guides were working by 2015. In 2014, 81% of foreign visitors spent up to R$10 in Rocinha. The cable car stood idle for eight years and security collapsed in 2017, yet Rocinha drew 544,000 visitors in 2023. Access and safety were preconditions, not product, and resident guides continued after the programme that launched them (p30). **Medellín, Comuna 13.** Metrocable Line J (2008) cost about 96.9 billion pesos and the escalators (2011) about 10 billion pesos, with maintenance above 260 million pesos a year; the integrated urban programme passed 100 billion pesos by 2020 (p8). Comuna 13 drew 1.66 million visitors in 2022 and 1.98 million in 2025, 52% of them international, with more than 1,000 businesses and about 300 guides. A 2023 study put its capacity at 667 visitors a day. The lesson is to fund a mandate, a capacity ceiling and a community body alongside the escalator; residents developed the product first (p30). **Soweto, Vilakazi Street.** The Hector Pieterson Museum cost R23.2 million, the Mandela House restoration about R9 million from corporate donors and Orlando Stadium about R280 million; the public-realm cost is not disclosed (p9). The street drew about 1,000 tourists a day by January 2010. Sakhumzi grew from four employees in 2001 to about 110 in 2019, and the ten restaurants provide more than 800 jobs, though the Mandela House company was liquidated. Upgrades amplified existing assets but benefits concentrated on street-front owners, so design governance and a resident precinct entity belong at the outset. **Costa Rica, ACTUAR.** UNDP GEF small grants funded the network from the 1990s. Law 8724 (2009) gave ICT duties without a budget, and no state funding for the selling network has been identified (p10). ACTUAR, founded in 2001, turned over more than USD 800,000 in 2013 for more than 30 member communities and dissolved at the end of 2018; its benefits \"stopped at association members\". A management entity with its own selling channel was the engine, and it did not survive donor exit. **Soweto, Kliptown.** Kliptown received R436 million in its first allocation. The JDA spent about R497 million from 2001 to 2010 plus R40 million to 2013, Walter Sisulu Square cost R160 million to R180 million and a 48-room hotel R24 million (p11). The business case projected almost 200,000 international visitors a year, but the museum drew about 4,000 a year by 2017 and the hotel traded above break-even only during the 2010 FIFA World Cup. Local small businesses took 5% of construction contract value, and the site was looted in 2021. Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut."
+  },
+  {
+   "group": "4 narrative",
+   "file": "appendices/06_a6_stakeholders.json",
+   "table": "Later-phase engagement list",
+   "action": "narrative",
+   "before": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed. Stakeholder Insights Report, Mar 2026, p16. Entries, spellings and markets in brackets as printed; the appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature. Supply side: stakeholders Tourism offices of each District; Table Mountain Aerial Cableway; Robben Island Museum; Hospitality Providers; Conference Venue Operators; CapeNature; SANParks; CBRTA; Ikhwa ttu; CCID; CTICC; FEDHASA; V&A Waterfront 13 7 Demand side: proposed engagements Trip.com Group (China, ASEAN); Thomas Cook India (India, Middle East outbound); DNATA Travel (Middle East, India, ASEAN); China International Travel Service (China); Emirates (China, India, Middle East, ASEAN); SATSA 6 0 Enabling environment: engaged/in progress Department of Economic Development and Tourism; Ministry of Mobility; South African Tourism; SouthAfrica.net; We Do Tourism; SATOvito; Statistics South Africa; Google (Government Affairs and Public Policy); Cape Town International Airport; Winelands Airport; George Airport 11 5",
+   "after": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed (Stakeholder Insights Report, Mar 2026, p16; entries, spellings and markets in brackets as printed). The 13 supply-side stakeholders, seven of them with a phase 1 table, are: Tourism offices of each District; Table Mountain Aerial Cableway; Robben Island Museum; Hospitality Providers; Conference Venue Operators; CapeNature; SANParks; CBRTA; Ikhwa ttu; CCID; CTICC; FEDHASA; V&A Waterfront. The 6 proposed demand-side engagements, none with a phase 1 table, are: Trip.com Group (China, ASEAN); Thomas Cook India (India, Middle East outbound); DNATA Travel (Middle East, India, ASEAN); China International Travel Service (China); Emirates (China, India, Middle East, ASEAN); SATSA. The 11 enabling-environment stakeholders engaged or in progress, five of them with a phase 1 table, are: Department of Economic Development and Tourism; Ministry of Mobility; South African Tourism; SouthAfrica.net; We Do Tourism; SATOvito; Statistics South Africa; Google (Government Affairs and Public Policy); Cape Town International Airport; Winelands Airport; George Airport. The appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature."
+  },
+  {
+   "group": "cross-reference",
+   "file": "ch2/06_inclusion.json",
+   "table": null,
+   "action": "renumbered reference",
+   "before": "(Table A.21)",
+   "after": "(Table A.18)"
+  },
+  {
+   "group": "cross-reference",
+   "file": "ch4/08_risks.json",
+   "table": null,
+   "action": "renumbered reference",
+   "before": "(Table 4.5)",
+   "after": "(Table 4.1)"
+  },
+  {
+   "group": "cross-reference",
+   "file": "ch5/02_indicators.json",
+   "table": null,
+   "action": "renumbered reference",
+   "before": "on the dates in Table 5.9.",
+   "after": "on the dates in Table 5.7."
+  },
+  {
+   "group": "cross-reference",
+   "file": "ch1/04_approach.json",
+   "table": null,
+   "action": "renumbered reference",
+   "before": "restate Tables 1.4, 2.11 and A.20",
+   "after": "restate Tables 1.3, 2.3 and A.17"
+  },
+  {
+   "group": "cross-reference",
+   "file": "ch4/06_funding.json",
+   "table": null,
+   "action": "renumbered reference",
+   "before": "count of initiatives by main funding source from the table above.",
+   "after": "count of initiatives by main funding source from Table 4.1."
+  },
+  {
+   "group": "sentence split",
+   "file": "ch3/40_integrated.json",
+   "table": null,
+   "action": "text edit",
+   "before": "with growth in the mature markets and current corridors; focus areas 5 and 7 hold that base.",
+   "after": "with growth in the mature markets and current corridors. Focus areas 5 and 7 hold that base."
+  },
+  {
+   "group": "sentence split",
+   "file": "ch3/40_integrated.json",
+   "table": null,
+   "action": "text edit",
+   "before": "grow through hub connections; focus areas 1 to 7, 9 and 10 deliver it.",
+   "after": "grow through hub connections. Focus areas 1 to 7, 9 and 10 deliver it."
+  },
+  {
+   "group": "sentence split",
+   "file": "ch3/40_integrated.json",
+   "table": null,
+   "action": "text edit",
+   "before": "growing ahead of their source markets; focus areas 4, 7, 16 and 19 deliver it on top of the base",
+   "after": "growing ahead of their source markets. Focus areas 4, 7, 16 and 19 deliver it on top of the base"
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/05_infrastructure.json",
+   "table": null,
+   "action": "text edit",
+   "before": "for R1.79bn of impact; its limits are a 300m ship length",
+   "after": "for R1.79bn of impact. Its limits are a 300m ship length"
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/05_infrastructure.json",
+   "table": null,
+   "action": "text edit",
+   "before": "opened a R22m passenger facility in November 2025; it has no cruise quay",
+   "after": "opened a R22m passenger facility in November 2025. It has no cruise quay"
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/05_infrastructure.json",
+   "table": null,
+   "action": "text edit",
+   "before": "and a wider precinct of R16bn to R20bn, but no transit inside the wine triangle, little non-wine product and no pricing for domestic visitors.",
+   "after": "and a wider precinct of R16bn to R20bn. It still has no transit inside the wine triangle, little non-wine product and no pricing for domestic visitors."
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/05_infrastructure.json",
+   "table": null,
+   "action": "text edit",
+   "before": "and a R9.4m landing-system upgrade, but no international carrier, a winter trough and no transport between towns.",
+   "after": "and a R9.4m landing-system upgrade. It still has no international carrier, a winter trough and no transport between towns."
+  },
+  {
+   "group": "sentence split",
+   "file": "appendices/04_a4_readiness.json",
+   "table": null,
+   "action": "text edit",
+   "before": "to 5 'Leading', and the stated method is:",
+   "after": "to 5 'Leading'. The stated method is:"
+  },
+  {
+   "group": "sentence split",
+   "file": "exec/01_summary.json",
+   "table": null,
+   "action": "text edit",
+   "before": "(I16), runs a bookability census of provincial product by district (I3) and requests visitor counts",
+   "after": "(I16). It also runs a bookability census of provincial product by district (I3) and requests visitor counts"
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/04_stakeholders.json",
+   "table": null,
+   "action": "text edit",
+   "before": "for destination management and destination marketing, and finds that MFMA Circular No. 131",
+   "after": "for destination management and destination marketing. It also finds that MFMA Circular No. 131"
+  },
+  {
+   "group": "sentence split",
+   "file": "appendices/05_a5_inclusion.json",
+   "table": null,
+   "action": "text edit",
+   "before": "a different case from the 2.5 million this report carries; Appendix A2 sets out",
+   "after": "a different case from the 2.5 million this report carries. Appendix A2 sets out"
+  },
+  {
+   "group": "sentence split",
+   "file": "exec/01_summary.json",
+   "table": null,
+   "action": "text edit",
+   "before": "inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path",
+   "after": "inside Wesgro's current mandate and budget. Each opens a seat, a baseline or a booking path"
+  },
+  {
+   "group": "sentence split",
+   "file": "exec/01_summary.json",
+   "table": null,
+   "action": "text edit",
+   "before": "rated high on both likelihood and impact; the response is an escalation agenda",
+   "after": "rated high on both likelihood and impact. The response is an escalation agenda"
+  },
+  {
+   "group": "sentence split",
+   "file": "ch2/05_infrastructure.json",
+   "table": null,
+   "action": "text edit",
+   "before": "the R4bn Saldanha port upgrade, which serves iron ore; it lacks accommodation depth",
+   "after": "the R4bn Saldanha port upgrade, which serves iron ore. It lacks accommodation depth"
+  }
+ ],
+ "numbers_after": {
+  "Pillar 1: Reshape demand": "ES.1",
+  "Pillar 2: Transform supply": "ES.2",
+  "Pillar 3: Build enabling capability": "ES.3",
+  "Impact indicators and targets": "ES.4",
+  "Arrivals figures in circulation": "1.1",
+  "Month of travel, 2024 and 2025": "1.2",
+  "District economy, assets and access": "1.3",
+  "December entries and October changes": "1.4",
+  "Four traveller segments": "2.1",
+  "Comparator growth and recovery": "2.2",
+  "District strengths and weaknesses": "2.3",
+  "Touring route readiness": "2.4",
+  "The 20 shortlisted communities": "2.5",
+  "Evidence for focus area 1": "3.1",
+  "Evidence for focus area 2": "3.2",
+  "Evidence for focus area 3": "3.3",
+  "Evidence for focus area 4": "3.4",
+  "Evidence for focus area 5": "3.5",
+  "Evidence for focus area 6": "3.6",
+  "Evidence for focus area 7": "3.7",
+  "Evidence for focus area 8": "3.8",
+  "Evidence for focus area 9": "3.9",
+  "Evidence for focus area 10": "3.10",
+  "Evidence for focus area 11": "3.11",
+  "Evidence for focus area 12": "3.12",
+  "Evidence for focus area 13": "3.13",
+  "Evidence for focus area 14": "3.14",
+  "Evidence for focus area 15": "3.15",
+  "Evidence for focus area 16": "3.16",
+  "Evidence for focus area 17": "3.17",
+  "Evidence for focus area 18": "3.18",
+  "Evidence for focus area 19": "3.19",
+  "Evidence for focus area 20": "3.20",
+  "The eighteen initiatives": "4.1",
+  "Accountability by initiative and tier": "4.2",
+  "First-24-month actions and funding": "4.3",
+  "Decision gates and reviews": "4.4",
+  "Risks and their mitigation": "4.5",
+  "Results chain by initiative": "5.1",
+  "Tier 1 impact indicators": "5.2",
+  "Tier 2 outcome indicators": "5.3",
+  "Tier 3 output indicators": "5.4",
+  "Tier 1 baselines and targets": "5.5",
+  "Data sources and holders": "5.6",
+  "Data gaps and owners": "5.7",
+  "Reasons against the evidence": "A.1",
+  "Traceability by focus area": "A.2",
+  "Growth model scenario definitions": "A.3",
+  "Model end points by base year": "A.4",
+  "Base case by market group": "A.5",
+  "Acceleration and mature market paths": "A.6",
+  "Regional market paths": "A.7",
+  "Base-case spend by group": "A.8",
+  "Benchmark selection criteria": "A.9",
+  "Comparator set, inception to final": "A.10",
+  "Comparator growth, recovery and levers": "A.11",
+  "Transferable levers by case": "A.12",
+  "Asset database structure": "A.13",
+  "Dimension scores by district": "A.14",
+  "Overall readiness by district": "A.15",
+  "Touring route scorecards": "A.16",
+  "Asset counts by district": "A.17",
+  "Community shortlist criteria": "A.18",
+  "Archetypes, responses and benchmarks": "A.19",
+  "Shortlist readiness ratings": "A.20",
+  "Insights by organisation": "A.21",
+  "Insights by tree element": "A.22",
+  "Lines of enquiry by area": "A.23",
+  "Chapter 3 action register": "A.24",
+  "Tier 2 indicator register": "A.25",
+  "Glossary of terms": "A.26",
+  "Documents and sources cited": "A.27"
+ }
+}

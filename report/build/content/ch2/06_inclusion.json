@@ -48,7 +48,7 @@
   },
   {
    "type": "p",
-   "text": "**2. Distance is not the barrier.** Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (p18). Distance is the binding constraint in none of the 20 (p30). Proximity and access carried 35% of the shortlist score (Table A.21), so this result is partly built into the selection."
+   "text": "**2. Distance is not the barrier.** Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (p18). Distance is the binding constraint in none of the 20 (p30). Proximity and access carried 35% of the shortlist score (Table A.18), so this result is partly built into the selection."
   },
   {
    "type": "p",
@@ -102,124 +102,20 @@
    "text": "Capital first fails. Kliptown received a first allocation of R436 million and was projected to draw almost 200,000 international visitors a year, but its museum drew about 4,000 visitors a year by 2017 (SME and Community Inclusion Plan, Sep 2026, p11). Costa Rica's community network turned over more than USD 800,000 in 2013 and dissolved after donor support ended (p10)."
   },
   {
-   "type": "table",
-   "caption": "Inclusion benchmark cases",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11.",
-   "columns": [
-    {
-     "header": "Case",
-     "width": 1.6,
-     "align": "left"
-    },
-    {
-     "header": "What happened",
-     "width": 3.0,
-     "align": "left"
-    },
-    {
-     "header": "Lesson",
-     "width": 2.6,
-     "align": "left"
-    },
-    {
-     "header": "Page",
-     "width": 0.6,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Rio de Janeiro, Santa Marta",
-     "About 20 resident guides ran the tours by 2015 and outside jeep firms had left",
-     "Access and safety are preconditions, not product; resident sellers outlast programmes",
-     "p7"
-    ],
-    [
-     "Medellín, Comuna 13",
-     "1.98 million visitors in 2025, 52% international; about 300 professional guides",
-     "Mobility built for residents became the stage; carrying-capacity limits came late",
-     "p8"
-    ],
-    [
-     "Vilakazi Street, Soweto",
-     "Ten restaurants employ more than 800 people",
-     "Public-realm works amplify existing assets; benefits concentrate on street-front owners",
-     "p9"
-    ],
-    [
-     "Costa Rica community network",
-     "Turnover above USD 800,000 in 2013; dissolved at the end of 2018",
-     "A selling entity is the engine and must survive donor exit",
-     "p10"
-    ],
-    [
-     "Kliptown, Soweto",
-     "R436 million allocated; about 4,000 museum visitors a year by 2017",
-     "Capital built before an operator yields no operating income",
-     "p11"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing."
+   "type": "p",
+   "text": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing (SME and Community Inclusion Plan, Sep 2026, p7 to p11). In Santa Marta in Rio de Janeiro, about 20 resident guides ran the tours by 2015 and outside jeep firms had left: access and safety are preconditions, not product, and resident sellers outlast programmes (p7). Medellín's Comuna 13 drew 1.98 million visitors in 2025, 52% of them international, with about 300 professional guides; mobility built for residents became the stage, but carrying-capacity limits came late (p8). On Vilakazi Street in Soweto, ten restaurants employ more than 800 people; public-realm works amplify existing assets, but benefits concentrate on street-front owners (p9)."
+  },
+  {
+   "type": "p",
+   "text": "Costa Rica's community network turned over more than USD 800,000 in 2013 and dissolved at the end of 2018: a selling entity is the engine and must survive donor exit (p10). Kliptown in Soweto received R436 million and drew about 4,000 museum visitors a year by 2017, because capital built before an operator yields no operating income (p11)."
   },
   {
    "type": "p",
    "text": "**6. Each archetype needs its own first move.** Communities near a node with product already in place need a seller and a slot in the node's itineraries (SME and Community Inclusion Plan, Sep 2026, p15). Those near a node with nothing inside need one anchor asset, but only after a seller is in place. Remote communities need access first or, where nothing sits inside, procurement and skills before any asset (p15)."
   },
   {
-   "type": "table",
-   "caption": "Community archetypes and responses",
-   "source": "SME and Community Inclusion Plan, Sep 2026, p15 and p17 (long-list and shortlist counts; p4 prints 48 and 8 for the two assets-underused rows), p15 (responses).",
-   "columns": [
-    {
-     "header": "Archetype",
-     "width": 2.0,
-     "align": "left"
-    },
-    {
-     "header": "Long-list",
-     "width": 0.9,
-     "align": "right"
-    },
-    {
-     "header": "Shortlist",
-     "width": 0.9,
-     "align": "right"
-    },
-    {
-     "header": "First response",
-     "width": 3.6,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Near a node, assets underused",
-     "49",
-     "11",
-     "Integrate: itinerary slots, procurement and events; organise sellers"
-    ],
-    [
-     "Near a node, no assets",
-     "43",
-     "6",
-     "Create one anchor asset under a covenant, then integrate; a seller comes first"
-    ],
-    [
-     "Remote, assets underused",
-     "7",
-     "2",
-     "Open access and place the asset on a route product the LTO already sells"
-    ],
-    [
-     "Remote, no assets",
-     "8",
-     "1",
-     "Procurement and skills first; an asset only once a route product exists"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response."
+   "type": "p",
+   "text": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response (SME and Community Inclusion Plan, Sep 2026, p15, p17; p4 prints 48 and 8 for the two assets-underused rows). Near a node with assets underused, 49 long-listed and 11 shortlisted communities need integration through itinerary slots, procurement and events, with sellers organised. Near a node with no assets, 43 long-listed and 6 shortlisted communities need one anchor asset under a covenant, then integration, with a seller first. Remote communities with underused assets, 7 long-listed and 2 shortlisted, need access opened and the asset placed on a route product the LTO already sells. Remote communities with no assets, 8 long-listed and 1 shortlisted, need procurement and skills first, and an asset only once a route product exists."
   },
   {
    "type": "p",
@@ -433,71 +329,6 @@
    ],
    "boldFirstCol": false,
    "message": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node."
-  },
-  {
-   "type": "table",
-   "caption": "Inclusion findings for the tree",
-   "source": "SME and Community Inclusion Plan, Sep 2026, pages as cited.",
-   "columns": [
-    {
-     "header": "Finding",
-     "width": 2.3,
-     "align": "left"
-    },
-    {
-     "header": "Figure",
-     "width": 3.8,
-     "align": "left"
-    },
-    {
-     "header": "Pages",
-     "width": 1.0,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Communities hold people, not spend",
-     "18.4% of residents (Census 2011); 0.02% to 0.04% of foreign direct spend traced (floor); R4m to R10m a year",
-     "p5"
-    ],
-    [
-     "Capture potential",
-     "1% of FY2025 foreign direct spend is R259m a year",
-     "p5"
-    ],
-    [
-     "Distance is not the barrier",
-     "93 of 107 within 45 minutes of a node or corridor; distance binds in 0 of 20",
-     "p16, p30"
-    ],
-    [
-     "Organisation is",
-     "Binds in 11 of 20; 10 have no active tourism body",
-     "p28, p30"
-    ],
-    [
-     "Safety is the second gate",
-     "Safety-perception gap in 9 of 20; extortion in 5",
-     "p30"
-    ],
-    [
-     "Sellers last; capital first fails",
-     "Kliptown: R436m allocated, about 4,000 museum visitors a year by 2017",
-     "p11, p12"
-    ],
-    [
-     "Pilot before scale",
-     "Two or three of six profiled communities; scale only after thresholds are met",
-     "p32"
-    ],
-    [
-     "No jobs counted inside",
-     "No profile counts tourism jobs inside a community boundary",
-     "p22, p40"
-    ]
-   ],
-   "boldFirstCol": true
   },
   {
    "type": "box",

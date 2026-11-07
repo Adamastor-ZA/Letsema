@@ -729,65 +729,16 @@
    "text": "Both decks state that \"Current air access places a hard ceiling at 1.8 million inbound seats, meaning the projected growth cannot be realised without additional capacity or frequency\" (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck prints the seats behind the line or a load factor that converts seats into arrivals. At the 79% average load factor, 1.8 million seats would carry about 1.42 million arrivals, below the 1.57 million recorded in FY25/26, so this report reads the line as the model's assumption, not a measured cap (section 1.3)."
   },
   {
-   "type": "table",
-   "caption": "Model printouts and limits",
-   "source": "MA: Market Assessment Report, May 2026 (working analysis). DS: Demand-Side Analysis, Jun 2026. Pages as listed in each row.",
-   "columns": [
-    {
-     "header": "Item",
-     "width": 1.6,
-     "align": "left"
-    },
-    {
-     "header": "What the decks print",
-     "width": 3.8,
-     "align": "left"
-    },
-    {
-     "header": "Pages",
-     "width": 1.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Seat line",
-     "1.8 million inbound seats, drawn as a line labelled 1.8M and called current; no year or seat definition",
-     "MA p20; DS p21"
-    ],
-    [
-     "Year the line is crossed",
-     "Not stated; 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it",
-     "MA p20; DS p21"
-    ],
-    [
-     "Seat table",
-     "Not printed: no seats by route or year, no load factors and no frequencies",
-     "MA p17, p20; DS p18"
-    ],
-    [
-     "Annual series",
-     "Not printed: 2026, 2027, 2029, 2031 and 2033 are absent; the June chart starts at 2024, not 2025",
-     "MA p20; DS p21"
-    ],
-    [
-     "Other scenarios",
-     "Conservative and Accelerated at 2035 only: no group split, no year points and no per-market rates",
-     "MA p19; DS p20"
-    ],
-    [
-     "Base year",
-     "Calendar or financial basis and source series of 1,498,829 not stated; 2025 bars not marked as actuals or model values",
-     "MA p19, p20; DS p22 to p25"
-    ],
-    [
-     "Arrivals measures",
-     "ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled",
-     "DS p8, p11, p13, p20, p27"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios."
+   "type": "p",
+   "text": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios. The seat line is 1.8 million inbound seats, drawn as a line labelled 1.8M and called current, with no year or seat definition (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). Neither deck states the year the line is crossed: 2028 (1,673,855) sits below the line and 2030 (1,802,929) is the first point above it (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21)."
+  },
+  {
+   "type": "p",
+   "text": "No seat table is printed: there are no seats by route or year, no load factors and no frequencies (Market Assessment Report, May 2026, p17, p20; Demand-Side Analysis, Jun 2026, p18). Nor is an annual series: 2026, 2027, 2029, 2031 and 2033 are absent, and the June chart starts at 2024, not 2025 (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21). The conservative and accelerated scenarios appear at 2035 only, with no group split, no year points and no per-market rates (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20)."
+  },
+  {
+   "type": "p",
+   "text": "The calendar or financial basis and the source series of the 1,498,829 base are not stated, and the 2025 bars are not marked as actuals or model values (Market Assessment Report, May 2026, p19, p20; Demand-Side Analysis, Jun 2026, p22 to p25). ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled (Demand-Side Analysis, Jun 2026, p8, p11, p13, p20, p27)."
   }
  ]
 }

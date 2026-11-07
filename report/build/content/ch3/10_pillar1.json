@@ -31,71 +31,8 @@
    "text": "Pillar 1 carries most of the base case. Between 2025 and 2035 the base case adds 676,949 arrivals (Market Assessment Report, May 2026, p19, p20). The four hub markets supply 206,584, the mature markets 178,780, the acceleration markets 175,818, regional Africa 110,298 and the strategic group 5,469. None of it lands without seats, so the air access entry in Pillar 2 runs beside this pillar from the first phase."
   },
   {
-   "type": "table",
-   "caption": "Pillar 1 focus areas",
-   "source": "Chapter 3 entries 1 to 6. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
-   "columns": [
-    {
-     "header": "Focus area",
-     "width": 2.6,
-     "align": "left"
-    },
-    {
-     "header": "Disposition",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
-     "header": "What the evidence showed",
-     "width": 3.4,
-     "align": "left"
-    },
-    {
-     "header": "Initiative",
-     "width": 0.8,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "1 Respond to growth segment traveller preferences",
-     "Validated",
-     "Four segments with named home markets; the province scores 3.7 to 4.6 out of 5 on its ability to win them",
-     "I1"
-    ],
-    [
-     "2 Create green-season demand with MICE and events",
-     "Reworded",
-     "June holds 6.4% of the year's seats; international meetings cluster from May to November",
-     "I2"
-    ],
-    [
-     "3 Make the whole province findable and bookable",
-     "Reworded",
-     "The outer routes and every profiled community fall short on online bookability",
-     "I3"
-    ],
-    [
-     "4 Convert India and China hub traffic",
-     "Reworded",
-     "About 101,000 travellers a year already fly in, mainly through Dubai, Doha and Addis Ababa",
-     "I4"
-    ],
-    [
-     "5 Increase yield in mature markets",
-     "Validated",
-     "Five mature long-haul routes run above 80% load, and carriers on full routes raise fares before seats",
-     "I1"
-    ],
-    [
-     "6 Build a regional foundation (Africa)",
-     "Validated",
-     "Regional routes run above 80% load; West African visitors spend the most per visit",
-     "I5"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion."
+   "type": "p",
+   "text": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion. The entries follow, and the executive summary lists them with their initiatives. Dispositions are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]."
   }
  ]
 }

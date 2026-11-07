@@ -212,75 +212,12 @@
    "text": "Eight December entries changed scope, place or form, and one focus area was added. The changes point the same way: from general ambitions to the specific lever the evidence supports, and from provincial supply to national escalation where the lever sits nationally."
   },
   {
-   "type": "table",
-   "caption": "How the tree changed",
-   "source": "Current State Diagnostic, Dec 2025, p64 (December entries); dispositions as recorded at the 14 October 2026 review; section 1.4.",
-   "columns": [
-    {
-     "header": "December 2025 entry",
-     "width": 2.5,
-     "align": "left"
-    },
-    {
-     "header": "October 2026 focus area",
-     "width": 2.7,
-     "align": "left"
-    },
-    {
-     "header": "Change",
-     "width": 1.6,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Close the Air Access and Cruise Capacity Gaps",
-     "7 Win direct routes and add seats on full routes; 8 Grow cruise calls and ports",
-     "Split: air Reworded, cruise New"
-    ],
-    [
-     "Lead Removal of Infrastructure, Visa and Safety Deficits",
-     "19, same title, under Governance and leadership",
-     "Moved from supply to governance"
-    ],
-    [
-     "None",
-     "20 Develop workforce and service skills",
-     "Added; Flagged, untested"
-    ],
-    [
-     "Develop the Seasonality and Spread Proposition",
-     "2 Create green-season demand with MICE and events",
-     "Reworded"
-    ],
-    [
-     "Facilitate Adoption Along the Path to Purchase",
-     "3 Make the whole province findable and bookable",
-     "Reworded"
-    ],
-    [
-     "Pivot to Growth Markets (China, India, ME, ASEAN)",
-     "4 Convert India and China hub traffic",
-     "Reworded"
-    ],
-    [
-     "Ensure Sustainable Destination Management",
-     "14 Manage climate risk and sustainable tourism",
-     "Reworded"
-    ],
-    [
-     "Review Institutional Arrangements (Wesgro, DEDAT, CTT)",
-     "16 Align institutional stakeholders across all three tiers",
-     "Reworded"
-    ],
-    [
-     "Drive Community and SME Inclusion",
-     "13 Embed local destination bodies for community inclusion",
-     "Refined, held at concept level"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream."
+   "type": "p",
+   "text": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream. The air access and cruise entry split in two: focus area 7, Win direct routes and add seats on full routes, is Reworded, and focus area 8, Grow cruise calls and ports, is New. Focus area 19, Lead removal of infrastructure, visa and safety deficits, keeps its December title but moves from supply to governance. Focus area 20, Develop workforce and service skills, was added and is Flagged, untested."
+  },
+  {
+   "type": "p",
+   "text": "Five entries were Reworded to the lever the evidence supports. Develop the Seasonality and Spread Proposition became focus area 2, Create green-season demand with MICE and events. Facilitate Adoption Along the Path to Purchase became focus area 3, Make the whole province findable and bookable. Pivot to Growth Markets (China, India, ME, ASEAN) became focus area 4, Convert India and China hub traffic. Ensure Sustainable Destination Management became focus area 14, Manage climate risk and sustainable tourism. Review Institutional Arrangements (Wesgro, DEDAT, CTT) became focus area 16, Align institutional stakeholders across all three tiers. Drive Community and SME Inclusion became focus area 13, Embed local destination bodies for community inclusion, Refined and held at concept level (Current State Diagnostic, Dec 2025, p64; dispositions as recorded at the 14 October 2026 review; section 1.4)."
   },
   {
    "type": "pagebreak"
@@ -592,107 +529,20 @@
    "text": "The first 24 months"
   },
   {
-   "type": "table",
-   "caption": "Actions for the first 24 months",
-   "source": "Section 4.5. Owners and start dates are proposals for Steerco to confirm.",
-   "columns": [
-    {
-     "header": "Action",
-     "width": 4.4,
-     "align": "left"
-    },
-    {
-     "header": "Initiative",
-     "width": 0.9,
-     "align": "left"
-    },
-    {
-     "header": "Proposed owner",
-     "width": 1.7,
-     "align": "left"
-    },
-    {
-     "header": "Start",
-     "width": 0.8,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Hold winter seats with demand: joint green-season marketing with carriers on the full routes",
-     "I6, I2",
-     "Air Access",
-     "2027 H1"
-    ],
-    [
-     "Publish a green-season events calendar and aim bids at May to September",
-     "I2",
-     "Convention Bureau",
-     "2027 H1"
-    ],
-    [
-     "Track the runway programme quarterly and model capacity against demand to 2035",
-     "I6",
-     "Air Access",
-     "2027 H1"
-    ],
-    [
-     "Constitute Steerco and table the first national escalation agenda",
-     "I15, I17",
-     "Wesgro CEO's office; DEDAT",
-     "2027 H1"
-    ],
-    [
-     "Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism",
-     "I16",
-     "Research",
-     "2027 H1"
-    ],
-    [
-     "Run a bookability census of provincial product by district",
-     "I3",
-     "Research",
-     "2027 H1"
-    ],
-    [
-     "Request visitor counts and capacity from the five flagship sites",
-     "I11",
-     "Research",
-     "2027 H1"
-    ],
-    [
-     "Commission the tourism labour analysis behind the jobs ambition",
-     "I18",
-     "DEDAT, with Wesgro Research",
-     "2027 H1"
-    ],
-    [
-     "Package the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary",
-     "I8, I9",
-     "Tourism",
-     "2027 H2"
-    ],
-    [
-     "Package the Southern Line as a visitor product with the City and PRASA",
-     "I8",
-     "Tourism",
-     "2027 H2"
-    ],
-    [
-     "Choose two or three pilot communities and agree who funds a seller with a stake in each",
-     "I12",
-     "Tourism",
-     "2027 H2"
-    ],
-    [
-     "Give each pilot community one live booking route before any promotion",
-     "I12, I3",
-     "LTOs, with Tourism",
-     "2028 H1"
-    ]
-   ],
-   "boldFirstCol": false,
-   "message": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs."
+   "type": "p",
+   "text": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget. Each opens a seat, a baseline or a booking path a later initiative needs. Section 4.5 lists them with their funding routes; owners and start dates are proposals for Steerco to confirm."
+  },
+  {
+   "type": "p",
+   "text": "**Seats and season, from 2027 H1.** Air Access holds winter seats with demand through joint green-season marketing with carriers on the full routes (I6, I2). It also tracks the runway programme quarterly and models capacity against demand to 2035 (I6). The Convention Bureau publishes a green-season events calendar and aims bids at May to September (I2)."
+  },
+  {
+   "type": "p",
+   "text": "**Governance and baselines, from 2027 H1.** The Wesgro CEO's office and DEDAT constitute Steerco and table the first national escalation agenda (I15, I17). Research agrees the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism (I16). It also runs a bookability census of provincial product by district (I3) and requests visitor counts and capacity from the five flagship sites (I11). DEDAT, with Wesgro Research, commissions the tourism labour analysis behind the jobs ambition (I18)."
+  },
+  {
+   "type": "p",
+   "text": "**Product and inclusion, from 2027 H2.** Tourism packages the Garden Route and Route 62 with a shuttle transfer sold inside the itinerary (I8, I9), and the Southern Line as a visitor product with the City and PRASA (I8). It chooses two or three pilot communities and agrees who funds a seller with a stake in each (I12). From 2028 H1, the LTOs, with Tourism, give each pilot community one live booking route before any promotion (I12, I3)."
   },
   {
    "type": "pagebreak"
@@ -783,55 +633,12 @@
    "text": "The main risks"
   },
   {
-   "type": "table",
-   "caption": "The main risks",
-   "source": "Section 4.8; likelihood and impact are Letsema's assessment.",
-   "columns": [
-    {
-     "header": "Risk",
-     "width": 3.0,
-     "align": "left"
-    },
-    {
-     "header": "Likelihood and impact",
-     "width": 1.5,
-     "align": "left"
-    },
-    {
-     "header": "Response",
-     "width": 3.3,
-     "align": "left"
-    }
-   ],
-   "rows": [
-    [
-     "Bilateral air agreements and the US carrier cap stay restrictive",
-     "High; high",
-     "Escalation agenda with stated asks; route work inside existing rights"
-    ],
-    [
-     "Runway relief at Cape Town International slips past about 2033",
-     "Medium; high",
-     "Quarterly milestone tracking; frequency and gauge; George for domestic connections"
-    ],
-    [
-     "Visa processing for growth markets does not improve",
-     "Medium; high",
-     "Escalation agenda; processing time tracked each year"
-    ],
-    [
-     "Safety incidents or perception deter visitors",
-     "Medium; high",
-     "Safety gates before pilot launches; escalation to SAPS"
-    ],
-    [
-     "Climate events close sites and routes",
-     "High; medium",
-     "Climate risk register; itineraries routed around closures"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act."
+   "type": "p",
+   "text": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act. Restrictive bilateral air agreements and the US carrier cap are the one risk rated high on both likelihood and impact. The response is an escalation agenda with stated asks and route work inside existing rights."
+  },
+  {
+   "type": "p",
+   "text": "Three risks are rated medium likelihood and high impact. If runway relief at Cape Town International slips past about 2033, the response is quarterly milestone tracking, more frequency and larger aircraft, with George for domestic connections. If visa processing for growth markets does not improve, the escalation agenda carries it and processing time is tracked each year. Safety incidents or perception that deter visitors meet safety gates before pilot launches and escalation to SAPS. Climate events that close sites and routes are rated high likelihood and medium impact; a climate risk register and itineraries routed around closures are the response. Likelihood and impact are Letsema's assessment, and section 4.8 holds the full register."
   },
   {
    "type": "h2",

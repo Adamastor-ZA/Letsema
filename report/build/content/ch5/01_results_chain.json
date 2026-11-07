@@ -23,11 +23,11 @@
   },
   {
    "type": "p",
-   "text": "The three tables below give the chain for each pillar. Tier 3 output indicators come from the initiative charters, Tier 2 outcome indicators from the focus areas and Tier 1 impact indicators from the growth case."
+   "text": "The table below gives the chain for each initiative, pillar by pillar. Tier 3 output indicators come from the initiative charters, Tier 2 outcome indicators from the focus areas and Tier 1 impact indicators from the growth case."
   },
   {
    "type": "table",
-   "caption": "Pillar 1 results chain",
+   "caption": "Results chain by initiative",
    "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
    "columns": [
     {
@@ -81,38 +81,7 @@
      "T3-09, T3-10 activation run; capacity cases",
      "T2-08 African arrivals and spend",
      "T1-02, T1-03"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share."
-  },
-  {
-   "type": "table",
-   "caption": "Pillar 2 results chain",
-   "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
-   "columns": [
-    {
-     "header": "Initiative (activity)",
-     "width": 2.0,
-     "align": "left"
-    },
-    {
-     "header": "Outputs (Tier 3)",
-     "width": 2.2,
-     "align": "left"
-    },
-    {
-     "header": "Outcomes (Tier 2)",
-     "width": 2.4,
-     "align": "left"
-    },
-    {
-     "header": "Impact (Tier 1)",
-     "width": 1.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
+    ],
     [
      "I6 Route development and seat retention",
      "T3-11, T3-12 fund constituted; runway reports",
@@ -148,38 +117,7 @@
      "T3-21, T3-22 baseline published; flow tools in place",
      "T2-16 peak Cableway queue",
      "T1-06"
-    ]
-   ],
-   "boldFirstCol": true,
-   "message": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro."
-  },
-  {
-   "type": "table",
-   "caption": "Pillar 3 results chain",
-   "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
-   "columns": [
-    {
-     "header": "Initiative (activity)",
-     "width": 2.0,
-     "align": "left"
-    },
-    {
-     "header": "Outputs (Tier 3)",
-     "width": 2.2,
-     "align": "left"
-    },
-    {
-     "header": "Outcomes (Tier 2)",
-     "width": 2.4,
-     "align": "left"
-    },
-    {
-     "header": "Impact (Tier 1)",
-     "width": 1.2,
-     "align": "left"
-    }
-   ],
-   "rows": [
+    ],
     [
      "I12 Community inclusion pilots",
      "T3-23, T3-24 pilots selected; tests held",
@@ -224,7 +162,7 @@
     ]
    ],
    "boldFirstCol": true,
-   "message": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on."
+   "message": "Pillar 1 initiatives (I1 to I5) move arrivals, market mix, spend and the green-season share. Pillar 2 initiatives (I6 to I11) move seats, cruise volumes and the share of visitors and spend outside the Metro. Pillar 3 initiatives (I12 to I18) move community spend and jobs, and supply the governance and data every other indicator relies on."
   }
  ]
 }
