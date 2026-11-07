@@ -18,7 +18,9 @@ for (let p = 1; p <= nPages; p++) {
   const txt = execFileSync('pdftotext', ['-f', String(p), '-l', String(p), pdf, '-']).toString();
   pages.push(txt.split('\n').map(norm).filter(Boolean));
 }
-const has = (lines, needle) => lines.some((l) => l.startsWith(needle) || (needle.length > 40 && l.length >= 20 && needle.startsWith(l)));
+// A title can wrap (the chapter dividers set theirs large), so a line joined with the next two also counts.
+const has = (lines, needle) => lines.some((l, i) => l.startsWith(needle) || (needle.length > 40 && l.length >= 20 && needle.startsWith(l))
+  || (needle.length > l.length && needle.startsWith(l) && lines.slice(i, i + 3).join(' ').startsWith(needle)));
 
 // Search in order, never moving backwards, starting after the front matter: the first page whose lines include the
 // Abbreviations heading closes it (contents, figures and tables lists all come before it).

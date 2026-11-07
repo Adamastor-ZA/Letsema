@@ -20,6 +20,7 @@ function ensureFigure(block) {
   fs.mkdirSync(pngDir, { recursive: true }); fs.mkdirSync(svgDir, { recursive: true });
   if (block.file) return path.isAbsolute(block.file) ? block.file : path.join(pngDir, block.file);
   if (block.chart && !block.svg) block.svg = require('./charts').svgFor(block.chart);
+  else if (block.svg) block.svg = require('./charts').ciColours(block.svg);
   if (!block.svg || !block.id) return null;
   const svgPath = path.join(svgDir, `${block.id}.svg`);
   const pngPath = path.join(pngDir, `${block.id}.png`);
@@ -85,7 +86,10 @@ function makeChapter({ chapter, title, dir, bookmark }) {
     build(ctx, H) {
       H.setChapter(ctx, chapter);
       const hd = H.headings(ctx);
-      const out = [hd.h1(title, bookmark)];
+      const label = { ES: '', A: '' }[chapter] !== undefined ? '' : `Chapter ${chapter}`;
+      const out = [...H.divider(hd, { label, title, bookmark }).out];
+      const first = (loadDir(dir)[0] || {}).blocks || [];
+      if (!(first[0] && first[0].type === 'pagebreak')) out.push(H.pageBreak());
       for (const section of loadDir(dir)) {
         if (section.lead_title) out.push(hd.h2(section.lead_title));
         if ((section.blocks || [])[0] && section.blocks[0].type === 'pagebreak') while (out.length && out[out.length - 1]._spacer) out.pop();

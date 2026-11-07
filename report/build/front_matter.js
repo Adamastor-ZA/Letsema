@@ -41,13 +41,16 @@ function build(ctx, H) {
   const { Paragraph, TextRun, AlignmentType } = H;
   const out = [];
 
-  // Cover
-  out.push(new Paragraph({ style: 'CoverMeta', spacing: { before: 400 }, children: [new TextRun('Letsema in partnership with Skift Advisory, for Wesgro')] }));
-  out.push(new Paragraph({ style: 'CoverTitle', children: [new TextRun('Unlocking Tourism Growth')] }));
-  out.push(new Paragraph({ style: 'CoverSub', children: [new TextRun('A Strategy for the Western Cape to 2035')] }));
-  out.push(new Paragraph({ style: 'CoverMeta', children: [new TextRun('Final Research Report')] }));
-  out.push(new Paragraph({ style: 'CoverMeta', children: [new TextRun('Draft for discussion, version 1, November 2026')] }));
-  out.push(new Paragraph({ style: 'CoverMeta', children: [new TextRun({ text: 'DRAFT FOR DISCUSSION. Not for circulation beyond the Wesgro project team.', bold: true })] }));
+  // Cover, after the Wesgro cover slide: charcoal ground, logo top left, the protea W, the title over a short cyan rule.
+  const W = (t, o = {}) => new TextRun({ text: t, color: 'FFFFFF', font: H.FONT_HEAD, ...o });
+  out.push(H.fullBleed('bg_cover.png'));
+  out.push(new Paragraph({ spacing: { before: H.PT(470) * 10, after: 100 }, children: [W('FINAL RESEARCH REPORT', { size: H.PT(9), bold: true, characterSpacing: 40 })] }));
+  out.push(new Paragraph({ spacing: { after: 200 }, indent: { right: 2600 }, border: { bottom: { style: H.docx.BorderStyle.SINGLE, size: 12, color: '00A3DA', space: 10 } },
+    children: [W('Unlocking Tourism Growth', { size: H.PT(32), bold: true })] }));
+  out.push(new Paragraph({ spacing: { after: 600 }, children: [W('A Strategy for the Western Cape to 2035', { size: H.PT(17) })] }));
+  out.push(new Paragraph({ spacing: { after: 60 }, children: [W('Letsema in partnership with Skift Advisory', { size: H.PT(9.5) })] }));
+  out.push(new Paragraph({ spacing: { after: 60 }, children: [W('Draft for discussion  |  Version 4  |  November 2026', { size: H.PT(9.5) })] }));
+  out.push(new Paragraph({ spacing: { before: 120, after: 60 }, children: [W('DRAFT FOR DISCUSSION. Not for circulation beyond the Wesgro project team.', { size: H.PT(8.5), bold: true })] }));
   out.push(H.pageBreak());
 
   // Document control
@@ -59,7 +62,7 @@ function build(ctx, H) {
       ['Client', 'Wesgro, the Western Cape Tourism, Trade and Investment Promotion Agency'],
       ['Authors', 'Letsema Consulting and Advisory in partnership with Skift Advisory'],
       ['Contract', 'Service Level Agreement, Annexure B, clause 1.1.14 (Final Research Report); clauses 1.1.4 and 1.1.10 (M&E toolkit)'],
-      ['Status', 'Draft for discussion, version 1. Every page carries the draft marking until the Steerco review'],
+      ['Status', 'Draft for discussion, version 4. Every page carries the draft marking until the Steerco review'],
       ['Audience', 'Unlocking Tourism Steerco, Wesgro Exco and Board; the written report launches at the Unlocking Tourism business outlook, February 2027'],
       ['Conventions', 'Figures carry a source and page in the form (Demand-Side Analysis, Jun 2026, p21). Square-bracketed text marks an open item. See section 1.5'],
     ],

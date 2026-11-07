@@ -1,0 +1,104 @@
+[
+ {
+  "figure": "fig_0_paths",
+  "file": "exec/01_summary.json",
+  "series": "Accelerated",
+  "before": "#1F7A8C",
+  "after": "#00A3DA"
+ },
+ {
+  "figure": "fig_0_paths",
+  "file": "exec/01_summary.json",
+  "series": "Base",
+  "before": "#0B3C5D",
+  "after": "#4D4D4F"
+ },
+ {
+  "figure": "fig_0_paths",
+  "file": "exec/01_summary.json",
+  "series": "Conservative",
+  "before": "#7A9E7E",
+  "after": "#80D1EC"
+ },
+ {
+  "figure": "fig_21_scenarios",
+  "file": "ch2/01_demand.json",
+  "series": "Accelerated",
+  "before": "#1F7A8C",
+  "after": "#00A3DA"
+ },
+ {
+  "figure": "fig_21_scenarios",
+  "file": "ch2/01_demand.json",
+  "series": "Base",
+  "before": "#0B3C5D",
+  "after": "#4D4D4F"
+ },
+ {
+  "figure": "fig_21_scenarios",
+  "file": "ch2/01_demand.json",
+  "series": "Conservative",
+  "before": "#7A9E7E",
+  "after": "#80D1EC"
+ },
+ {
+  "figure": "fig_5_paths",
+  "file": "ch5/03_baselines_targets.json",
+  "series": "Accelerated",
+  "before": "#1F7A8C",
+  "after": "#00A3DA"
+ },
+ {
+  "figure": "fig_5_paths",
+  "file": "ch5/03_baselines_targets.json",
+  "series": "Base",
+  "before": "#0B3C5D",
+  "after": "#4D4D4F"
+ },
+ {
+  "figure": "fig_5_paths",
+  "file": "ch5/03_baselines_targets.json",
+  "series": "Conservative",
+  "before": "#7A9E7E",
+  "after": "#80D1EC"
+ },
+ {
+  "figure": "fig_3_fa02_months",
+  "file": "ch3/12_fa02.json",
+  "series": "Seats",
+  "before": "#0B3C5D",
+  "after": "#4D4D4F"
+ },
+ {
+  "figure": "fig_3_fa02_months",
+  "file": "ch3/12_fa02.json",
+  "series": "Visitors",
+  "before": "#7A9E7E",
+  "after": "#006E93"
+ },
+ {
+  "figure": "fig_3_fa02_months",
+  "file": "ch3/12_fa02.json",
+  "series": "Meetings",
+  "before": "#E07A1F",
+  "after": "#00A3DA"
+ },
+ {
+  "figure": "fig_5_chain",
+  "file": "ch5/01_results_chain.json",
+  "changed_tokens": 40,
+  "old_colours_left": []
+ },
+ {
+  "figure": "fig_4_governance",
+  "file": "ch4/07_governance.json",
+  "changed_tokens": 33,
+  "old_colours_left": []
+ },
+ {
+  "figure": "fig_5_dashboard",
+  "file": "ch5/05_tracking.json",
+  "changed_tokens": 80,
+  "old_colours_left": []
+ }
+]

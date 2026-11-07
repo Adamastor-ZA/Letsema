@@ -44,9 +44,14 @@ async function main() {
     const fm = load('front_matter');
     if (fm) sections.push({ children: fm.build(ctx, H), firstPageBlank: true });
   }
-  const bodyChildren = [];
-  for (const name of wanted) if (built[name]) bodyChildren.push(...built[name]);
-  if (bodyChildren.length) sections.push({ children: bodyChildren, firstPageBlank: false });
+  // One section per chapter, so the divider (its first page) carries no header or footer; numbering runs on.
+  for (const name of wanted) if (built[name]) sections.push({ children: built[name], firstPageBlank: true });
+  // Back cover, after the Wesgro closing slide.
+  const W = (t, o = {}) => new H.TextRun({ text: t, color: 'FFFFFF', font: H.FONT_HEAD, ...o });
+  sections.push({ firstPageBlank: true, children: [H.fullBleed('bg_back.png'),
+    new H.Paragraph({ spacing: { before: H.PT(330) * 10, after: 120 }, indent: { right: 5200 }, border: { bottom: { style: H.docx.BorderStyle.SINGLE, size: 12, color: '00A3DA', space: 10 } }, children: [W('Contact us', { size: H.PT(26), bold: true })] }),
+    new H.Paragraph({ spacing: { after: 60 }, children: [W('hello@wesgro.co.za', { size: H.PT(12) })] }),
+  ] });
   if (!sections.length) throw new Error('nothing to build');
 
   // Registry for the page scanner (pass 1) and the contents pages (pass 2).

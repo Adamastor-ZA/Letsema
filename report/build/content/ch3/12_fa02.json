@@ -130,7 +130,7 @@
        10.3,
        10.8
       ],
-      "color": "#0B3C5D"
+      "color": "#4D4D4F"
      },
      {
       "name": "Visitors",
@@ -148,7 +148,7 @@
        11.3,
        12.7
       ],
-      "color": "#7A9E7E"
+      "color": "#006E93"
      },
      {
       "name": "Meetings",
@@ -166,7 +166,7 @@
        16.9,
        7.4
       ],
-      "color": "#E07A1F"
+      "color": "#00A3DA"
      }
     ],
     "unit": "%",

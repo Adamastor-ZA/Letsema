@@ -3,10 +3,18 @@
 // Types: lineChart, barChart (vertical, grouped), hbarChart (horizontal), stackedBarChart.
 // All charts: 1600 x 900 viewBox, Raleway, palette aligned with helpers.js. Values are formatted with fmt().
 
-const PAL = ['#0B3C5D', '#1F7A8C', '#7A9E7E', '#C98B2B', '#8C5E8A', '#B23A48', '#5B6572'];
-const INK = '#1C2431', GREY = '#5B6572', GRID = '#C9D1DA';
+// Wesgro CI: charcoal, Wesgro cyan with a darker and a lighter shade, two greys, and protea pink for thresholds only.
+const CHAR = '#4D4D4F', CYAN = '#00A3DA', DCYAN = '#006E93', LCYAN = '#80D1EC', PINK = '#C8385F';
+const PAL = [CHAR, CYAN, DCYAN, LCYAN, '#A7A9AC', PINK, '#6D6E71'];
+const INK = '#2B2B2D', GREY = '#6D6E71', GRID = '#D9DADB', FILL = '#F5F6F7', RULE = '#E6E7E8';
+// White or near-black text, whichever meets 4.5:1 on the fill.
+function textOn(hex) {
+  const lin = (i) => { const v = parseInt(hex.slice(1 + 2 * i, 3 + 2 * i), 16) / 255; return v <= 0.03928 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4; };
+  const L = 0.2126 * lin(0) + 0.7152 * lin(1) + 0.0722 * lin(2);
+  return 1.05 / (L + 0.05) >= 4.5 ? '#ffffff' : '#1E1E20';
+}
 const W = 1600, HGT = 900;
-const FONT = 'Raleway, Arial, sans-serif';
+const FONT = 'Arial, Helvetica, sans-serif';
 
 function esc(s) { return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
 let DEC = false; // set per chart: when any value in a small-number series has decimals, print one decimal throughout
@@ -65,8 +73,8 @@ function lineChart(o) {
   for (const t of ticks) s += `<line x1="${L}" y1="${y(t)}" x2="${L + pw}" y2="${y(t)}" stroke="${GRID}" stroke-width="1"/><text x="${L - 14}" y="${y(t) + 8}" text-anchor="end" font-size="22" fill="${GREY}">${fmt(t, o.unit)}</text>`;
   o.categories.forEach((c, i) => { s += `<text x="${x(i)}" y="${T + ph + 44}" text-anchor="middle" font-size="22" fill="${GREY}">${esc(c)}</text>`; });
   for (const r of o.refLines || []) {
-    s += `<line x1="${L}" y1="${y(r.value)}" x2="${L + pw}" y2="${y(r.value)}" stroke="${r.color || '#B23A48'}" stroke-width="3" stroke-dasharray="12 9"/>`;
-    s += `<text x="${L + 12}" y="${y(r.value) - 12}" font-size="22" font-weight="700" fill="${r.color || '#B23A48'}">${esc(r.label || '')}</text>`;
+    s += `<line x1="${L}" y1="${y(r.value)}" x2="${L + pw}" y2="${y(r.value)}" stroke="${r.color || PINK}" stroke-width="3" stroke-dasharray="12 9"/>`;
+    s += `<text x="${L + 12}" y="${y(r.value) - 12}" font-size="22" font-weight="700" fill="${r.color || PINK}">${esc(r.label || '')}</text>`;
   }
   o.series.forEach((sr, si) => {
     const col = sr.color || PAL[si % PAL.length];
@@ -74,7 +82,8 @@ function lineChart(o) {
     s += `<polyline fill="none" stroke="${col}" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" points="${pts}"/>`;
     sr.values.forEach((v, i) => { if (v != null) s += `<circle cx="${x(i)}" cy="${y(v)}" r="7" fill="${col}"/>`; });
     const lastIdx = sr.values.length - 1;
-    if (o.labelLast !== false && sr.values[lastIdx] != null) s += `<text x="${L + pw + 14}" y="${y(sr.values[lastIdx]) + 8}" font-size="22" font-weight="700" fill="${col}">${esc(sr.name)} ${fmt(sr.values[lastIdx], o.unit)}</text>`;
+    // The light shade is too pale for type on white, so its label takes the dark shade.
+    if (o.labelLast !== false && sr.values[lastIdx] != null) s += `<text x="${L + pw + 14}" y="${y(sr.values[lastIdx]) + 8}" font-size="22" font-weight="700" fill="${col === LCYAN ? DCYAN : col}">${esc(sr.name)} ${fmt(sr.values[lastIdx], o.unit)}</text>`;
   });
   if (o.labelLast === false) s += legend(o.series, L, T - 20);
   if (o.footnote) s += `<text x="40" y="${HGT - 20}" font-size="18" fill="${GREY}">${esc(o.footnote)}</text>`;
@@ -151,7 +160,7 @@ function stackedBarChart(o) {
       const v = sr.values[i] || 0; if (!v) return;
       const col = sr.color || PAL[si % PAL.length];
       s += `<rect x="${x0}" y="${y(acc + v)}" width="${bw}" height="${y(acc) - y(acc + v)}" fill="${col}"/>`;
-      if ((y(acc) - y(acc + v)) > 26 && o.segmentValues !== false) s += `<text x="${x0 + bw / 2}" y="${(y(acc) + y(acc + v)) / 2 + 7}" text-anchor="middle" font-size="19" fill="#ffffff">${fmt(v, o.unit)}</text>`;
+      if ((y(acc) - y(acc + v)) > 26 && o.segmentValues !== false) s += `<text x="${x0 + bw / 2}" y="${(y(acc) + y(acc + v)) / 2 + 7}" text-anchor="middle" font-size="19" fill="${textOn(col)}">${fmt(v, o.unit)}</text>`;
       acc += v;
     });
     if (o.totals !== false) s += `<text x="${x0 + bw / 2}" y="${y(acc) - 10}" text-anchor="middle" font-size="21" font-weight="700" fill="${INK}">${fmt(acc, o.unit)}</text>`;
@@ -178,7 +187,7 @@ function ganttChart(o) {
     const i0 = years.indexOf(ph.from), i1 = years.indexOf(ph.to);
     if (i0 < 0 || i1 < 0) return;
     const x0 = L + i0 * cw, x1 = L + (i1 + 1) * cw;
-    s += `<rect x="${x0}" y="${headH - 50}" width="${x1 - x0}" height="${H - headH + 50 - 60}" fill="${i % 2 ? '#F3F6F9' : '#FFFFFF'}"/>`;
+    s += `<rect x="${x0}" y="${headH - 50}" width="${x1 - x0}" height="${H - headH + 50 - 60}" fill="${i % 2 ? FILL : '#FFFFFF'}"/>`;
     s += `<text x="${(x0 + x1) / 2}" y="${headH - 58}" text-anchor="middle" font-size="21" font-weight="700" fill="${PAL[0]}">${esc(ph.name)}</text>`;
   });
   years.forEach((y, i) => { s += `<text x="${L + i * cw + cw / 2}" y="${headH - 22}" text-anchor="middle" font-size="20" fill="${GREY}">${esc(y)}</text>`; });
@@ -194,12 +203,12 @@ function ganttChart(o) {
     years.forEach((yr, i) => {
       const c = (r.cells || {})[yr];
       if (!c) return;
-      const fill = c === 'I' ? PAL[0] : (c === 'D' ? '#9DBBD0' : '#DCE6EE');
+      const fill = c === 'I' ? CHAR : (c === 'D' ? LCYAN : RULE);
       s += `<rect x="${L + i * cw + 3}" y="${y + 9}" width="${cw - 6}" height="${rowH - 18}" rx="3" fill="${fill}"/>`;
     });
   });
   const ly = H - 26;
-  s += `<rect x="${L}" y="${ly - 16}" width="22" height="18" rx="3" fill="#9DBBD0"/><text x="${L + 30}" y="${ly}" font-size="19" fill="${INK}">Design</text>`;
+  s += `<rect x="${L}" y="${ly - 16}" width="22" height="18" rx="3" fill="${LCYAN}"/><text x="${L + 30}" y="${ly}" font-size="19" fill="${INK}">Design</text>`;
   s += `<rect x="${L + 140}" y="${ly - 16}" width="22" height="18" rx="3" fill="${PAL[0]}"/><text x="${L + 170}" y="${ly}" font-size="19" fill="${INK}">Implement</text>`;
   return s + '</svg>';
 }
@@ -210,7 +219,7 @@ function treeChart(o) {
   const cols = o.pillars.length;
   const colW = (W - 80) / cols, gap = 24;
   const FS = 21, LH = 26, WRAP = 27;
-  const DISP = { Validated: '#7A9E7E', Refined: '#1F7A8C', Reworded: '#C98B2B', New: '#0B3C5D', Moved: '#8C5E8A', Flagged: '#B23A48', Withdrawn: '#5B6572' };
+  const DISP = { Validated: DCYAN, Refined: CYAN, Reworded: CHAR, New: LCYAN, Moved: GREY, Flagged: PINK, Withdrawn: '#A7A9AC' };
   // height: tallest pillar column
   const colH = o.pillars.map((p) => p.themes.reduce((acc, t) => acc + 52 + t.areas.reduce((a2, ar) => a2 + 44 + (wrap(ar.name, WRAP).length) * LH + 8, 0) + 10, 0));
   const H = 250 + Math.max(...colH) + 20;
@@ -218,7 +227,7 @@ function treeChart(o) {
   s += `<rect x="40" y="20" width="${W - 80}" height="64" rx="6" fill="${PAL[0]}"/><text x="${W / 2}" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
   o.pillars.forEach((p, pi) => {
     const x = 40 + pi * colW + gap / 2, w = colW - gap;
-    s += `<rect x="${x}" y="104" width="${w}" height="100" rx="6" fill="${PAL[1]}"/>`;
+    s += `<rect x="${x}" y="104" width="${w}" height="100" rx="6" fill="${DCYAN}"/>`;
     s += `<text x="${x + w / 2}" y="144" text-anchor="middle" font-size="27" font-weight="700" fill="#ffffff">${esc(p.name)}</text>`;
     s += `<text x="${x + w / 2}" y="180" text-anchor="middle" font-size="20" fill="#ffffff">${esc(p.objective || '')}</text>`;
     let y = 222;
@@ -233,7 +242,7 @@ function treeChart(o) {
         lines.forEach((ln, li) => { s += `<text x="${x + 52}" y="${y + 30 + li * LH}" font-size="${FS}" fill="${INK}">${esc(ln)}</text>`; });
         if (a.disposition) {
           const dw = a.disposition.length * 11 + 22;
-          s += `<rect x="${x + 52}" y="${y + h - 34}" width="${dw}" height="26" rx="13" fill="${DISP[a.disposition] || GREY}"/><text x="${x + 52 + dw / 2}" y="${y + h - 15}" text-anchor="middle" font-size="16" font-weight="700" fill="#ffffff">${esc(a.disposition)}</text>`;
+          s += `<rect x="${x + 52}" y="${y + h - 34}" width="${dw}" height="26" rx="13" fill="${DISP[a.disposition] || GREY}"/><text x="${x + 52 + dw / 2}" y="${y + h - 15}" text-anchor="middle" font-size="16" font-weight="700" fill="${textOn(DISP[a.disposition] || GREY)}">${esc(a.disposition)}</text>`;
         }
         y += h + 8;
       });
@@ -242,7 +251,7 @@ function treeChart(o) {
   });
   return s + '</svg>';
 }
-function C_HEAD() { return '#DCE6EE'; }
+function C_HEAD() { return RULE; }
 function wrap(text, n) {
   const words = String(text).split(' '); const lines = []; let cur = '';
   for (const w of words) { if ((cur + ' ' + w).trim().length > n) { lines.push(cur.trim()); cur = w; } else cur += ' ' + w; }
@@ -266,7 +275,7 @@ function calloutBox(c) {
   const h = 2 * pad + fs + (lines.length - 1) * lh;
   const a = c.anchor || 'tl';
   const x = a.endsWith('r') ? c.x - w : c.x, y = a.startsWith('b') ? c.y - h : c.y;
-  let s = `<g class="callout"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#F3F6F9"/><rect x="${x}" y="${y}" width="${bar}" height="${h}" rx="3" fill="${PAL[1]}"/>`;
+  let s = `<g class="callout"><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="${FILL}"/><rect x="${x}" y="${y}" width="${bar}" height="${h}" rx="3" fill="${CYAN}"/>`;
   lines.forEach((ln, i) => { s += `<text x="${x + bar + pad}" y="${y + pad + fs - 3 + i * lh}" font-size="${fs}" font-weight="700" fill="${PAL[0]}">${esc(ln)}</text>`; });
   return { svg: s + '</g>', h };
 }
@@ -285,13 +294,21 @@ function withCallout(svg, c) {
   return `${head}<rect width="${w0}" height="${h0 + bh}" fill="#ffffff"/>${box.svg}<g transform="translate(0,${bh})">${inner}</g></svg>`;
 }
 
+// Wesgro CI colours for every chart and diagram: the old palette maps one to one, so explicit series colours follow too.
+const CI_MAP = { '#0B3C5D': CHAR, '#1F7A8C': CYAN, '#7A9E7E': DCYAN, '#C98B2B': LCYAN, '#8C5E8A': '#A7A9AC', '#E07A1F': CYAN,
+  '#B23A48': PINK, '#5B6572': GREY, '#9DBBD0': LCYAN, '#DCE6EE': RULE, '#F3F6F9': FILL, '#1C2431': INK, '#C9D1DA': GRID };
+function ciColours(svg) {
+  let s = svg.replace(/#[0-9A-Fa-f]{6}\b/g, (h) => CI_MAP[h.toUpperCase()] || h);
+  return s.replace(/Raleway, Arial, sans-serif/g, 'Arial, Helvetica, sans-serif');
+}
+
 function svgFor(chart) {
   const vals = [].concat(chart.values || [], ...((chart.series || []).map((x) => x.values || []))).filter((v) => typeof v === 'number');
   DEC = vals.length > 0 && vals.every((v) => Math.abs(v) < 100) && vals.some((v) => !Number.isInteger(v));
   const fns = { line: lineChart, bar: barChart, hbar: hbarChart, stacked: stackedBarChart, gantt: ganttChart, tree: treeChart };
   const fn = fns[chart.type];
   if (!fn) throw new Error(`unknown chart type ${chart.type}`);
-  return withCallout(fn(chart), chart.callout);
+  return ciColours(withCallout(fn(chart), chart.callout));
 }
 
-module.exports = { lineChart, barChart, hbarChart, stackedBarChart, ganttChart, treeChart, svgFor, withCallout, PAL };
+module.exports = { ciColours, lineChart, barChart, hbarChart, stackedBarChart, ganttChart, treeChart, svgFor, withCallout, PAL };

@@ -9,26 +9,30 @@ const {
   Document, Packer, Paragraph, TextRun, Table, TableRow, TableCell, WidthType, AlignmentType,
   Header, Footer, PageNumber, ImageRun, BorderStyle, ShadingType, HeadingLevel, LevelFormat,
   VerticalAlign, TableLayoutType, PageBreak, Bookmark, InternalHyperlink, TabStopType, LineRuleType,
-  FootnoteReferenceRun,
+  FootnoteReferenceRun, HorizontalPositionRelativeFrom, VerticalPositionRelativeFrom, TextWrappingType,
 } = docx;
 // LibreOffice treats w:line without w:lineRule as a fixed height, which collapses inline images; always state the rule.
 const AUTO = LineRuleType.AUTO;
 
 // ---------- Typography and palette ----------
-const FONT_TITLE = 'EB Garamond';   // brand: titles
-const FONT_HEAD = 'Raleway';        // brand: descriptors, headings, kickers, tables
-const FONT_BODY = 'EB Garamond';    // body prose
+// Wesgro CI: Helvetica, set here as Arial, its metric twin and the face the Wesgro template uses for body runs.
+const FONT_TITLE = 'Arial';
+const FONT_HEAD = 'Arial';
+const FONT_BODY = 'Arial';
 const PT = (n) => Math.round(n * 2); // points to half-points
 
-// Neutral palette pending Wesgro brand colours (open item).
+// Wesgro CI (cover and interleading slides, 13 Oct 2026): charcoal #4D4D4F ground, cyan #00A3DA rule, white type.
+// navy and teal keep their names so every style that used them now takes charcoal and cyan.
 const C = {
-  ink: '1C2431',
-  navy: '0B3C5D',
-  teal: '1F7A8C',
-  grey: '5B6572',
-  mid: 'C9D1DA',
-  light: 'EEF2F6',
-  head: 'DCE6EE',
+  ink: '2B2B2D',
+  navy: '4D4D4F',
+  teal: '00A3DA',
+  grey: '6D6E71',
+  mid: 'C8C9CB',
+  light: 'F5F6F7',
+  head: '4D4D4F',
+  dcyan: '006E93', // darker Wesgro cyan: safe for text on white (5.8:1)
+  lcyan: '80D1EC', // lighter Wesgro cyan: fills and chart series
   highlight: 'FFF3B0',
   white: 'FFFFFF',
 };
@@ -256,7 +260,7 @@ function table(ctx, { caption, source, columns, rows, fontSize, headShade = C.he
     borders: { top: thinBorder, bottom: thinBorder, left: noBorder, right: noBorder, insideHorizontal: thinBorder, insideVertical: noBorder },
     rows: [headerRow, ...bodyRows],
   });
-  const out = [new Paragraph({ style: 'Caption', keepNext: true, children: [new TextRun({ text: `${num}. `, bold: true }), ...runs(caption)] }), t];
+  const out = [new Paragraph({ style: 'Caption', keepNext: true, children: [new TextRun({ text: `${num}. `, bold: true, color: C.dcyan }), ...runs(caption)] }), t];
   if (source) out.push(new Paragraph({ style: 'Source', children: runs(`Source: ${source}`) }));
   else out.push(spacer(4));
   return out;
@@ -309,9 +313,33 @@ function figure(ctx, { file, caption, source, widthCm = TEXT_WIDTH_CM }) {
   } else {
     out.push(new Paragraph({ keepNext: true, alignment: AlignmentType.CENTER, spacing: { before: 120, after: 60, line: 240, lineRule: AUTO }, children: [new TextRun({ text: `[Figure to be rendered: ${file ? path.basename(file) : 'no file'}]`, highlight: 'yellow', font: FONT_HEAD, size: PT(9) })] }));
   }
-  out.push(new Paragraph({ style: 'Caption', children: [new TextRun({ text: `${num}. `, bold: true }), ...runs(caption)] }));
+  out.push(new Paragraph({ style: 'Caption', children: [new TextRun({ text: `${num}. `, bold: true, color: C.dcyan }), ...runs(caption)] }));
   if (source) out.push(new Paragraph({ style: 'Source', children: runs(`Source: ${source}`) }));
   return out;
+}
+
+// ---------- Wesgro CI pages: full-bleed backgrounds, chapter dividers ----------
+const CI = path.join(__dirname, 'assets', 'ci');
+// A paragraph carrying one page-sized image behind the text, anchored to the page corner.
+function fullBleed(file) {
+  const data = fs.readFileSync(path.join(CI, file));
+  return new Paragraph({ spacing: { before: 0, after: 0, line: 240, lineRule: AUTO }, children: [new ImageRun({
+    type: 'png', data, transformation: { width: 794, height: 1123 },
+    floating: { horizontalPosition: { relative: HorizontalPositionRelativeFrom.PAGE, offset: 0 }, verticalPosition: { relative: VerticalPositionRelativeFrom.PAGE, offset: 0 },
+      behindDocument: true, allowOverlap: true, lockAnchor: true, wrap: { type: TextWrappingType.NONE } },
+  })] });
+}
+// Chapter divider, after the Wesgro interleading slide: charcoal, the Western Cape contour band, a white title over a
+// short cyan rule. The title is a real Heading 1, so the contents and bookmarks still work.
+function divider(hd, { label, title, bookmark }) {
+  const white = (t, o = {}) => new TextRun({ text: t, color: C.white, font: FONT_HEAD, ...o });
+  const out = [fullBleed('bg_divider_alt.png')];
+  out.push(new Paragraph({ spacing: { before: PT(150) * 10, after: 120 }, children: [white(label || ' ', { size: PT(14) })] }));
+  const h = hd.h1NoBreak(title, bookmark);
+  out.push(new Paragraph({ heading: HeadingLevel.HEADING_1, spacing: { before: 0, after: 240 }, indent: { right: 2000 },
+    border: { bottom: { style: BorderStyle.SINGLE, size: 12, color: C.teal, space: 10 } },
+    children: [bookmark ? new Bookmark({ id: bookmark, children: [white(title, { size: PT(36), bold: true })] }) : white(title, { size: PT(36), bold: true })] }));
+  return { out, registered: h };
 }
 
 // ---------- Front-matter contents built from a scanned page map (two-pass build) ----------
@@ -326,19 +354,19 @@ function contentsList(entries) {
 
 // ---------- Document assembly ----------
 function styles() {
-  const base = { font: FONT_BODY, size: PT(11), color: C.ink };
+  const base = { font: FONT_BODY, size: PT(10), color: C.ink };
   return {
     default: { document: { run: base, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 120 } } } },
     paragraphStyles: [
-      { id: 'Body', name: 'Body', basedOn: 'Normal', next: 'Body', quickFormat: true, run: base, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 140 }, alignment: AlignmentType.LEFT } },
-      { id: 'Lead', name: 'Lead', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(12), color: C.navy }, paragraph: { spacing: { line: 276, lineRule: AUTO, after: 160 } } },
+      { id: 'Body', name: 'Body', basedOn: 'Normal', next: 'Body', quickFormat: true, run: base, paragraph: { spacing: { line: 300, lineRule: AUTO, after: 140 }, alignment: AlignmentType.LEFT } },
+      { id: 'Lead', name: 'Lead', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(11.5), color: C.navy }, paragraph: { spacing: { line: 300, lineRule: AUTO, after: 160 } } },
       { id: 'Note', name: 'Note', basedOn: 'Body', next: 'Body', run: { ...base, size: PT(9.5), color: C.grey }, paragraph: { spacing: { after: 100 } } },
-      { id: 'Kicker', name: 'Kicker', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.teal, characterSpacing: 30 }, paragraph: { spacing: { before: 240, after: 40 }, keepNext: true } },
+      { id: 'Kicker', name: 'Kicker', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(8), bold: true, color: C.dcyan, characterSpacing: 30 }, paragraph: { spacing: { before: 240, after: 40 }, keepNext: true } },
       { id: 'ListText', name: 'List Text', basedOn: 'Body', next: 'ListText', run: base, paragraph: { spacing: { after: 80 } } },
       { id: 'Caption', name: 'Caption', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(9), color: C.ink }, paragraph: { spacing: { before: 160, after: 80 }, keepNext: true } },
       { id: 'Source', name: 'Source', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 60, after: 200 } } },
       { id: 'TableText', name: 'Table Text', basedOn: 'Normal', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), color: C.ink }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
-      { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
+      { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.white }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
       { id: 'BoxTitle', name: 'Box Title', basedOn: 'Normal', next: 'BoxBody', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.navy }, paragraph: { spacing: { after: 80 } } },
       { id: 'BoxBody', name: 'Box Body', basedOn: 'Normal', next: 'BoxBody', run: { ...base, size: PT(10) }, paragraph: { spacing: { after: 80, line: 264, lineRule: AUTO } } },
       { id: 'FootnoteText', name: 'footnote text', basedOn: 'Normal', next: 'FootnoteText', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 0, after: 20, line: 220, lineRule: AUTO } } },
@@ -348,9 +376,9 @@ function styles() {
       { id: 'CoverTitle', name: 'Cover Title', basedOn: 'Normal', run: { font: FONT_TITLE, size: PT(34), bold: true, color: C.navy }, paragraph: { spacing: { before: 2400, after: 200 } } },
       { id: 'CoverSub', name: 'Cover Sub', basedOn: 'Normal', run: { font: FONT_HEAD, size: PT(14), bold: true, color: C.teal }, paragraph: { spacing: { after: 600 } } },
       { id: 'CoverMeta', name: 'Cover Meta', basedOn: 'Normal', run: { font: FONT_HEAD, size: PT(10.5), color: C.grey }, paragraph: { spacing: { after: 80 } } },
-      { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_TITLE, size: PT(24), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 360 }, keepNext: true, outlineLevel: 0 } },
-      { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_HEAD, size: PT(14), bold: true, color: C.navy }, paragraph: { spacing: { before: 360, after: 160 }, keepNext: true, outlineLevel: 1 } },
-      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_HEAD, size: PT(11.5), bold: true, color: C.teal }, paragraph: { spacing: { before: 280, after: 120 }, keepNext: true, outlineLevel: 2 } },
+      { id: 'Heading1', name: 'Heading 1', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_TITLE, size: PT(22), bold: true, color: C.navy }, paragraph: { spacing: { before: 0, after: 360 }, keepNext: true, outlineLevel: 0 } },
+      { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_HEAD, size: PT(15), bold: true, color: C.navy }, paragraph: { spacing: { before: 360, after: 200 }, keepNext: true, outlineLevel: 1, border: { bottom: { style: BorderStyle.SINGLE, size: 8, color: C.teal, space: 6 } } } },
+      { id: 'Heading3', name: 'Heading 3', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_HEAD, size: PT(11.5), bold: true, color: C.dcyan }, paragraph: { spacing: { before: 280, after: 120 }, keepNext: true, outlineLevel: 2 } },
       { id: 'Heading4', name: 'Heading 4', basedOn: 'Normal', next: 'Body', quickFormat: true, run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.ink }, paragraph: { spacing: { before: 200, after: 80 }, keepNext: true, outlineLevel: 3 } },
     ],
   };
@@ -371,11 +399,12 @@ function numberingConfig() {
 function headerFooter(shortTitle, draft) {
   const header = new Header({ children: [new Paragraph({
     tabStops: [{ type: TabStopType.RIGHT, position: TEXT_WIDTH_DXA }],
-    children: [new TextRun({ text: shortTitle, font: FONT_HEAD, size: PT(7.5), color: C.grey }), new TextRun({ text: `\t${draft ? 'DRAFT FOR DISCUSSION' : ''}`, font: FONT_HEAD, size: PT(7.5), bold: true, color: C.teal })],
+    border: { bottom: { style: BorderStyle.SINGLE, size: 6, color: C.teal, space: 4 } },
+    children: [new TextRun({ text: shortTitle, font: FONT_HEAD, size: PT(7.5), color: C.grey }), new TextRun({ text: `\t${draft ? 'DRAFT FOR DISCUSSION' : ''}`, font: FONT_HEAD, size: PT(7.5), bold: true, color: C.navy })],
   })] });
   const footer = new Footer({ children: [new Paragraph({
     tabStops: [{ type: TabStopType.RIGHT, position: TEXT_WIDTH_DXA }],
-    children: [new TextRun({ text: 'Letsema in partnership with Skift Advisory, for Wesgro', font: FONT_HEAD, size: PT(7.5), color: C.grey }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: FONT_HEAD, size: PT(8), color: C.ink })],
+    children: [new TextRun({ text: 'Wesgro  |  Letsema in partnership with Skift Advisory', font: FONT_HEAD, size: PT(7.5), color: C.grey }), new TextRun({ children: ['\t', PageNumber.CURRENT], font: FONT_HEAD, size: PT(8), bold: true, color: C.navy })],
   })] });
   return { header, footer };
 }
@@ -393,7 +422,8 @@ function buildDocument({ sections, shortTitle, draft = true, title, creator = 'L
         titlePage: !!s.firstPageBlank,
         pageNumberStart: s.pageNumberStart,
       },
-      headers: s.firstPageBlank ? { default: header, first: new Header({ children: [new Paragraph('')] }) } : { default: header },
+      // The first page of these sections is a charcoal CI page (cover, divider, back cover): the draft marking stays, in white.
+      headers: s.firstPageBlank ? { default: header, first: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: draft ? 'DRAFT FOR DISCUSSION' : '', font: FONT_HEAD, size: PT(7.5), bold: true, color: C.white })] })] }) } : { default: header },
       footers: s.firstPageBlank ? { default: footer, first: new Footer({ children: [new Paragraph('')] }) } : { default: footer },
       children: s.children,
     })),
@@ -409,7 +439,7 @@ async function save(doc, outPath) {
 
 module.exports = {
   docx, C, PT, FONT_TITLE, FONT_HEAD, FONT_BODY, TEXT_WIDTH_CM, TEXT_WIDTH_DXA,
-  runs, noteRuns, resetCites, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite, citeSplit, FOOTNOTE_TEXT,
+  fullBleed, divider, runs, noteRuns, resetCites, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite, citeSplit, FOOTNOTE_TEXT,
   makeContext, setChapter, headings, pageOf, table, grid, box, figure, contentsList, buildDocument, save,
   Paragraph, TextRun, AlignmentType,
 };
