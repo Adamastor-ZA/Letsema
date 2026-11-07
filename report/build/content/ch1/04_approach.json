@@ -56,7 +56,7 @@
   },
   {
    "type": "table",
-   "caption": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated.",
+   "caption": "December entries and October changes",
    "source": "Current State Diagnostic, Dec 2025, p64 for the December entries; dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed].",
    "columns": [
     {
@@ -136,7 +136,8 @@
      "SME and Community Inclusion Plan"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated."
   },
   {
    "type": "h3",
@@ -170,7 +171,7 @@
   },
   {
    "type": "table",
-   "caption": "Nine dated documents carry the evidence and answer the SLA clauses the final report consolidates.",
+   "caption": "Interim deliverables and SLA clauses",
    "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers [to be checked against the signed Annexure B].",
    "columns": [
     {

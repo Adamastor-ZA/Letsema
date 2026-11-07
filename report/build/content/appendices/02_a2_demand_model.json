@@ -31,7 +31,7 @@
   },
   {
    "type": "table",
-   "caption": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets.",
+   "caption": "Growth model scenario definitions",
    "source": "Demand-Side Analysis, Jun 2026, p19 (descriptor, air access, market activation and market development rows) and p20 (step-up row). Market Assessment Report, May 2026, p18 (working analysis; May additions row) and p19 (the same step-up wording). Wording as printed, shortened in the last two rows.",
    "columns": [
     {
@@ -93,7 +93,8 @@
      "Confirmed direct airlift, above-baseline marketing and added hub capacity; without confirmed routes, volume reverts to base"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets."
   },
   {
    "type": "note",
@@ -105,7 +106,7 @@
   },
   {
    "type": "table",
-   "caption": "The two decks print the same 2035 end points from different bases, with the base case 676,949 arrivals above 2025.",
+   "caption": "Model end points by base year",
    "source": "Market Assessment Report, May 2026, p19 (working analysis; 2025 basis); Demand-Side Analysis, Jun 2026, p20 (2024 basis). The last row is computed from the printed 2024 base and 2035 end points.",
    "columns": [
     {
@@ -197,7 +198,8 @@
      "5.2%"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The two decks print the same 2035 end points from different bases, with the base case 676,949 arrivals above 2025."
   },
   {
    "type": "note",
@@ -209,7 +211,7 @@
   },
   {
    "type": "table",
-   "caption": "Every market group grows at each printed year point, and the base-case total first sits above the 1.8M seat line at 2030.",
+   "caption": "Base case by market group",
    "source": "Market Assessment Report, May 2026, p20 (working analysis); Demand-Side Analysis, Jun 2026, p21 prints the same 2028 to 2035 values. Only these six year points are printed. Groups as printed: Mature (US, UK, Netherlands, Germany, France, Switzerland); Regional (Namibia, Zim, Zambia, Bots, Kenya, etc.); Hubs (UAE, Ethiopia, Qatar, Turkey); Acceleration (Gulf, China, India, Brazil); Strategic growth (Japan and South Korea). The five groups sum to the printed total in every year (computed).",
    "columns": [
     {
@@ -313,7 +315,8 @@
      "1.8M"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Every market group grows at each printed year point, and the base-case total first sits above the 1.8M seat line at 2030."
   },
   {
    "type": "p",
@@ -329,7 +332,7 @@
   },
   {
    "type": "table",
-   "caption": "India and China + HK more than double by 2035 at 8% a year, while the six mature markets grow at 2% to 4% a year.",
+   "caption": "Acceleration and mature market paths",
    "source": "Market Assessment Report, May 2026, p21 and p22 (working analysis); Demand-Side Analysis, Jun 2026, p22, p23 and p25 (values and assumptions). Hubs row: group values from Market Assessment Report, May 2026, p20. CAGR and group totals are computed from the printed bars; assumptions are shortened from the printed text.",
    "columns": [
     {
@@ -493,11 +496,12 @@
      "UAE, Ethiopia, Qatar and Turkey; group line only"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "India and China + HK more than double by 2035 at 8% a year, while the six mature markets grow at 2% to 4% a year."
   },
   {
    "type": "table",
-   "caption": "Regional lines grow at 2.0% to 5.0% a year with Kenya fastest, and the model carries no row for Nigeria or Ghana.",
+   "caption": "Regional market paths",
    "source": "Market Assessment Report, May 2026, p23 (working analysis); Demand-Side Analysis, Jun 2026, p24. Change and the regional total are computed from the printed bars; the group line prints 292,514 and 402,812 (Market Assessment Report, May 2026, p20). The Demand-Side Analysis, Jun 2026, p30 names Nigeria the largest modelled African opportunity and Ghana a high-spend market with an established base.",
    "columns": [
     {
@@ -612,7 +616,8 @@
      ""
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Regional lines grow at 2.0% to 5.0% a year with Kenya fastest, and the model carries no row for Nigeria or Ghana."
   },
   {
    "type": "note",
@@ -624,7 +629,7 @@
   },
   {
    "type": "table",
-   "caption": "At fixed average spend per group, base-case tourism spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035.",
+   "caption": "Base-case spend by group",
    "source": "Market Assessment Report, May 2026, p24 (working analysis; comma decimals on the slide shown here as points). Values in R billion. Change is computed. The 2030 group cells sum to 33.72 against the printed 33.71 total, a rounding difference (computed).",
    "columns": [
     {
@@ -708,7 +713,8 @@
      "+13.47"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "At fixed average spend per group, base-case tourism spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035."
   },
   {
    "type": "p",
@@ -724,7 +730,7 @@
   },
   {
    "type": "table",
-   "caption": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+   "caption": "Model printouts and limits",
    "source": "MA: Market Assessment Report, May 2026 (working analysis). DS: Demand-Side Analysis, Jun 2026. Pages as listed in each row.",
    "columns": [
     {
@@ -780,7 +786,8 @@
      "DS p8, p11, p13, p20, p27"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios."
   }
  ]
 }

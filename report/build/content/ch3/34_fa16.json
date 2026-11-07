@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "The levers the growth case needs are spread across three tiers, and the bodies that hold them are thin or out of step.",
+   "caption": "Evidence for focus area 16",
    "source": "Current State Diagnostic, Dec 2025 (Diag); Stakeholder Insights Report, Mar 2026 (SIR; statements attributed to organisations, not quotations); MIDAS Aviation Market Assessment, Mar 2026; Infrastructure Report, Jul 2026 (IR). The only national government bodies with an appendix table in the first phase of engagement, Stats SA and the Department of Tourism, speak to data alone; SA Tourism has none.",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "IR p100, p103, p112"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The levers the growth case needs are spread across three tiers, and the bodies that hold them are thin or out of step."
   },
   {
    "type": "p",

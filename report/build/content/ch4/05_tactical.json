@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Twelve actions for the first 24 months use existing mandates and budgets and open the baselines and booking paths the later initiatives need.",
+   "caption": "First-24-month actions and funding",
    "source": "Letsema, from the Chapter 3 action tables and the initiative charters (section 4.3). Owners and start dates are proposals for Steerco to confirm.",
    "columns": [
     {
@@ -151,7 +151,8 @@
      "Community product that can be bought"
     ]
    ],
-   "boldFirstCol": false
+   "boldFirstCol": false,
+   "message": "Twelve actions for the first 24 months use existing mandates and budgets and open the baselines and booking paths the later initiatives need."
   }
  ]
 }

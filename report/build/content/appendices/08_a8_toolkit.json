@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Each Tier 2 indicator has a source, a frequency, an owner and a target or direction for 2035.",
+   "caption": "Tier 2 indicator register",
    "source": "Indicator register, section 5.2; Market Assessment Report, May 2026, p20 to p23 (model values, working analysis); SME and Community Inclusion Plan, Sep 2026, p32. T2-01 is the sum of the four printed market values (computed).",
    "columns": [
     {

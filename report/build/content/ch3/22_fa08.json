@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight.",
+   "caption": "Evidence for focus area 8",
    "source": "Current State Diagnostic, Dec 2025 (Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, cited through the Diagnostic); Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR). The Diagnostic counts 79 vessels and the Infrastructure Report 83 calls for the same season; passengers and economic impact agree. Mossel Bay's 27 a season is its own figure; the Infrastructure Report prints 21.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SIR p20, p21"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight."
   },
   {
    "type": "p",

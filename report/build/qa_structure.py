@@ -16,7 +16,7 @@ def load(d):
 
 def texts(blocks):
     for b in blocks:
-        for k in ('text', 'caption', 'source', 'title'):
+        for k in ('text', 'caption', 'message', 'source', 'title'):
             if isinstance(b.get(k), str):
                 yield b[k]
         for k in ('items', 'paras'):
@@ -84,14 +84,14 @@ if all(c in g and c in ch and c in raci for c in codes):
 # 3. Indicators: every T1 and T2 has a baseline or a dated gap
 ch5 = dict(load('ch5'))
 t1 = next(b for b in ch5['03_baselines_targets.json']['blocks'] if b['type'] == 'table')['rows']
-t2 = next(b for b in ch5['02_indicators.json']['blocks'] if b['type'] == 'table' and b['caption'].startswith('Twenty-five'))['rows']
+t2 = next(b for b in ch5['02_indicators.json']['blocks'] if b['type'] == 'table' and b['caption'].startswith('Tier 2'))['rows']
 for r in t1:
     if not r[1].strip():
         issues.append(f'{r[0]}: no baseline')
 for r in t2:
     if not r[3].strip():
         issues.append(f'{r[0]}: no baseline')
-gaps = next(b for b in ch5['04_data.json']['blocks'] if b['type'] == 'table' and 'gaps' in b['caption'])['rows']
+gaps = next(b for b in ch5['04_data.json']['blocks'] if b['type'] == 'table' and 'gaps' in b['caption'].lower())['rows']
 gap_ind = {r[1] for r in gaps}
 for r in t1 + t2:
     base = r[1] if r[0].startswith('T1') else r[3]

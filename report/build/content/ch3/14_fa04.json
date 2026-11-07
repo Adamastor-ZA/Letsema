@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "India and China reach Cape Town only through hubs, and the direct route that would change that is at least five years away.",
+   "caption": "Evidence for focus area 4",
    "source": "Demand-Side Analysis, Jun 2026 (DSA); MIDAS Aviation Market Assessment, Mar 2026 (weighted GDS bookings, twelve months to November 2025); Market Assessment Report, May 2026 (MA, 2025 base). The 101,000 is the sum of the two printed estimates; the hub tables beneath them sum to 97,579 and carry no year.",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "MA p22; DSA p23"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "India and China reach Cape Town only through hubs, and the direct route that would change that is at least five years away."
   },
   {
    "type": "p",

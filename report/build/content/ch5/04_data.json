@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Six sources cover most of the indicators, and each has a named holder the protocol must reach.",
+   "caption": "Data sources and holders",
    "source": "Letsema, from the indicator register; data holders in part as listed in Current State Diagnostic, Dec 2025, p56, p57.",
    "columns": [
     {
@@ -96,7 +96,7 @@
   },
   {
    "type": "table",
-   "caption": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+   "caption": "Data gaps and owners",
    "source": "Letsema, from the placeholders in Chapters 3 and 5; owners and dates proposed for Steerco to confirm.",
    "columns": [
     {
@@ -197,7 +197,8 @@
      "Supply database or audit"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date."
   }
  ]
 }

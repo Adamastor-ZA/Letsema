@@ -213,7 +213,7 @@
   },
   {
    "type": "table",
-   "caption": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream.",
+   "caption": "How the tree changed",
    "source": "Current State Diagnostic, Dec 2025, p64 (December entries); dispositions as recorded at the 14 October 2026 review; section 1.4.",
    "columns": [
     {
@@ -279,7 +279,8 @@
      "Refined, held at concept level"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream."
   },
   {
    "type": "pagebreak"
@@ -294,7 +295,7 @@
   },
   {
    "type": "table",
-   "caption": "Pillar 1, Reshape demand: conversion, not awareness, holds back the growth markets, the green season and the province beyond its core.",
+   "caption": "Pillar 1: Reshape demand",
    "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
@@ -356,11 +357,12 @@
      "I5"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Conversion, not awareness, holds back the growth markets, the green season and the province beyond its core."
   },
   {
    "type": "table",
-   "caption": "Pillar 2, Transform supply: the gateway binds first, and beyond the Metro the product exists but is hard to reach, book or stay in.",
+   "caption": "Pillar 2: Transform supply",
    "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
@@ -422,11 +424,12 @@
      "I11"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The gateway binds first, and beyond the Metro the product exists but is hard to reach, book or stay in."
   },
   {
    "type": "table",
-   "caption": "Pillar 3, Build enabling capability: inclusion, capital, governance and data are thin, and several levers sit with national government.",
+   "caption": "Pillar 3: Build enabling capability",
    "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
@@ -500,7 +503,8 @@
      "I18"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Inclusion, capital, governance and data are thin, and several levers sit with national government."
   },
   {
    "type": "pagebreak"
@@ -589,7 +593,7 @@
   },
   {
    "type": "table",
-   "caption": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs.",
+   "caption": "Actions for the first 24 months",
    "source": "Section 4.5. Owners and start dates are proposals for Steerco to confirm.",
    "columns": [
     {
@@ -687,7 +691,8 @@
      "2028 H1"
     ]
    ],
-   "boldFirstCol": false
+   "boldFirstCol": false,
+   "message": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs."
   },
   {
    "type": "pagebreak"
@@ -702,7 +707,7 @@
   },
   {
    "type": "table",
-   "caption": "Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines.",
+   "caption": "Impact indicators and targets",
    "source": "Section 5.3. Computed values are marked *. Tourism jobs have no provincial baseline; the labour analysis (I18) sets one by Gate 1. T1-03 targets are in constant 2024 rand.",
    "columns": [
     {
@@ -770,7 +775,8 @@
      "1% (R259m) reference point"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines."
   },
   {
    "type": "h3",
@@ -778,7 +784,7 @@
   },
   {
    "type": "table",
-   "caption": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act.",
+   "caption": "The main risks",
    "source": "Section 4.8; likelihood and impact are Letsema's assessment.",
    "columns": [
     {
@@ -824,7 +830,8 @@
      "Climate risk register; itineraries routed around closures"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act."
   },
   {
    "type": "h2",

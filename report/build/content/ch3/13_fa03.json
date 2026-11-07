@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Bookability holds on the three core routes and falls away on the outer routes and in every profiled community.",
+   "caption": "Evidence for focus area 3",
    "source": "Infrastructure Report, Jul 2026 (IR; the ~40% has no printed scope or source); SME and Community Inclusion Plan, Sep 2026 (SCIP; ratings compiled from the community profiles, LTO confirmation outstanding); Stakeholder Insights Report, Mar 2026 (SIR). The 70% is CapeNature's own reservation mix, not a provincial share.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SIR p42"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Bookability holds on the three core routes and falls away on the outer routes and in every profiled community."
   },
   {
    "type": "p",

@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "The highest-spending visitors come from the slowest-growing markets on the fullest routes.",
+   "caption": "Evidence for focus area 5",
    "source": "MIDAS Aviation Market Assessment, Mar 2026 (year to November 2025); Demand-Side Analysis, Jun 2026 (DSA); Market Assessment Report, May 2026 (MA, 2025 base). No deliverable carries fare, revenue-per-seat or yield data.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "MA p21; DSA p22"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The highest-spending visitors come from the slowest-growing markets on the fullest routes."
   },
   {
    "type": "p",

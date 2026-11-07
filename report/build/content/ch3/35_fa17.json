@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing.",
+   "caption": "Evidence for focus area 17",
    "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Demand-Side Analysis, Jun 2026 (DSA).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SIR p16"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing."
   },
   {
    "type": "p",

@@ -144,7 +144,7 @@
   },
   {
    "type": "table",
-   "caption": "Eight priority areas carry the stakeholder work into its later phases.",
+   "caption": "Stakeholder priority areas",
    "source": "Stakeholder Insights Report, Mar 2026, p14 (one of the four questions listed under each area).",
    "columns": [
     {
@@ -196,7 +196,7 @@
   },
   {
    "type": "table",
-   "caption": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence.",
+   "caption": "Attributed high-rated insights",
    "source": "Stakeholder Insights Report, Mar 2026, appendix tables, pages as cited. Insights are the project team's statements, attributed to the organisation engaged. [Open item: each organisation named in this table to approve its paraphrase before publication.]",
    "columns": [
     {
@@ -257,11 +257,12 @@
      "p36"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence."
   },
   {
    "type": "table",
-   "caption": "Eight findings from the stakeholder record carry into the hypothesis tree.",
+   "caption": "Stakeholder findings for the tree",
    "source": "Stakeholder Insights Report, Mar 2026, pages as cited; counts from the appendix tables, p20 to p46.",
    "columns": [
     {

@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "The flagship sites are at or near their limits, the overflow reserves are under-marketed and climate is already closing sites.",
+   "caption": "Evidence for focus area 12",
    "source": "Stakeholder Insights Report, Mar 2026 (SIR; insight statements by organisation, not quotations); Infrastructure Report, Jul 2026 (IR).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "IR p67, p64"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The flagship sites are at or near their limits, the overflow reserves are under-marketed and climate is already closing sites."
   },
   {
    "type": "p",

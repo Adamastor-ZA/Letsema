@@ -27,7 +27,7 @@
   },
   {
    "type": "table",
-   "caption": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share.",
+   "caption": "Pillar 1 results chain",
    "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
    "columns": [
     {
@@ -83,11 +83,12 @@
      "T1-02, T1-03"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share."
   },
   {
    "type": "table",
-   "caption": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro.",
+   "caption": "Pillar 2 results chain",
    "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
    "columns": [
     {
@@ -149,11 +150,12 @@
      "T1-06"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro."
   },
   {
    "type": "table",
-   "caption": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on.",
+   "caption": "Pillar 3 results chain",
    "source": "Initiative charters (section 4.3); indicator register (section 5.2).",
    "columns": [
     {
@@ -221,7 +223,8 @@
      "T1-04"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on."
   }
  ]
 }

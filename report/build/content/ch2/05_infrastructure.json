@@ -112,7 +112,7 @@
   },
   {
    "type": "table",
-   "caption": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets.",
+   "caption": "District strengths and weaknesses",
    "source": "Infrastructure Report, Jul 2026: asset counts p23, p34, p45, p56, p67, p78 (Winelands share computed: 7,730 of 50,332 is 15.4%); strengths and weaknesses p88 to p90.",
    "columns": [
     {
@@ -185,7 +185,8 @@
      "A service desert outside Prince Albert and Beaufort West"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets."
   },
   {
    "type": "p",
@@ -205,7 +206,7 @@
   },
   {
    "type": "table",
-   "caption": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest.",
+   "caption": "Touring route readiness",
    "source": "Infrastructure Report, Jul 2026, p29, p30, p39, p40, p50, p51, p61, p62, p72, p73, p83, p84.",
    "columns": [
     {
@@ -300,7 +301,8 @@
      "Developing"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest."
   },
   {
    "type": "p",
@@ -316,7 +318,7 @@
   },
   {
    "type": "table",
-   "caption": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief.",
+   "caption": "Cruise ports and stance",
    "source": "Infrastructure Report, Jul 2026, p110 to p112.",
    "columns": [
     {
@@ -360,11 +362,12 @@
      "Watch"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief."
   },
   {
    "type": "table",
-   "caption": "Each region carries a remaining gap that no committed investment closes.",
+   "caption": "Remaining gaps by region",
    "source": "Infrastructure Report, Jul 2026: ratings p28, p41, p52, p63, p74, p85; gaps and investments p32, p43, p54, p65, p76, p87.",
    "columns": [
     {
@@ -426,11 +429,12 @@
      "Accommodation depth; emergency support; no airport"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Each region carries a remaining gap that no committed investment closes."
   },
   {
    "type": "table",
-   "caption": "Eight findings from the spatial and infrastructure work carry into the hypothesis tree.",
+   "caption": "Spatial findings for the tree",
    "source": "Infrastructure Report, Jul 2026, pages as cited.",
    "columns": [
     {

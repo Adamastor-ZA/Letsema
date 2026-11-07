@@ -1,0 +1,898 @@
+[
+ {
+  "table": "ES.1",
+  "file": "exec/01_summary.json",
+  "block": 12,
+  "before": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream.",
+  "title": "How the tree changed",
+  "message": "Nine changes turned eighteen December entries into twenty focus areas, each driven by a named workstream."
+ },
+ {
+  "table": "ES.2",
+  "file": "exec/01_summary.json",
+  "block": 16,
+  "before": "Pillar 1, Reshape demand: conversion, not awareness, holds back the growth markets, the green season and the province beyond its core.",
+  "title": "Pillar 1: Reshape demand",
+  "message": "Conversion, not awareness, holds back the growth markets, the green season and the province beyond its core."
+ },
+ {
+  "table": "ES.3",
+  "file": "exec/01_summary.json",
+  "block": 17,
+  "before": "Pillar 2, Transform supply: the gateway binds first, and beyond the Metro the product exists but is hard to reach, book or stay in.",
+  "title": "Pillar 2: Transform supply",
+  "message": "The gateway binds first, and beyond the Metro the product exists but is hard to reach, book or stay in."
+ },
+ {
+  "table": "ES.4",
+  "file": "exec/01_summary.json",
+  "block": 18,
+  "before": "Pillar 3, Build enabling capability: inclusion, capital, governance and data are thin, and several levers sit with national government.",
+  "title": "Pillar 3: Build enabling capability",
+  "message": "Inclusion, capital, governance and data are thin, and several levers sit with national government."
+ },
+ {
+  "table": "ES.5",
+  "file": "exec/01_summary.json",
+  "block": 26,
+  "before": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs.",
+  "title": "Actions for the first 24 months",
+  "message": "Twelve actions can start in the first 24 months, nine of them inside Wesgro's current mandate and budget, and each opens a seat, a baseline or a booking path a later initiative needs."
+ },
+ {
+  "table": "ES.6",
+  "file": "exec/01_summary.json",
+  "block": 30,
+  "before": "Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines.",
+  "title": "Impact indicators and targets",
+  "message": "Arrivals carry targets on both paths, while jobs wait on the labour analysis and season, spread and community spend start from dated baselines."
+ },
+ {
+  "table": "ES.7",
+  "file": "exec/01_summary.json",
+  "block": 32,
+  "before": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act.",
+  "title": "The main risks",
+  "message": "The risks that matter most sit outside Wesgro's control, so the response is early warning and a route to the tier that can act."
+ },
+ {
+  "table": "1.1",
+  "file": "ch1/01_mandate.json",
+  "block": 16,
+  "before": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed.",
+  "title": "The four headline ambitions",
+  "message": "The study reframed the arrivals ambition on evidence and carried the other three ambitions forward with their baselines still to be fixed."
+ },
+ {
+  "table": "1.2",
+  "file": "ch1/01_mandate.json",
+  "block": 29,
+  "before": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target.",
+  "title": "Arrivals figures in circulation",
+  "message": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target."
+ },
+ {
+  "table": "1.3",
+  "file": "ch1/02_system_today.json",
+  "block": 24,
+  "before": "Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded.",
+  "title": "Month of travel, 2024 and 2025",
+  "message": "Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded."
+ },
+ {
+  "table": "1.4",
+  "file": "ch1/02_system_today.json",
+  "block": 35,
+  "before": "The Cape Metro holds 72.5% of provincial GDPR and 40% of the province's tourism assets, and accessibility falls with each step away from it.",
+  "title": "District economy, assets and access",
+  "message": "The Cape Metro holds 72.5% of provincial GDPR and 40% of the province's tourism assets, and accessibility falls with each step away from it."
+ },
+ {
+  "table": "1.5",
+  "file": "ch1/02_system_today.json",
+  "block": 45,
+  "before": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry.",
+  "title": "The tourism system by tier",
+  "message": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry."
+ },
+ {
+  "table": "1.6",
+  "file": "ch1/04_approach.json",
+  "block": 13,
+  "before": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated.",
+  "title": "December entries and October changes",
+  "message": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated."
+ },
+ {
+  "table": "1.7",
+  "file": "ch1/04_approach.json",
+  "block": 20,
+  "before": "Nine dated documents carry the evidence and answer the SLA clauses the final report consolidates.",
+  "title": "Interim deliverables and SLA clauses",
+  "message": null
+ },
+ {
+  "table": "1.8",
+  "file": "ch1/05_how_to_read.json",
+  "block": 4,
+  "before": "Seven parts carry the report from the case in short to the evidence behind every figure, and each part has a primary reader.",
+  "title": "Chapter map and readers",
+  "message": null
+ },
+ {
+  "table": "1.9",
+  "file": "ch1/05_how_to_read.json",
+  "block": 7,
+  "before": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.",
+  "title": "Disposition labels and counts",
+  "message": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated."
+ },
+ {
+  "table": "2.1",
+  "file": "ch2/01_demand.json",
+  "block": 24,
+  "before": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.",
+  "title": "Four traveller segments",
+  "message": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated."
+ },
+ {
+  "table": "2.2",
+  "file": "ch2/01_demand.json",
+  "block": 33,
+  "before": "Ten findings from the demand workstream carry into the hypothesis tree.",
+  "title": "Demand findings for the tree",
+  "message": null
+ },
+ {
+  "table": "2.3",
+  "file": "ch2/02_aviation.json",
+  "block": 13,
+  "before": "Twelve carriers have launched Cape Town services since 2014, seven of them to African points.",
+  "title": "Carrier launches since 2014",
+  "message": "Twelve carriers have launched Cape Town services since 2014, seven of them to African points."
+ },
+ {
+  "table": "2.4",
+  "file": "ch2/02_aviation.json",
+  "block": 27,
+  "before": "Nine findings from the aviation and airport work carry into the hypothesis tree.",
+  "title": "Aviation findings for the tree",
+  "message": null
+ },
+ {
+  "table": "2.5",
+  "file": "ch2/03_benchmarking.json",
+  "block": 12,
+  "before": "Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019.",
+  "title": "Comparator growth and recovery",
+  "message": "Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019."
+ },
+ {
+  "table": "2.6",
+  "file": "ch2/03_benchmarking.json",
+  "block": 24,
+  "before": "Each comparator's lesson translates into a change the Western Cape would have to make.",
+  "title": "Comparator lessons for the province",
+  "message": null
+ },
+ {
+  "table": "2.7",
+  "file": "ch2/03_benchmarking.json",
+  "block": 25,
+  "before": "Eight benchmark findings carry into the hypothesis tree, each with a named precedent.",
+  "title": "Benchmark findings for the tree",
+  "message": null
+ },
+ {
+  "table": "2.8",
+  "file": "ch2/04_stakeholders.json",
+  "block": 21,
+  "before": "Eight priority areas carry the stakeholder work into its later phases.",
+  "title": "Stakeholder priority areas",
+  "message": null
+ },
+ {
+  "table": "2.9",
+  "file": "ch2/04_stakeholders.json",
+  "block": 22,
+  "before": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence.",
+  "title": "Attributed high-rated insights",
+  "message": "Eight attributed insights, all rated High, carry the weight of the stakeholder evidence."
+ },
+ {
+  "table": "2.10",
+  "file": "ch2/04_stakeholders.json",
+  "block": 23,
+  "before": "Eight findings from the stakeholder record carry into the hypothesis tree.",
+  "title": "Stakeholder findings for the tree",
+  "message": null
+ },
+ {
+  "table": "2.11",
+  "file": "ch2/05_infrastructure.json",
+  "block": 16,
+  "before": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets.",
+  "title": "District strengths and weaknesses",
+  "message": "Each district has a distinct strength, and the Metro holds two in every five of the province's tourism assets."
+ },
+ {
+  "table": "2.12",
+  "file": "ch2/05_infrastructure.json",
+  "block": 21,
+  "before": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest.",
+  "title": "Touring route readiness",
+  "message": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest."
+ },
+ {
+  "table": "2.13",
+  "file": "ch2/05_infrastructure.json",
+  "block": 25,
+  "before": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief.",
+  "title": "Cruise ports and stance",
+  "message": "Cape Town's cruise berth has spare capacity, Mossel Bay is ready for day stops and Saldanha Bay is a watching brief."
+ },
+ {
+  "table": "2.14",
+  "file": "ch2/05_infrastructure.json",
+  "block": 26,
+  "before": "Each region carries a remaining gap that no committed investment closes.",
+  "title": "Remaining gaps by region",
+  "message": "Each region carries a remaining gap that no committed investment closes."
+ },
+ {
+  "table": "2.15",
+  "file": "ch2/05_infrastructure.json",
+  "block": 27,
+  "before": "Eight findings from the spatial and infrastructure work carry into the hypothesis tree.",
+  "title": "Spatial findings for the tree",
+  "message": null
+ },
+ {
+  "table": "2.16",
+  "file": "ch2/06_inclusion.json",
+  "block": 18,
+  "before": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing.",
+  "title": "Inclusion benchmark cases",
+  "message": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing."
+ },
+ {
+  "table": "2.17",
+  "file": "ch2/06_inclusion.json",
+  "block": 20,
+  "before": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response.",
+  "title": "Community archetypes and responses",
+  "message": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response."
+ },
+ {
+  "table": "2.18",
+  "file": "ch2/06_inclusion.json",
+  "block": 24,
+  "before": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node.",
+  "title": "The 20 shortlisted communities",
+  "message": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node."
+ },
+ {
+  "table": "2.19",
+  "file": "ch2/06_inclusion.json",
+  "block": 25,
+  "before": "Eight findings from the inclusion work carry into the hypothesis tree.",
+  "title": "Inclusion findings for the tree",
+  "message": null
+ },
+ {
+  "table": "3.1",
+  "file": "ch3/10_pillar1.json",
+  "block": 6,
+  "before": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion.",
+  "title": "Pillar 1 focus areas",
+  "message": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion."
+ },
+ {
+  "table": "3.2",
+  "file": "ch3/11_fa01.json",
+  "block": 11,
+  "before": "Four segments are sized, scored and tied to home markets, and the highest-yield segment is the smallest.",
+  "title": "Evidence for focus area 1",
+  "message": "Four segments are sized, scored and tied to home markets, and the highest-yield segment is the smallest."
+ },
+ {
+  "table": "3.3",
+  "file": "ch3/12_fa02.json",
+  "block": 9,
+  "before": "Leisure demand and seats trough from May to September, while international meetings peak from September to November.",
+  "title": "Evidence for focus area 2",
+  "message": "Leisure demand and seats trough from May to September, while international meetings peak from September to November."
+ },
+ {
+  "table": "3.4",
+  "file": "ch3/13_fa03.json",
+  "block": 8,
+  "before": "Bookability holds on the three core routes and falls away on the outer routes and in every profiled community.",
+  "title": "Evidence for focus area 3",
+  "message": "Bookability holds on the three core routes and falls away on the outer routes and in every profiled community."
+ },
+ {
+  "table": "3.5",
+  "file": "ch3/14_fa04.json",
+  "block": 10,
+  "before": "India and China reach Cape Town only through hubs, and the direct route that would change that is at least five years away.",
+  "title": "Evidence for focus area 4",
+  "message": "India and China reach Cape Town only through hubs, and the direct route that would change that is at least five years away."
+ },
+ {
+  "table": "3.6",
+  "file": "ch3/15_fa05.json",
+  "block": 8,
+  "before": "The highest-spending visitors come from the slowest-growing markets on the fullest routes.",
+  "title": "Evidence for focus area 5",
+  "message": "The highest-spending visitors come from the slowest-growing markets on the fullest routes."
+ },
+ {
+  "table": "3.7",
+  "file": "ch3/16_fa06.json",
+  "block": 8,
+  "before": "African demand is a Southern African volume base with two high-spending West African markets and regional routes above 80% load.",
+  "title": "Evidence for focus area 6",
+  "message": "African demand is a Southern African volume base with two high-spending West African markets and regional routes above 80% load."
+ },
+ {
+  "table": "3.8",
+  "file": "ch3/20_pillar2.json",
+  "block": 7,
+  "before": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated.",
+  "title": "Pillar 2 focus areas",
+  "message": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated."
+ },
+ {
+  "table": "3.9",
+  "file": "ch3/21_fa07.json",
+  "block": 10,
+  "before": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line.",
+  "title": "Evidence for focus area 7",
+  "message": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line."
+ },
+ {
+  "table": "3.10",
+  "file": "ch3/22_fa08.json",
+  "block": 8,
+  "before": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight.",
+  "title": "Evidence for focus area 8",
+  "message": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight."
+ },
+ {
+  "table": "3.11",
+  "file": "ch3/23_fa09.json",
+  "block": 8,
+  "before": "Access falls away with distance from Cape Town, and the rail and road assets that exist are not run for visitors.",
+  "title": "Evidence for focus area 9",
+  "message": "Access falls away with distance from Cape Town, and the rail and road assets that exist are not run for visitors."
+ },
+ {
+  "table": "3.12",
+  "file": "ch3/24_fa10.json",
+  "block": 10,
+  "before": "Assets are spread across the province, but product, packaging and investment stop at the core routes.",
+  "title": "Evidence for focus area 10",
+  "message": "Assets are spread across the province, but product, packaging and investment stop at the core routes."
+ },
+ {
+  "table": "3.13",
+  "file": "ch3/25_fa11.json",
+  "block": 8,
+  "before": "The experience breaks at the middle of the accommodation market, at the service counter and at the arrival gate.",
+  "title": "Evidence for focus area 11",
+  "message": "The experience breaks at the middle of the accommodation market, at the service counter and at the arrival gate."
+ },
+ {
+  "table": "3.14",
+  "file": "ch3/26_fa12.json",
+  "block": 8,
+  "before": "The flagship sites are at or near their limits, the overflow reserves are under-marketed and climate is already closing sites.",
+  "title": "Evidence for focus area 12",
+  "message": "The flagship sites are at or near their limits, the overflow reserves are under-marketed and climate is already closing sites."
+ },
+ {
+  "table": "3.15",
+  "file": "ch3/30_pillar3.json",
+  "block": 7,
+  "before": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree.",
+  "title": "Pillar 3 focus areas",
+  "message": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree."
+ },
+ {
+  "table": "3.16",
+  "file": "ch3/31_fa13.json",
+  "block": 10,
+  "before": "The shortlisted communities sit close to visitors but earn almost nothing from them, and most lack a body that can sell.",
+  "title": "Evidence for focus area 13",
+  "message": "The shortlisted communities sit close to visitors but earn almost nothing from them, and most lack a body that can sell."
+ },
+ {
+  "table": "3.17",
+  "file": "ch3/32_fa14.json",
+  "block": 8,
+  "before": "Climate losses are dated and site-specific, and the bodies that manage destinations locally have no stable funding.",
+  "title": "Evidence for focus area 14",
+  "message": "Climate losses are dated and site-specific, and the bodies that manage destinations locally have no stable funding."
+ },
+ {
+  "table": "3.18",
+  "file": "ch3/33_fa15.json",
+  "block": 8,
+  "before": "Capital is committed to gateways and transport, and each district's tourism gaps carry no committed capital.",
+  "title": "Evidence for focus area 15",
+  "message": "Capital is committed to gateways and transport, and each district's tourism gaps carry no committed capital."
+ },
+ {
+  "table": "3.19",
+  "file": "ch3/34_fa16.json",
+  "block": 10,
+  "before": "The levers the growth case needs are spread across three tiers, and the bodies that hold them are thin or out of step.",
+  "title": "Evidence for focus area 16",
+  "message": "The levers the growth case needs are spread across three tiers, and the bodies that hold them are thin or out of step."
+ },
+ {
+  "table": "3.20",
+  "file": "ch3/35_fa17.json",
+  "block": 8,
+  "before": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing.",
+  "title": "Evidence for focus area 17",
+  "message": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing."
+ },
+ {
+  "table": "3.21",
+  "file": "ch3/36_fa18.json",
+  "block": 8,
+  "before": "Data is the largest theme in the stakeholder record, and the gaps run from national methodology to operators' own customer records.",
+  "title": "Evidence for focus area 18",
+  "message": "Data is the largest theme in the stakeholder record, and the gaps run from national methodology to operators' own customer records."
+ },
+ {
+  "table": "3.22",
+  "file": "ch3/37_fa19.json",
+  "block": 8,
+  "before": "The deficits are the best-evidenced barriers in the stakeholder record, and most of the levers sit with national government or SOEs.",
+  "title": "Evidence for focus area 19",
+  "message": "The deficits are the best-evidenced barriers in the stakeholder record, and most of the levers sit with national government or SOEs."
+ },
+ {
+  "table": "3.23",
+  "file": "ch3/38_fa20.json",
+  "block": 8,
+  "before": "No deliverable carries a provincial tourism employment figure, and the skills evidence is a handful of statements and two training programmes.",
+  "title": "Evidence for focus area 20",
+  "message": "No deliverable carries a provincial tourism employment figure, and the skills evidence is a handful of statements and two training programmes."
+ },
+ {
+  "table": "3.24",
+  "file": "ch3/40_integrated.json",
+  "block": 4,
+  "before": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars.",
+  "title": "Growth paths and their interventions",
+  "message": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars."
+ },
+ {
+  "table": "3.25",
+  "file": "ch3/40_integrated.json",
+  "block": 10,
+  "before": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief.",
+  "title": "What moves in each phase",
+  "message": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief."
+ },
+ {
+  "table": "4.1",
+  "file": "ch4/01_portfolio.json",
+  "block": 3,
+  "before": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan.",
+  "title": "Levels of the plan",
+  "message": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan."
+ },
+ {
+  "table": "4.2",
+  "file": "ch4/01_portfolio.json",
+  "block": 6,
+  "before": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028.",
+  "title": "The eighteen initiatives",
+  "message": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028."
+ },
+ {
+  "table": "4.3",
+  "file": "ch4/04_raci.json",
+  "block": 4,
+  "before": "Wesgro is accountable for twelve initiatives; provincial departments, municipalities or site operators are accountable for six, and SOEs or national departments do part of the work in four.",
+  "title": "Accountability by initiative and tier",
+  "message": "Wesgro is accountable for twelve initiatives; provincial departments, municipalities or site operators are accountable for six, and SOEs or national departments do part of the work in four."
+ },
+ {
+  "table": "4.4",
+  "file": "ch4/05_tactical.json",
+  "block": 4,
+  "before": "Twelve actions for the first 24 months use existing mandates and budgets and open the baselines and booking paths the later initiatives need.",
+  "title": "First-24-month actions and funding",
+  "message": "Twelve actions for the first 24 months use existing mandates and budgets and open the baselines and booking paths the later initiatives need."
+ },
+ {
+  "table": "4.5",
+  "file": "ch4/06_funding.json",
+  "block": 4,
+  "before": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source.",
+  "title": "Funding routes by initiative",
+  "message": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source."
+ },
+ {
+  "table": "4.6",
+  "file": "ch4/07_governance.json",
+  "block": 7,
+  "before": "Four decision points test the plan against its indicators, and each one decides what the next phase funds.",
+  "title": "Decision gates and reviews",
+  "message": "Four decision points test the plan against its indicators, and each one decides what the next phase funds."
+ },
+ {
+  "table": "4.7",
+  "file": "ch4/08_risks.json",
+  "block": 4,
+  "before": "Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
+  "title": "Risks and their mitigation",
+  "message": "Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime."
+ },
+ {
+  "table": "5.1",
+  "file": "ch5/01_results_chain.json",
+  "block": 5,
+  "before": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share.",
+  "title": "Pillar 1 results chain",
+  "message": "Pillar 1 initiatives move arrivals, market mix, spend and the green-season share."
+ },
+ {
+  "table": "5.2",
+  "file": "ch5/01_results_chain.json",
+  "block": 6,
+  "before": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro.",
+  "title": "Pillar 2 results chain",
+  "message": "Pillar 2 initiatives move seats, cruise volumes and the share of visitors and spend outside the Metro."
+ },
+ {
+  "table": "5.3",
+  "file": "ch5/01_results_chain.json",
+  "block": 7,
+  "before": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on.",
+  "title": "Pillar 3 results chain",
+  "message": "Pillar 3 initiatives move community spend and jobs, and supply the governance and data every other indicator relies on."
+ },
+ {
+  "table": "5.4",
+  "file": "ch5/02_indicators.json",
+  "block": 4,
+  "before": "Seven Tier 1 indicators measure arrivals, market mix, spend, jobs, season, spread and community spend.",
+  "title": "Tier 1 impact indicators",
+  "message": null
+ },
+ {
+  "table": "5.5",
+  "file": "ch5/02_indicators.json",
+  "block": 5,
+  "before": "Twenty-five Tier 2 indicators give each focus area one or two outcome measures, and seven of them have no baseline yet.",
+  "title": "Tier 2 outcome indicators",
+  "message": "Twenty-five Tier 2 indicators give each focus area one or two outcome measures, and seven of them have no baseline yet."
+ },
+ {
+  "table": "5.6",
+  "file": "ch5/02_indicators.json",
+  "block": 7,
+  "before": "Thirty-six Tier 3 output indicators, two per initiative, track what each lead delivers.",
+  "title": "Tier 3 output indicators",
+  "message": null
+ },
+ {
+  "table": "5.7",
+  "file": "ch5/03_baselines_targets.json",
+  "block": 5,
+  "before": "Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first.",
+  "title": "Tier 1 baselines and targets",
+  "message": "Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first."
+ },
+ {
+  "table": "5.8",
+  "file": "ch5/04_data.json",
+  "block": 4,
+  "before": "Six sources cover most of the indicators, and each has a named holder the protocol must reach.",
+  "title": "Data sources and holders",
+  "message": null
+ },
+ {
+  "table": "5.9",
+  "file": "ch5/04_data.json",
+  "block": 5,
+  "before": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date.",
+  "title": "Data gaps and owners",
+  "message": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date."
+ },
+ {
+  "table": "5.10",
+  "file": "ch5/05_tracking.json",
+  "block": 5,
+  "before": "Monthly, quarterly and annual reporting run on a fixed calendar tied to Steerco and the Board.",
+  "title": "Reporting calendar and cycles",
+  "message": null
+ },
+ {
+  "table": "5.11",
+  "file": "ch5/06_evaluation.json",
+  "block": 4,
+  "before": "Each pillar carries two evaluation questions, one on results and one on the assumptions behind them.",
+  "title": "Evaluation questions by pillar",
+  "message": null
+ },
+ {
+  "table": "5.12",
+  "file": "ch5/07_toolkit.json",
+  "block": 2,
+  "before": "Four files make up the toolkit, and each has one owner in Wesgro.",
+  "title": "The M&E toolkit files",
+  "message": null
+ },
+ {
+  "table": "A.1",
+  "file": "appendices/01_a1_traceability.json",
+  "block": 3,
+  "before": "Two figures in the one-line reasons are not supported, sixteen routes above 80% and the plan to 250 cruise calls, and several others hold only with a qualifier.",
+  "title": "Reasons against the evidence",
+  "message": "Two figures in the one-line reasons are not supported, sixteen routes above 80% and the plan to 250 cruise calls, and several others hold only with a qualifier."
+ },
+ {
+  "table": "A.2",
+  "file": "appendices/01_a1_traceability.json",
+  "block": 4,
+  "before": "Nineteen focus areas descend from a December entry, and each one leads to one initiative and one to three indicators.",
+  "title": "Traceability by focus area",
+  "message": null
+ },
+ {
+  "table": "A.3",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 7,
+  "before": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets.",
+  "title": "Growth model scenario definitions",
+  "message": "The scenarios step up from no new airlift or growth-market spend to direct India and China routes with dedicated activation in four markets."
+ },
+ {
+  "table": "A.4",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 10,
+  "before": "The two decks print the same 2035 end points from different bases, with the base case 676,949 arrivals above 2025.",
+  "title": "Model end points by base year",
+  "message": "The two decks print the same 2035 end points from different bases, with the base case 676,949 arrivals above 2025."
+ },
+ {
+  "table": "A.5",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 13,
+  "before": "Every market group grows at each printed year point, and the base-case total first sits above the 1.8M seat line at 2030.",
+  "title": "Base case by market group",
+  "message": "Every market group grows at each printed year point, and the base-case total first sits above the 1.8M seat line at 2030."
+ },
+ {
+  "table": "A.6",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 17,
+  "before": "India and China + HK more than double by 2035 at 8% a year, while the six mature markets grow at 2% to 4% a year.",
+  "title": "Acceleration and mature market paths",
+  "message": "India and China + HK more than double by 2035 at 8% a year, while the six mature markets grow at 2% to 4% a year."
+ },
+ {
+  "table": "A.7",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 18,
+  "before": "Regional lines grow at 2.0% to 5.0% a year with Kenya fastest, and the model carries no row for Nigeria or Ghana.",
+  "title": "Regional market paths",
+  "message": "Regional lines grow at 2.0% to 5.0% a year with Kenya fastest, and the model carries no row for Nigeria or Ghana."
+ },
+ {
+  "table": "A.8",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 21,
+  "before": "At fixed average spend per group, base-case tourism spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035.",
+  "title": "Base-case spend by group",
+  "message": "At fixed average spend per group, base-case tourism spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035."
+ },
+ {
+  "table": "A.9",
+  "file": "appendices/02_a2_demand_model.json",
+  "block": 25,
+  "before": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios.",
+  "title": "Model printouts and limits",
+  "message": "The model prints its seat line and six base-case year points but no seat table, annual series or group split for the other scenarios."
+ },
+ {
+  "table": "A.10",
+  "file": "appendices/03_a3_benchmark.json",
+  "block": 5,
+  "before": "Twelve criteria in four groups test how closely a destination's markets, product, trajectory and performance resemble the Western Cape.",
+  "title": "Benchmark selection criteria",
+  "message": null
+ },
+ {
+  "table": "A.11",
+  "file": "appendices/03_a3_benchmark.json",
+  "block": 9,
+  "before": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver.",
+  "title": "Comparator set, inception to final",
+  "message": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver."
+ },
+ {
+  "table": "A.12",
+  "file": "appendices/03_a3_benchmark.json",
+  "block": 12,
+  "before": "Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation.",
+  "title": "Comparator growth, recovery and levers",
+  "message": "Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation."
+ },
+ {
+  "table": "A.13",
+  "file": "appendices/03_a3_benchmark.json",
+  "block": 15,
+  "before": "All six cases align coordination, marketing and access, but each builds its system around a different anchor.",
+  "title": "Comparator system types",
+  "message": "All six cases align coordination, marketing and access, but each builds its system around a different anchor."
+ },
+ {
+  "table": "A.14",
+  "file": "appendices/03_a3_benchmark.json",
+  "block": 18,
+  "before": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance.",
+  "title": "Transferable levers by case",
+  "message": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance."
+ },
+ {
+  "table": "A.15",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 5,
+  "before": "The asset database sorts tourism supply into three layers and twelve categories, from beaches and wine estates to hospitals and police stations.",
+  "title": "Asset database structure",
+  "message": null
+ },
+ {
+  "table": "A.16",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 7,
+  "before": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each.",
+  "title": "Readiness index weights",
+  "message": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each."
+ },
+ {
+  "table": "A.17",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 12,
+  "before": "Accessibility falls from 4.7 or 5.0 in the Cape Metro to 1.0 in the Central Karoo in every scored category, while natural attractiveness reaches 4.3 in three districts outside the Metro.",
+  "title": "Dimension scores by district",
+  "message": "Accessibility falls from 4.7 or 5.0 in the Cape Metro to 1.0 in the Central Karoo in every scored category, while natural attractiveness reaches 4.3 in three districts outside the Metro."
+ },
+ {
+  "table": "A.18",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 15,
+  "before": "Overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo, and only three of the six scorecards print all three dimension scores.",
+  "title": "Overall readiness by district",
+  "message": "Overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo, and only three of the six scorecards print all three dimension scores."
+ },
+ {
+  "table": "A.19",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 19,
+  "before": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging.",
+  "title": "Touring route scorecards",
+  "message": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging."
+ },
+ {
+  "table": "A.20",
+  "file": "appendices/04_a4_readiness.json",
+  "block": 22,
+  "before": "The Cape Metro holds 20,281 of the province's 50,332 assets and the Central Karoo holds 1,518; the six district totals sum to the provincial figure.",
+  "title": "Asset counts by district",
+  "message": "The Cape Metro holds 20,281 of the province's 50,332 assets and the Central Karoo holds 1,518; the six district totals sum to the provincial figure."
+ },
+ {
+  "table": "A.21",
+  "file": "appendices/05_a5_inclusion.json",
+  "block": 6,
+  "before": "Need carries the largest weight of the five criteria, and each criterion scores a community from 3 to 1 against printed thresholds.",
+  "title": "Community shortlist criteria",
+  "message": "Need carries the largest weight of the five criteria, and each criterion scores a community from 3 to 1 against printed thresholds."
+ },
+ {
+  "table": "A.22",
+  "file": "appendices/05_a5_inclusion.json",
+  "block": 9,
+  "before": "Proximate communities with underused assets are the largest group on both lists, and the plan pairs each archetype with a response, a first move and a benchmark.",
+  "title": "Archetypes, responses and benchmarks",
+  "message": "Proximate communities with underused assets are the largest group on both lists, and the plan pairs each archetype with a response, a first move and a benchmark."
+ },
+ {
+  "table": "A.23",
+  "file": "appendices/05_a5_inclusion.json",
+  "block": 13,
+  "before": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability.",
+  "title": "Shortlist readiness ratings",
+  "message": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability."
+ },
+ {
+  "table": "A.24",
+  "file": "appendices/05_a5_inclusion.json",
+  "block": 17,
+  "before": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m.",
+  "title": "Community share of spend",
+  "message": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m."
+ },
+ {
+  "table": "A.25",
+  "file": "appendices/05_a5_inclusion.json",
+  "block": 20,
+  "before": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit.",
+  "title": "Inclusion cases and lessons",
+  "message": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit."
+ },
+ {
+  "table": "A.26",
+  "file": "appendices/06_a6_stakeholders.json",
+  "block": 7,
+  "before": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings.",
+  "title": "Insights by organisation",
+  "message": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings."
+ },
+ {
+  "table": "A.27",
+  "file": "appendices/06_a6_stakeholders.json",
+  "block": 10,
+  "before": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed.",
+  "title": "Later-phase engagement list",
+  "message": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed."
+ },
+ {
+  "table": "A.28",
+  "file": "appendices/06_a6_stakeholders.json",
+  "block": 14,
+  "before": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings.",
+  "title": "Insights by tree element",
+  "message": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings."
+ },
+ {
+  "table": "A.29",
+  "file": "appendices/06_a6_stakeholders.json",
+  "block": 17,
+  "before": "Eight priority areas, each with four lines of enquiry, set the agenda for deeper engagement after phase 1.",
+  "title": "Lines of enquiry by area",
+  "message": null
+ },
+ {
+  "table": "A.30",
+  "file": "appendices/07_a7_actions.json",
+  "block": 4,
+  "before": "Every Chapter 3 action belongs to one initiative, and each initiative carries actions for Wesgro, its partners and, where the lever is national, an escalation.",
+  "title": "Chapter 3 action register",
+  "message": null
+ },
+ {
+  "table": "A.31",
+  "file": "appendices/08_a8_toolkit.json",
+  "block": 4,
+  "before": "Each Tier 2 indicator has a source, a frequency, an owner and a target or direction for 2035.",
+  "title": "Tier 2 indicator register",
+  "message": null
+ },
+ {
+  "table": "A.32",
+  "file": "appendices/09_a9_glossary.json",
+  "block": 4,
+  "before": "Eleven terms have a fixed meaning in this report.",
+  "title": "Glossary of terms",
+  "message": null
+ },
+ {
+  "table": "A.33",
+  "file": "appendices/09_a9_glossary.json",
+  "block": 5,
+  "before": "Twelve study documents, fifteen public and reference sources and one deck not yet in hand support the report.",
+  "title": "Documents and sources cited",
+  "message": null
+ }
+]

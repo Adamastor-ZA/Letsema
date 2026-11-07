@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "Assets are spread across the province, but product, packaging and investment stop at the core routes.",
+   "caption": "Evidence for focus area 10",
    "source": "Infrastructure Report, Jul 2026 (IR; route ratings are approximate and the asset count carries no year); Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables).",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "SIR p11"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Assets are spread across the province, but product, packaging and investment stop at the core routes."
   },
   {
    "type": "p",

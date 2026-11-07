@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source.",
+   "caption": "Funding routes by initiative",
    "source": "Letsema, from the initiative charters (section 4.3). ● main source; ○ supporting source; blank, none expected. Rand values are not estimated.",
    "columns": [
     {
@@ -199,7 +199,8 @@
      "○"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source."
   },
   {
    "type": "figure",

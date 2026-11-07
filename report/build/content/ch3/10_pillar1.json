@@ -32,7 +32,7 @@
   },
   {
    "type": "table",
-   "caption": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion.",
+   "caption": "Pillar 1 focus areas",
    "source": "Chapter 3 entries 1 to 6. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "I5"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 1 holds six focus areas: three carried through as Validated and three were reworded toward conversion."
   }
  ]
 }

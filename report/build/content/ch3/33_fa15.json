@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Capital is committed to gateways and transport, and each district's tourism gaps carry no committed capital.",
+   "caption": "Evidence for focus area 15",
    "source": "Infrastructure Report, Jul 2026 (IR; the ~R11.3bn CTIA headline itemises to R9.94bn on p103); Stakeholder Insights Report, Mar 2026 (SIR); SME and Community Inclusion Plan, Sep 2026 (SCIP). No deliverable gives a Western Cape tourism funding-gap figure.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SCIP p11"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Capital is committed to gateways and transport, and each district's tourism gaps carry no committed capital."
   },
   {
    "type": "p",

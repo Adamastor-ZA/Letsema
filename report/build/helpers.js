@@ -231,7 +231,7 @@ function cellText(content, { head = false, align = AlignmentType.LEFT, bold = fa
 
 // columns: [{ header, width (fraction of text width or cm), align }]
 // rows: array of arrays of strings (or Paragraph arrays)
-function table(ctx, { caption, source, columns, rows, fontSize, headShade = C.head, zebra = true, boldFirstCol = false, keepTogether = false }) {
+function table(ctx, { caption, source, columns, rows, fontSize, headShade = C.head, zebra = true, boldFirstCol = false, keepTogether = false, message = null }) {
   const widths = normaliseWidths(columns.map((c) => c.width));
   const colDxa = widths.map((w) => Math.round(w * TEXT_WIDTH_DXA));
   ctx.tab += 1;
@@ -260,7 +260,10 @@ function table(ctx, { caption, source, columns, rows, fontSize, headShade = C.he
     borders: { top: thinBorder, bottom: thinBorder, left: noBorder, right: noBorder, insideHorizontal: thinBorder, insideVertical: noBorder },
     rows: [headerRow, ...bodyRows],
   });
-  const out = [new Paragraph({ style: 'Caption', keepNext: true, children: [new TextRun({ text: `${num}. `, bold: true, color: C.dcyan }), ...runs(caption)] }), t];
+  const out = [new Paragraph({ style: 'Caption', keepNext: true, children: [new TextRun({ text: `${num}. `, bold: true, color: C.dcyan }), ...runs(caption)] })];
+  // Key message, set like the chart callouts: grey fill, cyan rule on the left, bold charcoal.
+  if (message) out.push(new Paragraph({ style: 'TableMessage', keepNext: true, children: runs(message) }));
+  out.push(t);
   if (source) out.push(new Paragraph({ style: 'Source', children: runs(`Source: ${source}`) }));
   else out.push(spacer(4));
   return out;
@@ -369,6 +372,9 @@ function styles() {
       { id: 'TableHead', name: 'Table Head', basedOn: 'TableText', next: 'TableText', run: { font: FONT_HEAD, size: PT(8.5), bold: true, color: C.white }, paragraph: { spacing: { before: 0, after: 0, line: 240, lineRule: AUTO } } },
       { id: 'BoxTitle', name: 'Box Title', basedOn: 'Normal', next: 'BoxBody', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.navy }, paragraph: { spacing: { after: 80 } } },
       { id: 'BoxBody', name: 'Box Body', basedOn: 'Normal', next: 'BoxBody', run: { ...base, size: PT(10) }, paragraph: { spacing: { after: 80, line: 264, lineRule: AUTO } } },
+      { id: 'TableMessage', name: 'Table Message', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(9), bold: true, color: C.navy },
+        paragraph: { spacing: { before: 0, after: 120, line: 264, lineRule: AUTO }, indent: { left: 160, right: 120 }, keepNext: true,
+          shading: { type: ShadingType.CLEAR, fill: C.light, color: 'auto' }, border: { left: { style: BorderStyle.SINGLE, size: 36, color: C.teal, space: 8 }, top: { style: BorderStyle.SINGLE, size: 4, color: C.light, space: 4 }, bottom: { style: BorderStyle.SINGLE, size: 4, color: C.light, space: 4 } } } },
       { id: 'FootnoteText', name: 'footnote text', basedOn: 'Normal', next: 'FootnoteText', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 0, after: 20, line: 220, lineRule: AUTO } } },
       { id: 'Quote', name: 'Quote', basedOn: 'Body', next: 'Body', run: { ...base, italics: true, color: C.grey }, paragraph: { indent: { left: 567, right: 567 }, spacing: { after: 140 } } },
       { id: 'TocL1', name: 'TOC L1', basedOn: 'Normal', next: 'TocL1', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.ink }, paragraph: { spacing: { before: 100, after: 40 } } },

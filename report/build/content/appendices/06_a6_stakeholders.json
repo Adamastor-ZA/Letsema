@@ -31,7 +31,7 @@
   },
   {
    "type": "table",
-   "caption": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings.",
+   "caption": "Insights by organisation",
    "source": "Stakeholder Insights Report, Mar 2026, p16 (type, where listed; the three local or district tourism bodies overlap the p16 supply-side entry Tourism offices of each District) and p20 to p46. Medium and Low are tallied from the transcribed rows (computed). The deck does not print the number 16.",
    "columns": [
     {
@@ -225,7 +225,8 @@
      "6"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Sixteen organisations carry 223 rated insight rows, and CapeNature (17 of 24) and the Department of Economic Development (15 of 19) carry the most High ratings."
   },
   {
    "type": "h3",
@@ -237,7 +238,7 @@
   },
   {
    "type": "table",
-   "caption": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed.",
+   "caption": "Later-phase engagement list",
    "source": "Stakeholder Insights Report, Mar 2026, p16. Entries, spellings and markets in brackets as printed; the appendix tables print SATVITO, C-BRTA, !Khwa ttu and Cape Nature.",
    "columns": [
     {
@@ -281,7 +282,8 @@
      "5"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The later-phase list names the demand-side voices that phase 1 lacks, but marks all six demand-side engagements as proposed."
   },
   {
    "type": "note",
@@ -297,7 +299,7 @@
   },
   {
    "type": "table",
-   "caption": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings.",
+   "caption": "Insights by tree element",
    "source": "Stakeholder Insights Report, Mar 2026, p7 (elements, in tree order) and p20 to p46. Reconstruction from the appendix tables, since the deck prints no tally (computed). The Organisations column counts those of the 16 with at least one row under the element or pillar. Element names follow the appendix theme column, not the slightly different p7 wording.",
    "columns": [
     {
@@ -509,7 +511,8 @@
      "6"
     ]
    ],
-   "boldFirstCol": false
+   "boldFirstCol": false,
+   "message": "Policy and data sharing and industry-government collaboration each draw insights from 15 of the 16 organisations, and policy and data sharing carries the most rows and the most High ratings."
   },
   {
    "type": "note",
@@ -521,7 +524,7 @@
   },
   {
    "type": "table",
-   "caption": "Eight priority areas, each with four lines of enquiry, set the agenda for deeper engagement after phase 1.",
+   "caption": "Lines of enquiry by area",
    "source": "Stakeholder Insights Report, Mar 2026, p14. Bullets as printed with initial capitals lowered, except the second bullet of the second area, reworded for this report's style; the last is truncated on the slide.",
    "columns": [
     {

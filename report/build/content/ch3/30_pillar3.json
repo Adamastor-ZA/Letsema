@@ -36,7 +36,7 @@
   },
   {
    "type": "table",
-   "caption": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree.",
+   "caption": "Pillar 3 focus areas",
    "source": "Chapter 3 entries 13 to 20. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
    "columns": [
     {
@@ -110,7 +110,8 @@
      "I18"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 3 holds eight focus areas, the widest spread of dispositions in the tree."
   }
  ]
 }

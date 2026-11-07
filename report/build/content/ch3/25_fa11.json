@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "The experience breaks at the middle of the accommodation market, at the service counter and at the arrival gate.",
+   "caption": "Evidence for focus area 11",
    "source": "Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR); Demand-Side Analysis, Jun 2026 (DSA); Current State Diagnostic, Dec 2025 (Diag; Mentionlytics sentiment data).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "Diag p22; DSA p54"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The experience breaks at the middle of the accommodation market, at the service counter and at the arrival gate."
   },
   {
    "type": "p",

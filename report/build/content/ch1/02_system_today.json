@@ -241,7 +241,7 @@
   },
   {
    "type": "table",
-   "caption": "Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded.",
+   "caption": "Month of travel, 2024 and 2025",
    "source": "2024: Current State Diagnostic, Dec 2025, p25 and p32 (Wesgro Visitor Tracking Survey 2024; shares sum to 100%). 2025: Demand-Side Analysis, Jun 2026, p12 (Stats SA and SAT 2025; the printed shares sum to 104.9%, and the October to March share is computed with the 2025 shares normalised to 100%).",
    "columns": [
     {
@@ -349,7 +349,8 @@
      "62%"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Six summer months, October to March, carry between 61% and 62% of overseas visitors' travel in the two years for which month of travel is recorded."
   },
   {
    "type": "h3",
@@ -393,7 +394,7 @@
   },
   {
    "type": "table",
-   "caption": "The Cape Metro holds 72.5% of provincial GDPR and 40% of the province's tourism assets, and accessibility falls with each step away from it.",
+   "caption": "District economy, assets and access",
    "source": "GDPR shares: Current State Diagnostic, Dec 2025, p39, p42, p44, p46, p48, p50 (year not printed; Garden Route share is for 2023). Asset counts: Infrastructure Report, Jul 2026, p2, p23, p34, p45, p56, p67, p78 (Winelands share computed: 7,730 of 50,332 is 15.4%). Accessibility: Infrastructure Report, Jul 2026, p88 to p90, attractions and services basis; the Metro scores 5.0 on transport.",
    "columns": [
     {
@@ -473,7 +474,8 @@
      ""
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The Cape Metro holds 72.5% of provincial GDPR and 40% of the province's tourism assets, and accessibility falls with each step away from it."
   },
   {
    "type": "h3",
@@ -513,7 +515,7 @@
   },
   {
    "type": "table",
-   "caption": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry.",
+   "caption": "The tourism system by tier",
    "source": "Inception Report, Nov 2025, p7 (organisations as shown on the stakeholder map; the grouping is this report's); Current State Diagnostic, Dec 2025, p58 (functions by tier).",
    "columns": [
     {
@@ -559,7 +561,8 @@
      "Industry tier: route and product viability and commercial performance; pricing and service standards"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Wesgro's six units sit inside a system of fifteen external organisations whose decision rights are split across three spheres of government and industry."
   },
   {
    "type": "p",

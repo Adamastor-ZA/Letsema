@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line.",
+   "caption": "Evidence for focus area 7",
    "source": "MIDAS Aviation Market Assessment, Mar 2026 (twelve months to November 2025; 76.0% is the printed network total and the 27 rows sum to 75.0%); Demand-Side Analysis, Jun 2026 (DSA); Infrastructure Report, Jul 2026 (IR).",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "IR p104 to p109"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line."
   },
   {
    "type": "p",

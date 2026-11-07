@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars.",
+   "caption": "Growth paths and their interventions",
    "source": "Demand-Side Analysis, Jun 2026, p19 (assumptions) and p20 (2035 end points); Market Assessment Report, May 2026, p19 (2025 base). Increments between paths are computed from the printed end points. The mapping to focus areas is this report's.",
    "columns": [
     {
@@ -63,7 +63,8 @@
      "4, 7, 16 and 19, on top of the base"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Each step of the growth case rests on a named set of interventions, and each set draws on focus areas in all three pillars."
   },
   {
    "type": "p",
@@ -87,7 +88,7 @@
   },
   {
    "type": "table",
-   "caption": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief.",
+   "caption": "What moves in each phase",
    "source": "Chapter 3 entries 1 to 20; phase years as set in section 4.2; seat line from Demand-Side Analysis, Jun 2026, p21; airport relief dates from Infrastructure Report, Jul 2026, p103.",
    "columns": [
     {
@@ -123,7 +124,8 @@
      "Runway relief about 2033; the accelerated case depends on direct routes"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief."
   }
  ]
 }

@@ -16,7 +16,7 @@
   },
   {
    "type": "table",
-   "caption": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan.",
+   "caption": "Levels of the plan",
    "source": "Chapter 3; traceability table, Appendix A1. Action count from the Chapter 3 action tables.",
    "columns": [
     {
@@ -84,7 +84,8 @@
      "T2-06 India and China hub arrivals"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Seven levels run from the vision to the measures, and each level has a fixed count in this plan."
   },
   {
    "type": "p",
@@ -96,7 +97,7 @@
   },
   {
    "type": "table",
-   "caption": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028.",
+   "caption": "The eighteen initiatives",
    "source": "Chapter 3 entries; proposed leads for Steerco to confirm. Phase 1 role from the Gantt in section 4.2.",
    "columns": [
     {
@@ -253,7 +254,8 @@
      "Design"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Eighteen initiatives cover the twenty focus areas, and eleven of them are in implementation by 2028."
   }
  ]
 }

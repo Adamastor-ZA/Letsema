@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Seven Tier 1 indicators measure arrivals, market mix, spend, jobs, season, spread and community spend.",
+   "caption": "Tier 1 impact indicators",
    "source": "Letsema, indicator register; SLA clauses 1.1.4 and 1.1.10; Inception Report, Nov 2025, p22, p23. Baselines and targets in section 5.3.",
    "columns": [
     {
@@ -115,7 +115,7 @@
   },
   {
    "type": "table",
-   "caption": "Twenty-five Tier 2 indicators give each focus area one or two outcome measures, and seven of them have no baseline yet.",
+   "caption": "Tier 2 outcome indicators",
    "source": "Chapter 3 evidence tables. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. IR: Infrastructure Report, Jul 2026. SIR: Stakeholder Insights Report, Mar 2026. SCIP: SME and Community Inclusion Plan, Sep 2026. Diag: Current State Diagnostic, Dec 2025. Inc: Inception Report, Nov 2025. MIDAS: MIDAS Aviation Market Assessment, Mar 2026. Computed values are sums or shares of printed figures.",
    "columns": [
     {
@@ -321,7 +321,8 @@
      "Inc p4"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Twenty-five Tier 2 indicators give each focus area one or two outcome measures, and seven of them have no baseline yet."
   },
   {
    "type": "p",
@@ -329,7 +330,7 @@
   },
   {
    "type": "table",
-   "caption": "Thirty-six Tier 3 output indicators, two per initiative, track what each lead delivers.",
+   "caption": "Tier 3 output indicators",
    "source": "Initiative charters, section 4.3. Each output has a baseline of zero at the start of 2027.",
    "columns": [
     {

@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Data is the largest theme in the stakeholder record, and the gaps run from national methodology to operators' own customer records.",
+   "caption": "Evidence for focus area 18",
    "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SIR p29, p30, p31, p37"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Data is the largest theme in the stakeholder record, and the gaps run from national methodology to operators' own customer records."
   },
   {
    "type": "p",

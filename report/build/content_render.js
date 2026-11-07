@@ -3,7 +3,7 @@
 // A content file is { "id": "2.1", "title": "...", "blocks": [ ... ] }. Block types:
 //   h2 | h3 | h4 | kicker | lead | p | note | quote   -> { type, text, attribution? }
 //   numbered | bullets                               -> { type, items: [..], ref?, continue? (numbered: carry on the last list's count) }
-//   table   -> { type, caption, source, columns: [{header, width, align}], rows: [[..]], boldFirstCol? }
+//   table   -> { type, caption, message? (key-message callout), source, columns: [{header, width, align}], rows: [[..]], boldFirstCol? }
 //   box     -> { type, title, paras: [..] }
 //   grid    -> { type, columns, rows } (unnumbered table, no caption: Chapter 3 action tables)
 //   figure  -> { type, id, caption, source, widthCm?, svg? (inline SVG string) | file? (png under assets/png) }
@@ -58,7 +58,7 @@ function render(ctx, H, blocks, heads) {
       case 'quote': out.push(new H.Paragraph({ style: 'Quote', children: H.runs(b.attribution ? `${b.text} (${b.attribution})` : b.text) })); break;
       case 'numbered': out.push(...H.numbered(b.items, b.ref || 'n_policy', !!b.continue)); break;
       case 'bullets': out.push(...H.bullets(b.items)); break;
-      case 'table': out.push(...H.table(ctx, { caption: b.caption, source: b.source, columns: b.columns, rows: b.rows, boldFirstCol: !!b.boldFirstCol, zebra: b.zebra !== false })); break;
+      case 'table': out.push(...H.table(ctx, { caption: b.caption, message: b.message, source: b.source, columns: b.columns, rows: b.rows, boldFirstCol: !!b.boldFirstCol, zebra: b.zebra !== false })); break;
       case 'box': out.push(...H.box(b.title, b.paras || [])); break;
       case 'grid': out.push(H.grid(b.columns, b.rows, { zebra: b.zebra !== false }), H.spacer(6)); break;
       case 'figure': out.push(...H.figure(ctx, { file: ensureFigure(b), caption: b.caption, source: b.source, widthCm: b.widthCm })); break;

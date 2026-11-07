@@ -23,7 +23,7 @@
   },
   {
    "type": "table",
-   "caption": "The asset database sorts tourism supply into three layers and twelve categories, from beaches and wine estates to hospitals and police stations.",
+   "caption": "Asset database structure",
    "source": "Infrastructure Report, Jul 2026, p10, as printed in sentence case.",
    "columns": [
     {
@@ -112,7 +112,7 @@
   },
   {
    "type": "table",
-   "caption": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each.",
+   "caption": "Readiness index weights",
    "source": "Infrastructure Report, Jul 2026, p17, as printed. Scale labels: 1 'Very weak', 2 'Weak', 3 'Functional', 4 'Strong', 5 'Leading'. Stated method: 'Average indicator scores within each dimension, then combine dimensions using the agreed weights.'",
    "columns": [
     {
@@ -156,7 +156,8 @@
      "30%"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Attractiveness carries 40% of the stated weight and readiness and accessibility carry 30% each."
   },
   {
    "type": "p",
@@ -176,7 +177,7 @@
   },
   {
    "type": "table",
-   "caption": "Accessibility falls from 4.7 or 5.0 in the Cape Metro to 1.0 in the Central Karoo in every scored category, while natural attractiveness reaches 4.3 in three districts outside the Metro.",
+   "caption": "Dimension scores by district",
    "source": "Infrastructure Report, Jul 2026, p88 (attractions), p89 (services), p90 (transport and enabling structures). Cells give attractiveness / readiness / accessibility as printed; 'No score' marks a printed dash.",
    "columns": [
     {
@@ -343,7 +344,8 @@
      "2.3 / 2.0 / 1.0"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Accessibility falls from 4.7 or 5.0 in the Cape Metro to 1.0 in the Central Karoo in every scored category, while natural attractiveness reaches 4.3 in three districts outside the Metro."
   },
   {
    "type": "h3",
@@ -355,7 +357,7 @@
   },
   {
    "type": "table",
-   "caption": "Overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo, and only three of the six scorecards print all three dimension scores.",
+   "caption": "Overall readiness by district",
    "source": "Infrastructure Report, Jul 2026, p28, p41, p52, p63, p74, p85 in column order. Bars as printed, decimal commas shown as points; bar labels vary by slide. 'Not printed': a dimension label without a number. 'No bar': a category absent from the chart. Computed: the mean of the printed bars (eleven, or nine for the Central Karoo) and the p17 weights applied to the printed dimension scores.",
    "columns": [
     {
@@ -558,7 +560,8 @@
      "Not computable"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Overall ratings fall from 4.5 in the Cape Metro to 1.9 in the Central Karoo, and only three of the six scorecards print all three dimension scores."
   },
   {
    "type": "note",
@@ -574,7 +577,7 @@
   },
   {
    "type": "table",
-   "caption": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging.",
+   "caption": "Touring route scorecards",
    "source": "Infrastructure Report, Jul 2026: cards p29, p39, p50, p72, p61, p83 and scorecards p30, p40, p51, p62, p73, p84, in column order. Distances are printed as approximate; stays are printed in days, although p19 defines them in nights. The Garden Route pipeline slide lists 'Route fragmented across 300km' as an existing gap (p43).",
    "columns": [
     {
@@ -696,7 +699,8 @@
      "**Developing**"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Only the Cape Peninsula route rates Ready overall; four routes rate Developing and the West Coast / Cederberg route rates Emerging."
   },
   {
    "type": "h3",
@@ -708,7 +712,7 @@
   },
   {
    "type": "table",
-   "caption": "The Cape Metro holds 20,281 of the province's 50,332 assets and the Central Karoo holds 1,518; the six district totals sum to the provincial figure.",
+   "caption": "Asset counts by district",
    "source": "Infrastructure Report, Jul 2026, p23, p34, p45, p56, p67, p78 in column order; province total p2, p3. Counts and gauge percentages as printed; the Central Karoo amenities share is printed '%7.0'. Computed: the last two rows. Accommodation shares as printed sum to 95.7%, against 99.7% to 100.1% for the other categories; the Overberg and West Coast shares are both printed as 11.2%.",
    "columns": [
     {
@@ -830,7 +834,8 @@
      "42"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The Cape Metro holds 20,281 of the province's 50,332 assets and the Central Karoo holds 1,518; the six district totals sum to the provincial figure."
   },
   {
    "type": "note",

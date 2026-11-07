@@ -47,7 +47,7 @@
   },
   {
    "type": "table",
-   "caption": "Four segments are sized, scored and tied to home markets, and the highest-yield segment is the smallest.",
+   "caption": "Evidence for focus area 1",
    "source": "Skift Segmentation Analysis, Mar 2026 (working analysis, cited by section); Market Assessment Report, May 2026 (MA). Trip spend in the currency printed, which the documents do not name. The 1.4 million carries no year or source line.",
    "columns": [
     {
@@ -98,7 +98,8 @@
      "MA p41"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Four segments are sized, scored and tied to home markets, and the highest-yield segment is the smallest."
   },
   {
    "type": "p",

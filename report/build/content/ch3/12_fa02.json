@@ -39,7 +39,7 @@
   },
   {
    "type": "table",
-   "caption": "Leisure demand and seats trough from May to September, while international meetings peak from September to November.",
+   "caption": "Evidence for focus area 2",
    "source": "MIDAS Aviation Market Assessment, Mar 2026 (scheduled seats); Current State Diagnostic, Dec 2025 (Diag; Wesgro Visitor Tracking Survey 2024); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR). The ICCA months are summed from the printed monthly counts. The 2025 ICCA row of 65 covers Stellenbosch and Cape Town and is not comparable. [Open item: Wesgro Convention Bureau to confirm the 2023 ICCA count (46 printed; Wesgro reported 42 in May 2025) and reconcile the yearly total of 137 with the 136 monthly records.]",
    "columns": [
     {
@@ -90,7 +90,8 @@
      "SIR p45, p46 (CTICC)"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Leisure demand and seats trough from May to September, while international meetings peak from September to November."
   },
   {
    "type": "figure",

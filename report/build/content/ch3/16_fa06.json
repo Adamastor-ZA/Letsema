@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "African demand is a Southern African volume base with two high-spending West African markets and regional routes above 80% load.",
+   "caption": "Evidence for focus area 6",
    "source": "Demand-Side Analysis, Jun 2026 (DSA; SA Tourism 2024 Departure Survey and 2025 performance report); MIDAS Aviation Market Assessment, Mar 2026 (year to November 2025); Skift African Market Analysis, 16 Mar 2026 (working analysis, by section); Market Assessment Report, May 2026 (MA). The printed spend averages do not reproduce from the totals and visitor counts on the same slide; the report quotes the printed averages.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "MA p20, p23; DSA p24"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "African demand is a Southern African volume base with two high-spending West African markets and regional routes above 80% load."
   },
   {
    "type": "p",

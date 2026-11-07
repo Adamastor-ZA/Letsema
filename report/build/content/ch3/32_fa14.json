@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Climate losses are dated and site-specific, and the bodies that manage destinations locally have no stable funding.",
+   "caption": "Evidence for focus area 14",
    "source": "Stakeholder Insights Report, Mar 2026 (SIR; statements attributed to organisations, not quotations); SME and Community Inclusion Plan, Sep 2026 (SCIP); Infrastructure Report, Jul 2026 (IR); Current State Diagnostic, Dec 2025 (Diag). No deliverable quantifies climate risk province-wide.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "IR p31, p64, p75, p86; Diag p43, p45"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Climate losses are dated and site-specific, and the bodies that manage destinations locally have no stable funding."
   },
   {
    "type": "p",

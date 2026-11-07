@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "No deliverable carries a provincial tourism employment figure, and the skills evidence is a handful of statements and two training programmes.",
+   "caption": "Evidence for focus area 20",
    "source": "Inception Report, Nov 2025 (Inc); Stakeholder Insights Report, Mar 2026 (SIR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Current State Diagnostic, Dec 2025 (Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, as cited). The 2024/25 jobs value equals the 2022/23 GDP value in the same table, so the source study should be checked before the figure is used as a baseline.",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "Diag p37"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "No deliverable carries a provincial tourism employment figure, and the skills evidence is a handful of statements and two training programmes."
   },
   {
    "type": "p",

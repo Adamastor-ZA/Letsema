@@ -81,7 +81,7 @@
   },
   {
    "type": "table",
-   "caption": "Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first.",
+   "caption": "Tier 1 baselines and targets",
    "source": "T1-01: Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p11, p20, p21 (computed values marked *). T1-02: Market Assessment Report, May 2026, p20. T1-03: Demand-Side Analysis, Jun 2026, p11 (baseline); Market Assessment Report, May 2026, p24 (modelled base path, working analysis). T1-04: baseline and targets to be set by the labour analysis (I18). T1-05: Demand-Side Analysis, Jun 2026, p12; Current State Diagnostic, Dec 2025, p32. T1-07: SME and Community Inclusion Plan, Sep 2026, p5.",
    "columns": [
     {
@@ -161,7 +161,8 @@
      "1% (R259m at FY2025 spend) as the reference point"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Arrivals carry targets on both paths; spend carries the working analysis's base path; jobs and the other Tier 1 indicators set baselines first."
   },
   {
    "type": "p",

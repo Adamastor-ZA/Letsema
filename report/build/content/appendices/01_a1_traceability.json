@@ -16,7 +16,7 @@
   },
   {
    "type": "table",
-   "caption": "Two figures in the one-line reasons are not supported, sixteen routes above 80% and the plan to 250 cruise calls, and several others hold only with a qualifier.",
+   "caption": "Reasons against the evidence",
    "source": "One-line reasons as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only.",
    "columns": [
     {
@@ -187,11 +187,12 @@
      "Thin"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Two figures in the one-line reasons are not supported, sixteen routes above 80% and the plan to 250 cruise calls, and several others hold only with a qualifier."
   },
   {
    "type": "table",
-   "caption": "Nineteen focus areas descend from a December entry, and each one leads to one initiative and one to three indicators.",
+   "caption": "Traceability by focus area",
    "source": "traceability.csv (Appendix A1 file). December entries as printed in Current State Diagnostic, Dec 2025, p64. Workstream attribution is this report's, from the deliverables that carry the figures.",
    "columns": [
     {

@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Access falls away with distance from Cape Town, and the rail and road assets that exist are not run for visitors.",
+   "caption": "Evidence for focus area 9",
    "source": "Infrastructure Report, Jul 2026 (IR; comparative regional analysis on a 1 to 5 scale); Stakeholder Insights Report, Mar 2026 (SIR; the theme count is reconstructed from the appendix tables, which print no tally).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "SIR p22, p20 to p46"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Access falls away with distance from Cape Town, and the rail and road assets that exist are not run for visitors."
   },
   {
    "type": "p",

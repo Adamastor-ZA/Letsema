@@ -226,7 +226,7 @@
   },
   {
    "type": "table",
-   "caption": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.",
+   "caption": "Four traveller segments",
    "source": "Market Assessment Report, May 2026, p42, p43, p45, p48, p51, p54. Priority pairs are the cells highlighted on p43. Trip spend is average long-haul trip spend as printed; the currency is not named on the slides.",
    "columns": [
     {
@@ -285,7 +285,8 @@
      "$4,600 to $5,900"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated."
   },
   {
    "type": "p",
@@ -321,7 +322,7 @@
   },
   {
    "type": "table",
-   "caption": "Ten findings from the demand workstream carry into the hypothesis tree.",
+   "caption": "Demand findings for the tree",
    "source": "As cited in each row. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. Diag: Current State Diagnostic, Dec 2025.",
    "columns": [
     {

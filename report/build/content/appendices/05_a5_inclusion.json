@@ -27,7 +27,7 @@
   },
   {
    "type": "table",
-   "caption": "Need carries the largest weight of the five criteria, and each criterion scores a community from 3 to 1 against printed thresholds.",
+   "caption": "Community shortlist criteria",
    "source": "SME and Community Inclusion Plan, Sep 2026, p14. Thresholds as printed; the weights sum to 1.00 (computed). Shortlist composite scores run from 1.80 (Prince Albert North) to 3.00 (Langa and Khayelitsha) (p18). Regional counts sum to the printed 107 and 20 (computed); the p14 panel prints 18 shortlisted, three per region, against 20 on p3, p16, p18 and p28. Drive times are OSRM free-flow estimates (p16, p17).",
    "columns": [
     {
@@ -93,7 +93,8 @@
      "Neither"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Need carries the largest weight of the five criteria, and each criterion scores a community from 3 to 1 against printed thresholds."
   },
   {
    "type": "h3",
@@ -105,7 +106,7 @@
   },
   {
    "type": "table",
-   "caption": "Proximate communities with underused assets are the largest group on both lists, and the plan pairs each archetype with a response, a first move and a benchmark.",
+   "caption": "Archetypes, responses and benchmarks",
    "source": "SME and Community Inclusion Plan, Sep 2026, p15 and p17 (counts), p15 (response types and benchmarks) and p31 (first moves). The p4 slide prints long-list counts of 48 and 8 for the two assets-underused rows. Totals are computed.",
    "columns": [
     {
@@ -181,7 +182,8 @@
      ""
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Proximate communities with underused assets are the largest group on both lists, and the plan pairs each archetype with a response, a first move and a benchmark."
   },
   {
    "type": "note",
@@ -197,7 +199,7 @@
   },
   {
    "type": "table",
-   "caption": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability.",
+   "caption": "Shortlist readiness ratings",
    "source": "SME and Community Inclusion Plan, Sep 2026: p53 to p58 for the binding constraint; p28 for organisation present, benefit visible to residents and assets protected or damaged; p27 for safety perception; p20 to p26 and p40 to p51 for digital and bookability. Rows follow the shortlist order on p18; section 2.6 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
    "columns": [
     {
@@ -499,7 +501,8 @@
      "11"
     ]
    ],
-   "boldFirstCol": false
+   "boldFirstCol": false,
+   "message": "Half the shortlist has no identified active tourism body, and no community is rated Ready on benefit visible to residents or on digital and bookability."
   },
   {
    "type": "note",
@@ -515,7 +518,7 @@
   },
   {
    "type": "table",
-   "caption": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m.",
+   "caption": "Community share of spend",
    "source": "SME and Community Inclusion Plan, Sep 2026, p5 (values as printed; no tracing method or denominator printed). The plan cites the Demand-Side Analysis (16 Sep 2026) and Diagnostic Report v2 for the scenario (p5). The Diagnostic sets that ambition as 5.7 million international arrivals and R54.7 billion of tourism spend by 2035 (Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Implied totals are computed. Appendix A2 sets out the demand model's own 2035 cases.",
    "columns": [
     {
@@ -566,7 +569,8 @@
      "Implies R54.7 billion of 2035 spend (computed); the Diagnostic's 5.7 million arrivals case (Current State Diagnostic, Dec 2025, p5)"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The 20 communities hold 18.4% of Western Cape residents but a documented floor of R4m to R10m a year in visitor spend, while 1% of FY2025 foreign direct spend would land R259m."
   },
   {
    "type": "h3",
@@ -578,7 +582,7 @@
   },
   {
    "type": "table",
-   "caption": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit.",
+   "caption": "Inclusion cases and lessons",
    "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11 (case cards), p12 (takeaways) and p30 (benchmark evidence). The Rio, Medellín, Vilakazi Street and Kliptown cards print no source line; the plan pools their sources on p12.",
    "columns": [
     {
@@ -634,7 +638,8 @@
      "Heritage converts to local income only when operator, trader and guide product, security and services are funded before the ribbon is cut"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The plan finds that local selling mechanisms lasted while assets and training without a durable route to market did not, but Costa Rica's selling network did not survive donor exit."
   }
  ]
 }

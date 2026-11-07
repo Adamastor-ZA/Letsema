@@ -43,7 +43,7 @@
   },
   {
    "type": "table",
-   "caption": "The shortlisted communities sit close to visitors but earn almost nothing from them, and most lack a body that can sell.",
+   "caption": "Evidence for focus area 13",
    "source": "SME and Community Inclusion Plan, Sep 2026 (SCIP; desk research 17 to 23 September 2026, ratings from the community side with LTO confirmation outstanding). The R259m is 1% of the R25.9bn FY2025 foreign direct spend in the Demand-Side Analysis, Jun 2026, p11. The plan does not describe how the spend floor was traced. The multiple of today's floor is computed.",
    "columns": [
     {
@@ -94,7 +94,8 @@
      "SCIP p5"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The shortlisted communities sit close to visitors but earn almost nothing from them, and most lack a body that can sell."
   },
   {
    "type": "p",

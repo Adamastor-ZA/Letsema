@@ -103,7 +103,7 @@
   },
   {
    "type": "table",
-   "caption": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing.",
+   "caption": "Inclusion benchmark cases",
    "source": "SME and Community Inclusion Plan, Sep 2026, p7 to p11.",
    "columns": [
     {
@@ -159,7 +159,8 @@
      "p11"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Five benchmark cases show that sellers outlast programmes and that capital without an operator earns nothing."
   },
   {
    "type": "p",
@@ -167,7 +168,7 @@
   },
   {
    "type": "table",
-   "caption": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response.",
+   "caption": "Community archetypes and responses",
    "source": "SME and Community Inclusion Plan, Sep 2026, p15 and p17 (long-list and shortlist counts; p4 prints 48 and 8 for the two assets-underused rows), p15 (responses).",
    "columns": [
     {
@@ -217,7 +218,8 @@
      "Procurement and skills first; an asset only once a route product exists"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Most long-listed communities sit near a node with something already worth visiting, and each archetype carries its own response."
   },
   {
    "type": "p",
@@ -233,7 +235,7 @@
   },
   {
    "type": "table",
-   "caption": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node.",
+   "caption": "The 20 shortlisted communities",
    "source": "SME and Community Inclusion Plan, Sep 2026, p18 (shortlist, composite score, free-flow minutes) and p53 to p58 (binding constraint). Archetypes abbreviated: N = near a node (45 minutes or less); R = remote; A = assets underused; 0 = no community-based product. [Open item: re-measure Metro travel times to a visitor node such as the V&A Waterfront or the CBD, not CTIA.]",
    "columns": [
     {
@@ -429,11 +431,12 @@
      "Attraction"
     ]
    ],
-   "boldFirstCol": false
+   "boldFirstCol": false,
+   "message": "The 20 shortlisted communities span every region and sit between 1 and 111 minutes from their nearest node."
   },
   {
    "type": "table",
-   "caption": "Eight findings from the inclusion work carry into the hypothesis tree.",
+   "caption": "Inclusion findings for the tree",
    "source": "SME and Community Inclusion Plan, Sep 2026, pages as cited.",
    "columns": [
     {

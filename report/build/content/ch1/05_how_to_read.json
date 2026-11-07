@@ -20,7 +20,7 @@
   },
   {
    "type": "table",
-   "caption": "Seven parts carry the report from the case in short to the evidence behind every figure, and each part has a primary reader.",
+   "caption": "Chapter map and readers",
    "source": "Letsema, structure of this report, November 2026.",
    "columns": [
     {
@@ -88,7 +88,7 @@
   },
   {
    "type": "table",
-   "caption": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.",
+   "caption": "Disposition labels and counts",
    "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.",
    "columns": [
     {
@@ -144,7 +144,8 @@
      "1"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated."
   },
   {
    "type": "p",

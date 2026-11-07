@@ -34,7 +34,7 @@
   },
   {
    "type": "table",
-   "caption": "Four decision points test the plan against its indicators, and each one decides what the next phase funds.",
+   "caption": "Decision gates and reviews",
    "source": "Letsema, proposed gates; indicator codes from section 5.2.",
    "columns": [
     {
@@ -84,7 +84,8 @@
      "Close the plan and set the next one"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Four decision points test the plan against its indicators, and each one decides what the next phase funds."
   }
  ]
 }

@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated.",
+   "caption": "Pillar 2 focus areas",
    "source": "Chapter 3 entries 7 to 12. Dispositions as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed].",
    "columns": [
     {
@@ -97,7 +97,8 @@
      "I11"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Pillar 2 holds six focus areas: the air entry was reworded, cruise is new and the four others carried through as Validated."
   }
  ]
 }

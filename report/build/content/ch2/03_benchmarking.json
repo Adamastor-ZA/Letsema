@@ -52,7 +52,7 @@
   },
   {
    "type": "table",
-   "caption": "Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019.",
+   "caption": "Comparator growth and recovery",
    "source": "Global Benchmarking Report, Mar 2026, p9 (growth, recovery and levers), p53 (New Zealand arrivals), p17 (Australian forecast) and p61 (system type). Chile: Sernatur, Anuario de Turismo 2024 (Dec 2025). Singapore: Singapore Tourism Board (Feb 2025). Kenya growth: Kenya Tourism data as reported, May 2025.",
    "columns": [
     {
@@ -125,7 +125,8 @@
      "Events-led"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Against global growth of 11% in 2024, only Chile and Singapore grew clearly faster, and three of the six were still below 2019."
   },
   {
    "type": "p",
@@ -207,7 +208,7 @@
   },
   {
    "type": "table",
-   "caption": "Each comparator's lesson translates into a change the Western Cape would have to make.",
+   "caption": "Comparator lessons for the province",
    "source": "Global Benchmarking Report, Mar 2026, p20, p28, p35, p42, p49, p56 (required change for the Western Cape, condensed).",
    "columns": [
     {
@@ -273,7 +274,7 @@
   },
   {
    "type": "table",
-   "caption": "Eight benchmark findings carry into the hypothesis tree, each with a named precedent.",
+   "caption": "Benchmark findings for the tree",
    "source": "Global Benchmarking Report, Mar 2026, pages as cited.",
    "columns": [
     {

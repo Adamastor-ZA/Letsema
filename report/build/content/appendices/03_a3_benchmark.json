@@ -23,7 +23,7 @@
   },
   {
    "type": "table",
-   "caption": "Twelve criteria in four groups test how closely a destination's markets, product, trajectory and performance resemble the Western Cape.",
+   "caption": "Benchmark selection criteria",
    "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. Two inception criteria differ in definition as well as name (Inception Report, Nov 2025, p30). Cruise & Multi-Modal Access covers cruise arrivals, self-drive touring and regional mobility where the later report has Ease of Access & Visa. Tourism Infrastructure & Capacity covers hotel mix, transport, visitor services and attraction capacity where it has Airport & Tourism Infrastructure. Neither report prints scores by criterion, so the effect of the change on the ranking cannot be checked (Inception Report, Nov 2025, p31; Global Benchmarking Report, Mar 2026, p12).",
    "columns": [
     {
@@ -120,7 +120,7 @@
   },
   {
    "type": "table",
-   "caption": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver.",
+   "caption": "Comparator set, inception to final",
    "source": "Inception Report, Nov 2025, p31 (ranks, scores and reasons not selected), p32 (inception six and rationales); Global Benchmarking Report, Mar 2026, p12 (final six and rationales). Reasons and rationales as printed, shortened only by cutting; the rationale shown is from the later document in which the destination appears.",
    "columns": [
     {
@@ -194,7 +194,8 @@
      "Strong comparability in outdoor positioning and long-haul reliance"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver."
   },
   {
    "type": "h3",
@@ -206,7 +207,7 @@
   },
   {
    "type": "table",
-   "caption": "Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation.",
+   "caption": "Comparator growth, recovery and levers",
    "source": "Global Benchmarking Report, Mar 2026, p9, values and destination labels as printed. Ranges are written with 'to', decimal commas are shown as points and Valencia's second lever takes its p49 title in place of the p9 label. Melbourne's ~4.3% is a forecast average annual growth rate for short-term visitor arrivals to Australia, not a 2023 to 2024 actual (p17). New Zealand's ~12% matches holiday-arrivals growth of 12.1% for January to December 2025; total arrivals grew 5.9% over the same period (p53). Demand-impact classes (p8): structural demand creation expands total addressable demand; demand activation and acceleration converts latent or constrained demand; system and product yield optimisation raises value per traveller without increasing arrivals. Corrected 2024 figures: Chile 40.4% (116% of 2019), Singapore 21% (86% of 2019), Kenya 14.6% (section 2.2).",
    "columns": [
     {
@@ -279,7 +280,8 @@
      "1) System and Product Yield Optimisation\n2) Demand Activation and Acceleration"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Five of the six printed growth rates exceed the report's 3% to 5% norm, two clearly beat 2024's actual global growth of 11%, and four of the six cases pair structural demand creation with demand activation."
   },
   {
    "type": "h3",
@@ -291,7 +293,7 @@
   },
   {
    "type": "table",
-   "caption": "All six cases align coordination, marketing and access, but each builds its system around a different anchor.",
+   "caption": "Comparator system types",
    "source": "Global Benchmarking Report, Mar 2026, p61 (system type), p59 to p60 (three components by destination, condensed).",
    "columns": [
     {
@@ -364,7 +366,8 @@
      "Long-haul demand converts only when marketing, aviation and distribution are aligned"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "All six cases align coordination, marketing and access, but each builds its system around a different anchor."
   },
   {
    "type": "h3",
@@ -376,7 +379,7 @@
   },
   {
    "type": "table",
-   "caption": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance.",
+   "caption": "Transferable levers by case",
    "source": "Global Benchmarking Report, Mar 2026, p20 (Melbourne and Victoria), p28 (Chile), p35 (Kenya), p42 (Singapore), p49 (Valencia), p56 (New Zealand). Lever titles and bullets as printed, shortened by cutting, with one verb paraphrased; initial capitals, dashes and list commas follow this report's style.",
    "columns": [
     {
@@ -427,7 +430,8 @@
      "**Regional Value Engineering through Strategic De-Commoditisation**\nReplace arrivals KPI with yield-based metrics; deliberate regional product curation frameworks; align conservation and premium access to protect pricing power; shape premium-ready regional circuits beyond Cape Town core; build partnerships with specialist distribution networks"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The six cases yield twelve levers, and their required changes centre on air access, events, quality standards, regional product and governance."
   }
  ]
 }

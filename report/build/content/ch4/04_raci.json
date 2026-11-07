@@ -19,7 +19,7 @@
   },
   {
    "type": "table",
-   "caption": "Wesgro is accountable for twelve initiatives; provincial departments, municipalities or site operators are accountable for six, and SOEs or national departments do part of the work in four.",
+   "caption": "Accountability by initiative and tier",
    "source": "Letsema, from the Chapter 3 action tables; proposed for Steerco to confirm. Province: DEDAT and the Department of Mobility. SOEs: ACSA, Transnet and PRASA. National: Home Affairs, Transport, National Treasury and SAPS. Industry: industry bodies, airlines, CapeNature, SANParks and attraction operators.",
    "columns": [
     {
@@ -291,7 +291,8 @@
      "R"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "Wesgro is accountable for twelve initiatives; provincial departments, municipalities or site operators are accountable for six, and SOEs or national departments do part of the work in four."
   },
   {
    "type": "h3",

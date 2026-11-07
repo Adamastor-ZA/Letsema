@@ -35,7 +35,7 @@
   },
   {
    "type": "table",
-   "caption": "The deficits are the best-evidenced barriers in the stakeholder record, and most of the levers sit with national government or SOEs.",
+   "caption": "Evidence for focus area 19",
    "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation counts reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag; Skift, Barriers to visiting Cape Town, 2024, as cited); Infrastructure Report, Jul 2026 (IR); Demand-Side Analysis, Jun 2026 (DSA); Skift African Market Analysis, 16 Mar 2026 (working analysis; arrivals to South Africa, not Cape Town).",
    "columns": [
     {
@@ -86,7 +86,8 @@
      "Skift African, s4.6"
     ]
    ],
-   "boldFirstCol": true
+   "boldFirstCol": true,
+   "message": "The deficits are the best-evidenced barriers in the stakeholder record, and most of the levers sit with national government or SOEs."
   },
   {
    "type": "p",
