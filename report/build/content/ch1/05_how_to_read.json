@@ -1,52 +1,194 @@
 {
-  "id": "1.5",
-  "title": "How to read this report",
-  "blocks": [
-    { "type": "h2", "text": "1.5 How to read this report" },
-    { "type": "lead", "text": "The report is built so that a Board member can read the summary and any one focus area on its own, and a programme owner can run the plan from Chapters 3 to 5." },
-
-    { "type": "h3", "text": "Chapter map" },
-    { "type": "p", "text": "The report moves from context to evidence to recommendations to delivery, and the table below gives the route through it for each reader." },
-    { "type": "table", "caption": "Seven parts carry the report from the case in short to the evidence behind every figure, and each part has a primary reader.", "source": "Letsema, structure of this report, November 2026.", "columns": [
-      { "header": "Part", "width": 1.6, "align": "left" },
-      { "header": "What it answers", "width": 3.4, "align": "left" },
-      { "header": "Who should read it", "width": 2.6, "align": "left" }
-    ], "rows": [
-      ["Executive summary", "The case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators", "Board, Exco and the February 2027 launch audience; it stands alone"],
-      ["1 Context", "What Wesgro asked for, where the system stands after recovery, why the next step is supply-constrained and how the study ran", "Every reader; the Board member who reads no other chapter of the body"],
-      ["2 Analysis summaries", "What each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree", "Readers checking the evidence behind a Chapter 3 entry; each section closes with a box naming the focus areas it supports"],
-      ["3 Findings and recommendations", "For each of the twenty focus areas: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally", "Board and Exco by entry; the programme owner in full; Section 3.4 for the sequence"],
-      ["4 Execution plan", "Which initiatives, in what order, owned by whom, at what cost and with which decision gates", "The programme owner, Steerco and the partners named in the RACI"],
-      ["5 Monitoring and evaluation", "How progress is measured: indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review", "Wesgro Research, the programme office and Steerco"],
-      ["Appendices A1 to A9", "The traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references", "Analysts and anyone checking a figure"]
-    ], "boldFirstCol": true },
-
-    { "type": "h3", "text": "Disposition labels" },
-    { "type": "p", "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas." },
-    { "type": "table", "caption": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.", "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.", "columns": [
-      { "header": "Label", "width": 1.4, "align": "left" },
-      { "header": "Meaning", "width": 4.4, "align": "left" },
-      { "header": "Focus areas", "width": 1.2, "align": "right" }
-    ], "rows": [
-      ["Validated", "The evidence confirmed the December hypothesis as written", "10"],
-      ["Refined", "The evidence confirmed the hypothesis and sharpened its content", "1"],
-      ["Reworded", "The evidence confirmed the hypothesis; the entry was renamed to what the evidence showed", "6"],
-      ["New", "Added in October 2026, with no December entry behind it", "1"], ["Moved", "The evidence confirmed the hypothesis; the entry moved to another theme because its levers sit with another tier", "1"],
-      ["Withdrawn", "Dropped because the evidence did not support the hypothesis", "0"],
-      ["Flagged", "Untested; carried as a question for analysis still to be commissioned", "1"]
-    ], "boldFirstCol": true },
-    { "type": "p", "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]" },
-
-    { "type": "h3", "text": "Citations and figures" },
-    { "type": "p", "text": "Every figure carries its source and page in the form (Demand-Side Analysis, Jun 2026, p21). The date is the cover date and the page is the PDF page index counted from the cover, because none of the decks prints page numbers. The MIDAS Aviation Market Assessment and the three Skift memos have no fixed pagination and are cited by section title." },
-    { "type": "p", "text": "Four cover dates differ from their file dates. The Demand-Side Analysis is cited as June 2026 though its file is dated 1 October 2026 and the Inclusion Plan cites a 16 September version. The Infrastructure Report cited is the July 2026 final, not the June draft. The SME and Community Inclusion Plan prints September 2026 on a file dated 9 October, and the MIDAS Aviation Market Assessment prints March 2026 on a file dated 20 April 2026." },
-    { "type": "p", "text": "Where two inputs disagree the report states the value it uses, names the other with its page and gives the reason. The five-market share, printed as both 63% and 61% on one slide, is one case (Demand-Side Analysis, Jun 2026, p13). Nothing is averaged and nothing is reconciled silently." },
-    { "type": "p", "text": "Two arrivals figures recur and measure different things. The recovery baseline is 1.44m international passenger arrivals at Cape Town International in FY24/25, ACSA's fiscal-year count (Current State Diagnostic, Dec 2025, p25). The growth model runs from 1,498,829 arrivals in 2025 (Market Assessment Report, May 2026, p19) to 2,175,778 in the base case and 2,516,282 in the accelerated case in 2035 (Demand-Side Analysis, Jun 2026, p20)." },
-    { "type": "p", "text": "The strategy's 2.5m is the accelerated case rounded. The word doubling appears only where the report quotes the original mandate (Inception Report, Nov 2025, p4)." },
-
-    { "type": "h3", "text": "Marks and codes" },
-    { "type": "p", "text": "Highlighted text in square brackets marks an open item: a figure no input in hand carries, with the figure needed and who holds it. Every page of this draft carries DRAFT FOR DISCUSSION in its header and the cover carries a draft line; both come off at sign-off." },
-    { "type": "p", "text": "Three codes tie the chapters together. A Chapter 3 kicker names the entry's theme, 1.1 to 3.2, above the focus area name as it reads on the tree; each entry closes with the initiative and indicator it links to. Initiatives in Chapter 4 run I1 onwards in one sequence; indicators in Chapter 5 run T1-01 onwards for impact, T2-01 for outcome and T3-01 for output." },
-    { "type": "p", "text": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition and its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure." }
-  ]
+ "id": "1.5",
+ "title": "How to read this report",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "1.5 How to read this report"
+  },
+  {
+   "type": "lead",
+   "text": "The report is built so that a Board member can read the summary and any one focus area on its own, and a programme owner can run the plan from Chapters 3 to 5."
+  },
+  {
+   "type": "h3",
+   "text": "Chapter map"
+  },
+  {
+   "type": "p",
+   "text": "The report moves from context to evidence to recommendations to delivery, and the table below gives the route through it for each reader."
+  },
+  {
+   "type": "table",
+   "caption": "Seven parts carry the report from the case in short to the evidence behind every figure, and each part has a primary reader.",
+   "source": "Letsema, structure of this report, November 2026.",
+   "columns": [
+    {
+     "header": "Part",
+     "width": 1.6,
+     "align": "left"
+    },
+    {
+     "header": "What it answers",
+     "width": 3.4,
+     "align": "left"
+    },
+    {
+     "header": "Who should read it",
+     "width": 2.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Executive summary",
+     "The case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators",
+     "Board, Exco and the February 2027 launch audience; it stands alone"
+    ],
+    [
+     "1 Context",
+     "What Wesgro asked for, where the system stands after recovery, why the next step is supply-constrained and how the study ran",
+     "Every reader; the Board member who reads no other chapter of the body"
+    ],
+    [
+     "2 Analysis summaries",
+     "What each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree",
+     "Readers checking the evidence behind a Chapter 3 entry; each section closes with a box naming the focus areas it supports"
+    ],
+    [
+     "3 Findings and recommendations",
+     "For each of the twenty focus areas: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally",
+     "Board and Exco by entry; the programme owner in full; Section 3.4 for the sequence"
+    ],
+    [
+     "4 Execution plan",
+     "Which initiatives, in what order, owned by whom, at what cost and with which decision gates",
+     "The programme owner, Steerco and the partners named in the RACI"
+    ],
+    [
+     "5 Monitoring and evaluation",
+     "How progress is measured: indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review",
+     "Wesgro Research, the programme office and Steerco"
+    ],
+    [
+     "Appendices A1 to A9",
+     "The traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references",
+     "Analysts and anyone checking a figure"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Disposition labels"
+  },
+  {
+   "type": "p",
+   "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas."
+  },
+  {
+   "type": "table",
+   "caption": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated.",
+   "source": "Dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed against the final deck]; counts from the traceability table in Appendix A1.",
+   "columns": [
+    {
+     "header": "Label",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Meaning",
+     "width": 4.4,
+     "align": "left"
+    },
+    {
+     "header": "Focus areas",
+     "width": 1.2,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Validated",
+     "The evidence confirmed the December hypothesis as written",
+     "10"
+    ],
+    [
+     "Refined",
+     "The evidence confirmed the hypothesis and sharpened its content",
+     "1"
+    ],
+    [
+     "Reworded",
+     "The evidence confirmed the hypothesis; the entry was renamed to what the evidence showed",
+     "6"
+    ],
+    [
+     "New",
+     "Added in October 2026, with no December entry behind it",
+     "1"
+    ],
+    [
+     "Moved",
+     "The evidence confirmed the hypothesis; the entry moved to another theme because its levers sit with another tier",
+     "1"
+    ],
+    [
+     "Withdrawn",
+     "Dropped because the evidence did not support the hypothesis",
+     "0"
+    ],
+    [
+     "Flagged",
+     "Untested; carried as a question for analysis still to be commissioned",
+     "1"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "p",
+   "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]"
+  },
+  {
+   "type": "h3",
+   "text": "Citations and figures"
+  },
+  {
+   "type": "p",
+   "text": "Every figure carries its source and page in the form (Demand-Side Analysis, Jun 2026, p21). The date is the cover date and the page is the PDF page index counted from the cover, because none of the decks prints page numbers. The MIDAS Aviation Market Assessment and the three Skift memos have no fixed pagination and are cited by section title."
+  },
+  {
+   "type": "p",
+   "text": "Four cover dates differ from their file dates. The Demand-Side Analysis is cited as June 2026 though its file is dated 1 October 2026 and the Inclusion Plan cites a 16 September version. The Infrastructure Report cited is the July 2026 final, not the June draft. The SME and Community Inclusion Plan prints September 2026 on a file dated 9 October, and the MIDAS Aviation Market Assessment prints March 2026 on a file dated 20 April 2026."
+  },
+  {
+   "type": "p",
+   "text": "Where two inputs disagree the report states the value it uses, names the other with its page and gives the reason. The five-market share, printed as both 63% and 61% on one slide, is one case (Demand-Side Analysis, Jun 2026, p13). Nothing is averaged and nothing is reconciled silently."
+  },
+  {
+   "type": "p",
+   "text": "Two arrivals figures recur and measure different things. The recovery baseline is 1.44m international passenger arrivals at Cape Town International in FY24/25, ACSA's fiscal-year count (Current State Diagnostic, Dec 2025, p25). The growth model runs from 1,498,829 arrivals in 2025 (Market Assessment Report, May 2026, p19) to 2,175,778 in the base case and 2,516,282 in the accelerated case in 2035 (Demand-Side Analysis, Jun 2026, p20)."
+  },
+  {
+   "type": "p",
+   "text": "The strategy's 2.5m is the accelerated case rounded. The word doubling appears only where the report quotes the original mandate (Inception Report, Nov 2025, p4)."
+  },
+  {
+   "type": "h3",
+   "text": "Marks and codes"
+  },
+  {
+   "type": "p",
+   "text": "Highlighted text in square brackets marks an open item: a figure no input in hand carries, with the figure needed and who holds it. Every page of this draft carries DRAFT FOR DISCUSSION in its header and the cover carries a draft line; both come off at sign-off."
+  },
+  {
+   "type": "p",
+   "text": "Three codes tie the chapters together. A Chapter 3 kicker names the entry's theme, 1.1 to 3.2, above the focus area name as it reads on the tree; each entry closes with the initiative and indicator it links to. Initiatives in Chapter 4 run I1 onwards in one sequence; indicators in Chapter 5 run T1-01 onwards for impact, T2-01 for outcome and T3-01 for output."
+  },
+  {
+   "type": "p",
+   "text": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition and its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure."
+  }
+ ]
 }

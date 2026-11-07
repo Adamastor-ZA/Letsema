@@ -1,31 +1,125 @@
 {
-  "id": "1.3",
-  "title": "From recovery to growth",
-  "blocks": [
-    { "type": "h2", "text": "1.3 From recovery to growth" },
-    { "type": "lead", "text": "The recovery is complete, and the growth that follows is capped by supply rather than demand." },
-
-    { "type": "h3", "text": "The limits of recovery logic" },
-    { "type": "p", "text": "The study set out in December 2025 to move the destination from recovery to growth; the hypothesis tree's own framing reads that \"the Western Cape must transition from recovery to growth\" (Global Benchmarking Report, Mar 2026, p62). The first half of that task is done. International passenger arrivals at Cape Town International reached 1.44m in FY24/25 against 1.16m in FY19/20, and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11)." },
-    { "type": "p", "text": "Recovery logic assumed capacity waiting to be refilled. Arrivals fell to 80,400 in FY20/21 (Demand-Side Analysis, Jun 2026, p11), and the task was to refill idle seats, rooms and routes. That slack is gone. South Africa's international seat capacity is back at pre-pandemic levels, and Cape Town International runs the highest average load factor of the country's five largest airports, 79% in 2025 (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\")." },
-    { "type": "p", "text": "Cape Town did more than refill its seats. It added 17 mainline international routes between 2015 and 2025, more than any of eight peer airports, and MIDAS calls the result \"a 'what next' moment\" (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"; \"In Conclusion\"). The rebound that a recovery plan is built to capture has already happened." },
-
-    { "type": "h3", "text": "Demand without seats" },
-    { "type": "p", "text": "Growth is now supply-constrained, not demand-constrained. Skift's survey of 34 outbound markets counts 97 million high-value, South Africa-interested travellers, of whom only 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). The report's conclusion is that \"the challenge is not demand generation but improving conversion into actual visits\" (p41)." },
-    { "type": "p", "text": "The binding supply is seats. Current air access places a hard ceiling at 1.8 million inbound seats, and the base case, in which Wesgro maintains current activity, reaches 1,802,929 arrivals at the 2030 plotted year (Market Assessment Report, May 2026, p20). The chart below sets the base case against that ceiling." },
-    { "type": "figure", "id": "fig_base_case_seat_ceiling", "caption": "The base case crosses the 1.8m inbound seat ceiling at the 2030 plotted year, two years before the earliest relief at Cape Town International.", "source": "Market Assessment Report, May 2026, p20 (base case by year from a 2025 base of 1,498,829; the 2028 to 2035 points are identical in the Demand-Side Analysis, Jun 2026, p21). Seat ceiling as drawn on the same slide. Airport relief from about 2032: Infrastructure Report, Jul 2026, p103.", "chart": { "type": "line", "categories": ["2025", "2028", "2030", "2032", "2034", "2035"], "series": [{ "name": "Base case arrivals", "values": [1498829, 1673855, 1802929, 1942964, 2094959, 2175778] }], "unit": "", "yMin": 1400000, "refLines": [{ "value": 1800000, "label": "1.8m inbound seat ceiling" }], "footnote": "The model prints only these six year points and no seat table beneath the 1.8m line, so the crossing falls between 2028 (1,673,855) and 2030 (1,802,929). The conservative (1,822,634) and accelerated (2,516,282) cases are printed as 2035 end points only and are not plotted." } },
-    { "type": "p", "text": "The routes that exist are full. Eleven of the 27 international routes in the load-factor table ran above 80% in the year to November 2025, and the network averaged 76.0% on the printed total (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Five of the eleven are mature long-haul routes, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (\"Seasonality\")." },
-    { "type": "p", "text": "Full routes do not add seats of their own accord. MIDAS expects that \"rather than increase capacity carriers will seek to increase revenues via higher selling fares rather than add new services\" (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"). Airlines also pull seats out of winter: June carries 6.4% of the year's international capacity and December 10.8% (\"Seasonality\")." },
-    { "type": "p", "text": "Behind the routes sits the runway. \"The airport, not a shortage of visitors is what now caps Cape Town's tourism growth\" (Infrastructure Report, Jul 2026, p101). One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief only from about 2032 (p101 to p103)." },
-    { "type": "p", "text": "The alternatives do not close the gap in time. George, domestic only, doubles by 2028, and Cape Winelands Airport targets 2028 with no named carrier. In the Infrastructure Report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p104 to p109). Route rights sit a tier up: air service agreements are a national function (Current State Diagnostic, Dec 2025, p58). The Department of Economic Development rates restrictive bilateral agreements a high-impact constraint on airlift (Stakeholder Insights Report, Mar 2026, p24)." },
-
-    { "type": "h3", "text": "Car-only regions and unbookable product" },
-    { "type": "p", "text": "Beyond the Metro the constraint changes shape, not nature. Accessibility scores fall from 4.7 in the Cape Metro to 1.0 in the Central Karoo (Infrastructure Report, Jul 2026, p88 to p90). Large parts of the province outside the Metro and the Garden Route remain effectively car-only destinations (p99). The further from Cape Town, the faster the infrastructure falls away (p90)." },
-    { "type": "p", "text": "Much of what the car can reach cannot be booked. Most rural properties have no OTA presence and Route 62 has the lowest online bookability of the six touring routes (Infrastructure Report, Jul 2026, p95, p87). Even CapeNature takes about 70% of its reservations through a call centre rather than its online platform (Stakeholder Insights Report, Mar 2026, p42)." },
-
-    { "type": "h3", "text": "Growth above the norm" },
-    { "type": "p", "text": "Global tourism grows 3 to 5% a year under stable conditions, the band the Benchmarking Report calls organic growth (Global Benchmarking Report, Mar 2026, p7). Five of the six comparator destinations grew faster (p9). Chile grew about 35%, Singapore about 19%, Kenya 12.8 to 14.6%, Valencia 13 to 14% and New Zealand about 12%. New Zealand's figure matches its 2025 holiday-arrivals growth rather than the 5.9% for total arrivals in 2025 (p53). Melbourne's 4.3% is an Australia-wide forecast rather than an actual (p9, p17), so the comparator range runs from about 4% to 35%." },
-    { "type": "p", "text": "The Western Cape's two paths straddle the band. The base case implies 3.8% a year from 2025 to 2035 and the accelerated case 5.3%, and the accelerated case reverts to base \"without confirmed routes\" (Market Assessment Report, May 2026, p19). The Benchmarking Report counts growth as structural only above that band. It must also be \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (Global Benchmarking Report, Mar 2026, p8)." },
-    { "type": "p", "text": "Cape Town is the axle of the system: international visitors arrive there and disperse from there, and \"Cape Town remains the engine of the system, but growth cannot keep concentrating there\" (Infrastructure Report, Jul 2026, p114). The Department of Economic Development already reads the growth framing as overweight on volumes and asks for a value and spend lens in place of arrivals (Stakeholder Insights Report, Mar 2026, p24). Growth now needs new markets, new seasons and new regions, and each of those is a supply problem before it is a marketing problem." }
-  ]
+ "id": "1.3",
+ "title": "From recovery to growth",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "1.3 From recovery to growth"
+  },
+  {
+   "type": "lead",
+   "text": "The recovery is complete, and the growth that follows is capped by supply rather than demand."
+  },
+  {
+   "type": "h3",
+   "text": "The limits of recovery logic"
+  },
+  {
+   "type": "p",
+   "text": "The study set out in December 2025 to move the destination from recovery to growth; the hypothesis tree's own framing reads that \"the Western Cape must transition from recovery to growth\" (Global Benchmarking Report, Mar 2026, p62). The first half of that task is done. International passenger arrivals at Cape Town International reached 1.44m in FY24/25 against 1.16m in FY19/20, and 1.57m in FY25/26 (Demand-Side Analysis, Jun 2026, p11)."
+  },
+  {
+   "type": "p",
+   "text": "Recovery logic assumed capacity waiting to be refilled. Arrivals fell to 80,400 in FY20/21 (Demand-Side Analysis, Jun 2026, p11), and the task was to refill idle seats, rooms and routes. That slack is gone. South Africa's international seat capacity is back at pre-pandemic levels, and Cape Town International runs the highest average load factor of the country's five largest airports, 79% in 2025 (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\")."
+  },
+  {
+   "type": "p",
+   "text": "Cape Town did more than refill its seats. It added 17 mainline international routes between 2015 and 2025, more than any of eight peer airports, and MIDAS calls the result \"a 'what next' moment\" (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"; \"In Conclusion\"). The rebound that a recovery plan is built to capture has already happened."
+  },
+  {
+   "type": "h3",
+   "text": "Demand without seats"
+  },
+  {
+   "type": "p",
+   "text": "Growth is now supply-constrained, not demand-constrained. Skift's survey of 34 outbound markets counts 97 million high-value, South Africa-interested travellers, of whom only 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). The report's conclusion is that \"the challenge is not demand generation but improving conversion into actual visits\" (p41)."
+  },
+  {
+   "type": "p",
+   "text": "The binding supply is seats. Current air access places a hard ceiling at 1.8 million inbound seats, and the base case, in which Wesgro maintains current activity, reaches 1,802,929 arrivals at the 2030 plotted year (Market Assessment Report, May 2026, p20). The chart below sets the base case against that ceiling."
+  },
+  {
+   "type": "figure",
+   "id": "fig_base_case_seat_ceiling",
+   "caption": "The base case crosses the 1.8m inbound seat ceiling at the 2030 plotted year, two years before the earliest relief at Cape Town International.",
+   "source": "Market Assessment Report, May 2026, p20 (base case by year from a 2025 base of 1,498,829; the 2028 to 2035 points are identical in the Demand-Side Analysis, Jun 2026, p21). Seat ceiling as drawn on the same slide. Airport relief from about 2032: Infrastructure Report, Jul 2026, p103.",
+   "chart": {
+    "type": "line",
+    "categories": [
+     "2025",
+     "2028",
+     "2030",
+     "2032",
+     "2034",
+     "2035"
+    ],
+    "series": [
+     {
+      "name": "Base case arrivals",
+      "values": [
+       1498829,
+       1673855,
+       1802929,
+       1942964,
+       2094959,
+       2175778
+      ]
+     }
+    ],
+    "unit": "",
+    "yMin": 1400000,
+    "refLines": [
+     {
+      "value": 1800000,
+      "label": "1.8m inbound seat ceiling"
+     }
+    ],
+    "footnote": "The model prints only these six year points and no seat table beneath the 1.8m line, so the crossing falls between 2028 (1,673,855) and 2030 (1,802,929). The conservative (1,822,634) and accelerated (2,516,282) cases are printed as 2035 end points only and are not plotted."
+   }
+  },
+  {
+   "type": "p",
+   "text": "The routes that exist are full. Eleven of the 27 international routes in the load-factor table ran above 80% in the year to November 2025, and the network averaged 76.0% on the printed total (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Five of the eleven are mature long-haul routes, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (\"Seasonality\")."
+  },
+  {
+   "type": "p",
+   "text": "Full routes do not add seats of their own accord. MIDAS expects that \"rather than increase capacity carriers will seek to increase revenues via higher selling fares rather than add new services\" (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"). Airlines also pull seats out of winter: June carries 6.4% of the year's international capacity and December 10.8% (\"Seasonality\")."
+  },
+  {
+   "type": "p",
+   "text": "Behind the routes sits the runway. \"The airport, not a shortage of visitors is what now caps Cape Town's tourism growth\" (Infrastructure Report, Jul 2026, p101). One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief only from about 2032 (p101 to p103)."
+  },
+  {
+   "type": "p",
+   "text": "The alternatives do not close the gap in time. George, domestic only, doubles by 2028, and Cape Winelands Airport targets 2028 with no named carrier. In the Infrastructure Report's words, \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p104 to p109). Route rights sit a tier up: air service agreements are a national function (Current State Diagnostic, Dec 2025, p58). The Department of Economic Development rates restrictive bilateral agreements a high-impact constraint on airlift (Stakeholder Insights Report, Mar 2026, p24)."
+  },
+  {
+   "type": "h3",
+   "text": "Car-only regions and unbookable product"
+  },
+  {
+   "type": "p",
+   "text": "Beyond the Metro the constraint changes shape, not nature. Accessibility scores fall from 4.7 in the Cape Metro to 1.0 in the Central Karoo (Infrastructure Report, Jul 2026, p88 to p90). Large parts of the province outside the Metro and the Garden Route remain effectively car-only destinations (p99). The further from Cape Town, the faster the infrastructure falls away (p90)."
+  },
+  {
+   "type": "p",
+   "text": "Much of what the car can reach cannot be booked. Most rural properties have no OTA presence and Route 62 has the lowest online bookability of the six touring routes (Infrastructure Report, Jul 2026, p95, p87). Even CapeNature takes about 70% of its reservations through a call centre rather than its online platform (Stakeholder Insights Report, Mar 2026, p42)."
+  },
+  {
+   "type": "h3",
+   "text": "Growth above the norm"
+  },
+  {
+   "type": "p",
+   "text": "Global tourism grows 3 to 5% a year under stable conditions, the band the Benchmarking Report calls organic growth (Global Benchmarking Report, Mar 2026, p7). Five of the six comparator destinations grew faster (p9). Chile grew about 35%, Singapore about 19%, Kenya 12.8 to 14.6%, Valencia 13 to 14% and New Zealand about 12%. New Zealand's figure matches its 2025 holiday-arrivals growth rather than the 5.9% for total arrivals in 2025 (p53). Melbourne's 4.3% is an Australia-wide forecast rather than an actual (p9, p17), so the comparator range runs from about 4% to 35%."
+  },
+  {
+   "type": "p",
+   "text": "The Western Cape's two paths straddle the band. The base case implies 3.8% a year from 2025 to 2035 and the accelerated case 5.3%, and the accelerated case reverts to base \"without confirmed routes\" (Market Assessment Report, May 2026, p19). The Benchmarking Report counts growth as structural only above that band. It must also be \"driven by deliberate changes to demand drivers, access conditions or product systems, rather than cyclical recovery or short-term promotion\" (Global Benchmarking Report, Mar 2026, p8)."
+  },
+  {
+   "type": "p",
+   "text": "Cape Town is the axle of the system: international visitors arrive there and disperse from there, and \"Cape Town remains the engine of the system, but growth cannot keep concentrating there\" (Infrastructure Report, Jul 2026, p114). The Department of Economic Development already reads the growth framing as overweight on volumes and asks for a value and spend lens in place of arrivals (Stakeholder Insights Report, Mar 2026, p24). Growth now needs new markets, new seasons and new regions, and each of those is a supply problem before it is a marketing problem."
+  }
+ ]
 }

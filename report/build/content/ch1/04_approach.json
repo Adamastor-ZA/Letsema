@@ -1,82 +1,314 @@
 {
-  "id": "1.4",
-  "title": "Approach and method",
-  "blocks": [
-    { "type": "h2", "text": "1.4 Approach and method" },
-    { "type": "lead", "text": "The study ran in four phases from November 2025, tested one hypothesis tree against every interim deliverable and took each figure from a ranked hierarchy of sources." },
-
-    { "type": "h3", "text": "Four phases" },
-    { "type": "p", "text": "The Inception Report set out four phases with printed durations: inception, one month; demand-side analysis, four months; supply-side analysis, three months; enablement and final reporting, seven months (Inception Report, Nov 2025, p11). The Phase 4 detail slide prints six months for the same phase (p22); the report uses seven, which matches the Phase 4 bar on the deliverables gantt, May to the end of November (p12). The deliverables gantt runs November to November without printing years (p12)." },
-    { "type": "p", "text": "Each phase had a distinct job (Inception Report, Nov 2025, p11). Inception aligned expectations and ways of working and produced the Current State Diagnostic as a literature-based baseline (p14). The demand phase covered source markets, India and China route to market, benchmarks and trends; the supply phase covered spatial readiness and community inclusion, and the two overlapped from February to April (p12, p18, p19)." },
-    { "type": "p", "text": "The final phase built the M&E framework, consolidated the strategy into this report and prepared the launch (Inception Report, Nov 2025, p22, p23). Three mechanisms governed the work: fortnightly working sessions with Wesgro, Steering Committee sessions at milestones and fortnightly written status updates (p27). The session calendar ran from the kick-off on 13 November 2025 to a final-report Steerco pencilled for 12 June 2026 (p13)." },
-
-    { "type": "h3", "text": "The hypothesis tree" },
-    { "type": "p", "text": "The analytical core is a hypothesis tree agreed in December 2025 and tested by every workstream since. The Current State Diagnostic printed it with three pillars, six themes and eighteen entries (Current State Diagnostic, Dec 2025, p64). The pillars are Reshape Demand, Transform Supply and Build Enabling Capability, each carrying two themes." },
-    { "type": "p", "text": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). The later deliverables reprinted the tree as a recap and marked the branch they addressed." },
-    { "type": "p", "text": "Three entries changed wording between December 2025 and March 2026 (Stakeholder Insights Report, Mar 2026, p7). The seasonality entry gained mega events; the institutional entry widened from Wesgro, DEDAT and CTT to local, provincial and national; the collaboration entry added public and private. No document in hand dates the change more closely than the 23 January working session and the 6 February Steerco (Inception Report, Nov 2025, p13)." },
-    { "type": "p", "text": "The 14 October 2026 review updated the tree to twenty focus areas and gave each a disposition [Summary of Findings, 14 Oct 2026, pp15 to 16: deck not in hand; page citation to confirm]. The three pillars and six themes stand. The Infrastructure Report of 22 September still carried the eighteen-entry tree, so the move to twenty belongs to the final review rather than to any one workstream (Infrastructure Report, Jul 2026, p2)." },
-    { "type": "p", "text": "The entries moved in three ways; first, the air access and cruise entry split in two, because the aviation assessment and the Infrastructure Report showed them to be different problems. Second, the infrastructure, visa and safety entry moved from the supply pillar to governance, because its levers sit with national government. Third, a workforce and service skills entry was added and flagged, because the 300,000-jobs ambition has no labour analysis behind it (Inception Report, Nov 2025, p4)." },
-    { "type": "p", "text": "Six further entries were reworded to the lever the evidence supports and one was refined; the table below lists each change and the workstream behind it. Ten entries carried through as Validated with title-only edits. Chapter 3 records every disposition and section 1.5 defines the labels [Summary of Findings, 14 Oct 2026, slide 14: the deck's own change count and label definitions to confirm]." },
-    { "type": "table", "caption": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated.", "source": "Current State Diagnostic, Dec 2025, p64 for the December entries; dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed].", "columns": [
-      { "header": "December 2025 entry", "width": 2.6, "align": "left" },
-      { "header": "October 2026 focus area", "width": 2.6, "align": "left" },
-      { "header": "Change", "width": 1.4, "align": "left" },
-      { "header": "Workstream behind it", "width": 2.8, "align": "left" }
-    ], "rows": [
-      ["Close the Air Access and Cruise Capacity Gaps", "Win direct routes and add seats on full routes; Grow cruise calls and ports", "Split; air Reworded, cruise New", "MIDAS route loads and fares-before-seats finding; Infrastructure Report cruise and ports section"],
-      ["Lead Removal of Infrastructure, Visa and Safety Deficits", "Same title, under Governance and leadership", "Moved from theme 2.1 to 3.2", "Stakeholder Insights, Demand-Side barriers and MIDAS place visas and air rights with national government"],
-      ["No December entry", "Develop workforce and service skills", "New; Flagged, untested", "No workstream; the 300,000-jobs ambition has no labour analysis behind it"],
-      ["Develop the Seasonality and Spread Proposition", "Create green-season demand with MICE and events", "Reworded", "MIDAS seasonality; Demand-Side MICE landscape"],
-      ["Facilitate Adoption Along the Path to Purchase", "Make the whole province findable and bookable", "Reworded", "Inclusion Plan, Stakeholder Insights and Infrastructure Report on product that cannot be found or booked"],
-      ["Pivot to Growth Markets (China, India, ME, ASEAN)", "Convert India and China hub traffic", "Reworded", "Demand-Side route to market and MIDAS hub volumes"],
-      ["Ensure Sustainable Destination Management", "Manage climate risk and sustainable tourism", "Reworded", "Stakeholder Insights on LTO funding and climate losses; Inclusion Plan De Rust profile"],
-      ["Review Institutional Arrangements (Wesgro, DEDAT, CTT)", "Align institutional stakeholders across all three tiers", "Reworded", "Stakeholder Insights on fragmented mandates; Diagnostic governance tiers"],
-      ["Drive Community and SME Inclusion", "Embed local destination bodies for community inclusion", "Refined", "SME and Community Inclusion Plan"]
-    ], "boldFirstCol": true },
-
-    { "type": "h3", "text": "Source hierarchy" },
-    { "type": "p", "text": "Every figure in this report carries a source and page, and sources rank in five tiers. Where tiers disagree the higher tier wins; where two documents in one tier disagree, both values are recorded and the value used is stated with the reason. Nothing is reconciled by averaging." },
-    { "type": "numbered", "items": [
-      "Interim deliverables, cited by the date printed on the cover and by PDF page index, since none prints page numbers.",
-      "Working analyses: the Market Assessment Report of May 2026 and the three Skift memos on digital and search insights (December 2025), segmentation (March 2026) and African markets (March 2026), cited by section.",
-      "Wesgro and government data cited through a deliverable (Inception Report, Nov 2025, p34): the Mero 2024 reports for all six districts, the Pero 2025 and the Growth for Jobs Strategy 2023. The same tier holds the Tourism Blueprint, Wesgro's five-year strategy and the StratEcon cruise liner economic contribution studies for 2023, 2024 and 2024/25.",
-      "Benchmark and reference reports, such as the UN Tourism barometer behind the global growth norm (Global Benchmarking Report, Mar 2026, p7).",
-      "External public sources, used only where no higher tier carries the figure and labelled as such."
-    ] },
-    { "type": "p", "text": "Two conventions follow. The MIDAS Aviation Market Assessment and the Skift memos are Word files without page numbers, so they are cited by section title. The 14 October 2026 summary deck ranks below the deliverables: where the two differ, the deliverable's figure is used and the difference is logged." },
-    { "type": "p", "text": "The reconciliation behind this rule logged 55 discrepancies between the agreed structure and the deliverables, seven of them material. They concern the model base year, the October to March share, the routes above 80% load, the comparator growth range, the 2035 ambition, the cruise call baseline and the Infrastructure Report's date. Each is resolved where it is used, with both values shown." },
-
-    { "type": "h3", "text": "Interim deliverables" },
-    { "type": "p", "text": "Nine dated documents carry the evidence, and the table below dates each by its cover. Four carry a later file date than their cover, which the report records rather than hides. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)." },
-    { "type": "table", "caption": "Nine dated documents carry the evidence and answer the SLA clauses the final report consolidates.", "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers as assigned in the agreed report structure of 2 November 2026 [to be checked against the signed Annexure B].", "columns": [
-      { "header": "Document", "width": 2.4, "align": "left" },
-      { "header": "Cover date", "width": 1.1, "align": "left" },
-      { "header": "Version in hand", "width": 3.0, "align": "left" },
-      { "header": "SLA clauses answered", "width": 1.5, "align": "left" },
-      { "header": "Summarised in", "width": 1.2, "align": "left" }
-    ], "rows": [
-      ["Inception Report", "Nov 2025", "37 slides; working session of 28 November 2025; no tree printed", "[to confirm against Annexure B]", "1.1, 1.4"],
-      ["Current State Diagnostic", "Dec 2025", "v2 in the file name; December tree on p64", "[to confirm against Annexure B]", "1.2; folded into 2.1 and 2.5"],
-      ["Stakeholder Insights Report (phase 1)", "Mar 2026", "File dated 12 March 2026; sixteen organisation tables", "1.1.6, 3.2.8", "2.4"],
-      ["Global Benchmarking Report", "Mar 2026", "Cover prints 2026 only; file dated 24 March 2026", "1.1.5, 1.1.11, 3.2.7", "2.3"],
-      ["MIDAS Aviation Market Assessment", "Mar 2026", "Word file marked final draft, dated 20 April 2026; no page numbers", "1.1.1.2", "2.2"],
-      ["Market Assessment Report", "May 2026", "Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base", "Working analysis under 1.1.1 [to confirm]", "2.1"],
-      ["Demand-Side Analysis", "Jun 2026", "Final; file dated 1 October 2026", "1.1.1, 1.1.7, 3.2.3", "2.1"],
-      ["Infrastructure Report", "Jul 2026", "Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded", "1.1.2, 1.1.8, 3.2.4", "2.5"],
-      ["SME and Community Inclusion Plan", "Sep 2026", "File dated 9 October 2026", "1.1.3, 1.1.9, 3.2.5", "2.6"]
-    ], "boldFirstCol": true },
-
-    { "type": "h3", "text": "Stakeholder engagement" },
-    { "type": "p", "text": "Stakeholder engagement ran in four phases alongside the analysis (Stakeholder Insights Report, Mar 2026, p4, p17). Introduction and framing ran from January to March 2026, sense-making and validation in April and May, strategy socialisation in June and July and mobilisation from August into October. The Stakeholder Insights Report closed the first phase with insight tables for sixteen organisations, from Mossel Bay to the CTICC (p20 to p46). Sixteen is a count of those tables; the report prints no tally." },
-    { "type": "p", "text": "The method was strict about what an insight is. Sessions were run, insights extracted, each mapped to a tree entry and then aggregated (Stakeholder Insights Report, Mar 2026, p5). The 223 statements are the project team's paraphrases rated High, Medium or Low, not quotations, so this report attributes them to organisations and never to named individuals (p5, p20 to p46)." },
-    { "type": "p", "text": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6]." },
-
-    { "type": "h3", "text": "Data limits" },
-    { "type": "p", "text": "Five limits in the data shape how the findings read. The headline arrivals series counts international passenger arrivals at Cape Town International, not tourists, and Cape Town air arrivals stand proxy for the province in the market shares (Current State Diagnostic, Dec 2025, p25, p26, p29). No approved methodology exists for provincial tourism GDP and jobs, and no deliverable prints a Western Cape tourism employment baseline (Stakeholder Insights Report, Mar 2026, p37)." },
-    { "type": "p", "text": "[Supply dataset limits to confirm: neither part of the Infrastructure Report, Jul 2026 (p1 to p114) states that the dataset has no geography below district or that records added after May 2026 are placeholders; the source of this statement is needed.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)." },
-    { "type": "p", "text": "The growth model exists in two editions. The May Market Assessment runs from a 2025 base of 1,498,829 arrivals and the June Demand-Side Analysis from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). Both reach 2,175,778 in the base case and 2,516,282 in the accelerated case by 2035. The report runs the growth case from the 2025 base, keeps FY24/25's 1.44m as the recovery baseline and states which is which wherever both appear." },
-
-    { "type": "h3", "text": "Completion plan" },
-    { "type": "p", "text": "A six-week completion plan agreed on 12 October 2026 governs the last stage of the work. [Summary of Findings, 14 Oct 2026: six-week plan from 12 October, with weekly outputs and owners, to be inserted; deck not in hand.] It replaces the inception timetable, which placed report consolidation between 1 June and 27 July 2026 and launch support to 2 November (Inception Report, Nov 2025, p23). The report goes to Steerco, Exco and the Board before the public launch in February 2027." }
-  ]
+ "id": "1.4",
+ "title": "Approach and method",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "1.4 Approach and method"
+  },
+  {
+   "type": "lead",
+   "text": "The study ran in four phases from November 2025, tested one hypothesis tree against every interim deliverable and took each figure from a ranked hierarchy of sources."
+  },
+  {
+   "type": "h3",
+   "text": "Four phases"
+  },
+  {
+   "type": "p",
+   "text": "The Inception Report set out four phases with printed durations: inception, one month; demand-side analysis, four months; supply-side analysis, three months; enablement and final reporting, seven months (Inception Report, Nov 2025, p11). The Phase 4 detail slide prints six months for the same phase (p22); the report uses seven, which matches the Phase 4 bar on the deliverables gantt, May to the end of November (p12). The deliverables gantt runs November to November without printing years (p12)."
+  },
+  {
+   "type": "p",
+   "text": "Each phase had a distinct job (Inception Report, Nov 2025, p11). Inception aligned expectations and ways of working and produced the Current State Diagnostic as a literature-based baseline (p14). The demand phase covered source markets, India and China route to market, benchmarks and trends; the supply phase covered spatial readiness and community inclusion, and the two overlapped from February to April (p12, p18, p19)."
+  },
+  {
+   "type": "p",
+   "text": "The final phase built the M&E framework, consolidated the strategy into this report and prepared the launch (Inception Report, Nov 2025, p22, p23). Three mechanisms governed the work: fortnightly working sessions with Wesgro, Steering Committee sessions at milestones and fortnightly written status updates (p27). The session calendar ran from the kick-off on 13 November 2025 to a final-report Steerco pencilled for 12 June 2026 (p13)."
+  },
+  {
+   "type": "h3",
+   "text": "The hypothesis tree"
+  },
+  {
+   "type": "p",
+   "text": "The analytical core is a hypothesis tree agreed in December 2025 and tested by every workstream since. The Current State Diagnostic printed it with three pillars, six themes and eighteen entries (Current State Diagnostic, Dec 2025, p64). The pillars are Reshape Demand, Transform Supply and Build Enabling Capability, each carrying two themes."
+  },
+  {
+   "type": "p",
+   "text": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). The later deliverables reprinted the tree as a recap and marked the branch they addressed."
+  },
+  {
+   "type": "p",
+   "text": "Three entries changed wording between December 2025 and March 2026 (Stakeholder Insights Report, Mar 2026, p7). The seasonality entry gained mega events; the institutional entry widened from Wesgro, DEDAT and CTT to local, provincial and national; the collaboration entry added public and private. No document in hand dates the change more closely than the 23 January working session and the 6 February Steerco (Inception Report, Nov 2025, p13)."
+  },
+  {
+   "type": "p",
+   "text": "The 14 October 2026 review updated the tree to twenty focus areas and gave each a disposition [Summary of Findings, 14 Oct 2026, pp15 to 16: deck not in hand; page citation to confirm]. The three pillars and six themes stand. The Infrastructure Report of 22 September still carried the eighteen-entry tree, so the move to twenty belongs to the final review rather than to any one workstream (Infrastructure Report, Jul 2026, p2)."
+  },
+  {
+   "type": "p",
+   "text": "The entries moved in three ways; first, the air access and cruise entry split in two, because the aviation assessment and the Infrastructure Report showed them to be different problems. Second, the infrastructure, visa and safety entry moved from the supply pillar to governance, because its levers sit with national government. Third, a workforce and service skills entry was added and flagged, because the 300,000-jobs ambition has no labour analysis behind it (Inception Report, Nov 2025, p4)."
+  },
+  {
+   "type": "p",
+   "text": "Six further entries were reworded to the lever the evidence supports and one was refined; the table below lists each change and the workstream behind it. Ten entries carried through as Validated with title-only edits. Chapter 3 records every disposition and section 1.5 defines the labels [Summary of Findings, 14 Oct 2026, slide 14: the deck's own change count and label definitions to confirm]."
+  },
+  {
+   "type": "table",
+   "caption": "Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated.",
+   "source": "Current State Diagnostic, Dec 2025, p64 for the December entries; dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed].",
+   "columns": [
+    {
+     "header": "December 2025 entry",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "October 2026 focus area",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Change",
+     "width": 1.4,
+     "align": "left"
+    },
+    {
+     "header": "Workstream behind it",
+     "width": 2.8,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Close the Air Access and Cruise Capacity Gaps",
+     "Win direct routes and add seats on full routes; Grow cruise calls and ports",
+     "Split; air Reworded, cruise New",
+     "MIDAS route loads and fares-before-seats finding; Infrastructure Report cruise and ports section"
+    ],
+    [
+     "Lead Removal of Infrastructure, Visa and Safety Deficits",
+     "Same title, under Governance and leadership",
+     "Moved from theme 2.1 to 3.2",
+     "Stakeholder Insights, Demand-Side barriers and MIDAS place visas and air rights with national government"
+    ],
+    [
+     "No December entry",
+     "Develop workforce and service skills",
+     "New; Flagged, untested",
+     "No workstream; the 300,000-jobs ambition has no labour analysis behind it"
+    ],
+    [
+     "Develop the Seasonality and Spread Proposition",
+     "Create green-season demand with MICE and events",
+     "Reworded",
+     "MIDAS seasonality; Demand-Side MICE landscape"
+    ],
+    [
+     "Facilitate Adoption Along the Path to Purchase",
+     "Make the whole province findable and bookable",
+     "Reworded",
+     "Inclusion Plan, Stakeholder Insights and Infrastructure Report on product that cannot be found or booked"
+    ],
+    [
+     "Pivot to Growth Markets (China, India, ME, ASEAN)",
+     "Convert India and China hub traffic",
+     "Reworded",
+     "Demand-Side route to market and MIDAS hub volumes"
+    ],
+    [
+     "Ensure Sustainable Destination Management",
+     "Manage climate risk and sustainable tourism",
+     "Reworded",
+     "Stakeholder Insights on LTO funding and climate losses; Inclusion Plan De Rust profile"
+    ],
+    [
+     "Review Institutional Arrangements (Wesgro, DEDAT, CTT)",
+     "Align institutional stakeholders across all three tiers",
+     "Reworded",
+     "Stakeholder Insights on fragmented mandates; Diagnostic governance tiers"
+    ],
+    [
+     "Drive Community and SME Inclusion",
+     "Embed local destination bodies for community inclusion",
+     "Refined",
+     "SME and Community Inclusion Plan"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Source hierarchy"
+  },
+  {
+   "type": "p",
+   "text": "Every figure in this report carries a source and page, and sources rank in five tiers. Where tiers disagree the higher tier wins; where two documents in one tier disagree, both values are recorded and the value used is stated with the reason. Nothing is reconciled by averaging."
+  },
+  {
+   "type": "numbered",
+   "items": [
+    "Interim deliverables, cited by the date printed on the cover and by PDF page index, since none prints page numbers.",
+    "Working analyses: the Market Assessment Report of May 2026 and the three Skift memos on digital and search insights (December 2025), segmentation (March 2026) and African markets (March 2026), cited by section.",
+    "Wesgro and government data cited through a deliverable (Inception Report, Nov 2025, p34): the Mero 2024 reports for all six districts, the Pero 2025 and the Growth for Jobs Strategy 2023. The same tier holds the Tourism Blueprint, Wesgro's five-year strategy and the StratEcon cruise liner economic contribution studies for 2023, 2024 and 2024/25.",
+    "Benchmark and reference reports, such as the UN Tourism barometer behind the global growth norm (Global Benchmarking Report, Mar 2026, p7).",
+    "External public sources, used only where no higher tier carries the figure and labelled as such."
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Two conventions follow. The MIDAS Aviation Market Assessment and the Skift memos are Word files without page numbers, so they are cited by section title. The 14 October 2026 summary deck ranks below the deliverables: where the two differ, the deliverable's figure is used and the difference is logged."
+  },
+  {
+   "type": "p",
+   "text": "The reconciliation behind this rule logged 55 discrepancies between the agreed structure and the deliverables, seven of them material. They concern the model base year, the October to March share, the routes above 80% load, the comparator growth range, the 2035 ambition, the cruise call baseline and the Infrastructure Report's date. Each is resolved where it is used, with both values shown."
+  },
+  {
+   "type": "h3",
+   "text": "Interim deliverables"
+  },
+  {
+   "type": "p",
+   "text": "Nine dated documents carry the evidence, and the table below dates each by its cover. Four carry a later file date than their cover, which the report records rather than hides. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
+  },
+  {
+   "type": "table",
+   "caption": "Nine dated documents carry the evidence and answer the SLA clauses the final report consolidates.",
+   "source": "Cover pages and file dates of each document; SLA Annexure B clause numbers as assigned in the agreed report structure of 2 November 2026 [to be checked against the signed Annexure B].",
+   "columns": [
+    {
+     "header": "Document",
+     "width": 2.4,
+     "align": "left"
+    },
+    {
+     "header": "Cover date",
+     "width": 1.1,
+     "align": "left"
+    },
+    {
+     "header": "Version in hand",
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "SLA clauses answered",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Summarised in",
+     "width": 1.2,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Inception Report",
+     "Nov 2025",
+     "37 slides; working session of 28 November 2025; no tree printed",
+     "[to confirm against Annexure B]",
+     "1.1, 1.4"
+    ],
+    [
+     "Current State Diagnostic",
+     "Dec 2025",
+     "v2 in the file name; December tree on p64",
+     "[to confirm against Annexure B]",
+     "1.2; folded into 2.1 and 2.5"
+    ],
+    [
+     "Stakeholder Insights Report (phase 1)",
+     "Mar 2026",
+     "File dated 12 March 2026; sixteen organisation tables",
+     "1.1.6, 3.2.8",
+     "2.4"
+    ],
+    [
+     "Global Benchmarking Report",
+     "Mar 2026",
+     "Cover prints 2026 only; file dated 24 March 2026",
+     "1.1.5, 1.1.11, 3.2.7",
+     "2.3"
+    ],
+    [
+     "MIDAS Aviation Market Assessment",
+     "Mar 2026",
+     "Word file marked final draft, dated 20 April 2026; no page numbers",
+     "1.1.1.2",
+     "2.2"
+    ],
+    [
+     "Market Assessment Report",
+     "May 2026",
+     "Working analysis; predecessor of the Demand-Side Analysis; prints the 2025 model base",
+     "Working analysis under 1.1.1 [to confirm]",
+     "2.1"
+    ],
+    [
+     "Demand-Side Analysis",
+     "Jun 2026",
+     "Final; file dated 1 October 2026",
+     "1.1.1, 1.1.7, 3.2.3",
+     "2.1"
+    ],
+    [
+     "Infrastructure Report",
+     "Jul 2026",
+     "Final of 114 slides, file dated 22 September 2026; June 2026 draft of 42 slides superseded",
+     "1.1.2, 1.1.8, 3.2.4",
+     "2.5"
+    ],
+    [
+     "SME and Community Inclusion Plan",
+     "Sep 2026",
+     "File dated 9 October 2026",
+     "1.1.3, 1.1.9, 3.2.5",
+     "2.6"
+    ]
+   ],
+   "boldFirstCol": true
+  },
+  {
+   "type": "h3",
+   "text": "Stakeholder engagement"
+  },
+  {
+   "type": "p",
+   "text": "Stakeholder engagement ran in four phases alongside the analysis (Stakeholder Insights Report, Mar 2026, p4, p17). Introduction and framing ran from January to March 2026, sense-making and validation in April and May, strategy socialisation in June and July and mobilisation from August into October. The Stakeholder Insights Report closed the first phase with insight tables for sixteen organisations, from Mossel Bay to the CTICC (p20 to p46). Sixteen is a count of those tables; the report prints no tally."
+  },
+  {
+   "type": "p",
+   "text": "The method was strict about what an insight is. Sessions were run, insights extracted, each mapped to a tree entry and then aggregated (Stakeholder Insights Report, Mar 2026, p5). The 223 statements are the project team's paraphrases rated High, Medium or Low, not quotations, so this report attributes them to organisations and never to named individuals (p5, p20 to p46)."
+  },
+  {
+   "type": "p",
+   "text": "Two gaps in the record matter: phase 1 engaged no airline, online travel agent or tour operator, and the six demand-side engagements were proposed for phase 2 (Stakeholder Insights Report, Mar 2026, p16). The demand work drew instead on discussions with more than 20 stakeholders of its own (Demand-Side Analysis, Jun 2026, p7). The outcomes of engagement phases 2 to 4 sit in no document in hand [Letsema to supply the phase 2 to 4 engagement record for Appendix A6]."
+  },
+  {
+   "type": "h3",
+   "text": "Data limits"
+  },
+  {
+   "type": "p",
+   "text": "Five limits in the data shape how the findings read. The headline arrivals series counts international passenger arrivals at Cape Town International, not tourists, and Cape Town air arrivals stand proxy for the province in the market shares (Current State Diagnostic, Dec 2025, p25, p26, p29). No approved methodology exists for provincial tourism GDP and jobs, and no deliverable prints a Western Cape tourism employment baseline (Stakeholder Insights Report, Mar 2026, p37)."
+  },
+  {
+   "type": "p",
+   "text": "[Supply dataset limits to confirm: neither part of the Infrastructure Report, Jul 2026 (p1 to p114) states that the dataset has no geography below district or that records added after May 2026 are placeholders; the source of this statement is needed.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+  },
+  {
+   "type": "p",
+   "text": "The growth model exists in two editions. The May Market Assessment runs from a 2025 base of 1,498,829 arrivals and the June Demand-Side Analysis from a 2024 base of 1,445,031 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). Both reach 2,175,778 in the base case and 2,516,282 in the accelerated case by 2035. The report runs the growth case from the 2025 base, keeps FY24/25's 1.44m as the recovery baseline and states which is which wherever both appear."
+  },
+  {
+   "type": "h3",
+   "text": "Completion plan"
+  },
+  {
+   "type": "p",
+   "text": "A six-week completion plan agreed on 12 October 2026 governs the last stage of the work. [Summary of Findings, 14 Oct 2026: six-week plan from 12 October, with weekly outputs and owners, to be inserted; deck not in hand.] It replaces the inception timetable, which placed report consolidation between 1 June and 27 July 2026 and launch support to 2 November (Inception Report, Nov 2025, p23). The report goes to Steerco, Exco and the Board before the public launch in February 2027."
+  }
+ ]
 }
