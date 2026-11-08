@@ -77,7 +77,8 @@ const resetCites = () => { citeState.last = null; citeState.lastSect = null; };
 const MON = '(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*';
 const RE_FULL = new RegExp(`^[A-Z][^;]*?,\\s(?:\\d{1,2}\\s)?${MON}\\s\\d{4}\\b`);
 const RE_DOC = new RegExp(`^(.*?,\\s(?:\\d{1,2}\\s)?${MON}\\s\\d{4})`);
-const RE_NAMED = /^(?:Wesgro Research, Western Cape Tourism Performance|City of Cape Town|Stats SA|Sernatur|UN Tourism|World Tourism Barometer|ACSA|Minister of Transport|George Herald|Western Cape Government|Singapore Tourism Board|Hypertext|Travel News)\b.*\b(?:19|20)\d{2}\b|^SLA Annexure B\b/;
+// Named sources whose citations carry a year but no month; v12 adds the provincial and municipal plans and reviews.
+const RE_NAMED = /^(?:Wesgro Research, Western Cape Tourism Performance|City of Cape Town|Stats SA|Sernatur|UN Tourism|World Tourism Barometer|ACSA|Minister of Transport|George Herald|Western Cape Government|Singapore Tourism Board|Hypertext|Travel News|Wesgro, Strategic Plan|Tourism Blueprint|Growth for Jobs Strategy|Provincial Economic Review and Outlook|Municipal Economic Review and Outlook)\b.*\b(?:19|20)\d{2}\b|^SLA Annexure B\b/;
 const PG = 'pp?\\d+(?:\\s(?:to|and)\\spp?\\d+)?';
 const RE_PAGE = new RegExp(`^(?:computed from\\s)?${PG}(?:,\\s(?:${PG}|computed|counted))*$`);
 const RE_SECT = /^"[^"]+"(?:,\s"[^"]+")*$/;
