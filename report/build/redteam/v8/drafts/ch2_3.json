@@ -337,7 +337,7 @@
   },
   {
    "type": "lead",
-   "text": "Supply sets the ceiling on growth. The gateway's routes run full, the new runway is years away and airlines are expected to raise fares before they add seats. Beyond the Metro the product exists but is hard to reach, book or stay in."
+   "text": "Supply sets the ceiling on growth. The gateway's busiest direct routes run full, the new runway is years away and airlines are expected to raise fares before they add seats. Beyond the Metro the product exists but is hard to reach, book or stay in."
   },
   {
    "type": "p",
@@ -368,7 +368,7 @@
   },
   {
    "type": "p",
-   "text": "Cape Town's 79% average load factor is the joint highest of South Africa's five largest airports, with Lanseria. South Africa averages about 70%, Africa 75% and the world 84% (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"). Regional routes also run full, and all five markets are named for more capacity. Luanda ran at 86.2% and 83.4% on its two airports, Maputo 83.3%, Gaborone 82.3%, Mauritius 81.8% and Harare 81.3%. Domestically, Cape Town to Durban runs at 90.0% and warrants more seats, while other domestic routes sit between 70% and 80% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\")."
+   "text": "Across all its routes, domestic included, Cape Town's 79% load factor is the joint highest of South Africa's five largest airports, with Lanseria. South Africa averages about 70% and Africa 75%, and Cape Town's international routes alone average 76% (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\", \"Seasonality\"; the source puts the global average at 84%). Regional routes also run full, and all five markets are named for more capacity. Luanda ran at 86.2% and 83.4% on its two airports, Maputo 83.3%, Gaborone 82.3%, Mauritius 81.8% and Harare 81.3%. Domestically, Cape Town to Durban runs at 90.0% and warrants more seats, while other domestic routes sit between 70% and 80% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\")."
   },
   {
    "type": "p",
@@ -388,7 +388,7 @@
   },
   {
    "type": "p",
-   "text": "Yet no seat flies direct to Asia: the network shows \"the absence of any direct capacity to any of the Asian markets\" (MIDAS Aviation Market Assessment, Mar 2026, \"The Capetown Market\"). Only one airline serves Cape Town from Asia, against ten from Africa (Current State Diagnostic, Dec 2025, p35). A direct Asian route is therefore a long-term prize, and the near-term seats sit with the hub carriers."
+   "text": "Yet no seat flies direct to Asia: the network shows \"the absence of any direct capacity to any of the Asian markets\" (MIDAS Aviation Market Assessment, Mar 2026, \"The Capetown Market\"). Thirteen of the 27 routes in the load table serve African or Indian Ocean points, and none serves Asia (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\", computed). A direct Asian route is therefore a long-term prize, and the near-term seats sit with the hub carriers. The hub routes are not full. Dubai ran at 72.3%, Addis Ababa at 71.9% and Doha at 65.2% in the year to November 2025 (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). On those routes marketing can still fill seats, which it cannot do on the eleven full ones."
   },
   {
    "type": "h3",
@@ -415,7 +415,7 @@
   },
   {
    "type": "p",
-   "text": "The airport, not the airlines, sets the outer limit. Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour. Two of the airport's seven parts are already full. The R6.39bn runway relocation lifts the cap to 45 movements an hour, a 50% rise. On the planning timeline it completes around 2033, with terminal relief from about 2032 (Infrastructure Report, Jul 2026, p101, p102, p103; Minister of Transport, parliamentary reply, Apr 2025). ACSA's latest schedule is earlier, with the runway finished by December 2029, subject to contract award (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, Aug 2026; the strategy plans on about 2033 and treats the earlier date as upside)."
+   "text": "The airport, not the airlines, sets the outer limit. Cape Town International's single runway has no parallel taxiway and caps movements at about 30 an hour. Two of the airport's seven parts are already full. The R6.39bn runway relocation lifts the cap to 45 movements an hour, a 50% rise. On the planning timeline it completes around 2033, with terminal relief from about 2032 (Infrastructure Report, Jul 2026, p101, p102, p103; Minister of Transport, parliamentary reply, Apr 2025; the 45 comes from the parliamentary reply, while the Infrastructure Report, Jul 2026, p103, prints about 40% more flights an hour). ACSA's latest schedule is earlier, with the runway finished by December 2029, subject to contract award (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, Aug 2026). This strategy plans on about 2033 and treats the earlier date as upside."
   },
   {
    "type": "p",
@@ -431,7 +431,7 @@
   },
   {
    "type": "p",
-   "text": "Cape Town's cruise berth has spare capacity, and port spending is not going to cruise. The berth is used at about 40% of its season capacity of 150 or more calls. In 2024/25 it handled 83 calls and about 127,000 passengers, for R1.79bn of impact (Infrastructure Report, Jul 2026, p110; Current State Diagnostic, Dec 2025, p37; that source counts 79 vessels for the season, while passengers and impact agree). Its limits are a 300m ship length, the South-Easter wind and no shore power (Infrastructure Report, Jul 2026, p110 to p112)."
+   "text": "Cape Town's cruise berth has room, and port spending is not going to cruise. In 2024/25 the berth handled 83 calls against a season capacity of 150 or more, with about 127,000 passengers and R1.79bn of impact (Infrastructure Report, Jul 2026, p110; Current State Diagnostic, Dec 2025, p37; that source counts 79 vessels for the season, while passengers and impact agree; the Infrastructure Report also prints about 40% use of the season, on a basis it does not state). Its limits are a 300m ship length, the South-Easter wind and no shore power (Infrastructure Report, Jul 2026, p110 to p112)."
   },
   {
    "type": "p",
@@ -477,7 +477,7 @@
   },
   {
    "type": "p",
-   "text": "Beyond the Metro and the Garden Route the visitor drives. Public transport is \"effectively absent\" on the West Coast and in the Overberg, and the Winelands have no transit between estates or valleys. Every accessibility measure in the Central Karoo \"sits at the floor\", and even Metro rail is \"functionally unusable for tourism\" (Infrastructure Report, Jul 2026, p49, p90). Stakeholders call weak public transport, congestion and unreliable last-mile access \"structural barriers to visitor movement within and beyond Cape Town\" (Stakeholder Insights Report, Mar 2026, p10). Dispersal therefore \"needs deliberate corridor investment, not organic spillover from Cape Town\" (Infrastructure Report, Jul 2026, p5)."
+   "text": "Beyond the Metro the visitor drives. Even the Garden Route, with its airport, has no shuttle between towns. Public transport is \"effectively absent\" on the West Coast and in the Overberg, and the Winelands have no transit between estates or valleys. Every accessibility measure in the Central Karoo \"sits at the floor\", and even Metro rail is \"functionally unusable for tourism\" (Infrastructure Report, Jul 2026, p49, p88 to p90). Stakeholders call weak public transport, congestion and unreliable last-mile access \"structural barriers to visitor movement within and beyond Cape Town\" (Stakeholder Insights Report, Mar 2026, p10). Dispersal therefore \"needs deliberate corridor investment, not organic spillover from Cape Town\" (Infrastructure Report, Jul 2026, p5)."
   },
   {
    "type": "h3",
@@ -493,7 +493,7 @@
   },
   {
    "type": "p",
-   "text": "Booking is the second gap, and it is widest in the regions. Six touring routes were rated Ready, Developing or Gap on access, accommodation, safety and bookability (Infrastructure Report, Jul 2026, p19; the July final supersedes a June draft). Route 62 has the lowest online bookability of the six, and the West Coast route rates Gap on digital distribution and payments (Infrastructure Report, Jul 2026, p62, p84, p87). CapeNature takes about 70% of its reservations through its call centre rather than its online platform (Stakeholder Insights Report, Mar 2026, p42). Even in the Metro, about 40% or more of smaller operators lack online booking (Infrastructure Report, Jul 2026, p32)."
+   "text": "Booking is the second gap, and it is widest in the regions. Six touring routes were rated Ready, Developing or Gap on access, accommodation, safety and bookability (Infrastructure Report, Jul 2026, p19; the July final supersedes a June draft; Emerging is the overall rating as printed for the West Coast route). Route 62 has the lowest online bookability of the six, and the West Coast route rates Gap on digital distribution and payments (Infrastructure Report, Jul 2026, p62, p84, p87). CapeNature takes about 70% of its reservations through its call centre rather than its online platform (Stakeholder Insights Report, Mar 2026, p42). Even in the Metro, about 40% or more of smaller operators lack online booking (Infrastructure Report, Jul 2026, p32)."
   },
   {
    "type": "ref",
@@ -512,15 +512,11 @@
   },
   {
    "type": "p",
-   "text": "Committed capital closes the air gaps, not the regional ones. The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul, the R20bn V&A Granger Bay expansion and the R3.3bn MyCiTi Phase 2. Yet each region carries its own unfunded gap (Infrastructure Report, Jul 2026, p32, p43, p54, p65, p76, p87). The Cape Metro, rated 4.5, still lacks last-mile transit to Chapman's Peak, Constantia and Cape Point, as well as small-operator online booking and township product. The Cape Winelands, rated 3.4, has Cape Winelands Airport and a wider precinct of R16bn to R20bn. It still has no transit inside the wine triangle, little non-wine product and no pricing for domestic visitors. The Garden Route, rated 3.4, has the George terminal and a R9.4m landing-system upgrade, but no international carrier, a winter trough and no transport between towns."
+   "text": "Committed capital closes the air gaps, not the regional ones. The Metro's pipeline exceeds R30bn, led by ACSA's R11.3bn airport overhaul, the R20bn V&A Granger Bay expansion and the R3.3bn MyCiTi Phase 2. Outside the Metro the money goes to roads, ports, airports and a few precincts: Cape Winelands Airport, the George terminal, the R693m Malmesbury bypass, the R62 reconstruction and the R81.7m Agulhas lighthouse precinct (Infrastructure Report, Jul 2026, p32, p43, p54, p65, p76, p87; the pipeline also holds a wider Winelands airport precinct of R16bn to R20bn, a R9.4m landing-system upgrade at George, the R17m Malgas road, the Saldanha port upgrade and rural broadband to 2026)."
   },
   {
    "type": "p",
-   "text": "The Overberg, rated 2.7, has the R81.7m Agulhas lighthouse precinct and the R17m Malgas road. It lacks accommodation towards De Hoop, bookability east of Hermanus and year-round product. The West Coast, rated 2.5, has the completed R693m Malmesbury bypass and the Saldanha port upgrade. It lacks accommodation depth and digital payments and has no airport. The Central Karoo and Route 62, rated 1.9, have the R62 reconstruction under way and rural broadband to 2026. They lack accommodation depth and emergency support and have no airport."
-  },
-  {
-   "type": "p",
-   "text": "The pipeline adds air, port and road capacity, but none of it buys the transit, beds, booking and product the regions lack. Section 2.4 asks who will fund them."
+   "text": "None of it buys transit between towns, mid-market beds or a booking route. Section 2.4 shows that the bodies that manage and sell the regions are short of money themselves."
   },
   {
    "type": "p",
@@ -530,13 +526,14 @@
    "type": "box",
    "title": "What this means for the strategy",
    "paras": [
-    "**Rewords FA07, Win direct routes and add seats on full routes, and supplies its binding constraint.** Eleven routes above 80%, fares likely to rise before seats and a runway that binds until about 2032; the base case passes the model's seat line by 2030.",
-    "**Supports FA07, FA08 and FA15.** Airport capital is committed; cruise needs product, not berths; regional gaps have no committed capital.",
-    "**Validates FA09, Accelerate tourism-enabling internal mobility.** Accessibility decays from 4.7 to 1.0 and public transport is absent beyond the Metro and the Garden Route. Stakeholders name last-mile access as a barrier, which supports it.",
+    "**Rewords FA07, Win direct routes and add seats on full routes, and supplies its binding constraint.** Eleven routes run above 80% and fares are likely to rise before seats. The runway binds until about 2033, and the base case passes the model's seat line by 2030.",
+    "**Adds FA08, Grow cruise calls and ports.** Cruise needs product, not berths.",
+    "**Supports FA07 and FA15, Crowd in capital with targeted investment strategies.** Airport capital is committed, but regional gaps have no committed capital.",
+    "**Validates FA09, Accelerate tourism-enabling internal mobility.** Accessibility falls from 4.7 to 1.0, and public transport is absent beyond the Metro. Stakeholders name last-mile access as a barrier, which supports it.",
     "**Validates FA10, Support diversified route and product development, and FA11, Align visitor experience in-destination.** Strong assets sit in areas with little tourism use, and mid-market beds are missing. Stakeholders' account of a narrow product set supports FA10.",
     "**Validates FA12, Balance impact on nature-based attractions.** Flagships are full at peak while alternatives are underused, as stakeholders also report.",
     "**Supports FA03, Make the whole province findable and bookable.** Bookability is weakest in the regions, and stakeholders report product that cannot be booked online.",
-    "**Supports FA02, rewords FA04 and validates FA05 and FA06 from the air side.** Winter seats fall to 6.4% of the year in June. No seat flies direct to Asia today, so conversion runs through the hubs. The mature long-haul routes are the fullest, and routes to five regional markets run above 80% and are named for more capacity."
+    "**Supports FA02, rewords FA04 and validates FA05 and FA06 from the air side.** Winter seats fall to 6.4% of the year in June. No seat flies direct to Asia today, and the hub routes still have seats, so conversion runs through the hubs. The mature long-haul routes are the fullest, and routes to five regional markets run above 80% and are named for more capacity."
    ]
   }
  ]

@@ -81,6 +81,13 @@ def section_of(pred):
 edit('ch2/02_demand.json', 'Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.',
      'Four segments hold about 97 million addressable travellers, and each is most concentrated in a named set of markets.')
 
+# Two statements the final read found at odds with the evidence. Chapter 2 gives Cape Town's 79% load factor as joint highest
+# with Lanseria; the touring-route table shows the Winelands and Garden Route routes short on safety, not booking or beds.
+edit('ch1/03_recovery_to_growth.json', "runs the highest average load factor of the country's five largest airports, 79% in 2025",
+     "shares the highest average load factor of the country's five largest airports with Lanseria, 79% in 2025")
+edit('ch2/03_supply.json', 'Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest.',
+     'Only the Cape Peninsula route is rated ready for international visitors; the Winelands and the Garden Route fall short on safety, and the outer routes on access, accommodation or bookability.')
+
 has = lambda s: (lambda b: s in json.dumps(b, ensure_ascii=False))
 cap = lambda c: (lambda b: b.get('caption') == c)
 

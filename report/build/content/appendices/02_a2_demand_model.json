@@ -839,6 +839,18 @@
    ],
    "boldFirstCol": true,
    "message": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target."
+  },
+  {
+   "type": "p",
+   "text": "The two ambitions do not reconcile with each other or with the measured baseline. Neither the 2.8 million ambition nor its later restatement as 5.7 million arrivals and R54.7 billion of spend names a series or a base year (Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5; this strategy treats the second statement as superseded). Twice the 1.44 million international passenger arrivals at Cape Town International in FY24/25 is 2.88 million, close to the first and far from the second (Current State Diagnostic, Dec 2025, p25; computed)."
+  },
+  {
+   "type": "p",
+   "text": "The model's 2025 base of 1,498,829 sits just below South African Tourism's count of 1,538,142 for 2025 (Wesgro Research, Western Cape Tourism Performance: Annual 2025). Yet each market group's 2025 value tracks its 2024 value grown at the model's own rate. The report therefore treats the base as a model value until its basis is confirmed (Market Assessment Report, May 2026, p20; Demand-Side Analysis, Jun 2026, p21; the steps match the growth rates to within 0.2 points, computed from the market-group values in this appendix)."
+  },
+  {
+   "type": "p",
+   "text": "The airport count for FY25/26, 1.57 million, sits above the model's 2025 base and below its 2028 base-case point of 1,673,855 (Market Assessment Report, May 2026, p10, p20). Yet the two differ in measure and period, so the gap is no evidence that the model is cautious."
   }
  ]
 }

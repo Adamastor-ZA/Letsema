@@ -160,7 +160,7 @@
   },
   {
    "type": "p",
-   "text": "Distance is not the barrier. Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (SME and Community Inclusion Plan, Sep 2026, p18). Distance is the binding constraint in none of the 20 (SME and Community Inclusion Plan, Sep 2026, p30). Yet proximity and access carried 35% of the shortlist score, so the result is partly built into the selection (Appendix A5, \"Community shortlist criteria\")."
+   "text": "Distance is not the barrier. Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16; the archetype counts give 92 near a node, while the source prints 93). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (SME and Community Inclusion Plan, Sep 2026, p18). Distance is the binding constraint in none of the 20 (SME and Community Inclusion Plan, Sep 2026, p30). Yet proximity and access carried 35% of the shortlist score, so the result is partly built into the selection (Appendix A5, \"Community shortlist criteria\")."
   },
   {
    "type": "p",
@@ -219,7 +219,7 @@
   },
   {
    "type": "p",
-   "text": "Remote communities with underused assets, 7 long-listed and 2 shortlisted, need access opened and the asset placed on a route product the LTO already sells. Remote communities with nothing inside, 8 long-listed and 1 shortlisted, need procurement and skills first and an asset only once a route product exists. The first move differs by type, but in each the seller or the route comes before the asset."
+   "text": "Remote communities with underused assets, 7 long-listed and 2 shortlisted, need access opened and the asset placed on a route product the LTO already sells (SME and Community Inclusion Plan, Sep 2026, p17; Atlantis is classed remote by Wesgro's naming, though it lies 26 minutes from Darling). Remote communities with nothing inside, 8 long-listed and 1 shortlisted, need procurement and skills first and an asset only once a route product exists. The first move differs by type, but in each the seller or the route comes before the asset."
   },
   {
    "type": "table",
@@ -428,7 +428,7 @@
   },
   {
    "type": "p",
-   "text": "The evidence points to a model built around a seller. It joins a functioning selling capability to demand the node already has, behind launch gates for safety, access and a viable operating model (SME and Community Inclusion Plan, Sep 2026, p32). A pilot in two or three of six profiled communities would test it. It would scale only once bookings, local spend, delivery and safety meet thresholds agreed before launch (SME and Community Inclusion Plan, Sep 2026, p32)."
+   "text": "The evidence points to a model built around a seller. It joins a functioning selling capability to demand the node already has, behind launch gates for safety, access and a viable operating model (SME and Community Inclusion Plan, Sep 2026, p32). A pilot in two or three of the six communities profiled first would test it. The six are Langa, Kayamandi, Zwelihle, De Rust, Doringbaai and Laingsburg, one in each region (SME and Community Inclusion Plan, Sep 2026, p14). It would scale only once bookings, local spend, delivery and safety meet thresholds agreed before launch (SME and Community Inclusion Plan, Sep 2026, p32)."
   },
   {
    "type": "p",
@@ -436,7 +436,7 @@
   },
   {
    "type": "p",
-   "text": "Every gap in this part is a question of who decides, who pays, who measures and who sells. Pillar 3 must settle those four questions, because Pillars 1 and 2 cannot deliver without the answers."
+   "text": "Every gap in this part is a question of who benefits, who pays, who decides or who measures. Pillar 3 must settle those four questions, because Pillars 1 and 2 cannot deliver without the answers."
   },
   {
    "type": "box",
@@ -445,10 +445,10 @@
     "**Refines FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node.",
     "**Rewords FA14, Manage climate risk and sustainable tourism, and supports FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites.",
     "**Supports FA10, Support diversified route and product development, and FA15.** Assets follow sellers and route products, not the reverse.",
-    "**Rewords FA16, Align institutional stakeholders across all three tiers, and supports FA19, Lead removal of infrastructure, visa and safety deficits.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA; mandates blur at district level.",
-    "**Supplies the visa barriers for FA19 and supports it on safety.** Chinese and Gulf travellers face slow, document-heavy visa processes. Safety and extortion gate activation in up to nine communities.",
+    "**Rewords FA16, Align institutional stakeholders across all three tiers.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA.",
+    "**Supports FA19, Lead removal of infrastructure, visa and safety deficits, now under governance because its levers sit nationally.** Visas slow Chinese and Gulf travellers, and safety and extortion gate activation in up to nine communities.",
     "**Validates FA17, Strengthen industry and government collaboration, and FA18, Expedite tourism-enabling policy and data sharing.** Each raised by 15 of 16 organisations, with existing platforms such as JAMS to build on.",
-    "**Supplies the case for FA20, Develop workforce and service skills, as a question; supports FA20 and FA18 on measurement.** Skills gaps raised by CapeNature, the West Coast and the Overberg have no labour analysis behind them (Stakeholder Insights Report, Mar 2026, p27, p39, p43). No count of tourism jobs exists inside the communities, and need rests on Census 2011.",
+    "**Flags FA20, Develop workforce and service skills, as untested.** Skills gaps raised by CapeNature, the West Coast District and the Overberg District have no labour analysis behind them. No count of tourism jobs exists, which also supports FA18.",
     "**Supports FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators."
    ]
   }

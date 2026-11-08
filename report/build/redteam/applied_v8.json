@@ -244,10 +244,6 @@
    ],
    [
     "ch1/01_mandate.json",
-    11
-   ],
-   [
-    "ch1/01_mandate.json",
     12
    ],
    [
@@ -353,6 +349,51 @@
     "to": "kept in place as the SMMEs paragraph of 1.1, with its cross-reference changed from section 2.6 to section 2.4 and its second sentence reworded",
     "reason": "Chapter 2 now has four sections and 2.4 holds the community inclusion evidence; the cross-reference changes from section 2.6 to section 2.4 and the second sentence is reworded; its open item is carried word for word (checked by hand).",
     "carries_all": false
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     11
+    ],
+    "to": "move: appendices/02_a2_demand_model.json (\"Arrivals figures and their bases\", the paragraphs after the table)",
+    "reason": "Final read: the closing note of 1.1 is held to the three rules, so the 2.88 million computation moves to Appendix A2 whole, with its citation",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     10
+    ],
+    "to": "split: the four ambitions stay in 1.1 (\"Of four ambitions, only arrivals has a target the evidence supports\"); the Diagnostic's restatement as 5.7 million arrivals and R54.7 billion moves to move: appendices/02_a2_demand_model.json (\"Arrivals figures and their bases\", the paragraphs after the table)",
+    "reason": "Final read: reconciliation detail leaves the closing note of 1.1",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     16
+    ],
+    "to": "split: the arrivals paragraph stays in 1.1; the 5.7 million and R54.7 billion statement recorded as superseded moves to move: appendices/02_a2_demand_model.json (\"Arrivals figures and their bases\", the paragraphs after the table)",
+    "reason": "Final read: reconciliation detail leaves the closing note of 1.1",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     33
+    ],
+    "to": "split: the open item stays word for word in the closing note of 1.1; the comparison with SA Tourism's count and the 0.2-point test of the market-group steps move to move: appendices/02_a2_demand_model.json (\"Arrivals figures and their bases\", the paragraphs after the table)",
+    "reason": "Final read: the closing note of 1.1 is held to the three rules and the open items",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     35
+    ],
+    "to": "split: the side-by-side rule and its open item stay word for word in the closing note of 1.1; the FY25/26 against 2028 caution (1,673,855) moves to move: appendices/02_a2_demand_model.json (\"Arrivals figures and their bases\", the paragraphs after the table)",
+    "reason": "Final read: the closing note of 1.1 is held to the three rules and the open items",
+    "carries_all": true
    }
   ]
  },
@@ -360,7 +401,7 @@
   "kind": "blocks appended",
   "file": "appendices/02_a2_demand_model.json",
   "from_draft": "s11.json",
-  "blocks": 3
+  "blocks": 6
  },
  {
   "kind": "module created",
@@ -1390,6 +1431,18 @@
   "file": "ch2/02_demand.json",
   "before": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.",
   "after": "Four segments hold about 97 million addressable travellers, and each is most concentrated in a named set of markets."
+ },
+ {
+  "kind": "text edit",
+  "file": "ch1/03_recovery_to_growth.json",
+  "before": "runs the highest average load factor of the country's five largest airports, 79% in 2025",
+  "after": "shares the highest average load factor of the country's five largest airports with Lanseria, 79% in 2025"
+ },
+ {
+  "kind": "text edit",
+  "file": "ch2/03_supply.json",
+  "before": "Only the Cape Peninsula route is rated ready for international visitors, and bookability or accommodation is the weak point on the rest.",
+  "after": "Only the Cape Peninsula route is rated ready for international visitors; the Winelands and the Garden Route fall short on safety, and the outer routes on access, accommodation or bookability."
  },
  {
   "kind": "text edit",

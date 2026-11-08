@@ -195,11 +195,11 @@
  "blocks": [
   {
    "type": "lead",
-   "text": "A record 1.57 million international passengers arrived at Cape Town International in FY25/26, against 1.16 million in FY19/20, before the pandemic (Demand-Side Analysis, Jun 2026, p11; Current State Diagnostic, Dec 2025, p25; the same series stood at 1.44 million in FY24/25). Its average load factor of 79% in 2025 was the highest of South Africa's five largest airports (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"). Between 2015 and 2025 the airport added 17 mainline international routes, more than any of eight peer airports (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"). The recovery is complete. The next stage is harder, because at the peak the system that delivered it is now full."
+   "text": "A record 1.57 million international passengers arrived at Cape Town International in FY25/26, against 1.16 million in FY19/20, before the pandemic (Demand-Side Analysis, Jun 2026, p11; Current State Diagnostic, Dec 2025, p25; the same series stood at 1.44 million in FY24/25; Wesgro Research, Western Cape Tourism Performance: Annual 2025; Wesgro, presentation to the parliamentary committee, 1 Apr 2026; on South African Tourism's provincial count the province received 1,538,142 in 2025, still below the 2 million of 2019, and the two series count different things, as section 1.1 sets out). Its average load factor of 79% in 2025 was the joint highest of South Africa's five largest airports, with Lanseria (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"). Between 2015 and 2025 the airport added 17 mainline international routes, more than any of eight peer airports (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"). On the airport count, the recovery is complete. The next stage is harder, because the system that delivered it is now full at the peak."
   },
   {
    "type": "p",
-   "text": "Interest is not what holds the province back. About 97 million high-value travellers in 34 markets are interested in South Africa, yet only about 1.4 million convert into arrivals (Market Assessment Report, May 2026, p41). Seats and bookings stand in the way. Eleven of 27 international routes run above 80% load across the year, and at the summer peak one runway caps movements at about 30 an hour (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"; Infrastructure Report, Jul 2026, p101). In winter, carriers pull seats: June holds 6.4% of the year's international capacity, against 10.8% in December (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Beyond the Metro, most rural properties are missing from the online travel agents where visitors book (Infrastructure Report, Jul 2026, p95)."
+   "text": "Interest is not what holds the province back. About 97 million high-value travellers in 34 markets are interested in South Africa, yet only about one in seventy of them, some 1.4 million, turns that interest into a trip (Market Assessment Report, May 2026, p41). Seats and bookings stand in the way. Eleven of 27 international routes run above 80% load across the year, and at the summer peak one runway caps movements at about 30 an hour (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"; Infrastructure Report, Jul 2026, p101). In winter, carriers pull seats: June holds 6.4% of the year's international capacity, against 10.8% in December (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Beyond the Metro, most rural properties are missing from the online travel agents where visitors book (Infrastructure Report, Jul 2026, p95)."
   },
   {
    "type": "p",
@@ -215,7 +215,7 @@
   },
   {
    "type": "p",
-   "text": "Yet the premium rests on a few markets, six months and one metro. Five markets supply 63% of overseas arrivals, and the UK, Germany and the USA alone 52% (Demand-Side Analysis, Jun 2026, p13). Most arrive through someone else's hub: the routes through Dubai, Doha, Addis Ababa and Istanbul carry 53% of arrivals on the ten largest routes (Demand-Side Analysis, Jun 2026, p13; computed). October to March carries between 61% and 62% of overseas visitor travel (Current State Diagnostic, Dec 2025, p25, p32; Demand-Side Analysis, Jun 2026, p12; the 2025 shares are provisional and scaled to 100%). The Cape Metro holds 20,281 of the province's 50,332 tourism assets, or 40.3%, and visitors disperse from there (Infrastructure Report, Jul 2026, p2, p22, p23). Growth now needs new markets, new seasons and new regions."
+   "text": "Yet the premium rests on a few markets, six months and one metro. Five markets supply 63% of overseas arrivals, and the UK, Germany and the USA alone 52% (Demand-Side Analysis, Jun 2026, p13). More than half the arrivals on the ten largest routes come through someone else's hub: the routes through Dubai, Doha, Addis Ababa and Istanbul carry 53% of them (Demand-Side Analysis, Jun 2026, p13; computed). October to March carries between 61% and 62% of overseas visitor travel (Current State Diagnostic, Dec 2025, p25, p32; Demand-Side Analysis, Jun 2026, p12; the 2025 shares are provisional and scaled to 100%). The Cape Metro holds 20,281 of the province's 50,332 tourism assets, or 40.3%, and visitors disperse from there (Infrastructure Report, Jul 2026, p2, p22, p23). Growth now needs new markets, new seasons and new regions."
   },
   {
    "type": "h2",
@@ -231,7 +231,7 @@
   },
   {
    "type": "p",
-   "text": "**Full routes.** Five of the eleven full routes are mature long-haul services, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Carriers on full routes raise fares before they add seats (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
+   "text": "**Full routes.** Five of the eleven full routes are mature long-haul services, led by Newark at 88.6%, Atlanta at 84.3% and Frankfurt and London Heathrow at 83.0% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). On full routes, carriers are expected to raise fares before they add seats (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
   },
   {
    "type": "p",
@@ -255,11 +255,15 @@
   },
   {
    "type": "p",
-   "text": "Wesgro's original ask was larger: a strategy to \"double international tourist arrivals to the Western Cape by 2035\" (Inception Report, Nov 2025, p4). The evidence reframes that ambition as growth to 2.5 million. The gateway sets the pace in the summer peak, and demand and conversion set it in the green season and beyond the Metro. The growth model draws three paths from 1,498,829 arrivals in 2025 (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). By 2035 the conservative path reaches 1,822,634, the base path 2,175,778 (about 2.2 million) and the accelerated path 2,516,282."
+   "text": "Wesgro's original ask was larger: a strategy to \"double international tourist arrivals to the Western Cape by 2035\" (Inception Report, Nov 2025, p4). The evidence reframes that ambition as growth to 2.5 million. The province's Growth for Jobs Strategy sets 3 million by 2035 on South African Tourism's count (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). That sits above every path the growth model draws, and section 1.1 explains why the two cannot yet be compared directly. [G4J 2023 document to be read and the 3 million target confirmed against it.]"
   },
   {
    "type": "p",
-   "text": "The paths differ by intervention, not by demand potential. The base path needs Emirates, Qatar, Ethiopian and Turkish Airlines to keep adding capacity and Wesgro's programmes to expand. The accelerated path also needs direct India and China routes and dedicated activation in India, China, the USA and the Gulf. Without confirmed routes, it reverts to base (Demand-Side Analysis, Jun 2026, p19, p20)."
+   "text": "The gateway sets the pace in the summer peak, and demand and conversion set it in the green season and beyond the Metro. The growth model draws three paths from a 2025 base of about 1.5 million (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). By 2035 the conservative path reaches about 1.8 million, the base path about 2.2 million and the accelerated path about 2.5 million. Chapters 1 to 5 call the last two the base and accelerated cases."
+  },
+  {
+   "type": "p",
+   "text": "The paths differ by intervention, not by demand potential. The base path assumes Wesgro holds its current effort while Emirates, Qatar, Ethiopian and Turkish Airlines keep adding capacity. The accelerated path also needs direct India and China routes and dedicated activation in India, China, the USA and the Gulf. Without confirmed routes, it reverts to base (Demand-Side Analysis, Jun 2026, p19, p20)."
   },
   {
    "type": "ref",
@@ -270,11 +274,11 @@
   },
   {
    "type": "p",
-   "text": "On the eleven full routes, marketing cannot make up for missing seats, but on the hub routes, at 65% to 72% load, it can (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\", \"Seasonality\"). The hub markets supply 206,584 of the 676,949 arrivals the base path adds, the largest share (Market Assessment Report, May 2026, p19, p20)."
+   "text": "On the eleven full routes, marketing cannot make up for missing seats, but on the hub routes, at 65% to 72% load, it can (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\", \"Seasonality\"). The hub markets supply about 30% of the arrivals the base path adds, the largest share of any market group (Market Assessment Report, May 2026, p19, p20; computed)."
   },
   {
    "type": "p",
-   "text": "The base path implies growth of 3.8% a year and the accelerated path 5.3%, against a global norm of 3% to 5% (Market Assessment Report, May 2026, p19; Global Benchmarking Report, Mar 2026, p7). Yet in 2024, while recovery was still running, Chile grew 40.4% and Singapore 21%, against 11% for the world (Global Benchmarking Report, Mar 2026, p9; Sernatur, Dec 2025; Singapore Tourism Board, Feb 2025; UN Tourism, World Tourism Barometer, Jan 2025). The fastest growers aimed institutions, marketing and air access at one binding constraint (Global Benchmarking Report, Mar 2026, p58, p59). For Chile that constraint was long-haul access. The Western Cape's has the same shape: seats into one gateway airport."
+   "text": "The base path implies growth of 3.8% a year and the accelerated path 5.3%, against a global norm of 3% to 5% (Market Assessment Report, May 2026, p19; Global Benchmarking Report, Mar 2026, p7). Faster growth has been sustained without a recovery tailwind. Valencia ended 2024 24.4% above 2019, and Santiago's airport grew from about 16 million passengers in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p46, p24, p25). The fastest growers aimed institutions, marketing and air access at one binding constraint (Global Benchmarking Report, Mar 2026, p58, p59). For Chile that constraint was long-haul access. The Western Cape's constraint has the same shape: seats into one gateway airport."
   },
   {
    "type": "h2",
@@ -282,15 +286,15 @@
   },
   {
    "type": "p",
-   "text": "In Pillar 1, Reshape demand, the work moves from awareness to conversion. The province is under-sold in its growth markets and hard to book outside its core. Three of its six focus areas aim at conversion: green-season seats, bookable product and hub traffic already in the air. About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs (Demand-Side Analysis, Jun 2026, p46, p48; computed). Singapore shows how a hub can turn transit into visits, and Melbourne uses its events calendar to steady demand (Global Benchmarking Report, Mar 2026, p18, p40, p59)."
+   "text": "In Pillar 1, Reshape demand, the work moves from awareness to conversion. The province is under-sold in its growth markets and hard to book outside its core. Three of its six focus areas aim at conversion: green-season events, bookable product and hub traffic already in the air. About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs (Demand-Side Analysis, Jun 2026, p46, p48; computed). Singapore shows how a hub can turn transit into visits, and Melbourne uses its events calendar to steady demand (Global Benchmarking Report, Mar 2026, p18, p40, p59)."
   },
   {
    "type": "p",
-   "text": "In Pillar 2, Transform supply, the work moves from new attractions to seats and finished experiences. The pillar keeps one capacity entry: frequency and larger aircraft on the full routes ahead of runway relief. In 2027 and 2028, Initiative I6 designs a public-private air access fund to back it (section 4.3), the lesson drawn from Chile (Global Benchmarking Report, Mar 2026, p28). Five more cover reach, product and experience. At the flagship sites, Boulders is near carrying capacity and Cableway queues run up to three hours (Stakeholder Insights Report, Mar 2026, p24, p36). The task is to turn existing assets into complete visitor experiences (Infrastructure Report, Jul 2026, p114)."
+   "text": "In Pillar 2, Transform supply, the work moves from new attractions to seats and finished experiences. The pillar has one capacity entry: frequency and larger aircraft on the full routes ahead of runway relief. Following Chile, Initiative I6 designs a public-private air access fund in 2027 and 2028 to back it (Global Benchmarking Report, Mar 2026, p28; section 4.3). Five more cover cruise, reach, product and experience. Cruise grows through ships and excursions rather than port capital (Infrastructure Report, Jul 2026, p112). At the flagship sites the task is to manage flows, because Boulders is near carrying capacity and Cableway queues run up to three hours (Stakeholder Insights Report, Mar 2026, p24, p36). Elsewhere it is to turn existing assets into complete visitor experiences (Infrastructure Report, Jul 2026, p114)."
   },
   {
    "type": "p",
-   "text": "In Pillar 3, Build enabling capability, the work moves from separate mandates to shared decisions, capital and data. The pillar answers four questions. First, who benefits: twenty township and rural communities hold 18.4% of the province's residents but receive a traced 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). Second, who pays: the capital pipeline funds airports, ports, roads and rail, but none of it reaches tourism product (Infrastructure Report, Jul 2026, p32 to p87, p100, p112). Third, who decides: with visas and air service agreements held nationally, the province leads by escalation (Current State Diagnostic, Dec 2025, p58). Fourth, who measures: more than twenty bodies produce tourism data, yet no one holds a single view of visitor behaviour (Current State Diagnostic, Dec 2025, p56, p57). New Zealand recommends yield, not arrivals, as the regional measure (Global Benchmarking Report, Mar 2026, p55, p56)."
+   "text": "In Pillar 3, Build enabling capability, the work moves from separate mandates to shared decisions, capital and data. The pillar answers four questions. First, who benefits: twenty township and rural communities hold 18.4% of the province's residents, but the spend traced to them is a floor of 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). Second, who pays: the capital pipeline funds airports, ports, roads and rail, but almost none of it reaches the beds, booking and product the regions lack (Infrastructure Report, Jul 2026, p32 to p87, p100, p112). Third, who decides: with visas and air service agreements held nationally, the province leads by escalation (Current State Diagnostic, Dec 2025, p58). Fourth, who measures: more than twenty bodies produce tourism data, yet no one holds a single view of visitor behaviour (Current State Diagnostic, Dec 2025, p56, p57). The New Zealand case argues for yield over arrivals, so the plan tracks spend, season and spread beside arrivals (Global Benchmarking Report, Mar 2026, p55, p56; section 5.3)."
   },
   {
    "type": "p",
@@ -387,6 +391,10 @@
   },
   {
    "type": "p",
+   "text": "The table shows the model's arrivals baseline, and the airport count is tracked beside it, from 1.44 million in FY24/25 (Demand-Side Analysis, Jun 2026, p11; section 5.3). The spend target needs the same care. The model's 2024 spend of R27.12bn sits 19% above the R22.7bn reported for FY2024, so R40.6bn is not measured from R25.9bn (Market Assessment Report, May 2026, p10, p24). [Open item: Skift to rebase the spend path on the FY2025 actual of R25.9bn.]"
+  },
+  {
+   "type": "p",
    "text": "Jobs wait on the labour analysis, so the ambition of 300,000 tourism-linked jobs is tested before it becomes a target. The green-season share starts at 38.1%, but the share outside the Metro has no baseline until the data protocol delivers one in 2027 (section 5.3). Gate 1 turns the missing baselines into targets, so the first two years must produce data as well as results."
   },
   {
@@ -447,7 +455,7 @@
   },
   {
    "type": "note",
-   "text": "Several items remain open, from page references still to confirm to the source of the 250-call cruise plan and a provincial employment baseline. Each is marked in square brackets where it occurs and listed with an owner in the accompanying open-items register."
+   "text": "Several items remain open, from page references still to confirm to the source of the 250-call cruise target and a provincial employment baseline. Each is marked in square brackets where it occurs and listed with an owner in the accompanying open-items register."
   }
  ]
 }

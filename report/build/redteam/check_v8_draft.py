@@ -13,16 +13,31 @@ Prints ERROR and WARN lines and a summary; exit code 1 if any ERROR.
   --chapter2         also check that every Chapter 2 v7 block is absorbed or relocated exactly once across the drafts given
   --strict-callouts  treat naming an interim deliverable in the text as an error (always on for exec and ch2 modules)
 """
-import json, os, re, sys
+import json, os, re, subprocess, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 C = os.path.join(HERE, '..', 'content')
 V7 = {}
 
 
+V7_COMMIT = os.environ.get('V7_COMMIT', 'a8ef7a0')  # the draft v7 commit: drafts are always checked against v7, wherever content/ stands
+REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
+
+
+def git_show(rel):
+    out = subprocess.run(['git', '-C', REPO, 'show', f'{V7_COMMIT}:report/build/content/{rel}'], capture_output=True, text=True)
+    if out.returncode: raise FileNotFoundError(rel)
+    return json.loads(out.stdout)
+
+
+def v7_files():
+    out = subprocess.run(['git', '-C', REPO, 'ls-tree', '-r', '--name-only', V7_COMMIT, 'report/build/content/'], capture_output=True, text=True).stdout
+    return [x[len('report/build/content/'):] for x in out.split() if x.endswith('.json')]
+
+
 def v7(f):
     if f not in V7:
-        V7[f] = json.load(open(os.path.join(C, f)))['blocks']
+        V7[f] = git_show(f)['blocks']
     return V7[f]
 
 
@@ -174,8 +189,7 @@ def check(path, errs, warns, chapter2_seen, strict):
     for o in sorted(open_src - open_new): E(f'open item dropped: [{o[:120]}]')
     global ALL_V7_TEXT
     if ALL_V7_TEXT is None:
-        ALL_V7_TEXT = ' '.join(block_text(b) for root, _, fs in os.walk(C) for fn in fs if fn.endswith('.json')
-                               for b in json.load(open(os.path.join(root, fn)))['blocks'])
+        ALL_V7_TEXT = ' '.join(block_text(b) for f in v7_files() for b in v7(f))
     invented = sorted(nums(' '.join(block_text(b) for k, b in blocks if k == 'new')) - nums(ALL_V7_TEXT), key=lambda x: (len(x), x))
     if invented: E(f'numbers that appear nowhere in the v7 report (check, or show the computation in the text): {invented[:40]}')
     words = sum(len(' '.join(prose(b)).split()) for k, b in blocks if k == 'new')
@@ -191,7 +205,7 @@ def main():
         print(f'{os.path.basename(p)}: {w} words of new prose')
         total += w
     if '--chapter2' in sys.argv:
-        for f in sorted(x for x in os.listdir(os.path.join(C, 'ch2')) if x.endswith('.json')):
+        for f in sorted(x[len('ch2/'):] for x in v7_files() if x.startswith('ch2/')):
             for j, b in enumerate(v7('ch2/' + f)):
                 if b['type'] in ('pagebreak', 'spacer'): continue
                 hits = seen.get(('ch2/' + f, j), [])
