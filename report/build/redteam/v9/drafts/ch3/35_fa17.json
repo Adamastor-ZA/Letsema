@@ -85,11 +85,8 @@
    ]
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/35_fa17.json",
-    3
-   ]
+   "type": "lead",
+   "text": "Fifteen of the sixteen organisations heard raised collaboration, and the channels already exist in JAMS, the bid teams and the tour-operator forums, so the task is to turn existing forums into one joint plan."
   },
   {
    "type": "h4",
@@ -97,7 +94,7 @@
   },
   {
    "type": "p",
-   "text": "Collaboration is one of the two concerns stakeholders share most widely, and the channels for it already work. Fifteen of the 16 organisations engaged raised it, as many as raised data sharing (section 2.4). FEDHASA reports that Western Cape tourism associations already coordinate through JAMS with Wesgro, the Western Cape Government and the City of Cape Town (Stakeholder Insights Report, Mar 2026, p31). C-BRTA cites biannual tour-operator forums, and the Department of Tourism cites statistics committees that already convene public and private stakeholders (Stakeholder Insights Report, Mar 2026, p28, p37). The province does not need another forum. It needs the forums it has to plan together."
+   "text": "Collaboration is one of the two concerns stakeholders share most widely, and the channels for it already work. Fifteen of the 16 organisations heard raised it, as many as raised data sharing (Stakeholder Insights Report, Mar 2026, p20 to p46; a rough count of organisations with at least one collaboration insight, taken from the appendix tables by organisation and not weighted by insight row; section 2.4). FEDHASA reports that Western Cape tourism associations already coordinate through JAMS with Wesgro, the Western Cape Government and the City of Cape Town (Stakeholder Insights Report, Mar 2026, p31). C-BRTA cites biannual tour-operator forums, and the Department of Tourism cites statistics committees that already convene public and private stakeholders (Stakeholder Insights Report, Mar 2026, p28, p37). The province does not need another forum. It needs the forums it has to plan together."
   },
   {
    "type": "p",
@@ -112,19 +109,64 @@
    "text": "What the evidence shows"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/35_fa17.json",
-    8
-   ]
+   "type": "table",
+   "caption": "Evidence for focus area 17",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Demand-Side Analysis, Jun 2026 (DSA).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Almost everyone raised it",
+     "15 of the 16 organisations raised at least one collaboration insight, 23 rows in all",
+     "SIR p20 to p46"
+    ],
+    [
+     "A channel exists",
+     "Tourism associations already coordinate through JAMS with Wesgro, the Western Cape Government and the City of Cape Town (FEDHASA)",
+     "SIR p31"
+    ],
+    [
+     "Out of step",
+     "Misalignment between public tourism institutions and key industry bodies is weakening collaboration (Department of Economic Development)",
+     "SIR p25"
+    ],
+    [
+     "Forums are marketing-led",
+     "Provincial and regional forums are dominated by destination marketing rather than development, and support is not tailored to districts (West Coast District Municipality)",
+     "SIR p39"
+    ],
+    [
+     "Joint selling works",
+     "Stakeholders collaborate well on bids; 36 conference bids secured in 2024/25 are expected to bring 27,000+ delegates and R745 million by 2028",
+     "SIR p46; DSA p36"
+    ],
+    [
+     "The trade is missing",
+     "No airline, OTA or tour operator gave a recorded view",
+     "SIR p16"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "Collaboration is wanted almost everywhere and already works in places, but the forums are marketing-led and the trade's voice is missing."
   },
   {
    "type": "p",
-   "text": "The record describes a system that collaborates to sell and stalls when it must plan. Joint work succeeds on a bid, a cruise call or a route, where the task is bounded and the payoff shared. It weakens on development, where no forum owns the agenda and operators sit one step removed. The airlines and distributors that fill the seats are also absent. No airline, online travel agency or tour operator took part in the first phase of engagement (Stakeholder Insights Report, Mar 2026, p16)."
-  },
-  {
-   "type": "p",
-   "text": "The count behind that breadth is rough. It records organisations with at least one collaboration insight, not the weight of each (Stakeholder Insights Report, Mar 2026, p20 to p46; counted from the appendix tables by organisation, not by insight row)."
+   "text": "The record describes a system that collaborates to sell and stalls when it must plan. Joint work succeeds on a bid, a cruise call or a route, where the task is bounded and the payoff shared. It weakens on development, where no forum owns the agenda and operators sit one step removed. The airlines and distributors that fill the seats are also absent. No airline, online travel agency or tour operator gave a recorded view (Stakeholder Insights Report, Mar 2026, p16)."
   },
   {
    "type": "h4",
@@ -139,10 +181,55 @@
    "text": "Partners carry the regional and bidding work. District municipalities, DEDAT and the LTOs give regional forums a development agenda and tailor provincial support to district needs. The CTICC and the universities supply the academic and sector champions on whom international bids depend (Stakeholder Insights Report, Mar 2026, p46). Nationally, the province asks SA Tourism to include provincial assets in its campaigns for emerging source markets, which Robben Island Museum also seeks (Stakeholder Insights Report, Mar 2026, p33). From 2029 the joint industry plan is agreed and reviewed each year."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/35_fa17.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Use JAMS as the single consultation channel to the associations, and add the Tour Guides Association",
+     "Wesgro CEO's office; FEDHASA"
+    ],
+    [
+     "Wesgro",
+     "Set up sector councils for wine, business events, adventure and culture inside Steerco's structure",
+     "Tourism; Convention Bureau; industry bodies"
+    ],
+    [
+     "Wesgro",
+     "Bring airlines, online travel agencies and tour operators into the joint plan, starting with Trip.com Group, Thomas Cook India, dnata Travel, China International Travel Service and Emirates",
+     "Destination Marketing; Air Access"
+    ],
+    [
+     "Partners",
+     "Supply academic and sector champions for international bids",
+     "CTICC; universities"
+    ],
+    [
+     "Partners",
+     "Give regional forums a development agenda and tailor provincial support to district needs",
+     "District municipalities; DEDAT; LTOs"
+    ],
+    [
+     "National",
+     "Include provincial assets in SA Tourism's campaigns for emerging source markets",
+     "SA Tourism"
+    ]
    ]
   },
   {

@@ -4,7 +4,7 @@
  "blocks": [
   {
    "type": "lead",
-   "text": "A record 1.57 million international passengers arrived at Cape Town International in FY25/26, against 1.16 million in FY19/20, before the pandemic (Demand-Side Analysis, Jun 2026, p11; Current State Diagnostic, Dec 2025, p25; the same series stood at 1.44 million in FY24/25; Wesgro Research, Western Cape Tourism Performance: Annual 2025; Wesgro, presentation to the parliamentary committee, 1 Apr 2026; on South African Tourism's provincial count the province received 1,538,142 in 2025, still below the 2 million of 2019, and the two series count different things, as section 1.1 sets out). Its average load factor of 79% in 2025 was the joint highest of South Africa's five largest airports, with Lanseria (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"). Between 2015 and 2025 the airport added 17 mainline international routes, more than any of eight peer airports (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"). On the airport count, the recovery is complete. The next stage is harder, because the system that delivered it is now full at the peak."
+   "text": "A record 1.57 million international passengers arrived at Cape Town International in FY25/26, against 1.16 million in FY19/20, before the pandemic (Demand-Side Analysis, Jun 2026, p11; Current State Diagnostic, Dec 2025, p25; the same series stood at 1.44 million in FY24/25; Wesgro Research, Western Cape Tourism Performance: Annual 2025; Wesgro, presentation to the parliamentary committee, 1 Apr 2026; on South African Tourism's provincial count the province received 1,538,142 in 2025, still below the 2 million of 2019, and the two series count different things, as section 1.1 sets out). Its load factor of 79% across all its seats in 2025 was the joint highest of South Africa's five largest airports, with Lanseria (MIDAS Aviation Market Assessment, Mar 2026, \"The South African Market\"). Between 2015 and 2025 the airport added 17 mainline international routes, more than any of eight peer airports (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"). On the airport count, the recovery is complete. The next stage is harder, because the system that delivered it is now full at the peak."
   },
   {
    "type": "p",
@@ -32,7 +32,7 @@
   },
   {
    "type": "p",
-   "text": "Five constraints cap the case, and none of them is a lack of interest in the province."
+   "text": "Five constraints cap the case, and none of them is a lack of interest in the province. [Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]"
   },
   {
    "type": "p",
@@ -138,11 +138,11 @@
   },
   {
    "type": "p",
-   "text": "On the eleven full routes, marketing cannot make up for missing seats, but on the hub routes, at 65% to 72% load, it can (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\", \"Seasonality\"). The hub markets supply about 30% of the arrivals the base path adds, the largest share of any market group (Market Assessment Report, May 2026, p19, p20; computed)."
+   "text": "On the eleven full routes, marketing cannot make up for missing seats, but on the Dubai, Addis Ababa and Doha routes, at 65% to 72% load, it can (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\", \"Seasonality\"). The hub markets supply about 30% of the arrivals the base path adds, the largest share of any market group (Market Assessment Report, May 2026, p19, p20; computed)."
   },
   {
    "type": "p",
-   "text": "The base path implies growth of 3.8% a year and the accelerated path 5.3%, against a global norm of 3% to 5% (Market Assessment Report, May 2026, p19; Global Benchmarking Report, Mar 2026, p7). Faster growth has been sustained without a recovery tailwind. Valencia ended 2024 24.4% above 2019, and Santiago's airport grew from about 16 million passengers in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p46, p24, p25). The fastest growers aimed institutions, marketing and air access at one binding constraint (Global Benchmarking Report, Mar 2026, p58, p59). For Chile that constraint was long-haul access. The Western Cape's constraint has the same shape: seats into one gateway airport."
+   "text": "The base path implies growth of 3.8% a year and the accelerated path 5.3%, against a global norm of 3% to 5% (Market Assessment Report, May 2026, p19; Global Benchmarking Report, Mar 2026, p7). Faster growth has been sustained outside a recovery. Santiago's airport grew from about 16 million passengers in 2010 to more than 26 million in 2019, at least 5.5% a year. Chile's international seat capacity rose about 40% to 50% from 2013 to 2019 (Global Benchmarking Report, Mar 2026, p24 to p26; computed). The fastest growers aimed institutions, marketing and air access at one binding constraint (Global Benchmarking Report, Mar 2026, p58, p59). For Chile that constraint was long-haul access. The Western Cape's constraint has the same shape: seats into one gateway airport."
   },
   {
    "type": "h2",
@@ -173,13 +173,13 @@
   },
   {
    "type": "p",
-   "text": "The twenty focus areas come from testing the December 2025 hypothesis tree against the evidence. Ten carried through as Validated and none was withdrawn (section 1.4)."
+   "text": "The strategy rests on a hypothesis tree of three pillars, six themes and twenty focus areas (section 1.4). Each focus area names a lever on growth, framed so the evidence could test it. Nineteen were tested against the evidence of a named workstream. The evidence supports all nineteen, nine strongly and ten with a gap or a qualifier (Appendix A1). The twentieth, workforce and service skills, waits on a labour analysis still to be commissioned."
   },
   {
    "type": "figure",
    "id": "fig_0_tree",
-   "caption": "The updated hypothesis tree",
-   "source": "Current State Diagnostic, Dec 2025, p64 (December tree); dispositions as recorded at the 14 October 2026 review; traceability table, Appendix A1.",
+   "caption": "The hypothesis tree",
+   "source": "Letsema; Appendix A1 traces each focus area to its evidence.",
    "chart": {
     "type": "tree",
     "goal": "Accelerating tourism growth: toward 2.5 million international arrivals by 2035",
@@ -193,18 +193,15 @@
         "areas": [
          {
           "code": "1",
-          "name": "Respond to growth segment traveller preferences",
-          "disposition": "Validated"
+          "name": "Respond to growth segment traveller preferences"
          },
          {
           "code": "2",
-          "name": "Create green-season demand with MICE and events",
-          "disposition": "Reworded"
+          "name": "Create green-season demand with MICE and events"
          },
          {
           "code": "3",
-          "name": "Make the whole province findable and bookable",
-          "disposition": "Reworded"
+          "name": "Make the whole province findable and bookable"
          }
         ]
        },
@@ -213,18 +210,15 @@
         "areas": [
          {
           "code": "4",
-          "name": "Convert India and China hub traffic",
-          "disposition": "Reworded"
+          "name": "Convert India and China hub traffic"
          },
          {
           "code": "5",
-          "name": "Increase yield in mature markets",
-          "disposition": "Validated"
+          "name": "Increase yield in mature markets"
          },
          {
           "code": "6",
-          "name": "Build a regional foundation (Africa)",
-          "disposition": "Validated"
+          "name": "Build a regional foundation (Africa)"
          }
         ]
        }
@@ -239,18 +233,15 @@
         "areas": [
          {
           "code": "7",
-          "name": "Win direct routes and add seats on full routes",
-          "disposition": "Reworded"
+          "name": "Win direct routes and add seats on full routes"
          },
          {
           "code": "8",
-          "name": "Grow cruise calls and ports",
-          "disposition": "New"
+          "name": "Grow cruise calls and ports"
          },
          {
           "code": "9",
-          "name": "Accelerate tourism-enabling internal mobility",
-          "disposition": "Validated"
+          "name": "Accelerate tourism-enabling internal mobility"
          }
         ]
        },
@@ -259,18 +250,15 @@
         "areas": [
          {
           "code": "10",
-          "name": "Support diversified route and product development",
-          "disposition": "Validated"
+          "name": "Support diversified route and product development"
          },
          {
           "code": "11",
-          "name": "Align visitor experience in-destination",
-          "disposition": "Validated"
+          "name": "Align visitor experience in-destination"
          },
          {
           "code": "12",
-          "name": "Balance impact on nature-based attractions",
-          "disposition": "Validated"
+          "name": "Balance impact on nature-based attractions"
          }
         ]
        }
@@ -285,18 +273,15 @@
         "areas": [
          {
           "code": "13",
-          "name": "Embed local destination bodies for community inclusion",
-          "disposition": "Refined"
+          "name": "Embed local destination bodies for community inclusion"
          },
          {
           "code": "14",
-          "name": "Manage climate risk and sustainable tourism",
-          "disposition": "Reworded"
+          "name": "Manage climate risk and sustainable tourism"
          },
          {
           "code": "15",
-          "name": "Crowd in capital with targeted investment strategies",
-          "disposition": "Validated"
+          "name": "Crowd in capital with targeted investment strategies"
          }
         ]
        },
@@ -305,28 +290,23 @@
         "areas": [
          {
           "code": "16",
-          "name": "Align institutional stakeholders across all three tiers",
-          "disposition": "Reworded"
+          "name": "Align institutional stakeholders across all three tiers"
          },
          {
           "code": "17",
-          "name": "Strengthen industry and government collaboration",
-          "disposition": "Validated"
+          "name": "Strengthen industry and government collaboration"
          },
          {
           "code": "18",
-          "name": "Expedite tourism-enabling policy and data sharing",
-          "disposition": "Validated"
+          "name": "Expedite tourism-enabling policy and data sharing"
          },
          {
           "code": "19",
-          "name": "Lead removal of infrastructure, visa and safety deficits",
-          "disposition": "Moved"
+          "name": "Lead removal of infrastructure, visa and safety deficits"
          },
          {
           "code": "20",
-          "name": "Develop workforce and service skills",
-          "disposition": "Flagged"
+          "name": "Develop workforce and service skills"
          }
         ]
        }
@@ -337,12 +317,12 @@
   },
   {
    "type": "p",
-   "text": "Each table gives a focus area's disposition, its Chapter 3 finding word for word and its initiative."
+   "text": "Each table gives a focus area's Chapter 3 finding word for word and its initiative."
   },
   {
    "type": "table",
    "caption": "Pillar 1: Reshape demand",
-   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "source": "Chapter 3 toplines, quoted verbatim. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
      "header": "Focus area",
@@ -350,13 +330,8 @@
      "align": "left"
     },
     {
-     "header": "Disposition",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
      "header": "What the evidence shows and what follows",
-     "width": 4.2,
+     "width": 5.3,
      "align": "left"
     },
     {
@@ -368,37 +343,31 @@
    "rows": [
     [
      "1 Respond to growth segment traveller preferences",
-     "Validated",
      "Four traveller segments, each concentrated in named home markets, give Wesgro a sharper target than country alone, and the province scores 3.7 to 4.6 out of 5 on its ability to win them.",
      "I1"
     ],
     [
      "2 Create green-season demand with MICE and events",
-     "Reworded",
      "The green season is a seat problem and an events problem at once. June holds 6.4% of the year's international seats, and business events are the lever best placed to fill the trough, though international meetings now peak from September to November.",
      "I2"
     ],
     [
      "3 Make the whole province findable and bookable",
-     "Reworded",
      "Outside the Cape Peninsula, the Winelands and the Garden Route, most product cannot be booked where travellers book, so interest the province has already earned has nowhere to land.",
      "I3"
     ],
     [
      "4 Convert India and China hub traffic",
-     "Reworded",
      "About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs, and with no direct Indian route likely before 2030, converting that flow is the lever available now.",
      "I4"
     ],
     [
      "5 Increase yield in mature markets",
-     "Validated",
-     "The mature markets already pay the most and fill the fullest routes, so growth there comes from more value per visitor and more seats on existing routes, not from more marketing.",
+     "The mature markets already pay the most and fill the fullest routes, so growth there comes from more value per visitor and more seats on existing routes, not from broad awareness campaigns.",
      "I1"
     ],
     [
      "6 Build a regional foundation (Africa)",
-     "Validated",
      "Regional Africa is the province's steadiest volume and its least developed premium market: Zimbabwe and Namibia supply 62% of African arrivals, while West African visitors spend the most per visit.",
      "I5"
     ]
@@ -409,7 +378,7 @@
   {
    "type": "table",
    "caption": "Pillar 2: Transform supply",
-   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "source": "Chapter 3 toplines, quoted verbatim. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
      "header": "Focus area",
@@ -417,13 +386,8 @@
      "align": "left"
     },
     {
-     "header": "Disposition",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
      "header": "What the evidence shows and what follows",
-     "width": 4.2,
+     "width": 5.3,
      "align": "left"
     },
     {
@@ -435,37 +399,31 @@
    "rows": [
     [
      "7 Win direct routes and add seats on full routes",
-     "Reworded",
-     "Eleven of 27 international routes run above 80% load and carriers raise fares before seats, so the province must win frequency and larger aircraft now, ahead of runway relief in about 2033.",
+     "Eleven of 27 international routes run above 80% load and carriers are expected to price before adding seats, so the province must win frequency and larger aircraft before runway relief in about 2033.",
      "I6"
     ],
     [
      "8 Grow cruise calls and ports",
-     "New",
-     "Cruise already brings about R1.79bn a year with Cape Town's berth at about 40% of its season capacity, so growth comes from ships, excursions and regional day stops, not from port capital.",
+     "Cruise brings about R1.79bn a year and Cape Town's berth took 83 calls against room for 150 or more, so growth comes from ships, excursions and day stops, not port capital.",
      "I7"
     ],
     [
      "9 Accelerate tourism-enabling internal mobility",
-     "Validated",
      "Accessibility falls from 4.7 out of 5 in the Cape Metro to 1.0 in the Central Karoo, and beyond the Metro and the Garden Route the province is effectively car-only.",
      "I8"
     ],
     [
      "10 Support diversified route and product development",
-     "Validated",
      "The province does not lack attractions; it lacks finished experiences around them, with assets outside the Metro left without guides, interpretation or bookable product and one touring route of six rated Ready.",
      "I9"
     ],
     [
      "11 Align visitor experience in-destination",
-     "Validated",
      "The province offers luxury estates and basic self-catering with no mid-scale branded tier between them, and service, interpretation and language readiness thin out with distance from Cape Town.",
      "I10"
     ],
     [
      "12 Balance impact on nature-based attractions",
-     "Validated",
      "Boulders is near carrying capacity and Cableway queues reach three hours, so growth at the flagship nature sites must come from managing flows and steering visitors to under-marketed reserves.",
      "I11"
     ]
@@ -476,7 +434,7 @@
   {
    "type": "table",
    "caption": "Pillar 3: Build enabling capability",
-   "source": "Chapter 3 toplines, quoted verbatim; dispositions as recorded at the 14 October 2026 review. Sources for each figure are in the Chapter 3 entry.",
+   "source": "Chapter 3 toplines, quoted verbatim. Sources for each figure are in the Chapter 3 entry.",
    "columns": [
     {
      "header": "Focus area",
@@ -484,13 +442,8 @@
      "align": "left"
     },
     {
-     "header": "Disposition",
-     "width": 1.1,
-     "align": "left"
-    },
-    {
      "header": "What the evidence shows and what follows",
-     "width": 4.2,
+     "width": 5.3,
      "align": "left"
     },
     {
@@ -502,49 +455,41 @@
    "rows": [
     [
      "13 Embed local destination bodies for community inclusion",
-     "Refined",
      "Twenty communities hold 18.4% of the province's residents but receive only a small documented share of foreign direct spend, and in eleven the binding constraint is organisation, not distance or product.",
      "I12"
     ],
     [
      "14 Manage climate risk and sustainable tourism",
-     "Reworded",
      "Climate is already costing the province sites, routes and revenue, while the local tourism bodies that would manage the response depend on municipal funding that MFMA Circular No. 131 has disrupted.",
      "I13"
     ],
     [
      "15 Crowd in capital with targeted investment strategies",
-     "Validated",
-     "The province has a capital pipeline for airports, ports, roads and rail, but none of it reaches tourism product, bookability, accommodation depth or community assets, which is where the growth case needs investment.",
+     "The province's capital pipeline funds airports, ports, roads, rail and the Metro waterfront, but almost none of it reaches regional product, bookability or community assets, where the growth case needs investment.",
      "I14"
     ],
     [
      "16 Align institutional stakeholders across all three tiers",
-     "Reworded",
      "Air service agreements and visas sit with national government, mandates are split across three tiers and the national marketing body is under strain, so the province needs one shared agenda with clear decision rights.",
      "I15"
     ],
     [
      "17 Strengthen industry and government collaboration",
-     "Validated",
-     "Fifteen of the sixteen organisations engaged raised collaboration, and the channels already exist in JAMS, the bid teams and the tour-operator forums, so the task is to turn existing forums into one joint plan.",
+     "Fifteen of the sixteen organisations heard raised collaboration, and the channels already exist in JAMS, the bid teams and the tour-operator forums, so the task is to turn existing forums into one joint plan.",
      "I15"
     ],
     [
      "18 Expedite tourism-enabling policy and data sharing",
-     "Validated",
-     "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and four arrivals measures run unreconciled, so a data-sharing protocol is the precondition for every target.",
+     "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and the arrivals series run unreconciled, so a data-sharing protocol is the precondition for every target.",
      "I16"
     ],
     [
      "19 Lead removal of infrastructure, visa and safety deficits",
-     "Moved",
      "Visas, air rights, the runway and policing sit with national government, so the province leads by escalation backed with evidence, and delivers the safety programmes and basic services that are its own.",
      "I17"
     ],
     [
      "20 Develop workforce and service skills",
-     "Flagged",
      "The 300,000 tourism-linked jobs ambition has no baseline and no labour analysis behind it, so the first step is to commission that analysis, and the skills plan follows from it.",
      "I18"
     ]

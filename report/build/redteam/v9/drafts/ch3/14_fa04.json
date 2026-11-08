@@ -64,6 +64,15 @@
    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced. Its one non-versioning fact, that the Middle East sits in the acceleration group, is restated in The opportunity with its source (Market Assessment Report, May 2026, p22).",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/14_fa04.json",
+    16
+   ],
+   "to": "focus area 7 carries the New Zealand route result (16,000 bookings, NZ$55 million, 2023/24, p54); the Singapore sentence stays here",
+   "reason": "cold read: the New Zealand sentences repeated focus area 7 almost word for word; Singapore, the hub precedent, now carries a result",
+   "carries_all": true
   }
  ],
  "blocks": [
@@ -83,7 +92,7 @@
   },
   {
    "type": "p",
-   "text": "The second theme is about which markets grow the base. It holds one focus area per market group: India and China, which reach the province through hubs; the mature long-haul markets; and regional Africa. Volume and value come from different groups, so each needs its own lever (section 2.2)."
+   "text": "The second theme is about which markets grow the base. It holds three focus areas: India and China, the fastest-growing markets, which reach the province through hubs; the mature long-haul markets; and regional Africa. Volume and value come from different groups, so each needs its own lever (section 2.2)."
   },
   {
    "type": "ref",
@@ -127,11 +136,60 @@
    "text": "What the evidence shows"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/14_fa04.json",
-    10
-   ]
+   "type": "table",
+   "caption": "Evidence for focus area 4",
+   "source": "Demand-Side Analysis, Jun 2026 (DSA); MIDAS Aviation Market Assessment, Mar 2026 (weighted GDS bookings, twelve months to November 2025); Market Assessment Report, May 2026 (MA, 2025 base). The 101,000 is the sum of the two printed estimates; the hub tables beneath them sum to 97,579 and carry no year.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "India flies in through hubs",
+     "About 71,000 Indian travellers a year reach Cape Town via hubs; Addis Ababa and Dubai carry more than 80% of them",
+     "DSA p48; MIDAS, Indian Market"
+    ],
+    [
+     "China flies in through hubs",
+     "About 30,000 Chinese travellers a year via Dubai, Addis Ababa, Doha and Singapore (MIDAS: 29,600 in 2025)",
+     "DSA p46; MIDAS, Chinese Market"
+    ],
+    [
+     "No Indian route before 2030",
+     "Air India and IndiGo have no aircraft to spare before the end of the decade, and no South African airline can fly the sector",
+     "MIDAS, Indian Market; DSA p48"
+    ],
+    [
+     "A Chinese route is a state decision",
+     "Chinese routes follow government-to-government agreements; Guangzhou is the likely start, with China Southern or China Eastern",
+     "MIDAS, Chinese Market"
+    ],
+    [
+     "Hub routes have room",
+     "Load factor Dubai 72.3%, Addis Ababa 71.9% and Doha 65.2%, year to November 2025",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Growth is fast from a low base",
+     "India 76,547 to 165,260 (88,713 more) and China with Hong Kong 43,412 to 92,598 (49,186 more), base case, 2025 to 2035",
+     "MA p22; DSA p23"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "India and China reach Cape Town only through hubs, and the direct route that would change that is at least five years away."
   },
   {
    "type": "p",
@@ -166,7 +224,7 @@
   },
   {
    "type": "p",
-   "text": "Singapore converts transit into visits through its Stopover Programme and Free Singapore Tour, run by the tourism board, Changi Airport Group and Singapore Airlines under one strategy (Global Benchmarking Report, Mar 2026, p40). New Zealand ties marketing budgets to named long-haul corridors and designs campaigns to support route breakeven. It recorded more than 16,000 incremental bookings and a return of about NZD 55m in 2023/24 (Global Benchmarking Report, Mar 2026, p54). The condition is visas and the hubs themselves. A Gulf hub disruption would cut connecting capacity, so the work spreads across Dubai, Doha, Addis Ababa and Istanbul (section 4.8)."
+   "text": "Singapore converts transit into visits through its Stopover Programme and Free Singapore Tour, run by the tourism board, Changi Airport Group and Singapore Airlines under one strategy (Global Benchmarking Report, Mar 2026, p40). It received 16.5 million international visitors in 2024 and record receipts of about S$29 billion, though no source isolates the programme's share (Singapore Tourism Board, Feb 2025). The condition is visas and the hubs themselves. A Gulf hub disruption would cut connecting capacity, so the work spreads across Dubai, Doha, Addis Ababa and Istanbul (section 4.8)."
   },
   {
    "type": "h4",

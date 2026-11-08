@@ -19,19 +19,23 @@
   },
   {
    "type": "h4",
-   "text": "Hypothesis and disposition"
+   "text": "The challenge"
   },
   {
    "type": "p",
-   "text": "**December 2025.** Lead Removal of Infrastructure, Visa and Safety Deficits, under theme 2.1 (Current State Diagnostic, Dec 2025, p64)."
+   "text": "Visas, air rights, airport capacity and policing shape how many visitors reach the province and how safe they feel. The province holds few of these levers. National government holds visa rules, border compliance and air service agreements. The province holds safety programmes and local government holds basic services (Current State Diagnostic, Dec 2025, p58). ACSA, a national body, holds the runway (section 2.4). Escalation is therefore the province's main tool for the national share."
   },
   {
    "type": "p",
-   "text": "**October 2026: Moved.** The entry moved from supply to governance because its levers sit nationally. The stakeholder evidence, the Demand-Side barriers and MIDAS all place visas and air rights with national government; the move itself was decided at the October review [Summary of Findings, 14 Oct 2026: the deck's stated reason for the move to confirm]. The rationale holds for visas and air rights, while safety programmes are a provincial function and basic services a local one (Current State Diagnostic, Dec 2025, p58)."
+   "text": "The deficits bear hardest on the markets the growth case needs. Chinese and Middle Eastern travellers face slow, document-heavy visa processes (Demand-Side Analysis, Jun 2026, p51). The Table Mountain Aerial Cableway cites visas as a constraint on growth from India and recovery from China, and the CTICC on regional African events (Stakeholder Insights Report, Mar 2026, p36, p45)."
+  },
+  {
+   "type": "p",
+   "text": "Inside the province, safety and basic services gate both visits and community growth. Nine of the 20 shortlisted communities record a safety-perception gap and five record extortion. A formal safety assessment remains a separate requirement before any community product launches (SME and Community Inclusion Plan, Sep 2026, p30, p35). Congestion costs the Metro an estimated R2.8 billion a year, and water scarcity acts as a hard ceiling on visitor load in high-growth nodes (Current State Diagnostic, Dec 2025, p38). Here the province and the municipalities hold part of the answer."
   },
   {
    "type": "h4",
-   "text": "Evidence"
+   "text": "What the evidence shows"
   },
   {
    "type": "table",
@@ -77,29 +81,37 @@
     ],
     [
      "The gateway binds",
-     "The single runway caps movements at about 30 an hour and relief lands from about 2032; immigration processing at peak needs work",
+     "The single runway caps movements at about 30 an hour; terminal relief lands about 2032 and runway relief about 2033; immigration processing at peak needs work",
      "IR p101 to p103; DSA p54"
     ],
     [
-     "Visa reform moves arrivals",
-     "Ghanaian arrivals reached 36,656 in 2024, the first full year of the visa waiver that took effect on 1 November 2023",
+     "Visa reform is credited with arrivals",
+     "Ghanaian arrivals to South Africa reached 36,656 in 2024; the source credits the visa waiver but prints no earlier year",
      "Skift African, s4.6"
     ]
    ],
    "boldFirstCol": true,
-   "message": "The deficits are the best-evidenced barriers in the stakeholder record, and most of the levers sit with national government or SOEs."
+   "message": "Ten of the 16 organisations raise the deficits, and most of the levers sit with national government or SOEs."
   },
   {
    "type": "p",
-   "text": "Inside communities, safety is a launch gate. Nine of the 20 shortlisted communities record a safety-perception gap and five record extortion, and the Inclusion Plan makes a formal safety assessment a separate requirement before launch (SME and Community Inclusion Plan, Sep 2026, p30, p35). Congestion costs the Metro an estimated R2.8 billion a year, and water scarcity acts as a hard ceiling on visitor load in high-growth nodes (Current State Diagnostic, Dec 2025, p38)."
+   "text": "Stakeholders raise the deficits widely. Ten of the 16 organisations raised them, and safety perception alone came from seven (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Yet even this evidence, broad as it is, is statement rather than measure. No visa processing time is in hand for any priority market (section 5.2)."
+  },
+  {
+   "type": "p",
+   "text": "National reform can move arrivals. Ghanaian arrivals to South Africa reached 36,656 in 2024, a level the source credits to the visa waiver without printing an earlier year (Skift African Market Analysis, 16 Mar 2026, s4.6; arrivals to South Africa, not Cape Town) [Ghana visa waiver start date, given as 1 November 2023 and as 2024: Wesgro Research to confirm]. E-visa expansion and the Trusted Tour Operator Scheme are promising, but their effect on Western Cape arrivals is not yet proven (Current State Diagnostic, Dec 2025, p34). The province's task is to make the case for reform in its own markets, with its own numbers."
   },
   {
    "type": "h4",
-   "text": "Recommendation"
+   "text": "The course of action"
   },
   {
    "type": "p",
-   "text": "Wesgro should run a standing escalation agenda, with each item stated as a decision, the national body that owns it and the date the province asks for, backed by market evidence. The Stakeholder Insights Report's next round already frames that evidence: the access barriers across air, visas and onward travel, and the safety issues most damaging to demand (Stakeholder Insights Report, Mar 2026, p14). The Diagnostic asks for dedicated tourism safety units and programmes in the Metro (Current State Diagnostic, Dec 2025, p41)."
+   "text": "Wesgro runs a standing escalation agenda at Steerco. Each item names the decision, the national body that owns it and the date the province asks for. The first agenda is tabled in 2027 (section 4.3). It covers visa categories and processing for China, India, the Middle East and Africa. It also covers air service agreements and immigration throughput at Cape Town International. Wesgro's Research and Destination Marketing units build the evidence for each ask, market by market. Stakeholder insights already point to the evidence needed: the safety issues most damaging to demand and the access barriers across air, visas and onward travel (Stakeholder Insights Report, Mar 2026, p14)."
+  },
+  {
+   "type": "p",
+   "text": "The province delivers its own share in parallel. The Western Cape Government, the municipalities and SAPS set up the dedicated tourism safety units and programmes the Metro needs (Current State Diagnostic, Dec 2025, p41). Safety compacts follow in pilot communities. Municipalities and CapeNature fix basic services, water and connectivity at remote reserves and in tourism towns. Wesgro carries a visitor-safety narrative in its marketing. It applies the four launch gates set in focus area 13 to any community product it sells. From 2029 responses to the national asks are logged and followed up each quarter."
   },
   {
    "type": "grid",
@@ -133,7 +145,7 @@
     ],
     [
      "Wesgro",
-     "Carry a visitor-safety narrative in marketing, and apply the four launch gates to any community product Wesgro sells",
+     "Carry a visitor-safety narrative in marketing, and apply the four launch gates set in focus area 13 to any community product Wesgro sells",
      "Destination Marketing; Tourism"
     ],
     [
@@ -155,11 +167,15 @@
   },
   {
    "type": "h4",
-   "text": "Benchmark precedent"
+   "text": "Why it can work"
   },
   {
    "type": "p",
-   "text": "Kenya reduces entry friction to position Nairobi as a regional and global hub, and every comparator was scored on ease of access and visas (Global Benchmarking Report, Mar 2026, p59, p11). The required change for the Western Cape, drawn from Chile, is to lobby actively for air service liberalisation and simplified visa regimes (p28)."
+   "text": "Escalation works when the ask is specific and the evidence is local. The method has already moved decisions taken elsewhere. Cape Town added 17 mainline international routes from 2015 to 2025, more than any of eight secondary-airport peers, a record credited to Wesgro's commercial and relationship-driven route development (focus area 17). A standing agenda keeps each ask alive across budget cycles, so a refusal becomes a follow-up rather than an end. It also gives coordination one anchor. Chile's coordination is most powerful when anchored around a single strategic constraint, long-haul access (Global Benchmarking Report, Mar 2026, p59). Action on its own share, from safety units to basic services, strengthens the province's hand when it asks others to act."
+  },
+  {
+   "type": "p",
+   "text": "Chile shows what national access policy can achieve. It runs one of the world's most liberal aviation systems, using open-skies agreements, strong aviation institutions and private sector participation (Global Benchmarking Report, Mar 2026, p23). Passenger traffic at Santiago's airport rose from about 16 million in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p25, p26). For the Western Cape, the lesson is to lobby actively for air service liberalisation and simplified visa regimes (Global Benchmarking Report, Mar 2026, p28). Kenya reduces entry friction to position Nairobi as a regional hub (Global Benchmarking Report, Mar 2026, p59). No comparator shows a region escalating to its national government, so the province's own record is the first real test. The condition is a national answer. The province cannot compel one, so it measures what it can: visa processing times in priority markets and the share of its asks answered (section 5.2)."
   },
   {
    "type": "h4",

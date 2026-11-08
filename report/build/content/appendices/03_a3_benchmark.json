@@ -24,7 +24,7 @@
   {
    "type": "table",
    "caption": "Benchmark selection criteria",
-   "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. Two inception criteria differ in definition as well as name (Inception Report, Nov 2025, p30). Cruise & Multi-Modal Access covers cruise arrivals, self-drive touring and regional mobility where the later report has Ease of Access & Visa. Tourism Infrastructure & Capacity covers hotel mix, transport, visitor services and attraction capacity where it has Airport & Tourism Infrastructure. Neither report prints scores by criterion, so the effect of the change on the ranking cannot be checked (Inception Report, Nov 2025, p31; Global Benchmarking Report, Mar 2026, p12).",
+   "source": "Global Benchmarking Report, Mar 2026, p11 (groups, criteria and definitions, shortened); Inception Report, Nov 2025, p29, p30. Two criteria are defined differently in the two sources: the Inception Report has Cruise & Multi-Modal Access, covering cruise arrivals, self-drive touring and regional mobility, and Tourism Infrastructure & Capacity, covering hotel mix, transport, visitor services and attraction capacity (Inception Report, Nov 2025, p30).",
    "columns": [
     {
      "header": "Group",
@@ -108,94 +108,77 @@
   },
   {
    "type": "h3",
-   "text": "The screen and how the set moved"
+   "text": "How the six were chosen"
   },
   {
    "type": "p",
-   "text": "The Inception Report described its starting universe as \"an expansive list of 25+ destinations\" and then scored 30 (Inception Report, Nov 2025, p29, p31). Its plan asked for \"4 success cases and 2 that underperformed\" (p16)."
-  },
-  {
-   "type": "p",
-   "text": "The Global Benchmarking Report also cites a screen of 30, keeps four of the inception six and presents no case as an underperformer (Global Benchmarking Report, Mar 2026, p6, p12, p13). It drops Porto and Vancouver and adds Kenya and Auckland (p12), which ranked 11 and 7 in the inception screen (Inception Report, Nov 2025, p31). Three destinations scored 3.58, above Kenya's 3.50, and stayed out (p31). Neither document records why Porto and Vancouver were dropped."
+   "text": "The screen scored 30 destinations on the twelve criteria and ranked them on one average score (Inception Report, Nov 2025, p29, p31; Global Benchmarking Report, Mar 2026, p12). Chile, Melbourne and Victoria, Valencia and Singapore came from the top of the ranking (Inception Report, Nov 2025, p31, p32; ranks 1 to 6 and their scores are not printed). New Zealand, ranked seventh at 3.67, and Kenya, ranked eleventh at 3.50, joined for what the score could not weigh: a remote single-gateway case and an African case with community-based tourism (Inception Report, Nov 2025, p31; Global Benchmarking Report, Mar 2026, p12, p51)."
   },
   {
    "type": "table",
-   "caption": "Comparator set, inception to final",
-   "source": "Inception Report, Nov 2025, p31 (ranks, scores and reasons not selected), p32 (inception six and rationales); Global Benchmarking Report, Mar 2026, p12 (final six and rationales). Reasons and rationales as printed, shortened only by cutting; the rationale shown is from the later document in which the destination appears.",
+   "caption": "How the six comparators were chosen",
+   "message": "Four comparators came from the top of the screen, and New Zealand and Kenya joined for the remote-gateway and African cases they bring.",
    "columns": [
     {
      "header": "Destination",
-     "width": 1.7,
+     "width": 1.6,
      "align": "left"
     },
     {
-     "header": "Inception Report (Nov 2025)",
-     "width": 2.3,
-     "align": "left"
-    },
-    {
-     "header": "Final set (Mar 2026)",
-     "width": 1.1,
+     "header": "Screen rank and score",
+     "width": 1.5,
      "align": "left"
     },
     {
      "header": "Printed rationale",
-     "width": 3.3,
+     "width": 3.0,
+     "align": "left"
+    },
+    {
+     "header": "What the case is read for",
+     "width": 2.3,
      "align": "left"
     }
    ],
    "rows": [
     [
      "Chile",
-     "Selected",
-     "Kept",
-     "High comparability in dispersal challenges, product mix and long-haul reliance"
+     "Ranks 1 to 6; score not printed",
+     "High comparability in dispersal challenges, product mix and long-haul reliance",
+     "Long-haul access treated as infrastructure"
     ],
     [
      "Melbourne & Victoria",
-     "Selected",
-     "Kept",
-     "Strong long-haul dependence and multi-regional tourism footprint"
+     "Ranks 1 to 6; score not printed",
+     "Strong long-haul dependence and multi-regional tourism footprint",
+     "Events that spread demand across the year"
     ],
     [
      "Valencia Region",
-     "Selected",
-     "Kept",
-     "Comparable climate, product mix and price point"
+     "Ranks 1 to 6; score not printed",
+     "Comparable climate, product mix and price point",
+     "Quality governed across the destination"
     ],
     [
      "Singapore",
-     "Selected",
-     "Kept",
-     "Integrated approach to air access, service quality, food culture and visitor segmentation"
+     "Ranks 1 to 6; score not printed",
+     "Integrated approach to air access, service quality, food culture and visitor segmentation",
+     "Hub transit turned into stays"
     ],
     [
      "Kenya",
-     "Rank 11, score 3.50; not selected: weaker wine/agri mix; pricing and governance differ",
-     "Added",
-     "Strong alignment in long-haul reliance, regional dispersal and community-based tourism"
+     "Rank 11, score 3.50",
+     "Strong alignment in long-haul reliance, regional dispersal and community-based tourism",
+     "Gateway access, dispersal and community inclusion"
     ],
     [
      "Auckland & North Island, New Zealand",
-     "Rank 7, score 3.67; not selected: less aligned on source markets and cruise dynamics",
-     "Added as Auckland",
-     "Urban life closely intertwined with natural landscapes"
-    ],
-    [
-     "Porto & Northern Portugal",
-     "Selected",
-     "Dropped",
-     "Visitor patterns closely mirror Western Cape's multi-regional model"
-    ],
-    [
-     "Vancouver & British Columbia",
-     "Selected",
-     "Dropped",
-     "Strong comparability in outdoor positioning and long-haul reliance"
+     "Rank 7, score 3.67",
+     "Urban life closely intertwined with natural landscapes",
+     "A remote single gateway and marketing tied to routes"
     ]
    ],
-   "boldFirstCol": true,
-   "message": "Four of the inception six survived into the final set, and Kenya and Auckland replaced Porto and Vancouver."
+   "source": "Inception Report, Nov 2025, p31 (ranks and scores), p32; Global Benchmarking Report, Mar 2026, p12 (rationales), p51. The screen prints ranks 7 to 30 only, so the four leading comparators sit among ranks 1 to 6 with no printed score. Rationales as printed, shortened only by cutting; what each case is read for follows section 2.1."
   },
   {
    "type": "h3",

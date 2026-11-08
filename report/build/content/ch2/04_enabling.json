@@ -57,29 +57,29 @@
   {
    "type": "figure",
    "id": "fig_24_tally",
-   "caption": "Themes raised by stakeholder organisations",
-   "source": "Stakeholder Insights Report, Mar 2026, p20 to p46: number of the 16 organisations with at least one insight under each hypothesis-tree element, counted from the appendix tables. The report prints no tally.",
+   "caption": "Focus areas stakeholders raised",
+   "source": "Stakeholder Insights Report, Mar 2026, p20 to p46: number of the 16 organisations with at least one insight in each category the appendix tables code, shown against the focus area it bears on (computed). Routes and cruise are coded as one category, and none covers skills. The report prints no tally.",
    "chart": {
     "type": "hbar",
     "categories": [
-     "Industry-government collaboration",
-     "Policy and data sharing",
-     "Route and product development",
-     "Path to purchase",
-     "Growth segment preferences",
-     "Infrastructure, visa and safety",
-     "Seasonality and events",
-     "Community and SME inclusion",
-     "Growth markets",
-     "Internal mobility",
-     "Visitor experience",
-     "Crowd-in capital",
-     "Institutional arrangements",
-     "Mature-market yield",
-     "Sustainable management",
-     "Regional Africa",
-     "Air access and cruise",
-     "Nature-based attractions"
+     "Collaboration (17)",
+     "Policy and data sharing (18)",
+     "Route and product (10)",
+     "Findable and bookable (3)",
+     "Growth segments (1)",
+     "Infrastructure, visa and safety (19)",
+     "Green season and events (2)",
+     "Community inclusion (13)",
+     "Growth markets (4)",
+     "Internal mobility (9)",
+     "Visitor experience (11)",
+     "Capital (15)",
+     "Institutional alignment (16)",
+     "Mature-market yield (5)",
+     "Climate and sustainability (14)",
+     "Regional Africa (6)",
+     "Routes, seats and cruise (7, 8)",
+     "Nature-based attractions (12)"
     ],
     "values": [
      15,
@@ -116,7 +116,7 @@
   },
   {
    "type": "p",
-   "text": "Data sharing also draws 30 insights and 16 High ratings, the most of any theme (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Stakeholders describe the data architecture as \"too fragmented, lagged and proxy-based to provide a reliable view of visitor volumes, spend, spread or economic impact at provincial level\" (Stakeholder Insights Report, Mar 2026, p13)."
+   "text": "Data sharing also draws 30 insights and 16 High ratings, the most of any category (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Stakeholders describe the data architecture as \"too fragmented, lagged and proxy-based to provide a reliable view of visitor volumes, spend, spread or economic impact at provincial level\" (Stakeholder Insights Report, Mar 2026, p13)."
   },
   {
    "type": "p",
@@ -442,14 +442,14 @@
    "type": "box",
    "title": "What this means for the strategy",
    "paras": [
-    "**Refines FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node.",
-    "**Rewords FA14, Manage climate risk and sustainable tourism, and supports FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites.",
-    "**Supports FA10, Support diversified route and product development, and FA15.** Assets follow sellers and route products, not the reverse.",
-    "**Rewords FA16, Align institutional stakeholders across all three tiers.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA.",
-    "**Supports FA19, Lead removal of infrastructure, visa and safety deficits, now under governance because its levers sit nationally.** Visas slow Chinese and Gulf travellers, and safety and extortion gate activation in up to nine communities.",
-    "**Validates FA17, Strengthen industry and government collaboration, and FA18, Expedite tourism-enabling policy and data sharing.** Each raised by 15 of 16 organisations, with existing platforms such as JAMS to build on.",
-    "**Flags FA20, Develop workforce and service skills, as untested.** Skills gaps raised by CapeNature, the West Coast District and the Overberg District have no labour analysis behind them. No count of tourism jobs exists, which also supports FA18.",
-    "**Supports FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators."
+    "**FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node.",
+    "**FA14, Manage climate risk and sustainable tourism, and FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites.",
+    "**FA10, Support diversified route and product development, and FA15.** Assets follow sellers and route products, not the reverse.",
+    "**FA16, Align institutional stakeholders across all three tiers.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA.",
+    "**FA19, Lead removal of infrastructure, visa and safety deficits, a governance task because visas and air rights sit nationally.** Visas slow Chinese and Gulf travellers, and safety and extortion gate activation in up to nine communities.",
+    "**FA17, Strengthen industry and government collaboration, and FA18, Expedite tourism-enabling policy and data sharing.** Each raised by 15 of 16 organisations, with existing platforms such as JAMS to build on.",
+    "**FA20, Develop workforce and service skills, waits on analysis still to be commissioned.** Skills gaps raised by CapeNature, the West Coast District and the Overberg District have no labour analysis behind them. No count of tourism jobs exists, which also supports FA18.",
+    "**FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators."
    ]
   }
  ]

@@ -60,6 +60,15 @@
    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/13_fa03.json",
+    9
+   ],
+   "to": "retired in part at the cold read: the inception platform-scan history and its Inception Report pages go; the gap is now cited to the Infrastructure Report, and the rest of the block is carried in What the evidence shows",
+   "reason": "cold read: the footnote told project history and cited the Inception Report to show that something does not exist",
+   "retired": true
   }
  ],
  "blocks": [
@@ -105,7 +114,7 @@
   },
   {
    "type": "p",
-   "text": "The barriers are basic: online booking, card payment and rural broadband. Small operators, community guides and even large public attractions still sell by phone. Two of the fixes sit outside Wesgro's reach: rural broadband is a national programme, and national rules prevent bank-card payments on the George bus service (Stakeholder Insights Report, Mar 2026, p23)."
+   "text": "The barriers are basic: online booking, card payment and rural broadband. Small operators, community guides and even large public attractions still sell by phone. Rural broadband sits outside Wesgro's reach as a national programme."
   },
   {
    "type": "h4",
@@ -120,7 +129,7 @@
   },
   {
    "type": "p",
-   "text": "Bookability is strongest on the three core routes where visitors already go. It is weakest on the outer routes and in the communities the province wants to reach. Much of the gap is listing and payment: guides, small operators and reserves exist, but many sell only by phone. Elsewhere the product itself is missing: the Overberg and West Coast marine and wildflower assets have no guided tours and no bookable product (Infrastructure Report, Jul 2026, p93). Yet no count of bookable products exists (Inception Report, Nov 2025, p15, p17; the distribution-platform scan planned at inception produced no output). The indicator this focus area needs most, the share of provincial product listed on OTAs by district, therefore has no baseline yet [bookable-product count by district: Wesgro Research to build; see section 5.4]."
+   "text": "Bookability is strongest on the three core routes where visitors already go. It is weakest on the outer routes and in the communities the province wants to reach. Much of the gap is listing and payment: guides, small operators and reserves exist, but many sell only by phone. Elsewhere the product itself is missing: the Overberg and West Coast marine and wildflower assets have no guided tours and no bookable product (Infrastructure Report, Jul 2026, p93). Yet no count of bookable products exists (Infrastructure Report, Jul 2026, p32, p95; both pages describe the gap without counting it). The indicator this focus area needs most, the share of provincial product listed on OTAs by district, therefore has no baseline yet [bookable-product count by district: Wesgro Research to build; see section 5.4]."
   },
   {
    "type": "h4",
@@ -135,10 +144,55 @@
    "text": "The census comes first, in 2027, because the indicator has no baseline. Onboarding on the West Coast, Route 62 and the Overberg follows from 2028. Packaged itineraries go onto market platforms from 2029, once there is outer-district product to list (section 4.3)."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/13_fa03.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Run a bookability census of provincial product by district and publish it as the baseline",
+     "Research; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Run a digital onboarding drive for small operators and cellars on the West Coast, Route 62 and the Overberg",
+     "Tourism; district municipalities"
+    ],
+    [
+     "Wesgro",
+     "Deepen OTA partnerships with Trip.com, Almosafer and Booking.com, and list packaged regional itineraries on them",
+     "Destination Marketing; OTAs"
+    ],
+    [
+     "Partners",
+     "Give each pilot community one live booking route before any promotion (focus area 13)",
+     "LTOs; community sellers"
+    ],
+    [
+     "Partners",
+     "Move CapeNature reservations online and complete cashless payments at reserve level",
+     "CapeNature"
+    ],
+    [
+     "National",
+     "Extend rural broadband under SA Connect, so operators outside the core can take online bookings and card payments",
+     "National government"
+    ]
    ]
   },
   {

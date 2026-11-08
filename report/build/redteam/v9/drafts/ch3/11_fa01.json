@@ -178,18 +178,15 @@
   },
   {
    "type": "p",
-   "text": "New Zealand gives each priority market a role, with the USA as its high-yield growth engine (Global Benchmarking Report, Mar 2026, p53). It judges performance on revenue per visitor and length of stay over arrivals (Global Benchmarking Report, Mar 2026, p55). Valencia matches product to purpose in a similar way, with sector-led programmes from gastronomy to business events that attract purpose-driven, higher-value travellers (Global Benchmarking Report, Mar 2026, p48). Its tourist spend rose 21% in 2024 and spending per trip 6.3%, though no source isolates the programmes' share of that rise (Global Benchmarking Report, Mar 2026, p46). The transfer depends on two changes: yield-based metrics in place of the arrivals KPI, and partnerships with specialist distribution networks (Global Benchmarking Report, Mar 2026, p56)."
+   "text": "New Zealand gives each priority market a role, with the USA as its high-yield growth engine (Global Benchmarking Report, Mar 2026, p53). It judges performance on revenue per visitor and length of stay over arrivals (Global Benchmarking Report, Mar 2026, p55). Valencia matches product to purpose in a similar way, with sector-led programmes from gastronomy to business events that attract purpose-driven, higher-value travellers (Global Benchmarking Report, Mar 2026, p48). Its tourist spend rose 21% in 2024 and spending per trip 6.3%, though no source isolates the programmes' share of that rise (Global Benchmarking Report, Mar 2026, p46). The transfer depends on two changes: yield metrics beside the arrivals count, and partnerships with specialist distribution networks (Global Benchmarking Report, Mar 2026, p56)."
   },
   {
    "type": "h4",
    "text": "Link forward"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/11_fa01.json",
-    20
-   ]
+   "type": "p",
+   "text": "**Initiative I1**, segment-led activation and yield in mature markets, carries this entry with focus area 5 (section 4.3). **Indicators** T1-01 international arrivals, T1-02 arrivals by market group and T1-03 direct foreign spend at impact level, and T2-01 segment home-market arrivals at outcome level (section 5.2)."
   }
  ]
 }

@@ -60,6 +60,15 @@
    "to": "retired: versioning removed at the client's request",
    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its one substantive fact (safety programmes are a provincial function and basic services a local one, Diagnostic p58) is reused in \"The challenge\"; its open item concerns only the stated reason for the move and is retired with it",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/37_fa19.json",
+    14
+   ],
+   "to": "section 2.1 describes the benchmark screen and its criteria (Global Benchmarking Report, Mar 2026, p11); the Kenya and Chile sentences stay here",
+   "reason": "cold read: the clause on how comparators were scored described the benchmark method, not a result",
+   "carries_all": true
   }
  ],
  "blocks": [
@@ -112,11 +121,60 @@
    "text": "What the evidence shows"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/37_fa19.json",
-    8
-   ]
+   "type": "table",
+   "caption": "Evidence for focus area 19",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation counts reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag; Skift, Barriers to visiting Cape Town, 2024, as cited); Infrastructure Report, Jul 2026 (IR); Demand-Side Analysis, Jun 2026 (DSA); Skift African Market Analysis, 16 Mar 2026 (working analysis; arrivals to South Africa, not Cape Town).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Raised widely",
+     "10 of 16 organisations raised the theme; across all themes, safety perception came from seven organisations, visas from four and utilities from four",
+     "SIR p20 to p46"
+    ],
+    [
+     "Visas hold back growth markets",
+     "Visa issues constrain growth from India and recovery from China; regional African event demand is visa-constrained",
+     "SIR p36, p45"
+    ],
+    [
+     "Safety is cross-cutting",
+     "Perceptions of crime feature in overseas sales conversations; township product and shared mobility are held back by safety perception",
+     "SIR p46, p34, p22"
+    ],
+    [
+     "Safety and visas top the barriers",
+     "Skift's barrier research ranks crime and personal safety first and visa and entry requirements second; e-visa reforms are promising but unproven for the province",
+     "Diag p55, p34"
+    ],
+    [
+     "The gateway binds",
+     "The single runway caps movements at about 30 an hour; terminal relief lands about 2032 and runway relief about 2033; immigration processing at peak needs work",
+     "IR p101 to p103; DSA p54"
+    ],
+    [
+     "Visa reform is credited with arrivals",
+     "Ghanaian arrivals to South Africa reached 36,656 in 2024; the source credits the visa waiver but prints no earlier year",
+     "Skift African, s4.6"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "Ten of the 16 organisations raise the deficits, and most of the levers sit with national government or SOEs."
   },
   {
    "type": "p",
@@ -124,7 +182,7 @@
   },
   {
    "type": "p",
-   "text": "National reform can move arrivals. Ghanaian arrivals to South Africa reached 36,656 in 2024, up from prior years, a rise attributed to the visa waiver (Skift African Market Analysis, 16 Mar 2026, s4.6; arrivals to South Africa, not Cape Town; no earlier year is printed) [Ghana visa waiver start date, given as 1 November 2023 and as 2024: Wesgro Research to confirm]. E-visa expansion and the Trusted Tour Operator Scheme are promising, but their effect on Western Cape arrivals is not yet proven (Current State Diagnostic, Dec 2025, p34). The province's task is to make the case for reform in its own markets, with its own numbers."
+   "text": "National reform can move arrivals. Ghanaian arrivals to South Africa reached 36,656 in 2024, a level the source credits to the visa waiver without printing an earlier year (Skift African Market Analysis, 16 Mar 2026, s4.6; arrivals to South Africa, not Cape Town) [Ghana visa waiver start date, given as 1 November 2023 and as 2024: Wesgro Research to confirm]. E-visa expansion and the Trusted Tour Operator Scheme are promising, but their effect on Western Cape arrivals is not yet proven (Current State Diagnostic, Dec 2025, p34). The province's task is to make the case for reform in its own markets, with its own numbers."
   },
   {
    "type": "h4",
@@ -136,13 +194,58 @@
   },
   {
    "type": "p",
-   "text": "The province delivers its own share in parallel. The Western Cape Government, the municipalities and SAPS set up the dedicated tourism safety units and programmes the Metro needs (Current State Diagnostic, Dec 2025, p41). Safety compacts follow in pilot communities. Municipalities and CapeNature fix basic services, water and connectivity at remote reserves and in tourism towns. Wesgro carries a visitor-safety narrative in its marketing and applies the four launch gates to any community product it sells. From 2029 responses to the national asks are logged and followed up each quarter."
+   "text": "The province delivers its own share in parallel. The Western Cape Government, the municipalities and SAPS set up the dedicated tourism safety units and programmes the Metro needs (Current State Diagnostic, Dec 2025, p41). Safety compacts follow in pilot communities. Municipalities and CapeNature fix basic services, water and connectivity at remote reserves and in tourism towns. Wesgro carries a visitor-safety narrative in its marketing. It applies the four launch gates set in focus area 13 to any community product it sells. From 2029 responses to the national asks are logged and followed up each quarter."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/37_fa19.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Table an escalation agenda at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements; immigration throughput at Cape Town International",
+     "Wesgro CEO's office; DEDAT"
+    ],
+    [
+     "Wesgro",
+     "Build the market-by-market evidence for each ask, from visa processing times to safety perception in source markets",
+     "Research; Destination Marketing"
+    ],
+    [
+     "Wesgro",
+     "Carry a visitor-safety narrative in marketing, and apply the four launch gates set in focus area 13 to any community product Wesgro sells",
+     "Destination Marketing; Tourism"
+    ],
+    [
+     "Partners",
+     "Set up dedicated tourism safety units and programmes, with safety compacts in pilot communities",
+     "Western Cape Government; municipalities; SAPS"
+    ],
+    [
+     "Partners",
+     "Fix basic services, water and connectivity at remote reserves and in tourism towns",
+     "Municipalities; CapeNature"
+    ],
+    [
+     "National",
+     "Decide on visa processing, air service agreements and immigration counters, and make station security a rail line item",
+     "Home Affairs; Department of Transport; PRASA"
+    ]
    ]
   },
   {
@@ -151,11 +254,11 @@
   },
   {
    "type": "p",
-   "text": "Escalation works when the ask is specific and the evidence is local. A national department weighs many claims; one that names the decision, the market and the arrivals at stake is easier to grant. A standing agenda keeps each ask alive across budget cycles, so a refusal becomes a follow-up rather than an end. It also gives coordination one anchor. Chile's coordination is most powerful when anchored around a single strategic constraint, long-haul access (Global Benchmarking Report, Mar 2026, p59). Action on its own share, from safety units to basic services, strengthens the province's hand when it asks others to act."
+   "text": "Escalation works when the ask is specific and the evidence is local. The method has already moved decisions taken elsewhere. Cape Town added 17 mainline international routes from 2015 to 2025, more than any of eight secondary-airport peers, a record credited to Wesgro's commercial and relationship-driven route development (focus area 17). A standing agenda keeps each ask alive across budget cycles, so a refusal becomes a follow-up rather than an end. It also gives coordination one anchor. Chile's coordination is most powerful when anchored around a single strategic constraint, long-haul access (Global Benchmarking Report, Mar 2026, p59). Action on its own share, from safety units to basic services, strengthens the province's hand when it asks others to act."
   },
   {
    "type": "p",
-   "text": "Chile pairs national access policy with airport investment. It runs one of the world's most liberal aviation systems, using open-skies agreements, strong aviation institutions and private sector participation (Global Benchmarking Report, Mar 2026, p23). It also put about US$900 million into Santiago's airport through a private concession (Global Benchmarking Report, Mar 2026, p26). Passenger traffic there rose from about 16 million in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p25, p26). For the Western Cape, the lesson is to lobby actively for air service liberalisation and simplified visa regimes (Global Benchmarking Report, Mar 2026, p28). Kenya reduces entry friction to position Nairobi as a regional hub, and every comparator was scored on ease of access and visas (Global Benchmarking Report, Mar 2026, p59, p11). No comparator shows a region escalating to its national government, so the province's own record is the first real test. The condition is a national answer. The province cannot compel one, so it measures what it can: visa processing times in priority markets and the share of its asks answered (section 5.2)."
+   "text": "Chile shows what national access policy can achieve. It runs one of the world's most liberal aviation systems, using open-skies agreements, strong aviation institutions and private sector participation (Global Benchmarking Report, Mar 2026, p23). Passenger traffic at Santiago's airport rose from about 16 million in 2010 to more than 26 million in 2019 (Global Benchmarking Report, Mar 2026, p25, p26). For the Western Cape, the lesson is to lobby actively for air service liberalisation and simplified visa regimes (Global Benchmarking Report, Mar 2026, p28). Kenya reduces entry friction to position Nairobi as a regional hub (Global Benchmarking Report, Mar 2026, p59). No comparator shows a region escalating to its national government, so the province's own record is the first real test. The condition is a national answer. The province cannot compel one, so it measures what it can: visa processing times in priority markets and the share of its asks answered (section 5.2)."
   },
   {
    "type": "h4",

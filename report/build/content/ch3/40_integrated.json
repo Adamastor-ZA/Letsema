@@ -15,23 +15,19 @@
   },
   {
    "type": "p",
-   "text": "The growth model sets out three paths from the 2025 base of 1,498,829 arrivals: 1,822,634 in 2035 on the conservative path, 2,175,778 on the base path and 2,516,282 on the accelerated path (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). The deck is explicit that the paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). Each step of the growth case therefore rests on a named set of interventions, and each set draws on focus areas in all three pillars."
+   "text": "The growth model sets out three paths from the 2025 base of 1,498,829 arrivals: 1,822,634 in 2035 on the conservative path, 2,175,778 on the base path and 2,516,282 on the accelerated path (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20). The paths differ by intervention, not by demand potential (Demand-Side Analysis, Jun 2026, p19). Each step of the growth case therefore rests on a named set of interventions. The first two steps draw on Pillars 1 and 2 alone. Pillar 3 adds arrivals only on the third step, through the three-tier agenda and national escalation (focus areas 16 and 19). Its other six focus areas decide whether growth is shared, funded, sustained and measured."
   },
   {
    "type": "p",
-   "text": "The conservative path, 1,822,634 arrivals in 2035, holds existing air access with no added frequencies or routes and continues trade and marketing, with growth in the mature markets and current corridors. Focus areas 5 and 7 hold that base. The base path adds 353,144 arrivals to reach 2,175,778. It assumes Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity and existing Wesgro programmes expand, while India, China and regional Africa grow through hub connections. Focus areas 1 to 7, 9 and 10 deliver it. The accelerated path adds a further 340,504 to reach 2,516,282. It needs direct India and China routes secured and dedicated activation in India, China, the USA and the GCC, with India, China and the Middle East growing ahead of their source markets. Focus areas 4, 7, 16 and 19 deliver it on top of the base (Demand-Side Analysis, Jun 2026, p19, p20; Market Assessment Report, May 2026, p19, the 2025 base; increments computed from the printed end points; the mapping to focus areas is this report's)."
+   "text": "The conservative path, 1,822,634 arrivals in 2035, holds existing air access with no added frequencies or routes and continues trade and marketing, with growth in the mature markets and current corridors. Focus areas 5 and 7 hold that base. The base path adds 353,144 arrivals to reach 2,175,778. It assumes Wesgro's trade and marketing continue at 2025 intensity while Emirates, Qatar, Ethiopian and Turkish Airlines add frequency and capacity, and India, China and regional Africa grow through hub connections (Market Assessment Report, May 2026, p18; the Demand-Side Analysis, Jun 2026, p20 describes the same case as existing Wesgro programmes expanded). Focus areas 1 to 7, 9 and 10 hold it. The accelerated path adds a further 340,504 to reach 2,516,282. It needs direct India and China routes secured and dedicated activation in India, China, the USA and the GCC, with India, China and the Middle East growing ahead of their source markets. Focus areas 4, 7, 16 and 19 deliver it on top of the base (Demand-Side Analysis, Jun 2026, p19, p20; Market Assessment Report, May 2026, p19, the 2025 base; increments computed from the printed end points; the mapping to focus areas is this report's)."
   },
   {
    "type": "p",
-   "text": "**The gateway binds first, at peak.** The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). ACSA now schedules the realigned runway for December 2029, subject to contract award. This plan keeps about 2033 as its planning date and treats the earlier date as upside (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026). Between those dates, growth has to come from larger aircraft and added frequency on the full routes, from hub-carrier capacity and, for domestic connections, from George, whose terminal doubles by 2028 or 2029 (focus areas 5, 6 and 7)."
-  },
-  {
-   "type": "note",
-   "text": "The deck draws arrivals and seats against one axis and prints no seat table behind the 1.8 million line. The crossing year is read from the chart: after the 2028 point (1,673,855) and by the 2030 point (1,802,929)."
+   "text": "**The gateway binds first, at peak.** The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21; arrivals and seats share one axis and no seat table sits behind the 1.8 million line; the crossing is read from the chart, after the 2028 point of 1,673,855 and by the 2030 point of 1,802,929). Relief at Cape Town International arrives about 2032 for the international terminal and about 2033 for the runway (Infrastructure Report, Jul 2026, p103). ACSA now schedules the realigned runway for December 2029, subject to contract award. This plan keeps about 2033 as its planning date and treats the earlier date as upside (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, as reported by Travel News, Aug 2026). Between those dates, growth has to come from larger aircraft and added frequency on the full routes and from hub-carrier capacity (focus areas 5, 6 and 7). Domestic connections can also grow through George, whose terminal doubles by 2028 or 2029."
   },
   {
    "type": "p",
-   "text": "**If the supply moves slip, the case stops at the seat line.** The deck states that the projected growth cannot be realised without additional capacity or frequency (Demand-Side Analysis, Jun 2026, p21), and that without confirmed routes the accelerated case reverts to base (p20). On the full routes, demand work cannot make up the gap, because marketing raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion); on the hub routes, which have seats to spare, it can."
+   "text": "**If the supply moves slip, growth flattens near the seat line.** The conservative path, with no new seats, ends at 1.82 million in 2035, just above the 1.8 million line. Projected growth cannot be realised without added capacity or frequency, and without confirmed routes the accelerated case reverts to base (Demand-Side Analysis, Jun 2026, p20, p21). On the full routes, demand work cannot make up the gap, because marketing raises fares rather than seats (MIDAS Aviation Market Assessment, Mar 2026, In Conclusion); on the hub routes, which have seats to spare, it can."
   },
   {
    "type": "p",
@@ -39,19 +35,7 @@
   },
   {
    "type": "p",
-   "text": "**Air access and bookability move first, because every other lever runs through them.** The first phase works the seats and the booking path before the base case crosses the model's seat line, and the direct routes wait for runway relief. Chapter 4 turns the sequence into eighteen initiatives with owners, phases and decision gates."
-  },
-  {
-   "type": "p",
-   "text": "**Activate, 2027 to 2028,** comes before the base case crosses the model's seat line around 2030. Seats are held and added on the full routes (focus areas 5, 6 and 7), the green-season calendar is set (2) and the bookability census and onboarding run (3). Two or three inclusion pilots start (13), Steerco, the data protocol and the escalation agenda are set up (16, 18 and 19) and the labour analysis is commissioned (20)."
-  },
-  {
-   "type": "p",
-   "text": "**Expand, 2029 to 2031,** brings hub conversion at scale (4), corridor product and mobility (9 and 10), the quality charter (11) and flagship flow management (12), along with cruise product (8) and the investment pipeline at financial close (15). The 2030 mid-term review tests the seat line, and terminal relief arrives from about 2032."
-  },
-  {
-   "type": "p",
-   "text": "**Sustain, 2032 to 2035,** takes direct India and China routes to carriers as runway capacity arrives (4 and 7), scales inclusion once its thresholds are met (13) and embeds climate risk and LTO funding (14). Runway relief arrives about 2033, and the accelerated case depends on the direct routes (Demand-Side Analysis, Jun 2026, p21; Infrastructure Report, Jul 2026, p103; phase years as set in section 4.2)."
+   "text": "**Air access and bookability move first, because every other lever runs through them.** Three phases follow from that logic. Activate, 2027 to 2028, works on seats, bookability, green-season events, the inclusion pilots and the governance base before the seat line. Expand, 2029 to 2031, scales hub conversion, corridor product and quality and closes the first investments. Sustain, 2032 to 2035, takes the direct routes to carriers as runway relief arrives. Chapter 4 turns the sequence into eighteen initiatives with owners, phases and decision gates (section 4.2)."
   }
  ]
 }

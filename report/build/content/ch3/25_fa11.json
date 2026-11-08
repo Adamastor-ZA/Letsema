@@ -19,19 +19,23 @@
   },
   {
    "type": "h4",
-   "text": "Hypothesis and disposition"
+   "text": "The challenge"
   },
   {
    "type": "p",
-   "text": "**December 2025.** Align Visitor Experience In-Destination (Current State Diagnostic, Dec 2025, p64)."
+   "text": "The growth case needs visitors the current offer serves poorly. Province-wide, no midscale branded product sits between luxury estates and basic self-catering (Infrastructure Report, Jul 2026, p95). In the Winelands, a luxury-skewed product mix excludes mid-market and family segments (Infrastructure Report, Jul 2026, p53). The Garden Route is short of quality-graded hotels that anchor midweek, conference or business travel (Infrastructure Report, Jul 2026, p95)."
   },
   {
    "type": "p",
-   "text": "**October 2026: Validated.** Mid-scale gap. The Infrastructure Report's accommodation mapping, the stakeholder evidence on service quality and the Valencia and Singapore benchmarks drove the disposition. The gap is stated in words; no deliverable counts mid-scale rooms."
+   "text": "The experience is weakest at the arrival gate and at the periphery. The international airport is the most negative node in Cape Town's online mentions (Current State Diagnostic, Dec 2025, p22). Further out, readiness falls with distance from the Metro (section 2.3). Accommodation readiness drops from 4.7 in the Metro to 2.0 in the Central Karoo (Infrastructure Report, Jul 2026, p89)."
+  },
+  {
+   "type": "p",
+   "text": "The growth markets add their own needs. Chinese visitors find few Mandarin-language services. Indian visitors see little sign of vegetarian options or Indian-language guides. Gulf visitors find no Arabic-language booking or local-currency options (Demand-Side Analysis, Jun 2026, p51). These are the markets Pillar 1 courts, so the gaps sit on the growth path (section 3.1)."
   },
   {
    "type": "h4",
-   "text": "Evidence"
+   "text": "What the evidence shows"
   },
   {
    "type": "table",
@@ -91,15 +95,23 @@
   },
   {
    "type": "p",
-   "text": "Two measures are missing. No deliverable counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share from the 2024 visitor survey: 3.6% of respondents named hotels and 17.4% self-catering, shares that cover under a third of the sample (Current State Diagnostic, Dec 2025, p27)."
-  },
-  {
-   "type": "h4",
-   "text": "Recommendation"
+   "text": "The evidence shows a gap in the middle of the market and at the service counter, not a shortage of premium product. Service quality worries the operators themselves: CapeNature is cautious about scaling international demand while service readiness is uneven across its sites (Stakeholder Insights Report, Mar 2026, p43)."
   },
   {
    "type": "p",
-   "text": "Wesgro should lead a province-wide quality and standards framework and make the investment case for mid-scale accommodation in secondary nodes. The Benchmarking Report assigns the framework to Wesgro in so many words: a province-wide quality and standards framework that aligns all tourism stakeholders under consistent benchmarks led by Wesgro (Global Benchmarking Report, Mar 2026, p42). Valencia shows the form: a provincial quality charter, phased by district, with certification visible on booking platforms (p49)."
+   "text": "Two measures are missing. No source counts mid-scale rooms or beds by district [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "The quality charter comes first, because it sets the standard the other actions aim at. DEDAT leads it with Wesgro's Tourism unit. It is a province-wide framework that aligns all tourism stakeholders under consistent benchmarks (Global Benchmarking Report, Mar 2026, p42; that source proposes Wesgro as lead). It is phased by district, with certification visible on booking platforms and support for SMMEs to comply (Global Benchmarking Report, Mar 2026, p49). Design runs through 2027 and 2028, and the district phases start in 2029 (section 4.3)."
+  },
+  {
+   "type": "p",
+   "text": "The investment case for mid-scale hotels follows the charter from 2029, so that investors build to a known standard (focus area 15). The arrival gate sits outside the province's reach: Home Affairs and ACSA hold immigration processing and peak-hour throughput at Cape Town International, so the province presses them."
   },
   {
    "type": "grid",
@@ -123,11 +135,6 @@
    "rows": [
     [
      "Wesgro",
-     "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
-     "Tourism; DEDAT; industry bodies"
-    ],
-    [
-     "Wesgro",
      "Prepare for growth markets: multilingual guiding, digital payments and culturally relevant product for Chinese, Indian and Gulf visitors",
      "Tourism; Destination Marketing"
     ],
@@ -135,6 +142,11 @@
      "Wesgro",
      "Make the investment case for mid-scale and conference-capable hotels in George and Mossel Bay, east of Hermanus and on Route 62 (focus area 15)",
      "Tourism; private investors"
+    ],
+    [
+     "Partners",
+     "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
+     "DEDAT, with Wesgro Tourism; industry bodies"
     ],
     [
      "Partners",
@@ -150,11 +162,15 @@
   },
   {
    "type": "h4",
-   "text": "Benchmark precedent"
+   "text": "Why it can work"
   },
   {
    "type": "p",
-   "text": "Singapore's tourism board used a hotel industry transformation map, a hotel rejuvenation fund and the Hotels Act to move the destination from short stopovers toward longer stays and higher spend (Global Benchmarking Report, Mar 2026, p41). Valencia's Qualitur programme and SICTED quality system raised service consistency, reputation and repeat visitation (p47)."
+   "text": "A visible standard solves a problem of trust. A visitor booking a guesthouse on Route 62 cannot judge its service from abroad; certification shown on the booking platform can. The same standard gives small operators a clear target and a route to support, and it lets the province sell product outside the core with confidence."
+  },
+  {
+   "type": "p",
+   "text": "Quality governance was Valencia's primary lever. Its Qualitur programme and SICTED quality system raised service consistency, reputation and repeat visitation (Global Benchmarking Report, Mar 2026, p47). The city received 3.5 million international visitors in 2024, 13.9% more than in 2023 and 24.4% above 2019 (Global Benchmarking Report, Mar 2026, p46; growth across all levers, not attributed to quality alone). Singapore's tourism board used a hotel industry transformation map, a hotel rejuvenation fund and the Hotels Act. The aim was to move from short stopovers towards longer stays and higher spend (Global Benchmarking Report, Mar 2026, p41). The condition is that small businesses can comply. The compliance burden and skills shortages are the main risks, so the charter needs SMME support from the start and the skills work in focus area 20."
   },
   {
    "type": "h4",

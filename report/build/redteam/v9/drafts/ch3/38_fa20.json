@@ -124,7 +124,7 @@
   },
   {
    "type": "p",
-   "text": "The provincial figure may already sit in Wesgro's own files. Wesgro supplied the Western Cape Pero 2025 and the district Mero 2024 to this study (Inception Report, Nov 2025, p34) [provincial tourism employment from the Pero 2025: Wesgro Research to extract]. Training also exists in places, from the CATHSSETA site guides certified in Mbekweni to the hospitality academy in Prince Albert (SME and Community Inclusion Plan, Sep 2026, p42, p51). What is missing is the sizing step that links these pieces to the growth case."
+   "text": "A provincial figure exists in a source Wesgro holds (Inception Report, Nov 2025, p34). The Pero 2025 carries a tourism employment table that this report could not retrieve [provincial tourism employment from the Pero 2025: Wesgro Research to extract]. Training also exists in places, from the CATHSSETA site guides certified in Mbekweni to the hospitality academy in Prince Albert (SME and Community Inclusion Plan, Sep 2026, p42, p51). What is missing is the sizing step that links these pieces to the growth case."
   },
   {
    "type": "h4",
@@ -132,17 +132,62 @@
   },
   {
    "type": "p",
-   "text": "Wesgro and DEDAT commission a tourism labour analysis in 2027. It fixes a provincial employment baseline and definition, tests the 300,000 ambition and identifies the occupations and skills the growth case needs. In the same year Wesgro Research extracts the tourism employment table from the Pero 2025. Until the analysis reports, Chapter 5 carries jobs without a baseline or target. It sets the targets at the first gate, at the end of 2028, so the baseline must be in place by then (sections 4.7 and 5.3)."
+   "text": "Wesgro and DEDAT commission a tourism labour analysis in 2027. It fixes a provincial employment baseline and definition, tests the 300,000 ambition and identifies the occupations and skills the growth case needs. Before the analysis starts, Wesgro Research extracts the tourism employment table from the Pero 2025. Until the analysis reports, Chapter 5 carries jobs without a baseline or target. It sets the targets at the first gate, at the end of 2028, so the baseline must be in place by then (sections 4.7 and 5.3)."
   },
   {
    "type": "p",
    "text": "The skills plan follows the analysis and runs through the provincial quality charter (focus area 11). The Singapore lesson behind it pairs a province-wide quality framework with investment in workforce capability (Global Benchmarking Report, Mar 2026, p42). From 2029 CapeNature, CATHSSETA, training providers and municipalities run training partnerships around reserves and in pilot communities. LTOs and tour operators help newly trained guides stay in the sector with bookings from existing itineraries. Nationally, the province asks the Department of Tourism to approve a provincial jobs methodology and Stats SA to resource the tourism satellite account."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/38_fa20.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Commission the labour analysis with DEDAT: baseline, definition, occupations, skills gaps and the training pipeline",
+     "Research; DEDAT"
+    ],
+    [
+     "Wesgro",
+     "Extract the tourism employment table from the Pero 2025",
+     "Research"
+    ],
+    [
+     "Wesgro",
+     "Build a workforce strand into the provincial quality charter (focus area 11)",
+     "Tourism"
+    ],
+    [
+     "Partners",
+     "Run training partnerships around reserves and in pilot communities, building on the CATHSSETA guide certification and the Prince Albert academy",
+     "CapeNature; CATHSSETA; training providers; municipalities"
+    ],
+    [
+     "Partners",
+     "Help newly trained guides stay in the sector with bookings from existing itineraries",
+     "LTOs; tour operators"
+    ],
+    [
+     "National",
+     "Approve a provincial tourism jobs methodology and resource the tourism satellite account",
+     "Department of Tourism; Stats SA"
+    ]
    ]
   },
   {
@@ -155,7 +200,7 @@
   },
   {
    "type": "p",
-   "text": "Singapore's Hotel Industry Transformation Map, run by the tourism board with the hotel association and backed by dedicated funds, lifted service quality and spend per visitor (Global Benchmarking Report, Mar 2026, p41). In Santa Marta in Rio de Janeiro, about 20 resident guides ran the tours by 2015 and continued after the programme that launched them (SME and Community Inclusion Plan, Sep 2026, p7, p30). Across the cases, assets and training without a durable route to market did not produce comparable continuity (SME and Community Inclusion Plan, Sep 2026, p30). None of the six comparators carries a labour analysis or a tourism employment target, so the sizing step has no precedent in the benchmark set. The condition is a recognised method. Without the Department of Tourism's approval, the analysis can set a provincial baseline but not one the national accounts share."
+   "text": "Singapore's Hotel Industry Transformation Map, run by the tourism board with the hotel association and backed by dedicated funds, lifted service quality and spend per visitor (Global Benchmarking Report, Mar 2026, p41). Across the cases, assets and training without a durable route to market did not produce comparable continuity (SME and Community Inclusion Plan, Sep 2026, p30). None of the six comparators carries a labour analysis or a tourism employment target, so the sizing step has no precedent in the benchmark set. The condition is a recognised method. Without the Department of Tourism's approval, the analysis can set a provincial baseline but not one the national accounts share."
   },
   {
    "type": "h4",

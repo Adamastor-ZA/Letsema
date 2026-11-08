@@ -216,7 +216,7 @@
   },
   {
    "type": "p",
-   "text": "The province's best-known sites run at capacity in summer. At the Table Mountain Aerial Cableway, peak queues of up to three hours up and two down detract from the visitor experience (Stakeholder Insights Report, Mar 2026, p36; Infrastructure Report, Jul 2026, p28, p32; the second puts peak queues at two to three hours). Chapman's Peak suffers disruptions, and the December to January peak \"overwhelms transport and accommodation capacity\" (Infrastructure Report, Jul 2026, p28, p32). Boulders is \"already near carrying capacity\", and summit expansion on Table Mountain is severely limited (Stakeholder Insights Report, Mar 2026, p24, p36). Yet Cape Point and the township attractions are underused (Infrastructure Report, Jul 2026, p24). Eleven of the 16 organisations see the offer as concentrated around Cape Town and a narrow set of icons (Stakeholder Insights Report, Mar 2026, p11; the count is reconstructed from the appendix tables). The peak must therefore spread to product with room, under the capacity discipline New Zealand applies (section 2.1). The regions cannot yet take the overflow."
+   "text": "The province's best-known sites run at capacity in summer. At the Table Mountain Aerial Cableway, peak queues of up to three hours up and two down detract from the visitor experience (Stakeholder Insights Report, Mar 2026, p36; Infrastructure Report, Jul 2026, p28, p32; the second puts peak queues at two to three hours). Chapman's Peak suffers disruptions, and the peak over December and January \"overwhelms transport and accommodation capacity\" (Infrastructure Report, Jul 2026, p28, p32). Boulders is \"already near carrying capacity\", and summit expansion on Table Mountain is severely limited (Stakeholder Insights Report, Mar 2026, p24, p36). Yet Cape Point and the township attractions are underused (Infrastructure Report, Jul 2026, p24). Eleven of the 16 organisations see the offer as concentrated around Cape Town and a narrow set of icons (Stakeholder Insights Report, Mar 2026, p11; the count is reconstructed from the appendix tables). The peak must therefore spread to product with room, under the capacity discipline New Zealand applies (section 2.1). The regions cannot yet take the overflow."
   },
   {
    "type": "h3",
@@ -500,14 +500,14 @@
    "type": "box",
    "title": "What this means for the strategy",
    "paras": [
-    "**Rewords FA07, Win direct routes and add seats on full routes, and supplies its binding constraint.** Eleven routes run above 80% and fares are likely to rise before seats. The runway binds until about 2033, and the base case passes the model's seat line by 2030.",
-    "**Adds FA08, Grow cruise calls and ports.** Cruise needs product, not berths.",
-    "**Supports FA07 and FA15, Crowd in capital with targeted investment strategies.** Airport capital is committed, but regional gaps have no committed capital.",
-    "**Validates FA09, Accelerate tourism-enabling internal mobility.** Accessibility falls from 4.7 to 1.0, and public transport is absent beyond the Metro. Stakeholders name last-mile access as a barrier, which supports it.",
-    "**Validates FA10, Support diversified route and product development, and FA11, Align visitor experience in-destination.** Strong assets sit in areas with little tourism use, and mid-market beds are missing. Stakeholders' account of a narrow product set supports FA10.",
-    "**Validates FA12, Balance impact on nature-based attractions.** Flagships are full at peak while alternatives are underused, as stakeholders also report.",
-    "**Supports FA03, Make the whole province findable and bookable.** Bookability is weakest in the regions, and stakeholders report product that cannot be booked online.",
-    "**Supports FA02, rewords FA04 and validates FA05 and FA06 from the air side.** Winter seats fall to 6.4% of the year in June. No seat flies direct to Asia today, and the hub routes still have seats, so conversion runs through the hubs. The mature long-haul routes are the fullest, and routes to five regional markets run above 80% and are named for more capacity."
+    "**FA07, Win direct routes and add seats on full routes.** Eleven routes run above 80% and fares are likely to rise before seats. The runway is the binding constraint until about 2033, and the base case passes the model's seat line by 2030.",
+    "**FA08, Grow cruise calls and ports.** Cruise needs product, not berths.",
+    "**FA07 and FA15, Crowd in capital with targeted investment strategies.** Airport capital is committed, but regional gaps have no committed capital.",
+    "**FA09, Accelerate tourism-enabling internal mobility.** Accessibility falls from 4.7 to 1.0, and public transport is absent beyond the Metro. Stakeholders name last-mile access as a barrier, which supports it.",
+    "**FA10, Support diversified route and product development, and FA11, Align visitor experience in-destination.** Strong assets sit in areas with little tourism use, and mid-market beds are missing. Stakeholders' account of a narrow product set supports FA10.",
+    "**FA12, Balance impact on nature-based attractions.** Flagships are full at peak while alternatives are underused, as stakeholders also report.",
+    "**FA03, Make the whole province findable and bookable.** Bookability is weakest in the regions, and stakeholders report product that cannot be booked online.",
+    "**FA02, FA04, FA05 and FA06, from the air side.** Winter seats fall to 6.4% of the year in June. No seat flies direct to Asia today, and the hub routes still have seats, so conversion runs through the hubs. The mature long-haul routes are the fullest, and routes to five regional markets run above 80% and are named for more capacity."
    ]
   }
  ]

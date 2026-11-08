@@ -60,6 +60,15 @@
    "to": "retired: versioning removed at the client's request",
    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/25_fa11.json",
+    9
+   ],
+   "to": "section 1.2 carries the 2024 visitor-survey accommodation shares (3.6% hotels, 17.4% self-catering; Current State Diagnostic, Dec 2025, p27); the missing-measures sentence and its open item stay here",
+   "reason": "cold read: the survey shares supported no point in the entry",
+   "carries_all": true
   }
  ],
  "blocks": [
@@ -124,7 +133,7 @@
   },
   {
    "type": "p",
-   "text": "Two measures are missing. No source counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share from the 2024 visitor survey. There, 3.6% of respondents named hotels and 17.4% self-catering, shares that cover under a third of the sample (Current State Diagnostic, Dec 2025, p27)."
+   "text": "Two measures are missing. No source counts mid-scale rooms or beds by district [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score."
   },
   {
    "type": "h4",
@@ -132,17 +141,57 @@
   },
   {
    "type": "p",
-   "text": "The quality charter comes first, because it sets the standard the other actions aim at. DEDAT leads it with Wesgro's Tourism unit (section 4.3). It is a province-wide framework that aligns all tourism stakeholders under consistent benchmarks (Global Benchmarking Report, Mar 2026, p42; that source proposes Wesgro as lead). It is phased by district, with certification visible on booking platforms and support for SMMEs to comply (Global Benchmarking Report, Mar 2026, p49). Design runs through 2027 and 2028, and the district phases start in 2029 (section 4.3)."
+   "text": "The quality charter comes first, because it sets the standard the other actions aim at. DEDAT leads it with Wesgro's Tourism unit. It is a province-wide framework that aligns all tourism stakeholders under consistent benchmarks (Global Benchmarking Report, Mar 2026, p42; that source proposes Wesgro as lead). It is phased by district, with certification visible on booking platforms and support for SMMEs to comply (Global Benchmarking Report, Mar 2026, p49). Design runs through 2027 and 2028, and the district phases start in 2029 (section 4.3)."
   },
   {
    "type": "p",
    "text": "The investment case for mid-scale hotels follows the charter from 2029, so that investors build to a known standard (focus area 15). The arrival gate sits outside the province's reach: Home Affairs and ACSA hold immigration processing and peak-hour throughput at Cape Town International, so the province presses them."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/25_fa11.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Prepare for growth markets: multilingual guiding, digital payments and culturally relevant product for Chinese, Indian and Gulf visitors",
+     "Tourism; Destination Marketing"
+    ],
+    [
+     "Wesgro",
+     "Make the investment case for mid-scale and conference-capable hotels in George and Mossel Bay, east of Hermanus and on Route 62 (focus area 15)",
+     "Tourism; private investors"
+    ],
+    [
+     "Partners",
+     "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
+     "DEDAT, with Wesgro Tourism; industry bodies"
+    ],
+    [
+     "Partners",
+     "Close service and interpretation gaps at named sites: Robben Island interpretation, CapeNature service readiness, restaurant quality in Mossel Bay",
+     "Attraction operators; municipalities; CATHSSETA"
+    ],
+    [
+     "National",
+     "Improve immigration processing and peak-hour throughput at Cape Town International, and deliver the terminal relief due about 2032",
+     "Home Affairs; ACSA"
+    ]
    ]
   },
   {

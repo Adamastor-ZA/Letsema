@@ -132,13 +132,58 @@
   },
   {
    "type": "p",
-   "text": "Three districts have positions to build on. The Cape Winelands can become a climate-smart wine region, the Overberg a nature-positive test bed and the Garden Route a case for resilience investment (Current State Diagnostic, Dec 2025, p45, p49, p43). The register comes first because routing, funding and capital choices all depend on knowing which sites close and how often."
+   "text": "The register comes first, because routing, funding and capital choices all depend on knowing which sites close and how often. Three districts then have positions to build on: the Cape Winelands as a climate-smart wine region, the Overberg as a nature-positive test bed and the Garden Route as a case for resilience investment (Current State Diagnostic, Dec 2025, p45, p49, p43)."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/32_fa14.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Keep a climate and weather risk register for tourism sites and routes, starting with the Robben Island, Cableway and CapeNature losses and the Meiringspoort closure",
+     "Research; DEDAT; site operators"
+    ],
+    [
+     "Wesgro",
+     "Build sustainability checks into the provincial quality charter (focus area 11) on the Mossel Bay model",
+     "Tourism; LTOs"
+    ],
+    [
+     "Wesgro",
+     "Route itineraries and marketing around closures, starting with alternatives to Meiringspoort until the pass reopens",
+     "Destination Marketing; Garden Route and Klein Karoo LTOs"
+    ],
+    [
+     "Partners",
+     "Give LTOs a stable funding agreement with a development mandate, written into IDPs with reporting",
+     "Municipalities; district municipalities; DEDAT"
+    ],
+    [
+     "Partners",
+     "Make reserve and attraction assets climate-resilient, with off-grid power at remote sites",
+     "CapeNature; site operators"
+    ],
+    [
+     "National",
+     "Resolve the effect of MFMA Circular No. 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+     "National Treasury; the road authority"
+    ]
    ]
   },
   {
@@ -147,7 +192,7 @@
   },
   {
    "type": "p",
-   "text": "The register turns scattered losses into decisions. Once losses are dated and costed by site, Wesgro can route itineraries and marketing around a closure. Operators can plan capital around the risk. CapeNature finds off-grid solar and self-sufficiency increasingly necessary to keep remote sites running (Stakeholder Insights Report, Mar 2026, p44). Stable funding works on the other half. An LTO with a multi-year agreement and a development mandate can plan for a fire season, not only the next campaign."
+   "text": "The register turns scattered losses into decisions. Some losses already carry a figure: weather cancellations cost Robben Island roughly R16m a year, and the Meiringspoort rebuild costs R421m (Stakeholder Insights Report, Mar 2026, p33; SME and Community Inclusion Plan, Sep 2026, p24). Once losses are dated and costed by site, Wesgro can route itineraries around a closure and operators can weigh resilience spending against the loss it avoids. Stable funding works on the other half. An LTO with a multi-year agreement and a development mandate can plan for a fire season, not only the next campaign."
   },
   {
    "type": "p",

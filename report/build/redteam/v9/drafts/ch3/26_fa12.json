@@ -132,13 +132,58 @@
   },
   {
    "type": "p",
-   "text": "The site operators hold the flow tools, from digital flow management to tiered pricing (Demand-Side Analysis, Jun 2026, p3; Stakeholder Insights Report, Mar 2026, p44). From 2029 the operators bring these tools to the Cableway, Boulders and Cape Point, where mandates allow. Later in the period CapeNature makes reserve product climate-resilient. SANParks carries the national step: a visitor management plan for Table Mountain National Park and Boulders, agreed with the City and the operators."
+   "text": "The site operators hold the flow tools, from digital flow management to tiered pricing (Demand-Side Analysis, Jun 2026, p3; Stakeholder Insights Report, Mar 2026, p44). From 2029 the operators bring these tools to the Cableway and Boulders, where mandates allow. Later in the period CapeNature makes reserve product climate-resilient. SANParks carries the national step: a visitor management plan for Table Mountain National Park and Boulders, agreed with the City and the operators."
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/26_fa12.json",
-    12
+   "type": "grid",
+   "columns": [
+    {
+     "header": "Who acts",
+     "width": 1.2,
+     "align": "left"
+    },
+    {
+     "header": "Action",
+     "width": 4.6,
+     "align": "left"
+    },
+    {
+     "header": "Lead and partners",
+     "width": 2.0,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Wesgro",
+     "Market Cape Point, the under-used reserves and the Southern Line to Muizenberg, Kalk Bay and Simon's Town as alternatives to peak-hour visits at the Cableway and Boulders",
+     "Destination Marketing; CapeNature; SANParks; PRASA"
+    ],
+    [
+     "Wesgro",
+     "Request visitor counts and capacity for the five flagship sites and publish them as the baseline",
+     "Research; site operators"
+    ],
+    [
+     "Wesgro",
+     "Report spend per visitor and length of stay for nature product alongside visitor numbers",
+     "Research"
+    ],
+    [
+     "Partners",
+     "Introduce digital visitor-flow management at the Cableway and Boulders, with tiered pricing where mandates allow",
+     "Table Mountain Aerial Cableway; SANParks; CapeNature"
+    ],
+    [
+     "Partners",
+     "Make reserve product climate-resilient by reassessing asset formats and siting",
+     "CapeNature"
+    ],
+    [
+     "National",
+     "Agree a visitor management plan for Table Mountain National Park and Boulders with the City and the operators",
+     "SANParks"
+    ]
    ]
   },
   {
@@ -151,7 +196,7 @@
   },
   {
    "type": "p",
-   "text": "New Zealand uses land-use controls and premium curation on the principle that capacity discipline protects long-term pricing power (Global Benchmarking Report, Mar 2026, p55). Kenya treats conservation as national economic infrastructure, with tourism-funded conservation financing and community conservancies that sustain demand and environmental integrity (Global Benchmarking Report, Mar 2026, p33). It earned about US$1,460 per international arrival in 2024, against about US$890 in the Western Cape (Demand-Side Analysis, Jun 2026, p15). The City already runs the model at small scale. Since August 2025 Witzands permits have been capped by day, and 80% are pre-booked online (SME and Community Inclusion Plan, Sep 2026, p41). The condition is the operators. They must share their counts, and their mandates must allow pricing: CapeNature's statutory affordability mandate has kept prices conservative and is moving it towards tiered pricing (Stakeholder Insights Report, Mar 2026, p44)."
+   "text": "New Zealand uses land-use controls and premium curation on the principle that capacity discipline protects long-term pricing power (Global Benchmarking Report, Mar 2026, p55). Kenya treats conservation as national economic infrastructure, with tourism-funded conservation financing and community conservancies that sustain demand and environmental integrity (Global Benchmarking Report, Mar 2026, p33). The City already runs the model at small scale. Since August 2025 Witzands permits have been capped by day, and 80% are pre-booked online (SME and Community Inclusion Plan, Sep 2026, p41). The condition is the operators. They must share their counts, and their mandates must allow pricing: CapeNature's statutory affordability mandate has kept its prices conservative, and CapeNature is now moving towards tiered pricing (Stakeholder Insights Report, Mar 2026, p44)."
   },
   {
    "type": "h4",

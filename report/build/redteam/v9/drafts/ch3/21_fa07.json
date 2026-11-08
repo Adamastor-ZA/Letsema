@@ -64,6 +64,15 @@
    "to": "retired: versioning removed at the client's request",
    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/21_fa07.json",
+    16
+   ],
+   "to": "section 2.1 carries Chile's overland share (55.6% in 2024, 40% from Argentina); the rest of the block stays in this entry",
+   "reason": "cold read: the overland sentence broke the route-fund thread and repeated section 2.1",
+   "carries_all": true
   }
  ],
  "blocks": [
@@ -100,11 +109,8 @@
    ]
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/21_fa07.json",
-    5
-   ]
+   "type": "lead",
+   "text": "Eleven of 27 international routes run above 80% load and carriers are expected to price before adding seats, so the province must win frequency and larger aircraft before runway relief in about 2033."
   },
   {
    "type": "h4",
@@ -127,11 +133,60 @@
    "text": "What the evidence shows"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/21_fa07.json",
-    10
-   ]
+   "type": "table",
+   "caption": "Evidence for focus area 7",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (twelve months to November 2025; 76.0% is the printed network total and the 27 rows sum to 75.0%); Demand-Side Analysis, Jun 2026 (DSA); Infrastructure Report, Jul 2026 (IR).",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Routes are full",
+     "11 of 27 tabled routes above 80% load and 16 at 75% or more; network load 76.0%",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Fares expected before seats",
+     "Carriers on full routes will seek higher fares rather than add services, though there is tactical room for added frequency and larger aircraft",
+     "MIDAS, In Conclusion"
+    ],
+    [
+     "A record to build on",
+     "17 mainline international routes added from 2015 to 2025, ahead of Santiago (14), Valencia (12) and Calgary (8)",
+     "MIDAS, International Comparisons"
+    ],
+    [
+     "A seat line in 2030",
+     "The model draws current air access at 1.8 million inbound seats; the base case crosses it at the 2030 year point (1,802,929)",
+     "DSA p21"
+    ],
+    [
+     "Relief lands late",
+     "The single runway caps movements at about 30 an hour; ACSA's ~R11.3bn programme brings the international terminal about 2032 and the runway about 2033; ACSA's latest schedule shows the runway by December 2029",
+     "IR p101 to p103; ACSA, Aug 2026"
+    ],
+    [
+     "Second gateways",
+     "George doubles by 2028 or 2029 (R310m, to about 2m passengers); Cape Winelands is an upside bet with no firm named carrier",
+     "IR p104 to p109"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "The network is full on its best routes, the airport is full at its runway at peak, and planned relief lands after the base case crosses the model's seat line."
   },
   {
    "type": "p",
@@ -139,7 +194,7 @@
   },
   {
    "type": "p",
-   "text": "Relief also comes in the wrong order: \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p109). George doubles its capacity but flies domestic routes only, and Cape Winelands has no firm named carrier (Infrastructure Report, Jul 2026, p104 to p107). No airline took part in the first phase of stakeholder engagement, so carriers' views on frequency and gauge are untested (Stakeholder Insights Report, Mar 2026, p16)."
+   "text": "Relief also comes in the wrong order: \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p109). George doubles its capacity but flies domestic routes only, and Cape Winelands has no firm named carrier (Infrastructure Report, Jul 2026, p104 to p107). No airline is among the 16 organisations whose views this report draws on, so carriers' views on frequency and gauge are untested (Stakeholder Insights Report, Mar 2026, p16)."
   },
   {
    "type": "h4",
@@ -147,11 +202,11 @@
   },
   {
    "type": "p",
-   "text": "The approach splits the air agenda by horizon. Until relief arrives in about 2032, the job is to fill and enlarge what already flies. The near-term moves are added frequency from Emirates, Qatar Airways and Ethiopian Airlines, with airline incentives coordinated through Cape Town Air Access. Route cases for India and China are the long-term move (Demand-Side Analysis, Jun 2026, p54). Wesgro also presses for more seats to Luanda, Maputo, Gaborone, Harare and Mauritius, the five regional markets above 80%."
+   "text": "The approach splits the air agenda by horizon. Until runway relief arrives in about 2033, the job is to fill and enlarge what already flies. The near-term moves are added frequency from Emirates, Qatar Airways and Ethiopian Airlines, with airline incentives coordinated through Cape Town Air Access. Route cases for India and China are the long-term move (Demand-Side Analysis, Jun 2026, p54). Wesgro also presses for more seats to Luanda, Maputo, Gaborone, Harare and Mauritius, the five regional markets above 80%."
   },
   {
    "type": "p",
-   "text": "The fund is designed in 2027 and 2028, so it is running when the regional frequency cases are made from 2029. The India and China cases go to carriers from 2032, as runway capacity arrives (section 4.3). ACSA delivers the runway and terminals, and Wesgro tracks them quarterly as the first risk. Air service agreements, the cap on US carriers and immigration processing sit with national government, so the province escalates them (section 3.3.2)."
+   "text": "Cape Town Air Access's route fund becomes a ring-fenced public-private fund, designed in 2027 and 2028. It is then running when the regional frequency cases are made from 2029. The India and China cases go to carriers from 2032, as runway capacity arrives (section 4.3). ACSA delivers the runway and terminals, and Wesgro tracks them quarterly as the first risk. Air service agreements, the cap on US carriers and immigration processing sit with national government, so the province escalates them (section 3.3.2)."
   },
   {
    "type": "ref",
@@ -170,7 +225,7 @@
   },
   {
    "type": "p",
-   "text": "Chile shows the infrastructure half. A private concession funded about US$900 million of expansion at Santiago, and international seats grew about 40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). Yet Chile's 2024 surge came mostly overland: land borders carried 55.6% of arrivals and Argentina about 40% (Sernatur, Anuario de Turismo 2024, Dec 2025). The route fund is the province's to scale; open skies and private airport finance are national levers, carried in the escalation agenda (focus area 19). The condition is the runway. If relief slips past about 2033, existing routes must carry growth for longer."
+   "text": "Chile shows the infrastructure half. A private concession funded about US$900 million of expansion at Santiago, and international seats grew about 40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). The route fund is the province's to scale; open skies and private airport finance are national levers, carried in the escalation agenda (focus area 19). The condition is the runway. If relief slips past about 2033, existing routes must carry growth for longer."
   },
   {
    "type": "h4",

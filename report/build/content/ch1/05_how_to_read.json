@@ -24,31 +24,11 @@
   },
   {
    "type": "p",
-   "text": "Chapter 2 sets out what the analysis found, in four parts: the global benchmarks and their lessons, demand, supply and the enabling environment. It serves readers checking the evidence behind a Chapter 3 entry, and each part closes with a box naming the focus areas it supports. Chapter 3 takes the twenty focus areas in turn: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally. The Board and Exco can read it entry by entry and the programme owner in full; section 3.4 gives the sequence."
+   "text": "Chapter 2 sets out what the analysis found, in four parts: the global benchmarks and their lessons, demand, supply and the enabling environment. It serves readers checking the evidence behind a Chapter 3 entry, and each part closes with a box naming the focus areas it supports. Chapter 3 takes the twenty focus areas in turn. Each entry sets out the challenge or opportunity, the evidence, the course of action, why it can work and the link to the plan. The Board and Exco can read it entry by entry and the programme owner in full; section 3.4 gives the sequence."
   },
   {
    "type": "p",
    "text": "Chapter 4 sets out which initiatives run, in what order, owned by whom, at what cost and with which decision gates, for the programme owner, Steerco and the partners named in the RACI. Chapter 5 sets out how progress is measured, through indicators, baselines, targets, data sources, the scorecard and the 2030 mid-term review, for Wesgro Research, the programme office and Steerco. Appendices A1 to A9 hold the traceability table, the demand model, the benchmark cases, readiness scores, the community fact base, stakeholder inputs, charters, the toolkit and references, for analysts and anyone checking a figure."
-  },
-  {
-   "type": "h3",
-   "text": "Disposition labels"
-  },
-  {
-   "type": "p",
-   "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas."
-  },
-  {
-   "type": "p",
-   "text": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated: the evidence confirmed the hypothesis as written. One is Refined, where the evidence confirmed the hypothesis and sharpened its content. Six are Reworded: the evidence confirmed the hypothesis and the entry was renamed to what the evidence showed. One is New, added in October 2026 with no December entry behind it. One is Moved: confirmed, but placed in another theme because its levers sit with another tier. One is Flagged: untested, and carried as a question for analysis still to be commissioned. None is Withdrawn, the label for an entry dropped because the evidence did not support it. The labels are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed against the final deck], and the counts come from the traceability table in Appendix A1."
-  },
-  {
-   "type": "p",
-   "text": "**What the evidence argued against.** No entry was withdrawn, but the evidence narrowed or overturned three parts of the December case. First, the pivot to four growth markets narrowed to converting India and China traffic already flying through hubs; the Middle East and ASEAN cases did not survive (focus area 4). Second, the ambition to double arrivals did not survive: the growth model supports 2.2 million to 2.5 million by 2035 (section 1.1). Third, the 300,000 tourism-linked jobs ambition has no baseline behind it and is flagged untested (focus area 20). Two Validated entries also rest on less than direct evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables (section 3.3)."
-  },
-  {
-   "type": "p",
-   "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]"
   },
   {
    "type": "h3",
@@ -60,7 +40,7 @@
   },
   {
    "type": "p",
-   "text": "Four cover dates differ from their file dates. The Demand-Side Analysis is cited as June 2026 though its file is dated 1 October 2026 and the Inclusion Plan cites a 16 September version. The Infrastructure Report cited is the July 2026 final, not the June draft. The SME and Community Inclusion Plan prints September 2026 on a file dated 9 October, and the MIDAS Aviation Market Assessment prints March 2026 on a file dated 20 April 2026."
+   "text": "Where a deliverable's file carries a later date than its cover, Appendix A9 shows both."
   },
   {
    "type": "p",
@@ -68,11 +48,7 @@
   },
   {
    "type": "p",
-   "text": "Two arrivals figures recur and measure different things. The recovery baseline is 1.44m international passenger arrivals at Cape Town International in FY24/25, ACSA's fiscal-year count (Current State Diagnostic, Dec 2025, p25). The growth model runs from 1,498,829 arrivals in 2025 (Market Assessment Report, May 2026, p19) to 2,175,778 in the base case and 2,516,282 in the accelerated case in 2035 (Demand-Side Analysis, Jun 2026, p20)."
-  },
-  {
-   "type": "p",
-   "text": "The strategy's 2.5m is the accelerated case rounded. The word doubling appears only where the report quotes the original mandate (Inception Report, Nov 2025, p4)."
+   "text": "Section 1.1 sets out how the report counts arrivals; the strategy's 2.5 million is the accelerated case rounded."
   },
   {
    "type": "h3",
@@ -84,18 +60,11 @@
   },
   {
    "type": "p",
-   "text": "Three codes tie the chapters together. A Chapter 3 kicker names the entry's theme, 1.1 to 3.2, above the focus area name as it reads on the tree; each entry closes with the initiative and indicator it links to. Initiatives in Chapter 4 run I1 onwards in one sequence; indicators in Chapter 5 run T1-01 onwards for impact, T2-01 for outcome and T3-01 for output."
+   "text": "Three codes tie the chapters together. A Chapter 3 kicker names the entry's theme, 1.1 to 3.2, above the focus area name as it reads on the tree [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; each entry closes with the initiative and indicator it links to. Initiatives in Chapter 4 run I1 onwards in one sequence; indicators in Chapter 5 run T1-01 onwards for impact, T2-01 for outcome and T3-01 for output."
   },
   {
    "type": "p",
-   "text": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition and its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure."
-  },
-  {
-   "type": "bullets",
-   "items": [
-    "[Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]",
-    "[Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]"
-   ]
+   "text": "Appendix A1 holds the evidence behind the tree. For each focus area it records the workstream and Chapter 2 sections behind it, rates the strength of the evidence and gives its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure. Nine focus areas rest on strong evidence and ten on adequate evidence. Two of the ten rest on indirect evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables. Focus area 20 waits on a labour analysis still to be commissioned."
   }
  ]
 }

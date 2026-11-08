@@ -15,23 +15,27 @@
   },
   {
    "type": "lead",
-   "text": "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and four arrivals measures run unreconciled, so a data-sharing protocol is the precondition for every target."
+   "text": "No approved method exists for provincial tourism GDP and jobs, operators cannot see their own customers and the arrivals series run unreconciled, so a data-sharing protocol is the precondition for every target."
   },
   {
    "type": "h4",
-   "text": "Hypothesis and disposition"
+   "text": "The challenge"
   },
   {
    "type": "p",
-   "text": "**December 2025.** Expedite Tourism-Enabling Policy and Data Sharing (Current State Diagnostic, Dec 2025, p64)."
+   "text": "The province cannot yet measure what the strategy sets out to grow. The Department of Tourism reports no approved method for provincial tourism GDP and jobs estimates. Official tourism GDP and employment data have also lagged since Covid-era method changes, it adds (Stakeholder Insights Report, Mar 2026, p37). Data sharing draws more stakeholder insights than any other theme, as section 2.4 shows. Bodies from Stats SA and SA Tourism to ACSA, the airlines and the card schemes produce tourism data. Yet they collect different metrics at different frequencies with different definitions (Current State Diagnostic, Dec 2025, p56, p57)."
   },
   {
    "type": "p",
-   "text": "**October 2026: Validated.** Already underway. The stakeholder evidence drove the disposition: data and policy is the largest theme in the stakeholder record. The platforms are indeed underway, but no deliverable describes a data-sharing protocol or a policy revision in progress at provincial level [data-sharing protocol or policy revision in progress, with owner and start date: Wesgro Research and DEDAT to confirm]."
+   "text": "Every target to 2035 depends on fixing this. The plan tracks spend, season and spread beside arrivals. No source yet prints visitor spend by district (section 5.3). Even arrivals are counted in ways that are not reconciled. Section 1.2 sets out three measures: ACSA passenger arrivals, SA Tourism tourist arrivals and the growth model's international arrivals. OAG's air series adds a fourth count (Demand-Side Analysis, Jun 2026, p11, p13, p20, p27). Without a shared data layer, no intervention can be targeted or measured (Infrastructure Report, Jul 2026, p5)."
+  },
+  {
+   "type": "p",
+   "text": "Policy and the operators' own data are as thin. The Department of Economic Development reports a provincial tourism policy gap, with limited legislation and out-of-date master-planning frameworks (Stakeholder Insights Report, Mar 2026, p25). At the sites, third-party ticketing channels do not share visitor-level data with the Table Mountain Aerial Cableway (Stakeholder Insights Report, Mar 2026, p36). Robben Island Museum cannot link its marketing spend to visitor acquisition (Stakeholder Insights Report, Mar 2026, p33)."
   },
   {
    "type": "h4",
-   "text": "Evidence"
+   "text": "What the evidence shows"
   },
   {
    "type": "table",
@@ -91,15 +95,23 @@
   },
   {
    "type": "p",
-   "text": "The policy side is as thin. The Department of Economic Development reports a provincial tourism policy gap, with limited legislation and out-of-date master-planning frameworks (Stakeholder Insights Report, Mar 2026, p25). The Demand-Side Analysis uses four arrivals measures without reconciling them: ACSA passenger arrivals, SA Tourism tourist arrivals, OAG air arrivals and the model's international arrivals (Demand-Side Analysis, Jun 2026, p11, p13, p20, p27)."
-  },
-  {
-   "type": "h4",
-   "text": "Recommendation"
+   "text": "The evidence locates the gap in sharing, not in supply. Provincial macro-research is strong; what is missing is granular data on movement within regions and conversion along the path to purchase (Current State Diagnostic, Dec 2025, p56, p57). The platforms to share it exist in JAMS, the statistics committees and a cross-agency task team. None of them holds an agreement on what each body shares, in what form and how often. No source describes a data-sharing protocol or a policy revision in progress at provincial level [data-sharing protocol or policy revision in progress, with owner and start date: Wesgro Research and DEDAT to confirm]."
   },
   {
    "type": "p",
-   "text": "Wesgro should agree a data-sharing protocol with each data holder and run one indicator register and dashboard, as section 5.5 sets out. The Infrastructure Report puts it plainly: a data layer is the prerequisite, without which no intervention can be targeted or measured (Infrastructure Report, Jul 2026, p5). Skift's tracking design is ready to adopt: quarterly digital tracking, annual or twice-yearly brand research and a dashboard that cross-references campaigns, airline capacity and hotel trends (Skift Digital and Search Insights memo, 10 Dec 2025, section 6)."
+   "text": "Part of the gap is national and beyond the province's reach. Stats SA cites 749 vacancies as one factor that appears to slow the tourism satellite account (Stakeholder Insights Report, Mar 2026, p30). The province can agree terms with data holders now. A recognised provincial jobs and GDP method needs the Department of Tourism."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro's Research unit agrees data-sharing terms with each data holder and runs one indicator register and dashboard, as section 5.5 sets out. In 2027 it builds the register and agrees terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms. In 2028 the dashboard goes live with automated arrivals, seat and cruise feeds and quarterly digital tracking (section 4.3). The dashboard sets campaign results against airline capacity and hotel trends, and annual or twice-yearly brand research sits beside it (Skift Digital and Search Insights memo, 10 Dec 2025, section 6). Wesgro also starts to measure meetings, incentives and exhibitions. Meetings are absent from consolidated provincial statistics, and the scale of the other two is unverified (Demand-Side Analysis, Jun 2026, p36)."
+  },
+  {
+   "type": "p",
+   "text": "Partners and the national tier hold the rest. Attraction operators and CapeNature share visitor-level data from their ticketing and reservation systems. DEDAT and the municipalities close the provincial policy gap and embed tourism in IDPs and spatial plans, with reporting, as the West Coast District Municipality asks (Stakeholder Insights Report, Mar 2026, p39). Nationally, the province asks the Department of Tourism to approve a provincial tourism GDP and jobs methodology and Stats SA to resource the tourism satellite account."
   },
   {
    "type": "grid",
@@ -133,7 +145,7 @@
     ],
     [
      "Wesgro",
-     "Measure meetings, incentives and exhibitions, and add Nigeria and Ghana to the growth model",
+     "Measure meetings, incentives and exhibitions",
      "Research; Convention Bureau"
     ],
     [
@@ -155,11 +167,15 @@
   },
   {
    "type": "h4",
-   "text": "Benchmark precedent"
+   "text": "Why it can work"
   },
   {
    "type": "p",
-   "text": "New Zealand's route-accountable model rests partly on shared data platforms between tourism bodies and airlines, and it recorded more than 16,000 incremental bookings (Global Benchmarking Report, Mar 2026, p54). Valencia is the realism check: integrating data systems across institutions there created technical and organisational challenges (p45)."
+   "text": "A protocol fixes definitions once, so the data the province already has begins to add up. The arrivals measures can be bridged, so each is read against the others and the growth model is checked against counted arrivals. Spend and spread gain a district baseline. Operators who see their own customers can price, target and report, which gives them a reason to share. The dashboard also gives Steerco one set of facts, so collaboration (focus area 17) argues over decisions rather than numbers."
+  },
+  {
+   "type": "p",
+   "text": "New Zealand shows what shared data can support. Data shared between tourism bodies and airlines is one of four enablers of its route-accountable marketing, with airport readiness, route incentives and co-investment tied to route KPIs (Global Benchmarking Report, Mar 2026, p54). That marketing reports more than 16,000 incremental bookings and a return of about NZ$55 million in 2023/24 (Global Benchmarking Report, Mar 2026, p54). Valencia is the realism check: integrating data systems across institutions there can create technical and organisational challenges (Global Benchmarking Report, Mar 2026, p45). The condition is consent. Each data holder must sign, so the number of agreements signed is the first measure of progress (section 4.3)."
   },
   {
    "type": "h4",

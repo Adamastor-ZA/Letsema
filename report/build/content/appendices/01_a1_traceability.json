@@ -8,16 +8,16 @@
   },
   {
    "type": "lead",
-   "text": "Every disposition traces to a December entry, a workstream and pages in the deliverables, and each one-line reason is set against what those pages print."
+   "text": "Every focus area traces back to the evidence behind it and forward to its initiative and indicators, with a rating for the strength of that evidence."
   },
   {
    "type": "p",
-   "text": "The first table sets each focus area's one-line reason, as recorded at the 14 October 2026 review, against what the deliverables support. It rates the evidence on a four-point scale: strong, adequate, thin or none in hand. The second table traces each focus area back to its December entry and forward to its initiative and indicators. The full traceability file, with page references for every row, ships with this report as traceability.csv."
+   "text": "The first table sets out what the evidence supports for each focus area and rates its strength on a three-point scale: strong, adequate or thin. The second table traces each focus area back to its workstream and the sections that discuss it, and forward to its initiative and indicators."
   },
   {
    "type": "table",
-   "caption": "Reasons against the evidence",
-   "source": "One-line reasons as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only.",
+   "caption": "Strength of evidence by focus area",
+   "source": "Reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only.",
    "columns": [
     {
      "header": "Focus area",
@@ -25,18 +25,8 @@
      "align": "left"
     },
     {
-     "header": "Disposition",
-     "width": 0.9,
-     "align": "left"
-    },
-    {
-     "header": "Reason as recorded",
-     "width": 1.8,
-     "align": "left"
-    },
-    {
      "header": "What the evidence supports",
-     "width": 2.4,
+     "width": 5.1,
      "align": "left"
     },
     {
@@ -48,170 +38,125 @@
    "rows": [
     [
      "1 Respond to growth segment traveller preferences",
-     "Validated",
-     "Four segments confirmed against markets of high incidence",
-     "Supported; the segmentation is directional and leaves out the domestic and seven African markets",
+     "Four segments confirmed against markets of high incidence; the segmentation is directional and leaves out the domestic and seven African markets",
      "Strong"
     ],
     [
      "2 Create green-season demand with MICE and events",
-     "Reworded",
-     "June holds 6.4% of seats; ICCA",
-     "Supported: 6.4% of 2025 international seat capacity; ICCA meetings 33 to 58 from 2022 to 2024",
+     "June holds 6.4% of 2025 international seat capacity; ICCA meetings 33 to 58 from 2022 to 2024",
      "Strong"
     ],
     [
      "3 Make the whole province findable and bookable",
-     "Reworded",
-     "Community product unbookable, 70% by phone, OTA gaps",
-     "The 70% is CapeNature's reservation mix only; no count of bookable products exists",
+     "CapeNature takes about 70% of reservations through its call centre, and community product sells by phone; no count of bookable products exists",
      "Adequate"
     ],
     [
      "4 Convert India and China hub traffic",
-     "Reworded",
-     "101,000 journeys via hubs a year",
-     "The sum of two printed estimates, 71,000 and 30,000; the hub tables sum to 97,579",
+     "About 101,000 journeys a year via hubs, the sum of two printed estimates, 71,000 and 30,000; the hub tables sum to 97,579",
      "Strong"
     ],
     [
      "5 Increase yield in mature markets",
-     "Validated",
-     "Full routes",
      "Five mature long-haul routes above 80% load; no fare or yield data",
      "Adequate"
     ],
     [
      "6 Build a regional foundation (Africa)",
-     "Validated",
-     "Regional loads, Nigeria R31,000 and Ghana R27,700 a visit",
-     "Supported as spend per visitor; the printed averages do not reproduce from the totals",
+     "Nigeria R31,000 and Ghana R27,700 a visit, read as spend per visitor; the printed averages do not reproduce from the totals",
      "Strong"
     ],
     [
      "7 Win direct routes and add seats on full routes",
-     "Reworded",
-     "16 of 27 routes above 80%, fares before seats",
-     "MIDAS prints eleven routes above 80%; sixteen run at 75% or more",
+     "Eleven of 27 routes run above 80% load and sixteen at 75% or more, and carriers are expected to raise fares before adding seats; no frequency, aircraft-size or peak-slot data shows where seats can be added",
      "Adequate"
     ],
     [
      "8 Grow cruise calls and ports",
-     "New",
-     "79 calls in 2024/25, plan to 250",
-     "79 vessels (Diagnostic) against 83 calls (Infrastructure Report); the 250 plan is in no deliverable",
+     "79 vessels (Diagnostic) against 83 calls (Infrastructure Report) in 2024/25; a plan to 250 calls appears in no deliverable",
      "Adequate"
     ],
     [
      "9 Accelerate tourism-enabling internal mobility",
-     "Validated",
-     "Access decay 4.7 to 1.0",
-     "Supported on the attractions and services basis; the transport basis gives 5.0 to 1.0",
+     "Accessibility falls from 4.7 to 1.0 on the attractions and services basis; the transport basis gives 5.0 to 1.0",
      "Strong"
     ],
     [
      "10 Support diversified route and product development",
-     "Validated",
-     "Idle assets, cold zones",
-     "Cold zones is the Infrastructure Report's own term; no count of idle assets",
+     "Cold zones, the Infrastructure Report's term for areas with tourism assets but little or no tourism use; no count of idle assets",
      "Strong"
     ],
     [
      "11 Align visitor experience in-destination",
-     "Validated",
-     "Mid-scale gap",
-     "Stated in words; no room or bed count",
+     "A mid-scale gap, stated in words; no room or bed count",
      "Adequate"
     ],
     [
      "12 Balance impact on nature-based attractions",
-     "Validated",
-     "Flagship limits",
      "Stakeholder statements and queue times; no visitor counts or caps for any flagship",
      "Adequate"
     ],
     [
      "13 Embed local destination bodies for community inclusion",
-     "Refined",
-     "Seller with a stake, 20 communities, R259m at 1%",
-     "Supported; one page prints 18 shortlisted; the spend-tracing method is not described",
+     "Seller with a stake, 20 communities and R259m a year at 1% of FY2025 foreign direct spend; one page prints 18 shortlisted, and the spend-tracing method is not described",
      "Strong"
     ],
     [
      "14 Manage climate risk and sustainable tourism",
-     "Reworded",
-     "LTOs unfunded, Meiringspoort flood",
-     "Supported by two organisations' statements and the Inclusion Plan's De Rust profile",
+     "LTO funding disrupted and Meiringspoort closed, from two organisations' statements and the Inclusion Plan's De Rust profile",
      "Adequate"
     ],
     [
      "15 Crowd in capital with targeted investment strategies",
-     "Validated",
-     "No pipeline",
-     "An inference: a large capital pipeline exists and none of it reaches tourism product",
+     "An inference: a large capital pipeline exists and almost none of it reaches regional product, SME bookability or township product",
      "Adequate"
     ],
     [
      "16 Align institutional stakeholders across all three tiers",
-     "Reworded",
-     "Air rights and visas sit nationally",
-     "Supported by the Diagnostic's tier table; no decision-rights map exists",
+     "Air rights and visas sit nationally, as the Diagnostic's tier table shows; no decision-rights map exists",
      "Adequate"
     ],
     [
      "17 Strengthen industry and government collaboration",
-     "Validated",
-     "15 of 16 organisations",
-     "A reconstructed count of organisations, not insight rows",
+     "Raised by 15 of 16 organisations, a reconstructed count of organisations, not insight rows",
      "Strong"
     ],
     [
      "18 Expedite tourism-enabling policy and data sharing",
-     "Validated",
-     "Already underway",
      "Platforms exist; no data-sharing protocol in progress is described",
      "Adequate"
     ],
     [
-     "19 Lead removal of infrastructure visa and safety deficits",
-     "Moved from 2.1",
-     "Levers sit nationally",
-     "Holds for visas and air rights; safety programmes are provincial and basic services local",
+     "19 Lead removal of infrastructure, visa and safety deficits",
+     "Levers sit nationally for visas and air rights; safety programmes are provincial and basic services local",
      "Strong"
     ],
     [
      "20 Develop workforce and service skills",
-     "Flagged (untested)",
-     "Jobs goal has no labour analysis",
-     "Confirmed: no provincial tourism employment baseline in any deliverable",
+     "No provincial tourism employment baseline in any deliverable; the labour analysis is still to be commissioned",
      "Thin"
     ]
    ],
    "boldFirstCol": true,
-   "message": "Two figures in the one-line reasons are not supported, sixteen routes above 80% and the plan to 250 cruise calls, and several others hold only with a qualifier."
+   "message": "Nine focus areas rest on strong evidence and ten on adequate evidence; only focus area 20 is thin, and several figures hold only with a qualifier."
   },
   {
    "type": "table",
    "caption": "Traceability by focus area",
-   "source": "traceability.csv (Appendix A1 file). December entries as printed in Current State Diagnostic, Dec 2025, p64. Workstream attribution is this report's, from the deliverables that carry the figures.",
+   "source": "Workstream attribution is this report's, from the deliverables that carry the figures; the sections named give the pages.",
    "columns": [
     {
-     "header": "FA",
-     "width": 0.4,
-     "align": "left"
-    },
-    {
-     "header": "December entry",
-     "width": 2.0,
+     "header": "Focus area",
+     "width": 2.2,
      "align": "left"
     },
     {
      "header": "Workstream",
-     "width": 2.0,
+     "width": 2.2,
      "align": "left"
     },
     {
-     "header": "Chapter 2",
+     "header": "Sections",
      "width": 0.9,
      "align": "left"
     },
@@ -228,160 +173,140 @@
    ],
    "rows": [
     [
-     "1",
-     "Respond to Growth Segment Traveller Preferences",
+     "1 Respond to growth segment traveller preferences",
      "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis",
      "2.2",
      "I1",
      "T1-01; T1-02; T2-01"
     ],
     [
-     "2",
-     "Develop the Seasonality and Spread Proposition",
-     "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE landscape (ICCA, UIA)",
+     "2 Create green-season demand with MICE and events",
+     "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE section (ICCA, UIA)",
      "2.2; 2.1; 2.3",
      "I2",
      "T1-05; T2-02; T2-03"
     ],
     [
-     "3",
-     "Facilitate Adoption Along the Path to Purchase",
+     "3 Make the whole province findable and bookable",
      "Inclusion plan (community product sold by phone), Stakeholder Insights (Cape Nature 70% through the call centre), Infrastructure Report (route bookability gaps, no OTA presence in rural stock)",
      "2.2; 2.1; 2.3; 2.4",
      "I3",
      "T2-04; T2-05"
     ],
     [
-     "4",
-     "Pivot to Growth Markets (China, India, ME, ASEAN)",
+     "4 Convert India and China hub traffic",
      "Demand-Side route-to-market (71,000 India and 30,000 China via hubs) and MIDAS (same figures; no direct route before 2030)",
      "2.2; 2.1; 2.3; 1.2",
      "I4",
      "T1-02; T2-06"
     ],
     [
-     "5",
-     "Increase Yield in Mature Markets (UK, Europe, N. America)",
+     "5 Increase yield in mature markets",
      "MIDAS (mature long-haul routes above 80% load; carriers raise fares before adding seats) with the Demand-Side mature-market projection",
      "2.2; 2.1; 2.3",
      "I1",
      "T1-03; T2-07"
     ],
     [
-     "6",
-     "Build a Regional Foundation (Africa)",
+     "6 Build a regional foundation (Africa)",
      "Demand-Side African opportunity section and Skift African memo; MIDAS regional route loads",
      "2.2; 2.3; 1.2",
      "I5",
      "T1-02; T2-08"
     ],
     [
-     "7",
-     "Close the Air Access and Cruise Capacity Gaps (air)",
+     "7 Win direct routes and add seats on full routes",
      "MIDAS Aviation Market Assessment; Infrastructure Report air-access section",
      "2.3; 2.1",
      "I6",
      "T1-01; T2-09; T2-10"
     ],
     [
-     "8",
-     "Close the Air Access and Cruise Capacity Gaps (cruise)",
+     "8 Grow cruise calls and ports",
      "Diagnostic cruise table and Infrastructure Report cruise and ports section; Wesgro cruise reports (not in hand)",
      "2.3; 1.2",
      "I7",
      "T2-11"
     ],
     [
-     "9",
-     "Accelerate Tourism-Enabling Internal Mobility",
+     "9 Accelerate tourism-enabling internal mobility",
      "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility)",
      "2.3; 1.2",
      "I8",
      "T1-06; T2-12; T2-13"
     ],
     [
-     "10",
-     "Support Diversified Route and Product Development",
+     "10 Support diversified route and product development",
      "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations)",
      "2.3; 2.4",
      "I9",
      "T1-06; T2-14"
     ],
     [
-     "11",
-     "Align Visitor Experience In-Destination",
+     "11 Align visitor experience in-destination",
      "Infrastructure Report accommodation mapping; Stakeholder Insights (service quality); Benchmarking (Valencia, Singapore)",
      "2.3; 2.1",
      "I10",
      "T2-15"
     ],
     [
-     "12",
-     "Balance Impact on Nature-Based Attractions",
+     "12 Balance impact on nature-based attractions",
      "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion",
      "2.3; 2.1; 1.2",
      "I11",
      "T2-16"
     ],
     [
-     "13",
-     "Drive Community and SME Inclusion",
-     "SME and Community Inclusion Plan (September 2026), as agreed with Wesgro on 24 September",
+     "13 Embed local destination bodies for community inclusion",
+     "SME and Community Inclusion Plan (September 2026)",
      "2.4; 2.1",
      "I12",
      "T1-07; T2-17"
     ],
     [
-     "14",
-     "Ensure Sustainable Destination Management",
+     "14 Manage climate risk and sustainable tourism",
      "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
      "2.4; 2.1; 1.2",
      "I13",
      "T2-18; T2-19"
     ],
     [
-     "15",
-     "Crowd-In Capital with Targeted Investment Strategies",
+     "15 Crowd in capital with targeted investment strategies",
      "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund)",
      "2.4; 2.1; 2.3",
      "I14",
      "T2-20"
     ],
     [
-     "16",
-     "Review Institutional Arrangements",
+     "16 Align institutional stakeholders across all three tiers",
      "Stakeholder Insights (bilateral air agreements, fragmented mandates); Diagnostic governance tiers; MIDAS (government-to-government route designation)",
      "2.4; 2.1; 1.2; 1.1",
      "I15",
      "T2-21"
     ],
     [
-     "17",
-     "Strengthen Industry >> Government Collaboration",
-     "Stakeholder Insights theme tally",
+     "17 Strengthen industry and government collaboration",
+     "Stakeholder Insights appendix tables, counted for this report (Appendix A6)",
      "2.4; 2.1",
      "I15",
      "T2-22"
     ],
     [
-     "18",
-     "Expedite Tourism-Enabling Policy and Data Sharing",
+     "18 Expedite tourism-enabling policy and data sharing",
      "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework)",
      "2.4; 2.1; 1.2",
      "I16",
      "T2-23"
     ],
     [
-     "19",
-     "Lead Removal of Infrastructure, Visa and Safety Deficits (theme 2.1)",
-     "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government; the move itself is a deck decision",
+     "19 Lead removal of infrastructure, visa and safety deficits",
+     "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government",
      "2.4; 1.2",
      "I17",
      "T2-24"
     ],
     [
-     "20",
-     "New in October tree",
+     "20 Develop workforce and service skills",
      "No workstream; prompted by the 300,000-jobs ambition (Inception p4) and skills mentions in the Stakeholder Insights and Inclusion plan",
      "2.4; 1.1",
      "I18",

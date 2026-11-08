@@ -19,19 +19,23 @@
   },
   {
    "type": "h4",
-   "text": "Hypothesis and disposition"
+   "text": "The challenge"
   },
   {
    "type": "p",
-   "text": "**December 2025.** Facilitate Adoption Along the Path to Purchase (Current State Diagnostic, Dec 2025, p64)."
+   "text": "Interest that cannot be booked is lost. Travellers discover and book on platforms, and each growth market uses its own (section 2.2). China books on Trip.com and Fliggy, India on MakeMyTrip and the Gulf on Almosafer (Demand-Side Analysis, Jun 2026, p45, p47, p49). Product that is missing from those platforms does not exist for the traveller, however good it is. For the Western Cape this is the gap between Cape Town and the rest of the province."
   },
   {
    "type": "p",
-   "text": "**October 2026: Reworded.** Community product is unbookable, CapeNature takes about 70% of its reservations by phone and rural stock has OTA gaps. The focus moved from source-market platforms to the province's own product being invisible and unbookable. The Inclusion Plan, the stakeholder interviews and the Infrastructure Report drove the change."
+   "text": "The gap decides how far growth to 2035 spreads. Cape Town is the gateway, and the case for growth beyond the Metro rests on visitors moving out and staying longer. The Overberg says it does not package its offer early enough to be front of mind when travellers book flights (Stakeholder Insights Report, Mar 2026, p26). Each room or tour outside the core that cannot be booked online depends on a traveller willing to pick up the phone."
+  },
+  {
+   "type": "p",
+   "text": "The barriers are basic: online booking, card payment and rural broadband. Small operators, community guides and even large public attractions still sell by phone. Rural broadband sits outside Wesgro's reach as a national programme."
   },
   {
    "type": "h4",
-   "text": "Evidence"
+   "text": "What the evidence shows"
   },
   {
    "type": "table",
@@ -91,15 +95,19 @@
   },
   {
    "type": "p",
-   "text": "No deliverable counts bookable products. The platform scan planned at inception produced no output (Inception Report, Nov 2025, p15, p17), so the indicator this entry needs most, the share of provincial product listed on OTAs by district, has no baseline yet [bookable-product count by district: Wesgro Research to build; see section 5.4]."
+   "text": "Bookability is strongest on the three core routes where visitors already go. It is weakest on the outer routes and in the communities the province wants to reach. Much of the gap is listing and payment: guides, small operators and reserves exist, but many sell only by phone. Elsewhere the product itself is missing: the Overberg and West Coast marine and wildflower assets have no guided tours and no bookable product (Infrastructure Report, Jul 2026, p93). Yet no count of bookable products exists (Infrastructure Report, Jul 2026, p32, p95; both pages describe the gap without counting it). The indicator this focus area needs most, the share of provincial product listed on OTAs by district, therefore has no baseline yet [bookable-product count by district: Wesgro Research to build; see section 5.4]."
   },
   {
    "type": "h4",
-   "text": "Recommendation"
+   "text": "The course of action"
   },
   {
    "type": "p",
-   "text": "Wesgro should treat bookability as infrastructure: count it, close it district by district and then place it on the platforms each market uses. The Inclusion Plan sets a community's first deliverable as one live booking route, published operating dates, a named customer contact and a simple record of bookings and local revenue (SME and Community Inclusion Plan, Sep 2026, p33). Growth markets book on their own platforms: Trip.com and Fliggy in China, MakeMyTrip in India and Almosafer in the Gulf (Demand-Side Analysis, Jun 2026, p45, p47, p49)."
+   "text": "Wesgro should treat bookability as infrastructure: count it, close it district by district and then place it on the platforms each market uses. Each pilot community's first deliverable is one live booking route, published operating dates, a named customer contact and a simple record of bookings and local revenue (SME and Community Inclusion Plan, Sep 2026, p33)."
+  },
+  {
+   "type": "p",
+   "text": "The census comes first, in 2027, because the indicator has no baseline. Onboarding on the West Coast, Route 62 and the Overberg follows from 2028. Packaged itineraries go onto market platforms from 2029, once there is outer-district product to list (section 4.3)."
   },
   {
    "type": "grid",
@@ -148,18 +156,22 @@
     ],
     [
      "National",
-     "Extend rural broadband under SA Connect, and lift the national rule that blocks bank-card payments on the George bus",
+     "Extend rural broadband under SA Connect, so operators outside the core can take online bookings and card payments",
      "National government"
     ]
    ]
   },
   {
    "type": "h4",
-   "text": "Benchmark precedent"
+   "text": "Why it can work"
   },
   {
    "type": "p",
-   "text": "New Zealand packages regional clusters into bookable long-haul itineraries and pairs regional operators with specialist global travel designers (Global Benchmarking Report, Mar 2026, p55). The transferable lesson the deck draws for the Western Cape is to use Cape Town as a gateway that spreads value across the province through bookable regional experiences (p51)."
+   "text": "Bookability turns interest the province has already earned into payment. It does not replace awareness: the Overberg says potential visitors \"do not sufficiently understand how close the district is to Cape Town\" (Stakeholder Insights Report, Mar 2026, p26). Listing and packaging therefore go together. A listing on the platform where a traveller already plans puts outer-district product in front of that traveller at the moment of decision. The census then shows, district by district, whether the gap is closing."
+  },
+  {
+   "type": "p",
+   "text": "New Zealand packages regional clusters into bookable long-haul itineraries and pairs regional operators with specialist global travel designers (Global Benchmarking Report, Mar 2026, p55). Its regions gain higher revenue per visitor and better seasonal resilience (Global Benchmarking Report, Mar 2026, p55). The lesson is to use Cape Town as a gateway that spreads value across the province through bookable regional experiences (Global Benchmarking Report, Mar 2026, p51). In communities, a booking route also needs a seller behind it. In Santa Marta in Rio de Janeiro, about 20 resident guides ran the tours by 2015 and kept selling after the launch programme ended (SME and Community Inclusion Plan, Sep 2026, p7, p30). The condition is connectivity, payment and a seller with a stake."
   },
   {
    "type": "h4",

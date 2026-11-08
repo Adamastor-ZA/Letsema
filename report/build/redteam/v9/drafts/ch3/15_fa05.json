@@ -60,6 +60,15 @@
    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
    "retired": true
+  },
+  {
+   "src": [
+    "ch3/15_fa05.json",
+    14
+   ],
+   "to": "retired at the cold read: the New Zealand yield approach is carried in focus area 1; the 9.2% spend rise is dropped",
+   "reason": "cold read: the 9.2% sits on the same source page as NZ$12.2bn to NZ$12.3bn, a rise of under 1%, so the result is in doubt; Kenya's value per arrival (Demand-Side Analysis, Jun 2026, p15) replaces it",
+   "retired": true
   }
  ],
  "blocks": [
@@ -85,11 +94,8 @@
    ]
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/15_fa05.json",
-    3
-   ]
+   "type": "lead",
+   "text": "The mature markets already pay the most and fill the fullest routes, so growth there comes from more value per visitor and more seats on existing routes, not from broad awareness campaigns."
   },
   {
    "type": "h4",
@@ -112,11 +118,60 @@
    "text": "What the evidence shows"
   },
   {
-   "type": "ref",
-   "src": [
-    "ch3/15_fa05.json",
-    8
-   ]
+   "type": "table",
+   "caption": "Evidence for focus area 5",
+   "source": "MIDAS Aviation Market Assessment, Mar 2026 (year to November 2025); Demand-Side Analysis, Jun 2026 (DSA); Market Assessment Report, May 2026 (MA, 2025 base). No deliverable carries fare, revenue-per-seat or yield data.",
+   "columns": [
+    {
+     "header": "Finding",
+     "width": 2.2,
+     "align": "left"
+    },
+    {
+     "header": "Figure",
+     "width": 4.0,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 1.6,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "Five mature routes are full",
+     "Load factor Newark 88.6%, Atlanta 84.3%, Frankfurt 83.0%, Heathrow 83.0% and Washington 80.2%; eleven of the 27 tabled routes run above 80%",
+     "MIDAS, Seasonality"
+    ],
+    [
+     "Carriers are expected to price first",
+     "Carriers on full routes are expected to seek higher fares rather than add services",
+     "MIDAS, In Conclusion"
+    ],
+    [
+     "Mature visitors spend most",
+     "Average spend in the province USA R32,900, UK R26,500 and Germany R25,600, against Zimbabwe R8,500 (2024)",
+     "DSA p14"
+    ],
+    [
+     "The province earns a premium",
+     "13% to 16% of national arrivals by quarter in 2025, but 20% to 27% of national foreign direct spend",
+     "DSA p11"
+    ],
+    [
+     "Five markets dominate",
+     "The top five supplied 63% of overseas arrivals in 2025, and the UK, Germany and USA 52%",
+     "DSA p13"
+    ],
+    [
+     "Growth is steady",
+     "Mature group 587,287 to 766,067 arrivals in the base case, 2025 to 2035",
+     "MA p21; DSA p22"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "The highest-spending visitors come from the slowest-growing markets on the fullest routes."
   },
   {
    "type": "p",
@@ -128,7 +183,7 @@
   },
   {
    "type": "p",
-   "text": "Wesgro should protect share and raise value per visitor in the mature markets, and work the full routes for frequency and gauge before it chases new ones. The task is to protect share, increase yield and drive regional dispersal while new growth markets develop (Demand-Side Analysis, Jun 2026, p17). There is tactical room for added frequency on some routes and larger aircraft from some airlines (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
+   "text": "Wesgro should protect share and raise value per visitor in the mature markets, and work the full routes for frequency and gauge before it chases new ones. Drawing these visitors beyond the Metro serves the same end while the growth markets develop (Demand-Side Analysis, Jun 2026, p17). There is tactical room for added frequency on some routes and larger aircraft from some airlines (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
   },
   {
    "type": "p",
@@ -151,7 +206,7 @@
   },
   {
    "type": "p",
-   "text": "New Zealand runs yield-based performance, putting revenue per visitor and length of stay ahead of arrivals growth and selling premium regional itineraries through specialist travel designers (Global Benchmarking Report, Mar 2026, p55). Its visitor spend rose 9.2% in the year to March 2025 (Global Benchmarking Report, Mar 2026, p53; arrivals grew 5.9% over calendar 2025, a different period, so the two do not compare directly). The condition is a measure. Without spend per visitor by market as an annual series, yield can be neither managed nor judged, so the data-sharing protocol comes first (focus area 18)."
+   "text": "Kenya shows that value per visitor can outrun volume. With about 2.4 million arrivals in 2024, against Morocco's 17.4 million, Kenya earned about US$1,460 per international arrival. Morocco earned about US$630 and the Western Cape about US$890 (Demand-Side Analysis, Jun 2026, p15). The condition is a measure. Without spend per visitor by market as an annual series, yield can be neither managed nor judged, so the data-sharing protocol comes first (focus area 18)."
   },
   {
    "type": "h4",
