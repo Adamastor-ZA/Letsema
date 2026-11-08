@@ -51,9 +51,10 @@ if len(entries) == 20:
     ok.append('Chapter 3 has 20 focus-area entries')
 else:
     issues.append(f'Chapter 3 has {len(entries)} entries, not 20')
-need = ['Hypothesis and disposition', 'Evidence', 'Recommendation', 'Benchmark precedent', 'Link forward']
+# v9: each entry discusses the challenge or opportunity, the evidence, the course of action and why it can work, then links forward.
+need = [('The challenge', 'The opportunity'), ('What the evidence shows',), ('The course of action',), ('Why it can work',), ('Link forward',)]
 for fa, e in sorted(entries.items()):
-    miss = [p for p in need if p not in e['h4']]
+    miss = [p[0] for p in need if not any(x in e['h4'] for x in p)]
     if miss or not e['top']:
         issues.append(f'{fa}: missing parts {miss or "topline"}')
     if not 3 <= e['ev_rows'] <= 6:
@@ -65,7 +66,7 @@ for fa, e in sorted(entries.items()):
         if code not in e['link']:
             issues.append(f'{fa}: link forward lacks indicator {code} listed in traceability.csv')
 if not [i for i in issues if i.startswith('FA')]:
-    ok.append('All 20 entries carry kicker, topline and the five parts; evidence tables 3 to 6 rows; links match traceability.csv')
+    ok.append('All 20 entries carry kicker, topline and the five parts (challenge or opportunity, evidence, course of action, why it can work, link forward); evidence tables 3 to 6 rows; links match traceability.csv')
 
 # 2. Initiatives in 4.2 (Gantt), 4.3 (charters), 4.4 (RACI)
 ch4 = dict(load('ch4'))

@@ -1,0 +1,343 @@
+[
+ {
+  "module": "appendices/01_a1_traceability.json",
+  "index": 1,
+  "type": "lead",
+  "hits": [
+   "December entry",
+   "disposition"
+  ],
+  "caption": null,
+  "text": "Every disposition traces to a December entry, a workstream and pages in the deliverables, and each one-line reason is set against what those pages print."
+ },
+ {
+  "module": "appendices/01_a1_traceability.json",
+  "index": 2,
+  "type": "p",
+  "hits": [
+   "14 October 2026",
+   "December entry"
+  ],
+  "caption": null,
+  "text": "The first table sets each focus area's one-line reason, as recorded at the 14 October 2026 review, against what the deliverables support. It rates the evidence on a four-point scale: strong, adequate,"
+ },
+ {
+  "module": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "type": "table",
+  "hits": [
+   "14 October 2026",
+   "Flagged",
+   "Refined",
+   "Reworded",
+   "Validated"
+  ],
+  "caption": "Reasons against the evidence",
+  "text": ""
+ },
+ {
+  "module": "appendices/01_a1_traceability.json",
+  "index": 4,
+  "type": "table",
+  "hits": [
+   "December entries"
+  ],
+  "caption": "Traceability by focus area",
+  "text": ""
+ },
+ {
+  "module": "appendices/09_a9_glossary.json",
+  "index": 4,
+  "type": "table",
+  "hits": [
+   "December hypothesis",
+   "Flagged",
+   "Refined",
+   "Reworded",
+   "Validated",
+   "Withdrawn"
+  ],
+  "caption": "Glossary of terms",
+  "text": ""
+ },
+ {
+  "module": "appendices/09_a9_glossary.json",
+  "index": 5,
+  "type": "table",
+  "hits": [
+   "December tree"
+  ],
+  "caption": "Documents and sources cited",
+  "text": ""
+ },
+ {
+  "module": "ch1/01_mandate.json",
+  "index": 8,
+  "type": "p",
+  "hits": [
+   "14 October 2026"
+  ],
+  "caption": null,
+  "text": "**Arrivals.** The growth model tested the doubling and supports 2.2 million to 2.5 million by 2035. From 1,498,829 arrivals in 2025, its base case reaches 2,175,778 by 2035 and its accelerated case 2,"
+ },
+ {
+  "module": "ch1/02_system_today.json",
+  "index": 27,
+  "type": "p",
+  "hits": [
+   "from December"
+  ],
+  "caption": null,
+  "text": "Cape Town International itself is now the physical ceiling. One runway with no parallel taxiway caps movements at about 30 an hour, and ACSA's programme of about R11.3bn brings relief from about 2032 "
+ },
+ {
+  "module": "ch1/04_approach.json",
+  "index": 10,
+  "type": "p",
+  "hits": [
+   "14 October 2026",
+   "disposition",
+   "eighteen-entry"
+  ],
+  "caption": null,
+  "text": "The 14 October 2026 review updated the tree to twenty focus areas and gave each a disposition [Summary of Findings, 14 Oct 2026, pp15 to 16: deck not in hand; page citation to confirm]. The three pill"
+ },
+ {
+  "module": "ch1/04_approach.json",
+  "index": 12,
+  "type": "p",
+  "hits": [
+   "Validated",
+   "disposition",
+   "were reworded"
+  ],
+  "caption": null,
+  "text": "Six further entries were reworded to the lever the evidence supports and one was refined; the table below lists each change and the workstream behind it. Ten entries carried through as Validated with "
+ },
+ {
+  "module": "ch1/04_approach.json",
+  "index": 13,
+  "type": "table",
+  "hits": [
+   "14 October 2026",
+   "December entries",
+   "December entry",
+   "Flagged",
+   "October changes",
+   "Refined",
+   "Reworded",
+   "Validated",
+   "dispositions",
+   "the December"
+  ],
+  "caption": "December entries and October changes",
+  "text": ""
+ },
+ {
+  "module": "ch1/04_approach.json",
+  "index": 17,
+  "type": "p",
+  "hits": [
+   "14 October 2026"
+  ],
+  "caption": null,
+  "text": "Two conventions follow. The MIDAS Aviation Market Assessment and the Skift memos are Word files without page numbers, so they are cited by section title. The 14 October 2026 summary deck ranks below t"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 5,
+  "type": "p",
+  "hits": [
+   "disposition",
+   "the December"
+  ],
+  "caption": null,
+  "text": "Chapter 2 sets out what the analysis found, in four parts: the global benchmarks and their lessons, demand, supply and the enabling environment. It serves readers checking the evidence behind a Chapte"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 8,
+  "type": "p",
+  "hits": [
+   "14 October 2026",
+   "December tree"
+  ],
+  "caption": null,
+  "text": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current Stat"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 9,
+  "type": "p",
+  "hits": [
+   "14 October 2026",
+   "December entry",
+   "December hypothesis",
+   "Flagged",
+   "Refined",
+   "Reworded",
+   "Validated",
+   "Withdrawn",
+   "was renamed"
+  ],
+  "caption": null,
+  "text": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated: the evidence confirmed the hypothesis as written. One is Refined, where the ev"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 10,
+  "type": "p",
+  "hits": [
+   "Validated",
+   "the December"
+  ],
+  "caption": null,
+  "text": "**What the evidence argued against.** No entry was withdrawn, but the evidence narrowed or overturned three parts of the December case. First, the pivot to four growth markets narrowed to converting I"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 11,
+  "type": "p",
+  "hits": [
+   "December wording",
+   "Withdrawn"
+  ],
+  "caption": null,
+  "text": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its lev"
+ },
+ {
+  "module": "ch1/05_how_to_read.json",
+  "index": 21,
+  "type": "p",
+  "hits": [
+   "disposition",
+   "the December"
+  ],
+  "caption": null,
+  "text": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition "
+ },
+ {
+  "module": "ch2/02_demand.json",
+  "index": 36,
+  "type": "box",
+  "hits": [
+   "Rewords",
+   "Validates"
+  ],
+  "caption": null,
+  "text": ""
+ },
+ {
+  "module": "ch2/03_supply.json",
+  "index": 27,
+  "type": "p",
+  "hits": [
+   "the December"
+  ],
+  "caption": null,
+  "text": "The province's best-known sites run at capacity in summer. At the Table Mountain Aerial Cableway, peak queues of up to three hours up and two down detract from the visitor experience (Stakeholder Insi"
+ },
+ {
+  "module": "ch2/03_supply.json",
+  "index": 44,
+  "type": "box",
+  "hits": [
+   "Rewords",
+   "Validates"
+  ],
+  "caption": null,
+  "text": ""
+ },
+ {
+  "module": "ch2/04_enabling.json",
+  "index": 39,
+  "type": "box",
+  "hits": [
+   "Refines",
+   "Rewords",
+   "Validates"
+  ],
+  "caption": null,
+  "text": ""
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 28,
+  "type": "p",
+  "hits": [
+   "Validated",
+   "the December"
+  ],
+  "caption": null,
+  "text": "The twenty focus areas come from testing the December 2025 hypothesis tree against the evidence. Ten carried through as Validated and none was withdrawn (section 1.4)."
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 29,
+  "type": "figure",
+  "hits": [
+   "14 October 2026",
+   "December tree",
+   "Flagged",
+   "Refined",
+   "Reworded",
+   "Validated",
+   "disposition",
+   "dispositions",
+   "updated hypothesis tree"
+  ],
+  "caption": "The updated hypothesis tree",
+  "text": ""
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 30,
+  "type": "p",
+  "hits": [
+   "disposition"
+  ],
+  "caption": null,
+  "text": "Each table gives a focus area's disposition, its Chapter 3 finding word for word and its initiative."
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 31,
+  "type": "table",
+  "hits": [
+   "14 October 2026",
+   "Reworded",
+   "Validated",
+   "dispositions"
+  ],
+  "caption": "Pillar 1: Reshape demand",
+  "text": ""
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 32,
+  "type": "table",
+  "hits": [
+   "14 October 2026",
+   "Reworded",
+   "Validated",
+   "dispositions"
+  ],
+  "caption": "Pillar 2: Transform supply",
+  "text": ""
+ },
+ {
+  "module": "exec/01_summary.json",
+  "index": 33,
+  "type": "table",
+  "hits": [
+   "14 October 2026",
+   "Flagged",
+   "Refined",
+   "Reworded",
+   "Validated",
+   "dispositions"
+  ],
+  "caption": "Pillar 3: Build enabling capability",
+  "text": ""
+ }
+]

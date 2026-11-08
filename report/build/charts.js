@@ -246,7 +246,9 @@ function treeChart(o) {
   const FS = 21, LH = 26, WRAP = 27;
   const DISP = { Validated: DCYAN, Refined: CYAN, Reworded: CHAR, New: LCYAN, Moved: GREY, Flagged: PINK, Withdrawn: '#A7A9AC' };
   // height: tallest pillar column
-  const colH = o.pillars.map((p) => p.themes.reduce((acc, t) => acc + 52 + t.areas.reduce((a2, ar) => a2 + 44 + (wrap(ar.name, WRAP).length) * LH + 8, 0) + 10, 0));
+  // A box leaves room under the name for a disposition label only when the data carries one.
+  const boxPad = (ar) => (ar.disposition ? 44 : 22);
+  const colH = o.pillars.map((p) => p.themes.reduce((acc, t) => acc + 52 + t.areas.reduce((a2, ar) => a2 + boxPad(ar) + (wrap(ar.name, WRAP).length) * LH + 8, 0) + 10, 0));
   const H = 250 + Math.max(...colH) + 20;
   let s = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" font-family="${FONT}"><rect width="${W}" height="${H}" fill="#ffffff"/>`;
   s += `<rect x="40" y="20" width="${W - 80}" height="64" rx="${RX}" fill="${PAL[0]}"/><text x="${W / 2}" y="62" text-anchor="middle" font-size="28" font-weight="700" fill="#ffffff">${esc(o.goal)}</text>`;
@@ -261,7 +263,7 @@ function treeChart(o) {
       y += 52;
       t.areas.forEach((a) => {
         const lines = wrap(a.name, WRAP);
-        const h = 44 + lines.length * LH;
+        const h = boxPad(a) + lines.length * LH;
         s += `<rect x="${x}" y="${y}" width="${w}" height="${h}" rx="6" fill="#ffffff" stroke="${GRID}"/>`;
         s += `<text x="${x + 12}" y="${y + 30}" font-size="${FS}" font-weight="700" fill="${INK}">${esc(a.code)}</text>`;
         lines.forEach((ln, li) => { s += `<text x="${x + 52}" y="${y + 30 + li * LH}" font-size="${FS}" fill="${INK}">${esc(ln)}</text>`; });
