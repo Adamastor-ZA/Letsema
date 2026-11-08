@@ -4,7 +4,7 @@
  "blocks": [
   {
    "type": "p",
-   "text": "Four parts build the case for the strategy in Chapter 3. Section 2.1 draws lessons from comparator destinations; sections 2.2, 2.3 and 2.4 then examine demand, supply and the enabling environment, on which Pillars 1, 2 and 3 rest."
+   "text": "Four parts build the case for the recommendations in Chapter 3. Section 2.1 draws lessons from comparator destinations; sections 2.2, 2.3 and 2.4 then examine demand, supply and the enabling environment, on which Pillars 1, 2 and 3 rest."
   },
   {
    "type": "p",
@@ -12,7 +12,7 @@
   },
   {
    "type": "p",
-   "text": "Stakeholder evidence runs through sections 2.2 to 2.4. The first of four engagement phases ran from January to March 2026 (Stakeholder Insights Report, Mar 2026, p4, p17; the record of the three later phases is not yet in hand). In it, 16 organisations from Mossel Bay to the CTICC gave 223 rated insights: 115 High, 102 Medium and 6 Low (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Each stakeholder statement in this chapter is the project team's paraphrase of a point an organisation made, attributed to that organisation and never to a person. [Open item: each organisation named here to approve its paraphrase before publication.] Each part ends with a box, \"What this means for the strategy\", which sets out what the part's evidence means for the focus areas it touches."
+   "text": "Stakeholder evidence runs through sections 2.2 to 2.4. The first of four engagement phases ran from January to March 2026 (Stakeholder Insights Report, Mar 2026, p4, p17; the record of the three later phases is not yet in hand). In it, 16 organisations from Mossel Bay to the CTICC gave 223 rated insights: 115 High, 102 Medium and 6 Low (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Each stakeholder statement in this chapter is the project team's paraphrase of a point an organisation made, attributed to that organisation and never to a person. [Open item: each organisation named here to approve its paraphrase before publication.] Each part ends with a box, \"What this means for the focus areas\", which links the part's evidence to each focus area it touches."
   },
   {
    "type": "h2",
@@ -24,11 +24,11 @@
   },
   {
    "type": "h3",
-   "text": "Benchmarks test the strategy against proven growth"
+   "text": "Benchmarks test the 2.5 million goal against proven growth"
   },
   {
    "type": "p",
-   "text": "The strategy aims at 2.5 million international arrivals by 2035, 5.3% a year on the accelerated path and just above the world's norm (sections 1.1 and 1.3). Growth above trend is rare across whole regions; where it happens, it is specific to a destination (Global Benchmarking Report, Mar 2026, p7). Benchmarking asks which deliberate choices let comparable destinations outgrow the world, and which of them the Western Cape can adapt. It looks for how each destination removed what bound its growth, not for isolated good practice (Global Benchmarking Report, Mar 2026, p6)."
+   "text": "The action plan aims at 2.5 million international arrivals by 2035, 5.3% a year on the accelerated path and just above the world's norm (sections 1.1 and 1.3). Growth above trend is rare across whole regions; where it happens, it is specific to a destination (Global Benchmarking Report, Mar 2026, p7). Benchmarking asks which deliberate choices let comparable destinations outgrow the world, and which of them the Western Cape can adapt. It looks for how each destination removed what bound its growth, not for isolated good practice (Global Benchmarking Report, Mar 2026, p6)."
   },
   {
    "type": "p",
@@ -397,7 +397,7 @@
   },
   {
    "type": "p",
-   "text": "Yet coordination is hard everywhere. Victoria reports tension between national and state bodies over roles and branding (Global Benchmarking Report, Mar 2026, p16). Valencia struggles to join its data across institutions (Global Benchmarking Report, Mar 2026, p45). The Western Cape's three tiers of government show the same strain (section 2.4). The strategy should anchor on one constraint, as Chile did: peak seats into Cape Town first, one system built around them and, in the communities, a seller before any asset."
+   "text": "Yet coordination is hard everywhere. Victoria reports tension between national and state bodies over roles and branding (Global Benchmarking Report, Mar 2026, p16). Valencia struggles to join its data across institutions (Global Benchmarking Report, Mar 2026, p45). The Western Cape's three tiers of government show the same strain (section 2.4). The province should anchor its plan on one constraint, as Chile did: peak seats into Cape Town first, one system built around them and, in the communities, a seller before any asset."
   },
   {
    "type": "h3",
@@ -413,7 +413,7 @@
   },
   {
    "type": "box",
-   "title": "What this means for the strategy",
+   "title": "What this means for the focus areas",
    "paras": [
     "**FA02, Create green-season demand with MICE and events.** Melbourne's events-led system and unified calendar.",
     "**FA04, Convert India and China hub traffic, and FA06, Build a regional foundation (Africa).** Singapore's joint strategy with its airport and airline; Kenya's hub strategy and African base.",

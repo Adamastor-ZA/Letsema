@@ -1,0 +1,518 @@
+[
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 2,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "That makes this strategy a supply programme",
+   "repl": "That makes the action plan a supply programme"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 8,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the 2033 assumption belongs to the phasing in Chapter 4",
+  "detail": {
+   "find": "This strategy plans on about 2033 and counts",
+   "repl": "The plan's phasing assumes about 2033 and counts"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 15,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "Wesgro's original ask was larger: a strategy to \"double",
+   "repl": "Wesgro's original ask was larger: to \"double"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 21,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy makes three shifts",
+   "repl": "The action plan makes three shifts"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 28,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy rests on a hypothesis tree",
+   "repl": "The research rests on a hypothesis tree"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 49,
+  "reason": "the stop list was explained only in the deleted Board decisions; section 4.6 now sets it out",
+  "detail": {
+   "find": "so rand bands and a stop list are due before Gate 1.",
+   "repl": "so rand bands and a stop list are due before Gate 1 (section 4.6)."
+  }
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 57,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the paragraph on Gate 1 as where the Board next decides",
+  "before": "Gate 1 is where the Board next decides. It will ask whether seats on the full routes have held, whether any pilot has met its thresholds and whether the bookability baseline exists and is moving.     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 56,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the numbered recommendations to partners",
+  "before": "      That DEDAT commission the tourism labour analysis in 2027 and lead I10, I13 and I18, and that the Department of Mobility lead I8. That the municipalities and LTOs lead and fund I12, and that the site operators lead I11.",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 55,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the lead-in to the recommendations to partners",
+  "before": "The Board recommends to the Provincial Minister, DEDAT and the municipalities:     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 54,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the numbered Board decisions",
+  "before": "      Adopt growth to 2.5 million arrivals by 2035 as the plan's goal, with the base and accelerated paths as its targets. Constitute the Tourism Growth Steerco, co-chaired by Wesgro's CEO and DEDAT's Head of Department with Cape Town Tourism as a standing member, and confirm the twelve initiative leads that sit with Wesgro. Approve the nine first-24-month actions that sit inside Wesgro's mandate and budget. Ask Wesgro Finance and DEDAT to set rand bands for every initiative, and to name what Wesgro deprioritises to fund them, before Gate 1. [Open item: Wesgro Finance to give an indicative rand band for the first 24 months.] Commission the bookability census in 2027, so the plan's missing baselines exist by Gate 1. Table the first national escalation agenda on visas, air service agreements and immigration processing at Cape Town International.",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 53,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the lead-in to the Board's decisions",
+  "before": "The Wesgro Board decides:     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 52,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: the paragraph introducing the decisions",
+  "before": "Five decisions start the plan, and two recommendations pass partners the levers Wesgro does not hold.     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "exec/01_summary.json",
+  "index": 51,
+  "reason": "Michael: remove the section on what the Board is asked to decide from the executive summary: its heading",
+  "before": "What the Board is asked to decide     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 1,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; shortened so the opening sentence does not chain two infinitives",
+  "detail": {
+   "find": "Wesgro commissioned a strategy to \"double",
+   "repl": "Wesgro commissioned research and an action plan to \"double"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 3,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "Two points in the mission shape this strategy:",
+   "repl": "Two points in the mission shape the recommendations:"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 4,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy's growth-market work, focus area 4, centres on two of them:",
+   "repl": "The growth-market work in focus area 4 centres on two of them:"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 6,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the quoted objective stays word for word and the next sentence says what the work is",
+  "detail": {
+   "find": "(Inception Report, Nov 2025, p4). The objective fixes",
+   "repl": "(Inception Report, Nov 2025, p4). The research builds the evidence the objective calls for, and Chapters 3 and 4 turn it into recommendations and initiatives. The objective fixes"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 7,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy carries all four forward.",
+   "repl": "The report carries all four forward."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 10,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy takes jobs into Chapter 5 without a baseline.",
+   "repl": "Jobs therefore enter Chapter 5 without a baseline."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 11,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy treats it as community inclusion",
+   "repl": "The action plan treats it as community inclusion"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 16,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the green-season focus is focus area 2 of the plan",
+  "detail": {
+   "find": "ties to the strategy's green-season focus",
+   "repl": "ties to the plan's green-season focus (focus area 2)"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 22,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "circulate around this strategy:",
+   "repl": "circulate around this study:"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/03_recovery_to_growth.json",
+  "index": 3,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy's task is to move",
+   "repl": "The action plan's task is to move"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/04_approach.json",
+  "index": 5,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "consolidated the strategy into this report",
+   "repl": "consolidated the research into this report"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/04_approach.json",
+  "index": 17,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "strategy socialisation in June and July",
+   "repl": "socialisation of draft recommendations in June and July"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/05_how_to_read.json",
+  "index": 4,
+  "reason": "the executive summary no longer ends with the Board's decisions",
+  "detail": {
+   "find": "the headline indicators, the main risks and the Board's decisions.",
+   "repl": "the headline indicators and the main risks."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/05_how_to_read.json",
+  "index": 11,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; names the goal so \"its\" is not read as the report's own count",
+  "detail": {
+   "find": "; the strategy's 2.5 million",
+   "repl": "; the 2.5 million goal"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/01_benchmarks.json",
+  "index": 0,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "Four parts build the case for the strategy in Chapter 3.",
+   "repl": "Four parts build the case for the recommendations in Chapter 3."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/01_benchmarks.json",
+  "index": 2,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the box titles change to match",
+  "detail": {
+   "find": "Each part ends with a box, \"What this means for the strategy\", which sets out what the part's evidence means for the focus areas it touches.",
+   "repl": "Each part ends with a box, \"What this means for the focus areas\", which links the part's evidence to each focus area it touches."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/01_benchmarks.json",
+  "index": 5,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "Benchmarks test the strategy against proven growth",
+   "repl": "Benchmarks test the 2.5 million goal against proven growth"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/01_benchmarks.json",
+  "index": 6,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy aims at 2.5 million",
+   "repl": "The action plan aims at 2.5 million"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/01_benchmarks.json",
+  "index": 53,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the province, not the recommendations, anchors on a constraint",
+  "detail": {
+   "find": "The strategy should anchor on one constraint, as Chile did:",
+   "repl": "The province should anchor its plan on one constraint, as Chile did:"
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "ch2/01_benchmarks.json",
+  "index": 57,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the box lists what the part's evidence means for each focus area",
+  "detail": {
+   "fields": {
+    "title": "What this means for the focus areas"
+   }
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "ch2/02_demand.json",
+  "index": 36,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the box lists what the part's evidence means for each focus area",
+  "detail": {
+   "fields": {
+    "title": "What this means for the focus areas"
+   }
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the box lists what the part's evidence means for each focus area",
+  "detail": {
+   "fields": {
+    "title": "What this means for the focus areas"
+   }
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 19,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; a report assumes rather than plans",
+  "detail": {
+   "find": "This strategy plans on about 2033 and treats",
+   "repl": "This report assumes about 2033 and treats"
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the box lists what the part's evidence means for each focus area",
+  "detail": {
+   "fields": {
+    "title": "What this means for the focus areas"
+   }
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 1,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "thinnest where the strategy needs it most",
+   "repl": "thinnest where the action plan needs it most"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 8,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy cannot rest on LTOs",
+   "repl": "The plan cannot rest on LTOs"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/21_fa07.json",
+  "index": 8,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy; the 2033 assumption belongs to the phasing in Chapter 4",
+  "detail": {
+   "find": "This strategy plans on about 2033 and treats",
+   "repl": "The phasing in Chapter 4 assumes about 2033 and treats"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/22_fa08.json",
+  "index": 11,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "so the strategy holds it open",
+   "repl": "so this report holds it open"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/30_pillar3.json",
+  "index": 3,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "at each point the strategy relies on",
+   "repl": "at each point the action plan relies on"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/36_fa18.json",
+  "index": 5,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "what the strategy sets out to grow",
+   "repl": "what the plan sets out to grow"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/38_fa20.json",
+  "index": 5,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "the jobs its strategy promises",
+   "repl": "the jobs that growth is meant to create"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch3/38_fa20.json",
+  "index": 6,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "Jobs matter to the strategy as much as arrivals.",
+   "repl": "Jobs matter to the action plan as much as arrivals."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch4/01_portfolio.json",
+  "index": 0,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "4.1 From strategy to initiatives",
+   "repl": "4.1 From focus areas to initiatives"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch4/08_risks.json",
+  "index": 4,
+  "reason": "the executive summary no longer lists numbered Board decisions; the rand bands sit in section 4.6",
+  "detail": {
+   "find": "before Gate 1 (Decision 3)",
+   "repl": "before Gate 1 (section 4.6)"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/02_a2_demand_model.json",
+  "index": 29,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "circulate around this strategy,",
+   "repl": "circulate around this study,"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/02_a2_demand_model.json",
+  "index": 30,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "The strategy's two paths;",
+   "repl": "The report's two paths;"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/02_a2_demand_model.json",
+  "index": 31,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "this strategy treats the second statement as superseded",
+   "repl": "this report treats the second statement as superseded"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 4,
+  "reason": "the report calls the work a research project that develops an action plan, not a strategy",
+  "detail": {
+   "find": "strategy socialisation from June to July and strategy mobilisation from August into October",
+   "repl": "socialisation of draft recommendations from June to July and mobilisation from August into October"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch4/06_funding.json",
+  "index": 3,
+  "reason": "the stop list and the open item on a first-24-month rand band were set out only in the deleted Board decisions; the summary and the risk table now point here",
+  "detail": {
+   "find": "to set before Steerco signs off the plan].",
+   "repl": "to set before Steerco signs off the plan]. Wesgro Finance and DEDAT also agree a stop list before Gate 1, naming the Wesgro work deprioritised to fund the initiatives (section 4.8). [Open item: Wesgro Finance to give an indicative rand band for the first 24 months.]"
+  }
+ },
+ {
+  "kind": "module title",
+  "file": "ch4/01_portfolio.json",
+  "before": "From strategy to initiatives",
+  "after": "From focus areas to initiatives"
+ }
+]

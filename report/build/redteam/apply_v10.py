@@ -116,6 +116,11 @@ for f in OUT:
     if f not in DRAFTED:
         OUT[f]['blocks'] = walk(f, OUT[f]['blocks'])
 
+# The section 4.1 module carries its title in a field the edits cannot reach; it follows the renamed heading.
+if OUT['ch4/01_portfolio.json'].get('title') == 'From strategy to initiatives':
+    OUT['ch4/01_portfolio.json']['title'] = 'From focus areas to initiatives'
+    LOG.append({'kind': 'module title', 'file': 'ch4/01_portfolio.json', 'before': 'From strategy to initiatives', 'after': 'From focus areas to initiatives'})
+
 # ------------------------------------------------------------------------------------------------ Checks and write
 # The work is never called a strategy, and the executive summary no longer asks the Board for decisions.
 WORK = re.compile(r"\b(?:this|the|our|a|its) (?:tourism )?strateg(?:y|y's|ies)\b|\bstrategy's\b|\bfor the strategy\b|\bstrategic (?:case|narrative|plan)\b", re.I)
