@@ -90,6 +90,57 @@ edit('appendices/05_a5_inclusion.json', "section 2.6 prints each community's arc
 edit('ch3/31_fa13.json', 'first allocated to Kliptown (section 2.6)', f"first allocated to Kliptown (section {section_of(has('R436'))})")
 edit('ch5/03_baselines_targets.json', 'Base path by group, section 2.1', f"Base path by group, section {section_of(cap('Base-case growth by market group'))}")
 
+edit('ch1/05_how_to_read.json', 'The executive summary gives the case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators.',
+     "The executive summary tells the case in short: where the province stands, what caps growth and what 2.5 million arrivals would take. It then sets out the three shifts and the twenty focus areas, the first 24 months, the headline indicators, the main risks and the Board's decisions.")
+
+
+# Table and figure numbers cited in modules the drafts did not rewrite: the moved and removed tables renumber everything after
+# them, so each cited number is mapped through its caption from the v7 numbering to the v8 numbering.
+def numbering(mods):
+    out = {'table': {}, 'figure': {}}
+    for dname, lab in [('exec', 'ES'), ('ch1', '1'), ('ch2', '2'), ('ch3', '3'), ('ch4', '4'), ('ch5', '5'), ('appendices', 'A')]:
+        n = {'table': 0, 'figure': 0}
+        for f in sorted(k for k in mods if k.startswith(dname + '/')):
+            for b in mods[f]['blocks']:
+                if b['type'] in n:
+                    n[b['type']] += 1; out[b['type']][f'{lab}.{n[b["type"]]}'] = b['caption']
+    return out
+
+
+N7, N8 = numbering(V7), numbering(OUT)
+INV8 = {k: {c: num for num, c in v.items()} for k, v in N8.items()}
+XREF = re.compile(r'\b(Tables?|Figures?) ((?:ES|A|\d)\.\d+(?:(?:, | and | to )(?:ES|A|\d)\.\d+)*)')
+
+
+def renum(f, s):
+    def one(m):
+        kind = 'table' if m.group(1).startswith('Table') else 'figure'
+        def tok(t):
+            new = INV8[kind][N7[kind][t.group(0)]]
+            return new
+        return m.group(1) + ' ' + re.sub(r'(?:ES|A|\d)\.\d+', tok, m.group(2))
+    t = XREF.sub(one, s)
+    if t != s: LOG.append({'kind': 'renumbered reference', 'file': f, 'before': s, 'after': t})
+    return t
+
+
+def walk(f, x):
+    if isinstance(x, str): return renum(f, x)
+    if isinstance(x, list): return [walk(f, y) for y in x]
+    if isinstance(x, dict): return {k: (walk(f, v) if k not in ('chart', 'svg', 'id') else v) for k, v in x.items()}
+    return x
+
+
+drafted = {m for _, m in DRAFTS}
+for f in OUT:
+    if f not in drafted:
+        OUT[f]['blocks'] = walk(f, OUT[f]['blocks'])
+for f in drafted:
+    for b in OUT[f]['blocks']:
+        for t in [b.get('text', '')] + list(b.get('items', []) or []) + list(b.get('paras', []) or []):
+            for m in XREF.finditer(t or ''):
+                print('NOTE: drafted module cites a number:', f, m.group(0))
+
 # Chapter 2 column of the traceability table and traceability.csv: the new sections whose closing box names the focus area,
 # the pillar's own section first; Chapter 1 references are kept as they were.
 PILLAR_SEC = lambda n: '2.2' if n <= 6 else '2.3' if n <= 12 else '2.4'
