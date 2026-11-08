@@ -28,18 +28,19 @@
    "module": "exec/01_summary.json",
    "index": 18,
    "op": "insert_after",
-   "reason": "Set Wesgro's FY26 to FY30 arrivals target beside the model paths (assessment 5, exec, High; 6, first finding; decisions, arrivals metric period). Review: the closing claim now follows the model (the accelerated path already holds the routes and activation and adds about half the target, computed); the activity-pace sentence is left to section 1.1, since the summary prints no footnotes to mark it computed.",
+   "reason": "Set Wesgro's FY26 to FY30 arrivals target beside the model paths (assessment 5, exec, High; 6, first finding; decisions, arrivals metric period). Review: the closing claim now follows the model (the accelerated path already holds the routes and activation and adds about half the target, computed); the activity-pace sentence is left to section 1.1, since the summary prints no footnotes to mark it computed. Cold read: the target is stated under both readings, since the plan counts its other targets as five-year sums.",
    "blocks": [
     {
      "type": "p",
-     "text": "Wesgro's own plan asks for faster growth than any modelled path. It targets 800,000 to 1 million new international arrivals over FY26 to FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). By 2030 the base path adds about 304,000 arrivals and the accelerated path about 443,000, so the target is about 2.6 to 3.3 times the base path's gain (Market Assessment Report, May 2026, p19, p20; computed). No modelled path delivers it: even the accelerated path, with direct India and China routes and dedicated activation, adds only about half of it by 2030. The gap is one of seats before it is one of promotion."
+     "text": "Wesgro's own plan sets a high bar. It targets 800,000 to 1 million new international arrivals over FY26 to FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). Read as a rise in yearly arrivals by 2030, that is 2.6 to 3.3 times the base path's gain of about 304,000. Even the accelerated path, with direct India and China routes, adds only about 443,000 (Market Assessment Report, May 2026, p19, p20; computed). Read as extra arrivals summed over the five years, as the plan counts its other targets, the base path adds about 890,000 and meets it (computed). Which reading Wesgro intends decides whether its own target needs a step change in seats. [Wesgro to confirm whether the arrivals target is a rise in yearly arrivals by 2030 or a sum over the five years, and the base year from which new arrivals are counted.]"
     }
    ],
    "computed": [
+    "2.6",
+    "3.3",
     "304,000",
     "443,000",
-    "2.6",
-    "3.3"
+    "890,000"
    ]
   },
   {
@@ -118,9 +119,9 @@
    "module": "ch1/01_mandate.json",
    "index": 12,
    "op": "replace_text",
-   "reason": "Close the open item on the cruise call target from the plan: 250 calls over five years, 50 a year, from a 47-call base that excludes the 2023/24 reroutes (decisions; assessment 3). Keep an open item only on whether the October deck's 250 is the same figure.",
+   "reason": "Close the open item on the cruise call target from the plan: 250 calls over five years, 50 a year, from a 47-call base that excludes the 2023/24 reroutes (decisions; assessment 3). Keep an open item only on whether the October deck's 250 is the same figure. Cold-read review: the 47-call explanation now sits once, in the activity paragraph below.",
    "find": "It sets cruise as calls and ports [Cruise Cape Town to confirm the call target and its definition].",
-   "repl": "It sets cruise as calls and ports. Wesgro's plan targets 250 ship calls over FY26 to FY30, or 50 a year. That pace rounds up a base of 47 calls a year, which is the 67 calls of 2023/24 less 20 ships rerouted by the Middle East conflict (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). [Summary of Findings, 14 Oct 2026: Cruise Cape Town to confirm that the deck's 250 calls are the plan's five-year total.]",
+   "repl": "It sets cruise as calls and ports. Wesgro's plan targets 250 ship calls over FY26 to FY30, or 50 a year (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). [Summary of Findings, 14 Oct 2026: Cruise Cape Town to confirm that the deck's 250 calls are the plan's five-year total.]",
    "computed": [
     "50"
    ]
@@ -129,16 +130,16 @@
    "module": "ch1/01_mandate.json",
    "index": 13,
    "op": "set",
-   "reason": "Rewrite the heading for a five-year period (decisions: arrivals metric period; assessment 4).",
+   "reason": "Rewrite the heading for a five-year period (decisions: arrivals metric period; assessment 4). Neutral heading: the step change holds only on one reading of the arrivals target.",
    "fields": {
-    "text": "Wesgro's five-year targets ask for a step change in arrivals"
+    "text": "Wesgro's five-year targets and the growth case"
    }
   },
   {
    "module": "ch1/01_mandate.json",
    "index": 14,
    "op": "replace",
-   "reason": "Rest alignment on Wesgro's six FY26 to FY30 targets, with a short table beside what the report carries (assessment 5, ch1, High). Closes the open item on the period of the metrics: all run over the five-year plan (decisions). Review: \"secured\" restored to the bids metric and the outcomes named; route pace compared year on year (about 1.7 a year, computed); campaigns cite I4's outputs too; trade engagements now map to T3-37 (Chapter 5 stream); the arrivals cell gives the multiple only, leaving the figures to the paragraph.",
+   "reason": "Rest alignment on Wesgro's six FY26 to FY30 targets, with a short table beside what the report carries (assessment 5, ch1, High). Closes the open item on the period of the metrics: all run over the five-year plan (decisions). Review: \"secured\" restored to the bids metric and the outcomes named; route pace compared year on year (about 1.7 a year, computed); campaigns cite I4's outputs too; trade engagements now map to T3-37 (Chapter 5 stream); the arrivals cell gives the multiple only, leaving the figures to the paragraph. Cold-read review: route pace on the plan's own definition (first-time scheduled international service, regional included) is Cape Town Air Access's 33 launches since 2015 (slide 5), about three a year, not MIDAS's 17 mainline routes; so the activity targets hold or fall below today's pace. Cold read: both readings of the arrivals target.",
    "blocks": [
     {
      "type": "p",
@@ -147,7 +148,7 @@
     {
      "type": "table",
      "caption": "Wesgro's targets beside this report",
-     "message": "Wesgro's activity targets roughly hold today's pace, while its arrivals target asks for more than any modelled path adds by 2030.",
+     "message": "Wesgro's activity targets hold or fall below today's pace; its arrivals target asks for a step change only if read as a rise in yearly arrivals by 2030.",
      "columns": [
       {
        "header": "Wesgro target",
@@ -169,7 +170,7 @@
       [
        "New international tourist arrivals",
        "800,000 to 1 million",
-       "About 2.6 to 3.3 times what the base case adds by 2030 (computed); T1-01"
+       "As a rise in yearly arrivals by 2030, 2.6 to 3.3 times the base case's gain; as a sum over five years, about what the base case adds (computed); T1-01"
       ],
       [
        "Business event bids",
@@ -184,7 +185,7 @@
       [
        "New air routes",
        "10",
-       "Two a year, against about 1.7 a year from 2015 to 2025 (computed); T2-09"
+       "Two a year, against about three a year counted by Cape Town Air Access since 2015 (computed); T2-09"
       ],
       [
        "International tourism marketing campaigns",
@@ -198,7 +199,7 @@
       ]
      ],
      "boldFirstCol": true,
-     "source": "Targets and the FY24 trade count: Wesgro, Strategic Plan 2025/26 to 2029/30, p20; route definition, p59. Arrivals paths: Market Assessment Report, May 2026, p19, p20. Bids: Demand-Side Analysis, Jun 2026, p36. Cruise: Current State Diagnostic, Dec 2025, p37. Routes: MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\". Annual rates and multiples are computed."
+     "source": "Targets and the FY24 trade count: Wesgro, Strategic Plan 2025/26 to 2029/30, p20; route definition, p59. Arrivals paths: Market Assessment Report, May 2026, p19, p20. Bids: Demand-Side Analysis, Jun 2026, p36. Cruise: Current State Diagnostic, Dec 2025, p37. Routes: Cape Town Air Access, Letsema Update, Nov 2025, slide 5. Annual rates and multiples are computed."
     }
    ],
    "computed": [
@@ -206,7 +207,6 @@
     "3.3",
     "32",
     "50",
-    "1.7",
     "2,500"
    ]
   },
@@ -214,15 +214,15 @@
    "module": "ch1/01_mandate.json",
    "index": 15,
    "op": "replace",
-   "reason": "Rewrite the period comparison for five years: 2.6 to 3.3 times the base-case gain and about twice the accelerated case's; no modelled path delivers it by 2030 (decisions). Add the finding that activity targets hold today's pace while the outcome asks for a step change, and the consideration outcome (assessment 6). The base year of 'new' arrivals stays open (decisions). Review: yearly rates compared like for like; the reroute base explains the cruise gap only in part.",
+   "reason": "Rewrite the period comparison for five years: 2.6 to 3.3 times the base-case gain and about twice the accelerated case's; no modelled path delivers it by 2030 (decisions). Add the finding that activity targets hold today's pace while the outcome asks for a step change, and the consideration outcome (assessment 6). The base year of 'new' arrivals stays open (decisions). Review: yearly rates compared like for like; the reroute base explains the cruise gap only in part. Cold-read review: route pace on Cape Town Air Access's count (slide 5); the plan states only \"an annual average of 47 ship calls rounded up to 50\" and, separately, 20 reroutes among 2023/24's 67 calls, so 47 = 67 less 20 is labelled computed and the base \"appears\" to leave them out, with an open item. Cold read: both readings of the arrivals target, and a wider open item.",
    "blocks": [
     {
      "type": "p",
-     "text": "The five-year period decides how the arrivals target compares with the growth case. From 2025 to 2030 the base case adds about 304,000 arrivals and the accelerated case about 443,000 (Market Assessment Report, May 2026, p19, p20; computed). Wesgro's 800,000 to 1 million is 2.6 to 3.3 times the base case's gain and about twice the accelerated case's (computed). No modelled path delivers it by 2030; the two paths need ten years to add 676,949 and 1,017,453 (Market Assessment Report, May 2026, p19). Wesgro's own target therefore sharpens the case that growth is a supply programme. [Wesgro to confirm the base year from which the new arrivals are counted.]"
+     "text": "The five-year period decides how the arrivals target compares with the growth case, and the plan can be read two ways. By 2030 the base case adds about 304,000 yearly arrivals to the 2025 level and the accelerated case about 443,000 (Market Assessment Report, May 2026, p19, p20; computed). Read as a rise in yearly arrivals, Wesgro's 800,000 to 1 million is 2.6 to 3.3 times the base case's gain and about twice the accelerated case's (computed). On that reading no modelled path delivers it by 2030. Read as extra arrivals summed over the five years, as the plan counts its other targets, the base case adds about 890,000 and meets it (computed). On the first reading Wesgro's target sharpens the case that growth is a supply programme; on the second it matches the base path. [Wesgro to confirm whether the arrivals target is a rise in yearly arrivals by 2030 or a sum over the five years, and the base year from which new arrivals are counted.]"
     },
     {
      "type": "p",
-     "text": "The activity targets, by contrast, roughly hold today's pace. Each year they ask for about 32 bids, 50 ship calls and two new routes. The recent pace is 36 bids secured and 79 vessels in 2024/25, and about 1.7 new routes a year from 2015 to 2025 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20; Demand-Side Analysis, Jun 2026, p36; Current State Diagnostic, Dec 2025, p37; MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"; computed). The cruise target sits below the last season partly because its base leaves out the ships rerouted in 2023/24. Trade engagements stay at 2,500 a year, flat on FY24. The step change sits in the outcome, not in the activity."
+     "text": "The activity targets, by contrast, hold or fall below today's pace. Each year they ask for about 32 bids, 50 ship calls and two new routes. The recent pace is 36 bids secured and 79 vessels in 2024/25, and about three route launches a year since 2015 on Cape Town Air Access's count (Wesgro, Strategic Plan 2025/26 to 2029/30, p20; Demand-Side Analysis, Jun 2026, p36; Current State Diagnostic, Dec 2025, p37; Cape Town Air Access, Letsema Update, Nov 2025, slide 5; computed). The cruise target sits below the last season partly because its base appears to leave out the ships rerouted in 2023/24. The plan rounds up an annual average of 47 calls and notes that 20 of the 67 calls in 2023/24 were ships rerouted by the Middle East conflict (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). The 47 equals 67 less 20 (computed). [Wesgro to confirm how the 47-call average was set.] Trade engagements stay at 2,500 a year, flat on FY24. Any step change sits in the outcome, not in the activity."
     },
     {
      "type": "p",
@@ -230,14 +230,14 @@
     }
    ],
    "computed": [
-    "304,000",
-    "443,000",
+    "2,500",
     "2.6",
     "3.3",
+    "304,000",
     "32",
+    "443,000",
     "50",
-    "1.7",
-    "2,500"
+    "890,000"
    ]
   },
   {
@@ -277,11 +277,11 @@
    "module": "ch1/01_mandate.json",
    "index": 19,
    "op": "insert_after",
-   "reason": "Add G4J's value frame (assessment 5, ch1, High; 6, recommendations). The Blueprint paragraph moves after the plan's test in the [20] replace (review).",
+   "reason": "Add G4J's value frame (assessment 5, ch1, High; 6, recommendations). The Blueprint paragraph moves after the plan's test in the [20] replace (review). Cold-read review: the comparison with the tripling is withdrawn rather than made and qualified in one clause.",
    "blocks": [
     {
      "type": "p",
-     "text": "Growth for Jobs also sets a value test. It calls tourism the province's most obvious service export and aims to triple the value of the province's exports of goods and services, tourism included, by 2035 (Growth for Jobs Strategy 2023, p11, p14). On the model's base case, direct foreign spend rises about 1.5 times from the modelled R27.12bn of 2024 to R40.6bn in 2035, in constant 2024 rand (Market Assessment Report, May 2026, p24; computed). That falls short of the tripling G4J sets for exports as a whole, though the bases differ, so alignment will be tested on value, not only arrivals. Chapter 5 tracks spend, season and spread beside arrivals."
+     "text": "Growth for Jobs also sets a value test. It calls tourism the province's most obvious service export and aims to triple the value of the province's exports of goods and services, tourism included, by 2035 (Growth for Jobs Strategy 2023, p11, p14). On the model's base case, direct foreign spend rises about 1.5 times from the modelled R27.12bn of 2024 to R40.6bn in 2035, in constant 2024 rand (Market Assessment Report, May 2026, p24; computed). G4J's tripling covers all exports from its own base year, and the model's 1.5 times is tourism spend in constant 2024 rand, so the two cannot yet be compared. Alignment will still be tested on value as well as arrivals, so Chapter 5 tracks spend, season and spread beside arrivals."
     }
    ],
    "computed": [
@@ -292,15 +292,15 @@
    "module": "ch1/01_mandate.json",
    "index": 20,
    "op": "replace",
-   "reason": "Close the open item on the FY26 to FY30 plan and its targets: the plan's six targets are now set out above (decisions; assessment 3). The Blueprint alignment (assessment 5, ch1, Medium) follows the plan paragraph so that the two contract tests stay together; its objectives follow p9's wording on geographic spread and district development (review).",
+   "reason": "Close the open item on the FY26 to FY30 plan and its targets: the plan's six targets are now set out above (decisions; assessment 3). The Blueprint alignment (assessment 5, ch1, Medium) follows the plan paragraph so that the two contract tests stay together; its objectives follow p9's wording on geographic spread and district development (review). Cold-read review: the Blueprint's objectives are mapped once, not listed and then mapped; 'Wesgro's plan period' to avoid reading it as the action plan.",
    "blocks": [
     {
      "type": "p",
-     "text": "Wesgro's FY26 to FY30 plan is the second test, and its six targets let alignment rest on numbers rather than principle. The timing fits too. Chapter 4 sets its first decision gate at the end of 2028, inside the plan period and before the base case crosses the model's seat line. That gate is the point to map the initiatives' outputs to the plan's six targets and to state which of them the action plan would raise."
+     "text": "Wesgro's FY26 to FY30 plan is the second test, and its six targets let alignment rest on numbers rather than principle. The timing fits too. Chapter 4 sets its first decision gate at the end of 2028, inside Wesgro's plan period and before the base case crosses the model's seat line. That gate is the point to map the initiatives' outputs to the plan's six targets and to state which of them the action plan would raise."
     },
     {
      "type": "p",
-     "text": "The Tourism Blueprint 2030, the province's sector roadmap, is not one of the contract's two tests, but it points the same way. Its objectives include growing visitor numbers and yield, raising the destination's global profile and improving customer experiences. Others are to develop tourism infrastructure, spread tourism benefits geographically, prioritise district tourism development, ease business for tourism firms and build industry partnerships (Tourism Blueprint 2030, p9). These map onto the action plan's three pillars. Numbers, yield and profile sit in demand; infrastructure, spread, district development and customer experience in supply; partnerships and ease of business in enablement. The Blueprint's renewed focus on domestic markets lies outside this study's international mandate."
+     "text": "The Tourism Blueprint 2030, the province's sector roadmap, is not one of the contract's two tests, but it points the same way. Its objectives map onto the action plan's three pillars: numbers, yield and profile in demand; infrastructure, spread, district development and customer experience in supply; partnerships and ease of business in enablement (Tourism Blueprint 2030, p9). Only its renewed focus on domestic markets lies outside this study's international mandate."
     }
    ]
   },
@@ -340,26 +340,23 @@
    "module": "ch1/02_system_today.json",
    "index": 27,
    "op": "replace",
-   "reason": "Cruise value relabelled as GDP-R after displacement, with spend before displacement and jobs (closes the cruise-jobs check); value comes from international mix (decisions; assessment 4 and 6). The 79 or 83 open item narrows only and stays word for word. Review: total passengers fell about 12% over the three seasons (computed from the Diagnostic's series); StratEcon's 127,128 counts and 106,315 unique passengers named beside the Diagnostic's 127,178, as FA08 and T2-11 now print them; the mix conclusion follows the figures.",
+   "reason": "Cruise value relabelled as GDP-R after displacement, with spend before displacement and jobs (closes the cruise-jobs check); value comes from international mix (decisions; assessment 4 and 6). The 79 or 83 open item narrows only and stays word for word. Review: total passengers fell about 12% over the three seasons (computed from the Diagnostic's series); StratEcon's 127,128 counts and 106,315 unique passengers named beside the Diagnostic's 127,178, as FA08 and T2-11 now print them; the mix conclusion follows the figures. Cold-read review: cut to the system description; the passenger reconciliation moves into the first footnote and the mix argument is left to section 2.3, which carries it.",
    "blocks": [
     {
      "type": "p",
-     "text": "Cruise calls have grown without new berth capacity. The province hosted 70, 67 and 79 vessels in the 2022/23, 2023/24 and 2024/25 seasons, carrying 144,125, 109,884 and 127,178 passengers (Current State Diagnostic, Dec 2025, p37). International passengers rose from 55,495 to 100,255 over the same seasons, while total passengers fell about 12% (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p9, p10; Current State Diagnostic, Dec 2025, p37; computed). For 2024/25 the cruise study counts 127,128 passengers, against the Diagnostic's 127,178, and 106,315 unique passengers once double counting is removed, the measure Chapter 5 tracks (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p8, p9). The Cape Town berth took 83 calls in 2024/25, with 127,000 passengers (Infrastructure Report, Jul 2026, p110). [StratEcon 2024/25 cruise report to confirm whether 79 vessels and 83 calls differ by definition.] That season added R1.79bn to provincial GDP-R after displacement, from about R1.99bn of spend before it, and supported 1,234 direct and 2,345 total jobs in the province (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p19, p22, p24, p27). Value has come from the international mix, not volume."
+     "text": "Cruise calls have grown without new berth capacity. The province hosted 70, 67 and 79 vessels in the 2022/23, 2023/24 and 2024/25 seasons, carrying 144,125, 109,884 and 127,178 passengers (Current State Diagnostic, Dec 2025, p37; StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p8, p9, which counts 127,128 passengers for 2024/25 and 106,315 unique passengers once double counting is removed, the measure Chapter 5 tracks). The Cape Town berth took 83 calls in 2024/25, with 127,000 passengers (Infrastructure Report, Jul 2026, p110). [StratEcon 2024/25 cruise report to confirm whether 79 vessels and 83 calls differ by definition.] That season added R1.79bn to provincial GDP-R after displacement, from about R1.99bn of spend before it, and supported 1,234 direct and 2,345 total jobs in the province (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p19, p22, p24, p27)."
     }
-   ],
-   "computed": [
-    "12"
    ]
   },
   {
    "module": "ch1/02_system_today.json",
    "index": 31,
    "op": "insert_after",
-   "reason": "Tourism-dependence line by district, 2023 (decisions: district dependence; assessment 5, ch1, High). The Garden Route and Central Karoo series are not used beyond the 2023 range the decisions sheet gives.",
+   "reason": "Tourism-dependence line by district, 2023 (decisions: district dependence; assessment 5, ch1, High). The Garden Route and Central Karoo series are not used beyond the 2023 range the decisions sheet gives. Cold-read review: the Garden Route and Central Karoo series (16.1%, 17.6%, 13.9% in both) are the copy error on the decisions do-not-use list, so they are not cited; the 15.6% to 16.8% range holds on the Overberg and the West Coast alone.",
    "blocks": [
     {
      "type": "p",
-     "text": "Tourism weighs most in the smaller district economies. In 2023 tourist spend equalled 15.6% to 16.8% of GDPR in four outer districts: the West Coast, the Overberg, the Garden Route and the Central Karoo. It equalled 7.0% in the Cape Winelands and 6.7% in the Metro (Municipal Economic Review and Outlook 2024/25, West Coast, p131; Municipal Economic Review and Outlook 2024/25, Overberg, p119; Municipal Economic Review and Outlook 2024/25, Garden Route, p151; Municipal Economic Review and Outlook 2024/25, Central Karoo, p111; Municipal Economic Review and Outlook 2024/25, Cape Winelands, p113; Municipal Economic Review and Outlook 2024/25, Cape Metro, p72). The Metro holds the volume, but a fall in visitors costs the outer districts more of their economy."
+     "text": "Tourism weighs most in the smaller district economies. In 2023 tourist spend equalled 16.8% of GDPR on the West Coast and 15.6% in the Overberg (Municipal Economic Review and Outlook 2024/25, West Coast, p131; Municipal Economic Review and Outlook 2024/25, Overberg, p119). It equalled 7.0% in the Cape Winelands and 6.7% in the Metro (Municipal Economic Review and Outlook 2024/25, Cape Winelands, p113; Municipal Economic Review and Outlook 2024/25, Cape Metro, p72). The district reviews print identical series for the Garden Route and the Central Karoo. [Open item: Provincial Treasury to confirm the Garden Route and Central Karoo shares.] The Metro holds the volume, but a fall in visitors costs the outer districts more of their economy."
     }
    ]
   },
@@ -383,11 +380,11 @@
    "module": "ch1/03_recovery_to_growth.json",
    "index": 5,
    "op": "insert_after",
-   "reason": "China is a recovery market (assessment 5, ch1, Medium).",
+   "reason": "China is a recovery market (assessment 5, ch1, Medium). Cold-read review: the count is labelled as Cape Town Air Access's, so it is not read against the hub journeys or SA Tourism arrivals (section 2.2).",
    "blocks": [
     {
      "type": "p",
-     "text": "China has not recovered. Cape Town recorded 25,107 Chinese air passengers in 2024, 55% of the 2019 level, though January to May 2025 ran 19% above the same months of 2024 (Cape Town Air Access, Letsema Update, Nov 2025, slides 14 to 16). For that market, recovery logic still applies."
+     "text": "China has not recovered. On Cape Town Air Access's count, Cape Town handled 25,107 Chinese air passengers in 2024, 55% of the 2019 level, though January to May 2025 ran 19% above the same months of 2024 (Cape Town Air Access, Letsema Update, Nov 2025, slides 14 to 16). For that market, recovery logic still applies."
     }
    ]
   },
@@ -403,11 +400,11 @@
    "module": "ch1/03_recovery_to_growth.json",
    "index": 12,
    "op": "insert_after",
-   "reason": "The off-season air base grew faster than the peak (assessment 5, ch1, Medium).",
+   "reason": "The off-season air base grew faster than the peak (assessment 5, ch1, Medium). Cold-read review: the deck's periods are IATA seasons, not the report's green season, so the text names them as such.",
    "blocks": [
     {
      "type": "p",
-     "text": "Yet the off-season air base has grown faster than the peak. Comparing 2024 with 2015, monthly international passengers rose by an average of 88% from April to October and 73% from November to March (Cape Town Air Access, Letsema Update, Nov 2025, slide 6). The green season is therefore not a fixed weakness, and growth there does not wait for runway relief."
+     "text": "Yet traffic outside the peak months has grown faster. Comparing 2024 with 2015, monthly international passengers rose by an average of 88% in the airlines' summer season of April to October and 73% in their winter season of November to March (Cape Town Air Access, Letsema Update, Nov 2025, slide 6). The quieter months are therefore not a fixed weakness, and growth there does not wait for runway relief."
     }
    ]
   },
@@ -423,9 +420,9 @@
    "module": "ch1/04_approach.json",
    "index": 12,
    "op": "replace_text",
-   "reason": "The Wesgro, provincial and City documents are now cited directly by page, slide or chapter, not through a deliverable (decisions: citation forms). Review: the method now states how v12 resolves such conflicts (cruise GDP-R, Cape Point, cruise passengers, the plan's period).",
+   "reason": "The Wesgro, provincial and City documents are now cited directly by page, slide or chapter, not through a deliverable (decisions: citation forms). Review: the method now states how v12 resolves such conflicts (cruise GDP-R, Cape Point, cruise passengers, the plan's period). Cold-read review: the exception now sits in the tier rule itself (section 1.4 rule paragraph), so the method and the practice match.",
    "find": "Wesgro and government data cited through a deliverable (Inception Report, Nov 2025, p34): the Mero 2024 reports for all six districts, the Pero 2025 and the Growth for Jobs Strategy 2023. The same tier holds the Tourism Blueprint, Wesgro's five-year strategy and the StratEcon cruise liner economic contribution studies for 2023, 2024 and 2024/25.",
-   "repl": "Wesgro, provincial and City documents, cited by page, slide or chapter: Wesgro's FY26 to FY30 plan, the Growth for Jobs Strategy 2023, the Tourism Blueprint 2030 and the Provincial Treasury's provincial and district economic reviews. The same tier holds the City's Tourism Development Framework, the StratEcon cruise studies and Wesgro Research's source market analysis. It also holds DEDAT's visa regime study, the Cape Town Air Access update and the Department of Mobility's draft land transport framework. Where a deliverable reports one of these documents differently, the document itself is used and the difference is logged."
+   "repl": "Wesgro, provincial and City documents, cited by page, slide or chapter: Wesgro's FY26 to FY30 plan, the Growth for Jobs Strategy 2023, the Tourism Blueprint 2030 and the Provincial Treasury's provincial and district economic reviews. The same tier holds the City's Tourism Development Framework, the StratEcon cruise studies and Wesgro Research's source market analysis. It also holds DEDAT's visa regime study, the Cape Town Air Access update and the Department of Mobility's draft land transport framework."
   },
   {
    "module": "ch1/04_approach.json",
@@ -442,6 +439,46 @@
    "reason": "State the citation forms for the Wesgro, provincial and City documents now cited directly (decisions: citation forms). Review: chapter pages named; A9 lists the documents (the appendices stream adds a row for each).",
    "find": "are cited by section title.",
    "repl": "are cited by section title. Wesgro, provincial and City documents are cited by short title and page, the Cape Town Air Access update by slide and the draft land transport framework by chapter or chapter page. Appendix A9 lists them with the study documents."
+  },
+  {
+   "module": "ch1/01_mandate.json",
+   "index": 16,
+   "op": "replace_text",
+   "find": "ties to the plan's green-season focus",
+   "repl": "ties to the action plan's green-season focus",
+   "reason": "Cold-read review: three paragraphs now discuss Wesgro's FY26 to FY30 plan, so 'the plan' here must name the action plan (focus area 2)."
+  },
+  {
+   "module": "ch1/01_mandate.json",
+   "index": 22,
+   "op": "replace_text",
+   "find": "The model's 2025 base of 1,498,829 and its 2035 points are the target series.",
+   "repl": "The model's 2025 base of 1,498,829 and its 2035 points are the target series. The model also splits markets differently from South African Tourism. Over 2022 to 2024 South African Tourism's yearly averages for India and China were a quarter to a fifth of the model's 2025 values, and France's about three times, though the periods differ (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p4; Market Assessment Report, May 2026, p21, p22; computed).",
+   "reason": "Cold-read review: the method note on market splits moves here from section 2.2 as one comparison (TSMA p4 three-year totals divided by three against the model's 2025 values, MA pp21 to 22), beside the Skift open item that covers it; the 'within about 1%' match is dropped because the periods differ."
+  },
+  {
+   "module": "ch1/04_approach.json",
+   "index": 11,
+   "op": "replace_text",
+   "find": "Where tiers disagree the higher tier wins; where two documents in one tier disagree, both values are recorded and the value used is stated with the reason.",
+   "repl": "Where tiers disagree the higher tier wins, with one exception. Where a deliverable quotes a tier 3 document and reports it differently, the document wins as the original source and the difference is logged. Where two documents in one tier disagree, both values are recorded and the value used is stated with the reason.",
+   "reason": "Cold-read review: the tier 3 item said the document wins over a deliverable that reports it, which contradicted \"the higher tier wins\"; the rule now states the exception the report uses (cruise GDP-R, Cape Point)."
+  },
+  {
+   "module": "exec/01_summary.json",
+   "index": 22,
+   "op": "replace_text",
+   "find": "About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs",
+   "repl": "About 101,000 air journeys a year from India and China already reach Cape Town, mainly through Gulf and African hubs",
+   "reason": "Cold-read review: the hub figures count journeys by origin, not nationals; SA Tourism counts about 28,000 Indian and Chinese tourist arrivals a year (section 2.2). Matches the FA04 topline word for word."
+  },
+  {
+   "module": "exec/01_summary.json",
+   "index": 31,
+   "op": "replace_text",
+   "find": "About 101,000 Indian and Chinese travellers a year already reach Cape Town, mainly through Gulf and African hubs",
+   "repl": "About 101,000 air journeys a year from India and China already reach Cape Town, mainly through Gulf and African hubs",
+   "reason": "Cold-read review: the hub figures count journeys by origin, not nationals; SA Tourism counts about 28,000 Indian and Chinese tourist arrivals a year (section 2.2). Matches the FA04 topline word for word."
   }
  ]
 }

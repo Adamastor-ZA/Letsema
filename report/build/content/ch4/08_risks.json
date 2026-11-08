@@ -20,7 +20,7 @@
   {
    "type": "table",
    "caption": "Risks and their mitigation",
-   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc); Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP); City of Cape Town, Tourism Development Framework 2019 to 2024 (TDF); Provincial Economic Review and Outlook 2025 (PERO).",
+   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc); Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP); City of Cape Town, Tourism Development Framework 2019 to 2024 (TDF).",
    "columns": [
     {
      "header": "Risk",
@@ -160,7 +160,7 @@
     ],
     [
      "Resident pushback in the Metro",
-     "Public debate on locals' costs and access (Hypertext, Apr 2026); domestic trips 6.1% below 2020 in 2024, partly on price (PERO p69 to p70)",
+     "Public debate on locals' costs and access (Hypertext, Apr 2026)",
      "Medium",
      "Medium",
      "Spread visitors in time and space (I2, I8, I9); track resident sentiment",

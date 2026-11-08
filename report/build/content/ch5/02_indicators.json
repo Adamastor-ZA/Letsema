@@ -324,15 +324,15 @@
      "T2-26",
      "Share of visitors staying overnight, by district",
      "10",
-     "Garden Route 65.5%; Overberg 58%; West Coast 29.7% in 2023 (sampled visitors, mostly domestic)",
-     "Diag p42, p48; MERO West Coast p128 to p130"
+     "Not in hand for international visitors; the Treasury's district samples are mostly domestic (2023)",
+     "MERO Garden Route p150 to p151; MERO West Coast p128 to p130; Diag p48"
     ],
     [
      "T2-27",
      "Tourist spend as a share of GDPR, by district",
      "10",
-     "15.6% to 16.8% in the four outer districts; Cape Winelands 7.0%; Metro 6.7% (2023)",
-     "MERO Cape Metro p72; Central Karoo p111; Cape Winelands p113; Overberg p119; West Coast p131; Garden Route p151"
+     "Overberg 15.6%; West Coast 16.8%; Cape Winelands 7.0%; Metro 6.7% (2023); Garden Route and Central Karoo to confirm",
+     "MERO Cape Metro p72; Cape Winelands p113; Overberg p119; West Coast p131"
     ],
     [
      "T2-28",
@@ -343,11 +343,11 @@
     ]
    ],
    "boldFirstCol": true,
-   "message": "Twenty-eight Tier 2 indicators give each focus area one to three outcome measures, and eight of them have no baseline yet."
+   "message": "Twenty-eight Tier 2 indicators give each focus area one to three outcome measures, and nine of them have no baseline yet."
   },
   {
    "type": "p",
-   "text": "The eight without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24, T2-25 and T2-28. Each carries no target until its baseline exists, on the dates in the data gaps table (section 5.4)."
+   "text": "The nine without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24, T2-25, T2-26 and T2-28. Each carries no target until its baseline exists, on the dates in the data gaps table (section 5.4)."
   },
   {
    "type": "table",

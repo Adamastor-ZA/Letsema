@@ -48,14 +48,14 @@
   },
   {
    "type": "p",
-   "text": "Every figure in this report carries a source and page, and sources rank in five tiers. Where tiers disagree the higher tier wins; where two documents in one tier disagree, both values are recorded and the value used is stated with the reason. Nothing is reconciled by averaging."
+   "text": "Every figure in this report carries a source and page, and sources rank in five tiers. Where tiers disagree the higher tier wins, with one exception. Where a deliverable quotes a tier 3 document and reports it differently, the document wins as the original source and the difference is logged. Where two documents in one tier disagree, both values are recorded and the value used is stated with the reason. Nothing is reconciled by averaging."
   },
   {
    "type": "numbered",
    "items": [
     "Interim deliverables, cited by the date printed on the cover and by PDF page index, since none prints page numbers.",
     "Working analyses: the Market Assessment Report of May 2026 and the three Skift memos on digital and search insights (December 2025), segmentation (March 2026) and African markets (March 2026), cited by section.",
-    "Wesgro, provincial and City documents, cited by page, slide or chapter: Wesgro's FY26 to FY30 plan, the Growth for Jobs Strategy 2023, the Tourism Blueprint 2030 and the Provincial Treasury's provincial and district economic reviews. The same tier holds the City's Tourism Development Framework, the StratEcon cruise studies and Wesgro Research's source market analysis. It also holds DEDAT's visa regime study, the Cape Town Air Access update and the Department of Mobility's draft land transport framework. Where a deliverable reports one of these documents differently, the document itself is used and the difference is logged.",
+    "Wesgro, provincial and City documents, cited by page, slide or chapter: Wesgro's FY26 to FY30 plan, the Growth for Jobs Strategy 2023, the Tourism Blueprint 2030 and the Provincial Treasury's provincial and district economic reviews. The same tier holds the City's Tourism Development Framework, the StratEcon cruise studies and Wesgro Research's source market analysis. It also holds DEDAT's visa regime study, the Cape Town Air Access update and the Department of Mobility's draft land transport framework.",
     "Benchmark and reference reports, such as the UN Tourism barometer behind the global growth norm (Global Benchmarking Report, Mar 2026, p7).",
     "External public sources, used only where no higher tier carries the figure and labelled as such."
    ]
