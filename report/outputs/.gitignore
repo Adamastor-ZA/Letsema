@@ -1,3 +1,5 @@
 smoke*
 *.png
 FNTEST_*
+.~lock.*
+*.tmp
