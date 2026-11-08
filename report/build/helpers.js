@@ -129,7 +129,38 @@ function parseCitation(inner) {
   return { note: note.charAt(0).toUpperCase() + note.slice(1) + (/[.!?]$/.test(note) ? '' : '.'), inline: inl.length ? inl.join('; ') : null };
 }
 
+// Footnote trimming options, chosen with FN_MODE (comma-separated): 'nodate' drops the dates of the study documents, which A9
+// lists once; 'short' also shortens their titles; 'para' gives each paragraph one footnote, folding repeats of a source;
+// 'tight' closes up the footnote lines; 'es0' leaves the executive summary without footnotes.
+const FN_MODE = new Set((process.env.FN_MODE || '').split(',').filter(Boolean));
+const SHORT_TITLES = [['Inception Report', 'Inception Report'], ['Current State Diagnostic', 'Diagnostic'], ['Stakeholder Insights Report', 'Stakeholder Insights'],
+  ['Global Benchmarking Report', 'Benchmarking'], ['MIDAS Aviation Market Assessment', 'MIDAS'], ['Market Assessment Report', 'Market Assessment'],
+  ['Demand-Side Analysis', 'Demand-Side Analysis'], ['Infrastructure Report', 'Infrastructure Report'], ['SME and Community Inclusion Plan', 'Inclusion Plan'],
+  ['Skift Segmentation Analysis', 'Segmentation'], ['Skift Digital and Search Insights', 'Digital Insights'], ['Skift African Market Analysis', 'African Markets']];
+const STUDY_NAMES = SHORT_TITLES.map(([f]) => f).concat(['Summary of Findings']);
+const DATE_AFTER = new RegExp(`(${STUDY_NAMES.map((n) => n.replace(/[-]/g, '\\-')).join('|')}), (?:\\d{1,2} )?(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \\d{4}`, 'g');
+function trimNote(text) {
+  let t = text;
+  if (FN_MODE.has('nodate') || FN_MODE.has('short')) t = t.replace(DATE_AFTER, '$1');
+  if (FN_MODE.has('short')) for (const [f, sh] of SHORT_TITLES) t = t.split(f).join(sh);
+  return t;
+}
+// Fold a list of footnote notes into one: parts naming the same source as an earlier part keep only their locators.
+function foldNotes(notes) {
+  const parts = notes.flatMap((n) => n.replace(/\.$/, '').split('; '));
+  const out = []; const bySrc = new Map();
+  for (const p of parts) {
+    const m = p.match(/^(.*?)(, (?:pp?\d|"|computed|p\d).*)$/);
+    if (m && bySrc.has(m[1])) { const k = bySrc.get(m[1]); const loc = m[2].slice(2); if (!out[k].includes(loc)) out[k] += `, ${loc}`; continue; }
+    if (m) bySrc.set(m[1], out.length);
+    if (!out.includes(p)) out.push(p);
+  }
+  const t = out.join('; ');
+  return t.charAt(0).toUpperCase() + t.slice(1) + '.';
+}
+const citeMode = { module: '' };
 function addFootnote(text) {
+  text = trimNote(text);
   footnoteId += 1;
   FOOTNOTES[footnoteId] = { children: [new Paragraph({ style: 'FootnoteText', children: runs(` ${text}`) })] };
   FOOTNOTE_TEXT.push(text);
@@ -137,7 +168,7 @@ function addFootnote(text) {
 }
 
 // Split text into strings and footnote ids. Parentheses inside [open items] are left alone.
-function citeSplit(text) {
+function citeSplit(text, collect = false) {
   const skip = [];
   for (const m of text.matchAll(/\[[^\]\n]+\]/g)) skip.push([m.index, m.index + m[0].length]);
   const inSkip = (i) => skip.some(([a, b]) => i >= a && i < b);
@@ -154,7 +185,7 @@ function citeSplit(text) {
         before = c.inline ? `${before}(${c.inline})` : before.replace(/\s+$/, '');
         let next = i + 1;
         if ('.,;:'.includes(text[next] || '')) { before += text[next]; next += 1; }
-        out.push(before, { fn: addFootnote(c.note) });
+        out.push(before, collect ? { note: c.note } : { fn: addFootnote(c.note) });
         pos = next; i = next - 1;
       }
     }
@@ -169,6 +200,14 @@ const cite = (doc, date, page) => `(${doc}, ${date}${page ? ', ' + page : ''})`;
 // runs() with citations moved to footnotes.
 function noteRuns(text, base = {}) {
   if (typeof text !== 'string') return runs(text, base);
+  const es0 = FN_MODE.has('es0') && citeMode.module.startsWith('exec/');
+  if (FN_MODE.has('para') || es0) {
+    const segs = citeSplit(text, true);
+    const notes = segs.filter((x) => typeof x !== 'string').map((x) => x.note);
+    const textRuns = segs.filter((x) => typeof x === 'string').flatMap((x) => runs(x, base));
+    if (!notes.length || es0) return textRuns;
+    return [...textRuns, new FootnoteReferenceRun(addFootnote(foldNotes(notes)))];
+  }
   return citeSplit(text).flatMap((seg) => (typeof seg === 'string' ? runs(seg, base) : [new FootnoteReferenceRun(seg.fn)]));
 }
 
@@ -375,7 +414,7 @@ function styles() {
       { id: 'TableMessage', name: 'Table Message', basedOn: 'Normal', next: 'Body', run: { font: FONT_HEAD, size: PT(9), bold: true, color: C.navy },
         paragraph: { spacing: { before: 0, after: 120, line: 264, lineRule: AUTO }, indent: { left: 160, right: 120 }, keepNext: true,
           shading: { type: ShadingType.CLEAR, fill: C.light, color: 'auto' }, border: { left: { style: BorderStyle.SINGLE, size: 36, color: C.teal, space: 8 }, top: { style: BorderStyle.SINGLE, size: 4, color: C.light, space: 4 }, bottom: { style: BorderStyle.SINGLE, size: 4, color: C.light, space: 4 } } } },
-      { id: 'FootnoteText', name: 'footnote text', basedOn: 'Normal', next: 'FootnoteText', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: { before: 0, after: 20, line: 220, lineRule: AUTO } } },
+      { id: 'FootnoteText', name: 'footnote text', basedOn: 'Normal', next: 'FootnoteText', run: { font: FONT_HEAD, size: PT(7.5), color: C.grey }, paragraph: { spacing: FN_MODE.has('tight') ? { before: 0, after: 0, line: 200, lineRule: AUTO } : { before: 0, after: 20, line: 220, lineRule: AUTO } } },
       { id: 'Quote', name: 'Quote', basedOn: 'Body', next: 'Body', run: { ...base, italics: true, color: C.grey }, paragraph: { indent: { left: 567, right: 567 }, spacing: { after: 140 } } },
       { id: 'TocL1', name: 'TOC L1', basedOn: 'Normal', next: 'TocL1', run: { font: FONT_HEAD, size: PT(10), bold: true, color: C.ink }, paragraph: { spacing: { before: 100, after: 40 } } },
       { id: 'TocL2', name: 'TOC L2', basedOn: 'Normal', next: 'TocL2', run: { font: FONT_BODY, size: PT(10.5), color: C.ink }, paragraph: { indent: { left: 400 }, spacing: { after: 30 } } },
@@ -445,7 +484,7 @@ async function save(doc, outPath) {
 
 module.exports = {
   docx, C, PT, FONT_TITLE, FONT_HEAD, FONT_BODY, TEXT_WIDTH_CM, TEXT_WIDTH_DXA,
-  fullBleed, divider, runs, noteRuns, resetCites, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite, citeSplit, FOOTNOTE_TEXT,
+  fullBleed, divider, runs, noteRuns, resetCites, citeMode, FN_MODE, body, lead, note, kicker, h1, h1NoBreak, h2, h3, h4, pageBreak, spacer, numbered, bullets, cite, citeSplit, FOOTNOTE_TEXT,
   makeContext, setChapter, headings, pageOf, table, grid, box, figure, contentsList, buildDocument, save,
   Paragraph, TextRun, AlignmentType,
 };
