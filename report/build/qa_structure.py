@@ -124,7 +124,7 @@ pm = os.path.join(H, 'pagemap.json')
 if os.path.exists(pm):
     m = json.load(open(pm))
     pages, n = m['map'], m['nPages']
-    marks = [('Executive summary', 'Executive summary', (10, 12)), ('Context', 'Chapter 1', (18, 22)), ('Analysis summaries', 'Chapter 2', (45, 52)),
+    marks = [('Executive summary', 'Executive summary', (10, 12)), ('Context', 'Chapter 1', (18, 22)), ('Analysis and insights', 'Chapter 2', (45, 52)),
              ('Findings and recommendations', 'Chapter 3', (60, 80)), ('Execution plan', 'Chapter 4', (25, 30)), ('Monitoring and evaluation framework', 'Chapter 5', (15, 20)), ('Appendices', 'Appendices', (0, 999))]
     starts = [(pages.get(k), lab, bud) for k, lab, bud in marks]
     for i, (p0, lab, bud) in enumerate(starts):

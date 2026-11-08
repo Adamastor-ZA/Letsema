@@ -167,7 +167,7 @@
   },
   {
    "type": "p",
-   "text": "Nine dated documents carry the evidence. Appendix A9 dates each by its cover and gives the version in hand and the SLA clauses it answers. Chapter 2 summarises them: the Market Assessment Report and the Demand-Side Analysis in 2.1, the MIDAS Aviation Market Assessment in 2.2, the Global Benchmarking Report in 2.3, the Stakeholder Insights Report in 2.4, the Infrastructure Report in 2.5 and the SME and Community Inclusion Plan in 2.6. The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2 and is folded into 2.1 and 2.5. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
+   "text": "Nine dated documents carry the evidence. Appendix A9 dates each by its cover and gives the version in hand and the SLA clauses it answers. Chapter 2 draws them together as one body of analysis in four parts: the global benchmarks and their lessons (2.1), demand (2.2), supply (2.3) and the enabling environment (2.4). The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2. The Market Assessment Report of May 2026 is the working analysis behind the Demand-Side Analysis and alone prints the 2025 base the growth case uses (Market Assessment Report, May 2026, p19)."
   },
   {
    "type": "h3",
@@ -195,7 +195,7 @@
   },
   {
    "type": "p",
-   "text": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.3, 2.3 and A.17 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+   "text": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.2, 2.3 and A.18 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
   },
   {
    "type": "p",

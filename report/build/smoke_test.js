@@ -10,7 +10,7 @@ async function main() {
     new H.Paragraph({ style: 'CoverTitle', children: [new H.TextRun('Unlocking Tourism Growth')] }),
     new H.Paragraph({ style: 'CoverSub', children: [new H.TextRun('A Strategy for the Western Cape to 2035')] }),
     new H.Paragraph({ style: 'CoverMeta', children: [new H.TextRun('Final Research Report. Draft for discussion, 2 November 2026')] }),
-    H.h1('Analysis summaries', 'ch2'),
+    H.h1('Analysis and insights', 'ch2'),
     H.h2('2.1 Demand-side analysis and market strategy'),
     H.lead('Growth is capped by market concentration and seasonality before it is capped by demand.'),
     H.body('Five markets hold **63%** of overseas arrivals and 65% of visitors travel between October and March ' + H.cite('Demand-Side Analysis', 'Jun 2026', 'p9') + '. A placeholder looks like this: [2028 target to be confirmed].'),

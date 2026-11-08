@@ -1,0 +1,463 @@
+{
+ "module": "ch2/04_enabling.json",
+ "id": "2.4",
+ "title": "The enabling environment",
+ "sources": [
+  [
+   "ch2/04_stakeholders.json",
+   9
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   10
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   11
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   12
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   14
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   15
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   16
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   21
+  ],
+  [
+   "ch2/06_inclusion.json",
+   1
+  ],
+  [
+   "ch2/06_inclusion.json",
+   6
+  ],
+  [
+   "ch2/06_inclusion.json",
+   7
+  ],
+  [
+   "ch2/06_inclusion.json",
+   10
+  ],
+  [
+   "ch2/06_inclusion.json",
+   11
+  ],
+  [
+   "ch2/06_inclusion.json",
+   12
+  ],
+  [
+   "ch2/06_inclusion.json",
+   13
+  ],
+  [
+   "ch2/06_inclusion.json",
+   14
+  ],
+  [
+   "ch2/06_inclusion.json",
+   15
+  ],
+  [
+   "ch2/06_inclusion.json",
+   20
+  ],
+  [
+   "ch2/06_inclusion.json",
+   21
+  ],
+  [
+   "ch2/06_inclusion.json",
+   22
+  ],
+  [
+   "ch2/06_inclusion.json",
+   23
+  ],
+  [
+   "ch2/06_inclusion.json",
+   24
+  ],
+  [
+   "ch2/06_inclusion.json",
+   25
+  ],
+  [
+   "ch2/06_inclusion.json",
+   26
+  ]
+ ],
+ "partial_sources": [
+  [
+   "ch2/01_demand.json",
+   27
+  ],
+  [
+   "ch2/01_demand.json",
+   33
+  ],
+  [
+   "ch2/02_aviation.json",
+   23
+  ],
+  [
+   "ch2/02_aviation.json",
+   27
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   1
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   17
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   22
+  ],
+  [
+   "ch2/04_stakeholders.json",
+   23
+  ],
+  [
+   "ch2/05_infrastructure.json",
+   3
+  ],
+  [
+   "ch2/06_inclusion.json",
+   8
+  ]
+ ],
+ "relocations": [
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    0
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    2
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    4
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    8
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    0
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    3
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    5
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    9
+   ],
+   "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+   "reason": "deliverable-oriented v7 heading with no content of its own",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    3
+   ],
+   "to": "Appendix A9, table 'Documents and sources cited', Stakeholder Insights Report row (clauses 1.1.6 and 3.2.8); open item added to A9 as a note; the Inception Report p22 engagement commitment retires (section 1.4 [21] holds the phases, not the commitment)",
+   "reason": "SLA clause sentence, with the what-was-asked framing (Inception Report, Nov 2025, p22), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.6 and 3.2.8 in the Stakeholder Insights Report row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+   "carries_all": false
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    6
+   ],
+   "to": "Appendix A6 [5] (four-step method; insights are the team's statements, attributed to organisations), also section 1.4 [22]",
+   "reason": "Method. The chapter introduction keeps one clause that each statement is the project team's paraphrase, attributed to the organisation that made it. No figure or open item beyond what A6 [5] prints.",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    7
+   ],
+   "to": "section 1.4 (ch1/04_approach.json [23]) for both gaps and the open item; Appendix A6 [9] to [11] for the six proposed demand-side engagements, Trip.com, Emirates and SATSA among them",
+   "reason": "Gaps in the engagement record. Section 1.4 [23] holds '[Letsema to supply the phase 2 to 4 engagement record for Appendix A6]' word for word (its full stop sits outside the bracket). 2.3 keeps the point that no airline or airport voice was among the 16 organisations, from ch2/04_stakeholders.json [19].",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/04_stakeholders.json",
+    20
+   ],
+   "to": "Appendix A6 [17] and table 'Lines of enquiry by area'",
+   "reason": "The eight areas for deeper engagement frame later engagement rather than findings; A6 prints all eight from the same page (Stakeholder Insights Report, Mar 2026, p14).",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    2
+   ],
+   "to": "retired as a duplicate: ch2/06_inclusion.json [10], which 2.4 absorbs, carries every figure (20 communities, 18.4%, Census 2011, 0.02% to 0.04%, p5)",
+   "reason": "Repetition of the v7 2.5 opening; its cross-reference ('Section 2.5 opened ...') must not survive.",
+   "carries_all": true
+  },
+  {
+   "src": [
+    "ch2/06_inclusion.json",
+    4
+   ],
+   "to": "Appendix A9, table 'Documents and sources cited', SME and Community Inclusion Plan row (clauses 1.1.3, 1.1.9 and 3.2.5); open item added to A9 as a note; the Inception Report p19 inclusion brief retires (section 1.4 [4] names community inclusion only as part of the supply phase)",
+   "reason": "SLA clause sentence, with the what-was-asked framing (Inception Report, Nov 2025, p19), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.3, 1.1.9 and 3.2.5 in the SME and Community Inclusion Plan row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+   "carries_all": false
+  }
+ ],
+ "appendix_blocks": {
+  "module": "appendices/09_a9_glossary.json",
+  "blocks": [
+   {
+    "type": "note",
+    "text": "The SLA clause numbers in the last column are those each document answers. [Clause wording to be checked against the signed Annexure B.]"
+   }
+  ]
+ },
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "2.4 The enabling environment"
+  },
+  {
+   "type": "lead",
+   "text": "The enabling system is thinnest where the strategy needs it most. The decisive levers sit nationally, local tourism bodies' funding has been disrupted and the province has no approved way to count its tourism jobs. In the communities, organisation rather than distance keeps visitor spend out."
+  },
+  {
+   "type": "h3",
+   "text": "The binding levers sit with national government"
+  },
+  {
+   "type": "p",
+   "text": "The levers that most limit growth are held nationally. In an insight rated High, the Department of Economic Development reports that \"restrictive bilateral air agreements are limiting airlift growth\", leaving the province less competitive than peers (Stakeholder Insights Report, Mar 2026, p24; insights are the project team's statements, attributed to the organisation engaged). Chinese routes are \"frequently an extension of government-to-government relations\" (MIDAS Aviation Market Assessment, Mar 2026, \"The Chinese Market Opportunity\"). The runway that caps Cape Town International sits with ACSA, a national body (sections 1.2 and 2.3)."
+  },
+  {
+   "type": "p",
+   "text": "Visas and national marketing follow the same pattern. Chinese and Gulf travellers face slow, document-heavy visa processes (Demand-Side Analysis, Jun 2026, p51). Four organisations raised visas, among them the Cableway for India and China and the CTICC for African events (Stakeholder Insights Report, Mar 2026, p36, p45). The Department of Economic Development also finds that SA Tourism's institutional weakness constrains international marketing (Stakeholder Insights Report, Mar 2026, p24, p25). The Western Cape holds none of these levers (section 1.2), so it must move them by escalation backed with evidence. Chile's case points the same way: lobby for air service liberalisation and simpler visas (section 2.1)."
+  },
+  {
+   "type": "h3",
+   "text": "Funding has thinned and mandates blur"
+  },
+  {
+   "type": "p",
+   "text": "The bodies that manage and sell the destination are weaker than a decade ago. The Department of Economic Development rates Western Cape and Cape Town tourism funding \"materially below peer destinations\" for destination management and marketing. It finds that tourism institutional capacity \"has eroded over the past decade at both provincial and municipal level\", and both findings are rated High (Stakeholder Insights Report, Mar 2026, p25)."
+  },
+  {
+   "type": "p",
+   "text": "National Treasury's MFMA Circular No. 131 of 31 March 2025 has since disrupted established municipal funding for local tourism organisations (LTOs), a finding also rated High. Most of them \"are not operationally sustainable without municipal funding support\" (Stakeholder Insights Report, Mar 2026, p25). Mandates also blur at district level. The West Coast District Municipality reports \"a mandate disconnect\" between the district, local municipalities and LTOs that leaves tourism development without a clear owner (Stakeholder Insights Report, Mar 2026, p39)."
+  },
+  {
+   "type": "p",
+   "text": "Fiscal pressure is turning attention to a tourism levy and blended finance (Stakeholder Insights Report, Mar 2026, p23, p25). The committed capital in section 2.3 builds airports, ports, roads, transit and precincts, but none of it funds the bodies that manage and sell the destination. The strategy cannot rest on LTOs until their funding and mandates are settled."
+  },
+  {
+   "type": "h3",
+   "text": "Climate losses already fall on the flagships"
+  },
+  {
+   "type": "p",
+   "text": "Climate risk is now an operating cost at Robben Island and in CapeNature's reserves. Robben Island Museum loses about R16 million a year to weather-cancelled trips, a High-rated insight (Stakeholder Insights Report, Mar 2026, p33). CapeNature reports climate-related flooding, fire and heat closing sites (Stakeholder Insights Report, Mar 2026, p43). Sustainable destination management is therefore risk management for the province's flagship product today, and should be funded as such, not as a later add-on."
+  },
+  {
+   "type": "h3",
+   "text": "Collaboration platforms exist; data does not flow"
+  },
+  {
+   "type": "p",
+   "text": "Collaboration and data sharing are the barriers stakeholders raise most often. Fifteen of the 16 organisations raised industry and government collaboration, and fifteen raised policy and data sharing (Stakeholder Insights Report, Mar 2026, p20 to p46, counted)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch2/04_stakeholders.json",
+    10
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Data sharing also draws 30 insights and 16 High ratings, the most of any theme (Stakeholder Insights Report, Mar 2026, p20 to p46, counted). Stakeholders describe the data architecture as \"too fragmented, lagged and proxy-based to provide a reliable view of visitor volumes, spend, spread or economic impact at provincial level\" (Stakeholder Insights Report, Mar 2026, p13)."
+  },
+  {
+   "type": "p",
+   "text": "Coordination is hard everywhere, as the comparators show (section 2.1). Yet the platforms for collaboration already exist here. FEDHASA points to JAMS, through which tourism associations coordinate with Wesgro, the Western Cape Government and the City of Cape Town (Stakeholder Insights Report, Mar 2026, p31). What is missing is an agreed way to share data across those bodies, not another forum."
+  },
+  {
+   "type": "h3",
+   "text": "The province has no approved jobs count"
+  },
+  {
+   "type": "p",
+   "text": "The province cannot yet measure tourism's jobs or its contribution to GDP. The national Department of Tourism reports that \"there is no approved official methodology for provincial tourism GDP and jobs estimates\", rated High (Stakeholder Insights Report, Mar 2026, p37). Stats SA cites 749 vacancies behind delays to the tourism satellite account and infers provincial flows partly from ports-of-entry data (Stakeholder Insights Report, Mar 2026, p30)."
+  },
+  {
+   "type": "p",
+   "text": "The communities show the same gap at small scale. No community profile counts tourism employment inside its boundary. The figures are node-side instead, such as about 4,700 formal Town Centre jobs for 82,393 employed Mitchells Plain residents (SME and Community Inclusion Plan, Sep 2026, p22). Need rests on fifteen-year-old Census data (SME and Community Inclusion Plan, Sep 2026, p15). CapeNature, the West Coast District and the Overberg raise skills gaps, but no labour analysis sits behind them (Stakeholder Insights Report, Mar 2026, p27, p39, p43)."
+  },
+  {
+   "type": "p",
+   "text": "For the Western Cape, a jobs baseline must come before a jobs target. The ambition of 300,000 tourism-linked jobs (section 1.1) has no baseline yet. The yield-based regional metrics that New Zealand recommends (section 2.1) also need a reliable view of spend and spread, which today's data cannot give."
+  },
+  {
+   "type": "h3",
+   "text": "Communities hold people, not spend"
+  },
+  {
+   "type": "p",
+   "text": "Foreign visitors spent R25.9bn in the province in FY2025, but little of it reaches its townships and rural settlements (Demand-Side Analysis, Jun 2026, p11). The 20 shortlisted communities come from a long-list of every Census sub-place cluster of 1,500 people or more with official unemployment of 25% or more. Named mission, fishing and farm settlements are added (SME and Community Inclusion Plan, Sep 2026, p14, p15, p16; the evidence joins Census 2011 sub-places to an OpenStreetMap asset layer of September 2026 with road travel times and municipal plans, and need rests on Census 2011 because Census 2022 is not published below ward level and asked no income question). That gives 107 communities holding 2.81 million people in 2011, 48% of the province (SME and Community Inclusion Plan, Sep 2026, p16). Five weighted criteria (need, tourism potential, proximity, readiness and access) produce the shortlist of 20, five in the Cape Metro and three in each district (SME and Community Inclusion Plan, Sep 2026, p14, p16)."
+  },
+  {
+   "type": "p",
+   "text": "The 20 hold 18.4% of the province's residents and 15.4% of employed residents (Census 2011), yet receive 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). This comes to about R4m to R10m a year on the documented floor, against R259m a year if they captured 1% of FY2025 foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5)."
+  },
+  {
+   "type": "p",
+   "text": "Inclusion here means activity inside the community. A tour, a meal, a bed or a market counts; a resident commuting to a hotel job in town does not (SME and Community Inclusion Plan, Sep 2026, p4). Inclusion therefore turns on where visitor spend lands, not on how many visitors come."
+  },
+  {
+   "type": "h3",
+   "text": "Organisation, not distance, keeps spend out"
+  },
+  {
+   "type": "p",
+   "text": "Distance is not the barrier. Of the 107 long-listed communities, 93 lie within 45 minutes of one of 35 tourism nodes or three corridors (SME and Community Inclusion Plan, Sep 2026, p16). Langa is 12 minutes from Cape Town International and Zwelihle seven from Hermanus (SME and Community Inclusion Plan, Sep 2026, p18). Distance is the binding constraint in none of the 20 (SME and Community Inclusion Plan, Sep 2026, p30). Yet proximity and access carried 35% of the shortlist score, so the result is partly built into the selection (Appendix A5, \"Community shortlist criteria\")."
+  },
+  {
+   "type": "p",
+   "text": "Organisation is the binding constraint in 11 of the 20. Ten have no identified active tourism body, and nine show no benefit visible to residents (SME and Community Inclusion Plan, Sep 2026, p28, p30)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch2/06_inclusion.json",
+    14
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Product often exists without a seller. Langa's walk sells on global platforms at ratings above 4.8, yet city firms sell most of the 23 Langa walks on Viator (SME and Community Inclusion Plan, Sep 2026, p20, p28). Zwelihle's four resident guides sell by phone with no shared booking channel (SME and Community Inclusion Plan, Sep 2026, p22, p34). The Mitchells Plain festival drew 27,800 visitors in November 2025 with no local operator or LTO behind it (SME and Community Inclusion Plan, Sep 2026, p22, p34). The communities cannot yet be found or booked on the channels visitors use. What they lack is a local seller, not a shorter journey."
+  },
+  {
+   "type": "h3",
+   "text": "Safety is the second gate"
+  },
+  {
+   "type": "p",
+   "text": "After a seller, safety is the next gate a visit must pass. Nine of the 20 communities record a safety-perception gap and five record extortion (SME and Community Inclusion Plan, Sep 2026, p30). Seven stakeholder organisations raised safety, a barrier that runs across transport, township tourism and international selling (Stakeholder Insights Report, Mar 2026, p10). Tourism cannot fix this alone: \"tourism activity alone cannot resolve crime or extortion\" (SME and Community Inclusion Plan, Sep 2026, p35). Safety is therefore a launch requirement in its own right, not an outcome of the pilot. No community pilot should open until it is met."
+  },
+  {
+   "type": "h3",
+   "text": "Each community type needs a different first move"
+  },
+  {
+   "type": "p",
+   "text": "The largest group of long-listed communities sits near a node and has something worth visiting, and each type needs its own first move (SME and Community Inclusion Plan, Sep 2026, p15, p17; p4 prints 48 and 8 for the two assets-underused rows). Near a node with assets underused, 49 long-listed and 11 shortlisted communities need sellers organised and a slot in the node's itineraries, procurement and events. Near a node with nothing inside, 43 long-listed and 6 shortlisted communities need a seller first, then one anchor asset under a covenant, then integration."
+  },
+  {
+   "type": "p",
+   "text": "Remote communities with underused assets, 7 long-listed and 2 shortlisted, need access opened and the asset placed on a route product the LTO already sells. Remote communities with nothing inside, 8 long-listed and 1 shortlisted, need procurement and skills first and an asset only once a route product exists. The first move differs by type, but in each the seller or the route comes before the asset."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch2/06_inclusion.json",
+    25
+   ]
+  },
+  {
+   "type": "h3",
+   "text": "A seller with a stake comes first"
+  },
+  {
+   "type": "p",
+   "text": "The evidence points to a model built around a seller. It joins a functioning selling capability to demand the node already has, behind launch gates for safety, access and a viable operating model (SME and Community Inclusion Plan, Sep 2026, p32). A pilot in two or three of six profiled communities would test it. It would scale only once bookings, local spend, delivery and safety meet thresholds agreed before launch (SME and Community Inclusion Plan, Sep 2026, p32)."
+  },
+  {
+   "type": "p",
+   "text": "The first output is deliberately small: \"one live booking route, published operating dates, a named customer contact and a simple record of bookings and local revenue\" (SME and Community Inclusion Plan, Sep 2026, p33). Most first moves carry no dedicated budget line (SME and Community Inclusion Plan, Sep 2026, p36). Chapter 4 sets out roles and funding. The order the cases support (section 2.1) therefore becomes the order of delivery: a seller first, then a safe visit, then product and exposure."
+  },
+  {
+   "type": "p",
+   "text": "Every gap in this part is a question of who decides, who pays, who measures and who sells. Pillar 3 must settle those four questions, because Pillars 1 and 2 cannot deliver without the answers."
+  },
+  {
+   "type": "box",
+   "title": "What this means for the strategy",
+   "paras": [
+    "**Refines FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node.",
+    "**Rewords FA14, Manage climate risk and sustainable tourism, and supports FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites.",
+    "**Supports FA10, Support diversified route and product development, and FA15.** Assets follow sellers and route products, not the reverse.",
+    "**Rewords FA16, Align institutional stakeholders across all three tiers, and supports FA19, Lead removal of infrastructure, visa and safety deficits.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA; mandates blur at district level.",
+    "**Supplies the visa barriers for FA19 and supports it on safety.** Chinese and Gulf travellers face slow, document-heavy visa processes. Safety and extortion gate activation in up to nine communities.",
+    "**Validates FA17, Strengthen industry and government collaboration, and FA18, Expedite tourism-enabling policy and data sharing.** Each raised by 15 of 16 organisations, with existing platforms such as JAMS to build on.",
+    "**Supplies the case for FA20, Develop workforce and service skills, as a question; supports FA20 and FA18 on measurement.** Skills gaps raised by CapeNature, the West Coast and the Overberg have no labour analysis behind them (Stakeholder Insights Report, Mar 2026, p27, p39, p43). No count of tourism jobs exists inside the communities, and need rests on Census 2011.",
+    "**Supports FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators."
+   ]
+  }
+ ]
+}

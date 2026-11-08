@@ -231,7 +231,7 @@
      "1",
      "Respond to Growth Segment Traveller Preferences",
      "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis",
-     "2.1",
+     "2.2",
      "I1",
      "T1-01; T1-02; T2-01"
     ],
@@ -239,7 +239,7 @@
      "2",
      "Develop the Seasonality and Spread Proposition",
      "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE landscape (ICCA, UIA)",
-     "2.1; 2.2; 2.4; 2.5; 2.3",
+     "2.2; 2.1; 2.3",
      "I2",
      "T1-05; T2-02; T2-03"
     ],
@@ -247,7 +247,7 @@
      "3",
      "Facilitate Adoption Along the Path to Purchase",
      "Inclusion plan (community product sold by phone), Stakeholder Insights (Cape Nature 70% through the call centre), Infrastructure Report (route bookability gaps, no OTA presence in rural stock)",
-     "2.1; 2.4; 2.5; 2.6",
+     "2.2; 2.1; 2.3; 2.4",
      "I3",
      "T2-04; T2-05"
     ],
@@ -255,7 +255,7 @@
      "4",
      "Pivot to Growth Markets (China, India, ME, ASEAN)",
      "Demand-Side route-to-market (71,000 India and 30,000 China via hubs) and MIDAS (same figures; no direct route before 2030)",
-     "2.1; 2.2; 1.2",
+     "2.2; 2.1; 2.3; 1.2",
      "I4",
      "T1-02; T2-06"
     ],
@@ -263,7 +263,7 @@
      "5",
      "Increase Yield in Mature Markets (UK, Europe, N. America)",
      "MIDAS (mature long-haul routes above 80% load; carriers raise fares before adding seats) with the Demand-Side mature-market projection",
-     "2.1; 2.2; 2.3",
+     "2.2; 2.1; 2.3",
      "I1",
      "T1-03; T2-07"
     ],
@@ -271,7 +271,7 @@
      "6",
      "Build a Regional Foundation (Africa)",
      "Demand-Side African opportunity section and Skift African memo; MIDAS regional route loads",
-     "2.1; 2.2; 2.3; 1.2",
+     "2.2; 2.3; 1.2",
      "I5",
      "T1-02; T2-08"
     ],
@@ -279,7 +279,7 @@
      "7",
      "Close the Air Access and Cruise Capacity Gaps (air)",
      "MIDAS Aviation Market Assessment; Infrastructure Report air-access section",
-     "2.2; 2.1; 2.5; 2.4",
+     "2.3; 2.1",
      "I6",
      "T1-01; T2-09; T2-10"
     ],
@@ -287,7 +287,7 @@
      "8",
      "Close the Air Access and Cruise Capacity Gaps (cruise)",
      "Diagnostic cruise table and Infrastructure Report cruise and ports section; Wesgro cruise reports (not in hand)",
-     "2.5; 1.2; 2.4",
+     "2.3; 1.2",
      "I7",
      "T2-11"
     ],
@@ -295,7 +295,7 @@
      "9",
      "Accelerate Tourism-Enabling Internal Mobility",
      "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility)",
-     "2.5; 2.4; 1.2; 2.6",
+     "2.3; 1.2",
      "I8",
      "T1-06; T2-12; T2-13"
     ],
@@ -303,7 +303,7 @@
      "10",
      "Support Diversified Route and Product Development",
      "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations)",
-     "2.5; 2.4; 2.1; 2.3",
+     "2.3; 2.4",
      "I9",
      "T1-06; T2-14"
     ],
@@ -311,7 +311,7 @@
      "11",
      "Align Visitor Experience In-Destination",
      "Infrastructure Report accommodation mapping; Stakeholder Insights (service quality); Benchmarking (Valencia, Singapore)",
-     "2.5; 2.4; 2.1; 2.3",
+     "2.3; 2.1",
      "I10",
      "T2-15"
     ],
@@ -319,7 +319,7 @@
      "12",
      "Balance Impact on Nature-Based Attractions",
      "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion",
-     "2.4; 2.5; 1.2; 2.3",
+     "2.3; 2.1; 1.2",
      "I11",
      "T2-16"
     ],
@@ -327,7 +327,7 @@
      "13",
      "Drive Community and SME Inclusion",
      "SME and Community Inclusion Plan (September 2026), as agreed with Wesgro on 24 September",
-     "2.6; 2.4; 2.5; 2.3",
+     "2.4; 2.1",
      "I12",
      "T1-07; T2-17"
     ],
@@ -335,7 +335,7 @@
      "14",
      "Ensure Sustainable Destination Management",
      "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
-     "2.4; 2.6; 2.5; 1.2; 2.3",
+     "2.4; 2.1; 1.2",
      "I13",
      "T2-18; T2-19"
     ],
@@ -343,7 +343,7 @@
      "15",
      "Crowd-In Capital with Targeted Investment Strategies",
      "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund)",
-     "2.5; 2.4; 2.3; 2.6",
+     "2.4; 2.1; 2.3",
      "I14",
      "T2-20"
     ],
@@ -351,7 +351,7 @@
      "16",
      "Review Institutional Arrangements",
      "Stakeholder Insights (bilateral air agreements, fragmented mandates); Diagnostic governance tiers; MIDAS (government-to-government route designation)",
-     "2.4; 1.2; 2.2; 2.3; 1.1",
+     "2.4; 2.1; 1.2; 1.1",
      "I15",
      "T2-21"
     ],
@@ -359,7 +359,7 @@
      "17",
      "Strengthen Industry >> Government Collaboration",
      "Stakeholder Insights theme tally",
-     "2.4; 2.3",
+     "2.4; 2.1",
      "I15",
      "T2-22"
     ],
@@ -367,7 +367,7 @@
      "18",
      "Expedite Tourism-Enabling Policy and Data Sharing",
      "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework)",
-     "2.4; 1.2; 2.1; 2.5",
+     "2.4; 2.1; 1.2",
      "I16",
      "T2-23"
     ],
@@ -375,7 +375,7 @@
      "19",
      "Lead Removal of Infrastructure, Visa and Safety Deficits (theme 2.1)",
      "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government; the move itself is a deck decision",
-     "2.4; 2.1; 2.2; 2.6; 1.2",
+     "2.4; 1.2",
      "I17",
      "T2-24"
     ],
@@ -383,7 +383,7 @@
      "20",
      "New in October tree",
      "No workstream; prompted by the 300,000-jobs ambition (Inception p4) and skills mentions in the Stakeholder Insights and Inclusion plan",
-     "2.4; 1.1; 2.6; 2.3",
+     "2.4; 1.1",
      "I18",
      "T1-04; T2-25"
     ]

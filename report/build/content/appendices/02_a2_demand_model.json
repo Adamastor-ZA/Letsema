@@ -739,6 +739,106 @@
   {
    "type": "p",
    "text": "The calendar or financial basis and the source series of the 1,498,829 base are not stated, and the 2025 bars are not marked as actuals or model values (Market Assessment Report, May 2026, p19, p20; Demand-Side Analysis, Jun 2026, p22 to p25). ACSA passenger arrivals (1.57m in FY25/26), SAT tourist arrivals, OAG air arrivals and model arrivals are not reconciled (Demand-Side Analysis, Jun 2026, p8, p11, p13, p20, p27)."
+  },
+  {
+   "type": "h3",
+   "text": "Arrivals figures and their bases"
+  },
+  {
+   "type": "p",
+   "text": "Eight arrivals figures circulate around this strategy, and they count four things: ambitions, airport passengers, South African Tourism's tourist arrivals and the model's arrivals. The table below fixes each figure and states how the report uses it. It keeps an airport count apart from a provincial tourist count, and an ambition apart from a projection. Section 1.1 sets out the three rules behind the last column."
+  },
+  {
+   "type": "table",
+   "caption": "Arrivals figures in circulation",
+   "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source.",
+   "columns": [
+    {
+     "header": "Figure",
+     "width": 2,
+     "align": "left"
+    },
+    {
+     "header": "What it counts",
+     "width": 3,
+     "align": "left"
+    },
+    {
+     "header": "Year",
+     "width": 1,
+     "align": "left"
+    },
+    {
+     "header": "Source",
+     "width": 2,
+     "align": "left"
+    },
+    {
+     "header": "How this report uses it",
+     "width": 3,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "1.44m",
+     "International passenger arrivals at Cape Town International (ACSA), fiscal year",
+     "FY24/25",
+     "Current State Diagnostic, Dec 2025, p25",
+     "Recovery baseline (1.2) and the baseline year for the M&E framework (Chapter 5)"
+    ],
+    [
+     "1.57m",
+     "Same series",
+     "FY25/26",
+     "Market Assessment Report, May 2026, p10",
+     "Latest actual; shown against the model, not substituted for its base"
+    ],
+    [
+     "1,498,829",
+     "Demand model base; the series and year basis are not labelled in the deck",
+     "2025",
+     "Market Assessment Report, May 2026, p19",
+     "Base of the growth case; every 2035 figure in Chapters 3 to 5 is an increment on it"
+    ],
+    [
+     "2,175,778 and 2,516,282",
+     "Model projections on the 2025 base: base case and accelerated case",
+     "2035",
+     "Market Assessment Report, May 2026, p19",
+     "The strategy's two paths; growth to 2.5 million is the rounded accelerated case"
+    ],
+    [
+     "1,538,142",
+     "International tourist arrivals to the Western Cape, South African Tourism basis",
+     "2025",
+     "Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source",
+     "Reference point for the G4J basis only; not a baseline or a target"
+    ],
+    [
+     "3 million",
+     "International tourist arrivals to the province, SAT basis, built as 2 million in 2019 plus 1 million",
+     "2035",
+     "Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source), recording the G4J 2023 target",
+     "Alignment reference under clause 1.1.14.2; a different measure from the airport series"
+    ],
+    [
+     "2.8m",
+     "\"International visitors\"; measure and base not stated",
+     "2035",
+     "Inception Report, Nov 2025, p4",
+     "Original ambition; quoted, not used"
+    ],
+    [
+     "5.7 million and R54.7 billion",
+     "International arrivals and tourism spend; base not stated",
+     "2035",
+     "Current State Diagnostic, Dec 2025, p5",
+     "The Diagnostic's statement of the ambition; superseded and quoted for the record"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target."
   }
  ]
 }

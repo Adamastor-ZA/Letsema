@@ -1,0 +1,1726 @@
+[
+ {
+  "kind": "module rewritten",
+  "file": "exec/01_summary.json",
+  "draft": "es.json",
+  "sources": [
+   [
+    "exec/01_summary.json",
+    1
+   ],
+   [
+    "exec/01_summary.json",
+    2
+   ],
+   [
+    "exec/01_summary.json",
+    3
+   ],
+   [
+    "exec/01_summary.json",
+    5
+   ],
+   [
+    "exec/01_summary.json",
+    8
+   ],
+   [
+    "exec/01_summary.json",
+    16
+   ],
+   [
+    "exec/01_summary.json",
+    22
+   ],
+   [
+    "exec/01_summary.json",
+    24
+   ],
+   [
+    "exec/01_summary.json",
+    25
+   ],
+   [
+    "exec/01_summary.json",
+    27
+   ],
+   [
+    "exec/01_summary.json",
+    28
+   ],
+   [
+    "exec/01_summary.json",
+    29
+   ],
+   [
+    "exec/01_summary.json",
+    30
+   ],
+   [
+    "exec/01_summary.json",
+    33
+   ],
+   [
+    "exec/01_summary.json",
+    36
+   ],
+   [
+    "exec/01_summary.json",
+    37
+   ],
+   [
+    "exec/01_summary.json",
+    43
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "exec/01_summary.json",
+     3
+    ],
+    "to": "section 1.4 (lead and \"The hypothesis tree\", ch1/04 [1], [7] to [12]); the summary keeps one clause on testing the December 2025 tree",
+    "reason": "process detail compressed to one clause at the head of \"Twenty focus areas at a glance\"; the count of \"seven deliverables and four working analyses\" is not restated in 1.4, which counts nine dated documents (ch1/04 [19])",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     8
+    ],
+    "to": "section 1.5 \"Disposition labels\" (ch1/05 [9]) and Appendix A1; the tree figure and the three pillar tables carried in the summary show every disposition",
+    "reason": "disposition counts compressed to \"ten carried through as Validated and none was withdrawn\"",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     11
+    ],
+    "to": "section 1.4 (ch1/04 [11], [12] and the table \"December entries and October changes\", ch1/04 [13])",
+    "reason": "entry-by-entry account of how the tree changed is cut from the summary; Michael asked for a story, not process",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     12
+    ],
+    "to": "section 1.4 (ch1/04 [11] and the table \"December entries and October changes\", ch1/04 [13]); focus area numbers 7, 8, 19 and 20 are in the tree figure carried in the summary",
+    "reason": "entry-by-entry account of how the tree changed is cut from the summary",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     13
+    ],
+    "to": "section 1.4 (ch1/04 [12] and the table \"December entries and October changes\", ch1/04 [13], which gives every December title and October focus area)",
+    "reason": "entry-by-entry account of how the tree changed is cut from the summary",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     16
+    ],
+    "to": "section 1.5 chapter map and codes (ch1/05 [5], [20]) and each Chapter 3 entry",
+    "reason": "what each Chapter 3 entry contains is compressed to the lead-in before the pillar tables",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     24
+    ],
+    "to": "section 3.4 (ch3/40 [9] to [12]) and section 4.2 (ch4/02 [3], [6], [9], [11] and the Gantt figure)",
+    "reason": "phase detail tightened in \"Seats and bookings move first\"",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     27
+    ],
+    "to": "section 4.5 (ch4/05 [2] and the table \"First-24-month actions and funding\", ch4/05 [4])",
+    "reason": "the first-24-month detail is compressed into four short paragraphs, one opening line and one per strand",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     28
+    ],
+    "to": "section 4.5 table \"First-24-month actions and funding\" (ch4/05 [4], rows 1 to 3)",
+    "reason": "compressed into the first strand of the 24-month passage",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     29
+    ],
+    "to": "section 4.5 table \"First-24-month actions and funding\" (ch4/05 [4], rows 4 to 8)",
+    "reason": "compressed into the second strand of the 24-month passage; the labour analysis is left to section 4.5 and the carried recommendation that DEDAT commission it",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     30
+    ],
+    "to": "section 4.5 table \"First-24-month actions and funding\" (ch4/05 [4], rows 9 to 12, including who funds a seller in each pilot community)",
+    "reason": "compressed into the third strand of the 24-month passage; the funding of a seller in each pilot community is left to 4.5",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     36
+    ],
+    "to": "section 4.8 (ch4/08 [2] to [4], the register \"Risks and their mitigation\")",
+    "reason": "rewritten with corrected counts",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "exec/01_summary.json",
+     37
+    ],
+    "to": "section 4.8 (ch4/08 [3], [4]); the register rates six risks medium likelihood and high impact, not three, and two high likelihood and medium impact, not one",
+    "reason": "rewritten with the counts corrected against the register and the six risks named in pairs",
+    "carries_all": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch1/01_mandate.json",
+  "draft": "s11.json",
+  "sources": [
+   [
+    "ch1/01_mandate.json",
+    0
+   ],
+   [
+    "ch1/01_mandate.json",
+    1
+   ],
+   [
+    "ch1/01_mandate.json",
+    2
+   ],
+   [
+    "ch1/01_mandate.json",
+    3
+   ],
+   [
+    "ch1/01_mandate.json",
+    4
+   ],
+   [
+    "ch1/01_mandate.json",
+    5
+   ],
+   [
+    "ch1/01_mandate.json",
+    6
+   ],
+   [
+    "ch1/01_mandate.json",
+    7
+   ],
+   [
+    "ch1/01_mandate.json",
+    8
+   ],
+   [
+    "ch1/01_mandate.json",
+    9
+   ],
+   [
+    "ch1/01_mandate.json",
+    10
+   ],
+   [
+    "ch1/01_mandate.json",
+    11
+   ],
+   [
+    "ch1/01_mandate.json",
+    12
+   ],
+   [
+    "ch1/01_mandate.json",
+    13
+   ],
+   [
+    "ch1/01_mandate.json",
+    14
+   ],
+   [
+    "ch1/01_mandate.json",
+    15
+   ],
+   [
+    "ch1/01_mandate.json",
+    16
+   ],
+   [
+    "ch1/01_mandate.json",
+    17
+   ],
+   [
+    "ch1/01_mandate.json",
+    19
+   ],
+   [
+    "ch1/01_mandate.json",
+    20
+   ],
+   [
+    "ch1/01_mandate.json",
+    21
+   ],
+   [
+    "ch1/01_mandate.json",
+    22
+   ],
+   [
+    "ch1/01_mandate.json",
+    23
+   ],
+   [
+    "ch1/01_mandate.json",
+    24
+   ],
+   [
+    "ch1/01_mandate.json",
+    25
+   ],
+   [
+    "ch1/01_mandate.json",
+    26
+   ],
+   [
+    "ch1/01_mandate.json",
+    27
+   ],
+   [
+    "ch1/01_mandate.json",
+    28
+   ],
+   [
+    "ch1/01_mandate.json",
+    29
+   ],
+   [
+    "ch1/01_mandate.json",
+    30
+   ],
+   [
+    "ch1/01_mandate.json",
+    31
+   ],
+   [
+    "ch1/01_mandate.json",
+    33
+   ],
+   [
+    "ch1/01_mandate.json",
+    34
+   ],
+   [
+    "ch1/01_mandate.json",
+    35
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     32
+    ],
+    "to": "move: appendices/02_a2_demand_model.json",
+    "reason": "Reference table; Michael asked for the reconciliation to be buried, so it moves to a new closing subsection of Appendix A2 (\"Arrivals figures and their bases\"), to which the closing note of 1.1 points",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch1/01_mandate.json",
+     18
+    ],
+    "to": "kept in place as the SMMEs paragraph of 1.1, with its cross-reference changed from section 2.6 to section 2.4 and its second sentence reworded",
+    "reason": "Chapter 2 now has four sections and 2.4 holds the community inclusion evidence; the cross-reference changes from section 2.6 to section 2.4 and the second sentence is reworded; its open item is carried word for word (checked by hand).",
+    "carries_all": false
+   }
+  ]
+ },
+ {
+  "kind": "blocks appended",
+  "file": "appendices/02_a2_demand_model.json",
+  "from_draft": "s11.json",
+  "blocks": 3
+ },
+ {
+  "kind": "module created",
+  "file": "ch2/01_benchmarks.json",
+  "draft": "ch2_1.json",
+  "sources": [
+   [
+    "ch2/03_benchmarking.json",
+    1
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    5
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    6
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    9
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    11
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    12
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    13
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    14
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    15
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    16
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    17
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    18
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    19
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    20
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    21
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    22
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    23
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    24
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    25
+   ],
+   [
+    "ch2/03_benchmarking.json",
+    26
+   ],
+   [
+    "ch2/02_aviation.json",
+    7
+   ],
+   [
+    "ch2/06_inclusion.json",
+    16
+   ],
+   [
+    "ch2/06_inclusion.json",
+    17
+   ],
+   [
+    "ch2/06_inclusion.json",
+    18
+   ],
+   [
+    "ch2/06_inclusion.json",
+    19
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    5
+   ],
+   [
+    "ch2/02_aviation.json",
+    10
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    22
+   ],
+   [
+    "ch2/06_inclusion.json",
+    8
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     2
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     4
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     10
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     3
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', Global Benchmarking Report row; the inception plan for the set is in Appendix A3 [7]; open item added to A9 as a note",
+    "reason": "SLA clause sentence, with the what-was-asked framing (four to six comparators, the lessons sought; Inception Report, Nov 2025, p16), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.5, 1.1.11 and 3.2.7 in the Global Benchmarking Report row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     7
+    ],
+    "to": "Appendix A3 [8] and table 'Comparator set, inception to final'",
+    "reason": "How the comparator set moved. A3 holds the inception six, Auckland's rank 7 and Kenya's rank 11 and their not-selected reasons (Inception Report, Nov 2025, p31, p32). It does not hold the December baseline's line that adding Namibia and Kenya 'will support a more balanced and regionally grounded benchmark set' (Current State Diagnostic, Dec 2025, p62): the 2.1 draft carries that as a footnote note on the sentence naming the six comparators ('an earlier baseline had proposed adding Namibia and Kenya, and the final set kept Kenya only'), cited (Current State Diagnostic, Dec 2025, p62).",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/03_benchmarking.json",
+     8
+    ],
+    "to": "Appendix A3 [8] and table 'Comparator set, inception to final'; the cross-reference to the aviation benchmark retires",
+    "reason": "How the comparator set moved. A3 records that Kenya and Auckland replaced Porto and Vancouver and that neither document says why; Namibia's exit rides with the ch2/03_benchmarking.json [7] note. 'The change is logged' retires, and the eight-airport benchmark now sits in 2.1 itself.",
+    "carries_all": false
+   }
+  ]
+ },
+ {
+  "kind": "module created",
+  "file": "ch2/02_demand.json",
+  "draft": "ch2_2.json",
+  "sources": [
+   [
+    "ch2/01_demand.json",
+    1
+   ],
+   [
+    "ch2/01_demand.json",
+    8
+   ],
+   [
+    "ch2/01_demand.json",
+    9
+   ],
+   [
+    "ch2/01_demand.json",
+    13
+   ],
+   [
+    "ch2/01_demand.json",
+    14
+   ],
+   [
+    "ch2/01_demand.json",
+    15
+   ],
+   [
+    "ch2/01_demand.json",
+    16
+   ],
+   [
+    "ch2/01_demand.json",
+    17
+   ],
+   [
+    "ch2/01_demand.json",
+    18
+   ],
+   [
+    "ch2/01_demand.json",
+    19
+   ],
+   [
+    "ch2/01_demand.json",
+    20
+   ],
+   [
+    "ch2/01_demand.json",
+    21
+   ],
+   [
+    "ch2/01_demand.json",
+    23
+   ],
+   [
+    "ch2/01_demand.json",
+    24
+   ],
+   [
+    "ch2/01_demand.json",
+    25
+   ],
+   [
+    "ch2/01_demand.json",
+    26
+   ],
+   [
+    "ch2/01_demand.json",
+    28
+   ],
+   [
+    "ch2/01_demand.json",
+    29
+   ],
+   [
+    "ch2/01_demand.json",
+    30
+   ],
+   [
+    "ch2/01_demand.json",
+    31
+   ],
+   [
+    "ch2/01_demand.json",
+    32
+   ],
+   [
+    "ch2/02_aviation.json",
+    24
+   ],
+   [
+    "ch2/01_demand.json",
+    27
+   ],
+   [
+    "ch2/01_demand.json",
+    33
+   ],
+   [
+    "ch2/02_aviation.json",
+    23
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    18
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch2/01_demand.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     2
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     6
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     12
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     3
+    ],
+    "to": "section 1.4 (ch1/04_approach.json [4]), which records the scope of each phase",
+    "reason": "What-was-asked framing of the demand workstream (Inception Report, Nov 2025, p11); deliverable-oriented, with no finding, figure or open item.",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     4
+    ],
+    "to": "section 1.4 (ch1/04_approach.json [4]), which records the scope of each phase",
+    "reason": "What-was-asked detail of the demand phase (Inception Report, Nov 2025, p15); deliverable-oriented, with no finding, figure or open item. The scope detail retires.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     5
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', Demand-Side Analysis row; open item added to A9 as a note",
+    "reason": "SLA clause sentence. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.1, 1.1.7 and 3.2.3 in the Demand-Side Analysis row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     7
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited' (Market Assessment Report and Demand-Side Analysis rows)",
+    "reason": "Says which deck carried which work. A9 records both documents, their status and that the May analysis is the working analysis behind the June deck; section 1.4 [19] says the same. No figure or open item.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     10
+    ],
+    "to": "Appendix A2, table 'Model end points by base year' (both bases and the 2035 end points), and section 1.4 [27]",
+    "reason": "Versioning of the model base. A2 prints the 2025 base of 1,498,829 and the 2024 base of 1,445,031 with their sources. In 2.2 the scenario sentence keeps the 2025 base and carries the June version as a footnote note: (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20; the second source prints the same 2035 points from a 2024 base).",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/01_demand.json",
+     11
+    ],
+    "to": "retired: Appendix A9 lists the Current State Diagnostic, and its figures stay cited where 2.2 uses them (ch2/01_demand.json [13], [15])",
+    "reason": "Deliverable-oriented note on how the December baseline is folded in; no figure or open item.",
+    "carries_all": false
+   }
+  ]
+ },
+ {
+  "kind": "module created",
+  "file": "ch2/03_supply.json",
+  "draft": "ch2_3.json",
+  "sources": [
+   [
+    "ch2/01_demand.json",
+    22
+   ],
+   [
+    "ch2/02_aviation.json",
+    1
+   ],
+   [
+    "ch2/02_aviation.json",
+    6
+   ],
+   [
+    "ch2/02_aviation.json",
+    11
+   ],
+   [
+    "ch2/02_aviation.json",
+    12
+   ],
+   [
+    "ch2/02_aviation.json",
+    13
+   ],
+   [
+    "ch2/02_aviation.json",
+    14
+   ],
+   [
+    "ch2/02_aviation.json",
+    15
+   ],
+   [
+    "ch2/02_aviation.json",
+    16
+   ],
+   [
+    "ch2/02_aviation.json",
+    17
+   ],
+   [
+    "ch2/02_aviation.json",
+    18
+   ],
+   [
+    "ch2/02_aviation.json",
+    19
+   ],
+   [
+    "ch2/02_aviation.json",
+    20
+   ],
+   [
+    "ch2/02_aviation.json",
+    21
+   ],
+   [
+    "ch2/02_aviation.json",
+    22
+   ],
+   [
+    "ch2/02_aviation.json",
+    25
+   ],
+   [
+    "ch2/02_aviation.json",
+    26
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    13
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    19
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    1
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    8
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    9
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    10
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    12
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    13
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    14
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    15
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    16
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    17
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    18
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    19
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    20
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    21
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    22
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    23
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    24
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    25
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    26
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    27
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    28
+   ],
+   [
+    "ch2/01_demand.json",
+    33
+   ],
+   [
+    "ch2/02_aviation.json",
+    10
+   ],
+   [
+    "ch2/02_aviation.json",
+    27
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    1
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    17
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    18
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    22
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    23
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    3
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     2
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     5
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     9
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     2
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     5
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     7
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     11
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     3
+    ],
+    "to": "section 1.4 (ch1/04_approach.json [4]) for the route-to-market scope; the four questions retire",
+    "reason": "Deliverable-oriented framing of the aviation work. The four questions and their five-year horizon are held nowhere else, but they carry no finding, figure of substance or open item.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     4
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', MIDAS Aviation Market Assessment row; open item added to A9 as a note",
+    "reason": "SLA clause sentence. Appendix A9, table 'Documents and sources cited', already lists clause 1.1.1.2 in the MIDAS Aviation Market Assessment row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/02_aviation.json",
+     8
+    ],
+    "to": "retired: the airport and spatial findings now sit together in 2.3",
+    "reason": "Cross-reference between v7 sections ('its spatial findings sit in 2.5'). Its pages (Infrastructure Report, Jul 2026, p101 to p109) are cited in 2.3 with ch2/02_aviation.json [25] and [26]. No figure or open item.",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     4
+    ],
+    "to": "retired as a duplicate: ch2/06_inclusion.json [10], which 2.4 absorbs, carries every figure (20 communities, 18.4%, Census 2011, 0.02% to 0.04%, R4m to R10m, p5)",
+    "reason": "Repetition. Its last sentence is a v7 cross-reference ('Section 2.5 ... section 2.6') that must not survive.",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/05_infrastructure.json",
+     6
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', Infrastructure Report row; the supply-phase scope is in section 1.4 [4]; open item added to A9 as a note",
+    "reason": "SLA clause sentence, with the what-was-asked framing (Inception Report, Nov 2025, p11, p18), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.2, 1.1.8 and 3.2.4 in the Infrastructure Report row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   }
+  ]
+ },
+ {
+  "kind": "module created",
+  "file": "ch2/04_enabling.json",
+  "draft": "ch2_4.json",
+  "sources": [
+   [
+    "ch2/04_stakeholders.json",
+    9
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    10
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    11
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    12
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    14
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    15
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    16
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    21
+   ],
+   [
+    "ch2/06_inclusion.json",
+    1
+   ],
+   [
+    "ch2/06_inclusion.json",
+    6
+   ],
+   [
+    "ch2/06_inclusion.json",
+    7
+   ],
+   [
+    "ch2/06_inclusion.json",
+    10
+   ],
+   [
+    "ch2/06_inclusion.json",
+    11
+   ],
+   [
+    "ch2/06_inclusion.json",
+    12
+   ],
+   [
+    "ch2/06_inclusion.json",
+    13
+   ],
+   [
+    "ch2/06_inclusion.json",
+    14
+   ],
+   [
+    "ch2/06_inclusion.json",
+    15
+   ],
+   [
+    "ch2/06_inclusion.json",
+    20
+   ],
+   [
+    "ch2/06_inclusion.json",
+    21
+   ],
+   [
+    "ch2/06_inclusion.json",
+    22
+   ],
+   [
+    "ch2/06_inclusion.json",
+    23
+   ],
+   [
+    "ch2/06_inclusion.json",
+    24
+   ],
+   [
+    "ch2/06_inclusion.json",
+    25
+   ],
+   [
+    "ch2/06_inclusion.json",
+    26
+   ],
+   [
+    "ch2/01_demand.json",
+    27
+   ],
+   [
+    "ch2/01_demand.json",
+    33
+   ],
+   [
+    "ch2/02_aviation.json",
+    23
+   ],
+   [
+    "ch2/02_aviation.json",
+    27
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    1
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    17
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    22
+   ],
+   [
+    "ch2/04_stakeholders.json",
+    23
+   ],
+   [
+    "ch2/05_infrastructure.json",
+    3
+   ],
+   [
+    "ch2/06_inclusion.json",
+    8
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     2
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     4
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     8
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     0
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     3
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     5
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     9
+    ],
+    "to": "retired: superseded by the four-part structure, whose new h2 and claim h3 headings replace it",
+    "reason": "deliverable-oriented v7 heading with no content of its own",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     3
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', Stakeholder Insights Report row (clauses 1.1.6 and 3.2.8); open item added to A9 as a note; the Inception Report p22 engagement commitment retires (section 1.4 [21] holds the phases, not the commitment)",
+    "reason": "SLA clause sentence, with the what-was-asked framing (Inception Report, Nov 2025, p22), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.6 and 3.2.8 in the Stakeholder Insights Report row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     6
+    ],
+    "to": "Appendix A6 [5] (four-step method; insights are the team's statements, attributed to organisations), also section 1.4 [22]",
+    "reason": "Method. The chapter introduction keeps one clause that each statement is the project team's paraphrase, attributed to the organisation that made it. No figure or open item beyond what A6 [5] prints.",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     7
+    ],
+    "to": "section 1.4 (ch1/04_approach.json [23]) for both gaps and the open item; Appendix A6 [9] to [11] for the six proposed demand-side engagements, Trip.com, Emirates and SATSA among them",
+    "reason": "Gaps in the engagement record. Section 1.4 [23] holds '[Letsema to supply the phase 2 to 4 engagement record for Appendix A6]' word for word (its full stop sits outside the bracket). 2.3 keeps the point that no airline or airport voice was among the 16 organisations, from ch2/04_stakeholders.json [19].",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/04_stakeholders.json",
+     20
+    ],
+    "to": "Appendix A6 [17] and table 'Lines of enquiry by area'",
+    "reason": "The eight areas for deeper engagement frame later engagement rather than findings; A6 prints all eight from the same page (Stakeholder Insights Report, Mar 2026, p14).",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     2
+    ],
+    "to": "retired as a duplicate: ch2/06_inclusion.json [10], which 2.4 absorbs, carries every figure (20 communities, 18.4%, Census 2011, 0.02% to 0.04%, p5)",
+    "reason": "Repetition of the v7 2.5 opening; its cross-reference ('Section 2.5 opened ...') must not survive.",
+    "carries_all": true
+   },
+   {
+    "src": [
+     "ch2/06_inclusion.json",
+     4
+    ],
+    "to": "Appendix A9, table 'Documents and sources cited', SME and Community Inclusion Plan row (clauses 1.1.3, 1.1.9 and 3.2.5); open item added to A9 as a note; the Inception Report p19 inclusion brief retires (section 1.4 [4] names community inclusion only as part of the supply phase)",
+    "reason": "SLA clause sentence, with the what-was-asked framing (Inception Report, Nov 2025, p19), which retires. Appendix A9, table 'Documents and sources cited', already lists clauses 1.1.3, 1.1.9 and 3.2.5 in the SME and Community Inclusion Plan row. The open item '[Clause wording to be checked against the signed Annexure B.]' is not in A9 word for word (A9 carries the variants '[to confirm against Annexure B]' and '[to be checked against the signed Annexure B]'), so it must be added once to A9, as a note under the documents table (the 2.4 draft's appendix_blocks, module appendices/09_a9_glossary.json); the six v7 copies collapse to that one.",
+    "carries_all": false
+   }
+  ]
+ },
+ {
+  "kind": "blocks appended",
+  "file": "appendices/09_a9_glossary.json",
+  "from_draft": "ch2_4.json",
+  "blocks": 1
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/01_demand.json"
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/02_aviation.json"
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/03_benchmarking.json"
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/04_stakeholders.json"
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/05_infrastructure.json"
+ },
+ {
+  "kind": "module removed",
+  "file": "ch2/06_inclusion.json"
+ },
+ {
+  "kind": "text edit",
+  "file": "ch2/02_demand.json",
+  "before": "Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.",
+  "after": "Four segments hold about 97 million addressable travellers, and each is most concentrated in a named set of markets."
+ },
+ {
+  "kind": "text edit",
+  "file": "ch1/04_approach.json",
+  "before": "Chapter 2 summarises them: the Market Assessment Report and the Demand-Side Analysis in 2.1, the MIDAS Aviation Market Assessment in 2.2, the Global Benchmarking Report in 2.3, the Stakeholder Insights Report in 2.4, the Infrastructure Report in 2.5 and the SME and Community Inclusion Plan in 2.6. The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2 and is folded into 2.1 and 2.5.",
+  "after": "Chapter 2 draws them together as one body of analysis in four parts: the global benchmarks and their lessons (2.1), demand (2.2), supply (2.3) and the enabling environment (2.4). The Inception Report frames 1.1 and 1.4, and the Current State Diagnostic frames 1.2."
+ },
+ {
+  "kind": "text edit",
+  "file": "ch1/05_how_to_read.json",
+  "before": "Chapter 2 summarises what each interim deliverable asked, did and found, with the evidence that survived into the hypothesis tree.",
+  "after": "Chapter 2 sets out what the analysis found, in four parts: the global benchmarks and their lessons, demand, supply and the enabling environment."
+ },
+ {
+  "kind": "text edit",
+  "file": "ch1/05_how_to_read.json",
+  "before": "and each section closes with a box naming the focus areas it supports",
+  "after": "and each part closes with a box naming the focus areas it supports"
+ },
+ {
+  "kind": "text edit",
+  "file": "appendices/03_a3_benchmark.json",
+  "before": "Kenya 14.6% (section 2.2)",
+  "after": "Kenya 14.6% (section 2.1)"
+ },
+ {
+  "kind": "text edit",
+  "file": "appendices/05_a5_inclusion.json",
+  "before": "section 2.6 prints each community's archetype",
+  "after": "section 2.4 prints each community's archetype"
+ },
+ {
+  "kind": "text edit",
+  "file": "ch3/31_fa13.json",
+  "before": "first allocated to Kliptown (section 2.6)",
+  "after": "first allocated to Kliptown (section 2.1)"
+ },
+ {
+  "kind": "text edit",
+  "file": "ch5/03_baselines_targets.json",
+  "before": "Base path by group, section 2.1",
+  "after": "Base path by group, section 2.2"
+ },
+ {
+  "kind": "text edit",
+  "file": "ch1/05_how_to_read.json",
+  "before": "The executive summary gives the case in short: the growth case to 2035, the constraints that cap it, the twenty focus areas by pillar, the first 24 months and the headline indicators.",
+  "after": "The executive summary tells the case in short: where the province stands, what caps growth and what 2.5 million arrivals would take. It then sets out the three shifts and the twenty focus areas, the first 24 months, the headline indicators, the main risks and the Board's decisions."
+ },
+ {
+  "kind": "renumbered reference",
+  "file": "ch1/04_approach.json",
+  "before": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.3, 2.3 and A.17 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22).",
+  "after": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.2, 2.3 and A.18 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 1,
+  "before": "2.1",
+  "after": "2.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 2,
+  "before": "2.1; 2.2; 2.4; 2.5; 2.3",
+  "after": "2.2; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 3,
+  "before": "2.1; 2.4; 2.5; 2.6",
+  "after": "2.2; 2.1; 2.3; 2.4"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 4,
+  "before": "2.1; 2.2; 1.2",
+  "after": "2.2; 2.1; 2.3; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 5,
+  "before": "2.1; 2.2; 2.3",
+  "after": "2.2; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 6,
+  "before": "2.1; 2.2; 2.3; 1.2",
+  "after": "2.2; 2.3; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 7,
+  "before": "2.2; 2.1; 2.5; 2.4",
+  "after": "2.3; 2.1"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 8,
+  "before": "2.5; 1.2; 2.4",
+  "after": "2.3; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 9,
+  "before": "2.5; 2.4; 1.2; 2.6",
+  "after": "2.3; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 10,
+  "before": "2.5; 2.4; 2.1; 2.3",
+  "after": "2.3; 2.4"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 11,
+  "before": "2.5; 2.4; 2.1; 2.3",
+  "after": "2.3; 2.1"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 12,
+  "before": "2.4; 2.5; 1.2; 2.3",
+  "after": "2.3; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 13,
+  "before": "2.6; 2.4; 2.5; 2.3",
+  "after": "2.4; 2.1"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 14,
+  "before": "2.4; 2.6; 2.5; 1.2; 2.3",
+  "after": "2.4; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 15,
+  "before": "2.5; 2.4; 2.3; 2.6",
+  "after": "2.4; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 16,
+  "before": "2.4; 1.2; 2.2; 2.3; 1.1",
+  "after": "2.4; 2.1; 1.2; 1.1"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 17,
+  "before": "2.4; 2.3",
+  "after": "2.4; 2.1"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 18,
+  "before": "2.4; 1.2; 2.1; 2.5",
+  "after": "2.4; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 19,
+  "before": "2.4; 2.1; 2.2; 2.6; 1.2",
+  "after": "2.4; 1.2"
+ },
+ {
+  "kind": "traceability",
+  "file": "appendices/01_a1_traceability.json",
+  "fa": 20,
+  "before": "2.4; 1.1; 2.6; 2.3",
+  "after": "2.4; 1.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 1,
+  "before": "2.1",
+  "after": "2.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 2,
+  "before": "2.1; 2.2; 2.4; 2.5; 2.3",
+  "after": "2.2; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 3,
+  "before": "2.1; 2.4; 2.5; 2.6",
+  "after": "2.2; 2.1; 2.3; 2.4"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 4,
+  "before": "2.1; 2.2; 1.2",
+  "after": "2.2; 2.1; 2.3; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 5,
+  "before": "2.1; 2.2; 2.3",
+  "after": "2.2; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 6,
+  "before": "2.1; 2.2; 2.3; 1.2",
+  "after": "2.2; 2.3; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 7,
+  "before": "2.2; 2.1; 2.5; 2.4",
+  "after": "2.3; 2.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 8,
+  "before": "2.5; 1.2; 2.4",
+  "after": "2.3; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 9,
+  "before": "2.5; 2.4; 1.2; 2.6",
+  "after": "2.3; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 10,
+  "before": "2.5; 2.4; 2.1; 2.3",
+  "after": "2.3; 2.4"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 11,
+  "before": "2.5; 2.4; 2.1; 2.3",
+  "after": "2.3; 2.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 12,
+  "before": "2.4; 2.5; 1.2; 2.3",
+  "after": "2.3; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 13,
+  "before": "2.6; 2.4; 2.5; 2.3",
+  "after": "2.4; 2.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 14,
+  "before": "2.4; 2.6; 2.5; 1.2; 2.3",
+  "after": "2.4; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 15,
+  "before": "2.5; 2.4; 2.3; 2.6",
+  "after": "2.4; 2.1; 2.3"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 16,
+  "before": "2.4; 1.2; 2.2; 2.3; 1.1",
+  "after": "2.4; 2.1; 1.2; 1.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 17,
+  "before": "2.4; 2.3",
+  "after": "2.4; 2.1"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 18,
+  "before": "2.4; 1.2; 2.1; 2.5",
+  "after": "2.4; 2.1; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 19,
+  "before": "2.4; 2.1; 2.2; 2.6; 1.2",
+  "after": "2.4; 1.2"
+ },
+ {
+  "kind": "traceability.csv",
+  "fa": 20,
+  "before": "2.4; 1.1; 2.6; 2.3",
+  "after": "2.4; 1.1"
+ },
+ {
+  "kind": "chapter title",
+  "file": "ch2_analysis.js",
+  "before": "title: 'Analysis summaries'",
+  "after": "title: 'Analysis and insights'"
+ },
+ {
+  "kind": "chapter title",
+  "file": "smoke_test.js",
+  "before": "H.h1('Analysis summaries', 'ch2')",
+  "after": "H.h1('Analysis and insights', 'ch2')"
+ },
+ {
+  "kind": "chapter title",
+  "file": "qa_structure.py",
+  "before": "('Analysis summaries', 'Chapter 2', (45, 52))",
+  "after": "('Analysis and insights', 'Chapter 2', (45, 52))"
+ }
+]

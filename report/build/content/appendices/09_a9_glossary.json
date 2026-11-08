@@ -311,6 +311,10 @@
     ]
    ],
    "boldFirstCol": true
+  },
+  {
+   "type": "note",
+   "text": "The SLA clause numbers in the last column are those each document answers. [Clause wording to be checked against the signed Annexure B.]"
   }
  ]
 }

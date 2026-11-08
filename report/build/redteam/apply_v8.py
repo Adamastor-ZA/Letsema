@@ -77,6 +77,10 @@ def section_of(pred):
     return hits[0]
 
 
+# A carried table's key message names a deliverable ("the deck"); the message is reader-facing text, so it is reworded.
+edit('ch2/02_demand.json', 'Four segments hold about 97 million addressable travellers, and the deck pairs each with the markets where it is most concentrated.',
+     'Four segments hold about 97 million addressable travellers, and each is most concentrated in a named set of markets.')
+
 has = lambda s: (lambda b: s in json.dumps(b, ensure_ascii=False))
 cap = lambda c: (lambda b: b.get('caption') == c)
 

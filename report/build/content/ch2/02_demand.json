@@ -1,0 +1,348 @@
+{
+ "id": "2.2",
+ "title": "Demand-side factors",
+ "blocks": [
+  {
+   "type": "h2",
+   "text": "2.2 Demand-side factors"
+  },
+  {
+   "type": "lead",
+   "text": "Interest in the Western Cape is broad and growing. Yet demand is concentrated in five markets and six months. The growth markets fly in through Gulf and African hubs and book on platforms where Western Cape product is hard to find."
+  },
+  {
+   "type": "p",
+   "text": "A 2025 values-based survey reached more than 25,000 travellers in 34 outbound markets, 17 of them Wesgro priority markets, with 800 to 1,600 in each (Market Assessment Report, May 2026, p40). More than 20 discussions with market-facing stakeholders added judgement to desk review of Wesgro reports, Statistics South Africa and Google search data (Demand-Side Analysis, Jun 2026, p7)."
+  },
+  {
+   "type": "h3",
+   "text": "Five markets carry the province and pay most"
+  },
+  {
+   "type": "p",
+   "text": "The UK, Germany, the USA, the Netherlands and France supplied 63% of overseas arrivals in 2025, and the first three alone 52% (Demand-Side Analysis, Jun 2026, p13; the slide prints 61% in its text, and 63% is the sum of its printed shares). The pattern is not new: the top five held 61% of Cape Town overseas air arrivals from January to August 2024 (Current State Diagnostic, Dec 2025, p29)."
+  },
+  {
+   "type": "p",
+   "text": "The same markets pay the most. Average spend per visitor in 2024 ran from R32,900 for the USA and R26,500 for the UK down to R8,600 for Namibia and R8,500 for Zimbabwe (Demand-Side Analysis, Jun 2026, p14). High-spend visitors come from Europe and North America, \"tying future value growth to slower-growing source markets\" (Demand-Side Analysis, Jun 2026, p14). The Western Cape must therefore hold yield in its mature markets while volume growth comes from elsewhere."
+  },
+  {
+   "type": "h3",
+   "text": "Six months carry three fifths of demand"
+  },
+  {
+   "type": "p",
+   "text": "Demand peaks in the southern summer and thins in winter. December, January and November took 12.7%, 11.5% and 11.3% of overseas visitors in 2025, while June fell to 6.1% (Demand-Side Analysis, Jun 2026, p12). October to March hold about 62% of the year (Demand-Side Analysis, Jun 2026, p12, computed; the twelve printed monthly shares sum to 104.9% and are normalised here). The 2024 Wesgro Visitor Tracking Survey gives a similar split of 61% and 39% (Current State Diagnostic, Dec 2025, p32)."
+  },
+  {
+   "type": "p",
+   "text": "Growth therefore depends on \"improving conversion in Apr-Sep rather than pushing incremental demand into already busy peak months\" (Market Assessment Report, May 2026, p25). Airlines cut seats in those same months, so filling the April to September green season needs seats as well as conversion (section 2.3)."
+  },
+  {
+   "type": "h3",
+   "text": "Removing barriers, not demand, sets the upside"
+  },
+  {
+   "type": "p",
+   "text": "The scenarios differ by intervention, not by demand: \"the difference between scenarios is not demand potential, but the extent to which structural barriers are removed\" (Demand-Side Analysis, Jun 2026, p19). The growth model builds each market's rate from four levers: outbound growth, the Western Cape's penetration, the airlift ceiling and structural conditions such as currency and visas (Demand-Side Analysis, Jun 2026, p18). It anchors on OAG aviation data for access and traveller data for demand (Demand-Side Analysis, Jun 2026, p8; the traveller data are Skift's)."
+  },
+  {
+   "type": "p",
+   "text": "From the 2025 base, the base case reaches 2,175,778 arrivals by 2035, implied growth of 3.8% a year. The conservative case reaches 1,822,634, at 2.0%, and the accelerated case 2,516,282, at 5.3% (Market Assessment Report, May 2026, p19; Demand-Side Analysis, Jun 2026, p20; the second source prints the same 2035 points from a 2024 base). The base case's 3.8% sits within the 3% to 5% norm, and only the accelerated case clears the 5% mark of structural acceleration (section 2.1)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_21_scenarios",
+   "caption": "Growth scenarios to 2035",
+   "source": "Market Assessment Report, May 2026, p19 (scenario end points) and p20 (base-case year points and the seat line as drawn). OAG Aviation Analytics.",
+   "chart": {
+    "type": "line",
+    "categories": [
+     "2025",
+     "2028",
+     "2030",
+     "2032",
+     "2034",
+     "2035"
+    ],
+    "series": [
+     {
+      "name": "Accelerated",
+      "values": [
+       1498829,
+       null,
+       null,
+       null,
+       null,
+       2516282
+      ],
+      "color": "#00A3DA"
+     },
+     {
+      "name": "Base",
+      "values": [
+       1498829,
+       1673855,
+       1802929,
+       1942964,
+       2094959,
+       2175778
+      ],
+      "color": "#4D4D4F"
+     },
+     {
+      "name": "Conservative",
+      "values": [
+       1498829,
+       null,
+       null,
+       null,
+       null,
+       1822634
+      ],
+      "color": "#80D1EC"
+     }
+    ],
+    "unit": "",
+    "yMin": 1400000,
+    "refLines": [
+     {
+      "value": 1800000,
+      "label": "1.8m seat line (model)"
+     }
+    ],
+    "footnote": "The conservative and accelerated cases are printed as 2025 and 2035 points only and are drawn as straight lines between them.",
+    "timeAxis": true,
+    "callout": {
+     "text": "The base case crosses the seat line in 2030; only the accelerated case reaches 2.5m by 2035.",
+     "x": 180,
+     "y": 80,
+     "w": 700
+    }
+   }
+  },
+  {
+   "type": "p",
+   "text": "The step from the base case's 2.18m to 2.52m rests on confirmed direct routes to India and China, above-baseline activation and more hub capacity into Cape Town (Market Assessment Report, May 2026, p18). The dependency is hard: \"without confirmed routes, volume reverts to base\" (Market Assessment Report, May 2026, p19). Seats are the first such barrier: even the base case passes the model's seat line at the 2030 year point (section 2.3)."
+  },
+  {
+   "type": "h3",
+   "text": "Hub and acceleration markets add most arrivals"
+  },
+  {
+   "type": "p",
+   "text": "In the base case the hub markets add the most arrivals and the acceleration markets grow fastest. The hub markets are the UAE, Ethiopia, Qatar and Turkey. The acceleration markets are the Gulf, China, India and Brazil (Market Assessment Report, May 2026, p20). Between 2025 and 2035 hub markets add 206,584 arrivals, mature markets 178,780, acceleration markets 175,818, regional markets 110,298 and Japan and South Korea 5,469 (Market Assessment Report, May 2026, p20, computed)."
+  },
+  {
+   "type": "figure",
+   "id": "fig_21_groups",
+   "caption": "Base-case growth by market group",
+   "source": "Market Assessment Report, May 2026, p20. Groups as printed: Mature (UK, Germany, USA, Netherlands, France, Switzerland); Hubs (UAE, Ethiopia, Qatar, Turkey); Regional (Namibia, Zimbabwe, Zambia, Botswana, Kenya and others); Acceleration (Gulf, China, India, Brazil); Strategic (Japan, South Korea).",
+   "chart": {
+    "type": "stacked",
+    "categories": [
+     "2025",
+     "2030",
+     "2035"
+    ],
+    "series": [
+     {
+      "name": "Mature",
+      "values": [
+       587287,
+       670350,
+       766067
+      ]
+     },
+     {
+      "name": "Hubs",
+      "values": [
+       427803,
+       523523,
+       634387
+      ]
+     },
+     {
+      "name": "Regional",
+      "values": [
+       292514,
+       343096,
+       402812
+      ]
+     },
+     {
+      "name": "Acceleration",
+      "values": [
+       182815,
+       255159,
+       358633
+      ]
+     },
+     {
+      "name": "Strategic",
+      "values": [
+       8410,
+       10801,
+       13879
+      ]
+     }
+    ],
+    "unit": "",
+    "callout": {
+     "text": "Hub and acceleration markets supply 382,402 of the 676,949 arrivals the base case adds.",
+     "x": 180,
+     "y": 110,
+     "w": 520
+    }
+   }
+  },
+  {
+   "type": "p",
+   "text": "India more than doubles from 76,547 to 165,260 arrivals and China with Hong Kong from 43,412 to 92,598, both at 8% a year (Market Assessment Report, May 2026, p22). Spend follows the mix. The model fixes average spend for each group, from R24,500 a visitor in mature markets to R8,500 in regional ones. On that basis base-case foreign spend rises from a modelled R27.12bn in 2024 to R40.59bn in 2035 (Market Assessment Report, May 2026, p10, p24; the modelled 2024 figure sits 19% above the R22.7bn SA Tourism reported for FY2024, and section 5.3 records the open item to rebase on the FY2025 actual). Volume and value come from different markets."
+  },
+  {
+   "type": "h3",
+   "text": "The right segments can spread demand"
+  },
+  {
+   "type": "p",
+   "text": "Four values-based segments fit the Western Cape, together about 97 million addressable travellers (Market Assessment Report, May 2026, p41 to p43). Each has priority markets: Curious Explorers in the UK and the USA, and Creative Connectors in India. Discerning Connoisseurs are paired with China and the UAE, and Reflective Adventurers with Germany (Market Assessment Report, May 2026, p43)."
+  },
+  {
+   "type": "table",
+   "caption": "Four traveller segments",
+   "source": "Market Assessment Report, May 2026, p42, p43, p45, p48, p51, p54. Priority pairs are the cells highlighted on p43. Trip spend is average long-haul trip spend as printed; the currency is not named on the slides.",
+   "columns": [
+    {
+     "header": "Segment",
+     "width": 1.7,
+     "align": "left"
+    },
+    {
+     "header": "Addressable travellers",
+     "width": 1.3,
+     "align": "right"
+    },
+    {
+     "header": "What drives them",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "Priority markets",
+     "width": 1.3,
+     "align": "left"
+    },
+    {
+     "header": "Long-haul trip spend",
+     "width": 1.4,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "Curious Explorers",
+     "30m (31%)",
+     "Cultural immersion, learning and authentic connection",
+     "UK, USA",
+     "$4,800 to $6,200"
+    ],
+    [
+     "Creative Connectors",
+     "25m (26%)",
+     "Design, food and urban creativity",
+     "India",
+     "$4,200 to $5,400"
+    ],
+    [
+     "Discerning Connoisseurs",
+     "19m (20%)",
+     "Exclusivity, refinement and access",
+     "China, UAE",
+     "$8,500 to $14,000"
+    ],
+    [
+     "Reflective Adventurers",
+     "23m (23%)",
+     "Renewal and connection with nature",
+     "Germany",
+     "$4,600 to $5,900"
+    ]
+   ],
+   "boldFirstCol": true,
+   "message": "Four segments hold about 97 million addressable travellers, and each is most concentrated in a named set of markets."
+  },
+  {
+   "type": "p",
+   "text": "Curious Explorers and Discerning Connoisseurs are \"most aligned to the Western Cape's offering\" (Market Assessment Report, May 2026, p4). The segments also matter for spread, not only for volume. Curious Explorers offer the \"strongest opportunity for geographic dispersal beyond Cape Town\"; Reflective Adventurers have \"strong potential to support seasonality mitigation\" through year-round outdoor and wellness travel (Market Assessment Report, May 2026, p56). These two are the segments to target for the regions and the green season."
+  },
+  {
+   "type": "h3",
+   "text": "India and China already arrive through hubs"
+  },
+  {
+   "type": "p",
+   "text": "The growth markets are already in the air, on other carriers. About 71,000 Indian travellers and about 30,000 Chinese reach Cape Town each year through connecting hubs, together about 101,000 journeys (Demand-Side Analysis, Jun 2026, p46, p48, computed). Addis Ababa and Dubai carry 81% of the Indian travellers, and half of them start in Mumbai (MIDAS Aviation Market Assessment, Mar 2026, \"The Indian Market Opportunity\"; Demand-Side Analysis, Jun 2026, p48; the second source puts the two hubs at more than 80%). Direct Indian service is \"unlikely before 2030 due to aircraft constraints at Air India and IndiGo\" (Demand-Side Analysis, Jun 2026, p48; MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"). For China, a China Southern service from Guangzhou is the likeliest first direct route (MIDAS Aviation Market Assessment, Mar 2026, \"The Chinese Market Opportunity\"; the aviation assessment counts about 29,600 travellers from China)."
+  },
+  {
+   "type": "p",
+   "text": "Australia (61,000 indirect travellers) and Saudi Arabia (137,000 passengers, with Riyadh Air's planned hub) come next (MIDAS Aviation Market Assessment, Mar 2026, \"The Australian Market Opportunity\", \"The Saudi Arabian Market Opportunity\"). The Western Cape should convert this hub traffic now, as Singapore converts transit into visits (section 2.1). Wesgro should build early relationships with the Indian carriers and Indian government authorities (MIDAS Aviation Market Assessment, Mar 2026, \"The Indian Market Opportunity\"). It should treat China as a long-term investment in awareness and indirect volume before any non-stop service (MIDAS Aviation Market Assessment, Mar 2026, \"The Chinese Market Opportunity\")."
+  },
+  {
+   "type": "h3",
+   "text": "Each market books on its own platforms"
+  },
+  {
+   "type": "p",
+   "text": "Conversion happens on platforms that differ by market. Chinese travellers discover on Douyin and Xiaohongshu and book on Trip.com, Qunar and Fliggy. Indian travellers book through MakeMyTrip, Booking.com and Expedia, and much Gulf travel still runs through private advisors and concierge agencies (Demand-Side Analysis, Jun 2026, p45, p47, p49; Market Assessment Report, May 2026, p34, p35)."
+  },
+  {
+   "type": "p",
+   "text": "Each market also has its own gap. Cape Town has no direct flight to Mumbai or Delhi and thin Indian-friendly adaptation, while the Gulf lacks Arabic-language booking and local-currency pricing (Demand-Side Analysis, Jun 2026, p51). Visas add a further barrier, and they sit with national government (section 2.4)."
+  },
+  {
+   "type": "p",
+   "text": "The province's own channels also lag. The Department of Economic Development rates destination platforms behind international practice in online presence and AI adoption. The Overberg says its proximity to Cape Town is not packaged before travellers book flights (Stakeholder Insights Report, Mar 2026, p24, p26). The money should therefore follow the platforms: activate inside them and shift investment \"toward trade-led conversion rather than broad awareness campaigns\" (Demand-Side Analysis, Jun 2026, p55)."
+  },
+  {
+   "type": "h3",
+   "text": "Africa is a base and a growth market"
+  },
+  {
+   "type": "p",
+   "text": "Closer to home, Africa already supplies a large and steady base. The province recorded 323,971 tourist arrivals from 16 reported African markets in 2024, 62% of them from Zimbabwe and Namibia (Demand-Side Analysis, Jun 2026, p27). African visitors spent R4.2bn in the province in 2025, and among them Nigerians and Ghanaians spent most per visit, at R31,000 and R27,700 (Demand-Side Analysis, Jun 2026, p29). Namibia and Zimbabwe \"add stability, repeat demand and counter-seasonal volume\" (Demand-Side Analysis, Jun 2026, p14)."
+  },
+  {
+   "type": "p",
+   "text": "Nigeria, Kenya and Ghana are the priority growth markets, though the sources rank Ghana differently (Demand-Side Analysis, Jun 2026, p30; Skift African Market Analysis memo, Mar 2026, section 2; the memo places Ghana among fourth-tier watch markets for brand seeding rather than conversion). Nigeria's addressable market is modelled at 310,000 to 510,000 adult trips a year and Kenya's at 240,000 to 400,000 (Demand-Side Analysis, Jun 2026, p28, p30). Africa is therefore both a regional foundation to keep and a source of high-spending visitors to grow."
+  },
+  {
+   "type": "h3",
+   "text": "Business events are the strongest green-season lever"
+  },
+  {
+   "type": "p",
+   "text": "Business events run on a different calendar from leisure travel. International association meetings in Cape Town rose from 33 in 2022 to 58 in 2024. Of the 136 held over the three years, 109 fell between May and November (Demand-Side Analysis, Jun 2026, p37, computed). Cape Town ranked 35th in the 2024 ICCA ranking and hosted 37 of South Africa's 64 UIA-recorded meetings in 2025 (Demand-Side Analysis, Jun 2026, p36, p38). Hotel occupancy in Cape Town was 53% in June 2023, the gap such events fill (Demand-Side Analysis, Jun 2026, p34)."
+  },
+  {
+   "type": "p",
+   "text": "Yet MICE is not one business. Meetings, incentives, conventions and exhibitions have different buyers and lead times. Only conferences are measured well, and meetings are \"absent from consolidated provincial statistics\" (Demand-Side Analysis, Jun 2026, p35, p36). Stellenbosch and George are credible secondary hubs that can take delegates' extra nights while major events stay in Cape Town (Demand-Side Analysis, Jun 2026, p41). The lever needs one events calendar, as Melbourne has (section 2.1), and measures for each of its four businesses."
+  },
+  {
+   "type": "p",
+   "text": "Pillar 1 must fill the green season, win growth markets on the routes and platforms they already use, hold yield in mature markets and build the African base. Seats, regional product and the enabling environment (sections 2.3 and 2.4) decide whether that demand lands."
+  },
+  {
+   "type": "box",
+   "title": "What this means for the strategy",
+   "paras": [
+    "**Validates FA01, Respond to growth segment traveller preferences.** Four segments, each with named priority markets.",
+    "**Supports FA02, Create green-season demand with MICE and events.** Most international association meetings fall from May to November, a span that takes in the winter low. The seat side of the case sits in section 2.3.",
+    "**Supports FA03, Make the whole province findable and bookable.** Conversion runs through market-specific platforms that Western Cape product must reach.",
+    "**Rewords FA04, Convert India and China hub traffic.** About 101,000 hub journeys a year and a direct Indian route unlikely before 2030.",
+    "**Validates FA05, Increase yield in mature markets.** The highest-spending visitors come from the slowest-growing markets.",
+    "**Validates FA06, Build a regional foundation (Africa).** A large regional base and two high-yield growth markets."
+   ]
+  }
+ ]
+}

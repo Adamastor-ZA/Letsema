@@ -200,7 +200,7 @@
   {
    "type": "table",
    "caption": "Shortlist readiness ratings",
-   "source": "SME and Community Inclusion Plan, Sep 2026: p53 to p58 for the binding constraint; p28 for organisation present, benefit visible to residents and assets protected or damaged; p27 for safety perception; p20 to p26 and p40 to p51 for digital and bookability. Rows follow the shortlist order on p18; section 2.6 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
+   "source": "SME and Community Inclusion Plan, Sep 2026: p53 to p58 for the binding constraint; p28 for organisation present, benefit visible to residents and assets protected or damaged; p27 for safety perception; p20 to p26 and p40 to p51 for digital and bookability. Rows follow the shortlist order on p18; section 2.4 prints each community's archetype, score and drive time. Counts are tallied from the printed cells (computed).",
    "columns": [
     {
      "header": "Community",
