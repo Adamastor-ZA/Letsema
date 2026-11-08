@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "Ten of the fourteen material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act."
+   "text": "Eleven of the fifteen material risks sit outside Wesgro's control, so the mitigation for most of them is early warning and a route to the tier that can act."
   },
   {
    "type": "p",
@@ -20,7 +20,7 @@
   {
    "type": "table",
    "caption": "Risks and their mitigation",
-   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc).",
+   "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc); Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP); City of Cape Town, Tourism Development Framework 2019 to 2024 (TDF); Provincial Economic Review and Outlook 2025 (PERO).",
    "columns": [
     {
      "header": "Risk",
@@ -83,7 +83,7 @@
      "Diag p55; SCIP p27, p30",
      "Medium",
      "High",
-     "Safety gates before any pilot launch (I12); escalation to SAPS (I17)",
+     "Safety gates before any pilot launch (I12); escalation to SAPS, with perception tracked as T2-28 (I17)",
      "Tourism; Steerco"
     ],
     [
@@ -120,10 +120,10 @@
     ],
     [
      "Cruise growth reverses as Red Sea reroutes end",
-     "IR p112",
+     "IR p112; reroutes made 20 of 67 calls in 2023/24 (WSP p20)",
      "Medium",
-     "Low",
-     "Diversify lines and add Mossel Bay day stops (I7)",
+     "Medium",
+     "Diversify lines with world cruises first and add Mossel Bay day stops (I7)",
      "Cruise Cape Town"
     ],
     [
@@ -152,7 +152,7 @@
     ],
     [
      "Wesgro's operating budget is cut",
-     "Thirteen initiatives draw mainly on Wesgro's operating budget (Table 4.1)",
+     "Thirteen initiatives draw mainly on Wesgro's operating budget (section 4.1)",
      "Medium",
      "High",
      "Rand bands and a stop list agreed with DEDAT before Gate 1 (section 4.6)",
@@ -160,15 +160,23 @@
     ],
     [
      "Resident pushback in the Metro",
-     "Public debate on locals' costs and access (Hypertext, Apr 2026)",
+     "Public debate on locals' costs and access (Hypertext, Apr 2026); domestic trips 6.1% below 2020 in 2024, partly on price (PERO p69 to p70)",
      "Medium",
      "Medium",
      "Spread visitors in time and space (I2, I8, I9); track resident sentiment",
      "City of Cape Town; Cape Town Tourism"
+    ],
+    [
+     "Partners do not deliver the plans this one builds on",
+     "The City's framework reports uneven past progress on its tourism plans and links it to restructuring, thin resources, little support across departments and weak monitoring (TDF p3)",
+     "Medium",
+     "High",
+     "Steerco confirms before Gate 1 which partner plans are adopted, funded and running; each charter keeps Wesgro's own route to the result (I15)",
+     "Steerco; programme office"
     ]
    ],
    "boldFirstCol": true,
-   "message": "Fourteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime."
+   "message": "Fifteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime."
   }
  ]
 }

@@ -23,6 +23,10 @@
    "text": "Visas and national marketing follow the same pattern. Chinese and Gulf travellers face slow, document-heavy visa processes (Demand-Side Analysis, Jun 2026, p51). Four organisations raised visas, among them the Cableway for India and China and the CTICC for African events (Stakeholder Insights Report, Mar 2026, p36, p45). The Department of Economic Development also finds that SA Tourism's institutional weakness constrains international marketing (Stakeholder Insights Report, Mar 2026, p24, p25). The Western Cape holds none of these levers (section 1.2), so it must move them by escalation backed with evidence. Chile's case points the same way: lobby for air service liberalisation and simpler visas (section 2.1)."
   },
   {
+   "type": "p",
+   "text": "The province already holds instruments for that escalation. Its own visa study, by BDO for the Department of Economic Development, ranks the reforms to press for: published processing times first, then visa exemption for China, India and Nigeria (BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024, p34). Wesgro's Advocacy and Advisory unit exists to press such evidence on the levers the province does not control (section 1.2). The Tourism Blueprint 2030 already names the same barriers: poor continental air access from restricted markets, a costly and inconvenient visa regime and persistent safety concerns (Tourism Blueprint 2030, p4, p11)."
+  },
+  {
    "type": "h3",
    "text": "Funding has thinned and mandates blur"
   },
@@ -36,7 +40,7 @@
   },
   {
    "type": "p",
-   "text": "Fiscal pressure is turning attention to a tourism levy and blended finance (Stakeholder Insights Report, Mar 2026, p23, p25). The committed capital in section 2.3 builds airports, ports, roads, transit and precincts, but none of it funds the bodies that manage and sell the destination. The plan cannot rest on LTOs until their funding and mandates are settled."
+   "text": "Fiscal pressure is turning attention to a tourism levy and blended finance (Stakeholder Insights Report, Mar 2026, p23, p25). The Department of Mobility's draft transport framework plans its own business case for a tourist levy, as alternative funding for tourism transport (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12). The committed capital in section 2.3 builds airports, ports, roads, transit and precincts, but none of it funds the bodies that manage and sell the destination. The plan cannot rest on LTOs until their funding and mandates are settled."
   },
   {
    "type": "h3",
@@ -120,7 +124,15 @@
   },
   {
    "type": "p",
-   "text": "Coordination is hard everywhere, as the comparators show (section 2.1). Yet the platforms for collaboration already exist here. FEDHASA points to JAMS, through which tourism associations coordinate with Wesgro, the Western Cape Government and the City of Cape Town (Stakeholder Insights Report, Mar 2026, p31). What is missing is an agreed way to share data across those bodies, not another forum."
+   "text": "Coordination is hard everywhere, as the comparators show (section 2.1). Yet the platforms for collaboration already exist here. FEDHASA points to JAMS, through which tourism associations coordinate with Wesgro, the Western Cape Government and the City of Cape Town (Stakeholder Insights Report, Mar 2026, p31). Cape Town Air Access already joins them, with ACSA and industry, around routes (section 1.2). What is missing is an agreed way to share data across those bodies, not another forum."
+  },
+  {
+   "type": "h3",
+   "text": "Transport and safety plans already exist"
+  },
+  {
+   "type": "p",
+   "text": "Two plans already reach into the visitor's journey. The Department of Mobility's draft Provincial Land Transport Framework includes a Tourism Transport Strategy, which plans to revive the MyCiTi airport service with ACSA and to sign and maintain tourist routes (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12). The City has designed its own Tourist Safety Programme. It sets out secure zones in higher-risk tourism areas, a Tourist Police unit, victim support and safety forums (City of Cape Town, Tourism Development Framework 2019 to 2024, p5). The action plan should build on both plans rather than start new ones. [Open item: the City of Cape Town and the Department of Mobility to confirm which parts of these plans are adopted, funded or running.]"
   },
   {
    "type": "h3",
@@ -443,10 +455,10 @@
    "title": "What this means for the focus areas",
    "paras": [
     "**FA13, Embed local destination bodies for community inclusion.** The binding constraint is a seller with a stake, then a safe way in, then demand pulled from the adjacent node.",
-    "**FA14, Manage climate risk and sustainable tourism, and FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites.",
+    "**FA14, Manage climate risk and sustainable tourism, and FA15, Crowd in capital with targeted investment strategies.** Unfunded local tourism bodies and climate losses at flagship sites. The Department of Mobility proposes its own tourist levy case.",
     "**FA10, Support diversified route and product development, and FA15.** Assets follow sellers and route products, not the reverse.",
-    "**FA16, Align institutional stakeholders across all three tiers.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA.",
-    "**FA19, Lead removal of infrastructure, visa and safety deficits, a governance task because visas and air rights sit nationally.** Visas slow Chinese and Gulf travellers, and safety and extortion gate activation in up to nine communities.",
+    "**FA16, Align institutional stakeholders across all three tiers.** Air rights, visas and SA Tourism sit nationally, Chinese routes follow government-to-government agreements and airport capacity sits with ACSA. Cape Town Air Access already joins the three tiers, ACSA and industry around routes.",
+    "**FA19, Lead removal of infrastructure, visa and safety deficits, a governance task because visas and air rights sit nationally.** Visas slow Chinese and Gulf travellers, and safety and extortion gate activation in up to nine communities. The province's visa study already ranks the reforms to press for, and the City's Tourist Safety Programme is a base to build on.",
     "**FA17, Strengthen industry and government collaboration, and FA18, Expedite tourism-enabling policy and data sharing.** Each raised by 15 of 16 organisations, with existing platforms such as JAMS to build on.",
     "**FA20, Develop workforce and service skills, waits on analysis still to be commissioned.** Skills gaps raised by CapeNature, the West Coast District and the Overberg District have no labour analysis behind them. No count of tourism jobs exists, which also supports FA18.",
     "**FA03, Make the whole province findable and bookable.** Community product sells by phone or through city operators."

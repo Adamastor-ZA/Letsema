@@ -148,7 +148,7 @@
     ],
     [
      "T1-06 Share outside the Metro",
-     "Not in hand; baseline due in 2027 from the data protocol",
+     "Not in hand; baseline due in 2027 from the data protocol, drawing on the Treasury's district reviews and Wesgro visitor tracking",
      "Baseline set",
      "Rising",
      "Rising"
@@ -170,6 +170,10 @@
   },
   {
    "type": "p",
+   "text": "**Wesgro's targets.** Wesgro's FY26 to FY30 plan sets five-year levels for four indicators (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). T2-09 counts first-time scheduled international routes toward its 10 by FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p59). It tests each on load factor and survival. T2-11 counts calls toward 250, about 50 a year. T2-02 counts bids secured toward 161, about 32 a year at about R28m each, against 36 at about R20.7m each in 2024/25 (Demand-Side Analysis, Jun 2026, p36; computed). T3-37 counts trade engagements toward 12,500, about 2,500 a year and flat on FY24. Wesgro's 800,000 to 1 million new arrivals runs above every modelled path to 2030 (section 1.1), so T1-01 keeps the model's targets and reports Wesgro's beside them."
+  },
+  {
+   "type": "p",
    "text": "**Spend.** T1-03's path holds spend per arrival fixed, so its targets are in constant 2024 rand, while SA Tourism reports nominal rand; progress is read after deflating by CPI. The model's 2024 spend of R27.12bn sits 19% above the R22.7bn SA Tourism reported for FY2024 (Market Assessment Report, May 2026, p10, p24). [Open item: Skift to rebase the spend path on the FY2025 actual of R25.9bn.]"
   },
   {
@@ -178,7 +182,7 @@
   },
   {
    "type": "p",
-   "text": "The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026)."
+   "text": "The report restates the 300,000 as a total-sector figure for the labour analysis to test (I18). For context, public sources put direct tourism employment at 106,707 in Cape Town in 2024 (City of Cape Town, Economic Value of Tourism, 2025) and 953,981 nationally in 2024 (Stats SA Tourism Satellite Account, provisional, as reported in 2026). The City's framework counts about 45,000 direct and 150,000 total tourism jobs in Cape Town (City of Cape Town, Tourism Development Framework 2019 to 2024, p3). Its direct count probably rests on a narrower definition than the 106,707; the labour analysis reconciles the two."
   },
   {
    "type": "p",
@@ -186,7 +190,7 @@
   },
   {
    "type": "p",
-   "text": "**Spread and community spend.** No deliverable prints district visitor spend, so the share outside the Metro has no baseline until the data protocol delivers one (I16). The community share starts from the Inclusion Plan's traced floor; its 1% is a reference point the plan prints, not a target any party has adopted (SME and Community Inclusion Plan, Sep 2026, p5)."
+   "text": "**Spread and community spend.** No deliverable prints district visitor spend. The Provincial Treasury's district reviews print tourist spend as a share of GDPR, from 6.7% in the Metro to 16.8% on the West Coast in 2023 (Municipal Economic Review and Outlook 2024/25, Cape Metro, p72; Municipal Economic Review and Outlook 2024/25, West Coast, p131). The share outside the Metro therefore has no baseline until the data protocol delivers one (I16), and T1-06 carries no interim level. The community share starts from the Inclusion Plan's traced floor; its 1% is a reference point the plan prints, not a target any party has adopted (SME and Community Inclusion Plan, Sep 2026, p5)."
   }
  ]
 }

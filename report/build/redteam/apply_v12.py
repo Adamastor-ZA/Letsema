@@ -79,6 +79,29 @@ for mod, es in by_mod.items():
                     'after': ' '.join(block_text(x) for x in resolve(e.get('blocks', [])))[:6000]})
 
 
+# Post-steps after the streams. Three Chapter 3 evidence tables reached seven rows; the brief allows three to six, so two related
+# rows merge in each. The A2 arrivals row's year cell broke mid-word in its narrow column, so its qualifier moves to the wider one.
+def merge_rows(mod, caption, keep, drop, cells, why):
+    t = next(b for b in OUT[mod]['blocks'] if b['type'] == 'table' and b['caption'] == caption)
+    k = [r[0] for r in t['rows']].index(keep); j = [r[0] for r in t['rows']].index(drop)
+    t['rows'][k] = cells; del t['rows'][j]
+    LOG.append({'kind': 'post merge rows', 'file': mod, 'caption': caption, 'kept': keep, 'dropped': drop, 'cells': cells, 'reason': why})
+
+
+SIX = 'the brief allows three to six evidence rows per focus area'
+merge_rows('ch3/22_fa08.json', 'Evidence for focus area 8', 'A berth with room', 'Ship size and wind bind',
+           ['A berth with room', "Cape Town's equipped berth took 83 calls in 2024/25 against a season capacity of 150 or more; it takes ships up to 300m, the South-Easter delays berthing and there is no shore power", 'IR p110'], SIX)
+merge_rows('ch3/36_fa18.json', 'Evidence for focus area 18', 'No provincial method', 'National capacity is short',
+           ['No provincial method', 'No approved methodology for provincial tourism GDP and jobs; official data lag after Covid-era method changes, and the tourism satellite account is slowed by 749 Stats SA vacancies (Department of Tourism)', 'SIR p37, p30'], SIX)
+merge_rows('ch3/38_fa20.json', 'Evidence for focus area 20', 'Skills gaps near reserves', 'Municipal capacity is stretched',
+           ['Skills gaps near reserves and in municipalities', 'Low baseline skills near reserves need upskilling before service standards can be met (CapeNature); local municipalities face skills and staffing constraints, with support not tailored to districts (West Coast District Municipality)', 'SIR p43, p39'], SIX)
+t = next(b for b in OUT['appendices/02_a2_demand_model.json']['blocks'] if b['type'] == 'table' and b['caption'] == 'Arrivals figures in circulation')
+r = next(r for r in t['rows'] if r[0].startswith('5.7 million'))
+old = list(r)
+r[1] = "International arrivals and foreign direct spend; the Tourism Blueprint 2030's pre-COVID ten-year goal, dated 2035 in the Diagnostic, with the Blueprint's end year not confirmed"
+r[2] = '2035'
+LOG.append({'kind': 'post cell edit', 'file': 'appendices/02_a2_demand_model.json', 'before': old, 'after': list(r), 'reason': 'the year cell broke mid-word in its narrow column'})
+
 # Table and figure numbers cited in the text follow their captions to the new numbering.
 def numbering(mods):
     out = {'table': {}, 'figure': {}}

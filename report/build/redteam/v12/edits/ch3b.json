@@ -1,0 +1,410 @@
+{
+ "edits": [
+  {
+   "module": "ch3/30_pillar3.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "Several entries start by building the baseline they will be judged against.",
+   "repl": "Several entries start by building the baseline they will be judged against. Provincial and City documents narrow some of these gaps and offer programmes to build on. They include Wesgro's FY26 to FY30 plan, the Provincial Treasury's provincial and district reviews, the Tourism Blueprint 2030, the City's Tourism Development Framework, DEDAT's visa study and the Department of Mobility's draft land transport framework.",
+   "reason": "Signpost: Pillar 3 now draws on Wesgro's plan, PERO and MERO, the Blueprint, the City TDF, the BDO visa study for DEDAT and the draft PLTF, each cited in the entries that use it. Review: placed after the 'therefore' sentence so the added evidence does not read as the cause of the open items; list completed."
+  },
+  {
+   "module": "ch3/31_fa13.json",
+   "index": 8,
+   "op": "replace_text",
+   "find": "Both are reference points, not adopted targets (section 5.3).",
+   "repl": "Both are reference points, not adopted targets (section 5.3). The R54.7 billion behind the R547m traces to the Tourism Blueprint 2030, whose pre-COVID ten-year goal paired that foreign direct spend with 5.7 million international arrivals (Tourism Blueprint 2030, p4, p10). The 2035 end year comes from a later restatement and is not yet confirmed (Current State Diagnostic, Dec 2025, p5).",
+   "reason": "Assessment 3, \"Origin of 5.7m and R54.7bn (A2; FA13; A5)\", and 4, \"Blueprint figures\": footnote the trace to the Blueprint's pre-COVID ten-year goal (DSE factbase: Blueprint pp4 and 10, \"increasing international arrivals over ten years to 5.7 million with total foreign direct spend of R54.7 billion\"). The year is not changed because the Blueprint gives none; the sentence says where 2035 comes from. Review: the trace is stated for the R54.7bn behind the R547m, and the 2035 year is marked unconfirmed (assessment 3 and 4: trace strong, year unproven)."
+  },
+  {
+   "module": "ch3/31_fa13.json",
+   "index": 16,
+   "op": "replace_text",
+   "find": "Safety plans follow in the same year (section 4.3).",
+   "repl": "Safety plans follow in the same year (section 4.3). The City's framework gave a special focus to the Cape Flats and townships. It proposed a Cultures of Cape Town programme and local tourism forums (City of Cape Town, Tourism Development Framework 2019 to 2024, p5 to p6). In Metro pilots the programme and the forums can host the seller, if they run.",
+   "reason": "Assessment 5, FA13 (Medium): City community programmes (TDF pp5 to 6) can host local selling bodies in the Metro pilots. TDF Executive Summary pp5-6: a special focus on non-traditional areas such as the Cape Flats and townships; it also proposes a Cultures of Cape Town Development Programme and local tourism forums. Review: the programmes are named before their role, written as proposed, and the focus kept separate from the programmes; placed after the 2027 safety sentence so 'the same year' keeps its referent."
+  },
+  {
+   "module": "ch3/31_fa13.json",
+   "index": 17,
+   "op": "replace_text",
+   "find": "Municipalities; LTOs; community sellers",
+   "repl": "Municipalities, with the City of Cape Town in Metro pilots; LTOs; community sellers",
+   "reason": "Grid follows the FA13 course of action: the City's community programmes host sellers in Metro pilots (TDF pp5 to 6)."
+  },
+  {
+   "module": "ch3/32_fa14.json",
+   "index": 5,
+   "op": "replace_text",
+   "find": "A risk spread across every district needs an owner in each.",
+   "repl": "A risk spread across every district needs an owner in each. The risk weighs most where tourism weighs most. In 2023 tourist spend equalled 15.6% to 16.8% of GDPR in the Garden Route, Overberg, West Coast and Central Karoo, against 6.7% in the Metro (Municipal Economic Review and Outlook 2024/25, Garden Route, p151; Municipal Economic Review and Outlook 2024/25, Overberg, p119; Municipal Economic Review and Outlook 2024/25, West Coast, p131; Municipal Economic Review and Outlook 2024/25, Central Karoo, p111; Municipal Economic Review and Outlook 2024/25, Cape Metro, p72).",
+   "reason": "Assessment 5, FA14 (Medium): district tourism dependence shows where climate and LTO risk lands. Decisions sheet, \"District dependence\": 15.6% to 16.8% of GDPR in four outer districts against 6.7% in the Metro (MERO 2024/25, each district report named: Garden Route p151, Overberg p119, West Coast p131, Central Karoo p111, Cape Metro p72; municipal factbase evidence matrix). The identical Garden Route and Central Karoo time series are not used. Review: 2023 stated, referent made explicit, and the closing sentence that repeated section 1.2 dropped."
+  },
+  {
+   "module": "ch3/32_fa14.json",
+   "index": 12,
+   "op": "replace_text",
+   "find": " From 2032 climate risk and LTO funding sit in municipal IDPs, with reporting.",
+   "repl": " From 2029 climate risk and LTO funding also enter municipal IDPs, with reporting. The route exists: the Provincial Treasury writes its district reviews to inform IDPs and budgets, and they already carry environmental risk data (Municipal Economic Review and Outlook 2024/25, Cape Metro, p4 to p5).",
+   "reason": "Assessment 5, FA14 (Medium) and 6, \"FA14: IDP integration from 2032 | MERO already feeds IDPs and budgets\": the MERO foreword frames the reviews as informing IDPs, SDFs, LED strategies and budgets, and they include environmental risk and vulnerability information (MERO Cape Metro Foreword pp4-5). The IDP step moves from 2032 to 2029, in place. Review: replaces the separate inserted paragraph; 'tourism data' dropped from the pp4 to 5 claim."
+  },
+  {
+   "module": "ch3/32_fa14.json",
+   "index": 12,
+   "op": "replace_text",
+   "find": "They also design an LTO funding model that answers Circular 131.",
+   "repl": "They also design an LTO funding model that answers Circular 131 and tests the Blueprint's district model (focus area 16).",
+   "reason": "Review: one owner for testing the Blueprint's district model. FA16 names the mandate settlement (grid row) and this funding model as the test; Blueprint p8 (RTOs as NPOs funded by districts, LTO model set in law)."
+  },
+  {
+   "module": "ch3/32_fa14.json",
+   "index": 14,
+   "op": "replace_text",
+   "find": "Give LTOs a stable funding agreement with a development mandate, written into IDPs with reporting",
+   "repl": "Give LTOs a stable funding agreement with a development mandate, written into IDPs from 2029 with reporting, using the Provincial Treasury's district reviews",
+   "reason": "Grid follows the FA14 course of action: IDP step from 2029 through the MERO cycle (MERO Cape Metro pp4 to 5)."
+  },
+  {
+   "module": "ch3/32_fa14.json",
+   "index": 14,
+   "op": "replace_text",
+   "find": "Municipalities; district municipalities; DEDAT",
+   "repl": "Municipalities; district municipalities; DEDAT; Provincial Treasury",
+   "reason": "Grid: the Provincial Treasury, which publishes the district reviews that feed IDPs, joins the partners."
+  },
+  {
+   "module": "ch3/33_fa15.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "fund tourism-enabling mobility (Stakeholder Insights Report, Mar 2026, p23).",
+   "repl": "fund tourism-enabling mobility (Stakeholder Insights Report, Mar 2026, p23). Its draft land transport framework goes further and plans its own business case for a tourist levy, to fund tourism transport (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12).",
+   "reason": "Assessment 5, FA15 (High): the Department of Mobility plans its own tourist levy case. Mobility factbase evidence matrix: Tourism Transport Strategy actions include \"developing a business case for a tourist tax/levy and leveraging private-sector partnerships\"; objectives include alternative funding (draft PLTF ch12, pp12-5 and 12-8). Cited by chapter, as the decisions sheet and the Chapter 2 stream do."
+  },
+  {
+   "module": "ch3/33_fa15.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "From 2029 it takes the cases to investors, and DEDAT and the City of Cape Town test a tourism levy and blended-finance vehicles.",
+   "repl": "From 2029 it takes the cases to investors. DEDAT, the Department of Mobility and the City of Cape Town then test blended-finance vehicles and one levy case for the visitor economy.",
+   "reason": "Assessment 5, FA15 (High): one levy case for the visitor economy, our recommendation; the Department of Mobility joins the test (also assessment 5, Chapter 4: I14 adds the Department of Mobility)."
+  },
+  {
+   "module": "ch3/33_fa15.json",
+   "index": 14,
+   "op": "replace_text",
+   "find": "A levy or a blended-finance vehicle needs projects to fund, so both are tested only once the first cases exist.",
+   "repl": "A levy or a blended-finance vehicle needs projects to fund, so both are tested only once the first cases exist. The levy also needs one case, not two. Separate tourism and transport levies would charge the same visitors twice. DEDAT should therefore agree with the Department of Mobility in 2027 that the Department's levy case covers destination management as well as tourist transport. That is this report's recommendation, not a position either department has taken.",
+   "reason": "Assessment 5, FA15 (High): \"Argue for one levy case for the visitor economy; that is our recommendation.\" The Department of Mobility's own case is in its draft framework (ch12), so the agreement on scope comes early (2027) while the test still waits for the first investment cases."
+  },
+  {
+   "module": "ch3/33_fa15.json",
+   "index": 15,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "Wesgro",
+      "Build a tourism investment pipeline from the gap-closure tables, scored for return, jobs and inclusion, and take it to investors",
+      "Wesgro investment promotion; Tourism; DEDAT"
+     ],
+     [
+      "Wesgro",
+      "Prepare investment cases for mid-scale and conference-capable hotels in secondary nodes and for accommodation at De Hoop and on Route 62",
+      "Wesgro investment promotion; private investors"
+     ],
+     [
+      "Wesgro",
+      "Scale Cape Town Air Access's route fund into the public-private air access fund, with ring-fenced corridor budgets (focus area 7)",
+      "Air Access; DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; private sector"
+     ],
+     [
+      "Partners",
+      "Make one levy case for the visitor economy that covers destination management and tourist transport; test blended-finance vehicles",
+      "DEDAT; Department of Mobility; City of Cape Town"
+     ],
+     [
+      "Partners",
+      "Attach covenants to public assets before re-letting or upgrading them, and invest in community assets only after demand is proven",
+      "Municipalities"
+     ],
+     [
+      "National",
+      "Hold ACSA, PRASA and Transnet to their published capital dates, and add tourism use to the port plans",
+      "ACSA; PRASA; Transnet"
+     ]
+    ]
+   },
+   "reason": "Grid follows the FA15 course of action: one levy case with the Department of Mobility (draft PLTF ch12). Set as whole rows because \"DEDAT; City of Cape Town\" also occurs in the route-fund row. Review: the route-fund row lists ACSA, Cape Town Tourism and SA Tourism, as FA07 does (decisions, Cape Town Air Access partnership, Letsema Update slide 1)."
+  },
+  {
+   "module": "ch3/34_fa16.json",
+   "index": 11,
+   "op": "replace_text",
+   "find": "The first task is therefore to hear the national tier directly and write down who decides what.",
+   "repl": "The first task is therefore to hear the national tier directly and write down who decides what. For the districts, one design is already on record. The Tourism Blueprint 2030 recommends tourism coordination at district level, with regional tourism organisations run as non-profits, funded by district municipalities and seating the LTOs. It also asks for the LTO model to be set in law (Tourism Blueprint 2030, p8). Its targets were set before COVID, so this action plan treats the model as a position to test against Circular 131, not a settled design (Tourism Blueprint 2030, p4). The mandate settlement below and the LTO funding model in focus area 14 run that test.",
+   "reason": "Assessment 5, FA16 (Medium): the Blueprint model (RTOs as NPOs funded by districts, with LTO representation, LTO model formalised legislatively; Blueprint p8) presented as a position to test. The Blueprint targets were developed pre-COVID (Blueprint p4). Review: the claim that the Blueprint predates Circular 131 is dropped (no date in the evidence); 'the plan' becomes 'this action plan'; the test is owned by the grid's mandate row and the FA14 funding model, as FA14 now says."
+  },
+  {
+   "module": "ch3/34_fa16.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "It gives the province one voice and one route to national decisions.",
+   "repl": "It gives the province one voice and one route to national decisions. Steerco should also connect to the tourism coordinating cluster the City's Tourism Development Framework proposed, if the City set it up (City of Cape Town, Tourism Development Framework 2019 to 2024, p5 to p6).",
+   "reason": "Assessment 5, Chapter 4 owners (High): \"I15: link Steerco to the City's Tourism Coordinating Cluster, if it exists.\" Municipal factbase Table 8 and 8.6: Goal 5, organising for growth, includes a coordinating cluster (TDF Executive Summary pp5-6). FA16 carries I15 with FA17."
+  },
+  {
+   "module": "ch3/34_fa16.json",
+   "index": 15,
+   "op": "replace_text",
+   "find": "Settle district, local and LTO mandates,",
+   "repl": "Settle district, local and LTO mandates, testing the Blueprint's district model for regional tourism organisations,",
+   "reason": "Grid follows the FA16 evidence: the Blueprint's district RTO model as a position to test (Blueprint p8)."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "No source yet prints visitor spend by district (section 5.3).",
+   "repl": "No source yet prints visitor spend by district (section 5.3). The nearest measure is tourist spend as a share of each district's GDPR. The Provincial Treasury's district reviews print it, from Wesgro and S&P Global Market Intelligence data (Municipal Economic Review and Outlook 2024/25, Cape Metro, p8 to p9, p72).",
+   "reason": "Assessment 3, \"District arrivals and spend (T1-06; 5.3 [11])\": narrows, no baseline yet. MERO prints tourist spend as a share of GDPR (Cape Metro p72) and names Wesgro and S&P Global Market Intelligence as its tourism data sources (MERO Cape Metro pp8-9). No rand split is computed (assessment 7). Review: the v11 sentence is kept, as Chapter 5 keeps it; MERO prints the share, not the spend."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 10,
+   "op": "replace_text",
+   "find": "in what form and how often.",
+   "repl": "in what form and how often. Two provincial data holders sit outside tourism. The Provincial Treasury's provincial review prints spend per visitor by region of origin (Provincial Economic Review and Outlook 2025, p67). Its district reviews print attraction counts, bed-nights and tourist spend as a share of GDPR for each district (Municipal Economic Review and Outlook 2024/25, Cape Metro, p68 to p73). The Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60).",
+   "reason": "Assessment 5, FA18 (High): name Provincial Treasury (MERO, PERO) and the Department of Mobility's Integrated Transport Hub as data holders. Municipal factbase 4.3 and 8.6 (MERO Cape Metro tourism section pp68-73); mobility factbase evidence matrix (draft PLTF chapter 3, p3-60). The open item later in the paragraph is kept word for word. Review: the district-review claim is stated for each district, with the Cape Metro review as the cited example."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 9,
+   "op": "add_rows",
+   "rows": [
+    [
+     "Provincial holders exist",
+     "The Provincial Treasury's reviews print spend per visitor by region of origin and, by district, attraction counts, bed-nights and tourist spend as a share of GDPR; the Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository",
+     "PERO p67; MERO p68 to p73; PLTF p3-60"
+    ]
+   ],
+   "reason": "FA18 evidence table carries the two provincial data holders (assessment 5, FA18, High)."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 9,
+   "op": "set",
+   "fields": {
+    "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag); Provincial Economic Review and Outlook 2025 (PERO); Municipal Economic Review and Outlook 2024/25, Cape Metro (MERO); Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025 (PLTF)."
+   },
+   "reason": "Source note defines the two abbreviations the new row uses."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "Cape Town Tourism, the site operators and the booking platforms.",
+   "repl": "Cape Town Tourism, the site operators and the booking platforms. It also agrees terms with the Provincial Treasury for the data behind the Treasury's reviews and with the Department of Mobility for its Integrated Transport Hub.",
+   "reason": "Assessment 5, FA18 (High): the two provincial data holders enter the 2027 data-sharing round (and Chapter 4: I16 adds Treasury and the Transport Hub). Review: the reviews are published, so the terms cover the data behind them (MERO names Wesgro and S&P Global Market Intelligence as its tourism sources, Cape Metro pp8-9)."
+  },
+  {
+   "module": "ch3/36_fa18.json",
+   "index": 15,
+   "op": "replace_text",
+   "find": "Cape Town Tourism, the site operators and the booking platforms",
+   "repl": "Cape Town Tourism, the Provincial Treasury, the Department of Mobility, the site operators and the booking platforms",
+   "reason": "Grid follows the FA18 course of action (assessment 5, FA18, High)."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "Congestion costs the Metro an estimated R2.8 billion a year,",
+   "repl": "Two provincial documents and the City's framework name safety as a constraint, and the City's stakeholders rank it the first priority for growth (City of Cape Town, Tourism Development Framework 2019 to 2024, p4; Tourism Blueprint 2030, p4; Provincial Economic Review and Outlook 2025, p4). The road from the airport is one concern. The Department of Mobility's draft framework flags the N2 from Cape Town International as a congestion and safety problem for tourists (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12). Congestion costs the Metro an estimated R2.8 billion a year,",
+   "reason": "Assessment 5, FA19 (Medium): three government sources name safety and the City's stakeholders rank it first (DSE factbase 4.5: TDF p4, Blueprint p4, PERO p4); add the N2 airport corridor (mobility factbase 4.3 and implication 3: draft PLTF ch12 flags the N2 from CTIA as a safety and congestion problem for tourists). Review: two provincial documents (Blueprint, PERO) and one City document (TDF)."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 10,
+   "op": "replace_text",
+   "find": "No visa processing time is in hand for any priority market (section 5.2).",
+   "repl": "No visa processing time is in hand for any priority market (section 5.2). The nearest national measure is an outcome: in its first year the eVisa processed fewer than half its applications and rejected 93% of those it decided (BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024, p12).",
+   "reason": "Assessment 3, \"Visa processing time (T2-24)\": narrows only, national outcomes not time. Mobility factbase 3.4: eVisa processed 6,769 of 13,887 first-year applications and rejected 6,329 of those; summary at 1.4 gives 49% and 93% (BDO p12). Section 2.4 (Chapter 2 stream) prints the counts."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "It also covers air service agreements and immigration throughput at Cape Town International.",
+   "repl": "It also covers air service agreements and immigration throughput at Cape Town International. The visa asks start from DEDAT's visa regime study, which ranks published processing times first and visa exemption for China, India and Nigeria second (BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024, p34). The agenda takes the reforms that bear on visitors and first checks what has moved since 2024.",
+   "reason": "Assessment 5, FA19 (High): BDO's ranked reforms as the visa half of I17, filtered to tourism, with a check on progress since 2024. Mobility factbase 3.4: top-ranked is clear and published processing timeframe guidelines, second is exemption for China, India and Nigeria (BDO Table 1.7, p34; cited by page, never by table number). BDO's modelled upside is not used (assessment 7). Review: placed after the full list of what the agenda covers, and shortened."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "Wesgro's Research and Destination Marketing units build the evidence for each ask, market by market.",
+   "repl": "Wesgro's Advocacy and Advisory unit was set up to build evidence-based policy feedback on levers the province does not control (Wesgro, Strategic Plan 2025/26 to 2029/30, p27). Once Wesgro confirms its remit, the unit runs the agenda day to day. Research and Destination Marketing build the evidence for each ask, market by market.",
+   "reason": "Decisions sheet, existing programmes: Wesgro's Advocacy and Advisory unit (plan p27; DSE factbase 4.4: levers include visas, unit set up to build evidence-based policy feedback). Assessment 5, Chapter 4: I17 day-to-day owner. Review: day-to-day ownership once Wesgro confirms the unit's remit (assessment: 'once confirmed'; Chapter 4: proposed)."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 14,
+   "op": "replace_text",
+   "find": "The Western Cape Government, the municipalities and SAPS set up the dedicated tourism safety units and programmes the Metro needs (Current State Diagnostic, Dec 2025, p41).",
+   "repl": "The Metro needs dedicated tourism safety units and programmes (Current State Diagnostic, Dec 2025, p41). The City has already designed them in its Tourist Safety Programme: secure zones, a Tourist Police unit, victim support and safety forums (City of Cape Town, Tourism Development Framework 2019 to 2024, p5). The City and the Western Cape Government, with the other municipalities and SAPS, build on that programme from 2027, once the City confirms which parts run (section 2.4).",
+   "reason": "Assessment 5, FA19 (High) and 6, \"FA19, I17: partners set up safety units from 2029 | The City has designed the programme; build on it sooner\". DSE factbase 4.5 (TDF p5): secure tourism activity zones, City Tourist Police unit, tourist victim support, Tourist Safety Forum, community tourism safety forums. \"Set up\" becomes \"build on\"; the status check points to the open item in section 2.4 (Chapter 2 stream). Chapter 4 (I17 charter) needs the safety work moved from Expand to Activate. Review: the City, which designed the programme and leads the grid row, is named in the text."
+  },
+  {
+   "module": "ch3/37_fa19.json",
+   "index": 15,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "Wesgro",
+      "Table an escalation agenda at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements; immigration throughput at Cape Town International",
+      "Wesgro CEO's office; Advocacy and Advisory unit; DEDAT"
+     ],
+     [
+      "Wesgro",
+      "Build the market-by-market evidence for each ask, from the reforms DEDAT's visa study ranks to safety perception in source markets",
+      "Research; Destination Marketing"
+     ],
+     [
+      "Wesgro",
+      "Carry a visitor-safety narrative in marketing, and apply the four launch gates set in focus area 13 to any community product Wesgro sells",
+      "Destination Marketing; Tourism"
+     ],
+     [
+      "Partners",
+      "Build on the City's Tourist Safety Programme for the dedicated tourism safety units the Metro needs, with safety compacts in pilot communities",
+      "City of Cape Town; Western Cape Government; municipalities; SAPS"
+     ],
+     [
+      "Partners",
+      "Fix basic services, water and connectivity at remote reserves and in tourism towns",
+      "Municipalities; CapeNature"
+     ],
+     [
+      "Partners",
+      "Study congestion on the N2 from Cape Town International and add highway patrols near the airport, as the draft land transport framework plans",
+      "Department of Mobility; City of Cape Town"
+     ],
+     [
+      "National",
+      "Decide on visa processing, air service agreements and immigration counters, and make station security a rail line item",
+      "Home Affairs; Department of Transport; PRASA"
+     ]
+    ]
+   },
+   "reason": "Grid follows the FA19 changes: Advocacy and Advisory unit (plan p27); BDO ranked reforms (p34); build on the City's Tourist Safety Programme (TDF p5); the N2 airport corridor action (draft PLTF ch12: root-cause congestion analysis and increased highway patrol near CTIA). Set as whole rows to keep the Wesgro, Partners, National order. Review: row 2 reworded."
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "1,234 direct cruise jobs in the Western Cape in 2024/25, the only provincial tourism jobs figure in a deliverable",
+   "repl": "1,234 direct and 2,345 total cruise jobs in the Western Cape in 2024/25, the only provincial tourism jobs figure in hand",
+   "reason": "Assessment 3, \"Cruise jobs check (FA20 [10])\", closed: decisions sheet, cruise value (StratEcon pp24, 27; mobility factbase Table 4 and evidence matrix). Review: \"figure\" kept, since one season is in hand."
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "Diag p37",
+   "repl": "StratEcon p24, p27; Diag p37",
+   "reason": "The row now cites the source study as well as the Diagnostic."
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "The 2024/25 jobs value equals the 2022/23 GDP value in the same table, so the source study should be checked before the figure is used as a baseline.",
+   "repl": "StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025 (StratEcon), the study the Diagnostic cites. City of Cape Town, Tourism Development Framework 2019 to 2024 (TDF); City of Cape Town, Economic Value of Tourism, 2025. The ratio of total to direct jobs is computed.",
+   "reason": "Cruise jobs check closed (decisions sheet): the source note no longer asks for the check. Defines TDF for the new row and marks the computed ratio. Review: no claim of a check; figures used as reported.",
+   "computed": [
+    "3.3"
+   ]
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "(Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, as cited)",
+   "repl": "(Diag)",
+   "reason": "Review: the cruise study is listed once in the source note, as StratEcon."
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 9,
+   "op": "add_rows",
+   "rows": [
+    [
+     "Cape Town's counts differ",
+     "About 45,000 direct and 150,000 total tourism jobs in the City's framework, about 3.3 total for each direct job; 106,707 direct jobs in the City's 2024 count",
+     "TDF p3; City of Cape Town, 2025"
+    ]
+   ],
+   "reason": "Assessment 4, \"Cape Town tourism jobs\" (106,707 against the TDF's direct count; probably definitional; I18 reconciles) and 5, FA20 (Medium): the TDF ratio of about 3.3 total jobs per direct job (municipal factbase section 1 and matrix: TDF Executive Summary p3, about 45,000 direct and 150,000 total).",
+   "computed": [
+    "3.3"
+   ]
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 10,
+   "op": "replace_text",
+   "find": "The only provincial tourism jobs figure the evidence prints is 1,234 direct cruise jobs in 2024/25. Its source study needs checking before it serves as a baseline (Current State Diagnostic, Dec 2025, p37).",
+   "repl": "The only provincial tourism jobs figure in hand is for cruise. StratEcon's study of the 2024/25 season reports 1,234 direct jobs in the Western Cape and 2,345 in total (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p24, p27).",
+   "reason": "Assessment 3, \"Cruise jobs check (FA20 [10])\": closes. Decisions sheet: 1,234 direct and 2,345 in total (StratEcon pp24, 27); this closes the cruise-jobs check. The 23/24 direct-jobs figure the Diagnostic prints is not discussed, so no new open item is raised. Review: \"figure\" kept and \"reports\", not \"confirms\": no primary check was made (decisions sheet)."
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 10,
+   "op": "insert_after",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "The City's own counts differ, probably by definition and date. Its Tourism Development Framework gives about 45,000 direct jobs and about 150,000 in total (City of Cape Town, Tourism Development Framework 2019 to 2024, p3). That direct count is under half the City's 2024 figure. The framework's figures imply about 3.3 total jobs for each direct job (computed). Applied to the provincial ambition, 300,000 total jobs would mean about 90,000 direct jobs, fewer than Cape Town alone counted in 2024 on its own definition (computed). The ambition can be judged only once its definition and base are fixed."
+    }
+   ],
+   "reason": "Assessment 4, \"Cape Town tourism jobs\": 106,707 direct (City, 2025) against the TDF's direct count (TDF p3, about 45,000), probably definitional, I18 reconciles. Assessment 5, FA20 (Medium): the TDF ratio of about 3.3 total jobs per direct job gives I18 a test for the 300,000. 150,000 / 45,000 = 3.33; 300,000 / 3.33 = 90,000; 90,000 / 45,000 = 2. Review: 'by definition and date'; the implication stated: on the total-jobs reading, Cape Town alone counts more direct jobs (106,707) than the provincial ambition implies (about 90,000).",
+   "computed": [
+    "3.3",
+    "90,000"
+   ]
+  },
+  {
+   "module": "ch3/38_fa20.json",
+   "index": 13,
+   "op": "replace_text",
+   "find": "identifies the occupations and skills the growth case needs.",
+   "repl": "identifies the occupations and skills the growth case needs. The test starts with whether the ambition counts direct or total jobs.",
+   "reason": "Course of action follows the FA20 evidence: the ratio test turns on the ambition's definition."
+  },
+  {
+   "module": "ch3/40_integrated.json",
+   "index": 6,
+   "op": "insert_after",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Wesgro's own arrivals target outruns every modelled path to 2030.** Wesgro seeks 800,000 to 1 million new international arrivals over FY26 to FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). That is 2.6 to 3.3 times the base path's gain to 2030 and about twice the accelerated path's (computed; section 1.1). With the base path at the seat line by 2030, promotion alone cannot close that gap."
+    }
+   ],
+   "reason": "Decisions sheet, \"Arrivals metric period\": five years, FY26 to FY30; against the base case's gain of about 304,000 (1,802,929 less 1,498,829), 800,000 to 1 million is 2.6 to 3.3 times the base-case gain and about twice the accelerated case's; no modelled path delivers it by 2030; the base year stays open in section 1.1. Review: cut to the point this section adds, since the summary, 1.1, 2.3 and 4.7 carry the computation.",
+   "computed": [
+    "2.6",
+    "3.3"
+   ]
+  },
+  {
+   "module": "ch3/40_integrated.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "Every target needs data that today sits with SA Tourism, ACSA and the booking platforms (focus area 18).",
+   "repl": "Every target needs data that today sits with SA Tourism, ACSA, the Provincial Treasury and the booking platforms (focus area 18).",
+   "reason": "Follows FA18: the Provincial Treasury is a named data holder (assessment 5, FA18, High)."
+  }
+ ]
+}

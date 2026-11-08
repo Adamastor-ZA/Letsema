@@ -15,7 +15,7 @@
   },
   {
    "type": "lead",
-   "text": "Cruise brings about R1.79bn a year and Cape Town's berth took 83 calls against room for 150 or more, so growth comes from ships, excursions and day stops, not port capital."
+   "text": "Cruise added about R1.79bn to provincial GDP-R in 2024/25, and Cape Town's berth took 83 calls against room for 150 or more, so growth comes from ships, excursions and day stops, not port capital."
   },
   {
    "type": "h4",
@@ -23,7 +23,11 @@
   },
   {
    "type": "p",
-   "text": "Cruise has room to grow at the berth Cape Town already has. The equipped berth handled 83 calls in 2024/25 against a season capacity of 150 or more, and the season brought about R1.79bn of economic impact (Infrastructure Report, Jul 2026, p110; Current State Diagnostic, Dec 2025, p37; the second counts 79 vessels for the same season). Growth here needs product and marketing, not capital works (Infrastructure Report, Jul 2026, p112)."
+   "text": "Cruise has room to grow at the berth Cape Town already has. The equipped berth handled 83 calls in 2024/25 against a season capacity of 150 or more (Infrastructure Report, Jul 2026, p110). That season brought about R1.99bn of spending before displacement and added about R1.79bn to provincial GDP-R after it (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p4, p19, p20, p22; the study counts 79 vessel visits for the season). Growth here needs product and marketing, not capital works (Infrastructure Report, Jul 2026, p112)."
+  },
+  {
+   "type": "p",
+   "text": "International passengers drive the value (section 2.3). World cruises made up 42 of the 79 vessel visits, and their passengers added R802m to provincial GDP-R, 73% of what all passengers added (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p4, p23). The season also earned R1.326bn of net foreign exchange and R259m in taxes (StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025, p28, p34)."
   },
   {
    "type": "p",
@@ -40,7 +44,7 @@
   {
    "type": "table",
    "caption": "Evidence for focus area 8",
-   "source": "Current State Diagnostic, Dec 2025 (Diag; Western Cape Cruise Liner Industry Economic Contribution 2024/25 Season, cited through the Diagnostic); Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR). The Diagnostic counts 79 vessels and the Infrastructure Report 83 calls for the same season; passengers and economic impact agree. Mossel Bay's 27 a season is its own figure; the Infrastructure Report prints 21.",
+   "source": "StratEcon, Cruise Liner Economic Contribution Study 2024/25, Oct 2025 (StratEcon; GDP-R after displacement); Current State Diagnostic, Dec 2025 (Diag); Infrastructure Report, Jul 2026 (IR); Stakeholder Insights Report, Mar 2026 (SIR). For the same season StratEcon counts 79 vessel visits and 127,128 passengers, the Diagnostic 79 and 127,178, and the Infrastructure Report 83 calls. Mossel Bay's 27 a season is its own figure; section 2.3 sets out the Mossel Bay counts.",
    "columns": [
     {
      "header": "Finding",
@@ -65,13 +69,13 @@
      "Diag p37"
     ],
     [
-     "A berth with room",
-     "Cape Town's equipped berth took 83 calls in 2024/25 against a season capacity of 150 or more; R1.79bn economic impact",
-     "IR p110"
+     "Value comes from the mix",
+     "International passengers 55,495 in 2022/23 and 100,255 in 2024/25 as the total fell; world cruises 73% of passengers' GDP-R; R1.79bn GDP-R in all",
+     "StratEcon p9, p10, p22, p23; Diag p37"
     ],
     [
-     "Ship size and wind bind",
-     "300m maximum ship length at the equipped berth; the South-Easter delays berthing; no shore power",
+     "A berth with room",
+     "Cape Town's equipped berth took 83 calls in 2024/25 against a season capacity of 150 or more; it takes ships up to 300m, the South-Easter delays berthing and there is no shore power",
      "IR p110"
     ],
     [
@@ -91,7 +95,7 @@
     ]
    ],
    "boldFirstCol": true,
-   "message": "Cape Town's berth has room, ship size and wind are the constraints, and port capital is going to freight."
+   "message": "Cape Town's berth has room and value grows with international passengers; ship size and wind are the constraints, and port capital is going to freight."
   },
   {
    "type": "p",
@@ -99,7 +103,7 @@
   },
   {
    "type": "p",
-   "text": "A plan to grow to 250 calls a season has no source, horizon or definition in the evidence, so this report holds it open [plan to 250 cruise calls: source, horizon and definition to confirm with Cruise Cape Town]. At about 150 calls a season, Cape Town's berth could reach 250 only with a second berth, a longer season or the regional ports counted in (section 5.4)."
+   "text": "Wesgro's plan sets the target: 250 ship calls over FY26 to FY30, about 50 a year. [Summary of Findings, 14 Oct 2026: Cruise Cape Town to confirm that the deck's 250 calls are the plan's five-year total.] The 50 rounds up a 47-call average, the 67 calls of 2023/24 less the 20 calls rerouted to the Cape by the Middle East conflict (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). That pace sits inside the berth's season capacity of 150 or more, so it needs no second berth (Infrastructure Report, Jul 2026, p110)."
   },
   {
    "type": "h4",
@@ -107,7 +111,7 @@
   },
   {
    "type": "p",
-   "text": "The approach works with the berth Cape Town has rather than waiting for a new one. Cruise Cape Town leads, and the sequence follows readiness. Line targeting and the Mossel Bay excursion packages are designed in 2027, together with a sourced definition of the 250-call plan. Marketing to expedition and home-porting operators follows in 2028, alongside community product on cruise-operator channels (section 4.3). Saldanha Bay waits until demand is proven, because its port capital serves iron ore."
+   "text": "The approach works with the berth Cape Town has rather than waiting for a new one. Cruise Cape Town leads, and the sequence follows readiness. Line targeting, the Mossel Bay excursion packages and one definition of a call for reporting against the 250 are designed in 2027. Targeting starts with world-cruise lines whose ships fit the 300m berth. Marketing to expedition and home-porting operators follows in 2028, alongside community product on cruise-operator channels (section 4.3). Saldanha Bay waits until demand is proven, because its port capital serves iron ore."
   },
   {
    "type": "p",
@@ -135,8 +139,8 @@
    "rows": [
     [
      "Wesgro",
-     "Market Cape Town to lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
-     "Cruise Cape Town; Destination Marketing"
+     "Market Cape Town to world-cruise and other lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
+     "Cruise Cape Town; Destination Marketing; City of Cape Town"
     ],
     [
      "Wesgro",
@@ -178,7 +182,7 @@
   },
   {
    "type": "p",
-   "text": "**Initiative I7**, cruise growth through product (section 4.3). **Indicator** T2-11 cruise calls and passengers at outcome level, with the target held open until the 250-call plan is sourced (section 5.2)."
+   "text": "**Initiative I7**, cruise growth through product (section 4.3). **Indicator** T2-11 cruise calls, passengers and GDP-R at outcome level, against Wesgro's target of 250 calls over FY26 to FY30 (section 5.2)."
   }
  ]
 }

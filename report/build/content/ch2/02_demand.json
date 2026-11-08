@@ -20,11 +20,11 @@
   },
   {
    "type": "p",
-   "text": "The UK, Germany, the USA, the Netherlands and France supplied 63% of overseas arrivals in 2025, and the first three alone 52% (Demand-Side Analysis, Jun 2026, p13; the slide prints 61% in its text, and 63% is the sum of its printed shares). The pattern is not new: the top five held 61% of Cape Town overseas air arrivals from January to August 2024 (Current State Diagnostic, Dec 2025, p29)."
+   "text": "The UK, Germany, the USA, the Netherlands and France supplied 63% of overseas arrivals in 2025, and the first three alone 52% (Demand-Side Analysis, Jun 2026, p13; the slide prints 61% in its text, and 63% is the sum of its printed shares). The pattern is not new: the top five held 61% of Cape Town overseas air arrivals from January to August 2024 (Current State Diagnostic, Dec 2025, p29). Within the five, the USA is gaining. Its share of 2024 arrivals at Cape Town International rose 3.8 points on 2019, to 15.0%. The UK's and Germany's shares slipped by under a point and France's fell 1.6 points (Provincial Economic Review and Outlook 2025, p68 to p69)."
   },
   {
    "type": "p",
-   "text": "The same markets pay among the most. Average spend per visitor in 2024 ran from R32,900 for the USA and R26,500 for the UK down to R8,600 for Namibia and R8,500 for Zimbabwe (Demand-Side Analysis, Jun 2026, p14). Only Nigerians and Ghanaians spend as much, from a far smaller base (below). High-spend visitors come from Europe and North America, \"tying future value growth to slower-growing source markets\" (Demand-Side Analysis, Jun 2026, p14). The Western Cape must therefore hold yield in its mature markets while volume growth comes from elsewhere."
+   "text": "The same markets pay among the most. Average spend per visitor in 2024 ran from R32,900 for the USA and R26,500 for the UK down to R8,600 for Namibia and R8,500 for Zimbabwe (Demand-Side Analysis, Jun 2026, p14). Only Nigerians and Ghanaians spend as much, from a far smaller base (below). High-spend visitors come from Europe and North America, \"tying future value growth to slower-growing source markets\" (Demand-Side Analysis, Jun 2026, p14). The Provincial Treasury's 2024 regional averages are lower and rank the markets differently. Middle East visitors spend most, at R23,900, then Europeans at R19,900, while North Americans spend R16,100 against R17,000 for all international tourists (Provincial Economic Review and Outlook 2025, p67). [Open item: SA Tourism to confirm the basis of the per-market spend figures, which sit well above the Provincial Treasury's regional averages.] On both counts Europe spends more than most, so the Western Cape must hold yield in its mature markets while volume growth comes from elsewhere."
   },
   {
    "type": "h3",
@@ -37,6 +37,111 @@
   {
    "type": "p",
    "text": "Growth therefore depends on \"improving conversion in Apr-Sep rather than pushing incremental demand into already busy peak months\" (Market Assessment Report, May 2026, p25). Airlines cut seats in those same months, so filling the April to September green season needs seats as well as conversion (section 2.3)."
+  },
+  {
+   "type": "h3",
+   "text": "The province converts a small share of a large market"
+  },
+  {
+   "type": "p",
+   "text": "Global demand is not the constraint. Over 2022 to 2024 the province received 3.6 million international arrivals in total, about 1.2 million a year (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2, computed). That is about 0.1% of global tourist arrivals over the period and 0.05% of global tourist spend (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2)."
+  },
+  {
+   "type": "table",
+   "caption": "Market capture, 2022 to 2024",
+   "message": "The province takes under 0.3% of air outbound trips in every core market, and fewer than three in ten Indian or Chinese visitors to South Africa reach it.",
+   "columns": [
+    {
+     "header": "Market",
+     "width": 1.5,
+     "align": "left"
+    },
+    {
+     "header": "Air outbound trips (three-year total)",
+     "width": 1.3,
+     "align": "right"
+    },
+    {
+     "header": "Western Cape arrivals (three-year total)",
+     "width": 1.3,
+     "align": "right"
+    },
+    {
+     "header": "Western Cape share of air trips",
+     "width": 1.1,
+     "align": "right"
+    },
+    {
+     "header": "South Africa share of air trips",
+     "width": 1.1,
+     "align": "right"
+    },
+    {
+     "header": "Western Cape share of South Africa's arrivals",
+     "width": 1.3,
+     "align": "right"
+    }
+   ],
+   "rows": [
+    [
+     "United Kingdom",
+     "206m",
+     "553,032",
+     "0.27%",
+     "0.48%",
+     "56%"
+    ],
+    [
+     "USA",
+     "219.5m",
+     "414,863",
+     "0.19%",
+     "0.45%",
+     "42%"
+    ],
+    [
+     "Germany",
+     "219.7m",
+     "393,319",
+     "0.18%",
+     "0.31%",
+     "58%"
+    ],
+    [
+     "France",
+     "101m",
+     "177,979",
+     "0.18%",
+     "0.32%",
+     "55%"
+    ],
+    [
+     "India",
+     "64m",
+     "57,975",
+     "0.09%",
+     "0.33%",
+     "27%"
+    ],
+    [
+     "China with Hong Kong",
+     "99m",
+     "26,662",
+     "0.03%",
+     "0.09%",
+     "29%"
+    ]
+   ],
+   "boldFirstCol": true,
+   "source": "Wesgro Research, Tourism Source Market Analysis, Nov 2025, p4 (air outbound trips, arrivals and shares). All counts are three-year totals for 1 January 2022 to 31 December 2024; the source attributes global trips to Euromonitor International and arrivals to SA Tourism. Last column computed: Western Cape arrivals as a share of South Africa's arrivals from the same market."
+  },
+  {
+   "type": "p",
+   "text": "Most Indian and Chinese visitors to South Africa never reach the province. About 27% of South Africa's Indian arrivals and 29% of its Chinese arrivals came to the Western Cape over the three years, against 52% to 58% for the UK, Germany, France and the Netherlands (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p3, p4, computed). Those visitors are already in the country, so they are a market to win alongside new routes. South Africa also competes as an African choice more than a global one. Americans ranked it second in Africa but 52nd to 57th worldwide over 2022 to 2024, and Chinese travellers 53rd to 69th (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p5 to p6)."
+  },
+  {
+   "type": "p",
+   "text": "The model splits markets differently from SA Tourism. For the UK and Germany its 2025 starting points sit within about 1% of SA Tourism's yearly average for 2022 to 2024. For India and China with Hong Kong they are about four and five times it, 76,547 and 43,412 against about 19,300 and 8,900. The Netherlands' is about 1.8 times SA Tourism's and France's about a third (Wesgro Research, Tourism Source Market Analysis, Nov 2025, p3, p4, computed; Market Assessment Report, May 2026, p21, p22). The hub-traveller counts later in this section are a third series again. Section 1.1 records the open item on what the model counts."
   },
   {
    "type": "h3",
@@ -329,6 +434,14 @@
    "text": "Yet MICE is not one business. Meetings, incentives, conventions and exhibitions have different buyers and lead times. Only conferences are measured well, and meetings are \"absent from consolidated provincial statistics\" (Demand-Side Analysis, Jun 2026, p35, p36). Stellenbosch and George are credible secondary hubs that can take delegates' extra nights while major events stay in Cape Town (Demand-Side Analysis, Jun 2026, p41). The lever needs one events calendar, as Melbourne has (section 2.1), bids aimed at May to August and measures for each of its four businesses."
   },
   {
+   "type": "h3",
+   "text": "Domestic travel has not recovered"
+  },
+  {
+   "type": "p",
+   "text": "Domestic demand gives the province no cushion. The province recorded 3.458 million domestic trips in 2024, 6.1% fewer than at the start of 2020 (Provincial Economic Review and Outlook 2025, p69 to p70). Provinces such as the Eastern Cape drew more of the budget-conscious recovery (Provincial Economic Review and Outlook 2025, p69 to p70). The mandate here is international, but growth that lifts peak prices could crowd out the domestic visitors on whom the green season and the regions lean. The action plan should therefore track domestic trips as context."
+  },
+  {
    "type": "p",
    "text": "Pillar 1 must fill the green season, win growth markets on the routes and platforms they already use, hold yield in mature markets and build the African base. Seats, regional product and the enabling environment (sections 2.3 and 2.4) decide whether that demand lands."
   },
@@ -339,8 +452,8 @@
     "**FA01, Respond to growth segment traveller preferences.** Four segments, each with named priority markets.",
     "**FA02, Create green-season demand with MICE and events.** Most international association meetings fall from May to November, but 74 of 136 fell in September to November. Bids must aim at the May to August trough. The seat side of the case sits in section 2.3.",
     "**FA03, Make the whole province findable and bookable.** Conversion runs through market-specific platforms that Western Cape product must reach.",
-    "**FA04, Convert India and China hub traffic.** About 101,000 hub journeys a year and a direct Indian route unlikely before 2030.",
-    "**FA05, Increase yield in mature markets.** The highest-spending visitors come from the slowest-growing markets.",
+    "**FA04, Convert India and China hub traffic.** About 101,000 hub journeys a year and a direct Indian route unlikely before 2030. On SA Tourism's count, fewer than three in ten Indian or Chinese visitors to South Africa reach the province.",
+    "**FA05, Increase yield in mature markets.** The highest-spending visitors come from the slowest-growing markets. The province takes under 0.3% of their air trips, and the USA gains share while the UK, Germany and France lose it.",
     "**FA06, Build a regional foundation (Africa).** A large regional base and two high-yield growth markets."
    ]
   }

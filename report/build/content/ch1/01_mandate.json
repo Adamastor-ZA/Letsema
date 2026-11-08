@@ -52,19 +52,83 @@
   },
   {
    "type": "p",
-   "text": "**Airlift and cruise.** The ambition was twice the airlift and cruise volumes. Section 3.2.1 sets airlift as the seats and routes needed to lift the model's 1.8 million seat line (Market Assessment Report, May 2026, p20). It sets cruise as calls and ports [Cruise Cape Town to confirm the call target and its definition]. The cruise baseline is 79 vessels in the 2024/25 season (Current State Diagnostic, Dec 2025, p37). Of the four ambitions, only arrivals has a target the evidence supports today. The other three go forward with their baselines still to be fixed."
+   "text": "**Airlift and cruise.** The ambition was twice the airlift and cruise volumes. Section 3.2.1 sets airlift as the seats and routes needed to lift the model's 1.8 million seat line (Market Assessment Report, May 2026, p20). It sets cruise as calls and ports. Wesgro's plan targets 250 ship calls over FY26 to FY30, or 50 a year. That pace rounds up a base of 47 calls a year, which is the 67 calls of 2023/24 less 20 ships rerouted by the Middle East conflict (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). [Summary of Findings, 14 Oct 2026: Cruise Cape Town to confirm that the deck's 250 calls are the plan's five-year total.] The cruise baseline is 79 vessels in the 2024/25 season (Current State Diagnostic, Dec 2025, p37). Of the four ambitions, only arrivals has a target the evidence supports today. The other three go forward with their baselines still to be fixed."
   },
   {
    "type": "h3",
-   "text": "Wesgro's arrivals metric fits a ten-year reading"
+   "text": "Wesgro's five-year targets ask for a step change in arrivals"
   },
   {
    "type": "p",
-   "text": "Wesgro measures itself against six strategic outcomes, each with one metric. Two bear on tourism: 800,000 to 1 million new international tourist arrivals and 161 business event bids secured, worth an estimated R4.5 billion (Inception Report, Nov 2025, p6; the other four are a 120 million audience reached, R30 billion of new investment, R9.1 billion of new export declarations and a future-fit and trusted Wesgro, with a clean audit, satisfied clients and low culture entropy). None of the six states a period [Wesgro to confirm the period over which the six outcome metrics are measured]."
+   "text": "Wesgro's FY26 to FY30 plan sets six tourism targets, each over the plan's five years (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). Two of them also measure Wesgro's strategic outcomes for leisure tourism and business events: 800,000 to 1 million new international tourist arrivals and 161 business event bids secured, worth an estimated R4.5 billion (Inception Report, Nov 2025, p6). The other four are 250 ship calls, 10 new air routes, three international tourism marketing campaigns and 12,500 international tourism trade engagements. A new route is a scheduled international service flying to and from Cape Town for the first time (Wesgro, Strategic Plan 2025/26 to 2029/30, p59). The table sets each target beside what this report carries."
+  },
+  {
+   "type": "table",
+   "caption": "Wesgro's targets beside this report",
+   "message": "Wesgro's activity targets roughly hold today's pace, while its arrivals target asks for more than any modelled path adds by 2030.",
+   "columns": [
+    {
+     "header": "Wesgro target",
+     "width": 2.6,
+     "align": "left"
+    },
+    {
+     "header": "FY26 to FY30",
+     "width": 1.9,
+     "align": "left"
+    },
+    {
+     "header": "What this report carries",
+     "width": 4.7,
+     "align": "left"
+    }
+   ],
+   "rows": [
+    [
+     "New international tourist arrivals",
+     "800,000 to 1 million",
+     "About 2.6 to 3.3 times what the base case adds by 2030 (computed); T1-01"
+    ],
+    [
+     "Business event bids",
+     "161 secured, worth an estimated R4.5bn",
+     "About 32 a year (computed), against 36 conference bids secured in 2024/25; T2-02 tracks association meetings"
+    ],
+    [
+     "Ship calls",
+     "250",
+     "50 a year, against 79 vessels in 2024/25; T2-11"
+    ],
+    [
+     "New air routes",
+     "10",
+     "Two a year, against about 1.7 a year from 2015 to 2025 (computed); T2-09"
+    ],
+    [
+     "International tourism marketing campaigns",
+     "3",
+     "Segment-led activation and hub conversion in I1 and I4, conversion before awareness; T3-01, T3-02, T3-07 and T3-08"
+    ],
+    [
+     "International tourism trade engagements",
+     "12,500",
+     "2,500 a year, flat on the 2,500 of FY24 (computed); T3-37"
+    ]
+   ],
+   "boldFirstCol": true,
+   "source": "Targets and the FY24 trade count: Wesgro, Strategic Plan 2025/26 to 2029/30, p20; route definition, p59. Arrivals paths: Market Assessment Report, May 2026, p19, p20. Bids: Demand-Side Analysis, Jun 2026, p36. Cruise: Current State Diagnostic, Dec 2025, p37. Routes: MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\". Annual rates and multiples are computed."
   },
   {
    "type": "p",
-   "text": "The period decides how the arrivals metric compares with the growth case. Over ten years, 800,000 to 1 million new arrivals sits between the two paths, which add 676,949 and 1,017,453 from 2025 to 2035 (Market Assessment Report, May 2026, p19). Yet over the five years to 2030 it is more than twice what the base case adds by then, about 304,000 (Market Assessment Report, May 2026, p20; computed)."
+   "text": "The five-year period decides how the arrivals target compares with the growth case. From 2025 to 2030 the base case adds about 304,000 arrivals and the accelerated case about 443,000 (Market Assessment Report, May 2026, p19, p20; computed). Wesgro's 800,000 to 1 million is 2.6 to 3.3 times the base case's gain and about twice the accelerated case's (computed). No modelled path delivers it by 2030; the two paths need ten years to add 676,949 and 1,017,453 (Market Assessment Report, May 2026, p19). Wesgro's own target therefore sharpens the case that growth is a supply programme. [Wesgro to confirm the base year from which the new arrivals are counted.]"
+  },
+  {
+   "type": "p",
+   "text": "The activity targets, by contrast, roughly hold today's pace. Each year they ask for about 32 bids, 50 ship calls and two new routes. The recent pace is 36 bids secured and 79 vessels in 2024/25, and about 1.7 new routes a year from 2015 to 2025 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20; Demand-Side Analysis, Jun 2026, p36; Current State Diagnostic, Dec 2025, p37; MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"; computed). The cruise target sits below the last season partly because its base leaves out the ships rerouted in 2023/24. Trade engagements stay at 2,500 a year, flat on FY24. The step change sits in the outcome, not in the activity."
+  },
+  {
+   "type": "p",
+   "text": "Wesgro calls the outcome behind its arrivals target \"growth in leisure tourism consideration in international and local markets\" (Inception Report, Nov 2025, p6; Wesgro, Strategic Plan 2025/26 to 2029/30, p19). Yet consideration is not the constraint: about 97 million high-value travellers are interested in South Africa, and about 1.4 million convert (section 1.3). When it next revises its plan, Wesgro should state the outcome as conversion and value."
   },
   {
    "type": "p",
@@ -72,7 +136,7 @@
   },
   {
    "type": "h3",
-   "text": "The Growth for Jobs target sits above both paths"
+   "text": "Alignment rests on value and spread as well as arrivals"
   },
   {
    "type": "p",
@@ -80,11 +144,19 @@
   },
   {
    "type": "p",
-   "text": "The Growth for Jobs Strategy 2023, approved by Cabinet, designates tourism a primary tradable sector for the province (Inception Report, Nov 2025, p34; Current State Diagnostic, Dec 2025, p5). Its arrivals target is 3 million international tourist arrivals by 2035 on the South African Tourism basis (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). [G4J 2023 document to be read and the 3 million target confirmed against it.] On that basis the province received 1,538,142 in 2025 (Wesgro Research, Western Cape Tourism Performance: Annual 2025, from SA Tourism data; public source; the 2025 count rose 11.1% on the year), still below the 2 million of 2019 on which G4J builds. The 3 million sits above both of the model's paths. Part of the gap is method: G4J adds 1 million to the 2019 count, while the model builds up market by market against the seats the gateway can carry. Part may be measure, because what the model counts is not yet confirmed (see the closing note). Until it is, the 2.5 million cannot be set directly against the 3 million."
+   "text": "The Growth for Jobs Strategy 2023, approved by Cabinet, designates tourism a primary tradable sector for the province (Inception Report, Nov 2025, p34; Current State Diagnostic, Dec 2025, p5). Wesgro states the G4J arrivals target two ways. To the parliamentary committee it gave 3 million international tourist arrivals by 2035 on the South African Tourism basis (Wesgro, presentation to the parliamentary committee, 1 Apr 2026; public source). Its FY26 to FY30 plan gives 3 million by 2030, as the 2 million of 2019 plus 1 million (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). [G4J 2023 document to be read and the 3 million target confirmed against it.] On South African Tourism's count the province received 1,538,142 in 2025 (Wesgro Research, Western Cape Tourism Performance: Annual 2025, from SA Tourism data; public source; the 2025 count rose 11.1% on the year), still below the 2 million of 2019 on which G4J builds. On either date the 3 million sits above both of the model's paths. Part of the gap is method: G4J adds 1 million to the 2019 count, while the model builds up market by market against the seats the gateway can carry. Part may be measure, because what the model counts is not yet confirmed (see the closing note). Until it is, the 2.5 million cannot be set directly against the 3 million."
   },
   {
    "type": "p",
-   "text": "Wesgro's FY26 to FY30 plan is the second test. Wesgro's strategy statements are quoted above at second hand, but the FY26 to FY30 plan itself, with its tourism targets, is not in the evidence base (Inception Report, Nov 2025, p34). Until it is, alignment can be stated only in principle [Wesgro to supply the FY26 to FY30 plan and its tourism targets, so that the Chapter 5 baselines and the Chapter 4 phase gates can be mapped to the plan cycle]. Yet the timing already fits. Chapter 4 sets its first decision gate at the end of 2028, inside the plan period and before the base case crosses the model's seat line."
+   "text": "Growth for Jobs also sets a value test. It calls tourism the province's most obvious service export and aims to triple the value of the province's exports of goods and services, tourism included, by 2035 (Growth for Jobs Strategy 2023, p11, p14). On the model's base case, direct foreign spend rises about 1.5 times from the modelled R27.12bn of 2024 to R40.6bn in 2035, in constant 2024 rand (Market Assessment Report, May 2026, p24; computed). That falls short of the tripling G4J sets for exports as a whole, though the bases differ, so alignment will be tested on value, not only arrivals. Chapter 5 tracks spend, season and spread beside arrivals."
+  },
+  {
+   "type": "p",
+   "text": "Wesgro's FY26 to FY30 plan is the second test, and its six targets let alignment rest on numbers rather than principle. The timing fits too. Chapter 4 sets its first decision gate at the end of 2028, inside the plan period and before the base case crosses the model's seat line. That gate is the point to map the initiatives' outputs to the plan's six targets and to state which of them the action plan would raise."
+  },
+  {
+   "type": "p",
+   "text": "The Tourism Blueprint 2030, the province's sector roadmap, is not one of the contract's two tests, but it points the same way. Its objectives include growing visitor numbers and yield, raising the destination's global profile and improving customer experiences. Others are to develop tourism infrastructure, spread tourism benefits geographically, prioritise district tourism development, ease business for tourism firms and build industry partnerships (Tourism Blueprint 2030, p9). These map onto the action plan's three pillars. Numbers, yield and profile sit in demand; infrastructure, spread, district development and customer experience in supply; partnerships and ease of business in enablement. The Blueprint's renewed focus on domestic markets lies outside this study's international mandate."
   },
   {
    "type": "h3",
@@ -92,7 +164,7 @@
   },
   {
    "type": "p",
-   "text": "Four kinds of arrivals figure circulate around this study: ambitions, airport passengers, South African Tourism's tourist arrivals and the model's arrivals. Appendix A2 lists all eight with their bases. The report keeps them apart under three rules. Airport passenger arrivals at Cape Town International, by fiscal year, are the baseline and tracking series, with FY24/25 at 1.44 million (Current State Diagnostic, Dec 2025, p26, p41; the source uses Cape Town air arrivals as its provincial proxy). The model's 2025 base of 1,498,829 and its 2035 points are the target series. [Open item: Skift to confirm in writing what the model counts (SA Tourism tourist arrivals, ACSA passengers including returning residents or OAG origin-and-destination flows) and how the Hubs group is built.] South African Tourism's provincial count is used once, to read across to the G4J target. The report quotes the series side by side and never adds one to the other [model owner to confirm the series and year basis behind the 2025 base of 1,498,829]."
+   "text": "Four kinds of arrivals figure circulate around this study: ambitions, airport passengers, South African Tourism's tourist arrivals and the model's arrivals. Appendix A2 lists every such figure with its base. The report keeps them apart under three rules. Airport passenger arrivals at Cape Town International, by fiscal year, are the baseline and tracking series, with FY24/25 at 1.44 million (Current State Diagnostic, Dec 2025, p26, p41; the source uses Cape Town air arrivals as its provincial proxy). The model's 2025 base of 1,498,829 and its 2035 points are the target series. [Open item: Skift to confirm in writing what the model counts (SA Tourism tourist arrivals, ACSA passengers including returning residents or OAG origin-and-destination flows) and how the Hubs group is built.] South African Tourism's provincial count is used to read across to the G4J target and, through Wesgro Research's source market analysis, to measure the province's share of global and market travel from 2022 to 2024. The report quotes the series side by side and never adds one to the other [model owner to confirm the series and year basis behind the 2025 base of 1,498,829]."
   }
  ]
 }

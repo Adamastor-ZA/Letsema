@@ -1,0 +1,3274 @@
+{
+ "edits": [
+  {
+   "module": "ch4/01_portfolio.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "The 112 actions say who does what",
+   "repl": "The 117 actions say who does what",
+   "reason": "Chapter 3 now carries 117 actions: the v12 Chapter 3 edits add a row each to focus areas 1, 4, 7, 9 and 19 (A7 rebuilt from them).",
+   "computed": [
+    "117"
+   ]
+  },
+  {
+   "module": "ch4/01_portfolio.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "The indicators, 7 at impact, 25 at outcome and 36 at output level,",
+   "repl": "The indicators, 7 at impact, 28 at outcome and 37 at output level,",
+   "reason": "Assessment 5, Chapter 5, \"New\" (Medium): two Tier 2 indicators (T2-26 overnight share, T2-27 tourist spend share of GDPR, by district) and one Tier 3 output (T3-37 trade engagements) join the register (section 5.2). Review: T2-28 safety perception (assessment 5, New, Medium) also added, so 28 outcome indicators."
+  },
+  {
+   "module": "ch4/02_sequencing.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "It holds and adds seats on the full routes and builds the air access fund (I6).",
+   "repl": "It holds and adds seats on the full routes, opens new routes outside the peak hours and builds the air access fund (I6).",
+   "reason": "Assessment 6, challenge to FA07 (existing seats only until about 2033): Wesgro's plan expects 10 new routes by FY30 (plan pp20, 59), so Phase 1 opens off-peak routes as well (as FA07 now says)."
+  },
+  {
+   "module": "ch4/02_sequencing.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "The gate at the end of 2028 asks three questions. Have seats on the full routes held? Does the bookability baseline exist and is it moving? Has any pilot met its thresholds?",
+   "repl": "The gate at the end of 2028 asks four questions. Have seats on the full routes held? Does the bookability baseline exist and is it moving? Has any pilot met its thresholds? Which of Wesgro's FY26 to FY30 targets will the outputs meet (section 4.7)?",
+   "reason": "Assessment 5, Chapter 4, Governance (High): at Gate 1, map outputs to the plan targets (section 4.7 sets it out); section 1.1 names Gate 1 as the point for this mapping."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "Research; trade and OTA partners; SA Tourism",
+   "repl": "Research; trade and OTA partners; SA Tourism; City of Cape Town; Cape Town Tourism",
+   "reason": "Assessment 5, FA01 (Medium): the City uses its own four segments (TDF p5); FA01's action table now has the City and Cape Town Tourism map them onto the plan's."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "a shared segment frame with SA Tourism;",
+   "repl": "a shared segment frame with SA Tourism, the City and Cape Town Tourism;",
+   "reason": "Follows FA01: one segment frame includes the City and Cape Town Tourism (TDF p5)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "T3-02 share of market budget in trade-led conversion.",
+   "repl": "T3-02 share of market budget in trade-led conversion; T3-37 international tourism trade engagements by market.",
+   "reason": "Assessment 5, Chapter 5, New (Medium): Tier 3 trade engagements by market, against Wesgro's 12,500 over FY26 to FY30 and 2,500 in FY24 (plan p20)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "across Wesgro, the Convention Bureau, the City and the Province;",
+   "repl": "across Wesgro, the Convention Bureau, the City and the Province, building on the City's events programme;",
+   "reason": "Assessment 5, FA02 (Medium): fold the City's year-round campaign and events programme into I2 (TDF pp5 to 6), as FA02 now does."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "T2-02 ICCA meetings,",
+   "repl": "T2-02 ICCA meetings and bids secured, against Wesgro's 161 over FY26 to FY30,",
+   "reason": "Assessment 5, Chapter 5, T2-02 and T3-04 (Medium): the plan targets 161 business event bids secured over FY26 to FY30 (plan p20)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "T3-04 bids for May to September events.",
+   "repl": "T3-04 all bids submitted, and those for May to September events.",
+   "reason": "Assessment 5, Chapter 5, T2-02 and T3-04 (Medium): extend T3-04 to all bids, so it feeds the plan target. Review: wording."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 15,
+   "op": "replace_text",
+   "find": "Air Access; hub carriers; OTAs; trade",
+   "repl": "Air Access; hub carriers; OTAs; trade; inbound operators",
+   "reason": "Follows FA04 (assessment 5, Medium): the Johannesburg-gateway lever works through inbound operators."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 15,
+   "op": "replace_text",
+   "find": "in-market activation with Trip.com packages and market-specific itineraries;",
+   "repl": "in-market activation with Trip.com packages and market-specific itineraries, run as conversion campaigns; Johannesburg-gateway itineraries with a flight to Cape Town for Indian and Chinese visitors already bound for South Africa;",
+   "reason": "Assessment 5, FA04 (Medium): a second lever, visitors already in South Africa; the plan's campaigns run as conversion campaigns (plan p20). Mirrors FA04's new action row."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 15,
+   "op": "replace_text",
+   "find": "standing relationships with Indian carriers, China Southern and China Eastern.",
+   "repl": "standing relationships with Indian carriers, Cathay Pacific, China Southern and China Eastern.",
+   "reason": "Assessment 5, FA04 (Medium): add Cathay Pacific (Letsema Update slide 13), as FA04 now does."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 21,
+   "op": "replace_text",
+   "find": "Hold and add seats on the full routes until runway relief, and have direct route cases ready when it arrives.",
+   "repl": "Hold and add seats on the full routes until runway relief, win Wesgro's 10 new routes by FY30 and have direct route cases ready when relief arrives.",
+   "reason": "Assessment 5, FA07 (High) and Chapter 5, T2-09 (High): the plan targets 10 new routes by FY30, a new route being first-time scheduled international service (plan pp20, 59)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 21,
+   "op": "replace_text",
+   "find": "DEDAT; City of Cape Town; ACSA; airlines; private sector",
+   "repl": "DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; airlines; private sector",
+   "reason": "Assessment 5, Chapter 4 owners (High): the I6 route-fund partners gain Cape Town Tourism and SA Tourism, the Cape Town Air Access partners (Letsema Update, slide 1). ACSA was already listed."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 21,
+   "op": "replace_text",
+   "find": "a seat-retention and frequency programme on the full routes with joint marketing;",
+   "repl": "a seat-retention and frequency programme on the full routes with joint marketing; new routes outside the peak hours, regional and hub links first, with belly cargo counted in each route case;",
+   "reason": "Follows FA07 (assessment 5, High and Medium): the 10 new routes come off-peak and from regional and hub links before runway relief; belly cargo strengthens route cases (draft PLTF ch3). Mirrors FA07's new action row. Review: wording."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 21,
+   "op": "replace_text",
+   "find": "T2-09 seats and routes,",
+   "repl": "T2-09 seats and new routes, with load factor and route survival,",
+   "reason": "Assessment 5, Chapter 5, T2-09 (High): load factor and route survival as quality tests."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 24,
+   "op": "replace_text",
+   "find": "Grow cruise calls and shore spend through ships that fit, packaged excursions and regional day stops.",
+   "repl": "Meet and report against Wesgro's 250 calls over FY26 to FY30, and grow shore spend through ships that fit, packaged excursions and regional day stops.",
+   "reason": "Decisions, 250 cruise calls: a five-year total in the plan, about 50 a year (plan p20); the source and horizon are closed. Review: the plan's 250 is about 50 a year, below the 79 vessel visits of 2024/25, so the objective reports against it rather than 'reaching' it."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 24,
+   "op": "replace_text",
+   "find": "Transnet National Ports Authority; V&A Waterfront; Mossel Bay municipality; cruise lines",
+   "repl": "Transnet National Ports Authority; V&A Waterfront; City of Cape Town; Mossel Bay municipality; cruise lines",
+   "reason": "Assessment 5, Chapter 4 owners (High): add the City to I7. The City's framework runs an air, rail and cruise access programme (TDF p6; cited in section 4.4)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 24,
+   "op": "replace_text",
+   "find": "line targeting for ships that fit the 300m berth; Mossel Bay excursion packages; source and define the 250-call plan.",
+   "repl": "line targeting for ships that fit the 300m berth, world-cruise lines first; Mossel Bay excursion packages; one definition of a call for reporting against the 250.",
+   "reason": "Decisions, 250 cruise calls: the source is closed (plan p20), so the design step becomes a reporting definition (79 vessel visits against 83 calls stays open, assessment 3). Assessment 5, FA08 (High): world cruises first, as FA08's action row now says."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 24,
+   "op": "replace_text",
+   "find": "Red Sea reroutes reverse; the 300m ship-length limit (Infrastructure Report, Jul 2026, p110, p112).",
+   "repl": "Red Sea reroutes, which made 20 of 67 calls in 2023/24, end (Wesgro, Strategic Plan 2025/26 to 2029/30, p20); the 300m ship-length limit (Infrastructure Report, Jul 2026, p110, p112).",
+   "reason": "Decisions, cruise value: in 2023/24, 20 of 67 calls were Red Sea reroutes (plan p20); assessment 4, reroute risk. Review: wording."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 24,
+   "op": "replace_text",
+   "find": "T2-11 cruise calls and passengers;",
+   "repl": "T2-11 cruise calls, passengers and GDP-R;",
+   "reason": "Assessment 5, Chapter 5, T2-11 (High): add cruise GDP-R from StratEcon."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "Make the transport that exists usable for visitors and aggregate the demand that makes corridor shuttles viable.",
+   "repl": "Make the transport that exists usable for visitors from the airport onward and aggregate the demand that makes corridor shuttles viable.",
+   "reason": "Assessment 5, FA09 (High) and 6 (I8 has no airport leg): add the airport-to-city leg."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "City of Cape Town; PRASA; district municipalities; private operators",
+   "repl": "City of Cape Town; ACSA; PRASA; district municipalities; private operators",
+   "reason": "Assessment 5, Chapter 4 owners (High): I8 adds ACSA and the airport leg (draft PLTF ch12: revive the MyCiTi airport service with ACSA)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "transfers sold inside N2 and R62 itineraries.",
+   "repl": "airport and corridor transfers sold inside N2 and R62 itineraries. The airport leg is designed with the City and ACSA. The draft land transport framework proposes to revive the MyCiTi airport service and to plan facilities for e-hailing and metered taxis at Cape Town International (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12).",
+   "reason": "Assessment 5, FA09 (High) and decisions, existing programmes: the draft PLTF plans to revive the MyCiTi airport service with ACSA and to provide for e-hailing and metered taxis at CTIA (ch12, pp12-8 to 12-10). Stated as a plan, not as a running service. The airport transfer is sold inside the itinerary, as FA09's action row now says. Review: the framework speaks of reviving the service with ACSA and of regulation and facilities for metered taxis and e-hailing (ch12, p12-9), not staging."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "Shuttle products in operation; Central Line recovery, MyCiTi Phase 2 and integrated ticketing.",
+   "repl": "Shuttle products in operation; Central Line recovery and integrated ticketing; visitor routes on MyCiTi Phase 2A to Khayelitsha and Mitchells Plain, which the draft framework targets for 2027 (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-24).",
+   "reason": "Assessment 5, FA09 (Medium) and 6: MyCiTi Phase 2A to Khayelitsha and Mitchells Plain is targeted for 2027 (draft PLTF p3-24), earlier than I8 assumed. Dated as the framework's target, not as current fact."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "PRASA and the City of Cape Town;",
+   "repl": "PRASA, ACSA and the City of Cape Town;",
+   "reason": "Follows the airport leg: ACSA becomes a dependency of I8."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 27,
+   "op": "replace_text",
+   "find": "Main: provincial and municipal budgets, national programmes and SOEs. Supporting: Wesgro operating budget, private capital.",
+   "repl": "Main: provincial and municipal budgets, including the provincial transport budget; national programmes and SOEs. Supporting: Wesgro operating budget, private capital.",
+   "reason": "Assessment 5, Chapter 4, Funding (Medium): name the R22.8bn provincial transport MTEF (draft PLTF p xix) as I8's route; the figure is given in section 4.6. Review: list repaired; the cell already points to section 4.6, where the R22.8bn is given."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 30,
+   "op": "replace_text",
+   "find": "LTOs; district municipalities; CapeNature; SANParks; private investors",
+   "repl": "City of Cape Town; LTOs; district municipalities; CapeNature; SANParks; private investors",
+   "reason": "Assessment 5, Chapter 4 owners (High) and FA10 (Medium): the City's Cape Town+ proposition (TDF p5) makes it a partner on I9, as FA10 now says."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 30,
+   "op": "replace_text",
+   "find": "itineraries for the six touring routes;",
+   "repl": "itineraries for the six touring routes, sold with the City's Cape Town+ proposition;",
+   "reason": "Follows FA10: the City's Cape Town+ proposition links the city with the surrounding regions (TDF p5)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 30,
+   "op": "replace_text",
+   "find": "T1-06; T2-14 readiness by district;",
+   "repl": "T1-06; T2-14 readiness by district, T2-26 overnight share by district, T2-27 tourist spend share of district GDPR;",
+   "reason": "Assessment 5, Chapter 5, New (Medium): Tier 2 overnight share and spend share of GDPR by district (MERO), placed with I9 and focus area 10, which turn district assets into overnight stays."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 36,
+   "op": "replace_text",
+   "find": "SANParks; Table Mountain Aerial Cableway; CapeNature; Robben Island Museum; City of Cape Town",
+   "repl": "SANParks; Table Mountain Aerial Cableway; CapeNature; Robben Island Museum; City of Cape Town; Provincial Treasury",
+   "reason": "Follows FA12's action row: the capacity baseline is published beside the Treasury's visitor counts."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 36,
+   "op": "replace_text",
+   "find": "a baseline of visitor counts and capacity for five flagship sites; marketing of Cape Point, the reserves and the Southern Line as alternatives.",
+   "repl": "a capacity baseline for the flagship sites, beside the Treasury's 2023 visitor counts; marketing of Stony Point instead of Boulders at the peak, and of the receiving reserves and the Southern Line towns.",
+   "reason": "Decisions, Cape Point and flagship counts; assessment 4 conflict \"Cape Point\" (fix now) and 6 (FA12, I11): Cape Point drew 940,399 visitors in 2023 and is not an alternative; Stony Point is the named alternative to Boulders; the counts exist (MERO Cape Metro p69) and capacity stays open."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 36,
+   "op": "replace_text",
+   "find": "T2-16 peak Cableway queue;",
+   "repl": "T2-16 peak Cableway queue and flagship visitors;",
+   "reason": "Assessment 5, Chapter 5, T2-16 (High): add a flagship visitor count (MERO Cape Metro p69)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 39,
+   "op": "replace_text",
+   "find": "Municipalities; LTOs; community sellers; SAPS",
+   "repl": "Municipalities, with the City of Cape Town in Metro pilots; LTOs; community sellers; SAPS",
+   "reason": "Assessment 5, Chapter 4 owners (High): add the City to I12; FA13 (Medium): City community programmes can host sellers in Metro pilots (TDF pp5 to 6). Same wording as FA13."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 39,
+   "op": "replace_text",
+   "find": "agreement on who funds a seller with a stake in each;",
+   "repl": "agreement on who funds a seller with a stake in each, hosted in Metro pilots by the City's community programmes where they still run;",
+   "reason": "Follows FA13 (TDF pp5 to 6)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 42,
+   "op": "replace_text",
+   "find": "Municipalities; district municipalities; CapeNature; site operators",
+   "repl": "Municipalities; district municipalities; CapeNature; site operators; Provincial Treasury",
+   "reason": "Follows FA14: the Treasury's district reviews already feed municipal IDPs (MERO Cape Metro pp4 to 5)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 42,
+   "op": "replace_text",
+   "find": "Funding agreements signed; sustainability checks in the quality charter;",
+   "repl": "Funding agreements signed and written into IDPs from 2029, through the Treasury's district reviews; sustainability checks in the quality charter;",
+   "reason": "Assessment 6 (FA14: IDP integration from 2032 challenged; MERO already feeds IDPs yearly) and FA14 as now edited: the IDP step moves to 2029."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 45,
+   "op": "replace_text",
+   "find": "DEDAT; Tourism; private investors; municipalities",
+   "repl": "DEDAT; Department of Mobility; Tourism; private investors; municipalities",
+   "reason": "Assessment 5, FA15 (High) and Chapter 4 owners: the Department of Mobility plans its own tourist levy case (draft PLTF ch12), so it joins I14, as FA15 now says."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 45,
+   "op": "replace_text",
+   "find": "for accommodation at De Hoop and on Route 62.",
+   "repl": "for accommodation at De Hoop and on Route 62; agreement with the Department of Mobility that its tourist levy case also covers destination management.",
+   "reason": "Follows FA15: DEDAT and the Department of Mobility agree one levy case in 2027 (this report's recommendation)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 45,
+   "op": "replace_text",
+   "find": "a tourism levy and blended finance tested with DEDAT.",
+   "repl": "one levy case for the visitor economy and blended finance tested with DEDAT, the Department of Mobility and the City.",
+   "reason": "Follows FA15: one levy case for the visitor economy, our recommendation (assessment 5, FA15, High)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 48,
+   "op": "replace_text",
+   "find": "JAMS adopted as the consultation channel;",
+   "repl": "JAMS adopted as the consultation channel; a link to the City's tourism coordinating cluster, if the City set one up;",
+   "reason": "Assessment 5, Chapter 4 owners (High): link Steerco to the City's Tourism Coordinating Cluster, if it exists (TDF pp5 to 6), as FA16 now says."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 51,
+   "op": "replace_text",
+   "find": "Stats SA; SA Tourism; ACSA; Cape Town Tourism; booking platforms",
+   "repl": "Stats SA; SA Tourism; ACSA; Cape Town Tourism; Provincial Treasury; Department of Mobility (Integrated Transport Hub); booking platforms",
+   "reason": "Assessment 5, Chapter 4 owners (High) and FA18 (High): I16 adds the Provincial Treasury and the Transport Hub (MERO Cape Metro pp68 to 73; draft PLTF p3-60)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 51,
+   "op": "replace_text",
+   "find": "data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, site operators and booking platforms;",
+   "repl": "data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the Provincial Treasury, the Department of Mobility, site operators and booking platforms;",
+   "reason": "Follows FA18: the two provincial data holders enter the 2027 data-sharing round."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 51,
+   "op": "replace_text",
+   "find": "District arrivals and spend baseline;",
+   "repl": "District arrivals and spend baseline, built on the Treasury's district reviews;",
+   "reason": "Assessment 3, \"District arrivals and spend (T1-06; 5.3 [11])\": narrows; a source exists, no baseline yet."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "Wesgro CEO's office, with DEDAT",
+   "repl": "Wesgro CEO's office, with DEDAT; the Advocacy and Advisory unit proposed to run the agenda day to day",
+   "reason": "Assessment 5, Chapter 4 owners (High): the Advocacy and Advisory unit as day-to-day owner, once confirmed (plan p27); Steerco confirms leads."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "Home Affairs; Department of Transport; SAPS; ACSA; SA Tourism",
+   "repl": "Home Affairs; Department of Transport; SAPS; ACSA; SA Tourism; City of Cape Town; Department of Mobility",
+   "reason": "Assessment 5, Chapter 4 owners (High): add the City to I17 (Tourist Safety Programme, TDF p5); the Department of Mobility carries the N2 airport-corridor action FA19 now lists (draft PLTF ch12)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "visa categories and processing for China, India, the Middle East and Africa;",
+   "repl": "visa categories and processing for China, India, the Middle East and Africa, starting from the reforms DEDAT's visa study ranks (BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024, p34);",
+   "reason": "Assessment 5, FA19 (High): BDO ranked reforms as the visa half of I17 (p34), filtered to tourism, as FA19 now says."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "station security. Evidence built market by market.",
+   "repl": "station security; the N2 airport corridor. Evidence built market by market. Safety work built on the City's Tourist Safety Programme from 2027, once the City confirms which parts run (City of Cape Town, Tourism Development Framework 2019 to 2024, p5).",
+   "reason": "Assessment 6 (FA19, I17: partners set up safety units from 2029; the City has designed the programme, build on it sooner) and 5, FA19 (Medium): the N2 airport corridor (draft PLTF ch12)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "tourism safety units and programmes with the Western Cape Government;",
+   "repl": "tourism safety units scaled with the Western Cape Government and the City;",
+   "reason": "Follows the Activate change: units are scaled from the City's programme rather than set up in 2029."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 54,
+   "op": "replace_text",
+   "find": "T2-24 visa processing time,",
+   "repl": "T2-24 visa processing time and eVisa decisions before the travel date, T2-28 visitors who report feeling safe,",
+   "reason": "Assessment 5, Chapter 5, T2-24 (Medium): add eVisa decisions before the travel date. Review: T2-28 added as I17's safety outcome (assessment 5, Chapter 5, New, Medium)."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 57,
+   "op": "replace_text",
+   "find": "the Pero 2025 tourism employment table extracted;",
+   "repl": "the Pero 2025 tourism employment table extracted; the 300,000 first tested against about 3.3 total jobs per direct job (City of Cape Town, Tourism Development Framework 2019 to 2024, p3; computed);",
+   "reason": "Assessment 5, FA20 (Medium): the TDF ratio of about 3.3 total jobs per direct job (p3, computed) gives I18 a test for the 300,000, as FA20 now says. Review: the City prints counts (45,000 direct, 150,000 total; TDF p3), not a ratio; the ratio is computed and cited.",
+   "computed": [
+    "3.3"
+   ]
+  },
+  {
+   "module": "ch4/04_raci.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "Province: DEDAT and the Department of Mobility.",
+   "repl": "Province: DEDAT, the Department of Mobility and the Provincial Treasury.",
+   "reason": "The Provincial Treasury joins I13 and I16 as a partner (assessment 5, FA18 and Chapter 4 owners). RACI codes are unchanged."
+  },
+  {
+   "module": "ch4/04_raci.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "carried by Steerco through DEDAT to the national departments and SOEs.",
+   "repl": "carried by Steerco through DEDAT to the national departments and SOEs. Wesgro's Advocacy and Advisory unit, set up to build evidence-based policy feedback on levers the province does not control, is proposed to run it day to day (Wesgro, Strategic Plan 2025/26 to 2029/30, p27). DEDAT's visa study supplies its visa asks, already ranked (BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024, p34).",
+   "reason": "Assessment 5, Chapter 4 owners (High): the Advocacy and Advisory unit for I17 (plan p27); decisions, existing programmes: the BDO study and its ranked reforms (p34)."
+  },
+  {
+   "module": "ch4/04_raci.json",
+   "index": 8,
+   "op": "replace_text",
+   "find": "The Department of Mobility leads the transport half of corridor mobility (I8).",
+   "repl": "The Department of Mobility leads the transport half of corridor mobility (I8), including the airport leg with the City and ACSA. It also joins the levy case (I14) and brings its Integrated Transport Hub into the data protocol (I16). The Provincial Treasury's district reviews feed the data protocol and the IDP step (I13, I16).",
+   "reason": "Assessment 5, Chapter 4 owners (High): I8 adds ACSA and the airport leg; I14 adds the Department of Mobility; I16 adds Treasury and the Transport Hub."
+  },
+  {
+   "module": "ch4/04_raci.json",
+   "index": 10,
+   "op": "replace_text",
+   "find": "The City of Cape Town and Cape Town Tourism are partners on events, mobility and data (I2, I8, I16) and sit on Steerco.",
+   "repl": "The City of Cape Town is a partner on segments, events, routes, cruise, mobility, product, flagship sites, community pilots and safety (I1, I2, I6 to I9, I11, I12, I17). Cape Town Tourism is a partner on segments, routes and data (I1, I6, I16), and both sit on Steerco. The City brings plans of its own: an air, rail and cruise access programme, the Cape Town+ proposition and a Tourist Safety Programme (City of Cape Town, Tourism Development Framework 2019 to 2024, p5, p6).",
+   "reason": "Assessment 5, Chapter 4 owners (High): the City in I7, I9, I12 and I17 (and I1, I6 from FA01 and FA07); Cape Town Tourism in I1 and I6. TDF p5 (Cape Town+, Tourist Safety Programme) and p6 (Air, Rail and Cruise Access Programme). Review: the City's list now matches the charters (I11 added; I16, where Cape Town Tourism is the partner, removed); the I1 RACI cell for the City and Cape Town Tourism moves from I to C."
+  },
+  {
+   "module": "ch4/05_tactical.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "Constitute Steerco with terms of reference and table the first escalation agenda",
+   "repl": "Constitute Steerco with terms of reference and table the first escalation agenda, starting from DEDAT's ranked visa reforms",
+   "reason": "Decisions, existing programmes: DEDAT's BDO visa study with its ranked reforms (p34)."
+  },
+  {
+   "module": "ch4/05_tactical.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA and Cape Town Tourism",
+   "repl": "Agree the data-sharing protocol with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the Provincial Treasury and the Department of Mobility",
+   "reason": "Assessment 5, FA18 (High): Treasury and the Transport Hub as data holders."
+  },
+  {
+   "module": "ch4/05_tactical.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "Request visitor counts and capacity from the five flagship sites",
+   "repl": "Request carrying capacity from the flagship sites, to publish beside the Treasury's 2023 visitor counts",
+   "reason": "Decisions, flagship counts: the 2023 counts exist (MERO Cape Metro p69) and close the count gap; capacity stays open."
+  },
+  {
+   "module": "ch4/05_tactical.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "A scenic rail route to Boulders and Simon's Town",
+   "repl": "A scenic rail route to Muizenberg, Kalk Bay and Simon's Town, with Boulders visits timed off the peak",
+   "reason": "Assessment 6: the Southern Line was sold as a route to Boulders while I11 cuts peak visits there; lead with Muizenberg, Kalk Bay and Simon's Town and time Boulders entry (decisions, Cape Point)."
+  },
+  {
+   "module": "ch4/06_funding.json",
+   "index": 5,
+   "op": "replace_text",
+   "find": "The air access fund scales Cape Town Air Access's existing route fund with public and private money (I6).",
+   "repl": "The air access fund scales Cape Town Air Access's existing route fund with public and private money (I6). Its likely funders already sit in that partnership: the City, the province, ACSA, Cape Town Tourism, SA Tourism, Wesgro and private partners (Cape Town Air Access, Letsema Update, Nov 2025, slide 1). Corridor mobility (I8) bids into the provincial transport budget; the draft land transport framework allocates R22.8bn to transport initiatives in the 2024 MTEF (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p xix). The same framework plans a tourist levy case, which I14 would widen to cover destination management (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12).",
+   "reason": "Assessment 5, Chapter 4, Funding (Medium): name the R22.8bn transport MTEF (draft PLTF p xix) as I8's route. Assessment 3, route fund funders (slide 1, narrows). Assessment 5, FA15 (High): one levy case, our recommendation (draft PLTF ch12). Review: the 2024 MTEF ends as I8 starts, so I8 bids into the transport budget rather than drawing on the R22.8bn; the funders sentence sits here only (the I6 charter keeps its open item)."
+  },
+  {
+   "module": "ch4/07_governance.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "mobility responsibilities alone are split across three tiers of government (Stakeholder Insights Report, Mar 2026, p23).",
+   "repl": "mobility responsibilities alone are split across three tiers of government (Stakeholder Insights Report, Mar 2026, p23). Steerco should also connect to the tourism coordinating cluster the City's framework proposed, if the City set one up (City of Cape Town, Tourism Development Framework 2019 to 2024, p5 to p6).",
+   "reason": "Assessment 5, Chapter 4 owners (High): I15, link Steerco to the City's Tourism Coordinating Cluster, if it exists (TDF Goal 5, pp5 to 6)."
+  },
+  {
+   "module": "ch4/07_governance.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "data protocol live (T2-23)",
+   "repl": "data protocol live (T2-23); outputs of I1, I2, I4, I6 and I7 against Wesgro's FY26 to FY30 targets",
+   "reason": "Assessment 5, Chapter 4, Governance (High): at Gate 1, map I1, I2, I4, I6 and I7 outputs to the plan's targets."
+  },
+  {
+   "module": "ch4/07_governance.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "if ACSA awards the runway contract on its December 2029 schedule",
+   "repl": "if ACSA awards the runway contract on its December 2029 schedule; state which of Wesgro's targets the action plan would raise",
+   "reason": "Assessment 5, Chapter 4, Governance (High): say which plan targets the action plan would raise."
+  },
+  {
+   "module": "ch4/07_governance.json",
+   "index": 7,
+   "op": "insert_after",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Alignment with Wesgro's plan.** Gate 1 falls in the fourth year of Wesgro's FY26 to FY30 plan, in time to shape the next one. The gate paper maps the initiatives' outputs to the plan's six targets (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). The activity targets roughly hold today's pace, while the arrivals target sits above every modelled path to 2030 (section 1.1). The paper therefore states which activity targets the action plan would raise, and tests the arrivals target against seats and routes."
+    }
+   ],
+   "reason": "Assessment 5, Chapter 4, Governance (High) and 6, first finding: the plan's activity targets roughly hold today's pace while its arrivals target is 2.6 to 3.3 times the base-case gain (decisions, arrivals metric period). Section 1.1 names Gate 1 as the point for this mapping. Review: the initiative-to-indicator mapping is left to the Gate 1 row (edit on ch4/07_governance[7]); 'today's pace' points to section 1.1."
+  },
+  {
+   "module": "ch4/08_risks.json",
+   "index": 2,
+   "op": "replace_text",
+   "find": "Ten of the fourteen material risks sit outside Wesgro's control",
+   "repl": "Eleven of the fifteen material risks sit outside Wesgro's control",
+   "reason": "A partner-delivery risk is added (assessment 5, Chapter 4, Risks, High); it sits outside Wesgro's control."
+  },
+  {
+   "module": "ch4/08_risks.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "Runway relief at Cape Town International slips past about 2033",
+      "IR p103, p109",
+      "Medium",
+      "High",
+      "Quarterly milestone tracking; frequency and gauge on full routes; George for domestic connections (I6)",
+      "Air Access; ACSA"
+     ],
+     [
+      "Bilateral air agreements and the US carrier cap stay restrictive",
+      "SIR p24; Inc p8",
+      "High",
+      "High",
+      "Escalation agenda with stated asks (I17); route work inside existing rights (I6)",
+      "Steerco; DEDAT"
+     ],
+     [
+      "Visa processing for China, India and African markets does not improve",
+      "SIR p36, p45; Diag p34",
+      "Medium",
+      "High",
+      "Escalation agenda; processing time tracked as T2-24 (I17)",
+      "Steerco"
+     ],
+     [
+      "Safety incidents or perception deter visitors",
+      "Diag p55; SCIP p27, p30",
+      "Medium",
+      "High",
+      "Safety gates before any pilot launch (I12); escalation to SAPS, with perception tracked as T2-28 (I17)",
+      "Tourism; Steerco"
+     ],
+     [
+      "Climate events close sites and routes",
+      "SCIP p24; SIR p33, p43",
+      "High",
+      "Medium",
+      "Climate risk register; itineraries routed around closures (I13)",
+      "Research; DEDAT"
+     ],
+     [
+      "Water and power supply fail in peak season",
+      "Diag p38, p43; IR p31",
+      "Medium",
+      "Medium",
+      "Escalation of utility risks; off-grid power at remote sites (I13, I17)",
+      "DEDAT; site operators"
+     ],
+     [
+      "LTO funding collapses under MFMA Circular No. 131",
+      "SIR p25, p39",
+      "High",
+      "Medium",
+      "Stable funding agreements with a development mandate (I13)",
+      "DEDAT; municipalities"
+     ],
+     [
+      "Data holders do not share data",
+      "SIR p37; Diag p57",
+      "Medium",
+      "Medium",
+      "Data-sharing protocol with each holder (I16)",
+      "Research"
+     ],
+     [
+      "Cruise growth reverses as Red Sea reroutes end",
+      "IR p112; reroutes made 20 of 67 calls in 2023/24 (WSP p20)",
+      "Medium",
+      "Medium",
+      "Diversify lines with world cruises first and add Mossel Bay day stops (I7)",
+      "Cruise Cape Town"
+     ],
+     [
+      "Skills shortages cap service quality",
+      "SIR p43; Inc p8",
+      "Medium",
+      "Medium",
+      "Labour analysis and skills plan (I18); quality charter (I10)",
+      "Research; DEDAT"
+     ],
+     [
+      "Gulf hub disruption cuts connecting capacity",
+      "Hub routes carry 53% of arrivals on the ten largest routes (DSA p13)",
+      "Medium",
+      "High",
+      "Spread hub-carrier work across Dubai, Doha, Addis Ababa and Istanbul; keep direct-route cases ready (I4, I6)",
+      "Air Access"
+     ],
+     [
+      "A downturn in the core markets",
+      "The UK, Germany and the USA supply 52% of overseas arrivals (DSA p13)",
+      "Medium",
+      "High",
+      "Rebalance activation towards Africa and the hub markets (I1, I4, I5)",
+      "Destination Marketing"
+     ],
+     [
+      "Wesgro's operating budget is cut",
+      "Thirteen initiatives draw mainly on Wesgro's operating budget (section 4.1)",
+      "Medium",
+      "High",
+      "Rand bands and a stop list agreed with DEDAT before Gate 1 (section 4.6)",
+      "Wesgro CEO's office; DEDAT"
+     ],
+     [
+      "Resident pushback in the Metro",
+      "Public debate on locals' costs and access (Hypertext, Apr 2026); domestic trips 6.1% below 2020 in 2024, partly on price (PERO p69 to p70)",
+      "Medium",
+      "Medium",
+      "Spread visitors in time and space (I2, I8, I9); track resident sentiment",
+      "City of Cape Town; Cape Town Tourism"
+     ],
+     [
+      "Partners do not deliver the plans this one builds on",
+      "The City's framework reports uneven past progress on its tourism plans and links it to restructuring, thin resources, little support across departments and weak monitoring (TDF p3)",
+      "Medium",
+      "High",
+      "Steerco confirms before Gate 1 which partner plans are adopted, funded and running; each charter keeps Wesgro's own route to the result (I15)",
+      "Steerco; programme office"
+     ]
+    ],
+    "message": "Fifteen risks could move the plan off its path, and the one rated high on both measures concerns the national air regime.",
+    "source": "Letsema assessment. Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure Report, Jul 2026 (IR); SME and Community Inclusion Plan, Sep 2026 (SCIP); Inception Report, Nov 2025 (Inc); Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP); City of Cape Town, Tourism Development Framework 2019 to 2024 (TDF); Provincial Economic Review and Outlook 2025 (PERO)."
+   },
+   "reason": "Assessment 4 conflict \"Reroute risk\" and 5, Chapter 4, Risks (High): raise the reroute row's impact from Low to Medium (20 of 67 calls in 2023/24, plan p20); add a partner-delivery risk on our own assessment, citing TDF p3 as precedent; source resident pushback to PERO (domestic trips down 6.1% partly on price, pp69 to 70). The budget row now points to section 4.1 rather than citing a table by number. Port reliability is not added: the World Bank index the draft PLTF reports measures container handling, not cruise. Review: 'Plan' abbreviation replaced by WSP, which cannot be read as this action plan; the safety row names T2-28."
+  },
+  {
+   "module": "ch5/01_results_chain.json",
+   "index": 3,
+   "op": "replace",
+   "blocks": [
+    {
+     "type": "figure",
+     "id": "fig_5_chain",
+     "caption": "Results chain for the plan",
+     "source": "Letsema, results chain for the plan.",
+     "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 1600 560\" width=\"1600\" height=\"560\" font-family=\"Raleway, Arial, sans-serif\"><rect width=\"1600\" height=\"560\" fill=\"#ffffff\"/><rect x=\"40\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#E6E7E8\"/><text x=\"175\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#1E1E20\">Inputs</text><text x=\"175\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">Wesgro budget and units</text><text x=\"175\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">Partner budgets</text><text x=\"175\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">Data from SA Tourism,</text><text x=\"175\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">ACSA, Stats SA, OTAs</text><polygon points=\"318,230 344,240 318,250\" fill=\"#A7A9AC\"/><line x1=\"312\" y1=\"240\" x2=\"324\" y2=\"240\" stroke=\"#A7A9AC\" stroke-width=\"4\"/><rect x=\"352\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#80D1EC\"/><text x=\"487\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#1E1E20\">Activities</text><text x=\"487\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">18 initiatives,</text><text x=\"487\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">I1 to I18</text><text x=\"487\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">117 actions by tier</text><text x=\"487\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">(Chapter 3)</text><polygon points=\"630,230 656,240 630,250\" fill=\"#A7A9AC\"/><line x1=\"624\" y1=\"240\" x2=\"636\" y2=\"240\" stroke=\"#A7A9AC\" stroke-width=\"4\"/><rect x=\"664\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#00A3DA\"/><text x=\"799\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#1E1E20\">Outputs</text><text x=\"799\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">37 Tier 3 indicators</text><text x=\"799\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">Calendar published,</text><text x=\"799\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">fund constituted,</text><text x=\"799\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#1E1E20\">routes bookable</text><polygon points=\"942,230 968,240 942,250\" fill=\"#A7A9AC\"/><line x1=\"936\" y1=\"240\" x2=\"948\" y2=\"240\" stroke=\"#A7A9AC\" stroke-width=\"4\"/><rect x=\"976\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#006E93\"/><text x=\"1111\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#ffffff\">Outcomes</text><text x=\"1111\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">28 Tier 2 indicators</text><text x=\"1111\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">Seats, readiness,</text><text x=\"1111\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">bookability, hub</text><text x=\"1111\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">arrivals, pilots</text><polygon points=\"1254,230 1280,240 1254,250\" fill=\"#A7A9AC\"/><line x1=\"1248\" y1=\"240\" x2=\"1260\" y2=\"240\" stroke=\"#A7A9AC\" stroke-width=\"4\"/><rect x=\"1288\" y=\"60\" width=\"270\" height=\"360\" rx=\"10\" fill=\"#4D4D4F\"/><text x=\"1423\" y=\"112\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#ffffff\">Impact</text><text x=\"1423\" y=\"180\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">7 Tier 1 indicators</text><text x=\"1423\" y=\"220\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">Arrivals, spend, jobs,</text><text x=\"1423\" y=\"260\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">green season, spread,</text><text x=\"1423\" y=\"300\" text-anchor=\"middle\" font-size=\"22\" fill=\"#ffffff\">community spend</text><rect x=\"40\" y=\"460\" width=\"1520\" height=\"70\" rx=\"8\" fill=\"#F5F6F7\"/><text x=\"800\" y=\"503\" text-anchor=\"middle\" font-size=\"22\" fill=\"#2B2B2D\">Wesgro controls the first three columns; outcomes and impact also depend on airlines, national government and the wider economy</text></svg>"
+    }
+   ],
+   "reason": "The results-chain figure carries the new counts: 117 actions (Chapter 3 as now edited), 27 Tier 2 and 37 Tier 3 indicators (T2-26, T2-27 and T3-37 added). Only the three labels change. Review: 28 Tier 2 indicators with T2-28."
+  },
+  {
+   "module": "ch5/01_results_chain.json",
+   "index": 5,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "I1 Segment-led activation and yield",
+      "T3-01, T3-02, T3-37 segment targets set; spend moved to conversion; trade engagements",
+      "T2-01 segment home-market arrivals; T2-07 mature-market spend per visitor",
+      "T1-01, T1-02, T1-03"
+     ],
+     [
+      "I2 Green-season events calendar",
+      "T3-03, T3-04 calendar published; bids submitted",
+      "T2-02 ICCA meetings and bids secured; T2-03 April to September seat share",
+      "T1-05"
+     ],
+     [
+      "I3 Bookable province",
+      "T3-05, T3-06 census published; operators onboarded",
+      "T2-04 operators bookable online; T2-05 CapeNature online share",
+      "T1-06"
+     ],
+     [
+      "I4 India and China hub conversion",
+      "T3-07, T3-08 carrier agreements; route cases",
+      "T2-06 India and China hub arrivals",
+      "T1-01, T1-02"
+     ],
+     [
+      "I5 Regional Africa",
+      "T3-09, T3-10 activation run; capacity cases",
+      "T2-08 African arrivals and spend",
+      "T1-02, T1-03"
+     ],
+     [
+      "I6 Route development and seat retention",
+      "T3-11, T3-12 fund constituted; runway reports",
+      "T2-09 seats and new routes; T2-10 seats added on full routes",
+      "T1-01"
+     ],
+     [
+      "I7 Cruise growth through product",
+      "T3-13, T3-14 excursions listed; lines engaged",
+      "T2-11 cruise calls, passengers and GDP-R",
+      "T1-03"
+     ],
+     [
+      "I8 Corridor mobility",
+      "T3-15, T3-16 Southern Line product; shuttles bookable",
+      "T2-12 accessibility; T2-13 corridor transfer products",
+      "T1-06"
+     ],
+     [
+      "I9 Corridor product development",
+      "T3-17, T3-18 itineraries listed; assets activated",
+      "T2-14 readiness by district; T2-26 overnight share by district; T2-27 tourist spend share of district GDPR",
+      "T1-06"
+     ],
+     [
+      "I10 Visitor experience and quality",
+      "T3-19, T3-20 charter adopted; businesses certified",
+      "T2-15 routes rated Ready",
+      "T1-03"
+     ],
+     [
+      "I11 Flagship site demand management",
+      "T3-21, T3-22 baseline published; flow tools in place",
+      "T2-16 peak Cableway queue and flagship visitors",
+      "T1-06"
+     ],
+     [
+      "I12 Community inclusion pilots",
+      "T3-23, T3-24 pilots selected; tests held",
+      "T2-17 communities with a live booking route",
+      "T1-07"
+     ],
+     [
+      "I13 Climate resilience and LTO funding",
+      "T3-25, T3-26 risk register; funding model",
+      "T2-18 LTOs funded; T2-19 weather losses",
+      "T1-06"
+     ],
+     [
+      "I14 Tourism investment pipeline",
+      "T3-27, T3-28 cases prepared; investor engagements",
+      "T2-20 projects at financial close",
+      "T1-03, T1-04"
+     ],
+     [
+      "I15 Steerco and three-tier alignment",
+      "T3-29, T3-30 quarterly Steerco; joint industry plan",
+      "T2-21 escalations resolved; T2-22 partners in the joint plan",
+      "All"
+     ],
+     [
+      "I16 Data protocol and intelligence",
+      "T3-31, T3-32 agreements signed; dashboard live",
+      "T2-23 data feeds in the dashboard",
+      "All"
+     ],
+     [
+      "I17 Access and safety escalation",
+      "T3-33, T3-34 agenda tabled; responses logged",
+      "T2-24 visa processing time and eVisa decisions; T2-28 visitors who report feeling safe",
+      "T1-01, T1-02"
+     ],
+     [
+      "I18 Labour analysis and skills plan",
+      "T3-35, T3-36 analysis published; skills plan adopted",
+      "T2-25 labour analysis published",
+      "T1-04"
+     ]
+    ]
+   },
+   "reason": "The chain follows the indicator changes in 5.2: T2-02, T2-09, T2-11, T2-16 and T2-24 widened (assessment 5, Chapter 5); T2-26, T2-27 and T3-37 added (assessment 5, Chapter 5, New, Medium). Review: T2-28 added to I17."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 2,
+   "op": "replace_text",
+   "find": "Seven impact indicators, twenty-five outcome indicators and thirty-six output indicators",
+   "repl": "Seven impact indicators, twenty-eight outcome indicators and thirty-seven output indicators",
+   "reason": "T2-26, T2-27 and T3-37 added (assessment 5, Chapter 5, New, Medium). Review: T2-28 added."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "Tier 2 measures the focus areas, one or two each,",
+   "repl": "Tier 2 measures the focus areas, one to three each,",
+   "reason": "Focus area 10 now carries three outcome indicators (T2-14, T2-26, T2-27)."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "SA Tourism provincial data; data protocol",
+   "repl": "SA Tourism provincial data; Provincial Treasury district reviews; Wesgro visitor tracking; data protocol",
+   "reason": "Assessment 5, Chapter 5, T1-06 (High): name Treasury and Wesgro regional visitor tracking as holders; set no interim level (MERO data come from Wesgro and S&P Global, MERO Cape Metro pp8 to 9)."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 5,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "T2-01",
+      "Arrivals from the four largest segment home markets (UK, Germany, USA, India)",
+      "1",
+      "503,277 (2025, computed)",
+      "MA p21, p22"
+     ],
+     [
+      "T2-02",
+      "ICCA association meetings and business event bids secured in Cape Town",
+      "2",
+      "58 meetings (2024); 36 conference bids secured (2024/25)",
+      "DSA p36, p37"
+     ],
+     [
+      "T2-03",
+      "April to September share of international seats at CTIA",
+      "2",
+      "41.8% (2025, computed)",
+      "MIDAS, Seasonality"
+     ],
+     [
+      "T2-04",
+      "Share of operators bookable online, by district",
+      "3",
+      "Not in hand; about 40% or more of smaller operators lack online booking (Metro slide, scope not stated)",
+      "IR p32"
+     ],
+     [
+      "T2-05",
+      "CapeNature reservations made online",
+      "3",
+      "About 70% through the call centre",
+      "SIR p42"
+     ],
+     [
+      "T2-06",
+      "India and China arrivals via hubs",
+      "4",
+      "India 76,547; China with Hong Kong 43,412 (2025, model value)",
+      "MA p20, p22"
+     ],
+     [
+      "T2-07",
+      "Spend per visitor, mature markets",
+      "5",
+      "USA R32,900; UK R26,500; Germany R25,600 (2024)",
+      "DSA p14"
+     ],
+     [
+      "T2-08",
+      "African arrivals and spend",
+      "6",
+      "292,514 arrivals (2025, model value, regional group); R4.2bn spend (2025)",
+      "MA p20; DSA p29"
+     ],
+     [
+      "T2-09",
+      "International seats and routes at CTIA; new routes tested on load factor and survival",
+      "7",
+      "3,816,797 seats, printed network total (27 routes tabled; year to Nov 2025); 29 routes (2026)",
+      "MIDAS, The Capetown Market; Seasonality"
+     ],
+     [
+      "T2-10",
+      "Seats added on routes above 80% load",
+      "7",
+      "11 routes above 80% (year to Nov 2025); seats added from the capacity-against-demand model (I6)",
+      "MIDAS, Seasonality"
+     ],
+     [
+      "T2-11",
+      "Cruise calls, unique passengers and GDP-R",
+      "8",
+      "79 vessel visits; 106,315 unique passengers (127,128 passenger counts); R1.79bn GDP-R after displacement (2024/25); the Infrastructure Report counts 83 calls (p110)",
+      "StratEcon p8 to p10, p22; Diag p37"
+     ],
+     [
+      "T2-12",
+      "Accessibility score by district",
+      "9",
+      "Metro 4.7 to Central Karoo 1.0 (2026)",
+      "IR p88"
+     ],
+     [
+      "T2-13",
+      "Corridor transfer products on sale",
+      "9",
+      "No inter-town tourism shuttle on the Garden Route",
+      "IR p90"
+     ],
+     [
+      "T2-14",
+      "Overall readiness by district",
+      "10",
+      "Metro 4.5; Garden Route and Winelands 3.4; Overberg 2.7; West Coast 2.5; Central Karoo 1.9",
+      "IR p28 to p85"
+     ],
+     [
+      "T2-15",
+      "Touring routes rated Ready",
+      "11",
+      "1 of 6 (2026)",
+      "IR p30, p40, p51, p62, p73, p84"
+     ],
+     [
+      "T2-16",
+      "Peak queue at the Cableway; visitors at six flagships",
+      "12",
+      "Up to three hours up and two down; 2023 visitors from 239,641 at Robben Island to 2,795,838 in Table Mountain National Park",
+      "SIR p36; MERO Cape Metro p69"
+     ],
+     [
+      "T2-17",
+      "Communities with a live booking route",
+      "13",
+      "0 of 19 profiled rate Ready on bookability",
+      "SCIP p20 to p26, p40 to p51"
+     ],
+     [
+      "T2-18",
+      "LTOs with a funding agreement",
+      "14",
+      "Not in hand",
+      "SIR p25"
+     ],
+     [
+      "T2-19",
+      "Weather losses at flagship sites",
+      "14",
+      "Robben Island roughly R16m a year",
+      "SIR p33"
+     ],
+     [
+      "T2-20",
+      "Tourism projects at financial close",
+      "15",
+      "None; tourism gaps carry no committed capital",
+      "IR p32 to p87"
+     ],
+     [
+      "T2-21",
+      "Escalation items answered by the national tier",
+      "16",
+      "No agenda tabled yet",
+      "This plan"
+     ],
+     [
+      "T2-22",
+      "Industry partners signed up to the joint plan",
+      "17",
+      "No joint plan; 15 of 16 organisations raised collaboration",
+      "SIR p20 to p46"
+     ],
+     [
+      "T2-23",
+      "Automated data feeds in the dashboard",
+      "18",
+      "None; no dashboard",
+      "This plan"
+     ],
+     [
+      "T2-24",
+      "Visa processing time, priority markets; eVisa decisions made before the travel date",
+      "19",
+      "Not in hand; nationally, the eVisa rejected 3,687 first-year applications because the travel date had passed (illustration only)",
+      "SIR p36, p45; BDO p12"
+     ],
+     [
+      "T2-25",
+      "Tourism labour analysis published",
+      "20",
+      "No labour analysis in any deliverable",
+      "Inc p4"
+     ],
+     [
+      "T2-26",
+      "Share of visitors staying overnight, by district",
+      "10",
+      "Garden Route 65.5%; Overberg 58%; West Coast 29.7% in 2023 (sampled visitors, mostly domestic)",
+      "Diag p42, p48; MERO West Coast p128 to p130"
+     ],
+     [
+      "T2-27",
+      "Tourist spend as a share of GDPR, by district",
+      "10",
+      "15.6% to 16.8% in the four outer districts; Cape Winelands 7.0%; Metro 6.7% (2023)",
+      "MERO Cape Metro p72; Central Karoo p111; Cape Winelands p113; Overberg p119; West Coast p131; Garden Route p151"
+     ],
+     [
+      "T2-28",
+      "Visitors who report feeling safe, priority markets",
+      "19",
+      "Not in hand; from Wesgro visitor tracking, if the survey asks the question",
+      "This plan"
+     ]
+    ],
+    "message": "Twenty-eight Tier 2 indicators give each focus area one to three outcome measures, and eight of them have no baseline yet.",
+    "source": "Chapter 3 evidence tables. MA: Market Assessment Report, May 2026. DSA: Demand-Side Analysis, Jun 2026. IR: Infrastructure Report, Jul 2026. SIR: Stakeholder Insights Report, Mar 2026. SCIP: SME and Community Inclusion Plan, Sep 2026. Diag: Current State Diagnostic, Dec 2025. Inc: Inception Report, Nov 2025. MIDAS: MIDAS Aviation Market Assessment, Mar 2026. StratEcon: Cruise Liner Economic Contribution Study 2024/25, Oct 2025. MERO: Municipal Economic Review and Outlook 2024/25, by district. BDO: BDO for DEDAT, Western Cape Visa Regime Study, Jul 2024. Computed values are sums or shares of printed figures."
+   },
+   "reason": "Assessment 5, Chapter 5 (High and Medium). T2-02: bids secured beside ICCA meetings (36 in 2024/25, DSA p36). T2-09: load factor and route survival as quality tests; the 10-route target sits in A8 and 5.3. T2-11: passenger measure named (unique passengers, StratEcon pp8 to 9), GDP-R added (StratEcon p22); assessment 4 conflict on 127,178 against 127,128 resolved by naming the StratEcon measure. T2-16: flagship counts (MERO Cape Metro p69; decisions, flagship counts). T2-24: eVisa decisions before the travel date, BDO p12 as illustration only. New T2-26 (overnight share; Diag p42, p48 and MERO West Coast pp128 to 130, labelled as mostly domestic samples, as section 2.3 uses them; international splits not used) and T2-27 (spend share of GDPR, 2023; decisions, district dependence; the Garden Route and Central Karoo series are not printed). Review: T2-28 (safety perception, Wesgro visitor tracking if the survey asks; assessment 5, New, Medium; a Letsema proposal, no baseline in hand) gives FA19 a safety outcome. T2-26 dates the West Coast share (2023, MERO West Coast pp128 to 130). T2-11 wording."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 7,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "T3-01, T3-02, T3-37",
+      "I1",
+      "Segment targets in Wesgro's annual plan; share of market budget in trade-led conversion; international tourism trade engagements by market"
+     ],
+     [
+      "T3-03, T3-04",
+      "I2",
+      "Green-season calendar published; all bids submitted, and those for May to September events"
+     ],
+     [
+      "T3-05, T3-06",
+      "I3",
+      "Bookability census published; operators onboarded to online booking"
+     ],
+     [
+      "T3-07, T3-08",
+      "I4",
+      "Joint marketing agreements with hub carriers; India and China route cases prepared"
+     ],
+     [
+      "T3-09, T3-10",
+      "I5",
+      "Activation programmes run in Nigeria and Kenya; regional capacity cases made"
+     ],
+     [
+      "T3-11, T3-12",
+      "I6",
+      "Air access fund constituted; quarterly runway milestone reports issued"
+     ],
+     [
+      "T3-13, T3-14",
+      "I7",
+      "Excursion packages listed; lines engaged on expedition and home-porting"
+     ],
+     [
+      "T3-15, T3-16",
+      "I8",
+      "Southern Line visitor product launched; corridor shuttle products bookable"
+     ],
+     [
+      "T3-17, T3-18",
+      "I9",
+      "Multi-day itineraries listed per route; cold-zone assets activated"
+     ],
+     [
+      "T3-19, T3-20",
+      "I10",
+      "Quality charter adopted; businesses certified"
+     ],
+     [
+      "T3-21, T3-22",
+      "I11",
+      "Flagship baseline published; flow-management tools in place"
+     ],
+     [
+      "T3-23, T3-24",
+      "I12",
+      "Pilot communities selected; fixed-date tests held"
+     ],
+     [
+      "T3-25, T3-26",
+      "I13",
+      "Climate risk register published; LTO funding model agreed"
+     ],
+     [
+      "T3-27, T3-28",
+      "I14",
+      "Investment cases prepared; investor engagements held"
+     ],
+     [
+      "T3-29, T3-30",
+      "I15",
+      "Steerco meetings held each quarter; joint industry plan agreed"
+     ],
+     [
+      "T3-31, T3-32",
+      "I16",
+      "Data-sharing agreements signed; dashboard live"
+     ],
+     [
+      "T3-33, T3-34",
+      "I17",
+      "Escalation agenda tabled; responses logged"
+     ],
+     [
+      "T3-35, T3-36",
+      "I18",
+      "Labour analysis published; skills plan adopted"
+     ]
+    ],
+    "source": "Initiative charters, section 4.3. Each output has a baseline of zero at the start of 2027, except T3-37: Wesgro counted 2,500 international tourism trade engagements in FY24 and targets 12,500 over FY26 to FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p20)."
+   },
+   "reason": "Assessment 5, Chapter 5: Tier 3 trade engagements by market against 2,500 in FY24 (plan p20), New (Medium); T3-04 extended to all bids (T2-02, T3-04, Medium). Review: wording."
+  },
+  {
+   "module": "ch5/03_baselines_targets.json",
+   "index": 5,
+   "op": "replace_text",
+   "find": "Not in hand; baseline due in 2027 from the data protocol",
+   "repl": "Not in hand; baseline due in 2027 from the data protocol, drawing on the Treasury's district reviews and Wesgro visitor tracking",
+   "reason": "Assessment 5, Chapter 5, T1-06 (High): name the holders; set no interim level (the target columns stay as they are)."
+  },
+  {
+   "module": "ch5/03_baselines_targets.json",
+   "index": 6,
+   "op": "insert_after",
+   "blocks": [
+    {
+     "type": "p",
+     "text": "**Wesgro's targets.** Wesgro's FY26 to FY30 plan sets five-year levels for four indicators (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). T2-09 counts first-time scheduled international routes toward its 10 by FY30 (Wesgro, Strategic Plan 2025/26 to 2029/30, p59). It tests each on load factor and survival. T2-11 counts calls toward 250, about 50 a year. T2-02 counts bids secured toward 161, about 32 a year at about R28m each, against 36 at about R20.7m each in 2024/25 (Demand-Side Analysis, Jun 2026, p36; computed). T3-37 counts trade engagements toward 12,500, about 2,500 a year and flat on FY24. Wesgro's 800,000 to 1 million new arrivals runs above every modelled path to 2030 (section 1.1), so T1-01 keeps the model's targets and reports Wesgro's beside them."
+    }
+   ],
+   "reason": "Assessment 5, Chapter 5, T2-09 and T2-11 (High, take the target from the plan), T2-02 and T3-04 (Medium: 161 bids over five years is about 32 a year at R28m each, against 36 at R20.7m in 2024/25, computed: 161/5, R4.5bn/161, R745m/36 from DSA p36) and New (trade engagements, plan p20). Decisions, arrivals metric period and Wesgro's FY26 to FY30 targets. Review: the p59 citation now covers only the route definition (the load-factor and survival test is this report's); 50 and 2,500 listed as computed; 'every modelled path' as in section 1.1 and 4.7.",
+   "computed": [
+    "32",
+    "28",
+    "20.7",
+    "50",
+    "2,500"
+   ]
+  },
+  {
+   "module": "ch5/03_baselines_targets.json",
+   "index": 11,
+   "op": "replace_text",
+   "find": "No deliverable prints district visitor spend, so the share outside the Metro has no baseline until the data protocol delivers one (I16).",
+   "repl": "No deliverable prints district visitor spend. The Provincial Treasury's district reviews print tourist spend as a share of GDPR, from 6.7% in the Metro to 16.8% on the West Coast in 2023 (Municipal Economic Review and Outlook 2024/25, Cape Metro, p72; Municipal Economic Review and Outlook 2024/25, West Coast, p131). The share outside the Metro therefore has no baseline until the data protocol delivers one (I16), and T1-06 carries no interim level.",
+   "reason": "Assessment 3, \"District arrivals and spend (T1-06; 5.3 [11])\": narrows; a source exists, no baseline yet. Assessment 5, T1-06: set no interim level. Review: the negative claim about the reviews is dropped; each district report is cited."
+  },
+  {
+   "module": "ch5/04_data.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "The data-sharing protocol under focus area 18 (I16) is the route to closing the gaps below.",
+   "repl": "Two provincial bodies already hold part of that view. The Provincial Treasury's district reviews print attraction counts, bed-nights and tourist spend as a share of GDPR (Municipal Economic Review and Outlook 2024/25, Cape Metro, p68 to p73; Municipal Economic Review and Outlook 2024/25, West Coast, p126 to p131). The Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60). The data-sharing protocol under focus area 18 (I16) is the route to closing the gaps below.",
+   "reason": "Assessment 5, FA18 (High): name Provincial Treasury (MERO, PERO) and the Department of Mobility's Integrated Transport Hub as data holders. Review: a second district report is cited for the claim about the district reviews (West Coast pp126 to 131)."
+  },
+  {
+   "module": "ch5/04_data.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "Departure survey and performance reports",
+      "SA Tourism",
+      "T1-01 to T1-03, T1-05, T2-07, T2-08",
+      "Quarterly and annual",
+      "Published; provincial cuts on request"
+     ],
+     [
+      "Passenger statistics and schedules",
+      "ACSA; OAG",
+      "T1-01 proxy, T2-03, T2-09",
+      "Monthly",
+      "Available; automated feed possible"
+     ],
+     [
+      "GDS bookings by route",
+      "MIDAS or a data vendor",
+      "T2-06, T2-10",
+      "Annual",
+      "Repeat commission needed"
+     ],
+     [
+      "Cruise season economic contribution",
+      "StratEcon for Wesgro (economic contribution study)",
+      "T2-11",
+      "Each season",
+      "Received; the 2024/25 study is cited, with GDP-R after displacement"
+     ],
+     [
+      "Infrastructure readiness scores",
+      "Wesgro; Letsema method",
+      "T2-12, T2-14, T2-15",
+      "Every three years",
+      "Re-score in 2029 and 2032 [Open item: publish the scoring formula before the 2029 re-score; the Infrastructure Report's overall ratings are judgement-based (Appendix A4).]"
+     ],
+     [
+      "Provincial and district economic reviews",
+      "Provincial Treasury",
+      "T1-06, T2-16, T2-26, T2-27",
+      "Annual",
+      "Published; tourism sections draw on Wesgro and S&P Global data"
+     ],
+     [
+      "Integrated Transport Hub",
+      "Department of Mobility",
+      "T2-12, T2-13",
+      "To be agreed",
+      "Not yet shared; to join the protocol (I16)"
+     ],
+     [
+      "Operator, site and pilot records",
+      "LTOs; CapeNature; site operators; pilots",
+      "T2-04, T2-05, T2-16, T2-17, T2-19",
+      "Annual",
+      "New collection under the protocol"
+     ]
+    ],
+    "source": "Letsema, from the indicator register; data holders in part as listed in Current State Diagnostic, Dec 2025, p56, p57. Provincial Treasury: Municipal Economic Review and Outlook 2024/25, Cape Metro, p8 to p9, p68 to p73. Integrated Transport Hub: Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60."
+   },
+   "reason": "Assessment 3, \"Cruise study not in this evidence base (5.4; A1)\": closes; the 2024/25 StratEcon study is cited across the report and was listed as received (Inception p34). Assessment 5, FA18 (High): Treasury and the Transport Hub as data holders."
+  },
+  {
+   "module": "ch5/04_data.json",
+   "index": 5,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "District-level visitor arrivals and spend",
+      "T1-06",
+      "Research",
+      "End 2027",
+      "SA Tourism cut; Treasury district reviews; Wesgro visitor tracking; protocol"
+     ],
+     [
+      "Provincial tourism employment baseline",
+      "T1-04",
+      "Research",
+      "Mid 2027",
+      "Pero; Stats SA provincial TSA"
+     ],
+     [
+      "Count of bookable products by district",
+      "T2-04",
+      "Research",
+      "End 2027",
+      "Bookability census (I3)"
+     ],
+     [
+      "Carrying capacity at the flagship sites; 2023 visitor counts are in hand",
+      "T2-16",
+      "Research",
+      "End 2027",
+      "Request to operators (I11)"
+     ],
+     [
+      "Meetings, incentives and exhibitions volumes",
+      "T2-02",
+      "Convention Bureau",
+      "End 2028",
+      "Venue and DMC returns"
+     ],
+     [
+      "LTOs and their municipal funding",
+      "T2-18",
+      "DEDAT",
+      "End 2027",
+      "LTO survey"
+     ],
+     [
+      "Visa processing times by market",
+      "T2-24",
+      "Wesgro CEO's office",
+      "End 2027",
+      "Request to Home Affairs, with eVisa decision data (I17)"
+     ],
+     [
+      "Nigeria and Ghana in the growth model",
+      "T1-02",
+      "Research",
+      "Mid 2027",
+      "Model update"
+     ],
+     [
+      "Definition of a call behind the plan's 250: 79 vessel visits or 83 calls in 2024/25",
+      "T2-11",
+      "Cruise Cape Town",
+      "Mid 2027",
+      "Cruise Cape Town; StratEcon"
+     ],
+     [
+      "Mid-scale accommodation stock by district",
+      "T2-15",
+      "Research",
+      "End 2028",
+      "Supply database or audit"
+     ],
+     [
+      "Overnight share for the Metro, the Cape Winelands and the Central Karoo",
+      "T2-26",
+      "Research",
+      "End 2027",
+      "Treasury district reviews; Wesgro visitor tracking"
+     ],
+     [
+      "Garden Route and Central Karoo tourist spend shares, identical series to confirm",
+      "T2-27",
+      "Research",
+      "Mid 2027",
+      "Provincial Treasury"
+     ],
+     [
+      "Visitors who feel safe, priority markets",
+      "T2-28",
+      "Research",
+      "End 2027",
+      "Safety question in Wesgro visitor tracking"
+     ]
+    ],
+    "message": "Thirteen data gaps stand between the plan and a full baseline, and each has a proposed owner and date."
+   },
+   "reason": "Decisions, 250 cruise calls: source and horizon closed (plan p20); the definition gap stays (assessment 3: 79 vessel visits against 83 calls narrows only). Decisions, flagship counts: counts close, capacity stays open. T1-06 holders named (assessment 5, High). T2-24 adds eVisa decisions (Medium). New gap for T2-26 in the three districts whose overall overnight share is not used (international sample splits excluded, decisions). Review: two gaps added: the identical Garden Route and Central Karoo spend-share series behind T2-27's baseline (decisions: a probable copy error) and the safety question behind T2-28."
+  },
+  {
+   "module": "ch5/06_evaluation.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "The terminal evaluation in 2035 measures the result against both paths and sets up the next plan.",
+   "repl": "The review also falls at the end of Wesgro's FY26 to FY30 plan period, so it reads the plan's six targets against the result (Wesgro, Strategic Plan 2025/26 to 2029/30, p20). The terminal evaluation in 2035 measures the result against both paths and sets up the next plan.",
+   "reason": "Decisions, Wesgro's FY26 to FY30 targets: the 2030 review coincides with the end of the plan period."
+  },
+  {
+   "module": "ch5/07_toolkit.json",
+   "index": 2,
+   "op": "replace_text",
+   "find": "holds all 68 indicators",
+   "repl": "holds all 72 indicators",
+   "reason": "Three indicators added: 7 + 27 + 37 = 71 (T2-26, T2-27, T3-37). Review: T2-28 added: 7 + 28 + 37 = 72.",
+   "computed": [
+    "72"
+   ]
+  },
+  {
+   "module": "appendices/01_a1_traceability.json",
+   "index": 3,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "1 Respond to growth segment traveller preferences",
+      "Four segments confirmed against markets of high incidence; the segmentation is directional and leaves out the domestic and seven African markets",
+      "Strong"
+     ],
+     [
+      "2 Create green-season demand with MICE and events",
+      "June holds 6.4% of 2025 international seat capacity; ICCA meetings 33 to 58 from 2022 to 2024",
+      "Strong"
+     ],
+     [
+      "3 Make the whole province findable and bookable",
+      "CapeNature takes about 70% of reservations through its call centre, and community product sells by phone; no count of bookable products exists",
+      "Adequate"
+     ],
+     [
+      "4 Convert India and China hub traffic",
+      "About 101,000 journeys a year via hubs, the sum of two printed estimates, 71,000 and 30,000; the hub tables sum to 97,579",
+      "Strong"
+     ],
+     [
+      "5 Increase yield in mature markets",
+      "Five mature long-haul routes above 80% load; no fare or yield data",
+      "Adequate"
+     ],
+     [
+      "6 Build a regional foundation (Africa)",
+      "Nigeria R31,000 and Ghana R27,700 a visit, read as spend per visitor; the printed averages do not reproduce from the totals",
+      "Strong"
+     ],
+     [
+      "7 Win direct routes and add seats on full routes",
+      "Eleven of 27 routes run above 80% load and sixteen at 75% or more, and carriers are expected to raise fares before adding seats. No frequency, aircraft-size or peak-slot data shows where seats can be added; Wesgro's plan targets 10 new routes by FY30",
+      "Adequate"
+     ],
+     [
+      "8 Grow cruise calls and ports",
+      "79 vessel visits (Diagnostic and the StratEcon study) against 83 calls (Infrastructure Report) in 2024/25; Wesgro's plan sets 250 calls over FY26 to FY30; value grows with international passengers, not volume",
+      "Adequate"
+     ],
+     [
+      "9 Accelerate tourism-enabling internal mobility",
+      "Accessibility falls from 4.7 to 1.0 on the attractions and services basis; the transport basis gives 5.0 to 1.0",
+      "Strong"
+     ],
+     [
+      "10 Support diversified route and product development",
+      "Cold zones, the Infrastructure Report's term for areas with tourism assets but little or no tourism use; no count of idle assets",
+      "Strong"
+     ],
+     [
+      "11 Align visitor experience in-destination",
+      "A mid-scale gap, stated in words; no room or bed count",
+      "Adequate"
+     ],
+     [
+      "12 Balance impact on nature-based attractions",
+      "Stakeholder statements and queue times; the Treasury counts 2023 visitors at six flagships, but no source sets capacity or caps",
+      "Adequate"
+     ],
+     [
+      "13 Embed local destination bodies for community inclusion",
+      "Seller with a stake, 20 communities and R259m a year at 1% of FY2025 foreign direct spend; one page prints 18 shortlisted, and the spend-tracing method is not described",
+      "Strong"
+     ],
+     [
+      "14 Manage climate risk and sustainable tourism",
+      "LTO funding disrupted and Meiringspoort closed, from two organisations' statements and the Inclusion Plan's De Rust profile; tourist spend equals 15.6% to 16.8% of GDPR in four outer districts",
+      "Adequate"
+     ],
+     [
+      "15 Crowd in capital with targeted investment strategies",
+      "An inference: a large capital pipeline exists and almost none of it reaches regional product, SME bookability or township product",
+      "Adequate"
+     ],
+     [
+      "16 Align institutional stakeholders across all three tiers",
+      "Air rights and visas sit nationally, as the Diagnostic's tier table shows; no decision-rights map exists",
+      "Adequate"
+     ],
+     [
+      "17 Strengthen industry and government collaboration",
+      "Raised by 15 of 16 organisations, a reconstructed count of organisations, not insight rows",
+      "Strong"
+     ],
+     [
+      "18 Expedite tourism-enabling policy and data sharing",
+      "Platforms exist; no data-sharing protocol in progress is described; the Treasury's reviews and the Integrated Transport Hub already hold district and transport data",
+      "Adequate"
+     ],
+     [
+      "19 Lead removal of infrastructure, visa and safety deficits",
+      "Levers sit nationally for visas and air rights; safety programmes are provincial and basic services local; DEDAT's visa study ranks the reforms and the City has designed a Tourist Safety Programme",
+      "Strong"
+     ],
+     [
+      "20 Develop workforce and service skills",
+      "No provincial tourism employment baseline in any deliverable; the labour analysis is still to be commissioned",
+      "Thin"
+     ]
+    ],
+    "source": "Reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only. Wesgro, provincial and City documents add to the reading where Chapter 3 cites them; the ratings rest on the deliverables."
+   },
+   "reason": "A1 follows the v12 changes: FA07 routes target, FA08 cruise (250 sourced, plan p20; StratEcon cited; decisions, cruise value), FA12 counts (MERO Cape Metro p69; capacity open), FA14 district dependence, FA18 data holders, FA19 BDO study and City programme. Ratings unchanged. Review: row 7 split into two sentences."
+  },
+  {
+   "module": "appendices/01_a1_traceability.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "1 Respond to growth segment traveller preferences",
+      "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis; the City's four segments (Tourism Development Framework)",
+      "2.2",
+      "I1",
+      "T1-01; T1-02; T2-01"
+     ],
+     [
+      "2 Create green-season demand with MICE and events",
+      "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE section (ICCA, UIA); Wesgro's plan (161 bids)",
+      "2.2; 2.1; 2.3",
+      "I2",
+      "T1-05; T2-02; T2-03"
+     ],
+     [
+      "3 Make the whole province findable and bookable",
+      "Inclusion plan (community product sold by phone), Stakeholder Insights (Cape Nature 70% through the call centre), Infrastructure Report (route bookability gaps, no OTA presence in rural stock)",
+      "2.2; 2.1; 2.3; 2.4",
+      "I3",
+      "T2-04; T2-05"
+     ],
+     [
+      "4 Convert India and China hub traffic",
+      "Demand-Side route-to-market (71,000 India and 30,000 China via hubs) and MIDAS (same figures; no direct route before 2030)",
+      "2.2; 2.1; 2.3; 1.2",
+      "I4",
+      "T1-02; T2-06"
+     ],
+     [
+      "5 Increase yield in mature markets",
+      "MIDAS (mature long-haul routes above 80% load; carriers raise fares before adding seats) with the Demand-Side mature-market projection",
+      "2.2; 2.1; 2.3",
+      "I1",
+      "T1-03; T2-07"
+     ],
+     [
+      "6 Build a regional foundation (Africa)",
+      "Demand-Side African opportunity section and Skift African memo; MIDAS regional route loads",
+      "2.2; 2.3; 1.2",
+      "I5",
+      "T1-02; T2-08"
+     ],
+     [
+      "7 Win direct routes and add seats on full routes",
+      "MIDAS Aviation Market Assessment; Infrastructure Report air-access section; Wesgro's plan (10 new routes); Cape Town Air Access update",
+      "2.3; 2.1",
+      "I6",
+      "T1-01; T2-09; T2-10"
+     ],
+     [
+      "8 Grow cruise calls and ports",
+      "Diagnostic cruise table and Infrastructure Report cruise and ports section; StratEcon cruise study 2024/25, received at inception; Wesgro's plan (250 calls)",
+      "2.3; 1.2",
+      "I7",
+      "T2-11"
+     ],
+     [
+      "9 Accelerate tourism-enabling internal mobility",
+      "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility); draft Provincial Land Transport Framework (airport leg, corridors)",
+      "2.3; 1.2",
+      "I8",
+      "T1-06; T2-12; T2-13"
+     ],
+     [
+      "10 Support diversified route and product development",
+      "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations); the Treasury's district reviews (overnight share, tourism share of GDPR)",
+      "2.3; 2.4",
+      "I9",
+      "T1-06; T2-14; T2-26; T2-27"
+     ],
+     [
+      "11 Align visitor experience in-destination",
+      "Infrastructure Report accommodation mapping; Stakeholder Insights (service quality); Benchmarking (Valencia, Singapore)",
+      "2.3; 2.1",
+      "I10",
+      "T2-15"
+     ],
+     [
+      "12 Balance impact on nature-based attractions",
+      "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion; the Treasury's flagship counts",
+      "2.3; 2.1; 1.2",
+      "I11",
+      "T2-16"
+     ],
+     [
+      "13 Embed local destination bodies for community inclusion",
+      "SME and Community Inclusion Plan (September 2026); the City's community programmes",
+      "2.4; 2.1",
+      "I12",
+      "T1-07; T2-17"
+     ],
+     [
+      "14 Manage climate risk and sustainable tourism",
+      "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026); the Treasury's district reviews",
+      "2.4; 2.1; 1.2",
+      "I13",
+      "T2-18; T2-19"
+     ],
+     [
+      "15 Crowd in capital with targeted investment strategies",
+      "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund); draft Provincial Land Transport Framework (levy case)",
+      "2.4; 2.1; 2.3",
+      "I14",
+      "T2-20"
+     ],
+     [
+      "16 Align institutional stakeholders across all three tiers",
+      "Stakeholder Insights (bilateral air agreements, fragmented mandates); Diagnostic governance tiers; MIDAS (government-to-government route designation)",
+      "2.4; 2.1; 1.2; 1.1",
+      "I15",
+      "T2-21"
+     ],
+     [
+      "17 Strengthen industry and government collaboration",
+      "Stakeholder Insights appendix tables, counted for this report (Appendix A6)",
+      "2.4; 2.1",
+      "I15",
+      "T2-22"
+     ],
+     [
+      "18 Expedite tourism-enabling policy and data sharing",
+      "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework); the Treasury's reviews; Integrated Transport Hub",
+      "2.4; 2.1; 1.2",
+      "I16",
+      "T2-23"
+     ],
+     [
+      "19 Lead removal of infrastructure, visa and safety deficits",
+      "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government; DEDAT's visa study (BDO); the City's Tourist Safety Programme",
+      "2.4; 1.2",
+      "I17",
+      "T2-24; T2-28"
+     ],
+     [
+      "20 Develop workforce and service skills",
+      "No workstream; prompted by the 300,000-jobs ambition (Inception p4) and skills mentions in the Stakeholder Insights and Inclusion plan",
+      "2.4; 1.1",
+      "I18",
+      "T1-04; T2-25"
+     ]
+    ],
+    "source": "Workstream attribution is this report's, from the deliverables that carry the figures; the sections named give the pages. Wesgro, provincial and City documents follow the deliverables where Chapter 3 cites them."
+   },
+   "reason": "A1 registers the primary documents now cited (assessment 5, appendices: A1 and A9), with the 2024/25 cruise study shown as received (Inception p34). FA10 gains T2-26 and T2-27. Review: FA19 gains T2-28."
+  },
+  {
+   "module": "appendices/02_a2_demand_model.json",
+   "index": 29,
+   "op": "replace_text",
+   "find": "Eight arrivals figures circulate around this study, and they count four things: ambitions, airport passengers, South African Tourism's tourist arrivals and the model's arrivals.",
+   "repl": "Twelve arrivals figures circulate around this study, and they count four things: ambitions, airport passengers, tourist arrivals and the model's arrivals.",
+   "reason": "Four rows added to the table below (Wesgro's 3 million by 2030 and 800,000 to 1 million; PERO's 932,831; the source market analysis's three-year 3.6 million). Section 1.1 now says \"Appendix A2 lists each with its base\" (es_ch1 edit)."
+  },
+  {
+   "module": "appendices/02_a2_demand_model.json",
+   "index": 30,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "1.44m",
+      "International passenger arrivals at Cape Town International (ACSA), fiscal year",
+      "FY24/25",
+      "Current State Diagnostic, Dec 2025, p25",
+      "Recovery baseline (1.2) and the baseline year for the M&E framework (Chapter 5)"
+     ],
+     [
+      "1.57m",
+      "Same series",
+      "FY25/26",
+      "Market Assessment Report, May 2026, p10",
+      "Latest actual; shown against the model, not substituted for its base"
+     ],
+     [
+      "932,831",
+      "Overnight tourist arrivals through Cape Town International, as the Provincial Treasury counts them",
+      "2024",
+      "Provincial Economic Review and Outlook 2025, p68",
+      "Reference only; a tourist count at the gateway, not a passenger count"
+     ],
+     [
+      "1,498,829",
+      "Demand model base; the series and year basis are not labelled in the deck",
+      "2025",
+      "Market Assessment Report, May 2026, p19",
+      "Base of the growth case; every 2035 figure in Chapters 3 to 5 is an increment on it"
+     ],
+     [
+      "2,175,778 and 2,516,282",
+      "Model projections on the 2025 base: base case and accelerated case",
+      "2035",
+      "Market Assessment Report, May 2026, p19",
+      "The report's two paths; growth to 2.5 million is the rounded accelerated case"
+     ],
+     [
+      "1,538,142",
+      "International tourist arrivals to the Western Cape, South African Tourism basis",
+      "2025",
+      "Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source",
+      "Reference point for the G4J basis only; not a baseline or a target"
+     ],
+     [
+      "3.6 million",
+      "International tourist arrivals to the province over 2022 to 2024: a three-year total, about 1.2 million a year (computed)",
+      "2022 to 2024",
+      "Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2",
+      "Capture shares only (section 2.2); never read as an annual figure"
+     ],
+     [
+      "800,000 to 1 million",
+      "New international tourist arrivals; the base year is not stated",
+      "FY26 to FY30",
+      "Wesgro, Strategic Plan 2025/26 to 2029/30, p20",
+      "Read against the model's gains to 2030 (section 1.1) and at Gate 1 (section 4.7)"
+     ],
+     [
+      "3 million",
+      "International tourist arrivals to the province, SAT basis, built as 2 million in 2019 plus 1 million",
+      "2035",
+      "Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source), recording the G4J 2023 target",
+      "Alignment reference under clause 1.1.14.2; a different measure from the airport series"
+     ],
+     [
+      "3 million",
+      "International tourist arrivals, built as 2 million in 2019 plus 1 million",
+      "2030",
+      "Wesgro, Strategic Plan 2025/26 to 2029/30, p20, recording the G4J target",
+      "The same G4J target dated 2030; both Wesgro statements are recorded (section 1.1)"
+     ],
+     [
+      "2.8m",
+      "\"International visitors\"; measure and base not stated",
+      "2035",
+      "Inception Report, Nov 2025, p4",
+      "Original ambition; quoted, not used"
+     ],
+     [
+      "5.7 million and R54.7 billion",
+      "International arrivals and foreign direct spend; the Tourism Blueprint 2030's pre-COVID ten-year goal",
+      "2035 in the Diagnostic; Blueprint end year not confirmed",
+      "Current State Diagnostic, Dec 2025, p5; Tourism Blueprint 2030, p4, p10",
+      "The Diagnostic's statement of the ambition; superseded and quoted for the record"
+     ]
+    ],
+    "message": "The report uses airport passenger arrivals for baselines and the demand model for targets; Wesgro's ambitions and the tourist counts serve as reference points.",
+    "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source. Wesgro, Strategic Plan 2025/26 to 2029/30, p20; Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2 (2022 to 2024, three-year total); Provincial Economic Review and Outlook 2025, p68; Tourism Blueprint 2030, p4, p10."
+   },
+   "reason": "Task and assessment 5, appendices: A2 gains the plan's 3 million by 2030 as a separate row (plan p20; decisions, G4J 3 million: both Wesgro statements), the Blueprint trace (Blueprint pp4, 10; assessment 3 and 4, \"Blueprint figures\": the year stays open), the TSMA three-year total, labelled (TSMA p2; decisions, market capture), and the ninth series, 932,831 overnight tourists through CTIA in 2024 (PERO p68). The plan's 800,000 to 1 million is added because section 1.1 and Gate 1 now use it. Canada (Low) is left out. Review: the Blueprint sets the goal 'over ten years' (pp4, 10) and its end year is not confirmed, so no 'no end year' claim; the 932,831 row no longer adds 'international'.",
+   "computed": [
+    "1.2"
+   ]
+  },
+  {
+   "module": "appendices/02_a2_demand_model.json",
+   "index": 31,
+   "op": "replace_text",
+   "find": "Neither the 2.8 million ambition nor its later restatement as 5.7 million arrivals and R54.7 billion of spend names a series or a base year (Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5; this report treats the second statement as superseded).",
+   "repl": "The 2.8 million names no series or base year (Inception Report, Nov 2025, p4). The 5.7 million arrivals and R54.7 billion of spend trace to the Tourism Blueprint 2030, which set them before COVID as a goal over ten years (Tourism Blueprint 2030, p4, p10). The Diagnostic dates them to 2035; this report treats that statement as superseded and leaves the year open (Current State Diagnostic, Dec 2025, p5).",
+   "reason": "Assessment 3, \"Origin of 5.7m and R54.7bn (A2; FA13; A5)\", and 4, \"Blueprint figures\": the trace closes (Blueprint pp4, 10: a pre-COVID ten-year goal of 5.7 million international arrivals and R54.7 billion of foreign direct spend); the year stays open, so 2035 is kept as the Diagnostic's restatement. Review: 'states no end year' removed; the Blueprint sets a goal over ten years and the year stays open."
+  },
+  {
+   "module": "appendices/05_a5_inclusion.json",
+   "index": 18,
+   "op": "replace_text",
+   "find": "(Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries.",
+   "repl": "(Current State Diagnostic, Dec 2025, p5), a different case from the 2.5 million this report carries. Both figures trace to the Tourism Blueprint 2030, which set them before COVID as a goal over ten years (Tourism Blueprint 2030, p4, p10).",
+   "reason": "Assessment 3, \"Origin of 5.7m and R54.7bn (A2; FA13; A5)\": the Blueprint trace (pp4, 10); the year stays open. Review: 'states no end year' removed."
+  },
+  {
+   "module": "appendices/07_a7_actions.json",
+   "index": 2,
+   "op": "replace_text",
+   "find": "The 112 actions in Chapter 3",
+   "repl": "The 117 actions in Chapter 3",
+   "reason": "Chapter 3 now carries 117 actions (rows added in focus areas 1, 4, 7, 9 and 19 by the v12 Chapter 3 edits).",
+   "computed": [
+    "117"
+   ]
+  },
+  {
+   "module": "appendices/07_a7_actions.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "I1",
+      "1",
+      "Wesgro",
+      "Set segment targets inside each priority market: Curious Explorers in the UK and USA, Reflective Adventurers in Germany, Creative Connectors in India, Discerning Connoisseurs in the UAE",
+      "Destination Marketing; Research"
+     ],
+     [
+      "I1",
+      "1",
+      "Wesgro",
+      "Move spend from broad awareness to trade-led conversion through each segment's own channels, from luxury advisors to mobile-first OTAs",
+      "Destination Marketing; trade and OTA partners"
+     ],
+     [
+      "I1",
+      "1",
+      "Wesgro",
+      "Commission destination-specific research to validate the segments, extend it to the domestic and African markets and build the segments into brand tracking",
+      "Research"
+     ],
+     [
+      "I1",
+      "1",
+      "Partners",
+      "Develop segment-matched product: heritage and township experiences, creative districts, private-access wine and food and a certified network of wellness retreats and trails",
+      "Product owners; CapeNature; SANParks; LTOs"
+     ],
+     [
+      "I1",
+      "1",
+      "Partners",
+      "Map the City's four segments onto the four used here, so Wesgro, the City and Cape Town Tourism sell to the same travellers",
+      "City of Cape Town; Cape Town Tourism"
+     ],
+     [
+      "I1",
+      "1",
+      "National",
+      "Agree one segment frame with SA Tourism for long-haul campaigns, so provincial and national spend target the same travellers",
+      "SA Tourism"
+     ],
+     [
+      "I1",
+      "5",
+      "Wesgro",
+      "Make the case to carriers on the five full routes for added frequency or larger aircraft, backed by green-season marketing",
+      "Air Access; airlines"
+     ],
+     [
+      "I1",
+      "5",
+      "Wesgro",
+      "Sell Discerning Connoisseur product through luxury advisors and high-end operators in the UK, USA, Germany, France and Switzerland",
+      "Destination Marketing; trade"
+     ],
+     [
+      "I1",
+      "5",
+      "Wesgro",
+      "Add two measures beside arrivals in Wesgro's own targets: spend per visitor by market with length of stay, and each market's share of air outbound trips",
+      "Research"
+     ],
+     [
+      "I1",
+      "5",
+      "Partners",
+      "Invest in premium product outside the Metro and in the midscale branded accommodation the province lacks (focus areas 11 and 15)",
+      "Accommodation investors; hospitality bodies"
+     ],
+     [
+      "I1",
+      "5",
+      "National",
+      "Escalate the cap on US carriers, the absence of an Open Skies agreement and the bilateral agreements that limit airlift",
+      "Department of Transport"
+     ],
+     [
+      "I2",
+      "2",
+      "Wesgro",
+      "Publish a green-season events calendar and aim Convention Bureau bids at May to September in the province's strongest sectors",
+      "Convention Bureau; Destination Marketing"
+     ],
+     [
+      "I2",
+      "2",
+      "Wesgro",
+      "Package green-season flight, stay and experiences with airlines and trade, and test cooler-season incentive packages with Indian and Gulf planners",
+      "Air Access; Destination Marketing; airlines"
+     ],
+     [
+      "I2",
+      "2",
+      "Wesgro",
+      "Measure meetings, incentives and exhibitions, which provincial statistics do not cover today",
+      "Research; CTICC"
+     ],
+     [
+      "I2",
+      "2",
+      "Partners",
+      "Programme lifestyle events in December and January and keep peak dates for international events; market flower, fynbos and whale events earlier",
+      "CTICC; Overberg and West Coast LTOs"
+     ],
+     [
+      "I2",
+      "2",
+      "Partners",
+      "Agree one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Province",
+      "City of Cape Town; DEDAT"
+     ],
+     [
+      "I2",
+      "2",
+      "National",
+      "Ease visas for regional African delegates, whose event demand the venue operator rates as visa-constrained",
+      "Home Affairs; SA National Convention Bureau"
+     ],
+     [
+      "I3",
+      "3",
+      "Wesgro",
+      "Run a bookability census of provincial product by district and publish it as the baseline",
+      "Research; LTOs"
+     ],
+     [
+      "I3",
+      "3",
+      "Wesgro",
+      "Run a digital onboarding drive for small operators and cellars on the West Coast, Route 62 and the Overberg",
+      "Tourism; district municipalities"
+     ],
+     [
+      "I3",
+      "3",
+      "Wesgro",
+      "Deepen OTA partnerships with Trip.com, Almosafer and Booking.com, and list packaged regional itineraries on them",
+      "Destination Marketing; OTAs"
+     ],
+     [
+      "I3",
+      "3",
+      "Partners",
+      "Give each pilot community one live booking route before any promotion (focus area 13)",
+      "LTOs; community sellers"
+     ],
+     [
+      "I3",
+      "3",
+      "Partners",
+      "Move CapeNature reservations online and complete cashless payments at reserve level",
+      "CapeNature"
+     ],
+     [
+      "I3",
+      "3",
+      "National",
+      "Extend rural broadband under SA Connect, so operators outside the core can take online bookings and card payments",
+      "National government"
+     ],
+     [
+      "I4",
+      "4",
+      "Wesgro",
+      "Secure added frequency from Emirates, Qatar Airways and Ethiopian Airlines, with joint market support tied to Indian and Chinese sales",
+      "Air Access; hub carriers"
+     ],
+     [
+      "I4",
+      "4",
+      "Wesgro",
+      "Activate inside Xiaohongshu, Douyin and MakeMyTrip with market-specific itineraries and Trip.com packages",
+      "Destination Marketing; OTAs; trade"
+     ],
+     [
+      "I4",
+      "4",
+      "Wesgro",
+      "Build long-term route cases for the India and China corridors and keep a standing relationship with Indian carriers, Cathay Pacific, China Southern and China Eastern",
+      "Air Access"
+     ],
+     [
+      "I4",
+      "4",
+      "Wesgro",
+      "Sell Johannesburg-gateway itineraries, with a flight to Cape Town added to the ticket, to Indian and Chinese visitors already bound for South Africa",
+      "Destination Marketing; inbound operators; airlines"
+     ],
+     [
+      "I4",
+      "4",
+      "Partners",
+      "Ready the product for both markets: Mandarin and Indian-language guiding, Alipay and WeChat Pay, visible vegetarian options",
+      "Product owners; attractions; hospitality bodies"
+     ],
+     [
+      "I4",
+      "4",
+      "National",
+      "Escalate visa processing for China and India, and the route designation for China that is decided government to government",
+      "Home Affairs; Department of Transport"
+     ],
+     [
+      "I5",
+      "6",
+      "Wesgro",
+      "Make the capacity case on the five full regional routes with Airlink, Ethiopian Airlines, Kenya Airways and the other regional carriers",
+      "Air Access (focus area 7); airlines"
+     ],
+     [
+      "I5",
+      "6",
+      "Wesgro",
+      "Run premium, trade-led activation in Nigeria and Kenya for leisure, weddings and conferences with leisure extensions",
+      "Destination Marketing; Convention Bureau; trade"
+     ],
+     [
+      "I5",
+      "6",
+      "Wesgro",
+      "Add Nigeria and Ghana to the growth model and commission consumer research for Botswana, Zambia, Ghana and Rwanda",
+      "Research"
+     ],
+     [
+      "I5",
+      "6",
+      "Partners",
+      "Convert rest-of-Africa travellers who stop in Johannesburg with onward packages, and give regional delegates leisure extensions",
+      "Cape Town Tourism; CTICC; tour operators; Cross-Border Road Transport Agency"
+     ],
+     [
+      "I5",
+      "6",
+      "National",
+      "Escalate visas for African markets, building on the Ghana visa waiver of November 2023, and liberalisation of regional air routes",
+      "Home Affairs; Department of Transport"
+     ],
+     [
+      "I6",
+      "7",
+      "Wesgro",
+      "Run a seat-retention and frequency programme on the full routes, with joint marketing tied to route performance",
+      "Air Access; Destination Marketing; airlines"
+     ],
+     [
+      "I6",
+      "7",
+      "Wesgro",
+      "Win Wesgro's 10 new routes by FY30 outside the peak hours, starting with regional and hub links; put belly cargo into each route case",
+      "Air Access; airlines; ACSA; exporters"
+     ],
+     [
+      "I6",
+      "7",
+      "Wesgro",
+      "Scale and ring-fence Cape Town Air Access's route fund as a public-private fund for route support, with a set size and governance",
+      "Air Access; DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; private sector"
+     ],
+     [
+      "I6",
+      "7",
+      "Wesgro",
+      "Treat runway delivery as the first risk: track approvals and milestones quarterly and commission a capacity-against-demand model to 2035",
+      "Air Access; Research"
+     ],
+     [
+      "I6",
+      "7",
+      "Partners",
+      "Deliver the runway, terminals and George upgrade on the published dates; close the funding and name a carrier at Cape Winelands",
+      "ACSA; Cape Winelands Airport"
+     ],
+     [
+      "I6",
+      "7",
+      "National",
+      "Escalate bilateral air service agreements, the cap on US carriers and immigration processing at Cape Town International",
+      "Department of Transport; Home Affairs"
+     ],
+     [
+      "I7",
+      "8",
+      "Wesgro",
+      "Market Cape Town to world-cruise and other lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
+      "Cruise Cape Town; Destination Marketing; City of Cape Town"
+     ],
+     [
+      "I7",
+      "8",
+      "Wesgro",
+      "Back Mossel Bay now with packaged excursions and line marketing; keep Saldanha Bay on watch until demand is proven",
+      "Cruise Cape Town; Mossel Bay municipality"
+     ],
+     [
+      "I7",
+      "8",
+      "Wesgro",
+      "Put community and regional product on cruise-operator channels, starting with a bookable walk in the Knysna townships",
+      "Cruise Cape Town; LTOs"
+     ],
+     [
+      "I7",
+      "8",
+      "Partners",
+      "Manage berth scheduling and wind delays at Cape Town, plan for shore power and review the 300m limit",
+      "Transnet National Ports Authority; V&A Waterfront"
+     ],
+     [
+      "I7",
+      "8",
+      "National",
+      "Put cruise into port planning, since current Western Cape port capital carries no cruise capacity",
+      "Transnet"
+     ],
+     [
+      "I8",
+      "9",
+      "Wesgro",
+      "Package the Southern Line as a visitor product, with refreshed branding and day passes",
+      "Tourism; Destination Marketing; City of Cape Town; PRASA"
+     ],
+     [
+      "I8",
+      "9",
+      "Wesgro",
+      "Aggregate demand and bookings for corridor shuttles, starting on the Garden Route and between Cape Town, Darling and the West Coast",
+      "Tourism; district municipalities; private operators"
+     ],
+     [
+      "I8",
+      "9",
+      "Wesgro",
+      "Sell the airport transfer and the corridor transfers on the N2 and R62 routes inside the itinerary, so visitors without a car can buy the trip",
+      "Destination Marketing; operators"
+     ],
+     [
+      "I8",
+      "9",
+      "Partners",
+      "Complete the Central Line recovery, MyCiTi Phase 2 and the unfunded last mile to Cape Point, with integrated ticketing",
+      "City of Cape Town; PRASA; Department of Mobility"
+     ],
+     [
+      "I8",
+      "9",
+      "Partners",
+      "Take forward the Cape Town to George rapid rail assessment and extend the George public transport model",
+      "Department of Mobility"
+     ],
+     [
+      "I8",
+      "9",
+      "Partners",
+      "Revive the MyCiTi airport service and provide staging for e-hailing and metered taxis at Cape Town International",
+      "Department of Mobility; City of Cape Town; ACSA"
+     ],
+     [
+      "I8",
+      "9",
+      "National",
+      "Lift the national rule that blocks bank-card payments on the George bus, and fund passenger rail beyond the Metro",
+      "National government; PRASA"
+     ],
+     [
+      "I9",
+      "10",
+      "Wesgro",
+      "Package bookable multi-day itineraries on each of the six touring routes, delivering first on the Garden Route, the Cape Winelands and the Overberg, then Route 62 and the West Coast",
+      "Tourism; Destination Marketing; City of Cape Town; LTOs"
+     ],
+     [
+      "I9",
+      "10",
+      "Wesgro",
+      "Activate cold-zone assets with guided tours, interpretation and bookable product, beginning with the marine and wildflower assets",
+      "Tourism; CapeNature; SANParks; LTOs"
+     ],
+     [
+      "I9",
+      "10",
+      "Wesgro",
+      "Build regional conference offers in Stellenbosch and George, with stays before and after Cape Town events",
+      "Convention Bureau"
+     ],
+     [
+      "I9",
+      "10",
+      "Partners",
+      "Invest in accommodation and service depth beyond Hermanus, in Route 62's secondary towns and beyond Langebaan and Paternoster (focus area 15)",
+      "Accommodation investors; municipalities"
+     ],
+     [
+      "I9",
+      "10",
+      "Partners",
+      "Refresh flagship product: Robben Island beyond the prison tour; the Cableway's lower station",
+      "Robben Island Museum; Table Mountain Aerial Cableway"
+     ],
+     [
+      "I9",
+      "10",
+      "National",
+      "Complete SANParks precinct projects such as the R81.7m Agulhas lighthouse precinct",
+      "SANParks"
+     ],
+     [
+      "I10",
+      "11",
+      "Wesgro",
+      "Prepare for growth markets: multilingual guiding, digital payments, halal food and prayer facilities and culturally relevant product for Chinese, Indian and Gulf visitors",
+      "Tourism; Destination Marketing"
+     ],
+     [
+      "I10",
+      "11",
+      "Wesgro",
+      "Make the investment case for mid-scale and conference-capable hotels in George and Mossel Bay, east of Hermanus and on Route 62 (focus area 15)",
+      "Tourism; private investors"
+     ],
+     [
+      "I10",
+      "11",
+      "Partners",
+      "Set up a provincial quality charter, phased by district, with certification visible on booking platforms and support for SMMEs to comply",
+      "DEDAT, with Wesgro Tourism; industry bodies"
+     ],
+     [
+      "I10",
+      "11",
+      "Partners",
+      "Close service and interpretation gaps at named sites: Robben Island interpretation, CapeNature service readiness, restaurant quality in Mossel Bay",
+      "Attraction operators; municipalities; CATHSSETA"
+     ],
+     [
+      "I10",
+      "11",
+      "National",
+      "Improve immigration processing and peak-hour throughput at Cape Town International, and deliver the terminal relief due about 2032",
+      "Home Affairs; ACSA"
+     ],
+     [
+      "I11",
+      "12",
+      "Wesgro",
+      "Market Stony Point instead of Boulders at the peak, and the receiving reserves and the Southern Line towns of Muizenberg, Kalk Bay and Simon's Town instead of peak-hour Cableway visits",
+      "Destination Marketing; CapeNature; SANParks; PRASA"
+     ],
+     [
+      "I11",
+      "12",
+      "Wesgro",
+      "Request carrying capacity for the flagship sites and publish it beside the Treasury's visitor counts as the baseline",
+      "Research; site operators; Provincial Treasury"
+     ],
+     [
+      "I11",
+      "12",
+      "Wesgro",
+      "Report spend per visitor and length of stay for nature product alongside visitor numbers",
+      "Research"
+     ],
+     [
+      "I11",
+      "12",
+      "Partners",
+      "Introduce digital visitor-flow management at the Cableway and Boulders, with tiered pricing where mandates allow",
+      "Table Mountain Aerial Cableway; SANParks; CapeNature"
+     ],
+     [
+      "I11",
+      "12",
+      "Partners",
+      "Make reserve product climate-resilient by reassessing asset formats and siting",
+      "CapeNature"
+     ],
+     [
+      "I11",
+      "12",
+      "National",
+      "Agree a visitor management plan for Table Mountain National Park and Boulders with the City and the operators",
+      "SANParks"
+     ],
+     [
+      "I12",
+      "13",
+      "Wesgro",
+      "Put pilot community product into the itineraries, calendars and channels Wesgro already runs, such as the Langa and Kayamandi routes and the Mal'va festival listing",
+      "Tourism; Destination Marketing"
+     ],
+     [
+      "I12",
+      "13",
+      "Wesgro",
+      "Choose the two or three pilots with partners on the plan's readiness criteria, and keep the record of bookings, visitors and locally retained revenue",
+      "Research; Tourism"
+     ],
+     [
+      "I12",
+      "13",
+      "Partners",
+      "Form or fund a local selling body in each pilot community, with one live booking route, published dates and a named customer contact",
+      "Municipalities, with the City of Cape Town in Metro pilots; LTOs; community sellers"
+     ],
+     [
+      "I12",
+      "13",
+      "Partners",
+      "Attach maintenance and marketing covenants to public assets before any re-letting or upgrade",
+      "Municipalities"
+     ],
+     [
+      "I12",
+      "13",
+      "National",
+      "Commit SAPS to the launch safety plans the pilots need, and open ACSA and other national procurement to businesses trading inside the communities",
+      "SAPS; ACSA"
+     ],
+     [
+      "I13",
+      "14",
+      "Wesgro",
+      "Keep a climate and weather risk register for tourism sites and routes, starting with the Robben Island, Cableway and CapeNature losses and the Meiringspoort closure",
+      "Research; DEDAT; site operators"
+     ],
+     [
+      "I13",
+      "14",
+      "Wesgro",
+      "Build sustainability checks into the provincial quality charter (focus area 11) on the Mossel Bay model",
+      "Tourism; LTOs"
+     ],
+     [
+      "I13",
+      "14",
+      "Wesgro",
+      "Route itineraries and marketing around closures, starting with alternatives to Meiringspoort until the pass reopens",
+      "Destination Marketing; Garden Route and Klein Karoo LTOs"
+     ],
+     [
+      "I13",
+      "14",
+      "Partners",
+      "Give LTOs a stable funding agreement with a development mandate, written into IDPs from 2029 with reporting, using the Provincial Treasury's district reviews",
+      "Municipalities; district municipalities; DEDAT; Provincial Treasury"
+     ],
+     [
+      "I13",
+      "14",
+      "Partners",
+      "Make reserve and attraction assets climate-resilient, with off-grid power at remote sites",
+      "CapeNature; site operators"
+     ],
+     [
+      "I13",
+      "14",
+      "National",
+      "Resolve the effect of MFMA Circular No. 131 on municipal funding of local tourism bodies, and complete the Meiringspoort rebuild",
+      "National Treasury; the road authority"
+     ],
+     [
+      "I14",
+      "15",
+      "Wesgro",
+      "Build a tourism investment pipeline from the gap-closure tables, scored for return, jobs and inclusion, and take it to investors",
+      "Wesgro investment promotion; Tourism; DEDAT"
+     ],
+     [
+      "I14",
+      "15",
+      "Wesgro",
+      "Prepare investment cases for mid-scale and conference-capable hotels in secondary nodes and for accommodation at De Hoop and on Route 62",
+      "Wesgro investment promotion; private investors"
+     ],
+     [
+      "I14",
+      "15",
+      "Wesgro",
+      "Scale Cape Town Air Access's route fund into the public-private air access fund, with ring-fenced corridor budgets (focus area 7)",
+      "Air Access; DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; private sector"
+     ],
+     [
+      "I14",
+      "15",
+      "Partners",
+      "Make one levy case for the visitor economy that covers destination management and tourist transport; test blended-finance vehicles",
+      "DEDAT; Department of Mobility; City of Cape Town"
+     ],
+     [
+      "I14",
+      "15",
+      "Partners",
+      "Attach covenants to public assets before re-letting or upgrading them, and invest in community assets only after demand is proven",
+      "Municipalities"
+     ],
+     [
+      "I14",
+      "15",
+      "National",
+      "Hold ACSA, PRASA and Transnet to their published capital dates, and add tourism use to the port plans",
+      "ACSA; PRASA; Transnet"
+     ],
+     [
+      "I15",
+      "16",
+      "Wesgro",
+      "Constitute the Tourism Growth Steerco, co-chaired with DEDAT and with Cape Town Tourism as a standing member, and agree a decision-rights map by tier, building on the tier split in section 1.2",
+      "Wesgro CEO's office; DEDAT; Cape Town Tourism"
+     ],
+     [
+      "I15",
+      "16",
+      "Wesgro",
+      "Hold standing relationships with Indian carriers and authorities, with China Southern and China Eastern and with Riyadh Air",
+      "Air Access"
+     ],
+     [
+      "I15",
+      "16",
+      "Wesgro",
+      "Track the national capital programmes that bind the plan (runway, ports and rail) and report on them each quarter",
+      "Air Access; Research"
+     ],
+     [
+      "I15",
+      "16",
+      "Partners",
+      "Settle district, local and LTO mandates, testing the Blueprint's district model for regional tourism organisations, restore a tourism development function where it has lapsed and revisit the Discover Garden Route partnership",
+      "District municipalities; municipalities; LTOs"
+     ],
+     [
+      "I15",
+      "16",
+      "Partners",
+      "Test a dedicated transport authority model for tourism-enabling mobility",
+      "Department of Mobility"
+     ],
+     [
+      "I15",
+      "16",
+      "National",
+      "Agree with the province how marketing and data roles divide between national and provincial bodies",
+      "SA Tourism; Department of Tourism"
+     ],
+     [
+      "I15",
+      "17",
+      "Wesgro",
+      "Use JAMS as the single consultation channel to the associations, and add the Tour Guides Association",
+      "Wesgro CEO's office; FEDHASA"
+     ],
+     [
+      "I15",
+      "17",
+      "Wesgro",
+      "Set up sector councils for wine, business events, adventure and culture inside Steerco's structure",
+      "Tourism; Convention Bureau; industry bodies"
+     ],
+     [
+      "I15",
+      "17",
+      "Wesgro",
+      "Bring airlines, online travel agencies and tour operators into the joint plan, starting with Trip.com Group, Thomas Cook India, dnata Travel, China International Travel Service and Emirates",
+      "Destination Marketing; Air Access"
+     ],
+     [
+      "I15",
+      "17",
+      "Partners",
+      "Supply academic and sector champions for international bids",
+      "CTICC; universities"
+     ],
+     [
+      "I15",
+      "17",
+      "Partners",
+      "Give regional forums a development agenda and tailor provincial support to district needs",
+      "District municipalities; DEDAT; LTOs"
+     ],
+     [
+      "I15",
+      "17",
+      "National",
+      "Include provincial assets in SA Tourism's campaigns for emerging source markets",
+      "SA Tourism"
+     ],
+     [
+      "I16",
+      "18",
+      "Wesgro",
+      "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the Provincial Treasury, the Department of Mobility, the site operators and the booking platforms",
+      "Research"
+     ],
+     [
+      "I16",
+      "18",
+      "Wesgro",
+      "Run one indicator register and dashboard, with quarterly digital tracking and annual brand research",
+      "Research; programme office"
+     ],
+     [
+      "I16",
+      "18",
+      "Wesgro",
+      "Measure meetings, incentives and exhibitions",
+      "Research; Convention Bureau"
+     ],
+     [
+      "I16",
+      "18",
+      "Partners",
+      "Close the provincial tourism policy gap and embed tourism in IDPs and spatial plans, with reporting",
+      "DEDAT; municipalities"
+     ],
+     [
+      "I16",
+      "18",
+      "Partners",
+      "Share visitor-level data from ticketing and reservation systems",
+      "Attraction operators; CapeNature"
+     ],
+     [
+      "I16",
+      "18",
+      "National",
+      "Approve a provincial tourism GDP and jobs methodology and resource the tourism satellite account",
+      "Department of Tourism; Stats SA"
+     ],
+     [
+      "I17",
+      "19",
+      "Wesgro",
+      "Table an escalation agenda at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements; immigration throughput at Cape Town International",
+      "Wesgro CEO's office; Advocacy and Advisory unit; DEDAT"
+     ],
+     [
+      "I17",
+      "19",
+      "Wesgro",
+      "Build the market-by-market evidence for each ask, from the reforms DEDAT's visa study ranks to safety perception in source markets",
+      "Research; Destination Marketing"
+     ],
+     [
+      "I17",
+      "19",
+      "Wesgro",
+      "Carry a visitor-safety narrative in marketing, and apply the four launch gates set in focus area 13 to any community product Wesgro sells",
+      "Destination Marketing; Tourism"
+     ],
+     [
+      "I17",
+      "19",
+      "Partners",
+      "Build on the City's Tourist Safety Programme for the dedicated tourism safety units the Metro needs, with safety compacts in pilot communities",
+      "City of Cape Town; Western Cape Government; municipalities; SAPS"
+     ],
+     [
+      "I17",
+      "19",
+      "Partners",
+      "Fix basic services, water and connectivity at remote reserves and in tourism towns",
+      "Municipalities; CapeNature"
+     ],
+     [
+      "I17",
+      "19",
+      "Partners",
+      "Study congestion on the N2 from Cape Town International and add highway patrols near the airport, as the draft land transport framework plans",
+      "Department of Mobility; City of Cape Town"
+     ],
+     [
+      "I17",
+      "19",
+      "National",
+      "Decide on visa processing, air service agreements and immigration counters, and make station security a rail line item",
+      "Home Affairs; Department of Transport; PRASA"
+     ],
+     [
+      "I18",
+      "20",
+      "Wesgro",
+      "Commission the labour analysis with DEDAT: baseline, definition, occupations, skills gaps and the training pipeline",
+      "Research; DEDAT"
+     ],
+     [
+      "I18",
+      "20",
+      "Wesgro",
+      "Extract the tourism employment table from the Pero 2025",
+      "Research"
+     ],
+     [
+      "I18",
+      "20",
+      "Wesgro",
+      "Build a workforce strand into the provincial quality charter (focus area 11)",
+      "Tourism"
+     ],
+     [
+      "I18",
+      "20",
+      "Partners",
+      "Run training partnerships around reserves and in pilot communities, building on the CATHSSETA guide certification and the Prince Albert academy",
+      "CapeNature; CATHSSETA; training providers; municipalities"
+     ],
+     [
+      "I18",
+      "20",
+      "Partners",
+      "Help newly trained guides stay in the sector with bookings from existing itineraries",
+      "LTOs; tour operators"
+     ],
+     [
+      "I18",
+      "20",
+      "National",
+      "Approve a provincial tourism jobs methodology and resource the tourism satellite account",
+      "Department of Tourism; Stats SA"
+     ]
+    ]
+   },
+   "reason": "A7 follows the Chapter 3 action tables as the v12 Chapter 3 edits leave them (focus areas 1, 4, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 18, 19 changed): the City and Cape Town Tourism in the segment frame; the Johannesburg-gateway lever and Cathay Pacific; the share measure; the 10 new routes and the route-fund partners; world-cruise lines; the airport leg; the City in I9; halal readiness; Stony Point and capacity beside the Treasury counts; the City in Metro pilots; IDPs from 2029; one levy case; the Blueprint district model; Treasury and the Department of Mobility as data holders; the Advocacy and Advisory unit, the BDO reforms, the City safety programme and the N2 corridor. Rows built from the edited grids; unchanged rows keep their v11 A7 wording. Review: the FA16 Steerco row takes Chapter 3's wording ('building on the tier split in section 1.2'). Joint check: the focus area 8, 15, 16 and 19 rows now match the Chapter 3 action tables word for word (the City in the cruise marketing row; ACSA, Cape Town Tourism and SA Tourism in the air access fund row).",
+   "computed": [
+    "117"
+   ]
+  },
+  {
+   "module": "appendices/08_a8_toolkit.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "Targets come from the growth model where it prints them and from the Inclusion Plan where it sets a pilot count.",
+   "repl": "Targets come from the growth model where it prints them and from the Inclusion Plan where it sets a pilot count. Wesgro's FY26 to FY30 plan sets them for bids, routes and cruise calls.",
+   "reason": "Assessment 5, Chapter 5, T2-09 and T2-11 (High), T2-02 (Medium): targets from the plan (p20)."
+  },
+  {
+   "module": "appendices/08_a8_toolkit.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "T2-01",
+      "Arrivals from the UK, Germany, USA and India",
+      "SA Tourism; growth model",
+      "Annual",
+      "Research",
+      "726,330 (2035, base; computed from MA p21, p22)"
+     ],
+     [
+      "T2-02",
+      "ICCA association meetings and bids secured",
+      "ICCA; Convention Bureau",
+      "Annual",
+      "Convention Bureau",
+      "161 bids secured over FY26 to FY30 (WSP p20); meetings rising, level set at Gate 1"
+     ],
+     [
+      "T2-03",
+      "April to September share of international seats",
+      "ACSA; OAG",
+      "Quarterly",
+      "Air Access",
+      "Rising"
+     ],
+     [
+      "T2-04",
+      "Share of operators bookable online",
+      "Bookability census",
+      "Every two years",
+      "Research",
+      "Baseline in 2027; rising"
+     ],
+     [
+      "T2-05",
+      "CapeNature reservations made online",
+      "CapeNature",
+      "Annual",
+      "Research",
+      "Rising"
+     ],
+     [
+      "T2-06",
+      "India and China arrivals via hubs",
+      "GDS bookings; growth model",
+      "Annual",
+      "Air Access",
+      "India 165,260; China and Hong Kong 92,598 (2035, base, model)"
+     ],
+     [
+      "T2-07",
+      "Spend per visitor, mature markets",
+      "SA Tourism",
+      "Annual",
+      "Research",
+      "Rising in real terms"
+     ],
+     [
+      "T2-08",
+      "African arrivals and spend",
+      "SA Tourism",
+      "Annual",
+      "Research",
+      "Regional group 402,812 (2035, base)"
+     ],
+     [
+      "T2-09",
+      "International seats and routes",
+      "ACSA; OAG",
+      "Quarterly",
+      "Air Access",
+      "10 new routes by FY30 (WSP p20, p59), each tested on load factor and survival; seats from the capacity-against-demand model (I6)"
+     ],
+     [
+      "T2-10",
+      "Seats added on routes above 80% load",
+      "GDS bookings",
+      "Annual",
+      "Air Access",
+      "Seats added on each full route"
+     ],
+     [
+      "T2-11",
+      "Cruise calls, unique passengers and GDP-R",
+      "Cruise Cape Town; StratEcon season study",
+      "Each season",
+      "Cruise Cape Town",
+      "250 calls over FY26 to FY30, about 50 a year (WSP p20); GDP-R rising"
+     ],
+     [
+      "T2-12",
+      "Accessibility score by district",
+      "Readiness re-score",
+      "2029 and 2032",
+      "Research",
+      "Rising outside the Metro"
+     ],
+     [
+      "T2-13",
+      "Corridor transfer products on sale",
+      "I8 records",
+      "Annual",
+      "Tourism",
+      "One per corridor by 2031 (proposed)"
+     ],
+     [
+      "T2-14",
+      "Overall readiness by district",
+      "Readiness re-score",
+      "2029 and 2032",
+      "Research",
+      "Rising at each re-score"
+     ],
+     [
+      "T2-15",
+      "Touring routes rated Ready",
+      "Readiness re-score",
+      "2029 and 2032",
+      "Research",
+      "Three of six by 2031; none below Developing (proposed)"
+     ],
+     [
+      "T2-16",
+      "Peak queue at the Cableway; visitors at six flagships",
+      "Operator; Treasury district reviews",
+      "Annual",
+      "Research",
+      "Queue falling; visitor counts tracked, with no cap until capacity is known"
+     ],
+     [
+      "T2-17",
+      "Communities with a live booking route",
+      "Pilot records",
+      "Quarterly",
+      "Tourism",
+      "Two or three pilots (SCIP p32), by 2028 (proposed)"
+     ],
+     [
+      "T2-18",
+      "LTOs with a funding agreement",
+      "LTO survey",
+      "Annual",
+      "DEDAT",
+      "Baseline in 2027; rising"
+     ],
+     [
+      "T2-19",
+      "Weather losses at flagship sites",
+      "Site operators",
+      "Annual",
+      "Research",
+      "Tracked; no target"
+     ],
+     [
+      "T2-20",
+      "Tourism projects at financial close",
+      "I14 records",
+      "Annual",
+      "Wesgro investment promotion",
+      "First projects by 2031"
+     ],
+     [
+      "T2-21",
+      "Escalation items answered",
+      "Steerco records",
+      "Quarterly",
+      "Wesgro CEO's office",
+      "Each item answered within a year (proposed)"
+     ],
+     [
+      "T2-22",
+      "Industry partners in the joint plan",
+      "Steerco records",
+      "Annual",
+      "Wesgro CEO's office",
+      "Plan agreed in 2027; partners rising"
+     ],
+     [
+      "T2-23",
+      "Automated feeds in the dashboard",
+      "Programme office",
+      "Quarterly",
+      "Research",
+      "Arrivals, seats and cruise automated by 2028"
+     ],
+     [
+      "T2-24",
+      "Visa processing time and eVisa decisions before the travel date",
+      "Home Affairs; SA Tourism",
+      "Annual",
+      "Wesgro CEO's office",
+      "Falling; decisions before the travel date rising"
+     ],
+     [
+      "T2-25",
+      "Tourism labour analysis published",
+      "Research",
+      "Once",
+      "DEDAT, with Wesgro Research",
+      "Published by the end of 2028"
+     ],
+     [
+      "T2-26",
+      "Share of visitors staying overnight, by district",
+      "Treasury district reviews; Wesgro visitor tracking",
+      "Annual",
+      "Research",
+      "Rising outside the Metro (proposed)"
+     ],
+     [
+      "T2-27",
+      "Tourist spend as a share of GDPR, by district",
+      "Treasury district reviews",
+      "Annual",
+      "Research",
+      "Tracked beside T1-06; no target"
+     ],
+     [
+      "T2-28",
+      "Visitors who report feeling safe, priority markets",
+      "Wesgro visitor tracking",
+      "Annual",
+      "Research",
+      "Baseline once the survey asks; rising (proposed)"
+     ]
+    ],
+    "source": "Indicator register, section 5.2; Market Assessment Report, May 2026, p20 to p23 (model values, working analysis); SME and Community Inclusion Plan, Sep 2026, p32. T2-01 is the sum of the four printed market values (computed). Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP)."
+   },
+   "reason": "The register follows 5.2: T2-02 (161 bids, plan p20), T2-09 (10 new routes, plan pp20, 59; load factor and survival), T2-11 (250 calls over five years, plan p20; the target is no longer held open; GDP-R added), T2-16 (flagship counts), T2-24 (eVisa decisions) and the new T2-26 and T2-27. Review: 'Plan' abbreviation replaced by WSP; T2-28 added.",
+   "computed": [
+    "50"
+   ]
+  },
+  {
+   "module": "appendices/09_a9_glossary.json",
+   "index": 2,
+   "op": "replace_text",
+   "find": "Ten terms carry a specific meaning in this report, and twenty-eight documents support it,",
+   "repl": "Eleven terms carry a specific meaning in this report, and thirty-nine documents support it,",
+   "reason": "One glossary term (New route) and eleven documents added."
+  },
+  {
+   "module": "appendices/09_a9_glossary.json",
+   "index": 3,
+   "op": "replace_text",
+   "find": "Working analyses rank below the deliverables, and public sources are used only where no deliverable carries the figure.",
+   "repl": "Working analyses rank below the deliverables. Wesgro's, the province's and the City's own documents are cited directly by page, slide or chapter. Other public sources are used only where no deliverable carries the figure.",
+   "reason": "Decisions, citation forms: the Wesgro, provincial and City documents are now cited directly."
+  },
+  {
+   "module": "appendices/09_a9_glossary.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "Accelerated case",
+      "The growth model's upside path: direct India and China routes secured with dedicated activation; 2,516,282 arrivals in 2035"
+     ],
+     [
+      "Base case",
+      "The growth model's most likely path: Wesgro's current activity continues and hub carriers add capacity; 2,175,778 arrivals in 2035"
+     ],
+     [
+      "Cold zone",
+      "The Infrastructure Report's term for an area with tourism assets but little or no tourism use"
+     ],
+     [
+      "Focus area",
+      "One of the twenty entries on the hypothesis tree, each with a Chapter 3 entry, an initiative and indicators"
+     ],
+     [
+      "Green season",
+      "April to September, the months of lower overseas demand"
+     ],
+     [
+      "International arrivals",
+      "On the growth model's basis, which Skift is to confirm; distinct from international passenger arrivals at Cape Town International, which ACSA reports"
+     ],
+     [
+      "New route",
+      "Wesgro's term, in its FY26 to FY30 plan, for a scheduled international service flying to and from Cape Town for the first time; counted in T2-09"
+     ],
+     [
+      "Readiness",
+      "The Infrastructure Report's score for how ready a district's assets are to receive visitors, beside attractiveness and accessibility"
+     ],
+     [
+      "Seat line",
+      "The 1.8 million inbound seats the growth model draws as current air access, as drawn in the Demand-Side Analysis; a model assumption, not a measured cap (section 1.3)"
+     ],
+     [
+      "Seller with a stake",
+      "The Inclusion Plan's term for a local body that sells community product and keeps the revenue in the community"
+     ],
+     [
+      "Tier 1, 2 and 3",
+      "Impact, outcome and output indicators (section 5.2)"
+     ]
+    ]
+   },
+   "reason": "Decisions, Wesgro's FY26 to FY30 targets: a new route is first-time scheduled international service (plan p59); T2-09 now counts it."
+  },
+  {
+   "module": "appendices/09_a9_glossary.json",
+   "index": 5,
+   "op": "add_rows",
+   "rows": [
+    [
+     "Five-Year Strategic Plan 2026 to 2030: Cape Town and Western Cape, a Leading Regional Economy",
+     "Wesgro",
+     "Undated; covers FY26 to FY30 (2025/26 to 2029/30)",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Source Market Analysis",
+     "Wesgro Research (Economic Knowledge Hub)",
+     "Nov 2025",
+     "Wesgro document",
+     "Data for 2022 to 2024, as three-year totals"
+    ],
+    [
+     "Cape Town Air Access: Letsema Update",
+     "Cape Town Air Access (City, province, ACSA, Cape Town Tourism, SA Tourism, Wesgro, private sector)",
+     "Nov 2025",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Western Cape Cruise Liner Industry: Economic Contribution 2024/25 Season, final report",
+     "StratEcon for Wesgro",
+     "Oct 2025 (9 October 2025)",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Blueprint 2030",
+     "Western Cape Department of Economic Development and Tourism",
+     "Undated; set before COVID",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Growth for Jobs Strategy 2023 to 2035",
+     "Western Cape Government",
+     "2023 (approved by Cabinet)",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Provincial Economic Review and Outlook 2025",
+     "Western Cape Provincial Treasury",
+     "2025",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Municipal Economic Review and Outlook 2024/25: Cape Metro, Cape Winelands, Garden Route, Overberg, West Coast and Central Karoo",
+     "Western Cape Provincial Treasury",
+     "2024/25 (2023 data)",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Development Framework 2019 to 2024",
+     "City of Cape Town, Department of Enterprise and Investment",
+     "2019 to 2024",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Assessment of the Economic Impact of South Africa's Visa Regime Administration and Policy Reform Proposals, executive summary",
+     "BDO for the Western Cape Department of Economic Development and Tourism",
+     "Jul 2024",
+     "DEDAT document",
+     ""
+    ],
+    [
+     "Draft Western Cape Land Transport Framework 2024/25 to 2028/29",
+     "Western Cape Department of Mobility",
+     "Apr 2025",
+     "Public source",
+     ""
+    ]
+   ],
+   "reason": "Task: A9 gains a row for each new document cited in v12 across all streams (the Wesgro plan, TSMA, Letsema Update, StratEcon 2024/25, Blueprint, G4J, PERO, the six MEROs, City TDF, BDO, draft PLTF), with document, author, date and status (public or Wesgro document). Assessment 5, appendices: the 2024/25 cruise study shown as received (Inception p34). Decisions, do not use: City TDF targets as live targets. Review: notes trimmed to the receipt line; Air Access authorship from the partnership's members (not 'hosted by Wesgro'); the BDO summary is a DEDAT document, not a public source; the framework's title as printed."
+  },
+  {
+   "module": "appendices/09_a9_glossary.json",
+   "index": 7,
+   "op": "replace_text",
+   "find": "Public sources are cited by full title and date.",
+   "repl": "Public sources are cited by full title and date. Wesgro, provincial and City documents are cited by short title and page, the Cape Town Air Access update by slide and the draft land transport framework by chapter or chapter page.",
+   "reason": "Decisions, citation forms (same wording as section 1.5 in the es_ch1 edits). Review: the framework is cited by page as well as chapter. Joint check: wording now matches section 1.5 exactly."
+  },
+  {
+   "module": "ch4/04_raci.json",
+   "index": 4,
+   "op": "set",
+   "fields": {
+    "rows": [
+     [
+      "I1",
+      "Segment-led activation and yield in mature markets",
+      "A/R",
+      "C",
+      "C",
+      "I",
+      "-",
+      "C",
+      "-",
+      "C"
+     ],
+     [
+      "I2",
+      "Green-season events and business-events calendar",
+      "A/R",
+      "C",
+      "R",
+      "R",
+      "-",
+      "I",
+      "-",
+      "C"
+     ],
+     [
+      "I3",
+      "Bookable province programme",
+      "A/R",
+      "C",
+      "C",
+      "R",
+      "-",
+      "-",
+      "I",
+      "C"
+     ],
+     [
+      "I4",
+      "India and China hub conversion",
+      "A/R",
+      "I",
+      "I",
+      "-",
+      "C",
+      "C",
+      "C",
+      "C"
+     ],
+     [
+      "I5",
+      "Regional Africa programme",
+      "A/R",
+      "I",
+      "I",
+      "-",
+      "C",
+      "C",
+      "C",
+      "C"
+     ],
+     [
+      "I6",
+      "Route development and seat retention, with a public-private air access fund",
+      "A/R",
+      "R",
+      "R",
+      "-",
+      "C",
+      "I",
+      "C",
+      "C"
+     ],
+     [
+      "I7",
+      "Cruise growth through product",
+      "A/R",
+      "I",
+      "C",
+      "C",
+      "R",
+      "-",
+      "-",
+      "C"
+     ],
+     [
+      "I8",
+      "Corridor mobility",
+      "R",
+      "A",
+      "R",
+      "R",
+      "R",
+      "-",
+      "C",
+      "C"
+     ],
+     [
+      "I9",
+      "Corridor product development",
+      "A/R",
+      "C",
+      "C",
+      "R",
+      "-",
+      "-",
+      "C",
+      "C"
+     ],
+     [
+      "I10",
+      "Visitor experience and quality standards",
+      "R",
+      "A",
+      "C",
+      "C",
+      "-",
+      "-",
+      "-",
+      "R"
+     ],
+     [
+      "I11",
+      "Flagship site demand management",
+      "R",
+      "C",
+      "C",
+      "C",
+      "-",
+      "-",
+      "C",
+      "A"
+     ],
+     [
+      "I12",
+      "Community inclusion pilots",
+      "R",
+      "C",
+      "R",
+      "A",
+      "-",
+      "-",
+      "C",
+      "C"
+     ],
+     [
+      "I13",
+      "Climate resilience and destination management, including LTO funding",
+      "R",
+      "A",
+      "C",
+      "R",
+      "-",
+      "-",
+      "C",
+      "R"
+     ],
+     [
+      "I14",
+      "Tourism investment pipeline",
+      "A/R",
+      "R",
+      "C",
+      "C",
+      "C",
+      "-",
+      "-",
+      "C"
+     ],
+     [
+      "I15",
+      "Tourism Growth Steerco and three-tier alignment",
+      "A/R",
+      "R",
+      "R",
+      "R",
+      "C",
+      "C",
+      "C",
+      "R"
+     ],
+     [
+      "I16",
+      "Data-sharing protocol and visitor intelligence",
+      "A/R",
+      "C",
+      "R",
+      "C",
+      "R",
+      "R",
+      "R",
+      "C"
+     ],
+     [
+      "I17",
+      "Access and safety escalation agenda",
+      "A/R",
+      "R",
+      "C",
+      "C",
+      "C",
+      "C",
+      "R",
+      "C"
+     ],
+     [
+      "I18",
+      "Tourism labour analysis and skills plan",
+      "R",
+      "A",
+      "C",
+      "C",
+      "-",
+      "-",
+      "C",
+      "R"
+     ]
+    ]
+   },
+   "reason": "Review: the I1 charter now lists the City and Cape Town Tourism as partners on the segment frame (FA01; TDF p5), so their I1 cell moves from I (informed) to C (consulted). Other codes unchanged."
+  },
+  {
+   "module": "ch4/03_charters.json",
+   "index": 42,
+   "op": "replace_text",
+   "find": "Climate risk and LTO funding embedded in IDPs with reporting.",
+   "repl": "IDP entries for climate risk and LTO funding reviewed each year with reporting.",
+   "reason": "Review (assessment 6, FA14): the IDP step now starts in 2029 (Expand row), so Sustain reviews the entries rather than embedding them a second time."
+  },
+  {
+   "module": "ch4/02_sequencing.json",
+   "index": 11,
+   "op": "replace_text",
+   "find": "Inclusion pilots that met their thresholds scale through channels, climate risk and LTO funding are embedded in municipal planning, and the terminal evaluation in 2035 closes the plan (section 5.6).",
+   "repl": "Inclusion pilots that met their thresholds scale through channels. Climate risk and LTO funding, written into IDPs from 2029, are reviewed each year. The terminal evaluation in 2035 closes the plan (section 5.6).",
+   "reason": "Review (assessment 6, FA14): Phase 3 no longer dates the IDP step to 2032, matching the I13 charter."
+  },
+  {
+   "module": "ch5/03_baselines_targets.json",
+   "index": 9,
+   "op": "replace_text",
+   "find": "(Stats SA Tourism Satellite Account, provisional, as reported in 2026).",
+   "repl": "(Stats SA Tourism Satellite Account, provisional, as reported in 2026). The City's framework counts about 45,000 direct and 150,000 total tourism jobs in Cape Town (City of Cape Town, Tourism Development Framework 2019 to 2024, p3). Its direct count probably rests on a narrower definition than the 106,707; the labour analysis reconciles the two.",
+   "reason": "Review; assessment 4 conflict \"Cape Town tourism jobs\" (106,707 against about 45,000 direct, probably definitional; I18 reconciles). Section 5.3 now shows both City bases, as the I18 charter and FA20 use the framework's."
+  },
+  {
+   "module": "ch5/02_indicators.json",
+   "index": 6,
+   "op": "replace_text",
+   "find": "The seven without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24 and T2-25. Each carries no target until its baseline exists, on the dates in Table 5.7.",
+   "repl": "The eight without a baseline are T2-04, T2-18, T2-20, T2-21, T2-23, T2-24, T2-25 and T2-28. Each carries no target until its baseline exists, on the dates in the data gaps table (section 5.4).",
+   "reason": "Review: T2-28 has no baseline; the data gaps table is named by section, not by number."
+  },
+  {
+   "module": "ch4/06_funding.json",
+   "index": 4,
+   "op": "replace_text",
+   "find": "from Table 4.1.",
+   "repl": "from the initiatives table in section 4.1.",
+   "reason": "Review: no table cited by number."
+  }
+ ]
+}

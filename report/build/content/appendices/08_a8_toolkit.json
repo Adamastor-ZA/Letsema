@@ -15,12 +15,12 @@
   },
   {
    "type": "p",
-   "text": "Targets come from the growth model where it prints them and from the Inclusion Plan where it sets a pilot count. Elsewhere the target is a direction or a milestone, marked proposed where it is this report's choice; Steerco fixes the levels at Gate 1 once the 2027 baselines exist. Tier 1 targets are in section 5.3 and Tier 3 outputs in the charters."
+   "text": "Targets come from the growth model where it prints them and from the Inclusion Plan where it sets a pilot count. Wesgro's FY26 to FY30 plan sets them for bids, routes and cruise calls. Elsewhere the target is a direction or a milestone, marked proposed where it is this report's choice; Steerco fixes the levels at Gate 1 once the 2027 baselines exist. Tier 1 targets are in section 5.3 and Tier 3 outputs in the charters."
   },
   {
    "type": "table",
    "caption": "Tier 2 indicator register",
-   "source": "Indicator register, section 5.2; Market Assessment Report, May 2026, p20 to p23 (model values, working analysis); SME and Community Inclusion Plan, Sep 2026, p32. T2-01 is the sum of the four printed market values (computed).",
+   "source": "Indicator register, section 5.2; Market Assessment Report, May 2026, p20 to p23 (model values, working analysis); SME and Community Inclusion Plan, Sep 2026, p32. T2-01 is the sum of the four printed market values (computed). Wesgro, Strategic Plan 2025/26 to 2029/30 (WSP).",
    "columns": [
     {
      "header": "Code",
@@ -64,11 +64,11 @@
     ],
     [
      "T2-02",
-     "ICCA association meetings in Cape Town",
-     "ICCA",
+     "ICCA association meetings and bids secured",
+     "ICCA; Convention Bureau",
      "Annual",
      "Convention Bureau",
-     "Rising; level set at Gate 1"
+     "161 bids secured over FY26 to FY30 (WSP p20); meetings rising, level set at Gate 1"
     ],
     [
      "T2-03",
@@ -124,7 +124,7 @@
      "ACSA; OAG",
      "Quarterly",
      "Air Access",
-     "From the capacity-against-demand model (I6)"
+     "10 new routes by FY30 (WSP p20, p59), each tested on load factor and survival; seats from the capacity-against-demand model (I6)"
     ],
     [
      "T2-10",
@@ -136,11 +136,11 @@
     ],
     [
      "T2-11",
-     "Cruise calls and passengers",
-     "Cruise Cape Town",
+     "Cruise calls, unique passengers and GDP-R",
+     "Cruise Cape Town; StratEcon season study",
      "Each season",
      "Cruise Cape Town",
-     "Held open until the 250-call plan is sourced"
+     "250 calls over FY26 to FY30, about 50 a year (WSP p20); GDP-R rising"
     ],
     [
      "T2-12",
@@ -176,11 +176,11 @@
     ],
     [
      "T2-16",
-     "Peak queue at the Cableway",
-     "Operator",
+     "Peak queue at the Cableway; visitors at six flagships",
+     "Operator; Treasury district reviews",
      "Annual",
      "Research",
-     "Falling"
+     "Queue falling; visitor counts tracked, with no cap until capacity is known"
     ],
     [
      "T2-17",
@@ -240,11 +240,11 @@
     ],
     [
      "T2-24",
-     "Visa processing time, priority markets",
+     "Visa processing time and eVisa decisions before the travel date",
      "Home Affairs; SA Tourism",
      "Annual",
      "Wesgro CEO's office",
-     "Falling"
+     "Falling; decisions before the travel date rising"
     ],
     [
      "T2-25",
@@ -253,6 +253,30 @@
      "Once",
      "DEDAT, with Wesgro Research",
      "Published by the end of 2028"
+    ],
+    [
+     "T2-26",
+     "Share of visitors staying overnight, by district",
+     "Treasury district reviews; Wesgro visitor tracking",
+     "Annual",
+     "Research",
+     "Rising outside the Metro (proposed)"
+    ],
+    [
+     "T2-27",
+     "Tourist spend as a share of GDPR, by district",
+     "Treasury district reviews",
+     "Annual",
+     "Research",
+     "Tracked beside T1-06; no target"
+    ],
+    [
+     "T2-28",
+     "Visitors who report feeling safe, priority markets",
+     "Wesgro visitor tracking",
+     "Annual",
+     "Research",
+     "Baseline once the survey asks; rising (proposed)"
     ]
    ],
    "boldFirstCol": true

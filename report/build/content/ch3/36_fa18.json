@@ -27,7 +27,7 @@
   },
   {
    "type": "p",
-   "text": "Every target to 2035 depends on fixing this. The plan tracks spend, season and spread beside arrivals. No source yet prints visitor spend by district (section 5.3). Even arrivals are counted in ways that are not reconciled. Section 1.2 sets out three measures: ACSA passenger arrivals, SA Tourism tourist arrivals and the growth model's international arrivals. OAG's air series adds a fourth count (Demand-Side Analysis, Jun 2026, p11, p13, p20, p27). Without a shared data layer, no intervention can be targeted or measured (Infrastructure Report, Jul 2026, p5)."
+   "text": "Every target to 2035 depends on fixing this. The plan tracks spend, season and spread beside arrivals. No source yet prints visitor spend by district (section 5.3). The nearest measure is tourist spend as a share of each district's GDPR. The Provincial Treasury's district reviews print it, from Wesgro and S&P Global Market Intelligence data (Municipal Economic Review and Outlook 2024/25, Cape Metro, p8 to p9, p72). Even arrivals are counted in ways that are not reconciled. Section 1.2 sets out three measures: ACSA passenger arrivals, SA Tourism tourist arrivals and the growth model's international arrivals. OAG's air series adds a fourth count (Demand-Side Analysis, Jun 2026, p11, p13, p20, p27). Without a shared data layer, no intervention can be targeted or measured (Infrastructure Report, Jul 2026, p5)."
   },
   {
    "type": "p",
@@ -40,7 +40,7 @@
   {
    "type": "table",
    "caption": "Evidence for focus area 18",
-   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag).",
+   "source": "Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Diag); Provincial Economic Review and Outlook 2025 (PERO); Municipal Economic Review and Outlook 2024/25, Cape Metro (MERO); Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025 (PLTF).",
    "columns": [
     {
      "header": "Finding",
@@ -66,13 +66,8 @@
     ],
     [
      "No provincial method",
-     "No approved methodology for provincial tourism GDP and jobs; official tourism data lag after Covid-era method changes (Department of Tourism)",
-     "SIR p37"
-    ],
-    [
-     "National capacity is short",
-     "Tourism satellite account timeliness is constrained, with 749 Stats SA vacancies cited",
-     "SIR p30"
+     "No approved methodology for provincial tourism GDP and jobs; official data lag after Covid-era method changes, and the tourism satellite account is slowed by 749 Stats SA vacancies (Department of Tourism)",
+     "SIR p37, p30"
     ],
     [
      "No single view",
@@ -88,6 +83,11 @@
      "Platforms exist",
      "JAMS, the provincial tourism statistics committees and a cross-agency task team exist; the Cape Town Tourism and Google collaboration is still exploratory",
      "SIR p29, p30, p31, p37"
+    ],
+    [
+     "Provincial holders exist",
+     "The Provincial Treasury's reviews print spend per visitor by region of origin and, by district, attraction counts, bed-nights and tourist spend as a share of GDPR; the Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository",
+     "PERO p67; MERO p68 to p73; PLTF p3-60"
     ]
    ],
    "boldFirstCol": true,
@@ -95,7 +95,7 @@
   },
   {
    "type": "p",
-   "text": "The evidence locates the gap in sharing, not in supply. Provincial macro-research is strong; what is missing is granular data on movement within regions and conversion along the path to purchase (Current State Diagnostic, Dec 2025, p56, p57). The platforms to share it exist in JAMS, the statistics committees and a cross-agency task team. None of them holds an agreement on what each body shares, in what form and how often. No source describes a data-sharing protocol or a policy revision in progress at provincial level [data-sharing protocol or policy revision in progress, with owner and start date: Wesgro Research and DEDAT to confirm]."
+   "text": "The evidence locates the gap in sharing, not in supply. Provincial macro-research is strong; what is missing is granular data on movement within regions and conversion along the path to purchase (Current State Diagnostic, Dec 2025, p56, p57). The platforms to share it exist in JAMS, the statistics committees and a cross-agency task team. None of them holds an agreement on what each body shares, in what form and how often. Two provincial data holders sit outside tourism. The Provincial Treasury's provincial review prints spend per visitor by region of origin (Provincial Economic Review and Outlook 2025, p67). Its district reviews print attraction counts, bed-nights and tourist spend as a share of GDPR for each district (Municipal Economic Review and Outlook 2024/25, Cape Metro, p68 to p73). The Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60). No source describes a data-sharing protocol or a policy revision in progress at provincial level [data-sharing protocol or policy revision in progress, with owner and start date: Wesgro Research and DEDAT to confirm]."
   },
   {
    "type": "p",
@@ -107,7 +107,7 @@
   },
   {
    "type": "p",
-   "text": "Wesgro's Research unit agrees data-sharing terms with each data holder and runs one indicator register and dashboard, as section 5.5 sets out. In 2027 it builds the register and agrees terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms. In 2028 the dashboard goes live with automated arrivals, seat and cruise feeds and quarterly digital tracking (section 4.3). The dashboard sets campaign results against airline capacity and hotel trends, and annual or twice-yearly brand research sits beside it (Skift Digital and Search Insights memo, 10 Dec 2025, section 6). Wesgro also starts to measure meetings, incentives and exhibitions. Meetings are absent from consolidated provincial statistics, and the scale of the other two is unverified (Demand-Side Analysis, Jun 2026, p36)."
+   "text": "Wesgro's Research unit agrees data-sharing terms with each data holder and runs one indicator register and dashboard, as section 5.5 sets out. In 2027 it builds the register and agrees terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms. It also agrees terms with the Provincial Treasury for the data behind the Treasury's reviews and with the Department of Mobility for its Integrated Transport Hub. In 2028 the dashboard goes live with automated arrivals, seat and cruise feeds and quarterly digital tracking (section 4.3). The dashboard sets campaign results against airline capacity and hotel trends, and annual or twice-yearly brand research sits beside it (Skift Digital and Search Insights memo, 10 Dec 2025, section 6). Wesgro also starts to measure meetings, incentives and exhibitions. Meetings are absent from consolidated provincial statistics, and the scale of the other two is unverified (Demand-Side Analysis, Jun 2026, p36)."
   },
   {
    "type": "p",
@@ -135,7 +135,7 @@
    "rows": [
     [
      "Wesgro",
-     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms",
+     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the Provincial Treasury, the Department of Mobility, the site operators and the booking platforms",
      "Research"
     ],
     [

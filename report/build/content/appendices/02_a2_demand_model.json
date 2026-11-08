@@ -746,12 +746,12 @@
   },
   {
    "type": "p",
-   "text": "Eight arrivals figures circulate around this study, and they count four things: ambitions, airport passengers, South African Tourism's tourist arrivals and the model's arrivals. The table below fixes each figure and states how the report uses it. It keeps an airport count apart from a provincial tourist count, and an ambition apart from a projection. Section 1.1 sets out the three rules behind the last column."
+   "text": "Twelve arrivals figures circulate around this study, and they count four things: ambitions, airport passengers, tourist arrivals and the model's arrivals. The table below fixes each figure and states how the report uses it. It keeps an airport count apart from a provincial tourist count, and an ambition apart from a projection. Section 1.1 sets out the three rules behind the last column."
   },
   {
    "type": "table",
    "caption": "Arrivals figures in circulation",
-   "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source.",
+   "source": "Current State Diagnostic, Dec 2025, p5, p25; Market Assessment Report, May 2026, p10, p19; Inception Report, Nov 2025, p4; Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source); Wesgro Research, Western Cape Tourism Performance: Annual 2025; public source. Wesgro, Strategic Plan 2025/26 to 2029/30, p20; Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2 (2022 to 2024, three-year total); Provincial Economic Review and Outlook 2025, p68; Tourism Blueprint 2030, p4, p10.",
    "columns": [
     {
      "header": "Figure",
@@ -795,6 +795,13 @@
      "Latest actual; shown against the model, not substituted for its base"
     ],
     [
+     "932,831",
+     "Overnight tourist arrivals through Cape Town International, as the Provincial Treasury counts them",
+     "2024",
+     "Provincial Economic Review and Outlook 2025, p68",
+     "Reference only; a tourist count at the gateway, not a passenger count"
+    ],
+    [
      "1,498,829",
      "Demand model base; the series and year basis are not labelled in the deck",
      "2025",
@@ -816,11 +823,32 @@
      "Reference point for the G4J basis only; not a baseline or a target"
     ],
     [
+     "3.6 million",
+     "International tourist arrivals to the province over 2022 to 2024: a three-year total, about 1.2 million a year (computed)",
+     "2022 to 2024",
+     "Wesgro Research, Tourism Source Market Analysis, Nov 2025, p2",
+     "Capture shares only (section 2.2); never read as an annual figure"
+    ],
+    [
+     "800,000 to 1 million",
+     "New international tourist arrivals; the base year is not stated",
+     "FY26 to FY30",
+     "Wesgro, Strategic Plan 2025/26 to 2029/30, p20",
+     "Read against the model's gains to 2030 (section 1.1) and at Gate 1 (section 4.7)"
+    ],
+    [
      "3 million",
      "International tourist arrivals to the province, SAT basis, built as 2 million in 2019 plus 1 million",
      "2035",
      "Wesgro, presentation to the parliamentary committee, 1 Apr 2026 (public source), recording the G4J 2023 target",
      "Alignment reference under clause 1.1.14.2; a different measure from the airport series"
+    ],
+    [
+     "3 million",
+     "International tourist arrivals, built as 2 million in 2019 plus 1 million",
+     "2030",
+     "Wesgro, Strategic Plan 2025/26 to 2029/30, p20, recording the G4J target",
+     "The same G4J target dated 2030; both Wesgro statements are recorded (section 1.1)"
     ],
     [
      "2.8m",
@@ -831,18 +859,18 @@
     ],
     [
      "5.7 million and R54.7 billion",
-     "International arrivals and tourism spend; base not stated",
+     "International arrivals and foreign direct spend; the Tourism Blueprint 2030's pre-COVID ten-year goal, dated 2035 in the Diagnostic, with the Blueprint's end year not confirmed",
      "2035",
-     "Current State Diagnostic, Dec 2025, p5",
+     "Current State Diagnostic, Dec 2025, p5; Tourism Blueprint 2030, p4, p10",
      "The Diagnostic's statement of the ambition; superseded and quoted for the record"
     ]
    ],
    "boldFirstCol": true,
-   "message": "The report uses airport passenger arrivals for baselines, the demand model for targets and South African Tourism's provincial count only to read across to the Growth for Jobs target."
+   "message": "The report uses airport passenger arrivals for baselines and the demand model for targets; Wesgro's ambitions and the tourist counts serve as reference points."
   },
   {
    "type": "p",
-   "text": "The two ambitions do not reconcile with each other or with the measured baseline. Neither the 2.8 million ambition nor its later restatement as 5.7 million arrivals and R54.7 billion of spend names a series or a base year (Inception Report, Nov 2025, p4; Current State Diagnostic, Dec 2025, p5; this report treats the second statement as superseded). Twice the 1.44 million international passenger arrivals at Cape Town International in FY24/25 is 2.88 million, close to the first and far from the second (Current State Diagnostic, Dec 2025, p25; computed)."
+   "text": "The two ambitions do not reconcile with each other or with the measured baseline. The 2.8 million names no series or base year (Inception Report, Nov 2025, p4). The 5.7 million arrivals and R54.7 billion of spend trace to the Tourism Blueprint 2030, which set them before COVID as a goal over ten years (Tourism Blueprint 2030, p4, p10). The Diagnostic dates them to 2035; this report treats that statement as superseded and leaves the year open (Current State Diagnostic, Dec 2025, p5). Twice the 1.44 million international passenger arrivals at Cape Town International in FY24/25 is 2.88 million, close to the first and far from the second (Current State Diagnostic, Dec 2025, p25; computed)."
   },
   {
    "type": "p",

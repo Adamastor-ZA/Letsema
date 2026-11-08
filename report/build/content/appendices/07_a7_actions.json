@@ -11,7 +11,7 @@
   },
   {
    "type": "lead",
-   "text": "The 112 actions in Chapter 3 are listed here by initiative, so each lead can see every action the plan asks of it and of its partners."
+   "text": "The 117 actions in Chapter 3 are listed here by initiative, so each lead can see every action the plan asks of it and of its partners."
   },
   {
    "type": "p",
@@ -80,6 +80,13 @@
     [
      "I1",
      "1",
+     "Partners",
+     "Map the City's four segments onto the four used here, so Wesgro, the City and Cape Town Tourism sell to the same travellers",
+     "City of Cape Town; Cape Town Tourism"
+    ],
+    [
+     "I1",
+     "1",
      "National",
      "Agree one segment frame with SA Tourism for long-haul campaigns, so provincial and national spend target the same travellers",
      "SA Tourism"
@@ -102,7 +109,7 @@
      "I1",
      "5",
      "Wesgro",
-     "Add a yield measure, spend per visitor by market with length of stay, beside arrivals in Wesgro's own targets",
+     "Add two measures beside arrivals in Wesgro's own targets: spend per visitor by market with length of stay, and each market's share of air outbound trips",
      "Research"
     ],
     [
@@ -221,8 +228,15 @@
      "I4",
      "4",
      "Wesgro",
-     "Build long-term route cases for the India and China corridors and keep a standing relationship with Indian carriers, China Southern and China Eastern",
+     "Build long-term route cases for the India and China corridors and keep a standing relationship with Indian carriers, Cathay Pacific, China Southern and China Eastern",
      "Air Access"
+    ],
+    [
+     "I4",
+     "4",
+     "Wesgro",
+     "Sell Johannesburg-gateway itineraries, with a flight to Cape Town added to the ticket, to Indian and Chinese visitors already bound for South Africa",
+     "Destination Marketing; inbound operators; airlines"
     ],
     [
      "I4",
@@ -284,8 +298,15 @@
      "I6",
      "7",
      "Wesgro",
+     "Win Wesgro's 10 new routes by FY30 outside the peak hours, starting with regional and hub links; put belly cargo into each route case",
+     "Air Access; airlines; ACSA; exporters"
+    ],
+    [
+     "I6",
+     "7",
+     "Wesgro",
      "Scale and ring-fence Cape Town Air Access's route fund as a public-private fund for route support, with a set size and governance",
-     "Air Access; DEDAT; City of Cape Town; private sector"
+     "Air Access; DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; private sector"
     ],
     [
      "I6",
@@ -312,8 +333,8 @@
      "I7",
      "8",
      "Wesgro",
-     "Market Cape Town to lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
-     "Cruise Cape Town; Destination Marketing"
+     "Market Cape Town to world-cruise and other lines whose ships fit the 300m berth and to expedition and home-porting operators, with pre- and post-cruise stays",
+     "Cruise Cape Town; Destination Marketing; City of Cape Town"
     ],
     [
      "I7",
@@ -361,7 +382,7 @@
      "I8",
      "9",
      "Wesgro",
-     "Sell the transfer inside the itinerary on the N2 and R62 routes, so visitors without a car can buy the trip",
+     "Sell the airport transfer and the corridor transfers on the N2 and R62 routes inside the itinerary, so visitors without a car can buy the trip",
      "Destination Marketing; operators"
     ],
     [
@@ -381,6 +402,13 @@
     [
      "I8",
      "9",
+     "Partners",
+     "Revive the MyCiTi airport service and provide staging for e-hailing and metered taxis at Cape Town International",
+     "Department of Mobility; City of Cape Town; ACSA"
+    ],
+    [
+     "I8",
+     "9",
      "National",
      "Lift the national rule that blocks bank-card payments on the George bus, and fund passenger rail beyond the Metro",
      "National government; PRASA"
@@ -390,7 +418,7 @@
      "10",
      "Wesgro",
      "Package bookable multi-day itineraries on each of the six touring routes, delivering first on the Garden Route, the Cape Winelands and the Overberg, then Route 62 and the West Coast",
-     "Tourism; Destination Marketing; LTOs"
+     "Tourism; Destination Marketing; City of Cape Town; LTOs"
     ],
     [
      "I9",
@@ -431,7 +459,7 @@
      "I10",
      "11",
      "Wesgro",
-     "Prepare for growth markets: multilingual guiding, digital payments and culturally relevant product for Chinese, Indian and Gulf visitors",
+     "Prepare for growth markets: multilingual guiding, digital payments, halal food and prayer facilities and culturally relevant product for Chinese, Indian and Gulf visitors",
      "Tourism; Destination Marketing"
     ],
     [
@@ -466,15 +494,15 @@
      "I11",
      "12",
      "Wesgro",
-     "Market Cape Point, the under-used reserves and the Southern Line to Muizenberg, Kalk Bay and Simon's Town as alternatives to peak-hour visits at the Cableway and Boulders",
+     "Market Stony Point instead of Boulders at the peak, and the receiving reserves and the Southern Line towns of Muizenberg, Kalk Bay and Simon's Town instead of peak-hour Cableway visits",
      "Destination Marketing; CapeNature; SANParks; PRASA"
     ],
     [
      "I11",
      "12",
      "Wesgro",
-     "Request visitor counts and capacity for the five flagship sites and publish them as the baseline",
-     "Research; site operators"
+     "Request carrying capacity for the flagship sites and publish it beside the Treasury's visitor counts as the baseline",
+     "Research; site operators; Provincial Treasury"
     ],
     [
      "I11",
@@ -523,7 +551,7 @@
      "13",
      "Partners",
      "Form or fund a local selling body in each pilot community, with one live booking route, published dates and a named customer contact",
-     "Municipalities; LTOs; community sellers"
+     "Municipalities, with the City of Cape Town in Metro pilots; LTOs; community sellers"
     ],
     [
      "I12",
@@ -564,8 +592,8 @@
      "I13",
      "14",
      "Partners",
-     "Give LTOs a stable funding agreement with a development mandate, written into IDPs with reporting",
-     "Municipalities; district municipalities; DEDAT"
+     "Give LTOs a stable funding agreement with a development mandate, written into IDPs from 2029 with reporting, using the Provincial Treasury's district reviews",
+     "Municipalities; district municipalities; DEDAT; Provincial Treasury"
     ],
     [
      "I13",
@@ -600,14 +628,14 @@
      "15",
      "Wesgro",
      "Scale Cape Town Air Access's route fund into the public-private air access fund, with ring-fenced corridor budgets (focus area 7)",
-     "Air Access; DEDAT; City of Cape Town; private sector"
+     "Air Access; DEDAT; City of Cape Town; ACSA; Cape Town Tourism; SA Tourism; private sector"
     ],
     [
      "I14",
      "15",
      "Partners",
-     "Test a tourism levy and blended-finance vehicles for destination management and mobility",
-     "DEDAT; City of Cape Town"
+     "Make one levy case for the visitor economy that covers destination management and tourist transport; test blended-finance vehicles",
+     "DEDAT; Department of Mobility; City of Cape Town"
     ],
     [
      "I14",
@@ -627,7 +655,7 @@
      "I15",
      "16",
      "Wesgro",
-     "Constitute the Tourism Growth Steerco, co-chaired with DEDAT and with Cape Town Tourism as a standing member, and agree a decision-rights map by tier from the Diagnostic's tier table",
+     "Constitute the Tourism Growth Steerco, co-chaired with DEDAT and with Cape Town Tourism as a standing member, and agree a decision-rights map by tier, building on the tier split in section 1.2",
      "Wesgro CEO's office; DEDAT; Cape Town Tourism"
     ],
     [
@@ -648,7 +676,7 @@
      "I15",
      "16",
      "Partners",
-     "Settle district, local and LTO mandates, restore a tourism development function where it has lapsed and revisit the Discover Garden Route partnership",
+     "Settle district, local and LTO mandates, testing the Blueprint's district model for regional tourism organisations, restore a tourism development function where it has lapsed and revisit the Discover Garden Route partnership",
      "District municipalities; municipalities; LTOs"
     ],
     [
@@ -711,7 +739,7 @@
      "I16",
      "18",
      "Wesgro",
-     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the site operators and the booking platforms",
+     "Agree data-sharing terms with ACSA, SA Tourism, Stats SA, Cape Town Tourism, the Provincial Treasury, the Department of Mobility, the site operators and the booking platforms",
      "Research"
     ],
     [
@@ -754,13 +782,13 @@
      "19",
      "Wesgro",
      "Table an escalation agenda at Steerco: visa categories and processing for China, India, the Middle East and Africa; air service agreements; immigration throughput at Cape Town International",
-     "Wesgro CEO's office; DEDAT"
+     "Wesgro CEO's office; Advocacy and Advisory unit; DEDAT"
     ],
     [
      "I17",
      "19",
      "Wesgro",
-     "Build the market-by-market evidence for each ask, from visa processing times to safety perception in source markets",
+     "Build the market-by-market evidence for each ask, from the reforms DEDAT's visa study ranks to safety perception in source markets",
      "Research; Destination Marketing"
     ],
     [
@@ -774,8 +802,8 @@
      "I17",
      "19",
      "Partners",
-     "Set up dedicated tourism safety units and programmes, with safety compacts in pilot communities",
-     "Western Cape Government; municipalities; SAPS"
+     "Build on the City's Tourist Safety Programme for the dedicated tourism safety units the Metro needs, with safety compacts in pilot communities",
+     "City of Cape Town; Western Cape Government; municipalities; SAPS"
     ],
     [
      "I17",
@@ -783,6 +811,13 @@
      "Partners",
      "Fix basic services, water and connectivity at remote reserves and in tourism towns",
      "Municipalities; CapeNature"
+    ],
+    [
+     "I17",
+     "19",
+     "Partners",
+     "Study congestion on the N2 from Cape Town International and add highway patrols near the airport, as the draft land transport framework plans",
+     "Department of Mobility; City of Cape Town"
     ],
     [
      "I17",

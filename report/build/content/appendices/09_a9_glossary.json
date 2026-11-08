@@ -11,11 +11,11 @@
   },
   {
    "type": "lead",
-   "text": "Ten terms carry a specific meaning in this report, and twenty-eight documents support it, cited by the date on their covers."
+   "text": "Eleven terms carry a specific meaning in this report, and thirty-nine documents support it, cited by the date on their covers."
   },
   {
    "type": "p",
-   "text": "Abbreviations are listed in the front matter. Footnotes cite each deliverable by a short title, keyed below; the table gives its full title and the date printed on its cover, and where the file date differs, both are shown. Working analyses rank below the deliverables, and public sources are used only where no deliverable carries the figure."
+   "text": "Abbreviations are listed in the front matter. Footnotes cite each deliverable by a short title, keyed below; the table gives its full title and the date printed on its cover, and where the file date differs, both are shown. Working analyses rank below the deliverables. Wesgro's, the province's and the City's own documents are cited directly by page, slide or chapter. Other public sources are used only where no deliverable carries the figure."
   },
   {
    "type": "table",
@@ -57,6 +57,10 @@
     [
      "International arrivals",
      "On the growth model's basis, which Skift is to confirm; distinct from international passenger arrivals at Cape Town International, which ACSA reports"
+    ],
+    [
+     "New route",
+     "Wesgro's term, in its FY26 to FY30 plan, for a scheduled international service flying to and from Cape Town for the first time; counted in T2-09"
     ],
     [
      "Readiness",
@@ -304,6 +308,83 @@
      "December 2025 (not in this evidence base)",
      "Contract",
      ""
+    ],
+    [
+     "Five-Year Strategic Plan 2026 to 2030: Cape Town and Western Cape, a Leading Regional Economy",
+     "Wesgro",
+     "Undated; covers FY26 to FY30 (2025/26 to 2029/30)",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Source Market Analysis",
+     "Wesgro Research (Economic Knowledge Hub)",
+     "Nov 2025",
+     "Wesgro document",
+     "Data for 2022 to 2024, as three-year totals"
+    ],
+    [
+     "Cape Town Air Access: Letsema Update",
+     "Cape Town Air Access (City, province, ACSA, Cape Town Tourism, SA Tourism, Wesgro, private sector)",
+     "Nov 2025",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Western Cape Cruise Liner Industry: Economic Contribution 2024/25 Season, final report",
+     "StratEcon for Wesgro",
+     "Oct 2025 (9 October 2025)",
+     "Wesgro document",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Blueprint 2030",
+     "Western Cape Department of Economic Development and Tourism",
+     "Undated; set before COVID",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Growth for Jobs Strategy 2023 to 2035",
+     "Western Cape Government",
+     "2023 (approved by Cabinet)",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Provincial Economic Review and Outlook 2025",
+     "Western Cape Provincial Treasury",
+     "2025",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Municipal Economic Review and Outlook 2024/25: Cape Metro, Cape Winelands, Garden Route, Overberg, West Coast and Central Karoo",
+     "Western Cape Provincial Treasury",
+     "2024/25 (2023 data)",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Tourism Development Framework 2019 to 2024",
+     "City of Cape Town, Department of Enterprise and Investment",
+     "2019 to 2024",
+     "Public source",
+     "Received at inception (Inception Report, Nov 2025, p34)"
+    ],
+    [
+     "Assessment of the Economic Impact of South Africa's Visa Regime Administration and Policy Reform Proposals, executive summary",
+     "BDO for the Western Cape Department of Economic Development and Tourism",
+     "Jul 2024",
+     "DEDAT document",
+     ""
+    ],
+    [
+     "Draft Western Cape Land Transport Framework 2024/25 to 2028/29",
+     "Western Cape Department of Mobility",
+     "Apr 2025",
+     "Public source",
+     ""
     ]
    ],
    "boldFirstCol": true
@@ -314,7 +395,7 @@
   },
   {
    "type": "note",
-   "text": "Short titles used in the footnotes: Inception Report; Diagnostic (Current State Diagnostic); Digital Insights (Skift Digital and Search Insights memo); Stakeholder Insights (Stakeholder Insights Report); Segmentation (Skift Segmentation Analysis); African Markets (Skift African Market Analysis); Benchmarking (Global Benchmarking Report); MIDAS (MIDAS Aviation Market Assessment); Market Assessment (Market Assessment Report); Demand-Side Analysis; Infrastructure Report; Inclusion Plan (SME and Community Inclusion Plan). Public sources are cited by full title and date."
+   "text": "Short titles used in the footnotes: Inception Report; Diagnostic (Current State Diagnostic); Digital Insights (Skift Digital and Search Insights memo); Stakeholder Insights (Stakeholder Insights Report); Segmentation (Skift Segmentation Analysis); African Markets (Skift African Market Analysis); Benchmarking (Global Benchmarking Report); MIDAS (MIDAS Aviation Market Assessment); Market Assessment (Market Assessment Report); Demand-Side Analysis; Infrastructure Report; Inclusion Plan (SME and Community Inclusion Plan). Public sources are cited by full title and date. Wesgro, provincial and City documents are cited by short title and page, the Cape Town Air Access update by slide and the draft land transport framework by chapter or chapter page."
   }
  ]
 }

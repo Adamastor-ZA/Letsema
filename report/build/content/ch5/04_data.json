@@ -15,12 +15,12 @@
   },
   {
    "type": "p",
-   "text": "Stakeholders put data among the top barriers: no approved methodology exists for provincial tourism GDP and jobs (Stakeholder Insights Report, Mar 2026, p37), and no one holds a single view of visitor behaviour (Current State Diagnostic, Dec 2025, p56, p57). The data-sharing protocol under focus area 18 (I16) is the route to closing the gaps below."
+   "text": "Stakeholders put data among the top barriers: no approved methodology exists for provincial tourism GDP and jobs (Stakeholder Insights Report, Mar 2026, p37), and no one holds a single view of visitor behaviour (Current State Diagnostic, Dec 2025, p56, p57). Two provincial bodies already hold part of that view. The Provincial Treasury's district reviews print attraction counts, bed-nights and tourist spend as a share of GDPR (Municipal Economic Review and Outlook 2024/25, Cape Metro, p68 to p73; Municipal Economic Review and Outlook 2024/25, West Coast, p126 to p131). The Department of Mobility's Integrated Transport Hub is the province's most comprehensive transport data repository (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60). The data-sharing protocol under focus area 18 (I16) is the route to closing the gaps below."
   },
   {
    "type": "table",
    "caption": "Data sources and holders",
-   "source": "Letsema, from the indicator register; data holders in part as listed in Current State Diagnostic, Dec 2025, p56, p57.",
+   "source": "Letsema, from the indicator register; data holders in part as listed in Current State Diagnostic, Dec 2025, p56, p57. Provincial Treasury: Municipal Economic Review and Outlook 2024/25, Cape Metro, p8 to p9, p68 to p73. Integrated Transport Hub: Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p3-60.",
    "columns": [
     {
      "header": "Source",
@@ -72,10 +72,10 @@
     ],
     [
      "Cruise season economic contribution",
-     "Cruise Cape Town (economic contribution study)",
+     "StratEcon for Wesgro (economic contribution study)",
      "T2-11",
      "Each season",
-     "Received by Wesgro; study not in this evidence base"
+     "Received; the 2024/25 study is cited, with GDP-R after displacement"
     ],
     [
      "Infrastructure readiness scores",
@@ -83,6 +83,20 @@
      "T2-12, T2-14, T2-15",
      "Every three years",
      "Re-score in 2029 and 2032 [Open item: publish the scoring formula before the 2029 re-score; the Infrastructure Report's overall ratings are judgement-based (Appendix A4).]"
+    ],
+    [
+     "Provincial and district economic reviews",
+     "Provincial Treasury",
+     "T1-06, T2-16, T2-26, T2-27",
+     "Annual",
+     "Published; tourism sections draw on Wesgro and S&P Global data"
+    ],
+    [
+     "Integrated Transport Hub",
+     "Department of Mobility",
+     "T2-12, T2-13",
+     "To be agreed",
+     "Not yet shared; to join the protocol (I16)"
     ],
     [
      "Operator, site and pilot records",
@@ -131,7 +145,7 @@
      "T1-06",
      "Research",
      "End 2027",
-     "SA Tourism cut; protocol"
+     "SA Tourism cut; Treasury district reviews; Wesgro visitor tracking; protocol"
     ],
     [
      "Provincial tourism employment baseline",
@@ -148,7 +162,7 @@
      "Bookability census (I3)"
     ],
     [
-     "Visitor counts and capacity at five flagship sites",
+     "Carrying capacity at the flagship sites; 2023 visitor counts are in hand",
      "T2-16",
      "Research",
      "End 2027",
@@ -173,7 +187,7 @@
      "T2-24",
      "Wesgro CEO's office",
      "End 2027",
-     "Request to Home Affairs (I17)"
+     "Request to Home Affairs, with eVisa decision data (I17)"
     ],
     [
      "Nigeria and Ghana in the growth model",
@@ -183,11 +197,11 @@
      "Model update"
     ],
     [
-     "Source and definition of the 250 cruise-call plan",
+     "Definition of a call behind the plan's 250: 79 vessel visits or 83 calls in 2024/25",
      "T2-11",
      "Cruise Cape Town",
      "Mid 2027",
-     "Cruise Cape Town"
+     "Cruise Cape Town; StratEcon"
     ],
     [
      "Mid-scale accommodation stock by district",
@@ -195,10 +209,31 @@
      "Research",
      "End 2028",
      "Supply database or audit"
+    ],
+    [
+     "Overnight share for the Metro, the Cape Winelands and the Central Karoo",
+     "T2-26",
+     "Research",
+     "End 2027",
+     "Treasury district reviews; Wesgro visitor tracking"
+    ],
+    [
+     "Garden Route and Central Karoo tourist spend shares, identical series to confirm",
+     "T2-27",
+     "Research",
+     "Mid 2027",
+     "Provincial Treasury"
+    ],
+    [
+     "Visitors who feel safe, priority markets",
+     "T2-28",
+     "Research",
+     "End 2027",
+     "Safety question in Wesgro visitor tracking"
     ]
    ],
    "boldFirstCol": true,
-   "message": "Ten data gaps stand between the plan and a full baseline, and each has a proposed owner and date."
+   "message": "Thirteen data gaps stand between the plan and a full baseline, and each has a proposed owner and date."
   }
  ]
 }

@@ -21,7 +21,7 @@
    "type": "figure",
    "id": "fig_4_funding",
    "caption": "Initiatives by main funding source",
-   "source": "Letsema, count of initiatives by main funding source from Table 4.1. An initiative can have more than one main source.",
+   "source": "Letsema, count of initiatives by main funding source from the initiatives table in section 4.1. An initiative can have more than one main source.",
    "chart": {
     "type": "hbar",
     "categories": [
@@ -47,7 +47,7 @@
   },
   {
    "type": "p",
-   "text": "**Crowding in capital.** The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p15, p31, p32). Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14; Infrastructure Report, Jul 2026, p32 to p87). The air access fund scales Cape Town Air Access's existing route fund with public and private money (I6)."
+   "text": "**Crowding in capital.** The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset (SME and Community Inclusion Plan, Sep 2026, p15, p31, p32). Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14; Infrastructure Report, Jul 2026, p32 to p87). The air access fund scales Cape Town Air Access's existing route fund with public and private money (I6). Its likely funders already sit in that partnership: the City, the province, ACSA, Cape Town Tourism, SA Tourism, Wesgro and private partners (Cape Town Air Access, Letsema Update, Nov 2025, slide 1). Corridor mobility (I8) bids into the provincial transport budget; the draft land transport framework allocates R22.8bn to transport initiatives in the 2024 MTEF (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, p xix). The same framework plans a tourist levy case, which I14 would widen to cover destination management (Western Cape Department of Mobility, draft Provincial Land Transport Framework, Apr 2025, ch12)."
   },
   {
    "type": "p",

@@ -17,7 +17,7 @@
   {
    "type": "table",
    "caption": "Strength of evidence by focus area",
-   "source": "Reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only.",
+   "source": "Reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only. Wesgro, provincial and City documents add to the reading where Chapter 3 cites them; the ratings rest on the deliverables.",
    "columns": [
     {
      "header": "Focus area",
@@ -68,12 +68,12 @@
     ],
     [
      "7 Win direct routes and add seats on full routes",
-     "Eleven of 27 routes run above 80% load and sixteen at 75% or more, and carriers are expected to raise fares before adding seats; no frequency, aircraft-size or peak-slot data shows where seats can be added",
+     "Eleven of 27 routes run above 80% load and sixteen at 75% or more, and carriers are expected to raise fares before adding seats. No frequency, aircraft-size or peak-slot data shows where seats can be added; Wesgro's plan targets 10 new routes by FY30",
      "Adequate"
     ],
     [
      "8 Grow cruise calls and ports",
-     "79 vessels (Diagnostic) against 83 calls (Infrastructure Report) in 2024/25; a plan to 250 calls appears in no deliverable",
+     "79 vessel visits (Diagnostic and the StratEcon study) against 83 calls (Infrastructure Report) in 2024/25; Wesgro's plan sets 250 calls over FY26 to FY30; value grows with international passengers, not volume",
      "Adequate"
     ],
     [
@@ -93,7 +93,7 @@
     ],
     [
      "12 Balance impact on nature-based attractions",
-     "Stakeholder statements and queue times; no visitor counts or caps for any flagship",
+     "Stakeholder statements and queue times; the Treasury counts 2023 visitors at six flagships, but no source sets capacity or caps",
      "Adequate"
     ],
     [
@@ -103,7 +103,7 @@
     ],
     [
      "14 Manage climate risk and sustainable tourism",
-     "LTO funding disrupted and Meiringspoort closed, from two organisations' statements and the Inclusion Plan's De Rust profile",
+     "LTO funding disrupted and Meiringspoort closed, from two organisations' statements and the Inclusion Plan's De Rust profile; tourist spend equals 15.6% to 16.8% of GDPR in four outer districts",
      "Adequate"
     ],
     [
@@ -123,12 +123,12 @@
     ],
     [
      "18 Expedite tourism-enabling policy and data sharing",
-     "Platforms exist; no data-sharing protocol in progress is described",
+     "Platforms exist; no data-sharing protocol in progress is described; the Treasury's reviews and the Integrated Transport Hub already hold district and transport data",
      "Adequate"
     ],
     [
      "19 Lead removal of infrastructure, visa and safety deficits",
-     "Levers sit nationally for visas and air rights; safety programmes are provincial and basic services local",
+     "Levers sit nationally for visas and air rights; safety programmes are provincial and basic services local; DEDAT's visa study ranks the reforms and the City has designed a Tourist Safety Programme",
      "Strong"
     ],
     [
@@ -143,7 +143,7 @@
   {
    "type": "table",
    "caption": "Traceability by focus area",
-   "source": "Workstream attribution is this report's, from the deliverables that carry the figures; the sections named give the pages.",
+   "source": "Workstream attribution is this report's, from the deliverables that carry the figures; the sections named give the pages. Wesgro, provincial and City documents follow the deliverables where Chapter 3 cites them.",
    "columns": [
     {
      "header": "Focus area",
@@ -174,14 +174,14 @@
    "rows": [
     [
      "1 Respond to growth segment traveller preferences",
-     "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis",
+     "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis; the City's four segments (Tourism Development Framework)",
      "2.2",
      "I1",
      "T1-01; T1-02; T2-01"
     ],
     [
      "2 Create green-season demand with MICE and events",
-     "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE section (ICCA, UIA)",
+     "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE section (ICCA, UIA); Wesgro's plan (161 bids)",
      "2.2; 2.1; 2.3",
      "I2",
      "T1-05; T2-02; T2-03"
@@ -216,31 +216,31 @@
     ],
     [
      "7 Win direct routes and add seats on full routes",
-     "MIDAS Aviation Market Assessment; Infrastructure Report air-access section",
+     "MIDAS Aviation Market Assessment; Infrastructure Report air-access section; Wesgro's plan (10 new routes); Cape Town Air Access update",
      "2.3; 2.1",
      "I6",
      "T1-01; T2-09; T2-10"
     ],
     [
      "8 Grow cruise calls and ports",
-     "Diagnostic cruise table and Infrastructure Report cruise and ports section; Wesgro cruise reports (not in hand)",
+     "Diagnostic cruise table and Infrastructure Report cruise and ports section; StratEcon cruise study 2024/25, received at inception; Wesgro's plan (250 calls)",
      "2.3; 1.2",
      "I7",
      "T2-11"
     ],
     [
      "9 Accelerate tourism-enabling internal mobility",
-     "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility)",
+     "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility); draft Provincial Land Transport Framework (airport leg, corridors)",
      "2.3; 1.2",
      "I8",
      "T1-06; T2-12; T2-13"
     ],
     [
      "10 Support diversified route and product development",
-     "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations)",
+     "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations); the Treasury's district reviews (overnight share, tourism share of GDPR)",
      "2.3; 2.4",
      "I9",
-     "T1-06; T2-14"
+     "T1-06; T2-14; T2-26; T2-27"
     ],
     [
      "11 Align visitor experience in-destination",
@@ -251,28 +251,28 @@
     ],
     [
      "12 Balance impact on nature-based attractions",
-     "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion",
+     "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion; the Treasury's flagship counts",
      "2.3; 2.1; 1.2",
      "I11",
      "T2-16"
     ],
     [
      "13 Embed local destination bodies for community inclusion",
-     "SME and Community Inclusion Plan (September 2026)",
+     "SME and Community Inclusion Plan (September 2026); the City's community programmes",
      "2.4; 2.1",
      "I12",
      "T1-07; T2-17"
     ],
     [
      "14 Manage climate risk and sustainable tourism",
-     "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
+     "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026); the Treasury's district reviews",
      "2.4; 2.1; 1.2",
      "I13",
      "T2-18; T2-19"
     ],
     [
      "15 Crowd in capital with targeted investment strategies",
-     "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund)",
+     "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund); draft Provincial Land Transport Framework (levy case)",
      "2.4; 2.1; 2.3",
      "I14",
      "T2-20"
@@ -293,17 +293,17 @@
     ],
     [
      "18 Expedite tourism-enabling policy and data sharing",
-     "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework)",
+     "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework); the Treasury's reviews; Integrated Transport Hub",
      "2.4; 2.1; 1.2",
      "I16",
      "T2-23"
     ],
     [
      "19 Lead removal of infrastructure, visa and safety deficits",
-     "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government",
+     "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government; DEDAT's visa study (BDO); the City's Tourist Safety Programme",
      "2.4; 1.2",
      "I17",
-     "T2-24"
+     "T2-24; T2-28"
     ],
     [
      "20 Develop workforce and service skills",
