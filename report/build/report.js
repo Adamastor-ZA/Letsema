@@ -11,8 +11,8 @@ const pass = parseInt(arg('--pass', '1'), 10);
 const pagemapPath = arg('--pagemap', null);
 const only = arg('--only', null); // comma-separated module names for partial renders (e.g. ch1_context,ch2_analysis)
 
-const TITLE = 'Unlocking Tourism Growth: A Strategy for the Western Cape to 2035';
-const SHORT = 'Unlocking Tourism Growth: A Strategy for the Western Cape to 2035';
+const TITLE = 'Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035';
+const SHORT = 'Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035';
 
 // Content modules in document order. Each exports build(ctx, H) -> array of docx elements.
 const MODULES = ['front_matter', 'exec_summary', 'ch1_context', 'ch2_analysis', 'ch3_findings', 'ch4_execution', 'ch5_me', 'appendices'];

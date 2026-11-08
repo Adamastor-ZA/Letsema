@@ -8,7 +8,7 @@ async function main() {
   H.setChapter(ctx, '2');
   const children = [
     new H.Paragraph({ style: 'CoverTitle', children: [new H.TextRun('Unlocking Tourism Growth')] }),
-    new H.Paragraph({ style: 'CoverSub', children: [new H.TextRun('A Strategy for the Western Cape to 2035')] }),
+    new H.Paragraph({ style: 'CoverSub', children: [new H.TextRun('An Action Plan for the Western Cape to 2035')] }),
     new H.Paragraph({ style: 'CoverMeta', children: [new H.TextRun('Final Research Report. Draft for discussion, 2 November 2026')] }),
     H.h1('Analysis and insights', 'ch2'),
     H.h2('2.1 Demand-side analysis and market strategy'),
@@ -31,7 +31,7 @@ async function main() {
     H.h4('Recommendation'),
     H.body('What Wesgro does. What Wesgro asks partners to do. What sits outside the province and is escalated.'),
   ];
-  const doc = H.buildDocument({ sections: [{ children, firstPageBlank: true }], shortTitle: 'Unlocking Tourism Growth: A Strategy for the Western Cape to 2035', title: 'Smoke test' });
+  const doc = H.buildDocument({ sections: [{ children, firstPageBlank: true }], shortTitle: 'Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035', title: 'Smoke test' });
   const out = await H.save(doc, path.join(__dirname, '..', 'outputs', 'smoke_test.docx'));
   console.log('wrote', out);
 }

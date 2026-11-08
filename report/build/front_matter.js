@@ -51,7 +51,7 @@ function build(ctx, H) {
   out.push(new Paragraph({ spacing: { before: H.PT(470) * 10, after: 100 }, children: [W('FINAL RESEARCH REPORT', { size: H.PT(9), bold: true, characterSpacing: 40 })] }));
   out.push(new Paragraph({ spacing: { after: 200 }, indent: { right: 2600 }, border: { bottom: { style: H.docx.BorderStyle.SINGLE, size: 12, color: '00A3DA', space: 10 } },
     children: [W('Unlocking Tourism Growth', { size: H.PT(32), bold: true })] }));
-  out.push(new Paragraph({ spacing: { after: 600 }, children: [W('A Strategy for the Western Cape to 2035', { size: H.PT(17) })] }));
+  out.push(new Paragraph({ spacing: { after: 600 }, children: [W('An Action Plan for the Western Cape to 2035', { size: H.PT(17) })] }));
   out.push(new Paragraph({ spacing: { after: 60 }, children: [W('Letsema in partnership with Skift Advisory', { size: H.PT(9.5) })] }));
   out.push(new Paragraph({ spacing: { after: 60 }, children: [W(`Draft for discussion  |  Version ${VERSION}  |  November 2026`, { size: H.PT(9.5) })] }));
   out.push(new Paragraph({ spacing: { before: 120, after: 60 }, children: [W('DRAFT FOR DISCUSSION. Not for circulation beyond the Wesgro project team.', { size: H.PT(8.5), bold: true })] }));
@@ -62,7 +62,7 @@ function build(ctx, H) {
   out.push(H.grid(
     [{ header: 'Item', width: 1 }, { header: 'Detail', width: 3 }],
     [
-      ['Title', 'Unlocking Tourism Growth: A Strategy for the Western Cape to 2035. Final Research Report'],
+      ['Title', 'Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035. Final Research Report'],
       ['Client', 'Wesgro, the Western Cape Tourism, Trade and Investment Promotion Agency'],
       ['Authors', 'Letsema Consulting and Advisory in partnership with Skift Advisory'],
       ['Contract', 'Service Level Agreement, Annexure B, clause 1.1.14 (Final Research Report); clauses 1.1.4 and 1.1.10 (M&E toolkit)'],
