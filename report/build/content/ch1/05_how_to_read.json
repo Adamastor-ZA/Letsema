@@ -36,7 +36,7 @@
   },
   {
    "type": "p",
-   "text": "Every figure carries its source and page in a footnote, in the form Demand-Side Analysis, Jun 2026, p21. The date is the cover date and the page is the PDF page index counted from the cover, because none of the decks prints page numbers. The MIDAS Aviation Market Assessment and the three Skift memos have no fixed pagination and are cited by section title."
+   "text": "Sources sit in footnotes, one per paragraph, in the order the paragraph uses them. Each study document is cited by a short title and page, in the form Demand-Side Analysis, p21; Appendix A9 gives each full title and cover date. The executive summary carries no footnotes, because the chapters source its figures. The page is the PDF page index counted from the cover, because none of the decks prints page numbers. The MIDAS Aviation Market Assessment and the three Skift memos have no fixed pagination and are cited by section title."
   },
   {
    "type": "p",

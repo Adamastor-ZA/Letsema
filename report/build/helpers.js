@@ -132,7 +132,8 @@ function parseCitation(inner) {
 // Footnote trimming options, chosen with FN_MODE (comma-separated): 'nodate' drops the dates of the study documents, which A9
 // lists once; 'short' also shortens their titles; 'para' gives each paragraph one footnote, folding repeats of a source;
 // 'tight' closes up the footnote lines; 'es0' leaves the executive summary without footnotes.
-const FN_MODE = new Set((process.env.FN_MODE || '').split(',').filter(Boolean));
+// Draft v11 adopted para, short, tight and es0; set FN_MODE to another list (or to an empty string for one note per citation).
+const FN_MODE = new Set((process.env.FN_MODE ?? 'para,short,tight,es0').split(',').filter(Boolean));
 const SHORT_TITLES = [['Inception Report', 'Inception Report'], ['Current State Diagnostic', 'Diagnostic'], ['Stakeholder Insights Report', 'Stakeholder Insights'],
   ['Global Benchmarking Report', 'Benchmarking'], ['MIDAS Aviation Market Assessment', 'MIDAS'], ['Market Assessment Report', 'Market Assessment'],
   ['Demand-Side Analysis', 'Demand-Side Analysis'], ['Infrastructure Report', 'Infrastructure Report'], ['SME and Community Inclusion Plan', 'Inclusion Plan'],
@@ -151,7 +152,12 @@ function foldNotes(notes) {
   const out = []; const bySrc = new Map();
   for (const p of parts) {
     const m = p.match(/^(.*?)(, (?:pp?\d|"|computed|p\d).*)$/);
-    if (m && bySrc.has(m[1])) { const k = bySrc.get(m[1]); const loc = m[2].slice(2); if (!out[k].includes(loc)) out[k] += `, ${loc}`; continue; }
+    if (m && bySrc.has(m[1])) {
+      // add only the locators this source does not already carry (each page or section once)
+      const k = bySrc.get(m[1]); const have = new Set(out[k].slice(m[1].length + 2).split(', '));
+      for (const loc of m[2].slice(2).split(', ')) if (!have.has(loc)) { out[k] += `, ${loc}`; have.add(loc); }
+      continue;
+    }
     if (m) bySrc.set(m[1], out.length);
     if (!out.includes(p)) out.push(p);
   }

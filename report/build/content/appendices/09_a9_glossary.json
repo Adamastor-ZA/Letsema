@@ -15,7 +15,7 @@
   },
   {
    "type": "p",
-   "text": "Abbreviations are listed in the front matter. Deliverables are cited with the date printed on the cover; where the file date differs, both are shown below. Working analyses rank below the deliverables, and public sources are used only where no deliverable carries the figure."
+   "text": "Abbreviations are listed in the front matter. Footnotes cite each deliverable by a short title, keyed below; the table gives its full title and the date printed on its cover, and where the file date differs, both are shown. Working analyses rank below the deliverables, and public sources are used only where no deliverable carries the figure."
   },
   {
    "type": "table",
@@ -311,6 +311,10 @@
   {
    "type": "note",
    "text": "The SLA clause numbers in the last column are those each document answers. [Clause wording to be checked against the signed Annexure B.]"
+  },
+  {
+   "type": "note",
+   "text": "Short titles used in the footnotes: Inception Report; Diagnostic (Current State Diagnostic); Digital Insights (Skift Digital and Search Insights memo); Stakeholder Insights (Stakeholder Insights Report); Segmentation (Skift Segmentation Analysis); African Markets (Skift African Market Analysis); Benchmarking (Global Benchmarking Report); MIDAS (MIDAS Aviation Market Assessment); Market Assessment (Market Assessment Report); Demand-Side Analysis; Infrastructure Report; Inclusion Plan (SME and Community Inclusion Plan). Public sources are cited by full title and date."
   }
  ]
 }

@@ -1,0 +1,26 @@
+[
+ {
+  "file": "ch1/05_how_to_read.json",
+  "before": "Every figure carries its source and page in a footnote, in the form Demand-Side Analysis, Jun 2026, p21. The date is the cover date and the page",
+  "after": "Sources sit in footnotes, one per paragraph, in the order the paragraph uses them. Each study document is cited by a short title and page, in the form Demand-Side Analysis, p21; Appendix A9 gives each full title and cover date. The executive summary carries no footnotes, because the chapters source its figures. The page",
+  "reason": "the footnote form changed: one per paragraph, short titles, no footnotes in the summary"
+ },
+ {
+  "file": "appendices/09_a9_glossary.json",
+  "before": "Deliverables are cited with the date printed on the cover; where the file date differs, both are shown below.",
+  "after": "Footnotes cite each deliverable by a short title, keyed below; the table gives its full title and the date printed on its cover, and where the file date differs, both are shown.",
+  "reason": "deliverables are now cited in footnotes by short title, without the date"
+ },
+ {
+  "file": "appendices/09_a9_glossary.json",
+  "before": "",
+  "after": "Short titles used in the footnotes: Inception Report; Diagnostic (Current State Diagnostic); Digital Insights (Skift Digital and Search Insights memo); Stakeholder Insights (Stakeholder Insights Report); Segmentation (Skift Segmentation Analysis); African Markets (Skift African Market Analysis); Benchmarking (Global Benchmarking Report); MIDAS (MIDAS Aviation Market Assessment); Market Assessment (Market Assessment Report); Demand-Side Analysis; Infrastructure Report; Inclusion Plan (SME and Community Inclusion Plan). Public sources are cited by full title and date.",
+  "reason": "key to the short titles the footnotes use"
+ },
+ {
+  "file": "exec/01_summary.json",
+  "before": "Each is marked in square brackets where it occurs and listed with an owner in the accompanying open-items register.",
+  "after": "Each is marked in square brackets where it occurs and listed with an owner in the accompanying open-items register. The chapters that follow give the source of every figure in this summary.",
+  "reason": "the summary carries no footnotes; its figures are sourced in the chapters"
+ }
+]

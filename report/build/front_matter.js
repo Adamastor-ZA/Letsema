@@ -68,7 +68,7 @@ function build(ctx, H) {
       ['Contract', 'Service Level Agreement, Annexure B, clause 1.1.14 (Final Research Report); clauses 1.1.4 and 1.1.10 (M&E toolkit)'],
       ['Status', `Draft for discussion, version ${VERSION}. Every page carries the draft marking until the Steerco review`],
       ['Audience', 'Unlocking Tourism Steerco, Wesgro Exco and Board; the written report launches at the Unlocking Tourism business outlook, February 2027'],
-      ['Conventions', 'Figures carry a source and page in the form (Demand-Side Analysis, Jun 2026, p21). Square-bracketed text marks an open item. See section 1.5'],
+      ['Conventions', 'Sources sit in footnotes, one per paragraph, citing each study document by short title and page; Appendix A9 gives full titles and dates. The executive summary\'s figures are sourced in the chapters. Square-bracketed text marks an open item. See section 1.5'],
     ],
   ));
   out.push(H.pageBreak());
