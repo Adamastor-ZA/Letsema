@@ -1,0 +1,172 @@
+{
+ "module": "ch3/33_fa15.json",
+ "id": "3.3.1",
+ "title": "Crowd in capital with targeted investment strategies",
+ "sources": [
+  [
+   "ch3/33_fa15.json",
+   7
+  ],
+  [
+   "ch3/33_fa15.json",
+   9
+  ],
+  [
+   "ch3/33_fa15.json",
+   10
+  ],
+  [
+   "ch3/33_fa15.json",
+   11
+  ],
+  [
+   "ch3/33_fa15.json",
+   13
+  ],
+  [
+   "ch3/33_fa15.json",
+   14
+  ],
+  [
+   "ch3/33_fa15.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/33_fa15.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/33_fa15.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/33_fa15.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "The growth case needs capital where the current pipeline does not reach. Visitors who travel beyond the Metro need beds, a booking route and finished product. The communities need assets a local seller can run. Yet committed capital closes the air gaps, not the regional ones (section 2.3). The province does not lack capital works. It lacks capital aimed at tourism."
+  },
+  {
+   "type": "p",
+   "text": "Tourism funding is also tight. The Department of Economic Development rates Western Cape and Cape Town funding for destination management and marketing materially below peer destinations. Fiscal pressure is prompting consideration of a tourism levy (Stakeholder Insights Report, Mar 2026, p25). The Department of Mobility sees a need for climate, development, blended-finance and private-sector models to fund tourism-enabling mobility (Stakeholder Insights Report, Mar 2026, p23). Much of the product gap will therefore fall to private capital, which moves only where a case is ready."
+  },
+  {
+   "type": "p",
+   "text": "The accommodation gap shows what is at stake. Province-wide, no mid-scale branded product sits between luxury estates and basic self-catering, and the Garden Route is short of quality-graded hotels for midweek, conference and business travel (Infrastructure Report, Jul 2026, p94, p95). Mossel Bay reports that limited upper-upscale hotel capacity, particularly a recognised brand able to host conferences, holds back its higher-value and business demand (Stakeholder Insights Report, Mar 2026, p21)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence shows a gap in direction as much as in volume. The district tables list a large capital pipeline, and their gap columns show that none of it reaches tourism product. That finding is an inference from the tables rather than a printed statement, and no source gives a Western Cape tourism funding-gap figure [Western Cape tourism funding against the peer set: DEDAT and Wesgro budget data needed]. Kliptown is the warning case: capital built before an operator earned no operating income (section 2.1)."
+  },
+  {
+   "type": "p",
+   "text": "The instrument the evidence calls for has not yet been built. An investment opportunity framework would score infrastructure and service gaps against return, job creation and inclusion (Inception Report, Nov 2025, p18). Its roadmap would set out quick wins, medium-term plays and long-term moves (Inception Report, Nov 2025, p20). The district gap-closure tables are its ready input."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should build the tourism investment pipeline the gap tables imply, and commit public capital only where demand has been shown. In 2027 and 2028 Wesgro's investment promotion team scores the gaps for return, jobs and inclusion and prepares the first investment cases (section 4.3). These cover mid-scale and conference-capable hotels in secondary nodes and accommodation at De Hoop and on Route 62. From 2029 it takes the cases to investors, and DEDAT and the City of Cape Town test a tourism levy and blended-finance vehicles. The pipeline is refreshed each year."
+  },
+  {
+   "type": "p",
+   "text": "One rule runs across the portfolio: invest after demand, and attach a maintenance and marketing covenant to any public asset before it is let or upgraded (SME and Community Inclusion Plan, Sep 2026, p31, p15). The order matters. A levy or a blended-finance vehicle needs projects to fund, so both are tested only once the first cases exist."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "A scored pipeline lowers the cost of finding a deal. Investors see ranked cases with demand evidence attached, rather than a list of district needs. Investing after demand reverses the Kliptown sequence, and covenants keep a public asset maintained and marketed after it opens. Wesgro has done this before. It brokered IDC funding for the Doringbaai abalone farm in 2015; the village trust holds 37% of it, and staff grew from eight in 2013 to about 50 (SME and Community Inclusion Plan, Sep 2026, p25)."
+  },
+  {
+   "type": "p",
+   "text": "The comparators pair public direction with private capital. Chile funded a ~US$900 million expansion of its gateway airport through a private concession awarded by its Ministry of Public Works (Global Benchmarking Report, Mar 2026, p26). Melbourne paired its event strategy with 21% growth in hotel rooms, 5,000 new rooms and the entry of global hotel brands (Global Benchmarking Report, Mar 2026, p18). New Zealand ties co-investment in routes to route-level KPIs, backed by government early-stage route incentives. It reports more than 16,000 incremental bookings and a return of about NZD 55m in 2023/24 (Global Benchmarking Report, Mar 2026, p54). The condition is demand first. Beds in secondary nodes pay only if the routes, events and booking work in Pillars 1 and 2 bring visitors to them."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/33_fa15.json",
+    16
+   ]
+  }
+ ]
+}

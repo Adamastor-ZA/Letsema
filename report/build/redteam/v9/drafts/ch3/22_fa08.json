@@ -1,0 +1,172 @@
+{
+ "module": "ch3/22_fa08.json",
+ "id": "3.2.1",
+ "title": "Grow cruise calls and ports",
+ "sources": [
+  [
+   "ch3/22_fa08.json",
+   7
+  ],
+  [
+   "ch3/22_fa08.json",
+   9
+  ],
+  [
+   "ch3/22_fa08.json",
+   10
+  ],
+  [
+   "ch3/22_fa08.json",
+   11
+  ],
+  [
+   "ch3/22_fa08.json",
+   13
+  ],
+  [
+   "ch3/22_fa08.json",
+   14
+  ],
+  [
+   "ch3/22_fa08.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/22_fa08.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/22_fa08.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/22_fa08.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The opportunity"
+  },
+  {
+   "type": "p",
+   "text": "Cruise has room to grow at the berth Cape Town already has. The equipped berth handled 83 calls in 2024/25 against a season capacity of 150 or more, and the season brought about R1.79bn of economic impact (Infrastructure Report, Jul 2026, p110; Current State Diagnostic, Dec 2025, p37; the first source also prints about 40% use of the season, on a basis it does not state; the second counts 79 vessels for the same season). Growth here needs product and marketing, not capital works (Infrastructure Report, Jul 2026, p112)."
+  },
+  {
+   "type": "p",
+   "text": "Cruise also carries spend beyond the city. Cape Town anchors the itinerary, and Mossel Bay and Saldanha Bay can extend it east and west (Infrastructure Report, Jul 2026, p111). Stakeholders name home porting and expedition vessels as the segments that bring longer stays and higher local spend (Inception Report, Nov 2025, p9)."
+  },
+  {
+   "type": "p",
+   "text": "What limits growth is ships and product, not berths (section 2.3). The equipped berth takes ships of up to 300m, the South-Easter delays berthing and there is no shore power (Infrastructure Report, Jul 2026, p110). Port capital goes to freight: Saldanha's R4bn iron-ore expansion and Cape Town's container expansion add no cruise capacity (Infrastructure Report, Jul 2026, p112)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence sets a clear stance: protect Cape Town, back Mossel Bay now and watch Saldanha Bay (Infrastructure Report, Jul 2026, p112). Mossel Bay handled 21 calls in 2024/25, opened a new passenger facility in November 2025 and expects about 23 calls next season (Infrastructure Report, Jul 2026, p111). Yet ships anchor and tender there, and only small and mid-sized ships call (Infrastructure Report, Jul 2026, p111). Saldanha Bay has no passenger facility. The regional ports work as day stops rather than home ports, so they spread spend rather than multiply the passenger total (Infrastructure Report, Jul 2026, p111, p112)."
+  },
+  {
+   "type": "p",
+   "text": "One number is unresolved. The plan to grow to 250 calls has no source in the evidence. Cape Town's season capacity is about 150 calls. Reaching 250 would need a second berth, a longer season or the regional ports counted in. No document describes any of these [plan to 250 cruise calls: source, horizon and definition to confirm with Cruise Cape Town]. The strategy carries the 2024/25 baseline and holds the target open until the source is in hand."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "The approach works with the berth Cape Town has rather than waiting for a new one. Cruise Cape Town leads, and the sequence follows readiness. Line targeting and the Mossel Bay excursion packages are designed in 2027, together with a sourced definition of the 250-call plan. Marketing to expedition and home-porting operators follows in 2028, alongside community product on cruise-operator channels (section 4.3). Saldanha Bay waits until demand is proven, because its port capital serves iron ore."
+  },
+  {
+   "type": "p",
+   "text": "The port itself stays with its owners. Transnet National Ports Authority and the V&A Waterfront hold berth scheduling, wind delays, shore power and the 300m limit. The national ask is that Transnet puts cruise into port planning, since current Western Cape port capital carries none."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "The actions match the constraint. The berth has headroom; the gaps are ship-size flexibility, weather reliability and tourism product (Infrastructure Report, Jul 2026, p112). Each line won with ships that fit adds calls without capital works. Packaged excursions give passengers more to buy ashore, and regional day stops spread that spend along the coast (Infrastructure Report, Jul 2026, p112)."
+  },
+  {
+   "type": "p",
+   "text": "The best precedent is local. On its own count, Mossel Bay's calls rose from four before COVID to 27 a season, supported by closer coordination and better excursion packaging (Stakeholder Insights Report, Mar 2026, p20; the Infrastructure Report, Jul 2026, p111, prints 21 calls for 2024/25). The town credits its partnership with Wesgro (Stakeholder Insights Report, Mar 2026, p21). None of the six benchmark destinations was chosen for cruise (Global Benchmarking Report, Mar 2026, p11; a cruise criterion proposed in the Inception Report, Nov 2025, p30, was dropped from the final screen). The nearest analogue is Singapore's stopover programme, in which the tourism board, the airport and the airline share one strategy to turn transit passengers into visitors (Global Benchmarking Report, Mar 2026, p40). The condition is that today's ship deployments hold. Recent growth leans on Red Sea reroutes, and their reversal is the main risk (Infrastructure Report, Jul 2026, p110, p112)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/22_fa08.json",
+    16
+   ]
+  }
+ ]
+}

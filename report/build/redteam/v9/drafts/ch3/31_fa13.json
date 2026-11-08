@@ -1,0 +1,191 @@
+{
+ "module": "ch3/31_fa13.json",
+ "id": "3.3.1",
+ "title": "Embed local destination bodies for community inclusion",
+ "sources": [
+  [
+   "ch3/31_fa13.json",
+   2
+  ],
+  [
+   "ch3/31_fa13.json",
+   9
+  ],
+  [
+   "ch3/31_fa13.json",
+   11
+  ],
+  [
+   "ch3/31_fa13.json",
+   12
+  ],
+  [
+   "ch3/31_fa13.json",
+   13
+  ],
+  [
+   "ch3/31_fa13.json",
+   14
+  ],
+  [
+   "ch3/31_fa13.json",
+   16
+  ],
+  [
+   "ch3/31_fa13.json",
+   17
+  ],
+  [
+   "ch3/31_fa13.json",
+   18
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/31_fa13.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/31_fa13.json",
+    7
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/31_fa13.json",
+    8
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    1
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The first enabling theme covers who benefits from growth, how it is paid for and how it lasts. It holds three focus areas: community inclusion, climate risk and investment. The inclusion model is set out at concept level, and Chapter 4 assigns its roles and funding."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    3
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    4
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    5
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The opportunity"
+  },
+  {
+   "type": "p",
+   "text": "Community inclusion decides whether growth to 2035 is shared. Inclusion here means visitor activity inside the community: a tour, a meal, a bed or a market. A resident commuting to a hotel job in town counts for little or nothing (SME and Community Inclusion Plan, Sep 2026, p4). On that measure the province starts near zero. Foreign visitors spent R25.9bn in FY2025, and the 20 shortlisted communities received a documented floor of R4m to R10m of it (Demand-Side Analysis, Jun 2026, p11; SME and Community Inclusion Plan, Sep 2026, p5)."
+  },
+  {
+   "type": "p",
+   "text": "The prize is large. At 1% of FY2025 foreign direct spend, the 20 communities would receive R259m a year; at 1% of the 2035 spend ambition, R547m (SME and Community Inclusion Plan, Sep 2026, p5). Both are reference points, not adopted targets (section 5.3). The visitors are already close, and organisation rather than distance keeps their spend out (section 2.4)."
+  },
+  {
+   "type": "p",
+   "text": "Inclusion also widens what the province sells. SATVITO finds that more township and village product could widen market reach and lift visitor spend, yet negative safety perceptions of the townships hold demand back (Stakeholder Insights Report, Mar 2026, p34). The opportunity opens only to a community that can sell and a visit that is safe."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    10
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence places the main gap in selling, not proximity. Organisation binds in 11 of the 20 communities, attraction in six and distance in none (SME and Community Inclusion Plan, Sep 2026, p30, p53 to p58). No profiled community yet rates Ready on digital and bookability (SME and Community Inclusion Plan, Sep 2026, p20 to p26, p40 to p51). The spend floor is uncertain, because the method behind it is not yet shown [Open item: the Inclusion Plan to set out how the R4m to R10m floor was traced.]"
+  },
+  {
+   "type": "p",
+   "text": "The cases set the order of action: a seller with a stake, then a safe and workable visit, then product that keeps spend in the community and only then exposure (SME and Community Inclusion Plan, Sep 2026, p12). Kliptown in Soweto shows the cost of the reverse order. Walter Sisulu Square cost R160 million to R180 million, out of the R436 million first allocated to Kliptown, before an operator was in place (SME and Community Inclusion Plan, Sep 2026, p11; section 2.1). By 2017 it drew about 4,000 museum visitors a year, against a business case of almost 200,000 international visitors (SME and Community Inclusion Plan, Sep 2026, p11). Safety is the second gate. In Rio, security collapsed in 2017 and public support was withdrawn early (SME and Community Inclusion Plan, Sep 2026, p7). Nine communities record a safety-perception gap and five record extortion, so every pilot needs a site-specific safety plan before launch (SME and Community Inclusion Plan, Sep 2026, p27, p35)."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should connect community product to the demand it already moves, and leave the building of selling bodies to municipalities, LTOs and the communities themselves. The model has three parts: a selling capability that works, a link to demand that already exists and gates that must be passed before activation and investment (SME and Community Inclusion Plan, Sep 2026, p32)."
+  },
+  {
+   "type": "p",
+   "text": "In 2027 Wesgro and its partners choose two or three pilots on readiness and agree who funds a seller with a stake in each. Safety plans follow in the same year (section 4.3). In 2028 each pilot opens one live booking route and runs a fixed-date test, and Wesgro places the product in its itineraries and calendars. Investment follows demand, and pilots scale from 2029 only once bookings, local spend, delivery and safety meet thresholds agreed before launch (SME and Community Inclusion Plan, Sep 2026, p31, p32)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    15
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "The model supplies the missing piece and little else. Demand already passes within minutes of most communities. A local seller with a booking route turns that passing demand into bookings, and the gates stop capital from arriving before visitors do. The seller records bookings, visitors and locally retained revenue, so each pilot can be judged on its results (SME and Community Inclusion Plan, Sep 2026, p33)."
+  },
+  {
+   "type": "p",
+   "text": "Resident sellers have outlasted the programmes that launched them. In Rio de Janeiro's Santa Marta, about 20 resident guides ran the tours by 2015 and outside jeep firms had left (SME and Community Inclusion Plan, Sep 2026, p7, p30). Medellín's Comuna 13 drew 1.98 million visitors in 2025 around resident-run product (SME and Community Inclusion Plan, Sep 2026, p8). On Vilakazi Street in Soweto, residents opened Sakhumzi in 2001 with four employees; it employed about 110 by 2019 (SME and Community Inclusion Plan, Sep 2026, p9). The condition is a seller that survives without a sponsor. Costa Rica's community network turned over more than USD 800,000 in 2013 yet dissolved at the end of 2018, for reasons not identified (SME and Community Inclusion Plan, Sep 2026, p10). The lesson drawn there is an entity with its own selling channel and a succession plan that does not rest on a donor (SME and Community Inclusion Plan, Sep 2026, p10). Most first moves carry no budget line, so municipalities and LTOs must fund each seller before launch (SME and Community Inclusion Plan, Sep 2026, p36)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/31_fa13.json",
+    19
+   ]
+  }
+ ]
+}

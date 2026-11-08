@@ -1,0 +1,168 @@
+{
+ "module": "ch3/15_fa05.json",
+ "id": "3.1.2",
+ "title": "Increase yield in mature markets",
+ "sources": [
+  [
+   "ch3/15_fa05.json",
+   7
+  ],
+  [
+   "ch3/15_fa05.json",
+   9
+  ],
+  [
+   "ch3/15_fa05.json",
+   10
+  ],
+  [
+   "ch3/15_fa05.json",
+   11
+  ],
+  [
+   "ch3/15_fa05.json",
+   13
+  ],
+  [
+   "ch3/15_fa05.json",
+   14
+  ],
+  [
+   "ch3/15_fa05.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/15_fa05.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/15_fa05.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/15_fa05.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The opportunity"
+  },
+  {
+   "type": "p",
+   "text": "The mature markets are where the province earns its premium. High-spend visitors come from Europe and North America, \"tying future value growth to slower-growing source markets\" (Demand-Side Analysis, Jun 2026, p14). The mature group grows steadily to 2035, but more slowly than the hub and acceleration markets (section 2.2). Growth here comes from value per visitor more than from volume."
+  },
+  {
+   "type": "p",
+   "text": "Value matters to the growth case because seats are scarce. Five mature long-haul routes already run above 80% load: Newark, Atlanta, Frankfurt, Heathrow and Washington (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). The runway binds at the peak until relief arrives in about 2033 (section 2.3). Each extra rand per visitor on a full route is growth that needs no extra seat. Longer stays and travel beyond the Metro add value in the same way."
+  },
+  {
+   "type": "p",
+   "text": "Two things stand in the way: carrier pricing and the province's own measures. On full routes, carriers are expected to raise fares rather than add new services, which \"will frustrate that desire for increased visitors\" (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"; a judgement of airline behaviour, not backed by fare data). The province must therefore earn more per visitor without losing share. Yet its targets count arrivals, and spend per visitor by market is printed for a single year."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The constraint is well documented; the lever is not. The five routes are full and their visitors pay most. Yet none of the work behind this report holds fare, revenue-per-seat or yield data. None models a yield uplift either. The yield lever rests on how carriers are expected to behave on full routes. This focus area therefore sets yield as an indicator to establish, not a target to hit, until spend per visitor by market is tracked every year [yield baseline: SAT spend per visitor by market as an annual series; only 2024 is printed]."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should protect share and raise value per visitor in the mature markets, and work the full routes for frequency and gauge before it chases new ones. The task is to protect share, increase yield and drive regional dispersal while new growth markets develop (Demand-Side Analysis, Jun 2026, p17). There is tactical room for added frequency on some routes and larger aircraft from some airlines (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
+  },
+  {
+   "type": "p",
+   "text": "The full routes come first. From 2027 Wesgro makes the frequency and gauge case to their carriers, because seats held now protect share until the runway relief arrives (section 4.3). Luxury-advisor distribution follows in 2028. Spend per visitor and length of stay join Wesgro's own targets from 2029, once the data-sharing protocol supplies them (focus area 18)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "Yield work suits full routes. When seats are scarce, a visitor who stays longer, travels further and spends more adds value without adding a seat. Selling to the highest-spending segment through luxury advisors lifts the average spend of the travellers the seats already carry. Full routes also give Wesgro a frequency case to put, though not a promise of seats, because carriers are expected to raise fares first (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\")."
+  },
+  {
+   "type": "p",
+   "text": "New Zealand runs yield-based performance, putting revenue per visitor and length of stay ahead of arrivals growth and selling premium regional itineraries through specialist travel designers (Global Benchmarking Report, Mar 2026, p55). Its visitor spend rose 9.2% in the year to March 2025 (Global Benchmarking Report, Mar 2026, p53; arrivals grew 5.9% over calendar 2025, a different period, so the two do not compare directly). The condition is a measure. Without spend per visitor by market as an annual series, yield can be neither managed nor judged, so the data-sharing protocol comes first (focus area 18)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/15_fa05.json",
+    16
+   ]
+  }
+ ]
+}

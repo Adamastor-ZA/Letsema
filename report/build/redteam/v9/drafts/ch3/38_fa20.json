@@ -1,0 +1,172 @@
+{
+ "module": "ch3/38_fa20.json",
+ "id": "3.3.2",
+ "title": "Develop workforce and service skills",
+ "sources": [
+  [
+   "ch3/38_fa20.json",
+   7
+  ],
+  [
+   "ch3/38_fa20.json",
+   9
+  ],
+  [
+   "ch3/38_fa20.json",
+   10
+  ],
+  [
+   "ch3/38_fa20.json",
+   11
+  ],
+  [
+   "ch3/38_fa20.json",
+   13
+  ],
+  [
+   "ch3/38_fa20.json",
+   14
+  ],
+  [
+   "ch3/38_fa20.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/38_fa20.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/38_fa20.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/38_fa20.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its substantive fact (the 300,000-jobs ambition has no labour analysis behind it, Inception Report p4) is reused in \"The challenge\"",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "The province cannot yet count the jobs its strategy promises. The ambition of 300,000 tourism-linked jobs is one of four headline ambitions, with no base year, baseline or target year. No labour analysis sits behind it (Inception Report, Nov 2025, p4). The Department of Tourism reports that no approved methodology exists for provincial tourism GDP and jobs estimates (Stakeholder Insights Report, Mar 2026, p37). This focus area therefore rests on analysis still to be commissioned. Section 2.4 sets out why a jobs baseline must come before a jobs target."
+  },
+  {
+   "type": "p",
+   "text": "Jobs matter to the strategy as much as arrivals. Wesgro's mission is to drive inclusive and sustainable growth and create jobs in Cape Town and the Western Cape (Inception Report, Nov 2025, p5). Service quality also rests on people. Mossel Bay names inconsistent restaurant quality and service delivery as a major weakness (Stakeholder Insights Report, Mar 2026, p20). CapeNature is cautious about scaling international demand because service readiness is uneven across its sites (Stakeholder Insights Report, Mar 2026, p43)."
+  },
+  {
+   "type": "p",
+   "text": "Yet skills gaps surface only in passing. CapeNature finds low baseline skills in communities near reserves, which need substantial upskilling before they can meet service standards (Stakeholder Insights Report, Mar 2026, p43). The West Coast District Municipality reports stretched municipal officials, and the Overberg calls for substantial mentoring and business support (Stakeholder Insights Report, Mar 2026, p39, p27). Each is a statement, not a measure."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence holds parts but no whole. The only provincial tourism jobs figure the evidence prints is 1,234 direct cruise jobs in 2024/25. Its source study needs checking before it serves as a baseline (Current State Diagnostic, Dec 2025, p37). Public sources give the scale the analysis must work from. Direct tourism employment was 106,707 in Cape Town in 2024 and 953,981 nationally (City of Cape Town, Economic Value of Tourism, 2025; Stats SA Tourism Satellite Account, provisional, 2026; public sources). Some municipal counts exist too, such as 12,015 tourism jobs in Knysna in 2024 (SME and Community Inclusion Plan, Sep 2026, p47)."
+  },
+  {
+   "type": "p",
+   "text": "The provincial figure may already sit in Wesgro's own files. Wesgro supplied the Western Cape Pero 2025 and the district Mero 2024 to this study (Inception Report, Nov 2025, p34) [provincial tourism employment from the Pero 2025: Wesgro Research to extract]. Training also exists in places, from the CATHSSETA site guides certified in Mbekweni to the hospitality academy in Prince Albert (SME and Community Inclusion Plan, Sep 2026, p42, p51). What is missing is the sizing step that links these pieces to the growth case."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro and DEDAT commission a tourism labour analysis in 2027. It fixes a provincial employment baseline and definition, tests the 300,000 ambition and identifies the occupations and skills the growth case needs. In the same year Wesgro Research extracts the tourism employment table from the Pero 2025. Until the analysis reports, Chapter 5 carries jobs without a baseline or target. It sets the targets at the first gate, at the end of 2028, so the baseline must be in place by then (sections 4.7 and 5.3)."
+  },
+  {
+   "type": "p",
+   "text": "The skills plan follows the analysis and runs through the provincial quality charter (focus area 11). The Singapore lesson behind it pairs a province-wide quality framework with investment in workforce capability (Global Benchmarking Report, Mar 2026, p42). From 2029 CapeNature, CATHSSETA, training providers and municipalities run training partnerships around reserves and in pilot communities. LTOs and tour operators help newly trained guides stay in the sector with bookings from existing itineraries. Nationally, the province asks the Department of Tourism to approve a provincial jobs methodology and Stats SA to resource the tourism satellite account."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "Measurement comes first because a skills plan without a baseline can be neither targeted nor judged. The analysis shows which occupations bind growth, where and by when, so training money follows the gap rather than the loudest request. Linking skills to the quality charter ties training to the standards visitors judge. Linking training to bookings answers the Overberg's finding that low early earnings make it hard for newly trained guides to stay in the sector (Stakeholder Insights Report, Mar 2026, p27)."
+  },
+  {
+   "type": "p",
+   "text": "Singapore's Hotel Industry Transformation Map, run by the tourism board with the hotel association and backed by dedicated funds, lifted service quality and spend per visitor (Global Benchmarking Report, Mar 2026, p41). In Santa Marta in Rio de Janeiro, about 20 resident guides ran the tours by 2015 and continued after the programme that launched them (SME and Community Inclusion Plan, Sep 2026, p7, p30). Across the cases, assets and training without a durable route to market did not produce comparable continuity (SME and Community Inclusion Plan, Sep 2026, p30). None of the six comparators carries a labour analysis or a tourism employment target, so the sizing step has no precedent in the benchmark set. The condition is a recognised method. Without the Department of Tourism's approval, the analysis can set a provincial baseline but not one the national accounts share."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/38_fa20.json",
+    16
+   ]
+  }
+ ]
+}

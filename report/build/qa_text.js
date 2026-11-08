@@ -29,7 +29,8 @@ const BANNED = [
 const OXFORD = /,\s[^,.;:()\[\]]{1,60},\s(and|or)\s(?!then\b)/i; // "a, b c, and d": a list-final comma (heuristic; clause commas may also match)
 const WORDS = (s) => s.trim().split(/\s+/).filter(Boolean).length;
 
-const TEMPLATE_PARTS = ['Hypothesis and disposition', 'Evidence', 'Recommendation', 'Benchmark precedent', 'Link forward'];
+// v9 entry parts; the first may be framed as the challenge or the opportunity.
+const TEMPLATE_PARTS = [['The challenge', 'The opportunity'], ['What the evidence shows'], ['The course of action'], ['Why it can work'], ['Link forward']];
 
 let issues = 0;
 function flag(file, kind, text) { issues += 1; console.log(`${file}: ${kind}: ${String(text).slice(0, 160)}`); }
@@ -65,7 +66,7 @@ for (const dir of dirs) {
         const end = k + 1 < entries.length ? entries[k + 1].i : blocks.length;
         const slice = blocks.slice(i, end);
         const h4s = slice.filter((b) => b.type === 'h4').map((b) => b.text);
-        const missing = TEMPLATE_PARTS.filter((p) => !h4s.some((h) => h.toLowerCase().startsWith(p.toLowerCase())));
+        const missing = TEMPLATE_PARTS.filter((alts) => !h4s.some((h) => alts.some((p) => h.toLowerCase().startsWith(p.toLowerCase())))).map((alts) => alts[0]);
         if (!(blocks[i - 1] && blocks[i - 1].type === 'kicker')) flag(file, 'focus area without kicker', blocks[i].text);
         if (!(slice[1] && slice[1].type === 'lead')) flag(file, 'focus area without topline lead', blocks[i].text);
         if (missing.length) flag(file, `focus area missing parts: ${missing.join('; ')}`, blocks[i].text);

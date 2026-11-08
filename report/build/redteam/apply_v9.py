@@ -102,6 +102,19 @@ for mod, edits in by_mod.items():
         LOG.append({'kind': 'sweep ' + e['op'], 'file': mod, 'index': e['index'], 'reason': e['reason'], 'before': block_text(old)[:4000],
                     'after': ' '.join(block_text(x) for x in resolve(e.get('blocks', [])))[:4000]})
 
+# Two action grids corrected so they agree with the text the drafts wrote around them: the focus area 10 grid now follows the
+# delivery order in charter I9, and the focus area 16 grid no longer names a deliverable.
+POST = [('ch3/24_fa10.json', 'on each of the six touring routes, starting with the Whale Coast east of Hermanus, Route 62 and the West Coast',
+         'on each of the six touring routes, delivering first on the Garden Route, the Cape Winelands and the Overberg, then Route 62 and the West Coast',
+         'match the delivery order in charter I9 and the rewritten entry'),
+        ('ch3/34_fa16.json', "agree a decision-rights map by tier from the Diagnostic's tier table", 'agree a decision-rights map by tier, building on the tier split in section 1.2',
+         'the grid named a deliverable; section 1.2 sets out the tiers')]
+for mod, find, repl, why in POST:
+    s0 = json.dumps(OUT[mod]['blocks'], ensure_ascii=False)
+    assert s0.count(find) == 1, (mod, find[:60])
+    OUT[mod]['blocks'] = json.loads(s0.replace(find, repl))
+    LOG.append({'kind': 'grid edit', 'file': mod, 'before': find, 'after': repl, 'reason': why})
+
 # The executive summary's pillar tables lose their Disposition column; the tree figure loses its disposition labels.
 ES = 'exec/01_summary.json'
 for b in OUT[ES]['blocks']:

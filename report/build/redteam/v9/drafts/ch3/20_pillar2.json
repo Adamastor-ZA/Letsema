@@ -1,0 +1,92 @@
+{
+ "module": "ch3/20_pillar2.json",
+ "id": "3.2",
+ "title": "Pillar 2: Transform supply",
+ "sources": [
+  [
+   "ch3/20_pillar2.json",
+   4
+  ],
+  [
+   "ch3/20_pillar2.json",
+   6
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/20_pillar2.json",
+    3
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "states the pillar objective as the December tree worded it; the objective is restated in the new opening without the earlier tree",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/20_pillar2.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "describes the structural changes between the December tree and the October review; the current structure is set out in the new opening",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/20_pillar2.json",
+    7
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "counts dispositions as recorded at the October review; its open item on the deck page reference belongs to that record",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/20_pillar2.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/20_pillar2.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/20_pillar2.json",
+    2
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Pillar 2 removes the mobility, infrastructure and product constraints that limit how many visitors the province can carry and where they can go. Demand work in Pillar 1 fills seats only if the seats exist. It pays outside the Metro only if visitors can reach, book and stay in the product there (section 2.3)."
+  },
+  {
+   "type": "p",
+   "text": "The first constraint is the gateway. The growth model draws current air access as a line at 1.8 million inbound seats, and the base case crosses it at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). The runway binds at peak hours before that (Infrastructure Report, Jul 2026, p101, p102). The international terminal upgrade at Cape Town International is due about 2032 and the relocated runway about 2033 (Infrastructure Report, Jul 2026, p103)."
+  },
+  {
+   "type": "p",
+   "text": "Transport is a connectivity and dispersal challenge, not a province-wide capacity crisis. Cape Town International is the key gateway risk (Infrastructure Report, Jul 2026, p114). Beyond the gateway, the constraint is reach and readiness. Accessibility to attractions and services falls from 4.7 out of 5 in the Cape Metro to 1.0 in the Central Karoo (Infrastructure Report, Jul 2026, p88 to p90). Only one touring route of six is rated Ready (Infrastructure Report, Jul 2026, p30, p40, p51, p62, p73, p84)."
+  },
+  {
+   "type": "p",
+   "text": "The pillar holds two themes. The first is how visitors reach the province and move through it (focus areas 7 to 9). The second is what they find on arrival (focus areas 10 to 12)."
+  },
+  {
+   "type": "p",
+   "text": "Only the air entry needs more transport capacity. Cruise has room at the berth: it handled 83 calls in 2024/25 against a season capacity of 150 or more (Infrastructure Report, Jul 2026, p110). The flagship nature sites face a limit of a different kind, which calls for managing flows rather than adding volume (focus area 12). The other three entries concern reach, product and experience. The entries also have an order. Seats into the gateway come first; corridors, beds and booking then decide where growth lands (section 2.3). Visas, air service agreements and the runway are national levers, which the province leads by escalation in Pillar 3 (section 3.3.2)."
+  },
+  {
+   "type": "p",
+   "text": "By 2035 the pillar must do two things. It must hold and add seats on the full routes until runway relief arrives. It must also lift the share of arrivals and spend outside the Metro, by giving visitors product they can reach, book and stay in. Initiatives I6 to I11 deliver the six entries (section 4.3)."
+  }
+ ]
+}

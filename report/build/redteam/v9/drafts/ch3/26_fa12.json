@@ -1,0 +1,168 @@
+{
+ "module": "ch3/26_fa12.json",
+ "id": "3.2.2",
+ "title": "Balance impact on nature-based attractions",
+ "sources": [
+  [
+   "ch3/26_fa12.json",
+   7
+  ],
+  [
+   "ch3/26_fa12.json",
+   9
+  ],
+  [
+   "ch3/26_fa12.json",
+   10
+  ],
+  [
+   "ch3/26_fa12.json",
+   11
+  ],
+  [
+   "ch3/26_fa12.json",
+   13
+  ],
+  [
+   "ch3/26_fa12.json",
+   14
+  ],
+  [
+   "ch3/26_fa12.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/26_fa12.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/26_fa12.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/26_fa12.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "The flagship nature sites carry the province's brand. Table Mountain, Robben Island and Kirstenbosch form the only globally branded landmark cluster, and the Metro holds five of the province's six highest-volume attractions (Infrastructure Report, Jul 2026, p88). In season they run full (section 2.3). Peak queues at the Cableway of up to three hours detract from the visitor experience (Stakeholder Insights Report, Mar 2026, p36)."
+  },
+  {
+   "type": "p",
+   "text": "More volume at these sites is the wrong goal. The Department of Economic Development wants further growth directed to under-visited parts of the province rather than constrained flagships (Stakeholder Insights Report, Mar 2026, p24). Yet the flagships congest at the peak while the overflow reserves remain under-marketed (Infrastructure Report, Jul 2026, p88)."
+  },
+  {
+   "type": "p",
+   "text": "Nature tourism also funds conservation. CapeNature cannot rely on public funding alone and treats tourism as a revenue business to support its conservation mandate (Stakeholder Insights Report, Mar 2026, p44). Flooding, fire and heat are already closing CapeNature sites, so the reserves that should take the overflow are themselves under strain (Stakeholder Insights Report, Mar 2026, p43)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence agrees on direction but lacks a baseline. Operators and the province state the limits, yet no source prints annual visitors or permitted capacity for Table Mountain, Boulders, Robben Island, Cape Point or Kirstenbosch [flagship visitor counts and capacity: request from SANParks, the Cableway, Robben Island Museum and SANBI]. Without counts, the province cannot set caps, price the peak or show that steering visitors works. The first task is therefore a baseline."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro stops marketing volume to the flagship sites and uses them as the hook that sends visitors elsewhere. The Peninsula route's own opportunities are to disperse visitors beyond the highest-volume attractions and to expand shoulder-season experiences (Infrastructure Report, Jul 2026, p30). The baseline comes first. In 2027 and 2028 Wesgro's Research unit asks the five flagship sites for visitor counts and capacity, while destination marketing promotes the alternatives (section 4.3)."
+  },
+  {
+   "type": "p",
+   "text": "The site operators hold the flow tools, from digital flow management to tiered pricing (Demand-Side Analysis, Jun 2026, p3; Stakeholder Insights Report, Mar 2026, p44). From 2029 the operators bring these tools to the Cableway, Boulders and Cape Point, where mandates allow. Later in the period CapeNature makes reserve product climate-resilient. SANParks carries the national step: a visitor management plan for Table Mountain National Park and Boulders, agreed with the City and the operators."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "Flow management protects the visit and the revenue together. Digital flow tools and tiered pricing spread arrivals across the day and the season. A site then serves its visitors without a three-hour queue and earns more at the peak. Marketing the alternatives at the point of booking sends the overflow to the under-marketed reserves, and their income pays for conservation there."
+  },
+  {
+   "type": "p",
+   "text": "New Zealand uses land-use controls and premium curation on the principle that capacity discipline protects long-term pricing power (Global Benchmarking Report, Mar 2026, p55). Kenya treats conservation as national economic infrastructure, with tourism-funded conservation financing and community conservancies that sustain demand and environmental integrity (Global Benchmarking Report, Mar 2026, p33). It earned about US$1,460 per international arrival in 2024, against about US$890 in the Western Cape (Demand-Side Analysis, Jun 2026, p15). The City already runs the model at small scale. Since August 2025 Witzands permits have been capped by day, and 80% are pre-booked online (SME and Community Inclusion Plan, Sep 2026, p41). The condition is the operators. They must share their counts, and their mandates must allow pricing: CapeNature's statutory affordability mandate has kept prices conservative and is moving it towards tiered pricing (Stakeholder Insights Report, Mar 2026, p44)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/26_fa12.json",
+    16
+   ]
+  }
+ ]
+}

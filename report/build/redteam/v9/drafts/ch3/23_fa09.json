@@ -1,0 +1,163 @@
+{
+ "module": "ch3/23_fa09.json",
+ "id": "3.2.1",
+ "title": "Accelerate tourism-enabling internal mobility",
+ "sources": [
+  [
+   "ch3/23_fa09.json",
+   6
+  ],
+  [
+   "ch3/23_fa09.json",
+   7
+  ],
+  [
+   "ch3/23_fa09.json",
+   9
+  ],
+  [
+   "ch3/23_fa09.json",
+   10
+  ],
+  [
+   "ch3/23_fa09.json",
+   11
+  ],
+  [
+   "ch3/23_fa09.json",
+   13
+  ],
+  [
+   "ch3/23_fa09.json",
+   14
+  ],
+  [
+   "ch3/23_fa09.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/23_fa09.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/23_fa09.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "Growth to 2035 has to spread beyond Cape Town, yet large parts of the province outside the Metro and the Garden Route are effectively car-only (Infrastructure Report, Jul 2026, p99). The N2 is the only continuous inter-regional tourism corridor, a single point of failure (Infrastructure Report, Jul 2026, p98, p99). Limited public transport \"restricts access for non-driving visitors and reduces the addressable tourism market\" (Infrastructure Report, Jul 2026, p99). Section 2.3 shows readiness and access falling with each step away from the Metro."
+  },
+  {
+   "type": "p",
+   "text": "The problem is reach, not capacity (Infrastructure Report, Jul 2026, p114). Even in the Metro no rail line reaches the airport, and safety perceptions and limited visitor wayfinding hold back Metrorail's tourism potential (Infrastructure Report, Jul 2026, p98 to p100). Stakeholders call weak public transport, congestion and unreliable last-mile access structural barriers to visitor movement (Stakeholder Insights Report, Mar 2026, p10)."
+  },
+  {
+   "type": "p",
+   "text": "No single body owns the visitor's journey. The Department of Mobility notes that mobility responsibilities are split across three tiers of government, and argues the case for a dedicated transport authority (Stakeholder Insights Report, Mar 2026, p23)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence shows transport assets that exist but are not run for visitors. The Cape Town to Simon's Town line is fully operational. The Southern Line runs through Muizenberg, Kalk Bay, Boulders and Simon's Town as a ready-made, low-cost scenic corridor (Infrastructure Report, Jul 2026, p100). Yet its visitor branding dates to 2007 (Infrastructure Report, Jul 2026, p100). The gaps between towns are services rather than roads. The Garden Route has no inter-town shuttle despite obvious demand, and Hermanus, Stanford, Elim and Agulhas have no public tourism transport between them (Infrastructure Report, Jul 2026, p90, p67)."
+  },
+  {
+   "type": "p",
+   "text": "The shuttle gap has a commercial fix. A shared shuttle needs demand aggregation and booking integration to work, as !Khwa ttu says of the West Coast (Stakeholder Insights Report, Mar 2026, p41). Part of the answer is therefore within reach of a marketing and packaging body, while the rail and road assets stay with their owners."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro does not build transport. It makes existing transport usable for visitors and gathers the demand that makes shuttles pay. The Department of Mobility leads the work, with Wesgro's Tourism unit. The Southern Line product, shuttle aggregation and transfers sold inside itineraries are piloted in 2027 and 2028. Shuttle products run from 2029, as the City and PRASA complete the Central Line recovery and MyCiTi Phase 2. The Cape Town to George rapid rail decision and the last mile to Cape Point come later in the period (section 4.3). National government is asked to lift the rule that bars bank-card payments on the George bus and to fund passenger rail beyond the Metro."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "The mechanism is aggregation. A shuttle pays only at volume, and pooled bookings across operators, sold inside a multi-day itinerary, turn scattered requests into a load that can run. The Southern Line needs no new track to become a product, only branding, passes and marketing. Each step widens the market to visitors without a car, the market that limited public transport now narrows (Infrastructure Report, Jul 2026, p99)."
+  },
+  {
+   "type": "p",
+   "text": "None of the six benchmark destinations carries an internal mobility lever with figures (Global Benchmarking Report, Mar 2026, p25, p27; the nearest is Chile's domestic air network, run as a designed portfolio linking Santiago to its regions). The Cape Winelands already shows the mechanism at home. Its heritage tram, built to connect wine estates, solves the drink-and-drive barrier and is a one-of-a-kind product (Infrastructure Report, Jul 2026, p90). Yet the tram model is not replicated elsewhere (Infrastructure Report, Jul 2026, p90). Medellín shows the principle at city scale. Mobility built for residents in Comuna 13 became part of the visit. The area drew 1.98 million visitors in 2025, 52% of them international, though governance and capacity limits came late (SME and Community Inclusion Plan, Sep 2026, p8). The condition is shared ownership: the three tiers must run the visitor's journey as one, and trains must be safe enough to sell."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/23_fa09.json",
+    16
+   ]
+  }
+ ]
+}

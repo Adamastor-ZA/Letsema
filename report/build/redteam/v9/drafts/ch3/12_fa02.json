@@ -1,0 +1,183 @@
+{
+ "module": "ch3/12_fa02.json",
+ "id": "3.1.1",
+ "title": "Create green-season demand with MICE and events",
+ "sources": [
+  [
+   "ch3/12_fa02.json",
+   7
+  ],
+  [
+   "ch3/12_fa02.json",
+   8
+  ],
+  [
+   "ch3/12_fa02.json",
+   11
+  ],
+  [
+   "ch3/12_fa02.json",
+   12
+  ],
+  [
+   "ch3/12_fa02.json",
+   13
+  ],
+  [
+   "ch3/12_fa02.json",
+   15
+  ],
+  [
+   "ch3/12_fa02.json",
+   16
+  ],
+  [
+   "ch3/12_fa02.json",
+   17
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/12_fa02.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/12_fa02.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/12_fa02.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "The green season is where the province has room to grow. Capacity sits underused in the green season and across the regions (Demand-Side Analysis, Jun 2026, p53). Cape Town hotel occupancy was 53% in June 2023 (Demand-Side Analysis, Jun 2026, p34). Growth to 2035 depends on \"improving conversion in Apr-Sep rather than pushing incremental demand into already busy peak months\" (Market Assessment Report, May 2026, p25)."
+  },
+  {
+   "type": "p",
+   "text": "Yet the trough is a seat problem as well as a demand problem. Airlines cut seats in the same months that visitors fall away, and connecting traffic is \"especially critical in the low season\" (MIDAS Aviation Market Assessment, Mar 2026, \"Executive Summary\"). Leisure marketing alone cannot fill a month that carriers have already thinned (section 2.3). The province needs reasons to travel that are fixed in the calendar, booked months ahead and sold with the seats."
+  },
+  {
+   "type": "p",
+   "text": "Business events are the best of those reasons. They can be scheduled more flexibly than leisure trips, so they can strengthen demand in shoulder and green-season periods (Demand-Side Analysis, Jun 2026, p34). Two gaps remain: aim and measurement. International meetings cluster just after the trough, and only conferences are counted well (section 2.2)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    9
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    10
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Seats and visitors both fall away from April to September. International meetings run thin from June to August and peak from September to November, at the edge of the trough rather than in it. Events therefore have one job: win new dates in May to September, where seats and visitors are thinnest."
+  },
+  {
+   "type": "p",
+   "text": "Two limits qualify the numbers. The October to March share is about 62% for 2025, computed from a month-of-travel table whose shares sum to 104.9% and normalised (Demand-Side Analysis, Jun 2026, p12, computed). The only printed split is 61% to 39% for 2024 (Current State Diagnostic, Dec 2025, p32), and this report carries both. And only conferences are measured: meetings are absent from provincial statistics, incentive volumes are unverified and exhibitions are unquantified (Demand-Side Analysis, Jun 2026, p36)."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should build an April to September events spine and sell it with the seats. The spine rests on a small set of flagship weeks, with green-season flight, stay and experience packages sold through airline and trade partners (Current State Diagnostic, Dec 2025, p32). Bids follow the buyer. Conference bids aim at off-peak dates in sectors where the province is strong. Incentive packages test the cooler season with Indian and Gulf planners, and winter midweek packages target corporate meetings (Demand-Side Analysis, Jun 2026, p40)."
+  },
+  {
+   "type": "p",
+   "text": "The shared strategy and the count come first, in 2027. Wesgro agrees one event acquisition and calendar strategy with the Convention Bureau, the City and the Province. It also sets up a way to measure meetings, incentives and exhibitions. Without that count, no one can tell whether the calendar fills the trough. It then publishes the calendar and aims bids at May to September (section 4.3)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    14
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "Association conferences are won with long lead times, and they bring visitors who might not otherwise consider the province (Demand-Side Analysis, Jun 2026, p40, p41). A congress confirmed for July gives carriers a load to plan against, and that is the case Wesgro needs to hold winter seats (focus area 7). Events used this way sustain \"year-round tourism demand and air connectivity\" (Demand-Side Analysis, Jun 2026, p37). They also reach beyond the city. The main event can stay in Cape Town while delegates spend extra nights elsewhere, and Stellenbosch and George can host the next phase of regional conferences (Demand-Side Analysis, Jun 2026, p41)."
+  },
+  {
+   "type": "p",
+   "text": "Melbourne's monthly arrivals stay between 7% and 12% of the year, a balance that events and education travel help create. Yet summer still brings its largest international spike (Global Benchmarking Report, Mar 2026, p17). Victoria builds the balance by curating a portfolio of global, cultural, regional and business events that generate repeat, predictable demand spikes across the year (Global Benchmarking Report, Mar 2026, p18). The condition is the shared calendar and a proactive bidding pipeline behind it (Global Benchmarking Report, Mar 2026, p20). Without them, the gap stays where it is: June to August remains structurally weak for business events (Stakeholder Insights Report, Mar 2026, p45)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/12_fa02.json",
+    18
+   ]
+  }
+ ]
+}

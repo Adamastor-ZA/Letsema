@@ -1,0 +1,187 @@
+{
+ "module": "ch3/21_fa07.json",
+ "id": "3.2.1",
+ "title": "Win direct routes and add seats on full routes",
+ "sources": [
+  [
+   "ch3/21_fa07.json",
+   2
+  ],
+  [
+   "ch3/21_fa07.json",
+   9
+  ],
+  [
+   "ch3/21_fa07.json",
+   11
+  ],
+  [
+   "ch3/21_fa07.json",
+   12
+  ],
+  [
+   "ch3/21_fa07.json",
+   13
+  ],
+  [
+   "ch3/21_fa07.json",
+   15
+  ],
+  [
+   "ch3/21_fa07.json",
+   16
+  ],
+  [
+   "ch3/21_fa07.json",
+   17
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/21_fa07.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/21_fa07.json",
+    7
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/21_fa07.json",
+    8
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    1
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The first supply theme covers how visitors reach the province and move through it. Air access and cruise bring visitors in, and internal mobility carries them beyond Cape Town."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    3
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    4
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    5
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "Cape Town International is the province's only international airport, so the growth case runs through one gateway (Infrastructure Report, Jul 2026, p90). On the growth model, seats run out before demand does, at the 2030 year point (Demand-Side Analysis, Jun 2026, p21). Growth to 2035 is therefore a supply programme before it is a marketing one (section 2.3)."
+  },
+  {
+   "type": "p",
+   "text": "Two limits bind before that line. The first is commercial. Cape Town's best routes already run full, and on the mature long-haul routes carriers are expected to raise fares rather than add services (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"). The second is physical. A single runway caps movements at about 30 an hour, and the relocated runway that lifts the cap is due about 2033 (Infrastructure Report, Jul 2026, p101 to p103). ACSA's latest schedule is earlier, with the runway finished by December 2029, subject to contract award (ACSA, Q1 2026/27 presentation to the Portfolio Committee on Transport, Aug 2026). This strategy plans on about 2033 and treats the earlier date as upside."
+  },
+  {
+   "type": "p",
+   "text": "Yet the province starts from strength. It added 17 mainline international routes between 2015 and 2025, more than any of eight peer airports (MIDAS Aviation Market Assessment, Mar 2026, \"International Comparisons\"). The task is to hold and enlarge those routes until the runway arrives, and to have the next ones ready when it does."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    10
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence describes a timing problem more than a demand problem. The fares forecast covers the mature long-haul routes only, and no fare data yet tests it (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"). The five regional markets that also run above 80% are named for more capacity (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). The hub routes still have room, with Dubai at 72.3%, Addis Ababa at 71.9% and Doha at 65.2% (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). On those routes marketing can still fill seats."
+  },
+  {
+   "type": "p",
+   "text": "Relief also comes in the wrong order: \"the certain fix is the latest, and the earliest big-capacity option is the least certain\" (Infrastructure Report, Jul 2026, p109). George doubles its capacity but flies domestic routes only, and Cape Winelands has no firm named carrier (Infrastructure Report, Jul 2026, p104 to p107). No airline took part in the first phase of stakeholder engagement, so carriers' views on frequency and gauge are untested (Stakeholder Insights Report, Mar 2026, p16)."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "The approach splits the air agenda by horizon. Until relief arrives in about 2032, the job is to fill and enlarge what already flies. The near-term moves are added frequency from Emirates, Qatar Airways and Ethiopian Airlines, with airline incentives coordinated through Cape Town Air Access. Route cases for India and China are the long-term move (Demand-Side Analysis, Jun 2026, p54). Wesgro also presses for more seats to Luanda, Maputo, Gaborone, Harare and Mauritius, the five regional markets above 80%."
+  },
+  {
+   "type": "p",
+   "text": "The fund is designed in 2027 and 2028, so it is running when the regional frequency cases are made from 2029. The India and China cases go to carriers from 2032, as runway capacity arrives (section 4.3). ACSA delivers the runway and terminals, and Wesgro tracks them quarterly as the first risk. Air service agreements, the cap on US carriers and immigration processing sit with national government, so the province escalates them (section 3.3.2)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    14
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "The programme works on the airline's decision, not the visitor's. A carrier on a mature long-haul route seeks revenue through fares, yet there is tactical room for added frequency and larger aircraft (MIDAS Aviation Market Assessment, Mar 2026, \"In Conclusion\"). Joint marketing and a ring-fenced fund lower the carrier's risk on extra capacity. The province then buys seats, not higher fares. New Zealand tied marketing budgets to long-haul corridors and designed campaigns around airline breakeven. It reports more than 16,000 incremental bookings and a return of about NZ$55 million in 2023/24 (Global Benchmarking Report, Mar 2026, p54)."
+  },
+  {
+   "type": "p",
+   "text": "Chile shows the infrastructure half. A private concession funded about US$900 million of expansion at Santiago, and international seats grew about 40% to 50% between 2013 and 2019 under open-skies agreements (Global Benchmarking Report, Mar 2026, p23, p25, p26). Yet Chile's 2024 surge came mostly overland: land borders carried 55.6% of arrivals and Argentina about 40% (Sernatur, Anuario de Turismo 2024, Dec 2025). The route fund is the province's to scale; open skies and private airport finance are national levers, carried in the escalation agenda (focus area 19). The condition is the runway. If relief slips past about 2033, existing routes must carry growth for longer."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/21_fa07.json",
+    18
+   ]
+  }
+ ]
+}

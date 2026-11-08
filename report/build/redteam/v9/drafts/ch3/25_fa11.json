@@ -1,0 +1,172 @@
+{
+ "module": "ch3/25_fa11.json",
+ "id": "3.2.2",
+ "title": "Align visitor experience in-destination",
+ "sources": [
+  [
+   "ch3/25_fa11.json",
+   7
+  ],
+  [
+   "ch3/25_fa11.json",
+   9
+  ],
+  [
+   "ch3/25_fa11.json",
+   10
+  ],
+  [
+   "ch3/25_fa11.json",
+   11
+  ],
+  [
+   "ch3/25_fa11.json",
+   13
+  ],
+  [
+   "ch3/25_fa11.json",
+   14
+  ],
+  [
+   "ch3/25_fa11.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/25_fa11.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/25_fa11.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/25_fa11.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "The growth case needs visitors the current offer serves poorly. Province-wide, no midscale branded product sits between luxury estates and basic self-catering (Infrastructure Report, Jul 2026, p95). In the Winelands, a luxury-skewed product mix excludes mid-market and family segments (Infrastructure Report, Jul 2026, p53). The Garden Route is short of quality-graded hotels that anchor midweek, conference or business travel (Infrastructure Report, Jul 2026, p95)."
+  },
+  {
+   "type": "p",
+   "text": "The experience is weakest at the arrival gate and at the periphery. The international airport is the most negative node in Cape Town's online mentions (Current State Diagnostic, Dec 2025, p22). Further out, readiness falls with distance from the Metro (section 2.3). Accommodation readiness drops from 4.7 in the Metro to 2.0 in the Central Karoo (Infrastructure Report, Jul 2026, p89)."
+  },
+  {
+   "type": "p",
+   "text": "The growth markets add their own needs. Chinese visitors find few Mandarin-language services. Indian visitors see little sign of vegetarian options or Indian-language guides. Gulf visitors find no Arabic-language booking or local-currency options (Demand-Side Analysis, Jun 2026, p51). These are the markets Pillar 1 courts, so the gaps sit on the growth path (section 3.1)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence shows a gap in the middle of the market and at the service counter, not a shortage of premium product. Service quality worries the operators themselves: CapeNature is cautious about scaling international demand while service readiness is uneven across its sites (Stakeholder Insights Report, Mar 2026, p43)."
+  },
+  {
+   "type": "p",
+   "text": "Two measures are missing. No source counts mid-scale rooms or beds [mid-scale room count by district: needs the Wesgro supply database or an accommodation audit], and none prints a visitor satisfaction score. The only accommodation figure in hand is a demand share from the 2024 visitor survey. There, 3.6% of respondents named hotels and 17.4% self-catering, shares that cover under a third of the sample (Current State Diagnostic, Dec 2025, p27)."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "The quality charter comes first, because it sets the standard the other actions aim at. DEDAT leads it with Wesgro's Tourism unit (section 4.3). It is a province-wide framework that aligns all tourism stakeholders under consistent benchmarks (Global Benchmarking Report, Mar 2026, p42; that source proposes Wesgro as lead). It is phased by district, with certification visible on booking platforms and support for SMMEs to comply (Global Benchmarking Report, Mar 2026, p49). Design runs through 2027 and 2028, and the district phases start in 2029 (section 4.3)."
+  },
+  {
+   "type": "p",
+   "text": "The investment case for mid-scale hotels follows the charter from 2029, so that investors build to a known standard (focus area 15). The arrival gate sits outside the province's reach: Home Affairs and ACSA hold immigration processing and peak-hour throughput at Cape Town International, so the province presses them."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "A visible standard solves a problem of trust. A visitor booking a guesthouse on Route 62 cannot judge its service from abroad; certification shown on the booking platform can. The same standard gives small operators a clear target and a route to support, and it lets the province sell product outside the core with confidence."
+  },
+  {
+   "type": "p",
+   "text": "Quality governance was Valencia's primary lever. Its Qualitur programme and SICTED quality system raised service consistency, reputation and repeat visitation (Global Benchmarking Report, Mar 2026, p47). The city received 3.5 million international visitors in 2024, 13.9% more than in 2023 and 24.4% above 2019 (Global Benchmarking Report, Mar 2026, p46; growth across all levers, not attributed to quality alone). Singapore's tourism board used a hotel industry transformation map, a hotel rejuvenation fund and the Hotels Act. The aim was to move from short stopovers towards longer stays and higher spend (Global Benchmarking Report, Mar 2026, p41). The condition is that small businesses can comply. The compliance burden and skills shortages are the main risks, so the charter needs SMME support from the start and the skills work in focus area 20."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/25_fa11.json",
+    16
+   ]
+  }
+ ]
+}

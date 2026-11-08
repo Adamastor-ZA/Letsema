@@ -1,0 +1,168 @@
+{
+ "module": "ch3/32_fa14.json",
+ "id": "3.3.1",
+ "title": "Manage climate risk and sustainable tourism",
+ "sources": [
+  [
+   "ch3/32_fa14.json",
+   7
+  ],
+  [
+   "ch3/32_fa14.json",
+   9
+  ],
+  [
+   "ch3/32_fa14.json",
+   10
+  ],
+  [
+   "ch3/32_fa14.json",
+   11
+  ],
+  [
+   "ch3/32_fa14.json",
+   13
+  ],
+  [
+   "ch3/32_fa14.json",
+   14
+  ],
+  [
+   "ch3/32_fa14.json",
+   15
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/32_fa14.json",
+    4
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/32_fa14.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/32_fa14.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    2
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    3
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The challenge"
+  },
+  {
+   "type": "p",
+   "text": "Growth to 2035 rests on sites and routes that weather can close, and the losses already fall on the flagship sites (section 2.4). Each district carries its own climate risk, from water security on the Garden Route to extreme summer heat in the Central Karoo (Current State Diagnostic, Dec 2025, p43; Infrastructure Report, Jul 2026, p86). Water scarcity acts as a hard ceiling on visitor load in high-growth nodes such as the Garden Route (Current State Diagnostic, Dec 2025, p38). A risk spread across every district needs an owner in each."
+  },
+  {
+   "type": "p",
+   "text": "Yet the bodies that should manage the response locally are the weakest link. The Department of Economic Development rates Western Cape and Cape Town funding for destination management and marketing materially below peer destinations. It also finds that most local tourism organisations (LTOs) cannot sustain operations without municipal funding, which MFMA Circular No. 131 has disrupted (Stakeholder Insights Report, Mar 2026, p25). A body unsure of next year's budget cannot plan for a flood or a fire season."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    8
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The evidence is dated and site-specific, but it does not add up to a provincial picture. No source puts a provincial figure on tourism revenue at risk from weather or water [provincial estimate of tourism revenue at risk: none in hand]. None counts the LTOs or their grant funding [number of Western Cape LTOs and their municipal funding before and after Circular 131: DEDAT to supply]. The LTO funding finding rests on two organisations, the Department of Economic Development and the West Coast District Municipality (Stakeholder Insights Report, Mar 2026, p25, p39)."
+  },
+  {
+   "type": "p",
+   "text": "The response exists in pieces. Mossel Bay's membership inspections check water-wise and green practices, the only working sustainability standard on record (Stakeholder Insights Report, Mar 2026, p21). CapeNature is reassessing asset formats and siting to cut losses from flooding, fire and extreme weather (Stakeholder Insights Report, Mar 2026, p43). What is missing is a provincial record of losses and a stable owner for local destination management."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should treat climate as a destination-management risk it records and plans around, and press for stable funding of the local bodies that do the work. In 2027 and 2028 DEDAT and Wesgro's Research unit build a climate and weather risk register for sites and routes, starting with the dated losses (section 4.3). They also design an LTO funding model that answers Circular 131. Wesgro routes itineraries around Meiringspoort while it is closed. From 2029 funding agreements with a development mandate are signed, and routing around closures draws on the register. The quality charter carries sustainability checks on the Mossel Bay model (focus area 11). From 2032 climate risk and LTO funding sit in municipal IDPs, with reporting."
+  },
+  {
+   "type": "p",
+   "text": "Three districts have positions to build on. The Cape Winelands can become a climate-smart wine region, the Overberg a nature-positive test bed and the Garden Route a case for resilience investment (Current State Diagnostic, Dec 2025, p45, p49, p43). The register comes first because routing, funding and capital choices all depend on knowing which sites close and how often."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    12
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "The register turns scattered losses into decisions. Once losses are dated and costed by site, Wesgro can route itineraries and marketing around a closure. Operators can plan capital around the risk. CapeNature finds off-grid solar and self-sufficiency increasingly necessary to keep remote sites running (Stakeholder Insights Report, Mar 2026, p44). Stable funding works on the other half. An LTO with a multi-year agreement and a development mandate can plan for a fire season, not only the next campaign."
+  },
+  {
+   "type": "p",
+   "text": "The evidence diagnoses this risk more than it prescribes for it. No comparator carries a climate-adaptation or local funding lever, so the precedents are partial. Kenya finances conservation from tourism, a self-financing system that supports conservation and sustains tourism demand (Global Benchmarking Report, Mar 2026, p33). Valencia runs its SICTED quality system with environmental compliance frameworks, and counts a stronger reputation for quality and sustainability among the results (Global Benchmarking Report, Mar 2026, p47). Mossel Bay's inspections show the same checks can work at town scale. The condition is national. Until the effect of Circular 131 is resolved, the funding agreements the plan needs rest on uncertain ground."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/32_fa14.json",
+    16
+   ]
+  }
+ ]
+}

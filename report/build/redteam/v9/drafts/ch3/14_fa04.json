@@ -1,0 +1,183 @@
+{
+ "module": "ch3/14_fa04.json",
+ "id": "3.1.2",
+ "title": "Convert India and China hub traffic",
+ "sources": [
+  [
+   "ch3/14_fa04.json",
+   2
+  ],
+  [
+   "ch3/14_fa04.json",
+   9
+  ],
+  [
+   "ch3/14_fa04.json",
+   11
+  ],
+  [
+   "ch3/14_fa04.json",
+   12
+  ],
+  [
+   "ch3/14_fa04.json",
+   13
+  ],
+  [
+   "ch3/14_fa04.json",
+   15
+  ],
+  [
+   "ch3/14_fa04.json",
+   16
+  ],
+  [
+   "ch3/14_fa04.json",
+   17
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/14_fa04.json",
+    6
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/14_fa04.json",
+    7
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/14_fa04.json",
+    8
+   ],
+   "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+   "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced. Its one non-versioning fact, that the Middle East sits in the acceleration group, is restated in The opportunity with its source (Market Assessment Report, May 2026, p22).",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    1
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The second theme is about which markets grow the base. It holds one focus area per market group: India and China, which reach the province through hubs; the mature long-haul markets; and regional Africa. Volume and value come from different groups, so each needs its own lever (section 2.2)."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    3
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    4
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    5
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "The opportunity"
+  },
+  {
+   "type": "p",
+   "text": "India and China grow fastest in the base case, at 8% a year to 2035, against 5% for the Middle East and Brazil in their acceleration group (Market Assessment Report, May 2026, p22). India and China start from a low base, at about 2.6% and 1.4% of South Africa's overseas tourists in September 2025 (Current State Diagnostic, Dec 2025, p30). The upside is large, and much of it is already in the air."
+  },
+  {
+   "type": "p",
+   "text": "About 71,000 Indian and about 30,000 Chinese travellers reach Cape Town each year through Gulf and African hubs (Demand-Side Analysis, Jun 2026, p46, p48). They fly with carriers whose Cape Town business is built on onward traffic. Nine in ten of Qatar Airways' Cape Town passengers connect through its hub, as do more than 80% of Emirates' (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\"). Hub routes through Dubai, Addis Ababa and Doha run at 65.2% to 72.3% load, so they have room for more (MIDAS Aviation Market Assessment, Mar 2026, \"Seasonality\")."
+  },
+  {
+   "type": "p",
+   "text": "The province is absent where these travellers decide. Both markets plan and book on their own platforms, where Western Cape product is hard to find (section 2.2). Access and product add friction. Cape Town has no direct flight to Mumbai or Delhi and thin Indian-friendly adaptation, while Chinese travellers face complex visas and few Mandarin-language services (Demand-Side Analysis, Jun 2026, p51)."
+  },
+  {
+   "type": "h4",
+   "text": "What the evidence shows"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    10
+   ]
+  },
+  {
+   "type": "p",
+   "text": "The upside comes in two parts. The hub flow is available now, on routes with spare seats and carriers that gain from every connecting passenger. The direct route is not: the accelerated case depends on confirmed direct routes, and without them volume reverts to base (Demand-Side Analysis, Jun 2026, p20). This focus area therefore works the hub flow now and builds the route case for later."
+  },
+  {
+   "type": "h4",
+   "text": "The course of action"
+  },
+  {
+   "type": "p",
+   "text": "Wesgro should run India and China as conversion markets through the hubs and as relationship markets for the direct route. The money shifts toward trade-led conversion rather than broad awareness (Demand-Side Analysis, Jun 2026, p55). India needs early relationships with its carriers and authorities. China is a long-term investment in which awareness and indirect volume come before any non-stop service (MIDAS Aviation Market Assessment, Mar 2026, \"The Indian Market Opportunity\", \"The Chinese Market Opportunity\")."
+  },
+  {
+   "type": "p",
+   "text": "The hub work comes first because it needs no new seats. Wesgro agrees joint market support with the three hub carriers in 2027, and activation on the Chinese and Indian platforms runs in market from 2028 (section 4.3). The direct route cases wait for runway capacity and go to carriers from 2032."
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    14
+   ]
+  },
+  {
+   "type": "h4",
+   "text": "Why it can work"
+  },
+  {
+   "type": "p",
+   "text": "Conversion works here because the travellers are already moving. Each Indian or Chinese visitor routed to Cape Town fills a seat the hub carrier already flies. The carrier gains from joint marketing without adding capacity. Activation inside the platforms where these travellers plan and pay reaches them at the point of decision, which broad awareness does not."
+  },
+  {
+   "type": "p",
+   "text": "Singapore converts transit into visits through its Stopover Programme and Free Singapore Tour, run by the tourism board, Changi Airport Group and Singapore Airlines under one strategy (Global Benchmarking Report, Mar 2026, p40). New Zealand ties marketing budgets to named long-haul corridors and designs campaigns to support route breakeven. It recorded more than 16,000 incremental bookings and a return of about NZD 55m in 2023/24 (Global Benchmarking Report, Mar 2026, p54). The condition is visas and the hubs themselves. A Gulf hub disruption would cut connecting capacity, so the work spreads across Dubai, Doha, Addis Ababa and Istanbul (section 4.8)."
+  },
+  {
+   "type": "h4",
+   "text": "Link forward"
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/14_fa04.json",
+    18
+   ]
+  }
+ ]
+}

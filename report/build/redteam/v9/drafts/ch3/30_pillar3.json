@@ -1,0 +1,92 @@
+{
+ "module": "ch3/30_pillar3.json",
+ "id": "3.3",
+ "title": "Pillar 3: Build enabling capability",
+ "sources": [
+  [
+   "ch3/30_pillar3.json",
+   4
+  ],
+  [
+   "ch3/30_pillar3.json",
+   6
+  ]
+ ],
+ "partial_sources": [],
+ "relocations": [
+  {
+   "src": [
+    "ch3/30_pillar3.json",
+    3
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "introduces the pillar objective as the December 2025 tree gave it; the objective is restated for the pillar as it stands, without the earlier tree",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/30_pillar3.json",
+    5
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "describes how the pillar changed between December and October; the current themes and focus areas are set out in the new opening",
+   "retired": true
+  },
+  {
+   "src": [
+    "ch3/30_pillar3.json",
+    7
+   ],
+   "to": "retired: versioning removed at the client's request",
+   "reason": "counts the pillar's focus areas by disposition as recorded at the 14 October 2026 review; its open item on the deck page reference belongs to that record",
+   "retired": true
+  }
+ ],
+ "blocks": [
+  {
+   "type": "ref",
+   "src": [
+    "ch3/30_pillar3.json",
+    0
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/30_pillar3.json",
+    1
+   ]
+  },
+  {
+   "type": "ref",
+   "src": [
+    "ch3/30_pillar3.json",
+    2
+   ]
+  },
+  {
+   "type": "p",
+   "text": "Pillar 3 sets out to build an inclusive, well-governed tourism system that supports sustainable growth, returns and development. The other two pillars depend on it. Demand work fills seats and supply work opens the regions, but neither lasts unless someone owns the decisions, pays for the assets and counts the results. Section 2.4 found that system thin at each point the strategy relies on."
+  },
+  {
+   "type": "p",
+   "text": "The pillar answers four questions: who benefits, who pays, who decides and who measures. On the first, 20 township and rural communities hold 18.4% of the province's residents but receive a traced 0.02% to 0.04% of foreign direct spend (SME and Community Inclusion Plan, Sep 2026, p5). On the second, the capital pipeline funds airports, ports, roads and rail, and none of it reaches tourism product, bookability or community assets (Infrastructure Report, Jul 2026, p32 to p87, p100, p112). On the third, visas and air service agreements sit with national government, and mobility mandates are split across three tiers (Current State Diagnostic, Dec 2025, p58; Stakeholder Insights Report, Mar 2026, p23). On the fourth, no approved methodology exists for provincial tourism GDP and jobs (Stakeholder Insights Report, Mar 2026, p37)."
+  },
+  {
+   "type": "p",
+   "text": "Two themes and eight focus areas carry the pillar. The first theme, investment, inclusion and sustainability, settles who benefits from growth, how it is paid for and how it lasts. It gives community product a local seller, manages climate risk through funded local bodies and builds an investment pipeline that follows demand (focus areas 13 to 15). The second theme, governance and leadership, settles who decides and who measures. It aligns the three tiers of government, turns industry forums into one joint plan and agrees how data is shared (focus areas 16 to 18). The same theme holds two further focus areas. Focus area 19 takes the national deficits in infrastructure, visas and safety to the tier that holds them. Focus area 20 commissions the labour analysis a skills plan will rest on."
+  },
+  {
+   "type": "p",
+   "text": "The eight entries work as a sequence, not a menu. Governance comes first. Steerco, the data-sharing protocol and the escalation agenda start in the first quarter of 2027, because every other initiative reports through them (section 4.2). The community pilots start in the same phase, with booking routes shared with focus area 3 and safety plans drawn from focus area 19. Climate risk, local tourism funding, the investment pipeline and the labour analysis spend 2027 and 2028 on design. Each first needs a baseline or a case that does not yet exist. Capital comes last. It follows demand that the pilots and the regional product have shown, not the reverse (section 2.1)."
+  },
+  {
+   "type": "p",
+   "text": "The evidence behind the pillar is mostly qualitative. It rests on statements attributed to the 16 organisations with recorded insights, a one-page table of what each tier holds, the community profiles and the district gap tables (Stakeholder Insights Report, Mar 2026, p20 to p46; Current State Diagnostic, Dec 2025, p58; SME and Community Inclusion Plan, Sep 2026, p20 to p28; Infrastructure Report, Jul 2026, p32 to p87). The pillar therefore carries more open items than the other two. Several entries start by building the baseline they will be judged against."
+  },
+  {
+   "type": "p",
+   "text": "By 2035 the pillar must leave the province able to deliver its growth and share it. Visitor spend should reach the communities, measured against a reference point of 1% of foreign direct spend, R259m a year at FY2025 levels (section 5.3). Local tourism bodies should hold stable funding, and tourism projects should reach financial close. The national tier should answer the province's asks, and the province should count its own tourism jobs and spend. Initiatives I12 to I18 carry the eight focus areas, with focus areas 16 and 17 sharing one forum in I15 (section 4.1)."
+  }
+ ]
+}

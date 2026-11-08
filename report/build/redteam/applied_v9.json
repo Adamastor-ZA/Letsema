@@ -1,0 +1,2865 @@
+[
+ {
+  "kind": "module rewritten",
+  "file": "ch3/10_pillar1.json",
+  "draft": "v9/drafts/ch3/10_pillar1.json",
+  "sources": [
+   [
+    "ch3/10_pillar1.json",
+    3
+   ],
+   [
+    "ch3/10_pillar1.json",
+    4
+   ],
+   [
+    "ch3/10_pillar1.json",
+    5
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/10_pillar1.json",
+     2
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "Introduces the pillar objective as the December 2025 tree gave it; the objective is restated for the pillar as it stands, without the earlier tree.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/10_pillar1.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "Counts the pillar's focus areas by disposition and dates them to the 14 October 2026 review; the open item on the deck page belongs to that versioning.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/11_fa01.json",
+  "draft": "v9/drafts/ch3/11_fa01.json",
+  "sources": [
+   [
+    "ch3/11_fa01.json",
+    2
+   ],
+   [
+    "ch3/11_fa01.json",
+    9
+   ],
+   [
+    "ch3/11_fa01.json",
+    10
+   ],
+   [
+    "ch3/11_fa01.json",
+    12
+   ],
+   [
+    "ch3/11_fa01.json",
+    13
+   ],
+   [
+    "ch3/11_fa01.json",
+    14
+   ],
+   [
+    "ch3/11_fa01.json",
+    15
+   ],
+   [
+    "ch3/11_fa01.json",
+    17
+   ],
+   [
+    "ch3/11_fa01.json",
+    18
+   ],
+   [
+    "ch3/11_fa01.json",
+    19
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/11_fa01.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/11_fa01.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/11_fa01.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/12_fa02.json",
+  "draft": "v9/drafts/ch3/12_fa02.json",
+  "sources": [
+   [
+    "ch3/12_fa02.json",
+    7
+   ],
+   [
+    "ch3/12_fa02.json",
+    8
+   ],
+   [
+    "ch3/12_fa02.json",
+    11
+   ],
+   [
+    "ch3/12_fa02.json",
+    12
+   ],
+   [
+    "ch3/12_fa02.json",
+    13
+   ],
+   [
+    "ch3/12_fa02.json",
+    15
+   ],
+   [
+    "ch3/12_fa02.json",
+    16
+   ],
+   [
+    "ch3/12_fa02.json",
+    17
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/12_fa02.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/12_fa02.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/12_fa02.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/13_fa03.json",
+  "draft": "v9/drafts/ch3/13_fa03.json",
+  "sources": [
+   [
+    "ch3/13_fa03.json",
+    7
+   ],
+   [
+    "ch3/13_fa03.json",
+    9
+   ],
+   [
+    "ch3/13_fa03.json",
+    10
+   ],
+   [
+    "ch3/13_fa03.json",
+    11
+   ],
+   [
+    "ch3/13_fa03.json",
+    13
+   ],
+   [
+    "ch3/13_fa03.json",
+    14
+   ],
+   [
+    "ch3/13_fa03.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/13_fa03.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/13_fa03.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/13_fa03.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/14_fa04.json",
+  "draft": "v9/drafts/ch3/14_fa04.json",
+  "sources": [
+   [
+    "ch3/14_fa04.json",
+    2
+   ],
+   [
+    "ch3/14_fa04.json",
+    9
+   ],
+   [
+    "ch3/14_fa04.json",
+    11
+   ],
+   [
+    "ch3/14_fa04.json",
+    12
+   ],
+   [
+    "ch3/14_fa04.json",
+    13
+   ],
+   [
+    "ch3/14_fa04.json",
+    15
+   ],
+   [
+    "ch3/14_fa04.json",
+    16
+   ],
+   [
+    "ch3/14_fa04.json",
+    17
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/14_fa04.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/14_fa04.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/14_fa04.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced. Its one non-versioning fact, that the Middle East sits in the acceleration group, is restated in The opportunity with its source (Market Assessment Report, May 2026, p22).",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/15_fa05.json",
+  "draft": "v9/drafts/ch3/15_fa05.json",
+  "sources": [
+   [
+    "ch3/15_fa05.json",
+    7
+   ],
+   [
+    "ch3/15_fa05.json",
+    9
+   ],
+   [
+    "ch3/15_fa05.json",
+    10
+   ],
+   [
+    "ch3/15_fa05.json",
+    11
+   ],
+   [
+    "ch3/15_fa05.json",
+    13
+   ],
+   [
+    "ch3/15_fa05.json",
+    14
+   ],
+   [
+    "ch3/15_fa05.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/15_fa05.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/15_fa05.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/15_fa05.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/16_fa06.json",
+  "draft": "v9/drafts/ch3/16_fa06.json",
+  "sources": [
+   [
+    "ch3/16_fa06.json",
+    7
+   ],
+   [
+    "ch3/16_fa06.json",
+    9
+   ],
+   [
+    "ch3/16_fa06.json",
+    10
+   ],
+   [
+    "ch3/16_fa06.json",
+    11
+   ],
+   [
+    "ch3/16_fa06.json",
+    13
+   ],
+   [
+    "ch3/16_fa06.json",
+    14
+   ],
+   [
+    "ch3/16_fa06.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/16_fa06.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/16_fa06.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/16_fa06.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request (only the current hypothesis tree is referenced)",
+    "reason": "The v8 \"Hypothesis and disposition\" part records the December 2025 wording and the October 2026 disposition; the client asked that only the current tree be referenced.",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/20_pillar2.json",
+  "draft": "v9/drafts/ch3/20_pillar2.json",
+  "sources": [
+   [
+    "ch3/20_pillar2.json",
+    4
+   ],
+   [
+    "ch3/20_pillar2.json",
+    6
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/20_pillar2.json",
+     3
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "states the pillar objective as the December tree worded it; the objective is restated in the new opening without the earlier tree",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/20_pillar2.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "describes the structural changes between the December tree and the October review; the current structure is set out in the new opening",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/20_pillar2.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "counts dispositions as recorded at the October review; its open item on the deck page reference belongs to that record",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/21_fa07.json",
+  "draft": "v9/drafts/ch3/21_fa07.json",
+  "sources": [
+   [
+    "ch3/21_fa07.json",
+    2
+   ],
+   [
+    "ch3/21_fa07.json",
+    9
+   ],
+   [
+    "ch3/21_fa07.json",
+    11
+   ],
+   [
+    "ch3/21_fa07.json",
+    12
+   ],
+   [
+    "ch3/21_fa07.json",
+    13
+   ],
+   [
+    "ch3/21_fa07.json",
+    15
+   ],
+   [
+    "ch3/21_fa07.json",
+    16
+   ],
+   [
+    "ch3/21_fa07.json",
+    17
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/21_fa07.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/21_fa07.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/21_fa07.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/22_fa08.json",
+  "draft": "v9/drafts/ch3/22_fa08.json",
+  "sources": [
+   [
+    "ch3/22_fa08.json",
+    7
+   ],
+   [
+    "ch3/22_fa08.json",
+    9
+   ],
+   [
+    "ch3/22_fa08.json",
+    10
+   ],
+   [
+    "ch3/22_fa08.json",
+    11
+   ],
+   [
+    "ch3/22_fa08.json",
+    13
+   ],
+   [
+    "ch3/22_fa08.json",
+    14
+   ],
+   [
+    "ch3/22_fa08.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/22_fa08.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/22_fa08.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/22_fa08.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/23_fa09.json",
+  "draft": "v9/drafts/ch3/23_fa09.json",
+  "sources": [
+   [
+    "ch3/23_fa09.json",
+    6
+   ],
+   [
+    "ch3/23_fa09.json",
+    7
+   ],
+   [
+    "ch3/23_fa09.json",
+    9
+   ],
+   [
+    "ch3/23_fa09.json",
+    10
+   ],
+   [
+    "ch3/23_fa09.json",
+    11
+   ],
+   [
+    "ch3/23_fa09.json",
+    13
+   ],
+   [
+    "ch3/23_fa09.json",
+    14
+   ],
+   [
+    "ch3/23_fa09.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/23_fa09.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/23_fa09.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/24_fa10.json",
+  "draft": "v9/drafts/ch3/24_fa10.json",
+  "sources": [
+   [
+    "ch3/24_fa10.json",
+    2
+   ],
+   [
+    "ch3/24_fa10.json",
+    9
+   ],
+   [
+    "ch3/24_fa10.json",
+    11
+   ],
+   [
+    "ch3/24_fa10.json",
+    12
+   ],
+   [
+    "ch3/24_fa10.json",
+    13
+   ],
+   [
+    "ch3/24_fa10.json",
+    15
+   ],
+   [
+    "ch3/24_fa10.json",
+    16
+   ],
+   [
+    "ch3/24_fa10.json",
+    17
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/24_fa10.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/24_fa10.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/24_fa10.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/25_fa11.json",
+  "draft": "v9/drafts/ch3/25_fa11.json",
+  "sources": [
+   [
+    "ch3/25_fa11.json",
+    7
+   ],
+   [
+    "ch3/25_fa11.json",
+    9
+   ],
+   [
+    "ch3/25_fa11.json",
+    10
+   ],
+   [
+    "ch3/25_fa11.json",
+    11
+   ],
+   [
+    "ch3/25_fa11.json",
+    13
+   ],
+   [
+    "ch3/25_fa11.json",
+    14
+   ],
+   [
+    "ch3/25_fa11.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/25_fa11.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/25_fa11.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/25_fa11.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/26_fa12.json",
+  "draft": "v9/drafts/ch3/26_fa12.json",
+  "sources": [
+   [
+    "ch3/26_fa12.json",
+    7
+   ],
+   [
+    "ch3/26_fa12.json",
+    9
+   ],
+   [
+    "ch3/26_fa12.json",
+    10
+   ],
+   [
+    "ch3/26_fa12.json",
+    11
+   ],
+   [
+    "ch3/26_fa12.json",
+    13
+   ],
+   [
+    "ch3/26_fa12.json",
+    14
+   ],
+   [
+    "ch3/26_fa12.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/26_fa12.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/26_fa12.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/26_fa12.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/30_pillar3.json",
+  "draft": "v9/drafts/ch3/30_pillar3.json",
+  "sources": [
+   [
+    "ch3/30_pillar3.json",
+    4
+   ],
+   [
+    "ch3/30_pillar3.json",
+    6
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/30_pillar3.json",
+     3
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "introduces the pillar objective as the December 2025 tree gave it; the objective is restated for the pillar as it stands, without the earlier tree",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/30_pillar3.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "describes how the pillar changed between December and October; the current themes and focus areas are set out in the new opening",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/30_pillar3.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "counts the pillar's focus areas by disposition as recorded at the 14 October 2026 review; its open item on the deck page reference belongs to that record",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/31_fa13.json",
+  "draft": "v9/drafts/ch3/31_fa13.json",
+  "sources": [
+   [
+    "ch3/31_fa13.json",
+    2
+   ],
+   [
+    "ch3/31_fa13.json",
+    9
+   ],
+   [
+    "ch3/31_fa13.json",
+    11
+   ],
+   [
+    "ch3/31_fa13.json",
+    12
+   ],
+   [
+    "ch3/31_fa13.json",
+    13
+   ],
+   [
+    "ch3/31_fa13.json",
+    14
+   ],
+   [
+    "ch3/31_fa13.json",
+    16
+   ],
+   [
+    "ch3/31_fa13.json",
+    17
+   ],
+   [
+    "ch3/31_fa13.json",
+    18
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/31_fa13.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/31_fa13.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/31_fa13.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/32_fa14.json",
+  "draft": "v9/drafts/ch3/32_fa14.json",
+  "sources": [
+   [
+    "ch3/32_fa14.json",
+    7
+   ],
+   [
+    "ch3/32_fa14.json",
+    9
+   ],
+   [
+    "ch3/32_fa14.json",
+    10
+   ],
+   [
+    "ch3/32_fa14.json",
+    11
+   ],
+   [
+    "ch3/32_fa14.json",
+    13
+   ],
+   [
+    "ch3/32_fa14.json",
+    14
+   ],
+   [
+    "ch3/32_fa14.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/32_fa14.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/32_fa14.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/32_fa14.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/33_fa15.json",
+  "draft": "v9/drafts/ch3/33_fa15.json",
+  "sources": [
+   [
+    "ch3/33_fa15.json",
+    7
+   ],
+   [
+    "ch3/33_fa15.json",
+    9
+   ],
+   [
+    "ch3/33_fa15.json",
+    10
+   ],
+   [
+    "ch3/33_fa15.json",
+    11
+   ],
+   [
+    "ch3/33_fa15.json",
+    13
+   ],
+   [
+    "ch3/33_fa15.json",
+    14
+   ],
+   [
+    "ch3/33_fa15.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/33_fa15.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/33_fa15.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/33_fa15.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/34_fa16.json",
+  "draft": "v9/drafts/ch3/34_fa16.json",
+  "sources": [
+   [
+    "ch3/34_fa16.json",
+    2
+   ],
+   [
+    "ch3/34_fa16.json",
+    9
+   ],
+   [
+    "ch3/34_fa16.json",
+    11
+   ],
+   [
+    "ch3/34_fa16.json",
+    12
+   ],
+   [
+    "ch3/34_fa16.json",
+    13
+   ],
+   [
+    "ch3/34_fa16.json",
+    15
+   ],
+   [
+    "ch3/34_fa16.json",
+    16
+   ],
+   [
+    "ch3/34_fa16.json",
+    17
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/34_fa16.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/34_fa16.json",
+     7
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/34_fa16.json",
+     8
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/35_fa17.json",
+  "draft": "v9/drafts/ch3/35_fa17.json",
+  "sources": [
+   [
+    "ch3/35_fa17.json",
+    7
+   ],
+   [
+    "ch3/35_fa17.json",
+    9
+   ],
+   [
+    "ch3/35_fa17.json",
+    10
+   ],
+   [
+    "ch3/35_fa17.json",
+    11
+   ],
+   [
+    "ch3/35_fa17.json",
+    13
+   ],
+   [
+    "ch3/35_fa17.json",
+    14
+   ],
+   [
+    "ch3/35_fa17.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/35_fa17.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/35_fa17.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/35_fa17.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its substantive caveat (the organisation count is reconstructed from the appendix tables, not printed) is reused in \"What the evidence shows\"",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/36_fa18.json",
+  "draft": "v9/drafts/ch3/36_fa18.json",
+  "sources": [
+   [
+    "ch3/36_fa18.json",
+    7
+   ],
+   [
+    "ch3/36_fa18.json",
+    9
+   ],
+   [
+    "ch3/36_fa18.json",
+    10
+   ],
+   [
+    "ch3/36_fa18.json",
+    11
+   ],
+   [
+    "ch3/36_fa18.json",
+    13
+   ],
+   [
+    "ch3/36_fa18.json",
+    14
+   ],
+   [
+    "ch3/36_fa18.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/36_fa18.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/36_fa18.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/36_fa18.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its open item on a protocol or policy revision in progress is kept word for word in \"What the evidence shows\"",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/37_fa19.json",
+  "draft": "v9/drafts/ch3/37_fa19.json",
+  "sources": [
+   [
+    "ch3/37_fa19.json",
+    7
+   ],
+   [
+    "ch3/37_fa19.json",
+    9
+   ],
+   [
+    "ch3/37_fa19.json",
+    10
+   ],
+   [
+    "ch3/37_fa19.json",
+    11
+   ],
+   [
+    "ch3/37_fa19.json",
+    13
+   ],
+   [
+    "ch3/37_fa19.json",
+    14
+   ],
+   [
+    "ch3/37_fa19.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/37_fa19.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/37_fa19.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/37_fa19.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its one substantive fact (safety programmes are a provincial function and basic services a local one, Diagnostic p58) is reused in \"The challenge\"; its open item concerns only the stated reason for the move and is retired with it",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch3/38_fa20.json",
+  "draft": "v9/drafts/ch3/38_fa20.json",
+  "sources": [
+   [
+    "ch3/38_fa20.json",
+    7
+   ],
+   [
+    "ch3/38_fa20.json",
+    9
+   ],
+   [
+    "ch3/38_fa20.json",
+    10
+   ],
+   [
+    "ch3/38_fa20.json",
+    11
+   ],
+   [
+    "ch3/38_fa20.json",
+    13
+   ],
+   [
+    "ch3/38_fa20.json",
+    14
+   ],
+   [
+    "ch3/38_fa20.json",
+    15
+   ]
+  ],
+  "relocations": [
+   {
+    "src": [
+     "ch3/38_fa20.json",
+     4
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/38_fa20.json",
+     5
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove",
+    "retired": true
+   },
+   {
+    "src": [
+     "ch3/38_fa20.json",
+     6
+    ],
+    "to": "retired: versioning removed at the client's request",
+    "reason": "v8 \"Hypothesis and disposition\" part: the earlier tree entry and the October disposition, which the client asked to remove; its substantive fact (the 300,000-jobs ambition has no labour analysis behind it, Inception Report p4) is reused in \"The challenge\"",
+    "retired": true
+   }
+  ]
+ },
+ {
+  "kind": "module rewritten",
+  "file": "ch2/01_benchmarks.json",
+  "draft": "v9/drafts/ch2_1.json",
+  "sources": [
+   [
+    "ch2/01_benchmarks.json",
+    0
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    1
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    2
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    3
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    4
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    5
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    6
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    7
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    8
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    9
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    10
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    11
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    12
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    13
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    14
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    15
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    16
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    17
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    18
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    19
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    20
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    21
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    22
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    23
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    24
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    25
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    26
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    27
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    28
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    29
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    30
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    31
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    32
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    33
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    34
+   ],
+   [
+    "ch2/01_benchmarks.json",
+    35
+   ]
+  ],
+  "relocations": []
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 7,
+  "reason": "the open item on the five constraints moves here from section 1.5, where it no longer sits beside the list it checks",
+  "detail": {
+   "find": "Five constraints cap the case, and none of them is a lack of interest in the province.",
+   "repl": "Five constraints cap the case, and none of them is a lack of interest in the province. [Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.]"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "exec/01_summary.json",
+  "index": 30,
+  "reason": "the pillar tables lose their Disposition column (dropped by apply_v9.py)",
+  "detail": {
+   "find": "Each table gives a focus area's disposition, its Chapter 3 finding word for word and its initiative.",
+   "repl": "Each table gives a focus area's Chapter 3 finding word for word and its initiative."
+  }
+ },
+ {
+  "kind": "sweep replace",
+  "file": "exec/01_summary.json",
+  "index": 28,
+  "reason": "introduces the tree as it stands instead of the test of the December 2025 tree and the disposition count; the strength of evidence follows Appendix A1",
+  "before": "The twenty focus areas come from testing the December 2025 hypothesis tree against the evidence. Ten carried through as Validated and none was withdrawn (section 1.4).     ",
+  "after": "The strategy rests on a hypothesis tree of three pillars, six themes and twenty focus areas (section 1.4). Each focus area names a lever on growth, framed so the evidence could test it. Nineteen were tested against the evidence of a named workstream. The evidence supports all nineteen, nine strongly and ten with a gap or a qualifier (Appendix A1). The twentieth, workforce and service skills, waits on a labour analysis still to be commissioned.     "
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 8,
+  "reason": "the date the reframing was tabled at the 14 October 2026 review is versioning; the open item goes with it",
+  "detail": {
+   "find": " The reframing was tabled with Wesgro on 14 October 2026 [Summary of Findings, 14 Oct 2026, page to be confirmed against the final deck].",
+   "repl": ""
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/01_mandate.json",
+  "index": 10,
+  "reason": "removes \"flagged\" as a label",
+  "detail": {
+   "find": "(focus area 20, flagged as untested)",
+   "repl": "(focus area 20)"
+  }
+ },
+ {
+  "kind": "sweep replace",
+  "file": "ch1/01_mandate.json",
+  "index": 4,
+  "reason": "says where the growth markets in Wesgro's fourth strategy statement sit in the strategy, now that section 1.5 no longer explains it",
+  "before": "Four of Wesgro's eight strategy statements bear directly on this study (Inception Report, Nov 2025, p5). The first sets the destination proposition: Cape Town and the Western Cape \"top of mind as a leading business and tourism destination with premium products and services\". The fourth names new markets and buyers in China, ASEAN, India, Brazil and the Middle East, \"while maintaining a continued focus on established markets\". The sixth commits Wesgro to \"Track and address systemic challenges influencing economic competitiveness\", and the seventh to \"Provide economic data, insights & analytics for the Western Cape\".     ",
+  "after": "Four of Wesgro's eight strategy statements bear directly on this study (Inception Report, Nov 2025, p5). The first sets the destination proposition: Cape Town and the Western Cape \"top of mind as a leading business and tourism destination with premium products and services\". The fourth names new markets and buyers in China, ASEAN, India, Brazil and the Middle East, \"while maintaining a continued focus on established markets\". The sixth commits Wesgro to \"Track and address systemic challenges influencing economic competitiveness\", and the seventh to \"Provide economic data, insights & analytics for the Western Cape\". The strategy's growth-market work, focus area 4, centres on two of them: India and China, whose travellers already reach Cape Town through Gulf and African hubs (Demand-Side Analysis, Jun 2026, p46, p48). The growth model's acceleration group holds the Gulf, China, India and Brazil (Market Assessment Report, May 2026, p20).     "
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/02_system_today.json",
+  "index": 27,
+  "reason": "rephrased so a runway date range does not read as a reference to the December tree; dates and meaning unchanged",
+  "detail": {
+   "find": "ACSA's latest schedule shows the realigned runway from December 2026 to December 2029, subject to contract award",
+   "repl": "ACSA's latest schedule sets December 2026 to December 2029 for the realigned runway, subject to contract award"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/02_system_today.json",
+  "index": 27,
+  "reason": "short-form citation written in full in a block this sweep touches",
+  "detail": {
+   "find": "(p104, p105; George Herald, Jul 2026)",
+   "repl": "(Infrastructure Report, Jul 2026, p104, p105; George Herald, Jul 2026)"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/02_system_today.json",
+  "index": 27,
+  "reason": "short-form citation written in full in a block this sweep touches",
+  "detail": {
+   "find": "(p106, p107)",
+   "repl": "(Infrastructure Report, Jul 2026, p106, p107)"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/03_recovery_to_growth.json",
+  "index": 3,
+  "reason": "the December 2025 start and the earlier tree slide's framing (p62) are versioning",
+  "detail": {
+   "find": "The study set out in December 2025 to move the destination from recovery to growth; the hypothesis tree's own framing reads that \"the Western Cape must transition from recovery to growth\" (Global Benchmarking Report, Mar 2026, p62). The first half of that task is done.",
+   "repl": "The strategy's task is to move the Western Cape from recovery to growth. The first half is done."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/04_approach.json",
+  "index": 17,
+  "reason": "keeps the source convention without reading as a reference to the October review",
+  "detail": {
+   "find": "The 14 October 2026 summary deck ranks below the deliverables",
+   "repl": "The summary deck of October 2026 ranks below the deliverables"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/04_approach.json",
+  "index": 22,
+  "reason": "the insights were coded to an earlier tree's categories, not to the current entries",
+  "detail": {
+   "find": "each mapped to a tree entry and then aggregated",
+   "repl": "each coded to a pillar and a category of the tree and then aggregated"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/04_approach.json",
+  "index": 22,
+  "reason": "short-form citation written in full in a block this sweep touches",
+  "detail": {
+   "find": "(p5, p20 to p46)",
+   "repl": "(Stakeholder Insights Report, Mar 2026, p5, p20 to p46)"
+  }
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/04_approach.json",
+  "index": 13,
+  "reason": "the table of December entries and October changes is versioning",
+  "before": "  December entries and October changes Eight December entries changed scope, place or form by October 2026, one focus area was added and ten carried through as Validated. Current State Diagnostic, Dec 2025, p64 for the December entries; dispositions as recorded at the 14 October 2026 review (Summary of Findings, 14 Oct 2026, pp15 to 16) [deck page reference to be confirmed].  Close the Air Access and Cruise Capacity Gaps Win direct routes and add seats on full routes; Grow cruise calls and ports Split; air Reworded, cruise New MIDAS route loads and fares-before-seats finding; Infrastructure Report cruise and ports section Lead Removal of Infrastructure, Visa and Safety Deficits Same title, under Governance and leadership Moved from theme 2.1 to 3.2 Stakeholder Insights, Demand-Side barriers and MIDAS place visas and air rights with national government No December entry Develop workforce and service skills New; Flagged, untested No workstream; the 300,000-jobs ambition has no labour analysis behind it Develop the Seasonality and Spread Proposition Create green-season demand with MICE and events Reworded MIDAS seasonality; Demand-Side MICE landscape Facilitate Adoption Along the Path to Purchase Make the whole province findable and bookable Reworded Inclusion Plan, Stakeholder Insights and Infrastructure Report on product that cannot be found or booked Pivot to Growth Markets (China, India, ME, ASEAN) Convert India and China hub traffic Reworded Demand-Side route to market and MIDAS hub volumes Ensure Sustainable Destination Management Manage climate risk and sustainable tourism Reworded Stakeholder Insights on LTO funding and climate losses; Inclusion Plan De Rust profile Review Institutional Arrangements (Wesgro, DEDAT, CTT) Align institutional stakeholders across all three tiers Reworded Stakeholder Insights on fragmented mandates; Diagnostic governance tiers Drive Community and SME Inclusion Embed local destination bodies for community inclusion Refined SME and Community Inclusion Plan",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/04_approach.json",
+  "index": 12,
+  "reason": "the counts of reworded, refined and Validated entries are versioning; the open item on slide 14 (the deck's change count and label definitions) goes with it",
+  "before": "Six further entries were reworded to the lever the evidence supports and one was refined; the table below lists each change and the workstream behind it. Ten entries carried through as Validated with title-only edits. Chapter 3 records every disposition and section 1.5 defines the labels [Summary of Findings, 14 Oct 2026, slide 14: the deck's own change count and label definitions to confirm].     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/04_approach.json",
+  "index": 11,
+  "reason": "how entries split, moved and were added between December and October is versioning; its substance (cruise apart from air, levers held nationally, no labour analysis) now sits in the rewritten paragraphs",
+  "before": "The entries moved in three ways; first, the air access and cruise entry split in two, because the aviation assessment and the Infrastructure Report showed them to be different problems. Second, the infrastructure, visa and safety entry moved from the supply pillar to governance, because its levers sit with national government. Third, a workforce and service skills entry was added and flagged, because the 300,000-jobs ambition has no labour analysis behind it (Inception Report, Nov 2025, p4).     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/04_approach.json",
+  "index": 10,
+  "reason": "the 14 October 2026 review and the move from eighteen entries to twenty are versioning; its open item on pp15 to 16 now sits in the rewritten paragraph on the tree",
+  "before": "The 14 October 2026 review updated the tree to twenty focus areas and gave each a disposition [Summary of Findings, 14 Oct 2026, pp15 to 16: deck not in hand; page citation to confirm]. The three pillars and six themes stand. The Infrastructure Report of 22 September still carried the eighteen-entry tree, so the move to twenty belongs to the final review rather than to any one workstream (Infrastructure Report, Jul 2026, p2).     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep replace",
+  "file": "ch1/04_approach.json",
+  "index": 9,
+  "reason": "replaces the wording changes between December 2025 and March 2026 (versioning) with which workstream tested which focus areas, from the Appendix A1 traceability table",
+  "before": "Three entries changed wording between December 2025 and March 2026 (Stakeholder Insights Report, Mar 2026, p7). The seasonality entry gained mega events; the institutional entry widened from Wesgro, DEDAT and CTT to local, provincial and national; the collaboration entry added public and private. No document in hand dates the change more closely than the 23 January working session and the 6 February Steerco (Inception Report, Nov 2025, p13).     ",
+  "after": "The workstreams divide the tree between them. The demand and aviation work tested five of the six demand focus areas and the case for routes and seats. The infrastructure work tested cruise, mobility, product, visitor experience and capital. The inclusion work tested community inclusion and, with the stakeholder and infrastructure work, bookability. The stakeholder engagement supplied most of the evidence on climate risk, the flagship nature sites and the governance theme. The twentieth focus area, workforce and service skills, has no workstream yet. The 300,000-jobs ambition has no labour analysis behind it (Inception Report, Nov 2025, p4). Section 1.1 asks Wesgro and DEDAT to commission one in 2027.     "
+ },
+ {
+  "kind": "sweep replace",
+  "file": "ch1/04_approach.json",
+  "index": 8,
+  "reason": "the deliverables reprinted an earlier tree, not the twenty focus areas; \"validate an entry\" echoes a disposition label; the deliverable is no longer named in the text",
+  "before": "The tree disciplined the evidence. The Stakeholder Insights Report mapped all 223 of its insight statements to tree entries before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). Because the study team mapped the insights to tree entries, the counts show where views cluster; they do not on their own validate an entry. The later deliverables reprinted the tree as a recap and marked the branch they addressed.     ",
+  "after": "The tree disciplined the evidence. The stakeholder work coded each of its 223 insight statements to a pillar and a category of the tree before aggregating them (Stakeholder Insights Report, Mar 2026, p5, p20 to p46). Because the study team did the coding, the counts show where views cluster; they do not on their own confirm a focus area. Each later deliverable marked the branch of the tree it addressed.     "
+ },
+ {
+  "kind": "sweep replace",
+  "file": "ch1/04_approach.json",
+  "index": 7,
+  "reason": "the method rewritten around the current tree; the December 2025 printing (eighteen entries, p64) is versioning; the open item on the deck that sets the twenty focus areas stays",
+  "before": "The analytical core is a hypothesis tree agreed in December 2025 and tested by every workstream since. The Current State Diagnostic printed it with three pillars, six themes and eighteen entries (Current State Diagnostic, Dec 2025, p64). The pillars are Reshape Demand, Transform Supply and Build Enabling Capability, each carrying two themes.     ",
+  "after": "The analytical core is a hypothesis tree, in which each entry names a lever on growth and is framed so the evidence could test it. Three pillars carry the tree: Reshape demand, Transform supply and Build enabling capability. Each pillar holds two themes, and the six themes hold twenty focus areas [Summary of Findings, 14 Oct 2026, pp15 to 16: deck not in hand; page citation to confirm]. Nineteen of the twenty were tested against the evidence of a named workstream, and Appendix A1 traces each to the evidence behind it.     "
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/05_how_to_read.json",
+  "index": 5,
+  "reason": "the chapter map describes Chapter 3 entries as they now run",
+  "detail": {
+   "find": "in turn: the December hypothesis, its disposition, the evidence, what Wesgro does, what it asks of partners and what it escalates nationally.",
+   "repl": "in turn. Each entry sets out the challenge or opportunity, the evidence, the course of action, why it can work and the link to the plan."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch1/05_how_to_read.json",
+  "index": 20,
+  "reason": "the open item on the deck pages that print the tree moves here from the retired list, beside the names it sources",
+  "detail": {
+   "find": "above the focus area name as it reads on the tree; each entry closes",
+   "repl": "above the focus area name as it reads on the tree [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]; each entry closes"
+  }
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 22,
+  "reason": "the two open items move: the five-constraints check to the executive summary paragraph on the five constraints, the deck page reference to the paragraph on codes",
+  "before": "      [Summary of Findings, 14 Oct 2026, slides 3 and 4: align these five constraints with the deck's own list once the deck is in hand.] [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed]",
+  "after": ""
+ },
+ {
+  "kind": "sweep replace",
+  "file": "ch1/05_how_to_read.json",
+  "index": 21,
+  "reason": "Appendix A1 no longer records dispositions or December entries; keeps the evidence-strength points from the retired paragraph, with the counts as Appendix A1 rates them",
+  "before": "Appendix A1 holds the traceability table. For each focus area it records the pillar, theme, disposition and one-line reason, the December entry it descends from, the workstream behind the disposition and its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure.     ",
+  "after": "Appendix A1 holds the evidence behind the tree. For each focus area it records the workstream and Chapter 2 sections behind it, rates the strength of the evidence and gives its initiative and indicator codes. Any Chapter 3 claim can be followed back to a page and forward to an owner and a measure. Nine focus areas rest on strong evidence and ten on adequate evidence. Two of the ten rest on indirect evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables. Focus area 20 waits on a labour analysis still to be commissioned.     "
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 11,
+  "reason": "the Moved label and the deck check on labels are versioning; the open item on the label for the moved entry and on Withdrawn goes with it",
+  "before": "The counts sum to twenty. Lead removal of infrastructure, visa and safety deficits carries Moved: it keeps its December wording but moves from supply theme 2.1 to governance theme 3.2, because its levers sit nationally. [Summary of Findings deck, 14 Oct 2026, to confirm the label for the moved entry and that nothing was Withdrawn]     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 10,
+  "reason": "what the evidence did to the December case is versioning; the evidence-strength points on focus areas 5, 15 and 20 move to the Appendix A1 paragraph below, and the India and China focus to section 1.1",
+  "before": "**What the evidence argued against.** No entry was withdrawn, but the evidence narrowed or overturned three parts of the December case. First, the pivot to four growth markets narrowed to converting India and China traffic already flying through hubs; the Middle East and ASEAN cases did not survive (focus area 4). Second, the ambition to double arrivals did not survive: the growth model supports 2.2 million to 2.5 million by 2035 (section 1.1). Third, the 300,000 tourism-linked jobs ambition has no baseline behind it and is flagged untested (focus area 20). Two Validated entries also rest on less than direct evidence: focus area 5 has no fare or yield data, and focus area 15 is an inference from the pipeline tables (section 3.3).     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 9,
+  "reason": "the account of the seven disposition labels is versioning; its open item on pp15 to 16 now sits in the paragraph on codes",
+  "before": "Seven labels record what the evidence did to each December hypothesis, and ten of the twenty focus areas carry Validated: the evidence confirmed the hypothesis as written. One is Refined, where the evidence confirmed the hypothesis and sharpened its content. Six are Reworded: the evidence confirmed the hypothesis and the entry was renamed to what the evidence showed. One is New, added in October 2026 with no December entry behind it. One is Moved: confirmed, but placed in another theme because its levers sit with another tier. One is Flagged: untested, and carried as a question for analysis still to be commissioned. None is Withdrawn, the label for an entry dropped because the evidence did not support it. The labels are as recorded at the 14 October 2026 review [Summary of Findings, 14 Oct 2026, pp15 to 16: deck page reference to be confirmed against the final deck], and the counts come from the traceability table in Appendix A1.     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 8,
+  "reason": "the December tree and the October review are versioning",
+  "before": "Each Chapter 3 entry records what the study believed in December 2025 and what the evidence did to that belief. The December tree held eighteen entries under three pillars and six themes (Current State Diagnostic, Dec 2025, p64); the tree settled at the 14 October 2026 review keeps the pillars and themes and holds twenty focus areas.     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep delete",
+  "file": "ch1/05_how_to_read.json",
+  "index": 7,
+  "reason": "the Disposition labels subsection goes",
+  "before": "Disposition labels     ",
+  "after": ""
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/02_demand.json",
+  "index": 36,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Validates FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/02_demand.json",
+  "index": 36,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Supports FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/02_demand.json",
+  "index": 36,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Rewords FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 27,
+  "reason": "rephrased so the summer peak does not read as a reference to the December tree; quotation unchanged",
+  "detail": {
+   "find": "and the December to January peak \"overwhelms",
+   "repl": "and the peak over December and January \"overwhelms"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Rewords FA07, Win direct routes and add seats on full routes, and supplies its binding constraint.** Eleven routes run above 80% and fares are likely to rise before seats. The runway binds until about 2033,",
+   "repl": "**FA07, Win direct routes and add seats on full routes.** Eleven routes run above 80% and fares are likely to rise before seats. The runway is the binding constraint until about 2033,"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Adds FA08",
+   "repl": "**FA08"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Supports FA02, rewords FA04 and validates FA05 and FA06 from the air side.**",
+   "repl": "**FA02, FA04, FA05 and FA06, from the air side.**"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Validates FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/03_supply.json",
+  "index": 44,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Supports FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "ch2/04_enabling.json",
+  "index": 13,
+  "reason": "the bars were an earlier tree's eighteen entries; each coded category is now labelled with the current focus area it bears on, values and order unchanged",
+  "detail": {
+   "fields": {
+    "caption": "Focus areas stakeholders raised",
+    "chart": {
+     "type": "hbar",
+     "categories": [
+      "Collaboration (17)",
+      "Policy and data sharing (18)",
+      "Route and product (10)",
+      "Findable and bookable (3)",
+      "Growth segments (1)",
+      "Infrastructure, visa and safety (19)",
+      "Green season and events (2)",
+      "Community inclusion (13)",
+      "Growth markets (4)",
+      "Internal mobility (9)",
+      "Visitor experience (11)",
+      "Capital (15)",
+      "Institutional alignment (16)",
+      "Mature-market yield (5)",
+      "Climate and sustainability (14)",
+      "Regional Africa (6)",
+      "Routes, seats and cruise (7, 8)",
+      "Nature-based attractions (12)"
+     ],
+     "values": [
+      15,
+      15,
+      11,
+      11,
+      10,
+      10,
+      9,
+      9,
+      8,
+      8,
+      8,
+      6,
+      5,
+      4,
+      4,
+      3,
+      3,
+      3
+     ],
+     "unit": "",
+     "highlight": [
+      0,
+      1
+     ],
+     "callout": {
+      "text": "Industry-government collaboration and data sharing each drew 15 of the 16 organisations.",
+      "x": 1100,
+      "y": 360,
+      "w": 460
+     }
+    },
+    "source": "Stakeholder Insights Report, Mar 2026, p20 to p46: number of the 16 organisations with at least one insight in each category the appendix tables code, shown against the focus area it bears on (computed). Routes and cruise are coded as one category, and none covers skills. The report prints no tally."
+   }
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 14,
+  "reason": "the tally runs by coded category; the tree has six themes",
+  "detail": {
+   "find": "the most of any theme",
+   "repl": "the most of any category"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Rewords FA14, Manage climate risk and sustainable tourism, and supports FA15",
+   "repl": "**FA14, Manage climate risk and sustainable tourism, and FA15"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "\"now under governance\" describes a move in the tree; the levers that sit nationally are visas and air rights (Appendix A1)",
+  "detail": {
+   "find": ", now under governance because its levers sit nationally",
+   "repl": ", a governance task because visas and air rights sit nationally"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "removes \"flags\" as a label; says plainly what FA20 waits on",
+  "detail": {
+   "find": "**Flags FA20, Develop workforce and service skills, as untested.**",
+   "repl": "**FA20, Develop workforce and service skills, waits on analysis still to be commissioned.**"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Refines FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Rewords FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Supports FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "ch2/04_enabling.json",
+  "index": 39,
+  "reason": "box items lead with the focus area; a verb saying what the evidence did to the tree is versioning, and \"Supports\" on every item says nothing",
+  "detail": {
+   "find": "**Validates FA",
+   "repl": "**FA"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported; the segmentation is directional and leaves out the domestic and seven African markets",
+   "repl": "Four segments confirmed against markets of high incidence; the segmentation is directional and leaves out the domestic and seven African markets"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported: 6.4% of 2025 international seat capacity; ICCA meetings 33 to 58 from 2022 to 2024",
+   "repl": "June holds 6.4% of 2025 international seat capacity; ICCA meetings 33 to 58 from 2022 to 2024"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "The 70% is CapeNature's reservation mix only; no count of bookable products exists",
+   "repl": "CapeNature takes about 70% of reservations through its call centre, and community product sells by phone; no count of bookable products exists"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "The sum of two printed estimates, 71,000 and 30,000; the hub tables sum to 97,579",
+   "repl": "About 101,000 journeys a year via hubs, the sum of two printed estimates, 71,000 and 30,000; the hub tables sum to 97,579"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported as spend per visitor; the printed averages do not reproduce from the totals",
+   "repl": "Nigeria R31,000 and Ghana R27,700 a visit, read as spend per visitor; the printed averages do not reproduce from the totals"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "MIDAS prints eleven routes above 80%; sixteen run at 75% or more",
+   "repl": "Eleven of 27 routes run above 80% load and sixteen at 75% or more; carriers are expected to raise fares before adding seats"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "79 vessels (Diagnostic) against 83 calls (Infrastructure Report); the 250 plan is in no deliverable",
+   "repl": "79 vessels (Diagnostic) against 83 calls (Infrastructure Report) in 2024/25; a plan to 250 calls appears in no deliverable"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported on the attractions and services basis; the transport basis gives 5.0 to 1.0",
+   "repl": "Accessibility falls from 4.7 to 1.0 on the attractions and services basis; the transport basis gives 5.0 to 1.0"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Cold zones is the Infrastructure Report's own term; no count of idle assets",
+   "repl": "Cold zones, the Infrastructure Report's term for areas with tourism assets but little or no tourism use; no count of idle assets"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Stated in words; no room or bed count",
+   "repl": "A mid-scale gap, stated in words; no room or bed count"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported; one page prints 18 shortlisted; the spend-tracing method is not described",
+   "repl": "Seller with a stake, 20 communities and R259m a year at 1% of FY2025 foreign direct spend; one page prints 18 shortlisted, and the spend-tracing method is not described"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported by two organisations' statements and the Inclusion Plan's De Rust profile",
+   "repl": "LTO funding disrupted and Meiringspoort closed, from two organisations' statements and the Inclusion Plan's De Rust profile"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Supported by the Diagnostic's tier table; no decision-rights map exists",
+   "repl": "Air rights and visas sit nationally, as the Diagnostic's tier table shows; no decision-rights map exists"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "A reconstructed count of organisations, not insight rows",
+   "repl": "Raised by 15 of 16 organisations, a reconstructed count of organisations, not insight rows"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Holds for visas and air rights; safety programmes are provincial and basic services local",
+   "repl": "Levers sit nationally for visas and air rights; safety programmes are provincial and basic services local"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "cell restated so it reads on its own once the one-line reason column goes; figures from the dropped column kept where they are evidence",
+  "detail": {
+   "find": "Confirmed: no provincial tourism employment baseline in any deliverable",
+   "repl": "No provincial tourism employment baseline in any deliverable; the labour analysis is still to be commissioned"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "focus area name given its comma, as on the tree",
+  "detail": {
+   "find": "19 Lead removal of infrastructure visa and safety deficits",
+   "repl": "19 Lead removal of infrastructure, visa and safety deficits"
+  }
+ },
+ {
+  "kind": "sweep drop_columns",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "dispositions and the reasons as recorded at the 14 October 2026 review are versioning",
+  "detail": {
+   "columns": [
+    "Disposition",
+    "Reason as recorded"
+   ]
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 3,
+  "reason": "caption, message and source restated for the evidence behind the current tree; the open item on deck pp15 to 16 goes with the one-line reasons it sourced",
+  "detail": {
+   "fields": {
+    "caption": "Strength of evidence by focus area",
+    "message": "Nine focus areas rest on strong evidence and ten on adequate evidence; only focus area 20 is thin, and several figures hold only with a qualifier.",
+    "source": "Reading and strength from the evidence notes behind Chapter 3. Strong: the figure and finding are printed in two deliverables or in one with a full table. Adequate: supported, with a figure missing, different or from one source. Thin: side mentions only."
+   }
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 4,
+  "reason": "the December entry column (Current State Diagnostic, Dec 2025, p64) is versioning and the move of focus area 19 with it; each row now names its current focus area in place of the bare number",
+  "detail": {
+   "fields": {
+    "columns": [
+     {
+      "header": "Focus area",
+      "width": 2.2,
+      "align": "left"
+     },
+     {
+      "header": "Workstream",
+      "width": 2.2,
+      "align": "left"
+     },
+     {
+      "header": "Chapter 2",
+      "width": 0.9,
+      "align": "left"
+     },
+     {
+      "header": "Initiative",
+      "width": 0.7,
+      "align": "left"
+     },
+     {
+      "header": "Indicators",
+      "width": 1.4,
+      "align": "left"
+     }
+    ],
+    "rows": [
+     [
+      "1 Respond to growth segment traveller preferences",
+      "Skift segmentation (March 2026), carried into the Market Assessment and Demand-Side Analysis",
+      "2.2",
+      "I1",
+      "T1-01; T1-02; T2-01"
+     ],
+     [
+      "2 Create green-season demand with MICE and events",
+      "MIDAS seasonality (June 6.4% of international seats) and the Demand-Side MICE landscape (ICCA, UIA)",
+      "2.2; 2.1; 2.3",
+      "I2",
+      "T1-05; T2-02; T2-03"
+     ],
+     [
+      "3 Make the whole province findable and bookable",
+      "Inclusion plan (community product sold by phone), Stakeholder Insights (Cape Nature 70% through the call centre), Infrastructure Report (route bookability gaps, no OTA presence in rural stock)",
+      "2.2; 2.1; 2.3; 2.4",
+      "I3",
+      "T2-04; T2-05"
+     ],
+     [
+      "4 Convert India and China hub traffic",
+      "Demand-Side route-to-market (71,000 India and 30,000 China via hubs) and MIDAS (same figures; no direct route before 2030)",
+      "2.2; 2.1; 2.3; 1.2",
+      "I4",
+      "T1-02; T2-06"
+     ],
+     [
+      "5 Increase yield in mature markets",
+      "MIDAS (mature long-haul routes above 80% load; carriers raise fares before adding seats) with the Demand-Side mature-market projection",
+      "2.2; 2.1; 2.3",
+      "I1",
+      "T1-03; T2-07"
+     ],
+     [
+      "6 Build a regional foundation (Africa)",
+      "Demand-Side African opportunity section and Skift African memo; MIDAS regional route loads",
+      "2.2; 2.3; 1.2",
+      "I5",
+      "T1-02; T2-08"
+     ],
+     [
+      "7 Win direct routes and add seats on full routes",
+      "MIDAS Aviation Market Assessment; Infrastructure Report air-access section",
+      "2.3; 2.1",
+      "I6",
+      "T1-01; T2-09; T2-10"
+     ],
+     [
+      "8 Grow cruise calls and ports",
+      "Diagnostic cruise table and Infrastructure Report cruise and ports section; Wesgro cruise reports (not in hand)",
+      "2.3; 1.2",
+      "I7",
+      "T2-11"
+     ],
+     [
+      "9 Accelerate tourism-enabling internal mobility",
+      "Infrastructure Report comparative regional analysis; Stakeholder Insights (Department of Mobility)",
+      "2.3; 1.2",
+      "I8",
+      "T1-06; T2-12; T2-13"
+     ],
+     [
+      "10 Support diversified route and product development",
+      "Infrastructure Report spatial maps and route scorecards; Stakeholder Insights (11 of 16 organisations)",
+      "2.3; 2.4",
+      "I9",
+      "T1-06; T2-14"
+     ],
+     [
+      "11 Align visitor experience in-destination",
+      "Infrastructure Report accommodation mapping; Stakeholder Insights (service quality); Benchmarking (Valencia, Singapore)",
+      "2.3; 2.1",
+      "I10",
+      "T2-15"
+     ],
+     [
+      "12 Balance impact on nature-based attractions",
+      "Stakeholder Insights (Boulders near capacity, Table Mountain queues); Infrastructure Report flagship congestion",
+      "2.3; 2.1; 1.2",
+      "I11",
+      "T2-16"
+     ],
+     [
+      "13 Embed local destination bodies for community inclusion",
+      "SME and Community Inclusion Plan (September 2026), as agreed with Wesgro on 24 September",
+      "2.4; 2.1",
+      "I12",
+      "T1-07; T2-17"
+     ],
+     [
+      "14 Manage climate risk and sustainable tourism",
+      "Stakeholder Insights (MFMA Circular No. 131, LTO sustainability, climate losses); Inclusion plan De Rust profile (Meiringspoort closed 6 May 2026)",
+      "2.4; 2.1; 1.2",
+      "I13",
+      "T2-18; T2-19"
+     ],
+     [
+      "15 Crowd in capital with targeted investment strategies",
+      "Infrastructure Report pipeline and gap-closure tables (gaps with no committed capital); Stakeholder Insights (funding below peers); Benchmarking (Chile concession, New Zealand route fund)",
+      "2.4; 2.1; 2.3",
+      "I14",
+      "T2-20"
+     ],
+     [
+      "16 Align institutional stakeholders across all three tiers",
+      "Stakeholder Insights (bilateral air agreements, fragmented mandates); Diagnostic governance tiers; MIDAS (government-to-government route designation)",
+      "2.4; 2.1; 1.2; 1.1",
+      "I15",
+      "T2-21"
+     ],
+     [
+      "17 Strengthen industry and government collaboration",
+      "Stakeholder Insights tally (Appendix A6)",
+      "2.4; 2.1",
+      "I15",
+      "T2-22"
+     ],
+     [
+      "18 Expedite tourism-enabling policy and data sharing",
+      "Stakeholder Insights (JAMS, statistics committees, Stats SA task team); Skift digital memo (tracking framework)",
+      "2.4; 2.1; 1.2",
+      "I16",
+      "T2-23"
+     ],
+     [
+      "19 Lead removal of infrastructure, visa and safety deficits",
+      "Stakeholder Insights, Demand-Side barriers and MIDAS all place visas and air rights with national government",
+      "2.4; 1.2",
+      "I17",
+      "T2-24"
+     ],
+     [
+      "20 Develop workforce and service skills",
+      "No workstream; prompted by the 300,000-jobs ambition (Inception p4) and skills mentions in the Stakeholder Insights and Inclusion plan",
+      "2.4; 1.1",
+      "I18",
+      "T1-04; T2-25"
+     ]
+    ],
+    "source": "Workstream attribution is this report's, from the deliverables that carry the figures; the Chapter 2 sections give the pages."
+   }
+  }
+ },
+ {
+  "kind": "sweep replace",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 2,
+  "reason": "A1 becomes the evidence behind the current tree; the 14 October 2026 reasons and December entries are versioning; the sentence on shipping traceability.csv goes until a copy without dispositions and December entries exists",
+  "before": "The first table sets each focus area's one-line reason, as recorded at the 14 October 2026 review, against what the deliverables support. It rates the evidence on a four-point scale: strong, adequate, thin or none in hand. The second table traces each focus area back to its December entry and forward to its initiative and indicators. The full traceability file, with page references for every row, ships with this report as traceability.csv.     ",
+  "after": "The first table sets out what the evidence supports for each focus area and rates its strength on a four-point scale: strong, adequate, thin or none in hand. The second table traces each focus area back to its workstream and the Chapter 2 sections that discuss it, and forward to its initiative and indicators.     "
+ },
+ {
+  "kind": "sweep replace",
+  "file": "appendices/01_a1_traceability.json",
+  "index": 1,
+  "reason": "A1 becomes the evidence behind the current tree",
+  "before": "Every disposition traces to a December entry, a workstream and pages in the deliverables, and each one-line reason is set against what those pages print.     ",
+  "after": "Every focus area traces back to the evidence behind it and forward to its initiative and indicators, with a rating for the strength of that evidence.     "
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 2,
+  "reason": "the eighteen elements belong to an earlier tree",
+  "detail": {
+   "find": "span all 18 elements of the hypothesis tree",
+   "repl": "span all three pillars of the hypothesis tree"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 5,
+  "reason": "the insight tables code each row to an earlier tree's category, not to a current theme or focus area",
+  "detail": {
+   "find": "a pillar, a tree element and one impact rating",
+   "repl": "a pillar, a category of the tree and one impact rating"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 5,
+  "reason": "short-form citation written in full in a block this sweep touches",
+  "detail": {
+   "find": "(p5). Every row",
+   "repl": "(Stakeholder Insights Report, Mar 2026, p5). Every row"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 5,
+  "reason": "short-form citation written in full, and the deliverable no longer named in the text, in a block this sweep touches",
+  "detail": {
+   "find": "(p20 to p46). The deck does not define the ratings or record session dates, participants or roles, so",
+   "repl": "(Stakeholder Insights Report, Mar 2026, p20 to p46). The ratings are not defined, and no session dates, participants or roles are recorded, so"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 13,
+  "reason": "the tally is keyed to the current focus areas",
+  "detail": {
+   "find": "Theme tally by tree element",
+   "repl": "Tally by focus area"
+  }
+ },
+ {
+  "kind": "sweep set",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 15,
+  "reason": "rows keyed to the current focus areas, every count unchanged (evidence/extracts/stakeholder.md, Table E); the p7 tree slide and its entry names are versioning",
+  "detail": {
+   "fields": {
+    "caption": "Insights by focus area",
+    "columns": [
+     {
+      "header": "Focus area (as coded)",
+      "width": 4.4,
+      "align": "left"
+     },
+     {
+      "header": "Organisations",
+      "width": 1.2,
+      "align": "right"
+     },
+     {
+      "header": "Rows",
+      "width": 0.6,
+      "align": "right"
+     },
+     {
+      "header": "High",
+      "width": 0.6,
+      "align": "right"
+     },
+     {
+      "header": "Medium",
+      "width": 0.8,
+      "align": "right"
+     },
+     {
+      "header": "Low",
+      "width": 0.5,
+      "align": "right"
+     }
+    ],
+    "rows": [
+     [
+      "**Reshape demand (pillar, as coded)**",
+      "12",
+      "64",
+      "23",
+      "40",
+      "1"
+     ],
+     [
+      "1 Respond to growth segment traveller preferences",
+      "10",
+      "14",
+      "6",
+      "8",
+      "0"
+     ],
+     [
+      "2 Create green-season demand with MICE and events",
+      "9",
+      "15",
+      "4",
+      "11",
+      "0"
+     ],
+     [
+      "3 Make the whole province findable and bookable",
+      "11",
+      "15",
+      "6",
+      "9",
+      "0"
+     ],
+     [
+      "4 Convert India and China hub traffic (coded as growth markets generally)",
+      "8",
+      "9",
+      "3",
+      "6",
+      "0"
+     ],
+     [
+      "5 Increase yield in mature markets",
+      "4",
+      "7",
+      "2",
+      "4",
+      "1"
+     ],
+     [
+      "6 Build a regional foundation (Africa)",
+      "3",
+      "4",
+      "2",
+      "2",
+      "0"
+     ],
+     [
+      "**Transform supply (pillar, as coded)**",
+      "14",
+      "68",
+      "44",
+      "24",
+      "0"
+     ],
+     [
+      "7 and 8 Routes, seats and cruise (coded together)",
+      "3",
+      "3",
+      "3",
+      "0",
+      "0"
+     ],
+     [
+      "9 Accelerate tourism-enabling internal mobility",
+      "8",
+      "18",
+      "10",
+      "8",
+      "0"
+     ],
+     [
+      "19 Lead removal of infrastructure, visa and safety deficits (coded to supply)",
+      "10",
+      "14",
+      "9",
+      "5",
+      "0"
+     ],
+     [
+      "10 Support diversified route and product development",
+      "11",
+      "18",
+      "11",
+      "7",
+      "0"
+     ],
+     [
+      "11 Align visitor experience in-destination",
+      "8",
+      "11",
+      "7",
+      "4",
+      "0"
+     ],
+     [
+      "12 Balance impact on nature-based attractions",
+      "3",
+      "4",
+      "4",
+      "0",
+      "0"
+     ],
+     [
+      "**Build enabling capability (pillar, as coded)**",
+      "16",
+      "91",
+      "48",
+      "38",
+      "5"
+     ],
+     [
+      "13 Embed local destination bodies for community inclusion",
+      "9",
+      "14",
+      "6",
+      "7",
+      "1"
+     ],
+     [
+      "14 Manage climate risk and sustainable tourism",
+      "4",
+      "5",
+      "3",
+      "2",
+      "0"
+     ],
+     [
+      "15 Crowd in capital with targeted investment strategies",
+      "6",
+      "8",
+      "6",
+      "2",
+      "0"
+     ],
+     [
+      "16 Align institutional stakeholders across all three tiers",
+      "5",
+      "11",
+      "9",
+      "2",
+      "0"
+     ],
+     [
+      "17 Strengthen industry and government collaboration",
+      "15",
+      "23",
+      "8",
+      "13",
+      "2"
+     ],
+     [
+      "18 Expedite tourism-enabling policy and data sharing",
+      "15",
+      "30",
+      "16",
+      "12",
+      "2"
+     ],
+     [
+      "**Total**",
+      "16",
+      "223",
+      "115",
+      "102",
+      "6"
+     ]
+    ],
+    "source": "Stakeholder Insights Report, Mar 2026, p20 to p46. Reconstruction from the appendix tables, since the deck prints no tally (computed). Each coded category is shown against the focus area it bears on. The tables code routes and cruise as one category and visa, safety and infrastructure under the supply pillar. The Organisations column counts those of the 16 with at least one row under the category or pillar."
+   }
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 16,
+  "reason": "the p7 tree slide is versioning; the fact about skills insights stays",
+  "detail": {
+   "find": "The p7 tree has no skills element, so skills insights from CapeNature, the West Coast District Municipality and the Overberg District sit under other elements",
+   "repl": "The coding has no skills category, so skills insights from CapeNature, the West Coast District Municipality and the Overberg District sit under other categories"
+  }
+ },
+ {
+  "kind": "sweep replace",
+  "file": "appendices/06_a6_stakeholders.json",
+  "index": 14,
+  "reason": "the tally runs by coded category, not by the tree's six themes; the deliverable is no longer named in the text",
+  "before": "The deck prints no tally by theme, so the table below is a reconstruction from the 16 appendix tables (Stakeholder Insights Report, Mar 2026, p20 to p46).     ",
+  "after": "No tally is printed, so the table below is a reconstruction from the 16 appendix tables (Stakeholder Insights Report, Mar 2026, p20 to p46).     "
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/09_a9_glossary.json",
+  "index": 2,
+  "reason": "the glossary loses its Disposition row",
+  "detail": {
+   "find": "Eleven terms carry",
+   "repl": "Ten terms carry"
+  }
+ },
+ {
+  "kind": "sweep drop_rows",
+  "file": "appendices/09_a9_glossary.json",
+  "index": 4,
+  "reason": "the disposition labels are versioning",
+  "detail": {
+   "first_cells": [
+    "Disposition"
+   ]
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/09_a9_glossary.json",
+  "index": 4,
+  "reason": "only the current tree is referenced",
+  "detail": {
+   "find": "on the October 2026 hypothesis tree",
+   "repl": "on the hypothesis tree"
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/09_a9_glossary.json",
+  "index": 5,
+  "reason": "the December tree on p64 is versioning",
+  "detail": {
+   "find": "v2 in the file name; December tree on p64.",
+   "repl": "v2 in the file name."
+  }
+ },
+ {
+  "kind": "sweep replace_text",
+  "file": "appendices/09_a9_glossary.json",
+  "index": 5,
+  "reason": "\"no tree printed\" only contrasted with the December tree on p64",
+  "detail": {
+   "find": "37 slides; working session of 28 November 2025; no tree printed.",
+   "repl": "37 slides; working session of 28 November 2025."
+  }
+ },
+ {
+  "kind": "grid edit",
+  "file": "ch3/24_fa10.json",
+  "before": "on each of the six touring routes, starting with the Whale Coast east of Hermanus, Route 62 and the West Coast",
+  "after": "on each of the six touring routes, delivering first on the Garden Route, the Cape Winelands and the Overberg, then Route 62 and the West Coast",
+  "reason": "match the delivery order in charter I9 and the rewritten entry"
+ },
+ {
+  "kind": "grid edit",
+  "file": "ch3/34_fa16.json",
+  "before": "agree a decision-rights map by tier from the Diagnostic's tier table",
+  "after": "agree a decision-rights map by tier, building on the tier split in section 1.2",
+  "reason": "the grid named a deliverable; section 1.2 sets out the tiers"
+ },
+ {
+  "kind": "tree figure",
+  "file": "exec/01_summary.json",
+  "change": "disposition labels dropped; caption and source restated"
+ },
+ {
+  "kind": "pillar table",
+  "file": "exec/01_summary.json",
+  "caption": "Pillar 1: Reshape demand",
+  "change": "Disposition column dropped"
+ },
+ {
+  "kind": "pillar table",
+  "file": "exec/01_summary.json",
+  "caption": "Pillar 2: Transform supply",
+  "change": "Disposition column dropped"
+ },
+ {
+  "kind": "pillar table",
+  "file": "exec/01_summary.json",
+  "caption": "Pillar 3: Build enabling capability",
+  "change": "Disposition column dropped"
+ },
+ {
+  "kind": "renumbered reference",
+  "file": "ch1/04_approach.json",
+  "before": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.2, 2.3 and A.18 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22).",
+  "after": "The supply dataset behind the Infrastructure Report (Supply_Infrastructure.xlsx) holds no geography below district, and its 17,195 records added after May 2026 are generated placeholders, as the study team found when it checked the file. [Open item: confirm whether the Infrastructure Report's count of 50,332 assets includes those records; if it does, restate Tables 1.2, 2.4 and A.18 and the district shares drawn from them.] The inclusion analysis runs on an OpenStreetMap asset layer, extracted on 16 September 2026, joined to Census 2011 sub-places, so its resident shares are fifteen years old (SME and Community Inclusion Plan, Sep 2026, p14 to p17, p22)."
+ }
+]
