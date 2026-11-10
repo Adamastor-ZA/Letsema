@@ -1,0 +1,10 @@
+{
+ "figure": "2.24",
+ "title": "Resident share against spend share",
+ "note": "Note: Resident shares from Census 2011. R259m and R547m are reference points, not adopted targets. The R4m to R10m bar is drawn at R10m, and the 0.02% to 0.04% share is too small to draw to scale. SME and Community Inclusion Plan, Sep 2026, p5.",
+ "deck_only_values": [],
+ "conflicts": [
+  "None. All six values on SCIP p5 match v15 (18.4%, 15.4%, 0.02% to 0.04%, R4m to R10m, R259m, R547m)."
+ ],
+ "lead_in": "Set side by side, the communities' share of residents and their share of spend are far apart (Figure 2.24)."
+}

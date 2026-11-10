@@ -1,0 +1,14 @@
+{
+ "figure": "2.12",
+ "title": "Addressable African markets",
+ "note": "Note: Modelled addressable adult leisure and business trips a year; the estimate does not define addressable. The sources rank Ghana differently. Demand-Side Analysis, Jun 2026, p28.",
+ "deck_only_values": [
+  "Eight ranges read from the bars on Demand-Side Analysis p28 against its 0 to 600 thousand axis (vector bar geometry of the PDF page; each edge falls within 0.1 thousand of the value given) and drawn without value labels: Zimbabwe 180,000 to 290,000; Botswana 105,000 to 175,000; Zambia 95,000 to 160,000; Mozambique 65,000 to 120,000; Tanzania 65,000 to 115,000; Uganda 30,000 to 60,000; Ethiopia 25,000 to 50,000; Rwanda 25,000 to 50,000.",
+  "The eight market names and the ranking by upper estimate (Nigeria, Kenya, Zimbabwe, Botswana, Zambia, Mozambique, Tanzania, Ghana, Uganda, Ethiopia, Rwanda), p28.",
+  "Foot line wording 'Each bar spans the lower and upper estimate', p28."
+ ],
+ "conflicts": [
+  "None. The p28 bars for Nigeria (310 to 510), Kenya (240 to 400) and Ghana (55 to 100) agree with v15."
+ ],
+ "lead_in": "The modelled pools far exceed current visits in each of the three priority markets (Figure 2.12)."
+}

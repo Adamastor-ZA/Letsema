@@ -1,0 +1,14 @@
+{
+ "figure": "2.11",
+ "title": "Path to purchase in three growth markets",
+ "note": "Note: Qualitative findings; the demand work prints no platform shares, booking lead times or sources. Demand-Side Analysis, Jun 2026, p45, p47 and p49.",
+ "deck_only_values": [
+  "Gulf, In destination cell (whole cell): 'Google Maps and Google Translate for navigation, halal dining and prayer facilities. WhatsApp for contact with guides. Luxury shopping and dining, often led by concierge services.' Condensed from the Experience column of Demand-Side Analysis p49; v15 gives no in-destination detail for the Gulf."
+ ],
+ "conflicts": [
+  "Column and row names: the deck heads the fourth stage 'Experience' and the third market 'Middle East' or 'GCC'; the figure uses 'In destination' and 'Gulf' as the specification and v15 do.",
+  "Platforms the deck shows that v15 does not name are left out and v15 was followed: China (WeChat under inspiration, Xiaohongshu under consideration, Baidu Translate in destination); India (MakeMyTrip under inspiration, Expedia and Skyscanner under consideration, Skyscanner under booking); Gulf (Viavii under booking).",
+  "The note's caveat is not in the specification; it restates v15 ('Its findings are qualitative. It prints no platform shares, booking lead times or sources'). Drop it if only the source is wanted."
+ ],
+ "lead_in": "The three paths differ at every stage, from the platforms that inspire a trip to the tools visitors use once in the province (Figure 2.11)."
+}

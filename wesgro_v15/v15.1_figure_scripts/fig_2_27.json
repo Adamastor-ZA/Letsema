@@ -1,0 +1,19 @@
+{
+ "figure": "2.27",
+ "title": "Safety and service readiness in the 20 communities",
+ "note": "Note: Ratings are the Inclusion Plan's, made from the community side with LTO confirmation outstanding. A Gap under extortion means extortion is recorded. SME and Community Inclusion Plan, Sep 2026, p27.",
+ "deck_only_values": [
+  "All 100 cell ratings in the five columns extortion, energy supply, water and sanitation, coach access and service delivery (SCIP p27). v15 prints only their column counts, in the note under Table A.22; the 20 safety perception ratings are in Table A.22.",
+  "The bottom row ('Communities rated Gap': 9, 5, 0, 5, 0 and 5 of 20) is tallied from the cells and equals Table A.22's count row and the note under it."
+ ],
+ "conflicts": [
+  "None on ratings. Safety perception on SCIP p27 equals Table A.22 in all 20 rows (2 Ready, 9 Developing, 9 Gap). Extortion shows 5 Gaps (10 Ready, 5 Developing). Energy supply 6, 14, 0; water and sanitation 1, 14, 5; coach access 0, 20, 0; service delivery 1, 14, 5: all equal the note under Table A.22.",
+  "Row order: the slide and Table A.22 follow the p18 shortlist order (Langa, Khayelitsha, Atlantis, Mitchells Plain, Gugulethu, then Zwelihle before Genadendal and so on); the figure follows Table 2.21 as specified.",
+  "Name: the slide prints 'Knysna north'; the figure uses Table A.22's 'Knysna northern townships'."
+ ],
+ "lead_in": "Safety perception is the most widespread gap among the six conditions the plan rates in the 20 communities (Figure 2.27).",
+ "remarks": [
+  "The 'binding fact' column is dropped. The script reads the ratings from the p27 text layer and asserts the checks against d0.txt before drawing; the p27 page render was also checked cell by cell for colour against text (120 cells, no mismatch).",
+  "A callout is added although the spec names none: it is v15's sentence from 'Safety perception'. Remove the callout() line if it is not wanted."
+ ]
+}

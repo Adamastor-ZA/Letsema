@@ -1,0 +1,12 @@
+{
+ "figure": "2.10",
+ "title": "India and China reach Cape Town through hubs",
+ "note": "Note: Journeys by origin, not tourist arrivals (Appendix A2). Hub volumes as printed, with no year or source; they sum to 68,564 for India and 29,015 for China. Demand-Side Analysis, Jun 2026, p46 and p48.",
+ "deck_only_values": [],
+ "conflicts": [
+  "Routing through Johannesburg: Demand-Side Analysis p46 and p48 route Johannesburg traffic through another hub first (India by Addis Ababa or Dubai, China by Singapore or Dubai). v15 prints only a volume 'through Johannesburg', so the figure draws origin to Johannesburg to Cape Town and v15 was followed.",
+  "Share through Addis Ababa and Dubai: p48 says 'more than 80%'; v15 prints 81% and the callout follows v15. Observation only: the printed hub volumes give 58,805 of 68,564 (85.8%), or 82.8% of about 71,000; the figure does not print either.",
+  "Drawing choices, not conflicts: line weight is 1 px per 1,000 travellers with a 4 px floor, so the two Johannesburg lines (1,099 and 1,443) are drawn slightly heavier than scale. Coastlines are hand-drawn and approximate (mapdata_2_10.py); routes are curves for legibility, not flight paths."
+ ],
+ "lead_in": "Both markets reach Cape Town through a handful of hubs, with Addis Ababa and Dubai carrying most Indian travellers (Figure 2.10)."
+}

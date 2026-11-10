@@ -1,0 +1,20 @@
+{
+ "figure": "2.22",
+ "title": "Tourism attractions across the province",
+ "note": "Note: Attractions layer of 50,332 mapped assets; the supply dataset includes generated placeholder records, so counts are provisional. Basemap © OpenStreetMap contributors. Infrastructure Report, Jul 2026, p92.",
+ "deck_only_values": [
+  "The eight category names, from the key on IR p92: Cultural and heritage, Botanical gardens, Adventure and outdoor, Marinas and waterfront, Wine and agri-tourism, Night entertainment, Natural landscapes, National parks (v15 names none of them as map categories).",
+  "Every dot position and every place name inside the map raster (IR p92 embedded image, 1233 x 942).",
+  "Legend colours sampled from the raster dots: Cultural and heritage #FB8106, Botanical gardens #50DE78, Wine and agri-tourism #16F1F1, Night entertainment #E810E3, Natural landscapes #F3E811, National parks #E01C1D.",
+  "Legend colours taken from the key on the IR p92 page render because the raster shows no distinguishable dots in them: Adventure and outdoor #529CD6, Marinas and waterfront #E2517F."
+ ],
+ "conflicts": [
+  "No conflict with v15. The callout is v15's opening sentence of 'Province-wide asset maps', which restates the IR p92 subtitle.",
+  "Within the deck page: the key shows Night entertainment in purple (#C45FC9) while the dots on the map are magenta (#E810E3); the legend follows the dots. The key's other colours also differ slightly in shade from the dots; the legend follows the dots.",
+  "The deck key uses ampersands and mixed capitals ('Cultural & heritage', 'Night Entertainment'); the legend uses 'and' and sentence case."
+ ],
+ "lead_in": "The attractions layer shows the clustering along the three corridors and the thin spread beyond them (Figure 2.22).",
+ "remarks": [
+  "Raster reused at twice its size (Lanczos) after trimming a 2 px edge; place names inside the raster are at raster scale and cannot be enlarged."
+ ]
+}

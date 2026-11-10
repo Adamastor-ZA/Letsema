@@ -1,0 +1,11 @@
+{
+ "figure": "2.2",
+ "title": "Three effects of tourism levers",
+ "note": "Note: Example levers are those the comparator summary pairs with each effect (Table A.12). Global Benchmarking Report, Mar 2026, p8 and p9.",
+ "deck_only_values": [],
+ "conflicts": [
+  "None found, but the source page (Global Benchmarking Report p8) is not available and could not be checked. The figure is built from the spec and the v15 text only."
+ ],
+ "source_check": "Source page could not be checked. Tier names are the three terms in Table A.12 (sentence case). Tier definitions are the three clauses in the Table A.12 source line. Tier order top to bottom follows the order in the spec and in that source line; the order on GBR p8 is unverified. Example levers are assigned to a tier by matching the numbered order of 'Primary levers' and 'Primary demand impact' in Table A.12 (lever 1 to impact 1, lever 2 to impact 2); that pairing is an inference. Lever wording follows Table 2.2 where it prints the lever; 'Nairobi-led gateway diversification' comes from Table A.12 with case normalised.",
+ "lead_in": "The benchmarking work sorts levers by their effect on demand: some create it, some activate it and some raise the value of each traveller (Figure 2.2)."
+}

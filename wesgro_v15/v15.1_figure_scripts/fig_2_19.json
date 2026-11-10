@@ -1,0 +1,15 @@
+{
+ "figure": "2.19",
+ "title": "Three airports: timing, scale and certainty",
+ "note": "Note: Positions and bubble sizes are indicative; labels give each airport's basis. Infrastructure Report, Jul 2026, p109.",
+ "deck_only_values": [
+  "No printed value. Layout only: the vertical (impact) order of the bubbles follows Infrastructure Report p109 (George lowest, Cape Winelands above it, Cape Town International highest); the heights are indicative and carry no number."
+ ],
+ "conflicts": [
+  "Timing axis: p109 uses an undated axis ('Sooner (by 2028)' to 'Later (2030s+)') and sets Cape Winelands later than George. The figure uses a dated axis from v15: Cape Winelands at 2028 (first passengers targeted), George between 2028 and 2029, Cape Town International at about 2033. v15 was followed.",
+  "George: p109 says capacity doubles to about 2m 'by 2028'; the figure prints v15's 'by 2028 or 2029'.",
+  "Cape Town International: p109 says about 11m passengers and relief in the early 2030s; the figure prints v15's about 11.1 million in 2025 and runway relief about 2033.",
+  "Bubble area is drawn in proportion to about 2 million (George after expansion), 5.2 million (Cape Winelands design) and 11.1 million (Cape Town International, 2025), all v15 values on different bases, as the note says. p109's green, amber and red status colours are not used because no rating is called for."
+ ],
+ "lead_in": "Set side by side, the three airports differ in timing, scale and certainty (Figure 2.19)."
+}

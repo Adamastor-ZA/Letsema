@@ -1,0 +1,11 @@
+{
+ "figure": "2.3",
+ "title": "Three components of a growth system",
+ "note": "Note: System types as Table 2.2 prints them. Global Benchmarking Report, Mar 2026, p58 and p61.",
+ "deck_only_values": [],
+ "conflicts": [
+  "None found, but the source pages (Global Benchmarking Report p58 and p61) are not available and could not be checked. The figure is built from the spec and the v15 text only."
+ ],
+ "source_check": "Source pages could not be checked. Corner labels are the spec's and match annex paragraph 1678. Comparators and system types are in Table 2.2's order and wording. The centre label and the line under the list paraphrase annex paragraphs 1678 and 1679. Comparators are listed beside the triangle and are not tied to a corner.",
+ "lead_in": "The benchmarking work reduces that system to three components, and each comparator builds its own around a different anchor (Figure 2.3)."
+}

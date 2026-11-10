@@ -1,0 +1,13 @@
+{
+ "figure": "2.14",
+ "title": "Three layers of tourism supply",
+ "note": "Note: Table 2.13 gives each layer's question and categories. Infrastructure Report, Jul 2026, p9.",
+ "deck_only_values": [
+  "The nesting order (Attractions innermost, Services, Enabling infrastructure outermost) is taken from Infrastructure Report p9; v15 lists the layers in that order but does not describe the nesting."
+ ],
+ "conflicts": [
+  "Deck p9 labels the outer layer 'Infrastructure'; v15 calls it 'Enabling infrastructure'. v15 followed.",
+  "Deck p9 words the three readings differently (people do not come; people do not stay or spend; not enough demand for the region). The figure uses v15's wording from the paragraph beginning 'The Infrastructure Report treats supply as three layers'."
+ ],
+ "lead_in": "The layers nest, and a weak one fails in its own way (Figure 2.14)."
+}

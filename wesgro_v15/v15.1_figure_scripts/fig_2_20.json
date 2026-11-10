@@ -1,0 +1,16 @@
+{
+ "figure": "2.20",
+ "title": "Three cruise ports",
+ "note": "Note: Mossel Bay's call counts differ by source (section 2.4). Schematic coastline, not to scale. Infrastructure Report, Jul 2026, p111.",
+ "deck_only_values": [],
+ "conflicts": [
+  "No conflict between IR p111 and v15 on the values printed (21 calls, about 13,000 passengers, R22m facility opened November 2025, 3 trial calls, no cruise berth or passenger facility).",
+  "The spec writes 'three trial calls'; v15 prints '3 trial calls' and the figure follows v15.",
+  "IR p111 values left off because v15 does not print them in this section: about 23 calls next season, the 8m entrance depth, the distances of about 110 km and 400 km. The 'about 40% use' figure is not printed."
+ ],
+ "lead_in": "The three ports stand at different stages: one equipped homeport, one working day stop and one still on trial (Figure 2.20).",
+ "remarks": [
+  "Cape Town's four status lines are not on IR p111; they are v15's (paragraph beginning 'Berth space is not the limit' and Table rows citing IR p111).",
+  "Tags 'Homeport', 'West coast' and 'East coast' and the two itinerary labels use v15's terms (paragraph beginning 'Ships come for the circuit')."
+ ]
+}

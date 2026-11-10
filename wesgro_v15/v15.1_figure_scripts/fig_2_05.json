@@ -1,0 +1,11 @@
+{
+ "figure": "2.5",
+ "title": "Four traveller segments",
+ "note": "Note: Addressable travellers and shares as Table 2.4 prints them. The two highlighted segments are those this report names for the regions and the green season. Market Assessment Report, May 2026, p42 to p54.",
+ "deck_only_values": [],
+ "conflicts": [
+  "None found, but the layout source (Current State Diagnostic p16) is not available and could not be checked. Content is from Table 2.4 and the paragraph after it only."
+ ],
+ "source_check": "Layout source page could not be checked; the four-card layout follows the spec. Values 30m (31%), 25m (26%), 19m (20%), 23m (23%), drivers and priority markets match Table 2.4. The four sum to 97m, which matches 'about 97 million'. The share label reads 'of the four segments'; 23m of 97m computes to 23.7%, and the figure prints 23% as Table 2.4 does. Long-haul trip spend is left to the table, as the spec lists.",
+ "lead_in": "The four differ in size, in what drives them and in where they are concentrated (Figure 2.5)."
+}

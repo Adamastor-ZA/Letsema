@@ -1,0 +1,22 @@
+{
+ "figure": "2.25",
+ "title": "The 107 long-listed communities and the tourism corridors",
+ "note": "Note: 107 communities held 2.81 million people in 2011 (48% of the province). The archetype counts give 92 near a node against the 93 printed. Basemap © OpenStreetMap contributors. SME and Community Inclusion Plan, Sep 2026, p16.",
+ "deck_only_values": [
+  "The names of the three corridors in the legend: N2, R62 and the Winelands roads (SCIP p16; v15 says only 'three corridors').",
+  "'Bubble size shows 2011 population' (raster legend: 'Point size: 2011 population') and 'Shortlisted community (20), labelled'.",
+  "The six region colours, sampled from the raster's own legend: Cape Metro #627392, Cape Winelands #9E568C, Overberg #6BCC89, Garden Route #FF984C, West Coast #5DAEEC, Central Karoo #FFD24C.",
+  "Every bubble, star and corridor position and every label inside the raster, including the node names (Clanwilliam, Paternoster, Langebaan, Darling, Paarl, Swellendam, Hermanus, Prince Albert, Beaufort West, George, Knysna, Plettenberg Bay, Mossel Bay; inset: V&A Waterfront, CBD, Newlands, Constantia, CTIA)."
+ ],
+ "conflicts": [
+  "The deck legend calls the stars 'Demand node (35, supply report)'; the redrawn legend uses v15's term, 'Tourism node (35)'.",
+  "The raster labels two shortlisted communities 'Knysna north' and 'Laingsburg' where v15 writes 'Knysna northern townships' and 'Laingsburg (Bergsig)'. The labels are part of the raster and are left as they are.",
+  "93 within 45 minutes (callout, v15 and SCIP p16) against 92 from the archetype counts: both are v15's and the note states the difference."
+ ],
+ "lead_in": "The map sets the 107 long-listed communities against the nodes and corridors that visitors already use (Figure 2.25).",
+ "remarks": [
+  "The spec's note text is used as given. The SCIP map has no basemap tiles, only the province outline with the plan's own points and corridors, so the OpenStreetMap credit may not be needed here; the route data behind the drive times is OSRM.",
+  "The raster's small legend was painted out. It had covered a short stretch of coast west of Mossel Bay and half of the 'Mossel Bay' label; both are restored (coast traced from the semi-transparent legend, label reset in the raster's own size and grey).",
+  "Raster reused at twice its size (Lanczos), Cape Metro inset kept. Labels inside the raster are at raster scale (about 26 to 34 px on the 3200 px canvas)."
+ ]
+}

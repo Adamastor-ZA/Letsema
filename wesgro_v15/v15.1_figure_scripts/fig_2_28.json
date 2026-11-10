@@ -1,0 +1,27 @@
+{
+ "figure": "2.28",
+ "title": "The archetype matrix",
+ "note": "Note: Both axes are logarithmic; bubble size is 2011 population. Atlantis is classed remote by Wesgro's naming. SME and Community Inclusion Plan, Sep 2026, p17.",
+ "deck_only_values": [
+  "Every bubble position and size and the 20 community labels inside the raster (SCIP p17 embedded image, 1650 x 990).",
+  "Axis tick values: 2, 5, 10, 20, 45, 90 and 180 minutes; 0, 1, 3, 10, 30 and 100 mapped attractions.",
+  "'OpenStreetMap' as the source of the attraction count and 'free-flow estimate' for the drive times, in the axis titles.",
+  "The six region colours, sampled from bubbles in the raster: Cape Metro #8391AB, Cape Winelands #B27BA7, Overberg #88D9A3, Garden Route #FFAF6E, West Coast #80BFF2, Central Karoo #FFDA75."
+ ],
+ "conflicts": [
+  "SCIP p4 prints long-list counts of 48 and 8 for the two assets-underused archetypes; the figure prints v15's 49 and 7 (with 43 and 8), and v15's shortlist counts 11, 6, 2 and 1.",
+  "The raster's own quadrant captions use the deck's wording ('PROXIMATE, ASSETS UNDERUSED', 'PROXIMATE, NO COMMUNITY-BASED PRODUCT', 'REMOTE, ASSETS UNDERUSED', 'REMOTE, NO COMMUNITY-BASED PRODUCT'). They are painted out and replaced by v15's section 2.5 wording ('Near a node, assets underused', 'Near a node, nothing inside', 'Remote, assets underused', 'Remote, nothing inside').",
+  "The raster carries two dotted reference lines with red text that the slide itself masks and v15 does not print ('Stellenbosch town: 80 inside its own boundary (15,738 residents)' and 'Hermanus town: 63 inside its own boundary (4,336 residents)'). They are painted out.",
+  "The deck's x-axis title says 'demand node'; the redrawn title uses v15's 'tourism node'.",
+  "The raster labels 'Knysna north' and 'Laingsburg' where v15 writes 'Knysna northern townships' and 'Laingsburg (Bergsig)'; left as in the raster.",
+  "Atlantis plots left of the 45-minute line (26 minutes) though it is counted remote; the note states this, as v15 does."
+ ],
+ "lead_in": "The matrix places each of the 107 long-listed communities by its drive time to a node and by the attractions inside its boundary (Figure 2.28).",
+ "remarks": [
+  "The vertical axis has a zero row, so it is not strictly logarithmic (it is a log scale with a linear step to zero). The spec's note text is used as given; consider 'Both axes are on log scales' or naming the zero row if exactness matters.",
+  "A callout is added although the spec names none, because the brief asks for one on a chart. Its sentence is v15's ('The largest group of long-listed communities sits near a node and has something worth visiting') with v15's 49 of 107. Remove the callout() line if it is not wanted.",
+  "Frame, tick labels, axis titles and region legend are redrawn in the report style. Inside the frame, 33 blank raster rows are added below the zero row so the two lower labels clear every bubble; no data point is moved or covered (the script asserts that each label and the callout sit on blank raster).",
+  "Under the old top-left caption, one Overberg dot and one Cape Metro bubble were crossed by its first two letters; those few pixels are repainted from the fitted circles.",
+  "Community labels inside the raster are at raster scale (about 30 px on the 3200 px canvas)."
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "figure": "2.29",
+ "title": "The inclusion response",
+ "note": "Note: Concept only; Chapter 4 sets out roles and funding. SME and Community Inclusion Plan, Sep 2026, p32.",
+ "deck_only_values": [],
+ "conflicts": [
+  "Deck p32 titles the third box 'Activation and investment gates'; v15 says 'launch gates for safety, access and a viable operating model'. v15 followed.",
+  "Deck p32 titles the second box 'Connection to existing demand'; v15 says 'demand the node already has'. v15 followed.",
+  "Deck p32 gives the pilot steps as select on readiness, test the model, measure results, scale after thresholds are met, with 'operational delivery' among the scale conditions. The figure uses the spec's v15 terms: run in two or three of the six profiled communities, test the model, measure results, scale only once thresholds are met; and 'delivery'.",
+  "Deck p32 lists four bullets under each box (for example operating budget, maintenance and marketing covenant). They are left out to keep the figure at concept level."
+ ],
+ "lead_in": "The model and the pilot that tests it run in a fixed order (Figure 2.29)."
+}

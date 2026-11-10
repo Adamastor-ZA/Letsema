@@ -1,0 +1,17 @@
+{
+ "figure": "2.18",
+ "title": "Airport relief against 2035",
+ "note": "Note: Dates as in Table 2.14; this report assumes about 2033 for the runway and treats earlier dates as upside. ACSA's itemised programme comes to about R10.1bn against the Infrastructure Report's R11.3bn; the two are not reconciled. Infrastructure Report, Jul 2026, p103; costs from ACSA, Feb 2026.",
+ "deck_only_values": [
+  "Bar start of the international terminal upgrade and of the new domestic arrivals and departures: 2027.3 on the axis (about April 2027), read from the bar geometry on Infrastructure Report p103. v15 gives no start date for either terminal project as a whole."
+ ],
+ "conflicts": [
+  "Domestic terminal cost: p103 prints R2.7bn; the figure prints v15's R2.39bn arrivals works and R500m departures expansion from April 2027.",
+  "International terminal cost: p103 prints R853m; the figure prints v15's R863m.",
+  "Bar ends: p103 draws them a little past the year (2033.2, 2034.1, 2032.3); the figure ends each bar on the year v15 gives (about 2033, 2034, 2032) and starts the runway bar at 2027 (v15: build from about 2027; p103 draws 2027.2).",
+  "2035 marker: p103 labels it '2035 TARGET'; the figure labels it '2035' only.",
+  "The two upside markers (December 2029; 2031) and the R6.39bn 'about' wording are from v15, not p103. p103's 'adds about 40% more flights an hour' differs from v15's 50% rise and is not on the figure.",
+  "Costs on the figure are from ACSA's February 2026 programme as v15 gives them, not from p103; the note cites p103 as the specification asks."
+ ],
+ "lead_in": "Relief lands between about 2032 and 2034, close against 2035 (Figure 2.18)."
+}
