@@ -5,36 +5,33 @@ Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035. v14 edits
 Outputs in this folder:
 
 - `Unlocking_Tourism_Growth_Final_Report_DRAFT_v14.docx`
-- `v14_render.pdf` (LibreOffice render used for QA, 205 pages against 186 in v13.1)
+- `v14_render.pdf` (LibreOffice render used for QA, 207 pages against 186 in v13.1)
 - `v14_change_log.md` (this file)
 
 ## 1. Questions for Michael
 
-1. **The research pack was not in the upload.** Only the prompt and the v13.1 Word file arrived. v14 therefore rests on the findings the prompt itself states (C1 to C13, the P4 and P5 text and the phase 3 to 6 lists). Please send `Western_Cape_Tourism_Additional_Research_and_Delivery_Priorities_9_November_2026.pdf`. With it I can close the items below.
-   - Table A.14 "Additional comparators": only the VisitBritain and Everyone Must Go results are filled. Twelve result cells are yellow open items, and their "Mechanism" cells are short descriptors taken from the case names.
-   - The six-ward short-term rental table in 2.3 is left out.
-   - The "Evidence gaps and material reconciliations" checklist (section 11, item 9) has not been run.
-   - Table 5.7 takes six gaps I drew from the prompt's findings, not the pack's "What remains unknown" lists.
-   - No figure could be checked against the pack. Every number is as the prompt gives it.
-   - The Source cells of the new evidence rows name the originating body as best the prompt allows. Section 7 lists them for checking.
-   - "Why it can work" gained one comparator only (VisitBritain, objective 1).
-2. **A growth-model figure sits oddly beside the new Stats SA counts.** The model's 2025 base for India is 76,547 arrivals to the Western Cape (T2-06, Appendix A2). Stats SA counted 69,680 Indian tourists to the whole of South Africa in 2025. China with Hong Kong is 43,412 in the model against 37,902 nationally (China only). The bases differ, and the report already asks Skift to confirm the model's arrivals basis. I have not changed any model figure. The new open item asks Skift to test the 2027 starting point; you may want it widened to the 2025 base.
-3. **D3 is applied.** LTO funding moved to objective 13 and I12, and I13 is now "Destination readiness and climate resilience". Please confirm the name. The Figure 4.1 picture is patched to match.
-4. **Three indicator redefinitions go beyond the prompt's list.** T3-15 changes from "Southern Line product launched" to "funded service specifications agreed", because the rail product is now conditional. T2-18 and T3-26 move with LTO funding to I12. Please confirm.
-5. **Table 4.3 stays at twelve tactical wins.** The flow pilots, the safety pathway and the hub-closure scenarios sit in Table ES.4, the charters and section 4.2. Hub-closure scenarios and the condition register were folded into existing rows. Say if you want a thirteenth row for the flow pilots.
-6. **Two findings are in text only, with no evidence row.** The 2025 hotel occupancy figures (61.7% and 81.5%) and the Winelands mode-split survey have no originating body in the prompt, so I added no table row for them.
-7. **Abbreviation expansions.** CATHSSETA and TGCSA are expanded from general knowledge in the Abbreviations table. Please check both.
+The research pack arrived after the first v14 build. v14 is now reconciled against it (section 11), and the pack-dependent gaps in the first build are closed. Four questions remain.
+
+1. **A growth-model figure sits oddly beside the new Stats SA counts.** The model's 2025 base for India is 76,547 arrivals to the Western Cape (T2-06, Appendix A2). Stats SA counted 69,680 Indian tourists to the whole of South Africa in 2025. China with Hong Kong is 43,412 in the model against 37,902 nationally (China only). The bases differ, and the report already asks Skift to confirm the model's arrivals basis. The pack does not assess the model. I have changed no model figure. The new open item asks Skift to test the 2027 starting point; you may want it widened to the 2025 base.
+2. **D3 is applied.** LTO funding moved to objective 13 and I12, and I13 is now "Destination readiness and climate resilience". The pack supports the move: it places LTO finance with community products and physical readiness with climate. Please confirm the name. The Figure 4.1 picture is patched to match.
+3. **Three indicator redefinitions go beyond the prompt's list.** T3-15 changes from "Southern Line product launched" to "funded service specifications agreed", because the rail product is now conditional. T2-18 and T3-26 move with LTO funding to I12. Please confirm.
+4. **Table 4.3 stays at twelve tactical wins.** The flow pilots, the safety pathway and the hub-closure scenarios sit in Table ES.4, the charters and section 4.2. Say if you want a thirteenth row for the flow pilots.
+
+Two smaller points for your eye:
+
+- The occupancy figures and the Winelands mode split stay in text, now attributed to Cape Town Tourism and to Wesgro's survey. Objectives 2 and 9 already carry four new evidence rows each, the limit the prompt sets.
+- v13.1 says Witzands permits "have been capped by day". The pack reads the City's controls as activity-specific daily permits, not a universal visitor ceiling. I left v13.1's sentence and its footnote alone.
 
 ## 2. Headline numbers
 
 | Measure | v13.1 | v14 |
 |---|---|---|
-| Pages (LibreOffice render) | 186 | 205 |
-| Words, tables included, footnotes and contents lists excluded | 79,231 | 91,038 |
+| Pages (LibreOffice render) | 186 | 207 |
+| Words, tables included, footnotes and contents lists excluded | 79,231 | 91,811 |
 | Footnotes | 414 | 414 (none written; one moved) |
-| Tables (`w:tbl`) | 123 | 124 |
-| Captioned figures and tables | 23 and 77 | 23 and 78 |
-| Open items (yellow runs) | 60 | 73 |
+| Tables (`w:tbl`) | 123 | 125 |
+| Captioned figures and tables | 23 and 77 | 23 and 79 |
+| Open items (yellow runs) | 60 | 61 |
 | Word comments | 44 | 44 |
 | Actions in the register (A7) | 120 | 139 |
 | Indicators (Tier 1, 2, 3) | 7, 28, 37 | 7, 29, 41 |
@@ -44,14 +41,14 @@ Words by chapter:
 
 | Part | v13.1 | v14 | Change |
 |---|---|---|---|
-| Front matter | 203 | 231 | +28 |
+| Front matter | 203 | 236 | +33 |
 | Executive summary | 3,588 | 4,083 | +495 |
 | 1 Context | 7,654 | 8,172 | +518 |
-| 2 Analysis and insights | 11,946 | 14,428 | +2,482 |
-| 3 Findings and recommendations | 25,869 | 30,817 | +4,948 |
+| 2 Analysis and insights | 11,946 | 14,553 | +2,607 |
+| 3 Findings and recommendations | 25,869 | 31,143 | +5,274 |
 | 4 Execution plan | 8,394 | 9,825 | +1,431 |
-| 5 Monitoring and evaluation | 4,343 | 4,717 | +374 |
-| Appendices | 17,234 | 18,765 | +1,531 |
+| 5 Monitoring and evaluation | 4,343 | 4,807 | +464 |
+| Appendices | 17,234 | 18,992 | +1,758 |
 
 ## 3. Changes by section
 
@@ -83,13 +80,13 @@ Words by chapter:
 ### Chapter 2
 
 - 2.2: new Heading3 "Regional recognition" after "Converting latent interest" (three paragraphs). "Business events and the trough": bids are not nights, the CTICC record, occupancy, buyer types, fund purposes and the Formula 1 position. "India and China through hubs" and "Growth by market group": C11.
-- 2.3: "A hub-based network" takes the 2026 disruption and the growing alternatives. "Runway capacity" takes ACSA's February 2026 programme and C9. "Flagship sites in season" takes the 2025 counts and the tariffs in text; Table 2.5 is unchanged. "Regional beds and booking" takes the supply-comparison framing. New Heading3 "Short-term rentals and residents" (five paragraphs, P5).
+- 2.3: "A hub-based network" takes the 2026 disruption and the growing alternatives. "Runway capacity" takes ACSA's February 2026 programme and C9. "Flagship sites in season" takes the 2025 counts and the tariffs in text; Table 2.5 is unchanged. "Regional beds and booking" takes the supply-comparison framing. New Heading3 "Short-term rentals and residents" (five paragraphs, P5), with new Table 2.8 on six Cape Town wards. The former Table 2.8 is now Table 2.9.
 - 2.4: lead reworded (C5). "National levers" takes the ETA, the Trusted Tour Operator Scheme and the African passport position. "Funding and mandates" takes C7, the DEDAT budget, the Garden Route statements, the Mossel Bay audit finding and Wesgro's forums. "Sustainability and climate risk" takes the three tasks. "Transport and safety plans" takes C2, C3, C5, the mobility findings and the safety findings. "Measuring jobs and GDP" and "A seller with a stake" take the skills and community-supply findings.
 - "What this means for the objectives" boxes updated for objectives 1, 2, 4, 7, 9, 10 and 11, 12, 13, 14 and 15, and 19.
 
 ### Chapter 3
 
-Evidence text, evidence tables and courses of action changed in objectives 1, 2, 3, 4, 7, 9, 11, 12, 13, 14, 15, 18, 19 and 20. Section 4 lists every action decision. New evidence rows carry a short Source cell and add nothing to the table source notes.
+Evidence text, evidence tables and courses of action changed in objectives 1, 2, 3, 4, 7, 9, 11, 12, 13, 14, 15, 18, 19 and 20. "Why it can work" gained one short comparator paragraph in objectives 1, 2, 7, 9, 12 and 19 (D8), each pointing to Appendix A3. Section 4 lists every action decision. New evidence rows carry a short Source cell and add nothing to the table source notes.
 
 ### Chapter 4
 
@@ -107,18 +104,18 @@ Evidence text, evidence tables and courses of action changed in objectives 1, 2,
 - Five new indicators (D9): T2-29 tourism safety response and completed handoffs in pilot hotspots (I17); T3-38 regional test offers with completed regional bookings (I1); T3-39 hub-closure scenarios completed (I6); T3-40 condition register published and repairs completed (I11); T3-41 accessible journeys verified and published (I10).
 - Redefined: T2-24 (ETA decision times and authorisations matched to arrivals); T2-18 (LTOs with a service agreement, now objective 13 and I12); T3-22 (flow pilots run against a stop rule); T3-26 (LTO procurement practice note issued, now I12); T3-15 (funded service specifications agreed).
 - 5.3: T1-05 reports absolute winter nights and revenue beside the share. New "Domestic context" paragraph: trips and spend tracked with no target.
-- Table 5.6: two sources added (ETA data; safety referral records). Table 5.7: nineteen gaps, six of them new and three reworded.
+- Table 5.6: two sources added (ETA data; safety referral records). Table 5.7: twenty-four gaps, eleven of them new and three reworded.
 - Counts updated in 4.1, 5.2, 5.7, the executive summary and the Figure 5.1 picture.
 
 ### Appendices
 
 - A1: Table A.1 rows updated for fourteen objectives. No strength rating changed, because the rating definitions rest on the deliverables. Table A.2 rows 13, 14 and 19 updated.
-- A3: new Heading3 "Additional comparators" and Table A.14. Tables A.14 to A.28 are renumbered A.15 to A.29.
+- A3: new Heading3 "Additional comparators" and Table A.14, with all fourteen cases filled. Tables A.14 to A.28 are renumbered A.15 to A.29.
 - A6: no change (D10).
 - A7: 139 rows, matched row for row to the Chapter 3 "Who acts" tables.
 - A8: T2-18 and T2-24 redefined; T2-29 added.
 - A9: glossary gains ETA, MyCiTi and TTOS. No references added (P2).
-- Abbreviations: CATHSSETA, ETA, TGCSA and TTOS added.
+- Abbreviations: CATHSSETA, ETA, TGCSA, TOMSA and TTOS added, with expansions as the pack gives them.
 
 ### Executive summary
 
@@ -213,10 +210,11 @@ No initiative was dropped, renumbered or added, so no stop-and-ask case arose un
 - The 2.4 item on which City and Mobility plans run: now the Department of Mobility's Tourism Transport Strategy only (C5).
 - The objective 11 room count: now rooms and beds by district for hotels, guesthouses and short-term rentals (C1, P5).
 
-**Opened (14)**
+**Opened (2)**
 - "Skift to test the 2027 starting point for India and China against the 2026 decline" (2.2, C11).
 - "ACSA to reconcile the R11.3 billion overhaul in the Infrastructure Report with about R10.1 billion across its February 2026 items" (2.3).
-- Twelve "Reported result to be entered from the comparator notes" cells in Table A.14 (pack not supplied).
+
+The twelve comparator open items in the first build of Table A.14 are closed.
 
 ## 6. Inconsistencies found
 
@@ -228,18 +226,28 @@ No initiative was dropped, renumbered or added, so no stop-and-ask case arose un
 | 4 | Airport capital: R11.3 billion (Infrastructure Report) against about R10.1 billion across ACSA's February 2026 items. Table 3.15's note also itemises the headline to R9.94 billion | All three stay. New open item in 2.3 |
 | 5 | Winter window: May to August, April to September and May to September | May to August is the first portfolio inside the April to September season. T3-04 still counts bids for May to September events, and Table 4.3 still holds seats in May to September |
 | 6 | Timing moved by the re-evaluation | Flow tools: v13.1 placed them in Expand, from 2029. v14 runs two pilots in Activate, summer 2027/28 at the earliest. Pilot community selection is unchanged at 2027 |
-| 7 | India and China: the 2026 decline against 8% a year in the base case | Model unchanged. Decline stated as context and risk. Open item for Skift. See question 2 |
+| 7 | India and China: the 2026 decline against 8% a year in the base case | Model unchanged. Decline stated as context and risk. Open item for Skift. See question 1 |
 | 8 | The 36 bids: an estimated R745.1 million (Wesgro annual report) against "R745 million through 2028" with more than 27,000 delegates (Stakeholder Insights) | Both framings kept with their sources: the first in 2.2 and objective 2, the second in objective 17 |
-| 9 | The pack's "Evidence gaps and material reconciliations" table | Not checked. The pack was not supplied |
+| 9 | The pack's "Evidence gaps and material reconciliations" table | Checked row by row. See section 11 |
 | 10 | Action count in v13.1: 117 in section 4.1, 120 in A7 and Figure 5.1. The register held 120 rows | v14 states 139 in all three places |
-| 11 | Model base for India (76,547 to the Western Cape in 2025) against Stats SA's 69,680 for South Africa | Not resolved. See question 2 |
+| 11 | Model base for India (76,547 to the Western Cape in 2025) against Stats SA's 69,680 for South Africa | Not resolved. See question 1 |
+| 12 | Witzands: v13.1 says permits are capped by day; the pack reads the controls as activity-specific daily permits | v13.1 wording kept. Flagged in section 1 |
+| 13 | Simon's Town: the pack's source for direct weekday trains is a civic association relaying the PRASA timetable, not PRASA itself | Supports the "yet to confirm" wording under item 1 |
 
-## 7. Source cells to verify against the pack
+## 7. Source cells in new evidence rows
 
-New evidence rows use these short sources. The body or year is inferred where the prompt names none.
+All Source cells are now checked against the pack's source list. Corrections made after the pack arrived:
 
-- Inferred body or year: "Marriott, 2026" (George hotel); "Platform listing snapshot, Mar 2026" (the platform is unnamed); "Department of Tourism, 2026; IDC, 2026" (Tourism Transformation Fund and IDC route); "National legislation; TOMSA, 2026" (levy routes); "DEDAT, 2026" (Red Tape Reduction); "Home Affairs, 2026" (Trusted Tour Operator Scheme and African passport rules); "Western Cape Government, 2026" (N2 patrols); "Formula 1, 2026"; "IAG, 2026; Emirates, 2026"; "IATA, 2026"; "CATHSSETA, 2026"; "Garden Route officials, Mar 2026"; "TGCSA guidance"; "Study team, 2026" (community supply).
-- As the prompt gives them: "Stats SA, 2026"; "CapeNature AFS 2025/26"; "CapeNature budget 2026/27"; "City of Cape Town, Aug 2026"; "ACSA, Feb 2026"; "DEDAT APP 2026/27"; "Brand Finance, 2023"; "Wesgro annual report, 2024/25"; "SANParks tariffs, 2026".
+- N2 motorist assists: "City of Cape Town, Jan 2026" (the first build named the Province).
+- Listing snapshots: "Inside Airbnb, Mar 2026". The body text still says "one platform", as your P5 wording has it.
+- Tourism Transformation Fund approvals: "National Empowerment Fund, May 2026" (a government news report quoting the fund).
+- Trusted Tour Operator Scheme: "Home Affairs APP 2026/27". African passport rules: "South African High Commission, London, Nov 2026".
+- ETA launch and fee: "Presidency, Aug 2026; Government Gazette 55209, Aug 2026; trade reporting, Nov 2026".
+- Levy routes: the two Acts by name and year, with TOMSA.
+- Community supply: "Cape Town Tourism directory, 2026".
+- Southern Line: "PRASA timetable, relayed Feb 2026; Cape Argus, Apr 2026".
+
+No source was added to a table source note or to A9 (P2).
 
 ## 8. Recheck before launch
 
@@ -260,12 +268,12 @@ Evidence was checked on 9 November 2026. These facts can move.
 
 ## 9. QA checks
 
-1. Every XML part parses (77 parts). The docx skill's validator passes against v13.1. LibreOffice converts without error: 205 pages against 186.
-2. Pages viewed as PNG: the executive summary, 1.3, the new 2.2 and 2.3 subsections, 2.4, objectives 9 to 14 and 18 to 20, the charters, 4.1 to 4.8, Table 4.5, 5.1 to 5.5, Table A.14, A8 and A9. No overlaps or broken tables. Evidence cells in Table 4.5 were shortened after the first render. Two headings sit low on a page with their lead paragraph (5.3 and A9), as the layout allows.
+1. Every XML part parses (77 parts). The docx skill's validator passes against v13.1. LibreOffice converts without error: 207 pages against 186.
+2. Pages viewed as PNG: the executive summary, 1.3, the new 2.2 and 2.3 subsections, 2.4, objectives 9 to 14 and 18 to 20, the charters, 4.1 to 4.8, Table 4.5, 5.1 to 5.5, Table A.14, A8 and A9. The pages holding the new Table 2.8, the filled Table A.14 and the longer Table 5.7 were viewed again after the pack edits. No overlaps or broken tables. Evidence cells in Table 4.5 were shortened after the first render. Two headings sit low on a page with their lead paragraph (5.3 and A9), as the layout allows.
 3. Residual sweep: zero hits for "no mid-scale branded", "fully operational", "bars bank-card", "blocks bank-card", "no cushion", "additional research", "the pack", "supplementary research", "rural properties", "ecosystem", em dashes and en dashes. "eVisa" appears seven times, all as history or closure. "Domestic travel" appears once, in the new executive summary sentence, not as a heading. "Tourist Safety Programme" appears three times, as the framework's 2019 to 2024 plan beside the services that now run. No footnote was written: all 414 match v13.1 word for word, and one moved with its statement from objective 14 to objective 13.
 4. Headings in the executive summary and Chapters 1 and 2: none exceeds six words. The new headings are "Domestic tourism and study scope", "Regional recognition" and "Short-term rentals and residents".
 5. Oxford comma: six list commas found in new text and fixed. The remaining ", and" cases join two clauses.
-6. Cross-references: every section, table and figure reference resolves. Captions run in sequence (figures 23, tables 78). Every indicator code from T1-01 to T3-41 is defined and used.
+6. Cross-references: every section, table and figure reference resolves. Captions run in sequence (figures 23, tables 79). Every indicator code from T1-01 to T3-41 is defined and used.
 7. Consistency: the 139 "Who acts" rows match A7 exactly, checked by program. Indicator changes match Tables 5.1, 5.3 and 5.4, A8 and the charters. I13's new name appears in every location, the Figure 4.1 picture included.
 8. Footnotes: 414 references and 414 footnotes, none unreferenced, renumbered into reference order.
 9. Word counts: section 2 above.
@@ -276,3 +284,44 @@ Evidence was checked on 9 November 2026. These facts can move.
 - Contents is a TOC field with refreshed cached entries; `w:updateFields` is kept. The Figures and Tables lists are rebuilt with page numbers from `v14_render.pdf`.
 - Figures 4.1 and 5.1 are pictures. Their labels were patched in the image files (I13's name; 139 actions; 41 and 29 indicators).
 - All 44 Word comments survive.
+
+## 11. Pack reconciliation
+
+The pack arrived after the first v14 build. I read chapters 1 to 14 in full, plus the reconciliation table and the source list. Its action planning (schedule, dates, owners, allowances, scorecard, levy arithmetic) is not imported (P3). Named private individuals, party pledges and councillors' statements are left out (D11).
+
+**Figures.** Every figure the prompt gave matches the pack. No number in v14 changed.
+
+**What the pack added to v14**
+
+| Item | Change |
+|---|---|
+| Table A.14 | Fourteen cases with mechanism, reported result and what transfers. Results are the sponsors' or evaluators' own and are not causal estimates |
+| "Why it can work" | Short comparator paragraphs in objectives 2 (Tasmania; Melbourne Grand Prix), 7 (Queensland; Scottish evaluation), 9 (Edinburgh Airlink), 12 (timed entry in three US parks) and 19 (Kenya's ETA) |
+| 2.3 | Table 2.8, six Cape Town wards, from the 23 September 2026 listings |
+| Objective 19 | One sentence: the reported ETA list covers 17 African markets, Ghana, Kenya and Nigeria among them, and platform access does not change visa status |
+| Table 5.7 | Five more gaps from the pack's "What remains unknown" lists |
+| Source cells and attributions | Section 7 |
+| Abbreviations | CATHSSETA corrected to "Culture, Arts, Tourism..."; TOMSA added |
+
+**The pack's "Evidence gaps and material reconciliations" table, row by row**
+
+| Pack row | How v14 handles it |
+|---|---|
+| Regional brand | 2.2 states the city reputation and the missing awareness measure. Branding is "one cause among several"; no causal claim. I16 builds the aided and unaided baseline |
+| Domestic geography and purpose | 1.3 uses the provincial 2025 values only. It states that domestic demand is not counter-seasonal by default. Table 5.7 now lists domestic trips by month and purpose as a gap |
+| Safety provision and horizon | The services are stated as running (C5). Coverage, eligibility and handoffs are the open questions. I17 reviews the workstream at the end of 2028 before expansion. The pack's 2031 horizon is not imported |
+| Operational counts and outcomes | The distinctions hold throughout: a road assist is not a crime rate, people trained are not people placed, a visa issued is not an arrival, a bid won is not a winter night |
+| Later nature and water evidence | CapeNature's 2025/26 accounts and the City's 19 August 2026 water position are the figures used. Planned supply is not commissioned headroom |
+| Accommodation gap | C1 applied everywhere. The George hotel is named, and the product test replaces the general claim |
+| Short-term letting policy | The 2.41 ratio and the rating threshold are stated as a rate, not a limit on letting. The by-law is described as consulted on, with category changes anticipated, not as enacted |
+| Funding availability | The Green Tourism Incentive Programme is stated as closed pending review. Tourism Transformation Fund figures are approvals, not disbursements |
+| Expanded programme costs | Not imported (P3, D7). Section 4.6 keeps the cost-band open item and says no levy proceeds fund essential near-term operations |
+
+**Pack findings considered and left out**
+
+- The domestic and VFR workstream, the voucher option and the two-corridor test (P4, D11).
+- The readiness-record instrument as such (P3). Its substance sits in I13 as node readiness assessments.
+- Stakeholder positions, except where the prompt's text already carries them (D10).
+- International short-term rental rules and the rent and price coefficients (D11). 2.3 keeps one sentence on their existence.
+- Comparators with no action to support in this report (Brand USA, Gautrain, Sydney, Thailand, Bali and others).
+
