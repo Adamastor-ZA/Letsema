@@ -2,13 +2,59 @@
 
 Unlocking Tourism Growth: An Action Plan for the Western Cape to 2035. Draft v12.1 to draft v13. Prepared 10 November 2026.
 
-Outputs in this folder: `Unlocking_Tourism_Growth_Final_Report_DRAFT_v13.docx`, `v13_render.pdf` (LibreOffice render, 186 pages) and this log. v12.1 was not touched. All edits were made in the original Word package; nothing was rebuilt from another format.
+Outputs in this folder: `Unlocking_Tourism_Growth_Final_Report_DRAFT_v13.docx`, `v13_render.pdf` (LibreOffice render, 186 pages) and this log. The later cruise update is `Unlocking_Tourism_Growth_Final_Report_DRAFT_v13.1.docx` with its PDF; see the addendum. v12.1 was not touched. All edits were made in the original Word package; nothing was rebuilt from another format.
+
+## v13.1 addendum: cruise evidence moved to the 2025/26 season
+
+Added 10 November 2026, on your instruction. v13 is unchanged in this folder; the update is in `Unlocking_Tourism_Growth_Final_Report_DRAFT_v13.1.docx` and its PDF export. Nothing else in the report changed, bar seven page numbers in the front-matter lists.
+
+**Source.** Wesgro, *Why Cruise to Cape Town & the Western Cape*, October 2026, p29, which prints the headline results of Cruise Cape Town's 2025/26 economic study: 64 cruise liner visits, 106,000 passengers, 37,000 crew, R1.47bn of expenditure, R1.35bn of GDP-R, about R1bn of foreign exchange, 1,701 full-time equivalent jobs in the province and 2,152 nationally. Mossel Bay, Hermanus and Saldanha Bay together took 13 visits and just over 7,150 passengers, worth R11.2m. The study itself is not in hand.
+
+**The reading changes.** Cruise visits fell from 79 to 64 and GDP-R from R1.79bn to R1.35bn, with the berth unchanged. That supports the reframe: the berth was never the limit. "Cruise calls have grown" in 1.1 now reads "Cruise visits fell back in 2025/26".
+
+**Where 2025/26 is now the baseline (30 edits)**
+
+| Place | Change |
+|---|---|
+| Table ES.2 row 8; objective 8 opener | Open on 64 visits in 2025/26, down from 79, against berth room for 150 or more calls |
+| 1.1 "Air and sea access" | Paragraph rewritten around 2025/26, with 2024/25 as the season before |
+| 1.3 "Airlift and cruise"; "Wesgro's five-year targets"; Table 1.3 ship-calls row and Source line | Baseline is 64 visits in 2025/26. Wesgro's 50 a year still sits below today's pace |
+| 2.3 "Cruise circuit and shore capacity" | First paragraph adds the 2025/26 fall; second adds the regional ports' 2025/26 total |
+| 3.2 introduction | Berth sentence updated |
+| Objective 8 | "The opportunity" (two paragraphs), Table 3.8 (three rows, three source cells and the note), stance paragraph, target paragraph and "Why it can work" |
+| Objective 20 | Cruise jobs: 1,701 full-time equivalent jobs in 2025/26 beside the 2024/25 figures (table row, source cell, note and paragraph) |
+| I7 charter risks; risk register row | Evidence now records the fall from 79 to 64 |
+| 5.2 T2-11 baseline and source; 5.3 "Wesgro's targets"; 5.4 data-gap row and data-source row | 2025/26 first, 2024/25 kept for the measures only it carries |
+| A1 rows for objective 8; A8 T2-11 target; A9 prospectus row | Updated to match |
+
+Thirteen footnotes gained the prospectus p29 citation.
+
+**What stays on 2024/25, and why.** The prospectus gives no 2025/26 figure for vessel calls, unique or international passengers, the world-cruise share, taxes or GDP-R after displacement. Those stay as 2024/25 evidence and are dated as such: the 83 calls at the berth, international passengers of 100,255, world cruises as 42 of 79 visits and R802m of GDP-R.
+
+**Open items**
+
+- Opened: "[Cruise Cape Town to supply the StratEcon 2025/26 study: vessel calls, unique and international passengers, the basis of GDP-R and the jobs definition. The prospectus prints the passenger count as 106 00.]" (1.1), and "[Cruise Cape Town to supply the StratEcon 2025/26 study]" (5.4 data sources).
+- Reworded: the Mossel Bay item in 2.3 now reads "[Open item: reconcile the Mossel Bay counts and the 2025/26 regional total against each source's definitions.]"
+- Open items in the report: 60 (58 in v13).
+
+**Questions this raises**
+
+1. **Passenger basis.** The prospectus prints "106 00 passengers", which I read as 106,000. In 2024/25 StratEcon counted 127,128 passenger counts and 106,315 unique passengers. If the 2025/26 figure is unique passengers, passenger volume was flat; if it is passenger counts, it fell 16%. The report therefore says visits fell and states the passenger figure without a comparison.
+2. **T2-11 target.** A8 proposes "at or above the 79 vessel visits of 2024/25". With the baseline at 64 that is now a recovery target. I kept it and added "from 64 in 2025/26". Confirm, or reset the level at Gate 1.
+3. **Risk rating.** "Cruise growth reverses as Red Sea reroutes end" is rated medium likelihood and medium impact. Visits have now fallen. I added the evidence and left the rating, because the ES risk counts depend on it and the cause is not in a source I may cite.
+4. **Jobs figures.** The prospectus line reads "1 701 full-time equivalent jobs provincially and 2 152 nationally (893 direct jobs)". It is unclear whether the 893 is provincial or national, so I did not use it. The 2025/26 and 2024/25 job counts may not share a definition; the text says so.
+5. **Regional ports.** Thirteen visits across three ports in 2025/26 sits below Mossel Bay's 21 calls in 2024/25 and its expected 23. The counts may differ by definition; the open item covers it.
+6. **The prospectus contradicts itself.** The same page says cruise calls and passenger arrivals "have increased annually" since the new terminal. Its own figures show a fall. I used the figures.
+
+**Corroboration, not cited in the report.** Press coverage of StratEcon's study, presented at Cruise Cape Town's Annual Review 2026, gives the same season: 64 vessels, 106,240 passengers, 37,200 crew, R1.35bn of GDP and R1.47bn of expenditure ([Cape Town Etc, 23 October 2026](https://www.capetownetc.com/lifestyle/cruise-tourism-injects-r5-7-billion-into-western-cape-economy-over-four-seasons/); [Engineering News, 6 November 2026](https://www.engineeringnews.co.za/article/superyachts-cruise-ships-prove-to-be-big-business-for-cape-town-2026-11-06)). Cape Town Etc links the season to cancellations from the conflict in the Middle East and says international passengers stayed above the 2022/23 and 2023/24 levels. Those two points would sharpen the reroute risk and the value argument, but they are not from a source named for this pass, so they are not in the body. I read the Cape Town Etc article; the Engineering News piece I saw only as a search result.
+
+**QA on v13.1.** Schema validation passes. LibreOffice renders 186 pages. Comment markers intact (44 comments, 22 resolved threads). 414 footnotes, none orphaned. Contents, Figures and Tables page numbers refreshed and stable over two passes. Residual sweep unchanged from v13.
 
 ## 1. Questions for Michael
 
 These are the cases the prompt's decisions did not cover, or where a source contradicted a draft passage. Everything else is done.
 
-1. **The cruise prospectus named in the prompt is offline, and the live edition carries a weaker season.** The 2025 file returns a 404 and has no archived copy. Wesgro's Cruise Cape Town page now carries the same title as an October 2026 edition (32 pages). I used that edition for the itineraries, the four ports, the coach queue, the 226 m berth and the Big 6, and cited its page numbers. It reports 2025/26, not 2024/25: 64 cruise liner visits, 106,000 passengers and R1.35bn of GDP-R, against the 79 visits, 127,178 passengers and R1.79bn the report uses. The body still runs on 2024/25. Do you want the cruise evidence moved to 2025/26? It would change "cruise calls have grown" in 1.1 and the baseline for T2-11.
+1. **Resolved in v13.1.** The cruise evidence now runs on the 2025/26 season; see the addendum below. The prospectus named in the prompt is still offline, and the October 2026 edition of the same title remains the source.
 2. **The 79 and 83 reconciliation rests on a different Wesgro source.** The phrase the prompt quotes from the 2025 prospectus could not be checked there. Wesgro's own release of 13 September 2025 gives "79 cruise ships arrivals (83 vessel arrivals)" and 127,000 passengers, so I used the reconciliation and cited the release. Confirm you are content with that citation.
 3. **Table 1.3 still carries the two readings of Wesgro's arrivals target.** Item 8 kept the table and cut the prose. The first row and the table's message line still say the target is a step change "only if read as a rise in yearly arrivals by 2030". Trim them to one reading, or leave them?
 4. **"(computed)" in tables.** D20 covers body text and keeps table notes. I removed "(computed)" from body paragraphs and from table cells in the summary and Chapters 1 to 5 (Table 1.3, four cells), and left it in table Source and Note lines. Two Chapter 5 baseline cells read "(2025, computed)" and one charter cell cites a source "; computed"; I left those. Say if you want them out.
