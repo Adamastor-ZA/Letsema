@@ -12,7 +12,7 @@ Added 10 November 2026, on your instruction. v13 is unchanged in this folder; th
 
 **The reading changes.** Cruise visits fell from 79 to 64 and GDP-R from R1.79bn to R1.35bn, with the berth unchanged. That supports the reframe: the berth was never the limit. "Cruise calls have grown" in 1.1 now reads "Cruise visits fell back in 2025/26".
 
-**Where 2025/26 is now the baseline (30 edits)**
+**Where 2025/26 is now the baseline (40 paragraphs and table cells)**
 
 | Place | Change |
 |---|---|
