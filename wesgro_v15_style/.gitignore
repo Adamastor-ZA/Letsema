@@ -1,0 +1,4 @@
+# Working copies: the input is wesgro_v15/…v15.1.docx; the brief and the pandoc reading copy are not published
+input/
+tourism-report-style-brief.md
+output/report_v15.1.md
