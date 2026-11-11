@@ -4,6 +4,8 @@ Status after the edit. Queries that block the executive summary come first. Quer
 
 Counts: 71 entries. Q1 to Q27 were raised before the edit (12 block the executive summary). Q28 to Q71 were raised during it. Two are answered in the text and need only the author's confirmation: Q8 and Q12. The five checkpoint decisions (number format, "case", summary tables, chapter order, no owners table) were approved before the edit and are recorded in `edit_log.md`.
 
+Section, figure and table numbers in this log are those of the edited file, after section 1.2 moved to open Chapter 2.
+
 Placeholders in the text: 16, each written `[[QUERY Qn: ...]]` and inserted as a tracked change at the first place the issue bites. They are Q1 (twice: summary and 4.6), Q2, Q4, Q5, Q6, Q7, Q10, Q11, Q13, Q14, Q15, Q16, Q17, Q25 and Q26. Rejecting the tracked insertion removes a placeholder.
 
 ---
@@ -31,8 +33,8 @@ Status: Figure ES.2 is unchanged and still prints the short forms.
 Placeholder in text: none
 
 ### Q4 (blocks executive summary): "growth markets" and "acceleration markets"
-Location: Executive summary, "A viable target to 2035", para 2, and Table ES.1 message; 2.3 lead and "Growth scenarios to 2035"; Figure 2.11; A2
-Issue: The growth model's group is "acceleration" (India, China with Hong Kong, the Middle East and Brazil appear in it). The prose says "growth markets" 20 times and never defines them. Figure 2.11 calls India, China and the Gulf "three growth markets".
+Location: Executive summary, "A viable target to 2035", para 2, and Table ES.1 message; 2.3 lead and "Growth scenarios to 2035"; Figure 2.12; A2
+Issue: The growth model's group is "acceleration" (India, China with Hong Kong, the Middle East and Brazil appear in it). The prose says "growth markets" 20 times and never defines them. Figure 2.12 calls India, China and the Gulf "three growth markets".
 Options: (a) "growth markets" means the model's acceleration group, defined once (b) "growth markets" means India, China and the Gulf (c) other
 Placeholder in text: [[QUERY Q4: which markets are the growth markets?]]
 
@@ -50,7 +52,7 @@ Options: (a) "Gulf" for the market, with "Middle East" kept only where a source'
 Placeholder in text: [[QUERY Q6: Gulf, Middle East or GCC?]]
 
 ### Q7 (blocks executive summary): financial-year notation
-Location: Executive summary lead ("FY25/26", "FY19/20"); "Where the province stands" ("FY2024", "FY2025"); Table ES.5; 1.2; 2.3; 5.3
+Location: Executive summary lead ("FY25/26", "FY19/20"); "Where the province stands" ("FY2024", "FY2025"); Table ES.1; the opening of Chapter 2; 2.3; 5.3
 Issue: Three notations are in use: "FY25/26" (32 uses), "FY2025" (29) and "2026/27" (budget and season years). The text does not say whether FY2025 is the year to March 2025. If it is, the spend figure for "FY2025" and the arrivals figure for "FY24/25" are the same year under two names.
 Options: (a) one notation, "2024/25", for every financial year (b) keep the source's notation and add one sentence in 1.1 that maps them (c) other
 Placeholder in text: [[QUERY Q7: is FY2025 the same year as FY24/25?]]
@@ -63,20 +65,20 @@ Status: option (a) applied as a change of rounding only. The summary now gives 1
 Placeholder in text: none
 
 ### Q9 (blocks executive summary): the headline impact
-Location: Executive summary, Table ES.5 and the paragraph below it; 5.3
+Location: Executive summary, Table ES.1 and the paragraph below it; 5.3
 Issue: The summary must state one headline impact. Arrivals have a target (2.5 million). Spend has a base-case value only (R40.6bn, constant 2024 rand, on a model base 19% above the reported figure, and "to be rebased"). Jobs and GDP have no target. The spend value is printed as R40.6bn and R40.59bn.
 Options: (a) headline impact is arrivals alone, with spend stated as a base-case value still to be rebased (b) the author supplies a rebased spend figure (c) other
 Status: the summary now says arrivals are the first measure of success and that the spend path is to be rebased. No spend, jobs or GDP target is claimed.
 Placeholder in text: none
 
 ### Q10 (blocks executive summary): the 2025 base and the airport count
-Location: Executive summary lead (1.57 million in FY25/26) and third paragraph ("about 1.5 million in 2025"); Table ES.5; 5.3
+Location: Executive summary lead (1.57 million in FY25/26) and third paragraph ("about 1.5 million in 2025"); Table ES.1; 5.3
 Issue: Two arrivals bases sit side by side: the model's 1,498,829 for 2025 and the airport count of 1.57 million for FY25/26. What the model counts is not confirmed. Open-items register OI-50 and OI-51.
 Options: (a) keep both, with the existing explanation moved up beside the first use (b) the author confirms the model's basis (c) other
 Placeholder in text: [[QUERY Q10: what does the 1,498,829 count?]]
 
 ### Q11 (blocks executive summary): 97 million interested, 1.4 million arrive
-Location: Executive summary, para 2; 2.1, "Interest without conversion"; Table 3.1
+Location: Executive summary, para 2; 2.1, "Interest without conversion"; Table 3.2
 Issue: The 97 million are interested in South Africa. The text does not say whether the 1.4 million arrive in South Africa or in the Western Cape, or in which year. Section 2.2 uses "the province's 1.4m" for 2024 arrivals.
 Options: (a) the author states the place and year (b) leave as the source prints it, with a note that the source gives neither
 Placeholder in text: [[QUERY Q11: 1.4 million arrivals where, and in which year?]]
@@ -151,7 +153,7 @@ Options: (a) the author chooses the headline measure (b) leave
 Placeholder in text: none
 
 ### Q22: seasonal shares that sum to 104.9%
-Location: 2.3; 3.1; Table ES.5 (38.1% normalised); 5.3
+Location: 2.3; 3.1; Table ES.1 (38.1% normalised); 5.3
 Issue: The 2025 month shares sum to 104.9%. The report normalises to 38.1% and 61.9% and says so. Open-items register OI-03.
 Options: (a) leave with the note (b) the author obtains corrected shares
 Placeholder in text: none
@@ -163,7 +165,7 @@ Options: (a) the prospectus figure in the text and the other in the footnote onl
 Placeholder in text: none
 
 ### Q24: smaller sums that do not close
-Location: 2.3 (hub tables sum to 68,564 and 29,015 against "about 71,000" and "about 30,000"); Table 3.3 note (137 meetings against 136); 2.3 (African spend rows sum to R3,944.6m against R4.2bn); 2.5 (92 communities near a node against the 93 printed)
+Location: 2.3 (hub tables sum to 68,564 and 29,015 against "about 71,000" and "about 30,000"); Table 3.4 note (137 meetings against 136); 2.3 (African spend rows sum to R3,944.6m against R4.2bn); 2.5 (92 communities near a node against the 93 printed)
 Issue: Each is already disclosed in a note or footnote. They are listed so the author can confirm that disclosure, not correction, is the intended treatment.
 Options: (a) leave as disclosed (b) correct from source
 Placeholder in text: none
@@ -207,13 +209,13 @@ Options: (a) the author supplies the note (b) the asterisk is removed in the sum
 Placeholder in text: none
 
 ### Q29: sentences that prescribe without naming who acts (extends Q5)
-Location (section: paragraph ids in the Word file): 1.3: 794CFD4B; 2.2: 20123FA6, 2756255E, 7D848BEC, 78CC6FB6; 2.3: 74DEABA7, 5E1CAC34; 2.4: 7FADE1BD, 052580F1; 2.5: 2849538F, 5DE44DCC, 1380FE11; 3.1: 79468B04, 270D4A8B, 00593E1E, 7AB0A809; 3.2: 60BC5846, 557FD955, 749732D4, 74D40ADA, 0349616B, 27B637C3, 43D086D4, 51678D74, 067E2A06, 6A6002A7, 7F1D6AF0; 3.3: 116676CF, 3FD9C372, 75BF16F2, 2EFF19AE, 2EC77CCC, 38632FA1, 3B2D83C3, 0E5C71C0, 3A69BBEA, 536A88B8, 4043CC13, 24F5FC0B, 7FC79505, 159A92DF, 194CE623, 5298561A, 26941C03, 390DB324, 604FC4B0; 4.4: 4DB1A0ED, 1A82C0BA, 25284FE7; 5.3: 7DE9F440; 5.5: 0D8F75CD
+Location (section: paragraph ids in the Word file): 1.2: 794CFD4B; 2.2: 20123FA6, 2756255E, 7D848BEC, 78CC6FB6; 2.3: 74DEABA7, 5E1CAC34; 2.4: 7FADE1BD, 052580F1; 2.5: 2849538F, 5DE44DCC, 1380FE11; 3.1: 79468B04, 270D4A8B, 00593E1E, 7AB0A809; 3.2: 60BC5846, 557FD955, 749732D4, 74D40ADA, 0349616B, 27B637C3, 43D086D4, 51678D74, 067E2A06, 6A6002A7, 7F1D6AF0; 3.3: 116676CF, 3FD9C372, 75BF16F2, 2EFF19AE, 2EC77CCC, 38632FA1, 3B2D83C3, 0E5C71C0, 3A69BBEA, 536A88B8, 4043CC13, 24F5FC0B, 7FC79505, 159A92DF, 194CE623, 5298561A, 26941C03, 390DB324, 604FC4B0; 4.4: 4DB1A0ED, 1A82C0BA, 25284FE7; 5.3: 7DE9F440; 5.5: 0D8F75CD
 Issue: Each of these sentences says what should or must happen, or uses "the province" as the body that acts, and the text around it names no actor. The "Who acts" tables answer with "With partners" and a list of stakeholders. The editors supplied no actor.
 Options: (a) the author names the actor sentence by sentence (b) the wording stays, on the plan's stated position that accountabilities are agreed in 2027
 Placeholder in text: [[QUERY Q5: who acts here: Wesgro, DEDAT or the Western Cape Government?]] (once, in 2.2)
 
-### Q30: section 1.3, paragraph 1EA5210B
-Location: section 1.3, paragraph id 1EA5210B
+### Q30: section 1.2, paragraph 1EA5210B
+Location: section 1.2, paragraph id 1EA5210B
 Issue: Special task 1: 'information, booking and journey barriers' now reads 'barriers to information, booking and travel'. The term sheet maps 'journey barriers' to 'the six barriers', but the sentence lists three kinds of barrier, so the list was kept. Confirm 'journey barriers' meant barriers to the travel itself.
 Options: (a) keep 'barriers to information, booking and travel' (b) replace with 'fewer of the six barriers (section 2.1)'.
 Placeholder in text: none
@@ -244,7 +246,7 @@ Placeholder in text: none
 
 ### Q35: section 2.2, paragraph 3C9FBE45
 Location: section 2.2, paragraph id 3C9FBE45
-Issue: Special task 2, Kenya: the paragraph states no problem. Table 2.1 gives 'Gateway concentration and dispersal beyond safari', but the paragraph only reports that the main airport carries 68% of arrivals, which reads as a result of the hub policy. Paragraph left unchanged; its order already fits the pattern.
+Issue: Special task 2, Kenya: the paragraph states no problem. Table 2.2 gives 'Gateway concentration and dispersal beyond safari', but the paragraph only reports that the main airport carries 68% of arrivals, which reads as a result of the hub policy. Paragraph left unchanged; its order already fits the pattern.
 Options: (a) author adds a sentence stating the problem, with size and year (b) leave as is.
 Placeholder in text: none
 
@@ -298,7 +300,7 @@ Placeholder in text: none
 
 ### Q44: section 2.4, paragraph 7E0B1CEE
 Location: section 2.4, paragraph id 7E0B1CEE
-Issue: "Transport, enabling structure and activity attractions are its lowest category scores": "enabling structure" may be a slip for "enabling infrastructure" (the layer name in Table 2.13) or may be a category name in the source. Left unchanged.
+Issue: "Transport, enabling structure and activity attractions are its lowest category scores": "enabling structure" may be a slip for "enabling infrastructure" (the layer name in Table 2.14) or may be a category name in the source. Left unchanged.
 Options: (a) "enabling infrastructure" (b) leave if the source category is "enabling structure"
 Placeholder in text: none
 
@@ -334,7 +336,7 @@ Placeholder in text: none
 
 ### Q50: section 3.1, paragraph 3D9B902E
 Location: section 3.1, paragraph id 3D9B902E
-Issue: R1: the caption of Table 3.1 reads 'Conversion barriers and the objectives that answer them'. The term sheet lists 'conversion barriers' as a variant of 'the six barriers'. Captions are locked, so it is not changed.
+Issue: R1: the caption of Table 3.2 reads 'Conversion barriers and the objectives that answer them'. The term sheet lists 'conversion barriers' as a variant of 'the six barriers'. Captions are locked, so it is not changed.
 Options: (a) 'The six barriers and the objectives that answer them' (b) leave
 Placeholder in text: none
 
@@ -352,7 +354,7 @@ Placeholder in text: none
 
 ### Q53: section 3.2, paragraph 3905D2E9
 Location: section 3.2, paragraph id 3905D2E9
-Issue: Coach queue differs between text and table: 'the terminal queues about ten coaches at a time' here and in 2.4, against 'Queue space for up to 10 coaches' in Table 3.9 [1C1CD2BA].
+Issue: Coach queue differs between text and table: 'the terminal queues about ten coaches at a time' here and in 2.4, against 'Queue space for up to 10 coaches' in Table 3.11 [1C1CD2BA].
 Options: (a) 'up to ten' in the text (b) 'about 10' in the table (c) leave, if the sources differ
 Placeholder in text: none
 

@@ -91,18 +91,44 @@ def renum(t):
     def grp(m):
         return m.group(1) + re.sub(r'3\.(\d+)', lambda x: '3.%d' % tmap(x.group(1)), m.group(2))
     t = re.sub(r'(Tables? )(3\.\d+(?:(?:, | and | to )3\.\d+)*)', grp, t)
+    # section 1.2 moved to open Chapter 2: its figure and table become 2.1, the rest shift
+    def ft(m):
+        kind = m.group(1)
+        def one(x):
+            c, k = int(x.group(1)), int(x.group(2))
+            if c == 1: return '2.1' if k == 1 else '1.%d' % (k - 1)
+            return '2.%d' % (k + 1)
+        return kind + re.sub(r'([12])\.(\d+)', one, m.group(2))
+    t = re.sub(r'((?:Figures?|Tables?) )([12]\.\d+(?:(?:, | and | to )[12]\.\d+)*)', ft, t)
+    def sec(m):
+        return m.group(1) + re.sub(r'\b1\.([34])\b', lambda x: '1.%d' % (int(x.group(1)) - 1), m.group(2))
+    t = re.sub(r'([Ss]ections? )(\d\.\d(?:(?:, | and | to )\d\.\d)*)', sec, t)
     return t.replace('Table ES.5', 'Table ES.1')
 moved_src = {'69417BDB': ('10397D18', '2ADAA706', 'Table 3.1.'), '4AA2F9E4': ('695972EC', None, 'Table 3.9.'), '2733F456': ('0F314656', None, 'Table 3.16.')}
-skip = set(es_del) | set(moved_src) | {v[0] for v in moved_src.values()} | {'1AFA7412'}
+S12 = [it for it in walk(d) if it['sec'] == '1.2']
+s12_text = {it['pid']: curtext(it['pid']) for it in S12}
+skip = set(es_del) | set(moved_src) | {v[0] for v in moved_src.values()} | {'1AFA7412'} | set(s12_text)
 for it in list(walk(d)):
     if it['sec'] in ('FRONT', 'COVER') or it['pid'] in skip: continue
     t = store.get(it['pid'], marked_plain(it['p']))
-    if 'Table' in t:
-        n = renum(t)
-        if n != t: store[it['pid']] = n
+    n = renum(t)
+    if n != t: store[it['pid']] = n
 for fp in d.fnroot.iter(q('w:p')):
     t = marked_plain(fp)
-    if 'Table' in t and renum(t) != t: T.rewrite(fp, renum(t))
+    if renum(t) != t: T.rewrite(fp, renum(t))
+for pid in s12_text: store.pop(pid, None)
+# headings and sentences that change with the move (written in the new numbering)
+store['0B00A54E'] = '1.2 Approach and method'
+store['48D56842'] = '1.3 How to read this report'
+def resub(pid, pat, rep):
+    t0 = curtext(pid); t1 = re.sub(pat, rep, t0)
+    if t1 == t0: print('MOVE SUB MISS', pid, pat)
+    store[pid] = t1
+resub('54A5FF22', r'Chapter 1 sets out what Wesgro asked for, the system at a glance and how the work was done\. Chapter 2 sets out', 'Chapter 1 sets out what Wesgro asked for and how the work was done. Chapter 2 opens with the system at a glance and sets out')
+resub('4F7BC4A5', r'the recovery baseline used in Chapter 1', 'the recovery baseline used in Chapter 2')
+resub('0FC1C520', r'^Five parts build the case', 'The chapter opens with the system at a glance. Five parts build the case')
+resub('17B42456', r'^Interest is not what holds the province back; converting it is\.', 'None of these features is a shortage of interest in the province. Interest is not what holds it back; converting it is.')
+resub('75F07A5F', r'reached 1\.44 million in FY24/25 against 1\.16 million in FY19/20, and 1\.57 million in FY25/26\.', 'reached 1.57 million in FY25/26, 35% above FY19/20 (Figure 2.1).')
 
 # ---------- moved tables (copies made before anything is rewritten)
 def next_tbl(p):
@@ -137,6 +163,46 @@ for pid in ('60881121', '5441FEFB'): T.delete_para(d.P(pid))
 cap4 = d.P('1AFA7412'); t4 = next_tbl(cap4)
 for p in t4.iter(q('w:p')): store.pop(p.get(q('w14:paraId')), None)
 T.delete_para(cap4); T.delete_table(t4)
+
+# ---------- section 1.2 moves to open Chapter 2
+def del_para_full(p):
+    runs = [c for c in p if c.tag == q('w:r') and c.find(q('w:commentReference')) is None]
+    if runs:
+        dl = T.E('w:del'); p.insert(list(p).index(runs[0]), dl)
+        for r in runs:
+            for tt in r.findall(q('w:t')): tt.tag = q('w:delText')
+            dl.append(r)
+    T._mark_ppr(p, 'del')
+def relabel(cp, label):
+    for r in cp.iter(q('w:r')):
+        for tt in r.findall(q('w:t')):
+            if tt.text and re.match(r'\s*(Figure|Table) 1\.1\.', tt.text): tt.text = label + (' ' if tt.text.endswith(' ') else '')
+    return cp
+P12 = {k: d.P(k) for k in s12_text}
+tbl12 = next_tbl(P12['663A9E58'])
+ctbl = copy.deepcopy(tbl12)
+for p in ctbl.iter(q('w:p')):
+    pid = p.get(q('w14:paraId'))
+    if s12_text.get(pid) is not None and s12_text[pid] != marked_plain(p): rewrite_paragraph(p, s12_text[pid])
+img = T.copy_para_inserted(P12['353F8D08'])
+for dp in img.iter('{http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing}docPr'): dp.set('id', '9101')
+blockA = [T.new_para(P12['7E4085F3'], s12_text['7E4085F3'])]
+blockB = [T.new_para(P12['12E2E455'], s12_text['12E2E455']),
+          T.new_para(P12['50322939'], s12_text['50322939']),
+          img,
+          T.copy_para_inserted(relabel(copy.deepcopy(P12['62123CC1']), 'Figure 2.1.')),
+          T.new_para(P12['605FB354'], 'Six facts describe the system, and this chapter develops each. The table gives the headline number and the section that carries the evidence.'),
+          T.copy_para_inserted(relabel(copy.deepcopy(P12['6C77AA6C']), 'Table 2.1.')),
+          T.copy_para_inserted(P12['663A9E58']),
+          T.insert_table_copy(ctbl),
+          T.copy_para_inserted(P12['1118B686'])]
+insert_before(d.P('0FC1C520'), *blockA)
+insert_after(d.P('0FC1C520'), *blockB)
+for pid, p in P12.items():
+    if tr_of(p) is not None: continue
+    if pid == '353F8D08': del_para_full(p)
+    else: T.delete_para(p)
+T.delete_table(tbl12)
 
 # ---------- rewrites, inserts, deletes
 for pid in es_del + deletes: store.pop(pid, None)
@@ -223,7 +289,9 @@ def sync(h_text, desired, keyf, styles):
     h = [p for p in d.body.findall(q('w:p')) if pstyle(p) == 'Heading1Front' and ptext(p).strip() == h_text][0]
     ent = []; n = h.getnext()
     while n is not None and pstyle(n) in styles: ent.append(n); n = n.getnext()
-    def title(s): return re.sub(r'^(Figure|Table) [A-Z0-9.]+\.\s*', '', s.split('\t')[0]).strip()
+    def title(s): return re.sub(r'^((Figure|Table) [A-Z0-9.]+\.|\d\.\d)\s*', '', s.split('\t')[0]).strip()
+    def chap(s):
+        m = re.match(r'^(Figure|Table) ([A-Z]+|\d+)', s); return m.group(2) if m else ''
     old = [(e, ptext(e)) for e in ent]
     used = set(); anchor = h; res = 0
     oldmap = {}
@@ -232,7 +300,7 @@ def sync(h_text, desired, keyf, styles):
     for des in desired:
         label, pg = des
         cand = [x for x in oldmap.get(title(label), []) if id(x[0]) not in used]
-        moved = cand and cand[0][1].startswith('Table ES.') and label.startswith('Table 3.')
+        moved = cand and chap(cand[0][1]) != chap(label)
         page = (pages or {}).get(keyf(label))
         if cand and not moved:
             e, s = cand[0]; used.add(id(e))
@@ -260,5 +328,20 @@ dr.text((412, 192), 'Only the accelerated case reaches 2.5m by 2035; the', font=
 dr.text((412, 254), 'base case reaches about 2.2m.', font=f, fill=ink)
 im.save(ip, optimize=True)
 
+
+def order_footnotes(d):
+    """footnotes.xml in the order the references appear (LibreOffice reads them by position)."""
+    pos = {}
+    for i, r in enumerate(d.body.iter(q('w:footnoteReference'))): pos.setdefault(r.get(q('w:id')), i)
+    fns = d.fnroot.findall(q('w:footnote'))
+    special = [f for f in fns if f.get(q('w:type')) is not None]
+    normal = sorted([f for f in fns if f.get(q('w:type')) is None], key=lambda f: pos.get(f.get(q('w:id')), 10**9))
+    for f in fns: d.fnroot.remove(f)
+    for f in special + normal: d.fnroot.append(f)
+    # LibreOffice attaches note texts by id order, so ids follow the reference order too
+    newid = {f.get(q('w:id')): str(i) for i, f in enumerate(normal, 1)}
+    for f in normal: f.set(q('w:id'), newid[f.get(q('w:id'))])
+    for r in d.body.iter(q('w:footnoteReference')): r.set(q('w:id'), newid[r.get(q('w:id'))])
+order_footnotes(d)
 d.save()
 print('missing', miss, T.stats, 'figs', len(figs), 'tabs', len(tabs), 'heads', len(heads))

@@ -29,5 +29,20 @@ for root in (d.body, d.fnroot):
 refs = {r.get(q('w:id')) for r in d.body.iter(q('w:footnoteReference'))}
 for f in list(d.fnroot.findall(q('w:footnote'))):
     if f.get(q('w:type')) is None and f.get(q('w:id')) not in refs: d.fnroot.remove(f)
+
+def order_footnotes(d):
+    """footnotes.xml in the order the references appear (LibreOffice reads them by position)."""
+    pos = {}
+    for i, r in enumerate(d.body.iter(q('w:footnoteReference'))): pos.setdefault(r.get(q('w:id')), i)
+    fns = d.fnroot.findall(q('w:footnote'))
+    special = [f for f in fns if f.get(q('w:type')) is not None]
+    normal = sorted([f for f in fns if f.get(q('w:type')) is None], key=lambda f: pos.get(f.get(q('w:id')), 10**9))
+    for f in fns: d.fnroot.remove(f)
+    for f in special + normal: d.fnroot.append(f)
+    # LibreOffice attaches note texts by id order, so ids follow the reference order too
+    newid = {f.get(q('w:id')): str(i) for i, f in enumerate(normal, 1)}
+    for f in normal: f.set(q('w:id'), newid[f.get(q('w:id'))])
+    for r in d.body.iter(q('w:footnoteReference')): r.set(q('w:id'), newid[r.get(q('w:id'))])
+order_footnotes(d)
 d.save()
 print('accepted')

@@ -4,7 +4,7 @@ Deliverable: `Unlocking_Tourism_Growth_Final_Report_DRAFT_v15.1_edited.docx`. Ev
 
 Two PDFs sit beside it. `..._edited_clean.pdf` shows the report with every change accepted (243 pages). `..._edited_redline.pdf` shows every change marked, with deletions struck through and insertions underlined (249 pages). Both are LibreOffice renders, so page breaks can differ slightly from Word.
 
-Size of the edit: 364 paragraphs and table cells changed, 99 inserted and 111 deleted, in about 1,790 tracked revisions. Most deletions and insertions are the rebuilt summary and the three tables moved out of it. The file validates against the original with every difference tracked.
+Size of the edit: 744 paragraphs and table cells changed, 128 inserted and 142 deleted. Most deletions and insertions are the rebuilt summary, the three tables moved out of it and the section moved into Chapter 2. About half the changed paragraphs change only a figure, table or section number. The file validates against the original with every difference tracked.
 
 ## 1. Decisions approved at the checkpoint
 
@@ -32,9 +32,29 @@ Assumed and not yet confirmed: the primary reader (Wesgro's chief executive, boa
 
 **Benchmark cases put into one pattern.** In 2.2, four of the six case paragraphs are reordered into problem, responses and result, using only their own sentences. Kenya and Valencia already fitted. Gaps in the cases are queries (Q32 to Q36), not fills. Two lesson sections now open with a claim, a colon and its evidence.
 
-**Voice.** The method passage in 1.3 is rewritten in the report's concrete register with every step kept. Ratings on single stakeholder insights are dropped in Chapters 2 and 3 (about 20 paragraphs) and kept where the rating is the point. "Prints" and "as printed" become "gives" or "reports" in Chapters 1 to 5; every caveat on a figure's basis stays.
+**Voice.** The method passage in the approach section (now 1.2) is rewritten in the report's concrete register with every step kept. Ratings on single stakeholder insights are dropped in Chapters 2 and 3 (about 20 paragraphs) and kept where the rating is the point. "Prints" and "as printed" become "gives" or "reports" in Chapters 1 to 5; every caveat on a figure's basis stays.
 
 **Glossary.** Two rows moved to restore alphabetical order.
+
+**Section 1.2 moved to open Chapter 2 (requested after the first delivery).** "The tourism system at a glance" is no longer a section of Chapter 1. Its lead now opens Chapter 2, and its arrivals paragraph, figure and six-number table follow the chapter's first paragraph. It is merged with the chapter introduction, not kept as a numbered section:
+- The roadmap paragraph now begins "The chapter opens with the system at a glance."
+- The section's closing paragraph is dropped. Its one new point, "None of these features is a shortage of interest in the province", now opens the chapter's findings paragraph, which already made the rest of the argument.
+- The first paragraph of 2.1 no longer repeats the FY24/25 and FY19/20 counts. It gives the FY25/26 count, "35% above FY19/20", and points to the figure.
+- The chapter map in Chapter 1 and one sentence in 5.3 now say the system at a glance and the recovery baseline are in Chapter 2.
+
+Renumbering that follows from the move:
+
+| Item | Before | After |
+|---|---|---|
+| Sections | 1.3 Approach and method; 1.4 How to read this report | 1.2; 1.3 |
+| Figure 1.1, International arrivals | Figure 1.1 | Figure 2.1 |
+| Figures 1.2 and 1.3 | 1.2, 1.3 | 1.1, 1.2 |
+| Figures 2.1 to 2.29 | 2.1 to 2.29 | 2.2 to 2.30 |
+| Table 1.1, The system in six numbers | Table 1.1 | Table 2.1 |
+| Table 1.2 | 1.2 | 1.1 |
+| Tables 2.1 to 2.21 | 2.1 to 2.21 | 2.2 to 2.22 |
+
+Every in-text reference, source line, footnote, caption and list entry follows. The eighteen Chapter 2 figures added in v15.1 each move up by one, so the file names in `v15.1_figure_scripts/` are now one behind the figure numbers. `numbers_register.csv` keeps the section numbers of v15.1 as received: its "1.2" is now the opening of Chapter 2, and its "1.3" and "1.4" are now 1.2 and 1.3.
 
 **Not done, and why.** The plan proposed a sentence on indicators under each "Why it can work" and a pointer to Appendix A7 under each "Who acts" table. Neither was needed: every "Link forward" paragraph already names the initiative and its indicators.
 
@@ -50,7 +70,9 @@ Assumed and not yet confirmed: the primary reader (Wesgro's chief executive, boa
 | Mechanics | "toward" to "towards" (11); one semicolon doing a colon's job; "COVID-19" (13); a space before "km" (5); "the Province" to "the Western Cape Government" (6); "Turkiye" to "Turkey" |
 | Wrong words and leftovers | One verbless lead in 5.5, one passive left on an active list in A6 and one unclear pronoun in 3.1 fixed. Nine more are queries |
 
-Two things changed that tracked changes cannot show. The callout drawn inside the image of Figures ES.1 and 5.2 now says "case" where it said "path". And 5 footnotes were re-created with new numbers because their reference moved; Word renumbers them on opening.
+Two things changed that tracked changes cannot show. The callout drawn inside the image of Figures ES.1 and 5.2 now says "case" where it said "path". And 6 footnotes were re-created because their reference moved, after which the footnote ids in the file were renumbered to follow reference order. No footnote text changed.
+
+**A fault in the first PDFs, now corrected.** LibreOffice attaches footnote texts by id order, not by reference. In the first clean and redline PDFs the re-created footnotes sat at the end of the id sequence, so from the first of them onward the notes printed under the wrong numbers. The Word file was not affected. The ids now follow reference order, and all 492 notes were checked against the rendered PDF.
 
 ## 4. Numbers, dates and facts
 
@@ -103,7 +125,7 @@ Measured on the edited file with all changes accepted.
 - [x] **Stray characters.** No repeated words or unfinished paragraphs. One verbless sentence fixed (5.5).
 - [x] **Acronyms.** ACSA, ETA, DEDAT and PRASA are expanded at first use in the summary. Open: "Statistics South Africa" and "South African Tourism" first appear in Chapter 2 without their short forms, and "Electronic Travel Authorisation" appears in 2.3 without "(ETA)". Not changed, because adding a bracketed form in three places is the author's call.
 - [x] **Glossary.** Now alphabetical, one entry per term, expansions correct. Open: no entry for the conservative case; "seat capacity marker" is defined but not used in Chapters 1 to 5.
-- [x] **Captions and cross-references.** The 41 figure and 89 table captions match their lists word for word. Contents, both lists and all page numbers were rebuilt from the accepted text and are stable at 243 pages. Both in-text references to a Chapter 3 table point to the right table.
+- [x] **Captions and cross-references.** The 41 figure and 89 table captions match their lists word for word. Contents, both lists and all page numbers were rebuilt from the accepted text and are stable at 243 pages. Every in-text reference to a Chapter 1 or Chapter 2 figure or table resolves to a caption, and both in-text references to a Chapter 3 table point to the right table.
 - [x] **Links and field errors.** None.
 - [x] **Image descriptions.** No auto-generated text.
 - [ ] **Comments and tracked changes.** The file still carries 44 comments from earlier rounds (22 by Michael Harris, 22 by Claude). They are left in place and not resolved (Q27). No earlier tracked changes existed.

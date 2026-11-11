@@ -106,7 +106,7 @@ terminal evaluation
 # Self-reference. Three referents, one name each.
 # "this report" is the document. "the plan" is the action plan it sets out ("this
 # action plan" is allowed at first use in a chapter). "this study" is the commissioned
-# work and stays in 1.1 and 1.3 only.
+# work and stays in 1.1 and 1.2 (Approach and method) only.
 the plan | the strategy
 
 # ---------------------------------------------------------------------------

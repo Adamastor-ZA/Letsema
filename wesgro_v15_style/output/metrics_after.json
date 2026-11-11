@@ -1,9 +1,9 @@
 {
   "metrics": {
-    "prose_words": 53027,
-    "sentences": 3302,
-    "mean_sentence_words": 16.8,
-    "median_sentence_words": 16.0,
+    "prose_words": 52998,
+    "sentences": 3301,
+    "mean_sentence_words": 16.7,
+    "median_sentence_words": 16,
     "p90_sentence_words": 27,
     "pct_sentences_over_35": 0.3,
     "pct_sentences_12_or_fewer": 31.8,
@@ -85,8 +85,8 @@
     ],
     "internal_or_draft_links": [],
     "summary_reuse_by_section": [
-      "CONTEXT: 3",
       "FINDINGS AND RECOMMENDATIONS: 3",
+      "CONTEXT: 3",
       "ANALYSIS AND INSIGHTS: 1"
     ],
     "cross_chapter_duplicate_sentences": [],

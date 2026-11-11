@@ -2,10 +2,10 @@
 
 | Metric | Value | Target | Result |
 |---|---|---|---|
-| prose_words | 53027 |  |  |
-| sentences | 3302 |  |  |
-| mean_sentence_words | 16.8 | <= 22 | PASS |
-| median_sentence_words | 16.0 |  |  |
+| prose_words | 52998 |  |  |
+| sentences | 3301 |  |  |
+| mean_sentence_words | 16.7 | <= 22 | PASS |
+| median_sentence_words | 16 |  |  |
 | p90_sentence_words | 27 | <= 32 | PASS |
 | pct_sentences_over_35 | 0.3 | <= 5 | PASS |
 | pct_sentences_12_or_fewer | 31.8 | >= 15 | PASS |
@@ -44,8 +44,8 @@
 
 - FOREWORD: 1 sentences, mean 13.0, 0% over 35 words
 - EXECUTIVE SUMMARY: 92 sentences, mean 16.2, 0% over 35 words
-- CONTEXT: 167 sentences, mean 17.1, 0% over 35 words
-- ANALYSIS AND INSIGHTS: 1361 sentences, mean 17.0, 0% over 35 words
+- CONTEXT: 154 sentences, mean 17.1, 0% over 35 words
+- ANALYSIS AND INSIGHTS: 1373 sentences, mean 16.9, 0% over 35 words
 - FINDINGS AND RECOMMENDATIONS: 1381 sentences, mean 16.4, 1% over 35 words
 - EXECUTION PLAN: 164 sentences, mean 18.0, 1% over 35 words
 - MONITORING AND EVALUATION FRAMEWORK: 136 sentences, mean 16.5, 0% over 35 words
@@ -89,8 +89,8 @@
 - [ANALYSIS AND INSIGHTS] Dated events, seasonal moments and limited offers give a traveller a reason to book this year (section 3.1).
 
 ### summary_reuse_by_section
-- CONTEXT: 3
 - FINDINGS AND RECOMMENDATIONS: 3
+- CONTEXT: 3
 - ANALYSIS AND INSIGHTS: 1
 
 ### term_sheet_variants
