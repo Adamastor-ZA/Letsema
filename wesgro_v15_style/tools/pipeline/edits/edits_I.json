@@ -1,0 +1,59 @@
+{
+ "rewrites": {
+  "19E1B664": "Arrivals, growth-model basis; quarterly proxy: international passenger arrivals at Cape Town International",
+  "0F3FCDA0": "April to September share of international seats at Cape Town International",
+  "322597A4": "International seats and routes at Cape Town International; new routes tested on load factor and survival",
+  "4F7BC4A5": "Baselines are fixed at 2025, the growth model's base year, for the growth-model indicators and at FY2024/25 for the airport series, the recovery baseline used in Chapter 1. Targets follow two cases: the base case, which assumes Wesgro's current activity continues with hub carriers adding capacity, and the accelerated case, which adds direct India and China routes and dedicated activation. The model gives the base case for 2028, 2030, 2032, 2034 and 2035, and the other cases for 2035 only. The 2031 base value and the accelerated milestones are computed and marked as such.[^423]",
+  "56CDB39E": "Arrivals carry targets for both cases; spend carries the working analysis's base case; jobs, GDP contribution and the other Tier 1 indicators set baselines first.",
+  "17BD7663": "**Seats.** T2-09 and T2-10 are read against the seats the target requires. The 2.5 million target implies about 3.1 million inbound seats a year by 2035 and the base case about 2.7 million, against about 1.9 million in the year to November 2025 (section 2.4). The target and the base case need seat growth of about 5.1% and 3.6% a year. The figures are orders of magnitude, since arrivals and passengers are counted on different bases.",
+  "134C36E2": "**Jobs and GDP.** T1-04 and T1-08 take their baselines in 2027 from the economic measures workstream (I16), fed by the labour analysis (I18). DEDAT's 2023 figures for tourism are R28.6 billion in gross value added and over 257,000 jobs supported (section 2.5). The department publishes no method or definition with those figures, so they are a starting point and not yet a baseline. No tourism employment table appears in the PERO 2025 (section 3.3).[^426]",
+  "1D5E635E": "**Green season.** The 2025 month table sums to 104.9%. Normalised, it gives 61.9% for October to March and 38.1% for the green season, in line with the 61% and 39% reported for 2024. T1-05 uses 38.1% as its baseline. Absolute April to September nights and revenue are reported beside the share, because a share alone cannot show whether winter demand grew. The share has in fact slipped while volume grew: the airport series puts April to September at 41.6% of movements in 2023 and 40.8% in 2025. A share that rises because summer falls is not the intended gain.[^428]",
+  "4916BC6E": "**Spread and community spend.** No deliverable reports district visitor spend. The Provincial Treasury's district reviews give tourist spend as a share of GDPR, from 6.7% in the Metro to 16.8% on the West Coast in 2023. That measures tourism's weight in each district economy, not where provincial visitor spend lands. The share outside the Metro therefore takes its baseline from the data protocol in 2027 (I16), and T1-06 carries no interim level before then. The community share starts from the Inclusion Plan's traced floor; its 1% is a reference point that plan gives, not a target any party has adopted.[^429]",
+  "28F657B5": "Tracking uses a quarterly scorecard to Steerco, an annual outlook to the Board and a live dashboard where the sources allow it.",
+  "0D8F75CD": "Four principles run the tracking. Automation precedes collection by hand: arrivals, seats and cruise volumes come from feeds that already exist. The dashboard has one owner (the programme office) and the definitions have one (Wesgro Research). Every indicator is reported against its own baseline and both cases. The register is refreshed each year at the plan review.",
+  "2C5CA953": "Reporting runs on a fixed calendar tied to Steerco and the Board. Each month, the convenors send Tier 3 outputs, initiative status and the seats and arrivals feeds to the programme office as a dashboard update. Each quarter, the programme office takes Tier 2 outcomes where available, the risks rated high and the escalation responses to Steerco in the scorecard. Each year, Steerco takes Tier 1 impact against both cases, the plan refresh and gate status to the Board in an outlook report, made public at the business outlook event. At each gate, Steerco sends the Board a gate paper on the tests in section 4.7.",
+  "31087294": "The mid-term review tests whether the plan is on its path and whether the path still holds. It falls in 2030, before runway relief on the planning date, and tests seat growth against the path the target requires. The review also falls at the end of Wesgro's FY26 to FY30 plan period, in time to inform the next one. The terminal evaluation in 2035 measures the result against both cases and sets up the next plan. Both should be run by a party independent of the programme office.[^431]",
+  "53228F7C": "The four files are the indicator register, the baseline workbook, the scorecard template and the dashboard data model (SLA clauses 1.1.10.2 and 1.1.15.3). The indicator register holds all 80 indicators with their definition, unit, source, frequency, reporting unit or data holder, baseline and target by year and case. The baseline workbook holds the baseline values with page references to the deliverables, and the computed values with their method. Wesgro Research owns both. The programme office owns the scorecard template, which carries the quarterly Steerco scorecard and the annual Board outlook. It also owns the dashboard data model: the feeds, refresh frequency and manual-entry forms for the dashboard in section 5.5."
+ },
+ "inserts": [],
+ "deletes": [],
+ "number_notes": {
+  "134C36E2": "Section cross-references 2.5 and 3.3 added, as the repeats file requires; R28.6 billion, 257,000, 2023 and 2025 are unchanged."
+ },
+ "queries": [
+  {
+   "pid": "7DE9F440",
+   "issue": "Q5: no actor named. \"The spend path is to be rebased on the FY2025 actual of R25.9 billion\" does not say who rebases it. Table 5.2 names Research only as the unit that reports T1-03.",
+   "options": "(a) name Wesgro Research (b) name the economic measures workstream (c) leave the passive"
+  },
+  {
+   "pid": "0D8F75CD",
+   "issue": "Q5: no actor named. The fourth principle (the register is refreshed each year at the plan review) names no one. Section 5.7 says Wesgro Research owns the register but not who refreshes it.",
+   "options": "(a) Wesgro Research refreshes the register (b) the programme office does (c) leave the passive"
+  },
+  {
+   "pid": "6DE24AD9",
+   "issue": "\"The report restates the 300,000 as a total-sector figure\" has no antecedent in Chapter 5: the ambition of 300,000 tourism-linked jobs is introduced in earlier chapters (section 1.1 and the jobs discussion in section 2.5). The paragraph also states its condition twice (\"If the ambition uses the department's definition\" and \"that reading is conditional on the definition\"). Left unchanged because both are caveats on a figure's basis.",
+   "options": "(a) write \"the ambition of 300,000 tourism-linked jobs (section 1.1)\" and cut the second condition (b) leave as is"
+  },
+  {
+   "pid": "0D9E4B30",
+   "issue": "Caption \"Figure 5.2. Arrivals paths and milestones to 2035\" uses \"paths\" for the scenarios. Captions are outside the editor's remit, and the image itself may carry the same label.",
+   "options": "(a) change to \"Arrivals cases and milestones to 2035\" and check the figure's legend (b) keep \"paths\" as the word for a trajectory"
+  }
+ ],
+ "log": [
+  "R1 (10 paragraphs: 7 prose or table-message, 3 table label cells): two paths, other paths, both paths (x4), those paths and \"by year and path\" changed to case(s) in 4F7BC4A5, 56CDB39E, 17BD7663, 0D8F75CD, 2C5CA953, 31087294, 53228F7C; CTIA changed to Cape Town International in three label cells (19E1B664, 0F3FCDA0, 322597A4). In 17BD7663 \"Those paths\" became \"The target and the base case\", because the target is not itself named as a case in that sentence.",
+  "R6 (4 paragraphs): prints/print/printed changed to gives/reports/reported in 4F7BC4A5, 1D5E635E, 4916BC6E; the four imperative principles in 0D8F75CD recast as statements. All basis caveats kept (\"computed and marked as such\", \"normalised\", \"model value\", \"not yet a baseline\", \"conditional on the definition\").",
+  "R8 (1): the 5.5 lead (28F657B5) had no verb; \"Tracking uses\" added.",
+  "Repeats (1 paragraph, 2 sentences): 134C36E2 reduced to the figures plus (section 2.5) and to a reordered PERO sentence plus (section 3.3). Footnote 426 stays at the paragraph end: it cites both sources.",
+  "R2: one \"therefore\" (4916BC6E) kept; the two sentences before it give the reason.",
+  "In 4916BC6E \"a reference point the plan prints\" became \"that plan gives\": the referent is the Inclusion Plan, not this plan. Lead editor to confirm.",
+  "Left as trajectory uses of \"path\", not scenario names: \"T1-03's path\" and \"the spend path\" (7DE9F440), \"on its path\", \"the path still holds\" and \"the path the target requires\" (07E681A6, 31087294).",
+  "Data cells left untouched but carrying variants or audit wording, for the lead editor to rule on: 149A306A \"CTIA 1.44m\"; 27728092 \"Garden Route and Winelands 3.4\" (bare Winelands); 6C13CF4A \"Not printed\"; 4E5DC87E \"printed network total\"; 15306ED6 and 6E2E63C8 \"(2025, computed)\". Source line 199C912B keeps \"printed figures\". \"SCIP\" stays as a source key in 44903957 and 199C912B.",
+  "Label not changed: 66184E1B \"Seats added on routes above 80% load\" (R6 shorthand, but not a term-sheet variant; Table 5.1 calls the same indicator \"seats added on full routes\").",
+  "Inconsistencies outside the term sheet, not changed: \"GDPR\" (37B39522, 23B355E4, 4916BC6E) against \"GDP-R\" (1A70A07B, 7306C911, 03F239A6); T1-07 is \"Community share of foreign direct spend\" in Table 5.2 and \"Community share of spend\" in Table 5.5; \"the Metro\" is the first use in sections 5.1 and 5.3, where the term sheet's convention asks for \"Cape Metro\".",
+  "Not changed, noted: 748AAF47 ends \"test demand, then invest\", an imperative used as the wording of a rule; 31087294 \"Both should be run by a party independent of the programme office\" names the kind of party but not who appoints it.",
+  "Table 5.1 initiative names already match the canonical names; no change needed. No indicator code, baseline, target or date was changed."
+ ]
+}

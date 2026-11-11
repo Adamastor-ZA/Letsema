@@ -1,0 +1,52 @@
+{
+ "rewrites": {},
+ "drop": [
+  "121AF459"
+ ],
+ "unsplit": [
+  "7123CABC",
+  "5E6C9B8D"
+ ],
+ "subs": [
+  [
+   "1F7AACCC",
+   "to build on; each entry",
+   "to build on. Each entry"
+  ],
+  [
+   "649AF281",
+   "^Air access is infrastructure: Chile funded the expansion of Santiago's airport through a private concession, and New Zealand ties its marketing budgets to long-haul corridors\\. ",
+   ""
+  ],
+  [
+   "6038E8A2",
+   "Google reports that market-level search data can show",
+   "One Google insight is rated High: market-level search data can show"
+  ],
+  [
+   "58E44938",
+   "The capacity figures for George and Knysna are conditional and do not certify spare capacity for a hotel \\(section 2\\.5\\)\\.",
+   "George's and Knysna's capacity figures depend on assets operating, and Blue Drop and Green Drop results do not certify spare capacity for a hotel (section 2.5)."
+  ],
+  [
+   "4A679577",
+   "across 300 km'",
+   "across 300km'"
+  ],
+  [
+   "4F7047A9",
+   "business-events and events marketing",
+   "MICE and events marketing"
+  ],
+  [
+   "774956F3",
+   "the Winelands",
+   "the Cape Winelands"
+  ],
+  [
+   "41A0027F",
+   "the Winelands",
+   "the Cape Winelands"
+  ]
+ ]
+}

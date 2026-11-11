@@ -1,0 +1,112 @@
+# Style metrics: Unlocking_Tourism_Growth_Final_Report_DRAFT_v15.1_edited.docx (all tracked changes accepted)
+
+| Metric | Value | Target | Result |
+|---|---|---|---|
+| prose_words | 53016 |  |  |
+| sentences | 3302 |  |  |
+| mean_sentence_words | 16.7 | <= 22 | PASS |
+| median_sentence_words | 16.0 |  |  |
+| p90_sentence_words | 27 | <= 32 | PASS |
+| pct_sentences_over_35 | 0.3 | <= 5 | PASS |
+| pct_sentences_12_or_fewer | 31.9 | >= 15 | PASS |
+| mean_paragraph_words | 64 |  |  |
+| hedges_per_10k | 11.3 | <= 30 | PASS |
+| therefore_per_10k | 5.5 | <= 6 | PASS |
+| significant_per_10k | 0.0 | <= 5 | PASS |
+| agentless_per_10k | 0.0 | <= 4 | PASS |
+| vague_positive_per_10k | 1.5 | <= 6 | PASS |
+| intensifiers | 1 | <= 3 | PASS |
+| tell_words | 14 | == 0 | CHECK |
+| em_dashes | 0 | == 0 | PASS |
+| en_dashes_in_prose | 0 | == 0 | PASS |
+| oxford_comma_candidates | 23 | == 0 | CHECK |
+| semicolon_as_colon | 0 | == 0 | PASS |
+| us_spellings | 4 | == 0 | FAIL |
+| spelling_pairs_mixed | 0 | == 0 | PASS |
+| first_person_plural | 0 | == 0 | PASS |
+| number_format_conflicts | 0 | == 0 | PASS |
+| possible_verbless_sentences | 24 | == 0 | CHECK |
+| unfinished_paragraphs | 0 | == 0 | PASS |
+| repeated_words | 0 | == 0 | PASS |
+| stale_time_phrases | 1 | == 0 | CHECK |
+| placeholder_or_field_errors | 0 | == 0 | PASS |
+| internal_or_draft_links | 0 | == 0 | PASS |
+| auto_alt_text | 0 | == 0 | PASS |
+| comments | 44 |  |  |
+| tracked_insertions | 0 |  |  |
+| tracked_deletions | 0 |  |  |
+| summary_words | 1495 | <= 1500 | PASS |
+| pct_summary_reused_in_body | 8.6 | <= 15 | PASS |
+| cross_chapter_duplicate_sentences | 0 | <= 3 | PASS |
+| term_sheet_variants | 5 | == 0 | FAIL |
+
+## Sentence length by chapter
+
+- FOREWORD: 1 sentences, mean 13.0, 0% over 35 words
+- EXECUTIVE SUMMARY: 92 sentences, mean 16.2, 0% over 35 words
+- CONTEXT: 167 sentences, mean 17.1, 0% over 35 words
+- ANALYSIS AND INSIGHTS: 1361 sentences, mean 17.0, 0% over 35 words
+- FINDINGS AND RECOMMENDATIONS: 1381 sentences, mean 16.4, 1% over 35 words
+- EXECUTION PLAN: 164 sentences, mean 18.0, 1% over 35 words
+- MONITORING AND EVALUATION FRAMEWORK: 136 sentences, mean 16.5, 0% over 35 words
+
+## Examples to review
+
+### intensifiers
+- [ANALYSIS AND INSIGHTS] Note: Scale 1 (very weak) to 5 (leading); districts ordered from the Metro outward.
+
+### tell_words (check literal use)
+- [EXECUTIVE SUMMARY] Hub traffic already in the air is converted: about 101,000 air journeys a year from India and China reach Cape Town, mainly through Gulf and African hubs.
+- [ANALYSIS AND INSIGHTS] About 71,000 travellers from India and about 30,000 from China reach Cape Town each year through connecting hubs, together about 101,000 journeys.
+- [ANALYSIS AND INSIGHTS] That count is of journeys by origin.
+- [ANALYSIS AND INSIGHTS] Note: Journeys by origin, not tourist arrivals (Appendix A2).
+- [ANALYSIS AND INSIGHTS] What they lack is a local seller, not a shorter journey.
+- [FINDINGS AND RECOMMENDATIONS] About 101,000 air journeys a year from India and China already reach Cape Town, mainly through Gulf and African hubs.
+
+### oxford_comma_candidates
+- [EXECUTIVE SUMMARY] The plan sets three goals, one for each shift, and twenty objectives beneath them in six themes (Figure ES.2).
+- [EXECUTIVE SUMMARY] Chapter 3 gives each objective's evidence, actions and stakeholders, and Appendix A1 traces each to its sources.
+- [CONTEXT] The objective, set in November 2025, is an evidence-based tourism strategy that grows international arrivals through demand, supply and enablement, and makes th
+- [ANALYSIS AND INSIGHTS] It positioned Nairobi as East Africa's aviation, diplomatic and business hub, and its main airport now carries 68% of arrivals.
+- [ANALYSIS AND INSIGHTS] Wesgro's With Love from the Locals campaign, launched in March 2024, carries regional voices, and its domestic campaign reached 16.7 million people in 2024/25.
+- [ANALYSIS AND INSIGHTS] The CTICC hosted 330 events in the year to June 2025, 63 of them international, and its forward book lists congresses in May and June 2027.
+
+### us_spellings
+- Sizing
+- sizing
+
+### possible_verbless_sentences
+- [CONTEXT] Enabling interventions align decisions, investment, capability, safety, local participation and destination management.
+- [CONTEXT] Monitoring separates activities and outputs from changes in behaviour and performance.
+- [ANALYSIS AND INSIGHTS] Comparing 2024 with 2015, monthly international passengers rose by an average of 88% in the airlines' summer season of April to October and 73% in the
+- [ANALYSIS AND INSIGHTS] Benchmarking asks which deliberate choices let comparable destinations outgrow the world, and which of them the Western Cape can adapt.
+- [ANALYSIS AND INSIGHTS] During the trip, Google Maps, WhatsApp and TripAdvisor carry directions, contact with operators and activity booking.
+- [ANALYSIS AND INSIGHTS] Relocating the runway lifts it to 45 movements an hour, a 50% rise.
+- [ANALYSIS AND INSIGHTS] Dining and retail narrow fastest outside the core.
+- [ANALYSIS AND INSIGHTS] Sizing that gap takes more than a bed count.
+
+### stale_time_phrases
+- [ANALYSIS AND INSIGHTS] Dated events, seasonal moments and limited offers give a traveller a reason to book this year (section 3.1).
+
+### summary_reuse_by_section
+- FINDINGS AND RECOMMENDATIONS: 3
+- CONTEXT: 3
+- ANALYSIS AND INSIGHTS: 1
+
+### term_sheet_variants
+- 'the strategy' x1 (use 'the plan')
+- 'R62' x1 (use 'Route 62')
+- 'low season' x1 (use 'green season')
+- 'quieter months' x1 (use 'green season')
+- 'off-season' x1 (use 'green season')
+
+### longest_sentences
+- (54w) [EXECUTION PLAN] Evidence: Current State Diagnostic, Dec 2025 (Diag); Demand-Side Analysis, Jun 2026 (DSA); Stakeholder Insights Report, Mar 2026 (SIR); Infrastructure
+- (53w) [ANALYSIS AND INSIGHTS] Source: Municipal Economic Review and Outlook 2024/25, Cape Metro, p69 (visitors and rise on 2022); Provincial Economic Review and Outlook 2025, p68 (
+- (53w) [FINDINGS AND RECOMMENDATIONS] Source: Cruise Economic Contribution Study 2024/25, Oct 2025 (Cruise Study; GDP-R after displacement); Current State Diagnostic, Dec 2025 (Diag); Infr
+- (53w) [FINDINGS AND RECOMMENDATIONS] Source: Stakeholder Insights Report, Mar 2026 (SIR; organisation counts reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (D
+- (49w) [FINDINGS AND RECOMMENDATIONS] Source: Stakeholder Insights Report, Mar 2026 (SIR; organisation count reconstructed from the appendix tables); Current State Diagnostic, Dec 2025 (Di
+- (44w) [ANALYSIS AND INSIGHTS] Source: Global Benchmarking Report, Mar 2026, p12 (rationale), p15, p22, p30, p39, p46 and p51 (what each shares with the Western Cape), p15, p17, p18
+- (42w) [FINDINGS AND RECOMMENDATIONS] Source: Demand-Side Analysis, Jun 2026 (DSA); Infrastructure Report, Jul 2026 (IR; the ~40% has no printed scope or source); SME and Community Inclusi
+- (40w) [FINDINGS AND RECOMMENDATIONS] Source: Demand-Side Analysis, Jun 2026 (DSA; SA Tourism 2024 Departure Survey and 2025 performance report); Aviation Market Assessment, Mar 2026 (year
+

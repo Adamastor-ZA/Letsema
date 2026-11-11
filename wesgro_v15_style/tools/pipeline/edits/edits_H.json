@@ -1,0 +1,84 @@
+{
+ "rewrites": {
+  "7447E2E3": "Each initiative starts with an agreement, convened by Wesgro, on who is accountable for what, because Wesgro cannot assign that to other bodies (section 4.4). In six initiatives the main lever sits outside Wesgro's mandate: corridor mobility, quality standards, flagship sites, community pilots, destination readiness and skills.",
+  "6DBF2A40": "Eighteen initiatives cover the twenty objectives, and eleven of them are in implementation by 2028. Thirteen draw mainly on Wesgro's operating budget (section 4.6).",
+  "2FE9A984": "The phases follow calendar years: Activate from 2027 to 2028, Expand from 2029 to 2031 and Sustain from 2032 to 2035. Each phase ends at a decision gate tied to the Chapter 5 indicators (section 4.7). Gate 1, at the end of 2028, falls in Wesgro's FY2028/29, two years before the mid-term review.",
+  "39C3394A": "Every charter uses the same fields. It states the aim, the objectives served, the convenor, the key stakeholders and the tier of government. It then sets the actions in each phase, marked Design or Implement, and closes with the dependencies, the funding route, the risks and the indicators it moves. Actions come from the Chapter 3 action tables. Each charter opens with the 2027 stakeholder agreement, and rand bands are still to be set (section 4.6).",
+  "4F7047A9": "Agree (2027): convene the stakeholders and agree roles and accountabilities. Design (2027): one event acquisition and calendar strategy across Wesgro, the Convention Bureau, the City and the Western Cape Government, building on the business-events and events marketing the City's framework proposed, if it still runs; a way to measure meetings, incentives and exhibitions; one monthly green-season baseline of sold and available room nights by region and type; sales organised by buyer type; one common appraisal, at full public cost, for every publicly supported event. Implement (2028): publish the calendar; aim bids at May to August first; dated offers for named low-demand weeks with airlines and trade, with buyer commitments before public support; cooler-season incentive packages for Indian and Gulf planners.",
+  "490545C3": "Test the Inclusion Plan's model in two or three communities (a seller with a stake, a link to existing demand and gates before any investment) and keep LTOs in service through lawful procurement.",
+  "6F0781C7": "SA Tourism",
+  "4DB1A0ED": "Four levers sit outside the province and cannot be bought or marketed into place. Route rights and visas sit with the national tier, the airport and port capital programmes with national SOEs and policing with SAPS. The plan treats them as an escalation agenda (I17), carried by Steerco through DEDAT to the national departments and SOEs. The plan proposes that Wesgro's Advocacy and Advisory unit, set up to build evidence-based policy feedback on levers the province does not control, runs it day to day. DEDAT's visa study supplies its visa asks, already ranked, and the asks now start from ETA performance data that only Home Affairs holds. Each item is stated as a decision, the body that holds it and a date the province is asking for. Wesgro's own route work (I6) runs inside the existing agreements meanwhile.[^417]",
+  "2C8ED8B7": "The plan proposes DEDAT as a standing member of Steerco. DEDAT holds the levers where the question is policy or funding, not promotion: quality standards (I10), destination readiness and climate risk (I13) and the labour analysis (I18). The Department of Mobility holds the transport half of corridor mobility (I8), including the airport leg with the City and ACSA. The plan proposes to engage it on the levy case (I14) and on bringing its Integrated Transport Hub into the data protocol (I16). The Provincial Treasury's district reviews feed the data protocol and the IDP step (I13, I16). Wesgro's units deliver the demand, access, product and data work and report through the programme office.",
+  "0AE9968B": "Municipalities and LTOs hold the assets, the selling bodies and the visitor services that the regional and inclusion initiatives depend on. The plan proposes to engage them on the community selling bodies in the pilots (I12), on covenants for public assets (I12, I14) and on the route and product work in their districts (I3, I9). The City of Cape Town is a stakeholder in segments, events, routes, cruise, mobility, product, flagship sites, community pilots and safety (I1, I2, I6 to I9, I11, I12, I17). Cape Town Tourism is a stakeholder in segments, routes and data (I1, I6, I16), and the plan proposes both for Steerco. The City's framework for 2019 to 2024 set out three plans the initiatives can build on: an air, rail and cruise access programme, a Cape Town+ offer and a Tourist Safety Programme. The safety services run today, through the City's Tourist and Visitor Safety Unit and its 24/7 visitor-support service. MFMA Circular No. 131 interrupted established municipal funding of LTOs, and municipalities can still buy LTO services through procurement (section 2.5; I12).[^418]",
+  "5148BC72": "The list is weighted the way Phase 1 is: conversion, seat retention, the green season, inclusion pilots and the data the rest of the plan reports on. Start dates are proposals in half-years. No action needs new capital (section 4.6).",
+  "2E65A75B": "Most of the plan runs on budgets that already exist [[QUERY Q25: is new public money sought in Phase 1?]]. The capital it needs sits with ACSA, PRASA, Transnet and private investors, and none of it has been costed yet.",
+  "0CD22654": "No deliverable costs any initiative [[QUERY Q1: cost of the plan and who pays?]]. The Inception Report scoped an investment opportunity framework with return scoring, but no separate output was delivered, and stakeholders describe Western Cape tourism funding as materially below peer destinations without giving a figure.[^419] This section leaves the rand bands to be set with Wesgro Finance and DEDAT before the plan is signed off [[QUERY Q2: rand bands due before sign-off or before Gate 1?]].",
+  "2B468B9E": "The initiatives table in section 4.1 gives each initiative's main and supporting funding routes. Current allocations show where the plan's money sits today. DEDAT's 2026/27 main budget is R596.765 million, including a R127.355 million transfer to Wesgro and R6.8 million for the CTICC. It earmarks R3 million for tourism safety and R4 million for tourism growth initiatives, and the department's performance plan carries a R7 million Tourism Growth Fund. These are existing allocations, not spare money. The MyCiTi operating grant ends in 2027/28, so the airport link needs a funded service specification before any product is sold on it (I8).",
+  "1A82C0BA": "**Crowding in capital.** The rule for capital is the Inclusion Plan's: invest after demand is shown, and attach a maintenance and marketing covenant to any public asset. Wesgro's investment promotion work builds the tourism pipeline from the Infrastructure Report's gap-closure tables, where every district lists tourism gaps with no committed capital (I14). Route support runs through the Cape Town Air Access partnership, scaled and re-termed with public and private money (I6) [[QUERY Q26: source of the added route support?]]. Its funders already sit in the partnership: the City, the province, ACSA, Cape Town Tourism, SA Tourism, Wesgro and private-sector partners. Its support carries resilience conditions, from tapering and matched airline marketing to clawbacks (objective 7). Corridor mobility (I8) bids into the provincial transport budget; the draft land transport framework allocates R22.8 billion to transport initiatives in the 2024 MTEF. The same framework plans a tourist levy case, which I14 would widen to cover destination management.[^420]",
+  "78F5C546": "All Tier 1 indicators against the base and accelerated cases"
+ },
+ "inserts": [
+  {
+   "after": "30EE71E4",
+   "style": "Body",
+   "text": "Thirteen initiatives draw mainly on Wesgro's operating budget, and four need private capital as a main source. Wesgro Finance and DEDAT agree a stop list before Gate 1, naming the Wesgro work deprioritised to fund the initiatives (section 4.8)."
+  }
+ ],
+ "deletes": [],
+ "number_notes": {
+  "6DBF2A40": "Adds the cross-reference (section 4.6); the clause 'four need private capital as a main source' is cut as a repeat of 4.6 (special task 1).",
+  "2FE9A984": "'The first gate' becomes 'Gate 1' (term sheet), which adds the digit 1.",
+  "5148BC72": "Adds the cross-reference (section 4.6) (special task 1).",
+  "2E65A75B": "The digit 1 is 'Phase 1' inside the Q25 query placeholder.",
+  "0CD22654": "Sentences moved within 4.6 (special task 1): 'section 4.1' went with the funding-routes sentence to 2B468B9E; 'Gate 1' and 'section 4.8' went with the stop-list sentence to the new paragraph after 30EE71E4. The remaining 1 is 'Gate 1' inside the Q2 placeholder.",
+  "2B468B9E": "Gains 'section 4.1' with the funding-routes sentence moved from 0CD22654 (special task 1).",
+  "30EE71E4": "The new paragraph after this one carries the stop-list sentence moved from 0CD22654, with 'Gate 1' and 'section 4.8' (special task 1). 30EE71E4 itself is unchanged."
+ },
+ "queries": [
+  {
+   "pid": "0CD22654",
+   "issue": "Q1: placeholder inserted after 'No deliverable costs any initiative'. Cost of the plan and who pays is not stated anywhere in 4.6.",
+   "options": "(a) author supplies a cost or a range and the payer (b) the sentence stands and the gap is stated as a limitation"
+  },
+  {
+   "pid": "0CD22654",
+   "issue": "Q2: placeholder inserted after the rand-bands sentence. 4.6 says the bands are set with Wesgro Finance and DEDAT before sign-off; the risk table in 4.8 (cell 7E804D7E) says 'Rand bands and a stop list agreed with DEDAT before Gate 1'. Both left as found.",
+   "options": "(a) before sign-off: change the 4.8 cell (b) before Gate 1: change the 4.6 sentence"
+  },
+  {
+   "pid": "2E65A75B",
+   "issue": "Q25: placeholder inserted after 'Most of the plan runs on budgets that already exist'. The text does not say whether new public money is sought in Phase 1.",
+   "options": "(a) no new public money in Phase 1 (b) new money is sought: say how much and from whom"
+  },
+  {
+   "pid": "1A82C0BA",
+   "issue": "Q26: placeholder inserted after the route-support sentence. The source of the added public and private money for the re-termed partnership is not given.",
+   "options": "(a) name the funders of the increase (b) state that it is to be agreed in the new partnership terms"
+  },
+  {
+   "pid": "4DB1A0ED",
+   "issue": "Q5: no actor named. 'a date the province is asking for' uses the province as a body. The same use is in 4.6: 'the City, the province, ACSA' as funders (1A82C0BA) and 'programmes the province does not fund' (25284FE7). Left as found.",
+   "options": "(a) Western Cape Government (b) DEDAT (c) Steerco, for the escalation asks"
+  },
+  {
+   "pid": "3EA8155F",
+   "issue": "The 4.5 lead says eleven of the fourteen actions sit inside Wesgro's current mandate and budget. Table 4.3 shows nine funded by 'Wesgro operating' alone, three shared (with DEDAT, operators, the City) and two on municipal and LTO budgets, so eleven cannot be read off the table. Left as found.",
+   "options": "(a) confirm eleven and say which (b) correct the count"
+  }
+ ],
+ "log": [
+  "Counts by rule: R1 term sheet 5 (Gate 1 in 2FE9A984; paths to cases in Table 4.4 cell 78F5C546; MICE to business-events in I2 cell 4F7047A9; local tourism bodies to LTOs in I12 aim 490545C3; SAT to SA Tourism in Table 4.2 head 6F0781C7). R2: 0 (the one 'therefore' is kept). R3 named subject 3 (4DB1A0ED, 2C8ED8B7, 0AE9968B: 'is proposed' becomes 'the plan proposes'; no owner added). R4 to R8: 0. Special task 1: 8 paragraphs (4.6 lead 2E65A75B, 0CD22654, 2B468B9E, 1A82C0BA and one new paragraph after 30EE71E4; pointers in 4.1 6DBF2A40, 4.3 39C3394A and 4.5 5148BC72). Special task 2: 1 (7447E2E3). No deletes.",
+  "4.6 new order: lead; (1) cost: no deliverable costs any initiative, Inception Report and stakeholder evidence, rand bands still to be set; (2) sources: pointer to the routes in Table 4.1, current allocations, the four findings; (3) net position, new paragraph before Figure 4.2: thirteen on Wesgro's operating budget and four needing private capital, then the stop list; (4) 'Crowding in capital' and 'What the SLA asks and what is still to do', both labels kept. No fact or sentence was added. Two wording adjustments forced by the moves: 'also' dropped from the stop-list sentence (its antecedent, the rand-bands sentence, is now in another paragraph) and 'each one's' became 'each initiative's'.",
+  "The four query placeholders sit before the full stop of their sentence, not after it. After the full stop the checker reads the placeholder and the next sentence as one sentence and fails it on length. For the same reason the 4.6 lead is split at its semicolon so that Q25 attaches to 'Most of the plan runs on budgets that already exist'.",
+  "Footnote [^419] (Inception Report p18, p20; Stakeholder Insights p25) moved from the end of the old first paragraph to the end of the sentence those sources support, which stays in the cost paragraph. Footnote order is unchanged. [^420] cites sources for every claim in 'Crowding in capital', so that paragraph (about 150 words) is left whole and unsplit.",
+  "'therefore' in the SLA paragraph (25284FE7) kept: the sentence before gives the reason.",
+  "Conflict to note: dups_H.txt names 4.1 as the home of 'Wesgro cannot assign accountability...' and 4.4 as the repeat. The task prompt and brief section 5 name 4.4 as home, so 4.4 (5BE83D08) is untouched and 4.1 (7447E2E3) is reduced to one sentence with (section 4.4).",
+  "4.1 table message (6DBF2A40): 'and four need private capital as a main source' cut as a repeat of 4.6; the count stays in 4.6 and in the table's Main funding column. Revert if the table message should keep both counts.",
+  "4.5: the body sentence is shortened to 'No action needs new capital (section 4.6)'; the dropped half only pointed at the Funding route column. The lead and the table message of 4.5 each carry the budget point as a single clause already and are left without a pointer.",
+  "4.8: no change. The funding point there sits in two risk-table cells (27530390 evidence, pointing to section 4.1; 7E804D7E mitigation, already pointing to section 4.6). Both are cells and already one clause; 7E804D7E conflicts with 4.6 on when the rand bands are due (see Q2).",
+  "Left as found and for a global decision: I8 cell 36BB66C2 'N2 and R62 itineraries' (the same pairing with the N2 road is in the Chapter 3 and appendix action tables); I9 cell 2850EFC1 'in the Winelands' (script rule, not redone); I3 cell 18C82363 'priority-market journeys'; 'The Province' with a capital twice in 33F10944; '(…; computed)' in the I18 citation, a caveat on the figure's basis.",
+  "I2 cell 4F7047A9 now reads 'the business-events and events marketing the City's framework proposed'. It is accurate but clumsy; if 'MICE' is the City framework's own label, restore it.",
+  "Paragraph 0AE9968B (district and local government, about 175 words) covers municipalities, the City, Cape Town Tourism, the City's framework and Circular 131. Not split: its one footnote [^418] cites the City's framework, and a split would separate it from either the framework sentence or the paragraph end.",
+  "Charters: no convenor, stakeholder, phase, funding route or date changed. 'Rand band to be set (section 4.6)' in all eighteen funding-route cells already agrees with 4.6."
+ ]
+}

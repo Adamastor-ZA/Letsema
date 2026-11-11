@@ -129,8 +129,10 @@ Tourism Growth Steerco
 LTO | local tourism body | local tourism bodies | local tourism office | local tourism offices
 # "local tourism organisation (LTO)" at first use. QUERY Q14: objective 13's title says
 # "local destination bodies" (8 uses, all the title). Is that LTOs or a wider group?
-Inclusion Plan | SCIP
+Inclusion Plan
 # "SME and Community Inclusion Plan" at first use in a chapter and in sources.
+# Variant removed from prose: "SCIP" (7 uses). "SCIP" stays only as a source key in table
+# cells and in the source lines that define it.
 ETA
 # "Electronic Travel Authorisation (ETA)" at first use. The eVisa is the earlier
 # system and keeps its name.

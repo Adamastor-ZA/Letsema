@@ -1,10 +1,10 @@
-# Query log: Unlocking Tourism Growth, v15.1
+# Query log: Unlocking Tourism Growth, v15.1 (edited)
 
-Status at the Phase 2 checkpoint. No text has changed yet, so no placeholder is in the document. Each placeholder below is the one that goes in if the query is still open when the edit runs.
+Status after the edit. Queries that block the executive summary come first. Queries already held in `v15_open_items_register.md` carry its number and are not restated in full.
 
-Queries that block the executive summary come first. Queries already held in `v15_open_items_register.md` carry its number and are not restated in full.
+Counts: 70 entries. Q1 to Q27 were raised before the edit (12 block the executive summary). Q28 to Q70 were raised during it. Two are answered in the text and need only the author's confirmation: Q8 and Q12. The five checkpoint decisions (number format, "case", summary tables, chapter order, no owners table) were approved before the edit and are recorded in `edit_log.md`.
 
-Counts: 27 queries, 12 of them blocking the executive summary.
+Placeholders in the text: 16, each written `[[QUERY Qn: ...]]` and inserted as a tracked change at the first place the issue bites. They are Q1 (twice: summary and 4.6), Q2, Q4, Q5, Q6, Q7, Q10, Q11, Q13, Q14, Q15, Q16, Q17, Q25 and Q26. Rejecting the tracked insertion removes a placeholder.
 
 ---
 
@@ -26,7 +26,8 @@ Placeholder in text: [[QUERY Q2: rand bands due before sign-off or before Gate 1
 Location: Figure ES.2; headings 3.1.1 to 3.3.2; the kickers above each objective
 Issue: Figure ES.2 prints "Source market growth", "Access and infrastructure", "Product and capacity" and "Inclusion and sustainability". The Chapter 3 headings print "Source market growth and diversification", "Accessibility, connectivity and infrastructure", "Product and destination capacity" and "Investment, inclusion and sustainability". The short form of the last one drops "Investment", although objective 15 sits under it.
 Options: (a) long forms everywhere, Figure ES.2 changed to match (4 cells) (b) short forms everywhere (3 headings, 15 kickers, the contents list) (c) other
-Placeholder in text: [[QUERY Q3: long or short theme names?]]
+Status: Figure ES.2 is unchanged and still prints the short forms.
+Placeholder in text: none
 
 ### Q4 (blocks executive summary): "growth markets" and "acceleration markets"
 Location: Executive summary, "A viable target to 2035", para 2, and Table ES.1 message; 2.3 lead and "Growth scenarios to 2035"; Figure 2.11; A2
@@ -38,7 +39,8 @@ Placeholder in text: [[QUERY Q4: which markets are the growth markets?]]
 Location: Executive summary, "Three strategic shifts", para 3 ("the province leads by escalation"); 2.2, "Air access as infrastructure" and "Turning transit and events into demand"; 13 further uses
 Issue: "The province" is the place in most of the report and a body in some sentences ("The province should lobby for air service liberalisation"). Six uses carry a capital ("the City and the Province"). The house standard asks every "should" to name its owner; the report holds 50 uses of "should" and 43 of "must". Version 15 decided that the plan identifies stakeholders and assigns no accountability, so an owner cannot be supplied by the editor.
 Options: (a) the acting body is the Western Cape Government throughout (b) it is Wesgro where Wesgro convenes and the Western Cape Government elsewhere, marked sentence by sentence by the author (c) leave the wording and accept the miss against the standard
-Placeholder in text: [[QUERY Q5: who acts here: Wesgro, DEDAT or the Western Cape Government?]]
+Status: the six uses of "the Province" with a capital now read "the Western Cape Government". Every other use is unchanged and listed in Q29.
+Placeholder in text: [[QUERY Q5: who acts here: Wesgro, DEDAT or the Western Cape Government?]] (once, in 2.2)
 
 ### Q6 (blocks executive summary): one name for the Gulf market
 Location: Executive summary ("Gulf and African hubs", "the 2026 Gulf disruption"); 3.4, para 2 ("the GCC", "the Middle East"); 2.3; A2
@@ -56,13 +58,15 @@ Placeholder in text: [[QUERY Q7: is FY2025 the same year as FY24/25?]]
 Location: Executive summary, "What constrains growth" (the 1.8 million seat figure) and "A viable target to 2035", para 3 (the conservative case, 1,822,634 arrivals, written "about 1.8 million")
 Issue: The same rounded figure stands for inbound seats and for arrivals within one page. Elsewhere the conservative case is written "1.82 million" and "1,822,634".
 Options: (a) the conservative case is always "about 1.82 million" (b) full figures for all three cases in the summary (c) leave
-Placeholder in text: [[QUERY Q8: conservative case as 1.82 million?]]
+Status: option (a) applied as a change of rounding only. The summary now gives 1.82 million, 2.18 million and 2.52 million, the forms Figure ES.1 prints. Confirm.
+Placeholder in text: none
 
 ### Q9 (blocks executive summary): the headline impact
 Location: Executive summary, Table ES.5 and the paragraph below it; 5.3
 Issue: The summary must state one headline impact. Arrivals have a target (2.5 million). Spend has a base-case value only (R40.6bn, constant 2024 rand, on a model base 19% above the reported figure, and "to be rebased"). Jobs and GDP have no target. The spend value is printed as R40.6bn and R40.59bn.
 Options: (a) headline impact is arrivals alone, with spend stated as a base-case value still to be rebased (b) the author supplies a rebased spend figure (c) other
-Placeholder in text: [[QUERY Q9: headline impact beyond arrivals?]]
+Status: the summary now says arrivals are the first measure of success and that the spend path is to be rebased. No spend, jobs or GDP target is claimed.
+Placeholder in text: none
 
 ### Q10 (blocks executive summary): the 2025 base and the airport count
 Location: Executive summary lead (1.57 million in FY25/26) and third paragraph ("about 1.5 million in 2025"); Table ES.5; 5.3
@@ -77,10 +81,11 @@ Options: (a) the author states the place and year (b) leave as the source prints
 Placeholder in text: [[QUERY Q11: 1.4 million arrivals where, and in which year?]]
 
 ### Q12 (blocks executive summary): the central question and the conclusion
-Location: 1.1 lead; 3.4; the end of the executive summary
-Issue: The house standard asks for one question posed in the introduction and answered in a conclusion. The report states a mandate and has no question and no conclusion. A question can be built from the mandate sentence without adding a fact, but its wording is the author's.
-Options: (a) "How can the Western Cape grow international arrivals from 1.5 million to 2.5 million by 2035, when interest already far exceeds visits and seats are full at the peak?" (b) the author's wording (c) no question; accept the miss
-Placeholder in text: [[QUERY Q12: wording of the central question?]]
+Location: 1.1, new second paragraph; executive summary, "A viable target to 2035"; 3.4, new closing paragraph; the last paragraph of the executive summary
+Issue: The house standard asks for one question posed in the introduction and answered in a conclusion. The report stated a mandate and had no question and no conclusion. Both are now inserted as tracked changes, built from sentences already in 1.1 and 3.4. The wording is the editor's and needs the author's approval.
+Wording inserted: "how can the Western Cape grow international arrivals from about 1.5 million to 2.5 million by 2035, when interest far exceeds visits and seats pace growth at the peak?"
+Options: (a) accept (b) the author's wording (c) reject the insertions; accept the miss
+Placeholder in text: none
 
 ---
 
@@ -186,4 +191,268 @@ Placeholder in text: [[QUERY Q26: source of the added route support?]]
 Location: Foreword; cover; comments part
 Issue: The Foreword is a placeholder line. The cover says "Draft for discussion" and "November 2026" with no day. The file carries 44 comments from earlier review rounds. The report states no data cut-off date.
 Options: (a) the author supplies the foreword, the issue date and the data cut-off, and says which comments to keep (b) leave for the final version
+Placeholder in text: none
+
+---
+
+## F. Raised during the edit
+
+Paragraph ids are the `w14:paraId` values in the Word file. The same ids are used in `edit_log.md`.
+
+### Q28: the asterisk in the summary's impact table
+Location: Executive summary, impact indicators table, row T1-01 ("1,673,855 / 1,750,871*"); the same cell in Table 5.5
+Issue: The value carries an asterisk and the summary table has no note beneath it. The source line under the table is empty.
+Options: (a) the author supplies the note (b) the asterisk is removed in the summary
+Placeholder in text: none
+
+### Q29: sentences that prescribe without naming who acts (extends Q5)
+Location (section: paragraph ids in the Word file): 1.3: 794CFD4B; 2.2: 20123FA6, 2756255E, 7D848BEC, 78CC6FB6; 2.3: 74DEABA7, 5E1CAC34; 2.4: 7FADE1BD, 052580F1; 2.5: 2849538F, 5DE44DCC, 1380FE11; 3.1: 79468B04, 270D4A8B, 00593E1E, 7AB0A809; 3.2: 60BC5846, 557FD955, 749732D4, 74D40ADA, 0349616B, 27B637C3, 43D086D4, 51678D74, 067E2A06, 6A6002A7, 7F1D6AF0; 3.3: 116676CF, 3FD9C372, 75BF16F2, 2EFF19AE, 2EC77CCC, 38632FA1, 3B2D83C3, 0E5C71C0, 3A69BBEA, 536A88B8, 4043CC13, 24F5FC0B, 7FC79505, 159A92DF, 194CE623, 5298561A, 26941C03, 390DB324, 604FC4B0; 4.4: 4DB1A0ED, 1A82C0BA, 25284FE7; 5.3: 7DE9F440; 5.5: 0D8F75CD
+Issue: Each of these sentences says what should or must happen, or uses "the province" as the body that acts, and the text around it names no actor. The "Who acts" tables answer with "With partners" and a list of stakeholders. The editors supplied no actor.
+Options: (a) the author names the actor sentence by sentence (b) the wording stays, on the plan's stated position that accountabilities are agreed in 2027
+Placeholder in text: [[QUERY Q5: who acts here: Wesgro, DEDAT or the Western Cape Government?]] (once, in 2.2)
+
+### Q30: section 1.3, paragraph 1EA5210B
+Location: section 1.3, paragraph id 1EA5210B
+Issue: Special task 1: 'information, booking and journey barriers' now reads 'barriers to information, booking and travel'. The term sheet maps 'journey barriers' to 'the six barriers', but the sentence lists three kinds of barrier, so the list was kept. Confirm 'journey barriers' meant barriers to the travel itself.
+Options: (a) keep 'barriers to information, booking and travel' (b) replace with 'fewer of the six barriers (section 2.1)'.
+Placeholder in text: none
+
+### Q31: section 2.1, paragraph 777BC209
+Location: section 2.1, paragraph id 777BC209
+Issue: R6, not changed: 'The Department of Economic Development rates restrictive bilateral agreements a high-impact constraint on airlift.' This may be the insight's High rating restated as the department's own judgement. If so, R6 drops it.
+Options: (a) 'The Department of Economic Development reports that restrictive bilateral agreements constrain airlift.' (b) leave, if 'high-impact' is the department's own wording.
+Placeholder in text: none
+
+### Q32: section 2.2, paragraph 27F5F738
+Location: section 2.2, paragraph id 27F5F738
+Issue: Special task 2, Chile: the dated result (Santiago traffic, 2010 to 2019) starts five years before the dated response (concession won in 2015). The paragraph does not say how much of the growth followed the responses. 'Direct routes now link Santiago with Europe and Australia' carries no date and sits with the responses.
+Options: (a) author gives a result dated after 2015 (b) leave as is.
+Placeholder in text: none
+
+### Q33: section 2.2, paragraph 2E76D391
+Location: section 2.2, paragraph id 2E76D391
+Issue: Special task 2, Melbourne and Victoria: neither result is dated. The 21% growth in hotel stock has no period, and Melbourne's monthly shares (7% and 12%) have no year, while the Western Cape's are 2025. The problem (the summer spike) has no size.
+Options: (a) author supplies the period and year (b) leave as is.
+Placeholder in text: none
+
+### Q34: section 2.2, paragraph 38CF7EBE
+Location: section 2.2, paragraph id 38CF7EBE
+Issue: Special task 2, Valencia: 'Spend rose faster still, by 21%' gives no period or base year. Paragraph left unchanged; its order already fits the pattern.
+Options: (a) author gives the period for the 21% (b) leave as is.
+Placeholder in text: none
+
+### Q35: section 2.2, paragraph 3C9FBE45
+Location: section 2.2, paragraph id 3C9FBE45
+Issue: Special task 2, Kenya: the paragraph states no problem. Table 2.1 gives 'Gateway concentration and dispersal beyond safari', but the paragraph only reports that the main airport carries 68% of arrivals, which reads as a result of the hub policy. Paragraph left unchanged; its order already fits the pattern.
+Options: (a) author adds a sentence stating the problem, with size and year (b) leave as is.
+Placeholder in text: none
+
+### Q36: section 2.2, paragraph 3C9FBE45
+Location: section 2.2, paragraph id 3C9FBE45
+Issue: Special task 2, Kenya: 'Despite meaningful reforms, fragmented investment and regulatory hurdles remain ongoing challenges' is too vague to place as problem, response or result. It names no reform, investor or regulation. Left where it is.
+Options: (a) author names the reforms and the hurdles (b) cut the sentence (c) leave as is.
+Placeholder in text: none
+
+### Q37: section 2.2, paragraph 46E275C2
+Location: section 2.2, paragraph id 46E275C2
+Issue: R8, not changed: 'Chile's coordination works best when anchored on a single strategic constraint' reads like a fragment of an earlier edit. It may mean that Chile shows coordination works best when anchored on one constraint.
+Options: (a) 'Chile shows that coordination works best when anchored on a single strategic constraint.' (b) leave as is.
+Placeholder in text: none
+
+### Q38: section 2.2, paragraph 649AF281
+Location: section 2.2, paragraph id 649AF281
+Issue: Special task 3: this lesson had no opening drawn from the cases, so a new first sentence was added: 'Air access is infrastructure: Chile funded the expansion of Santiago's airport through a private concession, and New Zealand ties its marketing budgets to long-haul corridors.' Both facts come from the case paragraphs above (footnotes 46 and 47), not from footnote 52. No figure was carried over.
+Status: closed. The added sentence was removed after the independent fact check; the paragraph is as the author wrote it.
+Placeholder in text: none
+
+### Q39: section 2.3, paragraph 4E6E6D1F
+Location: section 2.3, paragraph id 4E6E6D1F
+Issue: "Yet MICE is not one business." MICE is used outside objective 2's title, but this sentence is the only place in Chapters 1 and 2 where the four words behind the acronym are set out, so it may be the one definition the term sheet allows. Left unchanged.
+Options: (a) keep as the single definition (b) change to "Yet business events are not one business" and define MICE elsewhere
+Placeholder in text: none
+
+### Q40: section 2.3, paragraph 7485ACD0
+Location: section 2.3, paragraph id 7485ACD0
+Issue: "An analyst estimate points the same way for the regions" is unclear. The paragraph says rooms tell a more cautious story than the terminal, but the estimate shows May to September room nights growing faster than the year (22% and 31% against 17%), which agrees with the terminal, not with the hotel sample. The paragraph is also 120 words on two points with one footnote, so it was not split.
+Options: (a) say which way the estimate points (b) recast as a contrast with the Cape Town hotel sample; if split, confirm which sentences footnote 94 supports
+Placeholder in text: none
+
+### Q41: section 2.3, paragraph 74DEABA7
+Location: section 2.3, paragraph id 74DEABA7
+Issue: "Saudi Arabia comes next, with 137,000 passengers and Riyadh Air's planned hub, and Australia follows with 61,000 indirect travellers." The list being ranked is not stated (largest unserved markets?), no year is given, and Australia sits in a paragraph about the Middle East.
+Options: (a) say what the ranking is and its year (b) move the Australia clause to where unserved markets are discussed
+Placeholder in text: none
+
+### Q42: section 2.4, paragraph 1BDC0829
+Location: section 2.4, paragraph id 1BDC0829
+Issue: "the winter off-season": "off-season" is a term-sheet variant of "green season", but "winter" is an open query (Q16) and the phrase may mean June to August only. Left unchanged.
+Options: (a) "in the green season" if April to September is meant (b) "in winter" if June to August is meant
+Placeholder in text: none
+
+### Q43: section 2.4, paragraph 2277FB99
+Location: section 2.4, paragraph id 2277FB99
+Issue: "Two of the report's province-wide claims on accommodation are qualified below" appears to mean the Infrastructure Report, but "the report" can be read as this report. Left unchanged.
+Options: (a) "Two of the Infrastructure Report's province-wide claims" (b) leave
+Placeholder in text: none
+
+### Q44: section 2.4, paragraph 7E0B1CEE
+Location: section 2.4, paragraph id 7E0B1CEE
+Issue: "Transport, enabling structure and activity attractions are its lowest category scores": "enabling structure" may be a slip for "enabling infrastructure" (the layer name in Table 2.13) or may be a category name in the source. Left unchanged.
+Options: (a) "enabling infrastructure" (b) leave if the source category is "enabling structure"
+Placeholder in text: none
+
+### Q45: section 2.5, paragraph 2E1B8D4D
+Location: section 2.5, paragraph id 2E1B8D4D
+Issue: The paragraph before says "This report is Wesgro's plan". Here "Wesgro's plan names energy, ports, rail, digital infrastructure and visas" seems to cite a different Wesgro document (the source at note 206), not this action plan. The term sheet keeps "the plan" for this action plan.
+Options: (a) name the Wesgro document note 206 cites (b) leave as it is if this action plan is meant
+Placeholder in text: none
+
+### Q46: section 2.5, paragraph 6F583C24
+Location: section 2.5, paragraph id 6F583C24
+Issue: "Phase 2A" is used here without saying what it is. The report first explains it in section 3.2 (MyCiTi Phase 2A to Khayelitsha and Mitchells Plain). "Therefore" is kept because it ties Phase 2A to the grant in the sentence before.
+Options: (a) "MyCiTi Phase 2A, the Cape Flats expansion," if the two are the same thing (b) leave as it is
+Placeholder in text: none
+
+### Q47: section 3.1, paragraph 0A7C6A43
+Location: section 3.1, paragraph id 0A7C6A43
+Issue: R7: 'priority-market journey evidence' in a 'Who acts' action cell uses 'journey' for the path from planning to booking, not a trip. Neither 'trip' nor 'visit' fits, and the cell is not a term-sheet fix, so it is not changed.
+Options: (a) 'evidence of how each priority market plans and books' (b) 'priority-market booking evidence' (c) leave
+Placeholder in text: none
+
+### Q48: section 3.1, paragraph 0F2B24D4
+Location: section 3.1, paragraph id 0F2B24D4
+Issue: 'Its plan sets 161 business event bids over FY26 to FY30' here and 'Wesgro's plan targets three international tourism marketing campaigns over FY26 to FY30' in 669C0B88 mean Wesgro's Strategic Plan 2025/26 to 2029/30 (footnotes 261 and 277), not this action plan. The term sheet reserves 'the plan' for the action plan. Not changed.
+Options: (a) 'Its strategic plan' and 'Wesgro's strategic plan' (b) the full title at first use (c) leave
+Placeholder in text: none
+
+### Q49: section 3.1, paragraph 31B4A6B6
+Location: section 3.1, paragraph id 31B4A6B6
+Issue: R8: 'Initiative I1 ... carries this entry with objective 5'. 'This entry' looks like a leftover from an earlier layout; the other five 'Link forward' paragraphs have no such phrase. Not changed, because the lead editor is handling the 'Link forward' paragraphs.
+Options: (a) 'carries this objective with objective 5' (b) 'carries this objective and objective 5' (c) leave
+Placeholder in text: none
+
+### Q50: section 3.1, paragraph 3D9B902E
+Location: section 3.1, paragraph id 3D9B902E
+Issue: R1: the caption of Table 3.1 reads 'Conversion barriers and the objectives that answer them'. The term sheet lists 'conversion barriers' as a variant of 'the six barriers'. Captions are locked, so it is not changed.
+Options: (a) 'The six barriers and the objectives that answer them' (b) leave
+Placeholder in text: none
+
+### Q51: section 3.2, paragraph 003F173A
+Location: section 3.2, paragraph id 003F173A
+Issue: 'the visitor's journey' (003F173A, 63F7865A) and 'curated journeys' (26A6F736) use 'journey' for physical travel, which R7 allows; R7 also says 'visitor journey' becomes 'trip' or 'visit'. Left unchanged. 'Accessible journeys' (557FD955 and its table row) matches indicator T3-41 and stays.
+Options: (a) keep as travel uses (b) 'the visitor's trip' in 003F173A and 63F7865A
+Placeholder in text: none
+
+### Q52: section 3.2, paragraph 023E93AE
+Location: section 3.2, paragraph id 023E93AE
+Issue: 'Wesgro's plan' (023E93AE, 45AE1C8A, and table cell 5232E01D 'Wesgro's 10 new routes') and 'The plan rounds up' (45AE1C8A) mean Wesgro's Strategic Plan 2025/26 to 2029/30 (footnotes 303 and 312), not this action plan, which the term sheet calls 'the plan'. The paragraphs do not give the document's name, so it was not added.
+Options: (a) name it 'Wesgro's Strategic Plan' at each use and write 'That plan rounds up' in 45AE1C8A (b) leave
+Placeholder in text: none
+
+### Q53: section 3.2, paragraph 3905D2E9
+Location: section 3.2, paragraph id 3905D2E9
+Issue: Coach queue differs between text and table: 'the terminal queues about ten coaches at a time' here and in 2.4, against 'Queue space for up to 10 coaches' in Table 3.9 [1C1CD2BA].
+Options: (a) 'up to ten' in the text (b) 'about 10' in the table (c) leave, if the sources differ
+Placeholder in text: none
+
+### Q54: section 3.2, paragraph 3EECAE0E
+Location: section 3.2, paragraph id 3EECAE0E
+Issue: Table cell reads 'the corridor transfers on the N2 and R62 routes'. Unclear whether R62 here is the road, paired with the N2 (keep), or the Route 62 touring route (term sheet variant). Left unchanged.
+Options: (a) keep 'the N2 and R62 routes' (b) 'on the N2 and on Route 62'
+Placeholder in text: none
+
+### Q55: section 3.2, paragraph 45C32911
+Location: section 3.2, paragraph id 45C32911
+Issue: Runway dates repeat (home 2.4 [5E7D94C6]). Left unchanged: the two sentences on ACSA's December 2029 schedule and the planning date are about the date itself, and footnote 298 cites ACSA's August 2026 presentation for that date, so cutting them would leave the source without its claim. The evidence table row [1261C13A] gives both dates again.
+Options: (a) leave (b) end at 'is due about 2033 (section 2.4).', cut the next two sentences and trim the ACSA source from footnote 298
+Placeholder in text: none
+
+### Q56: section 3.2, paragraph 51678D74
+Location: section 3.2, paragraph id 51678D74
+Issue: Repeat chain. The New Zealand result has its home in 2.2; this copy is now the figures plus '(section 2.2)'. The duplicate list also names this paragraph as the home copy for 3.3 [6CDD3896], so a cross-reference there to section 3.2 would point to another cross-reference.
+Options: (a) point 3.3 to section 2.2 directly (b) keep 3.3 pointing to 3.2, where both figures remain
+Placeholder in text: none
+
+### Q57: section 3.2, paragraph 749732D4
+Location: section 3.2, paragraph id 749732D4
+Issue: Text and table differ on who models the hub-closure scenarios. The paragraph says 'In 2027 Cape Town Air Access models correlated hub-closure scenarios' (the partnership). The 'Who acts' table row [2C5A00AC] gives Wesgro, with Air Access and Research as stakeholders. Linked to term sheet Q15.
+Options: (a) 'Wesgro's Air Access unit models' (b) keep 'Cape Town Air Access' and confirm the partnership does the modelling
+Placeholder in text: none
+
+### Q58: section 3.2, paragraph 7F1D6AF0
+Location: section 3.2, paragraph id 7F1D6AF0
+Issue: Elliptical sentence: 'A visitor ... cannot judge its service from abroad; certification shown on the booking platform can.' Read literally, the certification judges the service. Left unchanged because any fix adds words the text does not give.
+Options: (a) leave (b) author recasts, for example so that certification vouches for the service
+Placeholder in text: none
+
+### Q59: section 3.3, paragraph 2EFF19AE
+Location: section 3.3, paragraph id 2EFF19AE
+Issue: The opening sentence has Wesgro "commit public capital only where demand has been shown", but the "Who acts" table gives public and community assets to municipalities (row 6) and Wesgro only builds the pipeline. It is unclear whose capital is meant.
+Options: (a) Leave. (b) Recast as a rule for the pipeline, for example that public capital follows shown demand, without making Wesgro the one that commits it.
+Placeholder in text: none
+
+### Q60: section 3.3, paragraph 59CB7BDC
+Location: section 3.3, paragraph id 59CB7BDC
+Issue: R5: these paragraphs run over 120 words and make two points, but each ends in one composite footnote that supports both halves, so a split would leave the first half without its marker. Not split. paraIds and words: 59CB7BDC (168, joint at "The condition is a seller"); 7733E5B5 (166, joint at "For the districts"); 6F390256 (142, one joint per case); 0E5C71C0 (134, joint at "From 2027 the City"); 26941C03 (128); 55755557 (127); 3E25A75A (122, joint at "Safety is the second gate").
+Options: (a) Leave as they are. (b) Split at the joints named and repeat or divide the footnote, which needs the lead editor's footnote script.
+Placeholder in text: none
+
+### Q61: section 3.3, paragraph 620B2322
+Location: section 3.3, paragraph id 620B2322
+Issue: "It starts from the department's 2023 figures and asks DEDAT for the method" follows "The test starts with ...", so "It" could be the test or the analysis. The sentence also calls one body "the department" and "DEDAT" (open query Q13).
+Options: (a) Leave. (b) "The analysis starts from DEDAT's 2023 figures and asks DEDAT for the method and definition behind them."
+Placeholder in text: none
+
+### Q62: section 3.4, paragraph 304394E4
+Location: section 3.4, paragraph id 304394E4
+Issue: R3: "carriers are expected to raise fares before they add seats" names no one who expects it. Footnote 415 points to the Aviation Market Assessment, but the paragraph does not say so. Left unchanged.
+Options: (a) Leave. (b) "The Aviation Market Assessment expects carriers to raise fares before they add seats", if the author confirms that is the source.
+Placeholder in text: none
+
+### Q63: section 3.4, paragraph 791B8829
+Location: section 3.4, paragraph id 791B8829
+Issue: The runway repeat was reduced to "about 2033 (section 2.4)", so the paragraph no longer mentions the ACSA December 2029 schedule. Footnote 414 still cites the ACSA presentation (Travel News, Aug 2026) for it.
+Options: (a) Trim that source from footnote 414. (b) Leave the footnote as it is. (c) Restore one clause on the earlier ACSA date.
+Placeholder in text: none
+
+### Q64: section 4.5, paragraph 3EA8155F
+Location: section 4.5, paragraph id 3EA8155F
+Issue: The 4.5 lead says eleven of the fourteen actions sit inside Wesgro's current mandate and budget. Table 4.3 shows nine funded by 'Wesgro operating' alone, three shared (with DEDAT, operators, the City) and two on municipal and LTO budgets, so eleven cannot be read off the table. Left as found.
+Options: (a) confirm eleven and say which (b) correct the count
+Placeholder in text: none
+
+### Q65: section 5.3, paragraph 0D9E4B30
+Location: section 5.3, paragraph id 0D9E4B30
+Issue: Caption "Figure 5.2. Arrivals paths and milestones to 2035" uses "paths" for the scenarios. Captions are outside the editor's remit, and the image itself may carry the same label.
+Options: (a) change to "Arrivals cases and milestones to 2035" and check the figure's legend (b) keep "paths" as the word for a trajectory
+Placeholder in text: none
+
+### Q66: section 5.3, paragraph 6DE24AD9
+Location: section 5.3, paragraph id 6DE24AD9
+Issue: "The report restates the 300,000 as a total-sector figure" has no antecedent in Chapter 5: the ambition of 300,000 tourism-linked jobs is introduced in earlier chapters (section 1.1 and the jobs discussion in section 2.5). The paragraph also states its condition twice ("If the ambition uses the department's definition" and "that reading is conditional on the definition"). Left unchanged because both are caveats on a figure's basis.
+Options: (a) write "the ambition of 300,000 tourism-linked jobs (section 1.1)" and cut the second condition (b) leave as is
+Placeholder in text: none
+
+### Q67: section A5, paragraph 0AF37899
+Location: section A5, paragraph id 0AF37899
+Issue: In A5 'the plan' means the Inclusion Plan (also in 6B66969C, 4253DE62, 6C301070, 2487A504, 02D250AA, table message 5503AABF and note 36F05810). The term sheet reserves 'the plan' for this action plan. Not changed: the A5 lead sets the context.
+Options: (a) change to 'the Inclusion Plan' throughout A5 (b) leave, since A5 is about that document
+Placeholder in text: none
+
+### Q68: section A5, paragraph 6B66969C
+Location: section A5, paragraph id 6B66969C
+Issue: 'Atlantis is held remote by Wesgro naming at 26 minutes from Darling' is unclear: 26 minutes is inside the 45-minute test, so the sentence seems to mean Atlantis is classed remote despite that, because of how Wesgro names its nodes. Left as found.
+Options: (a) author to restate why Atlantis is classed remote (b) leave
+Placeholder in text: none
+
+### Q69: section A6, paragraph 113C8F7F
+Location: section A6, paragraph id 113C8F7F
+Issue: This paragraph restates the one before it (48E8E662): sessions run, insights extracted, coded and aggregated; 223 paraphrases rated High, Medium or Low; attributed to organisations, not quoted. Both carry a footnote ([^485], [^486]), so neither was deleted.
+Options: (a) merge into one paragraph and keep both markers (b) keep 48E8E662 and cut 113C8F7F, moving [^486] (c) leave
+Placeholder in text: none
+
+### Q70: section A6, paragraph 3D53B71A
+Location: section A6, paragraph id 3D53B71A
+Issue: Organisation name: the p16 list is quoted as 'SATOvito' and Table A.23 and the body use 'SATVITO' (as the deck's tables print). The body's usual form of the name is probably SATOVITO; not checked against an outside source. The closing sentence also lists C-BRTA among names the appendix tables print differently, but C-BRTA is spelt the same in 797FF7D6, where '!Khwa ttu' appears as 'Ikhwa ttu'.
+Options: (a) author confirms the organisation's own spelling and one form is used in the body and Table A.23 (b) keep the as-printed forms and say so once
 Placeholder in text: none
