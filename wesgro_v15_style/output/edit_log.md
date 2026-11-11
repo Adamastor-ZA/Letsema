@@ -2,6 +2,8 @@
 
 Deliverable: `Unlocking_Tourism_Growth_Final_Report_DRAFT_v15.1_edited.docx`. Every change is a tracked change by "Claude (style edit)", dated 10 November 2026, so each can be accepted or rejected in Word. The input file is untouched.
 
+Two PDFs sit beside it. `..._edited_clean.pdf` shows the report with every change accepted (243 pages). `..._edited_redline.pdf` shows every change marked, with deletions struck through and insertions underlined (249 pages). Both are LibreOffice renders, so page breaks can differ slightly from Word.
+
 Size of the edit: 364 paragraphs and table cells changed, 99 inserted and 111 deleted, in about 1,790 tracked revisions. Most deletions and insertions are the rebuilt summary and the three tables moved out of it. The file validates against the original with every difference tracked.
 
 ## 1. Decisions approved at the checkpoint
