@@ -2,7 +2,7 @@
 
 Status after the edit. Queries that block the executive summary come first. Queries already held in `v15_open_items_register.md` carry its number and are not restated in full.
 
-Counts: 70 entries. Q1 to Q27 were raised before the edit (12 block the executive summary). Q28 to Q70 were raised during it. Two are answered in the text and need only the author's confirmation: Q8 and Q12. The five checkpoint decisions (number format, "case", summary tables, chapter order, no owners table) were approved before the edit and are recorded in `edit_log.md`.
+Counts: 71 entries. Q1 to Q27 were raised before the edit (12 block the executive summary). Q28 to Q71 were raised during it. Two are answered in the text and need only the author's confirmation: Q8 and Q12. The five checkpoint decisions (number format, "case", summary tables, chapter order, no owners table) were approved before the edit and are recorded in `edit_log.md`.
 
 Placeholders in the text: 16, each written `[[QUERY Qn: ...]]` and inserted as a tracked change at the first place the issue bites. They are Q1 (twice: summary and 4.6), Q2, Q4, Q5, Q6, Q7, Q10, Q11, Q13, Q14, Q15, Q16, Q17, Q25 and Q26. Rejecting the tracked insertion removes a placeholder.
 
@@ -20,6 +20,7 @@ Placeholder in text: [[QUERY Q1: cost of the plan and who pays?]]
 Location: 4.6, para 1; Executive summary, "Risks to delivery", para 2; Table 4.5; 4.3, opening paragraph
 Issue: Section 4.6 says the rand bands are set "before the plan is signed off". The summary and Table 4.5 say rand bands and a stop list are due "before Gate 1" (end of 2028). Section 4.3 says "rand bands are set in section 4.6", which sets none.
 Options: (a) before sign-off (b) before Gate 1 (c) rand bands before sign-off and the stop list before Gate 1, stated that way in all four places
+Status: in 4.3 the words "rand bands are set in section 4.6" now read "rand bands are still to be set (section 4.6)", so that 4.3 agrees with 4.6. That reverses the original wording and needs the author's confirmation. The timing conflict is unchanged.
 Placeholder in text: [[QUERY Q2: rand bands due before sign-off or before Gate 1?]]
 
 ### Q3 (blocks executive summary): theme names
@@ -455,4 +456,10 @@ Placeholder in text: none
 Location: section A6, paragraph id 3D53B71A
 Issue: Organisation name: the p16 list is quoted as 'SATOvito' and Table A.23 and the body use 'SATVITO' (as the deck's tables print). The body's usual form of the name is probably SATOVITO; not checked against an outside source. The closing sentence also lists C-BRTA among names the appendix tables print differently, but C-BRTA is spelt the same in 797FF7D6, where '!Khwa ttu' appears as 'Ikhwa ttu'.
 Options: (a) author confirms the organisation's own spelling and one form is used in the body and Table A.23 (b) keep the as-printed forms and say so once
+Placeholder in text: none
+
+### Q71: section A6, paragraph 48E8E662
+Location: section A6, paragraph id 48E8E662
+Issue: "Structured sessions were held with key stakeholders, extracted insights, mapped each to the study's framework of goals and objectives and aggregated them." The sentence starts in the passive and continues as an active list with no subject. The next sentence says the team wrote the insight statements, but the text does not say who held the sessions. Left as found.
+Options: (a) the author names who held the sessions (b) "The team held structured sessions..." if the team did
 Placeholder in text: none

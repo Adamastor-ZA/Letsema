@@ -2,13 +2,13 @@
 
 | Metric | Value | Target | Result |
 |---|---|---|---|
-| prose_words | 53016 |  |  |
+| prose_words | 53027 |  |  |
 | sentences | 3302 |  |  |
-| mean_sentence_words | 16.7 | <= 22 | PASS |
+| mean_sentence_words | 16.8 | <= 22 | PASS |
 | median_sentence_words | 16.0 |  |  |
 | p90_sentence_words | 27 | <= 32 | PASS |
 | pct_sentences_over_35 | 0.3 | <= 5 | PASS |
-| pct_sentences_12_or_fewer | 31.9 | >= 15 | PASS |
+| pct_sentences_12_or_fewer | 31.8 | >= 15 | PASS |
 | mean_paragraph_words | 64 |  |  |
 | hedges_per_10k | 11.3 | <= 30 | PASS |
 | therefore_per_10k | 5.5 | <= 6 | PASS |
@@ -89,8 +89,8 @@
 - [ANALYSIS AND INSIGHTS] Dated events, seasonal moments and limited offers give a traveller a reason to book this year (section 3.1).
 
 ### summary_reuse_by_section
-- FINDINGS AND RECOMMENDATIONS: 3
 - CONTEXT: 3
+- FINDINGS AND RECOMMENDATIONS: 3
 - ANALYSIS AND INSIGHTS: 1
 
 ### term_sheet_variants

@@ -2,7 +2,7 @@
 
 Deliverable: `Unlocking_Tourism_Growth_Final_Report_DRAFT_v15.1_edited.docx`. Every change is a tracked change by "Claude (style edit)", dated 10 November 2026, so each can be accepted or rejected in Word. The input file is untouched.
 
-Size of the edit: 374 paragraphs and table cells changed, 99 inserted and 111 deleted, in about 1,790 tracked revisions. Most deletions and insertions are the rebuilt summary and the three tables moved out of it. The file validates against the original with every difference tracked.
+Size of the edit: 364 paragraphs and table cells changed, 99 inserted and 111 deleted, in about 1,790 tracked revisions. Most deletions and insertions are the rebuilt summary and the three tables moved out of it. The file validates against the original with every difference tracked.
 
 ## 1. Decisions approved at the checkpoint
 
@@ -41,7 +41,7 @@ Assumed and not yet confirmed: the primary reader (Wesgro's chief executive, boa
 | Rule | What changed |
 |---|---|
 | Term sheet | 21 variant forms with 78 uses fall to 5 uses, each justified in section 6. Table 5.1 now carries the canonical initiative names. Indicator T1-03 is "Foreign direct spend" everywhere |
-| Money and counts in prose | "R25.9bn" becomes "R25.9 billion" (75 uses) and "1.57m" becomes "1.57 million" (22). Tables, figures and source lines keep the short forms |
+| Money and counts in prose | "R25.9bn" becomes "R25.9 billion" (75 uses) and "1.57m" becomes "1.57 million" (22). Tables, figures and source lines keep the short forms, and so does "1.8M" in Appendix A2, where it is the model's own label |
 | "Therefore" | 62 uses fall to 29. Each one kept follows a sentence that gives the reason |
 | Named subject | About 19 passive or subjectless prescriptions now name the actor, taken only from the objective's own "Who acts" table or the sentence before. Where the text names none, nothing was supplied (Q29) |
 | Sentences and paragraphs | About ten sentences split at a real joint; eight long paragraphs split in two. About seventeen more over 120 words stay whole, most because one footnote supports both halves |
@@ -63,7 +63,7 @@ Two things changed that tracked changes cannot show. The callout drawn inside th
 **Summary test.** A reader given only the revised summary could state the case, and could partly state who does what by when and the headline impact. It could not state the cost, because the report has none (Q1). Its other points were acted on: the gates are now named, the eighteen initiatives reconcile with the thirteen and four, and the seat requirement states its load factor. Two were not: the goal names are fixed titles, and the note on open items still follows the conclusion, as in the original.
 
 **Fact check.** Three independent readers checked the summary and Chapter 1, Chapter 2 and Chapter 3 against the original and the register. They found no changed number. They found twelve places where the edit ran ahead of the source, all now corrected: "Dates are proposals" restored; "peak seats are full" softened to the source's wording; "Arrivals are the headline impact" replaced by the report's own sentence; "with DEDAT" restored on the Steerco; three omissions from the summary restored (the India and China fall, the six medium and high risks, the link between the two arrivals counts); two paragraph splits undone because they left sourced claims without their footnote; one rating restored where the rating was the point; one new sentence in 2.2 removed; the Blue Drop caveat restored; the closing paragraph of 3.4 rewritten to keep the direct-route condition.
-The fourth reader, on Chapters 4 and 5 and the appendices, stopped on a usage limit. The lead editor did that check by hand against the full change list. It found three more: a unit changed inside a quoted slide title (reverted), a clumsy substitution in a charter cell (reverted) and two A7 rows that no longer matched Chapter 3 (aligned).
+The fourth reader, on Chapters 4 and 5 and the appendices, first stopped on a usage limit, so the lead editor checked that part by hand and found three points: a unit changed inside a quoted slide title (reverted), a clumsy substitution in a charter cell (reverted) and two A7 rows that no longer matched Chapter 3 (aligned). The independent check was then run in full. It confirmed that no number, date, source, indicator or footnote changed, and that every sentence and figure of the original 4.6 survives. It raised five wording points. Four are corrected: a pointer in 4.5 that led to the wrong section (original clause restored); "2023 figures" in 5.3, which could be read as the year of publication (now "figures for 2023", with "in the province" restored); an actor inferred in A6 (original sentence restored, now Q71); and the growth model's literal label "1.8M" in Appendix A2, which had been written out (restored in eight places). The fifth is for the author: section 4.3 said the rand bands "are set in section 4.6" and now says they are "still to be set", which agrees with 4.6 but reverses the original wording (Q2).
 
 ## 6. Metrics before and after
 

@@ -1,7 +1,16 @@
 {
  "rewrites": {},
  "drop": [
-  "121AF459"
+  "121AF459",
+  "5148BC72",
+  "5E7B78EC",
+  "695D7DCD",
+  "42B00128",
+  "752933A5",
+  "48AF3228",
+  "0424140F",
+  "772229A9",
+  "5595C4AF"
  ],
  "unsplit": [
   "7123CABC",
@@ -47,6 +56,16 @@
    "41A0027F",
    "the Winelands",
    "the Cape Winelands"
+  ],
+  [
+   "134C36E2",
+   "DEDAT's 2023 figures for tourism are R28\\.6 billion in gross value added and over 257,000 jobs supported \\(section 2\\.5\\)\\.",
+   "DEDAT's figures for 2023 are R28.6 billion in gross value added and over 257,000 jobs supported in the province (section 2.5)."
+  ],
+  [
+   "48E8E662",
+   "^The team held structured sessions with key stakeholders,",
+   "Structured sessions were held with key stakeholders,"
   ]
  ]
 }
