@@ -1,0 +1,31 @@
+{
+ "rewrites": {},
+ "drop": [],
+ "subs": [
+  [
+   "0AAFE38B",
+   "carries both\\. Only conferences are measured",
+   "carries both. And only conferences are measured"
+  ],
+  [
+   "6F390256",
+   "add frequency and capacity\\. India, China and regional Africa grow through hub connections\\.",
+   "add frequency and capacity. It also assumes India, China and regional Africa grow through hub connections."
+  ],
+  [
+   "21DE4BDE",
+   "product development; objective 15\\.",
+   "product development and objective 15."
+  ],
+  [
+   "193B65E7",
+   "One or two inside or ten or more within 5 km",
+   "One or two inside (or ten or more within 5 km)"
+  ],
+  [
+   "689B9970",
+   "arrivals where, and in which year\\?",
+   "arrivals where and in which year?"
+  ]
+ ]
+}
